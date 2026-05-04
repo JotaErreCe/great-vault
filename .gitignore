@@ -1,0 +1,20 @@
+# Datos sensibles — NUNCA en git
+_sensitive.md
+
+# Obsidian internals
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Syncthing conflict files
+*.sync-conflict-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos temporales
+*.tmp
+*.temp

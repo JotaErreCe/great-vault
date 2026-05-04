@@ -1,0 +1,5 @@
+.git
+.DS_Store
+*.sync-conflict-*
+.obsidian/workspace.json
+.obsidian/cache
