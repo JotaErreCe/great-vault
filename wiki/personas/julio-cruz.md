@@ -20,7 +20,7 @@ Dueño de [[brera-arredamenti]] (nombre comercial: [[disegno-casa]]). Cliente de
 
 ## 📝 Resumen
 
-- **Rol:** Dueño de Brera Arredamenti, S.A. (Disegno Casa)
+- **Rol:** Accionista / dueño de Brera Arredamenti, S.A. (Disegno Casa)
 - **Hermano / socio:** [[pablo-cruz]]
 
 ---

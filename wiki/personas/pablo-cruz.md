@@ -10,15 +10,15 @@ tags:
   - cliente
 ---
 
-# Pablo Cruz
+# Pablo Cruz Ramazzini
 
-Dueño de [[brera-arredamenti]] (nombre comercial: [[disegno-casa]]). Cliente de [[amc-legal]]. Como de 2026-04.
+Accionista / dueño de [[brera-arredamenti]] (nombre comercial: [[disegno-casa]]) junto con [[julio-cruz]]. Cliente de [[amc-legal]]. Como de 2026-05.
 
 ---
 
 ## 📝 Resumen
 
-- **Rol:** Dueño de Brera Arredamenti, S.A. (Disegno Casa)
+- **Rol:** Accionista / dueño de Brera Arredamenti, S.A. (Disegno Casa)
 - **Hermano / socio:** [[julio-cruz]]
 
 ---

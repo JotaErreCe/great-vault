@@ -14,14 +14,14 @@ tags:
 
 # Brera Arredamenti, Sociedad Anónima
 
-Sociedad anónima guatemalteca dedicada al amueblamiento (muebles, cocinas, clósets). Cliente activo de [[amc-legal]]. Como de 2026-04.
+Sociedad anónima guatemalteca dedicada al amueblamiento (muebles, cocinas, clósets). Es la **persona jurídica** detrás de [[disegno-casa]], que es la empresa/nombre comercial operativo. Cliente activo de [[amc-legal]]. Como de 2026-05.
 
 ---
 
 ## 📝 Resumen
 
 - **Razón social:** Brera Arredamenti, Sociedad Anónima
-- **Nombre comercial:** Disegno Casa
+- **Nombre comercial / empresa operativa:** Disegno Casa
 - **Giro:** Diseño y producción de muebles, cocinas, clósets
 - **Relación con JR:** Cliente activo de [[amc-legal]] (contratos de obra, facturación, reportes de cobro, laboral)
 
@@ -31,8 +31,8 @@ Sociedad anónima guatemalteca dedicada al amueblamiento (muebles, cocinas, cló
 
 | Persona | Rol |
 |---------|-----|
-| [[julio-cruz]] | Dueño |
-| [[pablo-cruz]] | Dueño |
+| [[julio-cruz]] | Accionista / dueño |
+| [[pablo-cruz]] | Accionista / dueño |
 | [[aracely-hernandez]] | Equipo |
 
 ---

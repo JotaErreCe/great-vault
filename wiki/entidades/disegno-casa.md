@@ -14,15 +14,15 @@ tags:
 
 # Disegno Casa
 
-Nombre comercial bajo el cual opera [[brera-arredamenti]] (Sociedad Anónima). Como de 2026-04.
+Empresa / nombre comercial bajo el cual opera [[brera-arredamenti]] (Sociedad Anónima). Como de 2026-05.
 
-**Confirmado por JR (2026-05-02):** Disegno Casa es **únicamente** el nombre comercial de Brera Arredamenti, S.A. — no es entidad legal separada.
+**Confirmado por JR (2026-05-05):** Brera Arredamenti, S.A. es la **persona jurídica**; Disegno Casa es la **empresa/nombre comercial operativo**. No son clientes separados para efectos operativos.
 
 ---
 
 ## 📝 Resumen
 
-- **Tipo:** Nombre comercial / marca
+- **Tipo:** Empresa / nombre comercial operativo
 - **Titular:** [[brera-arredamenti]]
 - **Mismo equipo que Brera:** [[julio-cruz]], [[pablo-cruz]], [[aracely-hernandez]]
 

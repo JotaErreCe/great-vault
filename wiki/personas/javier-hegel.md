@@ -11,10 +11,11 @@ tags:
 
 # Javier Enrique Hegel Nevarez
 
-Cliente individual de [[amc-legal]]. Servicio: contrato de arrendamiento con garantía fiduciaria (diciembre 2024). Como de 2026-04.
+Cliente que llegó primero por [[propi]] y posteriormente pidió a JR una renovación de arrendamiento de forma independiente. Servicio documentado: contrato/renovación de arrendamiento con garantía fiduciaria. Como de 2026-05.
 
 ---
 
 ## 🔗 Relacionado
 
-- [[amc-legal]] — abogados
+- [[propi]] — relación inicial
+- [[amc-legal]] — apoyo legal independiente

@@ -118,6 +118,16 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 **Don't overdo it:** One reaction per message max. Pick the one that fits best.
 
+
+## Skill Governance
+
+Use only skills explicitly authorized for this agent. The Vault-wide rule is:
+
+1. A skill must be documented and audited in `wiki/agentes/skills/`.
+2. The skill must be listed in this agent's `skills-permitidas.md`.
+
+If either condition is missing, ask Master JR before using, installing, or configuring the skill. Do not assume that a system-installed skill is approved.
+
 ## Tools
 
 Skills provide your tools. When you need one, check its `SKILL.md`. Keep local notes (camera names, SSH details, voice preferences) in `TOOLS.md`.

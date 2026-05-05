@@ -19,7 +19,9 @@ tags: [navigation, index]
 
 ## Agentes
 
-- [[geoffrey/SOUL|Geoffrey]] — mayordomo digital principal de JR. Instrucciones: [[geoffrey/AGENT|AGENT]] · memoria: [[geoffrey/memoria|memoria]]
+- [[arquitectura|Arquitectura de agentes]] — modelo multi-agente, rol orquestador de Geoffrey y regla común de skills.
+- [[skills/index|Catálogo común de skills]] — skills auditadas y autorizables para agentes.
+- [[geoffrey/SOUL|Geoffrey]] — mayordomo digital principal de JR. Instrucciones: [[geoffrey/AGENT|AGENT]] · memoria: [[geoffrey/memoria|memoria]] · rutinas: [[geoffrey/rutinas|rutinas]] · skills: [[geoffrey/skills-permitidas|permitidas]]
 
 ## Daily Notes
 
