@@ -95,6 +95,31 @@ Great Vault/
 
 ---
 
+## Templates
+
+Templates live in `_templates/`. They are molds, not active memory.
+
+### OpenClaw agent templates
+
+The following files in `_templates/openclaw-agent/` are used to create new AI agent identity, memory, tool, and operating-instruction files:
+
+- [[AGENTS.template]] — base structure for defining AI agent operating rules and role behavior.
+- [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] — base structure for defining an AI assistant’s identity, purpose, and metadata.
+- [[_templates/openclaw-agent/SOUL|SOUL.template]] — base structure for defining tone, values, personality, and behavioral preferences.
+- [[_templates/openclaw-agent/USER|USER.template]] — base structure for summarizing the user’s long-term preferences, projects, context, and communication style.
+- [[_templates/openclaw-agent/TOOLS|TOOLS.template]] — base structure for documenting available tools, workflows, commands, and integrations.
+- [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]] — base structure for recurring status, active priorities, recent changes, and continuity notes.
+
+**These files are not active memory files by themselves.** Use them only as templates when creating or updating actual working agent files.
+
+Actual agent instances live in `wiki/agentes/[nombre]/`, for example:
+
+- [[geoffrey/SOUL|SOUL — Geoffrey]]
+- [[geoffrey/AGENT|AGENT — Geoffrey]]
+- [[geoffrey/memoria|Memoria — Geoffrey]]
+
+---
+
 ## Flujo de captura y procesamiento
 
 ```
