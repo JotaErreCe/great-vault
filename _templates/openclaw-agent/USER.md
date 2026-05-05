@@ -18,4 +18,5 @@ The more you know, the better you can help. But remember — you're learning abo
 
 ## Related
 
-- [Agent workspace](/concepts/agent-workspace)
+- [[AGENTS.template]] · [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] · [[_templates/openclaw-agent/SOUL|SOUL.template]] · [[_templates/openclaw-agent/TOOLS|TOOLS.template]] · [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]]
+- Instancia real: [[geoffrey/SOUL|SOUL — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]] · [[IDENTITY|IDENTITY — JR]]

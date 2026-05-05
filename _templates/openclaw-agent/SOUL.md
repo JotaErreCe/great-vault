@@ -39,4 +39,5 @@ _This file is yours to evolve. As you learn who you are, update it._
 
 ## Related
 
-- [SOUL.md personality guide](/concepts/soul)
+- [[AGENTS.template]] · [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] · [[_templates/openclaw-agent/USER|USER.template]] · [[_templates/openclaw-agent/TOOLS|TOOLS.template]] · [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]]
+- Instancia real: [[geoffrey/SOUL|SOUL — Geoffrey]] · [[geoffrey/AGENT|AGENT — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]]

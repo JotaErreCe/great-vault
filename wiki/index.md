@@ -17,6 +17,10 @@ tags: [navigation, index]
 - [[log/index|log]] — historial append-only
 - `_sensitive.md` — datos legales (NIT, DPI, dirección) · NO compartir
 
+## Agentes
+
+- [[geoffrey/SOUL|Geoffrey]] — mayordomo digital principal de JR. Instrucciones: [[geoffrey/AGENT|AGENT]] · memoria: [[geoffrey/memoria|memoria]]
+
 ## Daily Notes
 
 - [[2026-04-27]] · [[2026-04-28]] · [[2026-04-29]] · [[2026-04-30]]
@@ -68,6 +72,8 @@ tags: [navigation, index]
 ## Templates
 
 [[_templates/README|Guía completa]]. Esqueletos: [[daily-note]] · [[proyecto]] · [[persona]] · [[research]] · [[canva-project]]
+
+- **OpenClaw agent:** [[AGENTS.template]] · [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] · [[_templates/openclaw-agent/SOUL|SOUL.template]] · [[_templates/openclaw-agent/USER|USER.template]] · [[_templates/openclaw-agent/TOOLS|TOOLS.template]] · [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]]
 
 ---
 
