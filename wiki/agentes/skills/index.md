@@ -95,6 +95,7 @@ Aprobó:
 | Skill | Estado | GitHub | ClawHub | Notas |
 |---|---|---|---|---|
 | [[imsg]] | aprobada | https://github.com/openclaw/imsg | no identificado | Aprobada para Geoffrey con lectura local de SMS/iMessage; enviar mensajes prohibido sin aprobación explícita. |
+| [[gmail]] | auditada | https://github.com/openclaw/gmail | no identificado | Auditada para lectura específica de correos (ej.: buscar correos de Thelma sobre contrato Altezza); envío, modificación o acceso a contactos requieren aprobación explícita de JR. |
 
 ## Candidatas prioritarias por auditar
 
