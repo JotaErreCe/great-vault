@@ -10,9 +10,9 @@ tags:
   - familia
 ---
 
-# Mónica
+# Mónica Samayoa Mendoza de Castañeda
 
-Esposa de [[jr]]. Terapeuta infantil y directora de [[understanding-kids]], su clínica terapéutica. Madre de [[nicolas]] (nacido 6 mar 2026). Como de 2026-04.
+Esposa de [[jr]]. Terapeuta infantil y directora de [[understanding-kids]], su clínica terapéutica. Madre de [[nicolas]] (nacido 6 mar 2026). Como de 2026-04. Apodos: Magoo (Así le digo siempre, no utilizo su nombre), Marsh, Cachetes, Bodoque, Bodoquito y Bodoquencio.
 
 ---
 

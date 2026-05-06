@@ -14,7 +14,9 @@ Geoffrey no puede usar skills no listadas aquí, aunque estén instaladas en el 
 
 ## Permitidas actualmente
 
-Ninguna skill externa aprobada todavía.
+| Skill | Alcance permitido | Condiciones |
+|---|---|---|
+| [[imsg]] | Leer SMS/iMessage locales para tareas explícitas de JR. | No enviar mensajes, reaccionar, marcar como leído ni compartir mensajes crudos con servicios externos sin aprobación explícita. |
 
 ## Candidatas pendientes de auditoría
 
@@ -22,7 +24,6 @@ Ninguna skill externa aprobada todavía.
 - Apple Reminders.
 - Calendar.
 - WhatsApp.
-- iMessage / SMS.
 
 ## Relacionado
 

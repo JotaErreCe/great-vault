@@ -73,7 +73,7 @@ tags: [navigation, index]
 
 ## Templates
 
-[[_templates/README|Guía completa]]. Esqueletos: [[daily-note]] · [[proyecto]] · [[persona]] · [[research]] · [[canva-project]]
+[[_templates/README|Guía completa]]. Esqueletos: [[nota-diaria]] · [[proyecto]] · [[persona]] · [[research]] · [[canva-project]]
 
 - **OpenClaw agent:** [[AGENTS.template]] · [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] · [[_templates/openclaw-agent/SOUL|SOUL.template]] · [[_templates/openclaw-agent/USER|USER.template]] · [[_templates/openclaw-agent/TOOLS|TOOLS.template]] · [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]]
 

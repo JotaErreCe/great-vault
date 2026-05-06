@@ -12,7 +12,7 @@ Colección de plantillas reutilizables para crear notas nuevas en el vault. Cada
 
 ## 📋 Índice de plantillas
 
-- [[daily-note]] — esqueleto de nota diaria
+- [[nota-diaria]] — esqueleto de nota diaria
 - [[proyecto]] — esqueleto de proyecto
 - [[persona]] — esqueleto de contacto
 - [[research]] — esqueleto de investigación
@@ -22,7 +22,7 @@ Colección de plantillas reutilizables para crear notas nuevas en el vault. Cada
 
 ## 📋 Plantillas disponibles
 
-### 1. Daily Note — [[daily-note]]
+### 1. Daily Note — [[nota-diaria]]
 
 **Uso:** Una nota por día. Captura de objetivos, ideas, completados.
 

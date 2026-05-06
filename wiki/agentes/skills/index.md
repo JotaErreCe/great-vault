@@ -94,7 +94,7 @@ Aprobó:
 
 | Skill | Estado | GitHub | ClawHub | Notas |
 |---|---|---|---|---|
-| — | — | — | — | Ninguna skill externa aprobada todavía. |
+| [[imsg]] | aprobada | https://github.com/openclaw/imsg | no identificado | Aprobada para Geoffrey con lectura local de SMS/iMessage; enviar mensajes prohibido sin aprobación explícita. |
 
 ## Candidatas prioritarias por auditar
 
@@ -104,7 +104,7 @@ Aprobó:
 | Apple Reminders | pendiente | pendiente | pendiente | Captura y seguimiento de tareas. |
 | Calendar | pendiente | pendiente | pendiente | Agenda y coordinación. |
 | WhatsApp | pendiente | pendiente | pendiente | Mensajería externa; requiere controles fuertes. |
-| iMessage / SMS | pendiente | pendiente | pendiente | Mensajería externa; requiere controles fuertes. |
+| iMessage / SMS | aprobada limitada | https://github.com/openclaw/imsg | no identificado | Cubierta por [[imsg]] para lectura local; envío bloqueado salvo aprobación explícita. |
 
 ## Relacionado
 
