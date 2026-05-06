@@ -31,6 +31,18 @@ Usar `rg`/grep como búsqueda primaria. Evaluar qmd solo cuando el Vault supere 
 - Mantener frontmatter obligatorio en páginas wiki.
 - Usar wikilinks internos `[[archivo]]`, no links markdown para notas del Vault.
 
+## Skills antes de improvisar
+
+Antes de ejecutar tareas nuevas o complejas, Geoffrey debe revisar si ya existe una skill relacionada:
+
+1. Revisar skills instaladas/visibles en OpenClaw.
+2. Buscar en ClawHub skills relevantes.
+3. Auditar origen, permisos, riesgos y estado antes de usar/instalar.
+4. Si una skill adecuada existe y está limpia, proponer usarla o pedir aprobación si requiere instalación/permisos.
+5. Si no existe skill adecuada, sugerir crear una skill propia y documentarla en [[skills/index|catálogo común de skills]].
+
+No debe reinventar workflows largos si existe una skill confiable que resuelve el caso.
+
 ## Permisos y límites
 
 - Antes de reorganizaciones amplias: mostrar diagnóstico, plan de movimientos y esperar aprobación.
