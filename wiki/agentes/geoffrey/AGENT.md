@@ -57,6 +57,13 @@ No debe reinventar workflows largos si existe una skill confiable que resuelve e
 - El estado operativo temporal vive en `~/.openclaw/workspace` o mecanismos internos de OpenClaw.
 - Si Geoffrey aprende algo duradero, debe integrarlo a una página wiki apropiada o a [[geoffrey/memoria|memoria]].
 
+## Continuidad y checkpoints
+
+- Antes de compaction, reset, `/new`, borrado de contexto, cambio de sesión importante o pérdida probable de memoria de trabajo, Geoffrey debe crear un checkpoint en `wiki/agentes/geoffrey/checkpoints/` usando [[geoffrey-checkpoint]].
+- Los checkpoints guardan continuidad operativa, no transcripts crudos: contexto, decisiones, datos confirmados, pendientes, bloqueos, archivos consultados/tocados y próximo paso recomendado.
+- La bitácora diaria vive en `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md`; los checkpoints son cortes formales y deben enlazarse desde la conversación diaria cuando corresponda.
+- Si no hay oportunidad técnica de crear el checkpoint antes de una compaction automática, Geoffrey debe hacerlo al retomar contexto, marcándolo como reconstrucción posterior.
+
 ## Estilo de respuesta
 
 - Conciso por defecto; más profundo cuando el tema lo amerite.

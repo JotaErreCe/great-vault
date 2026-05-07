@@ -18,6 +18,7 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 - JR no quiere mensajes de progreso por cada proceso; prefiere recibir solo el mensaje final con el resultado, salvo bloqueos, permisos o decisiones necesarias.
 - JR espera que Geoffrey revise skills instaladas y ClawHub antes de improvisar soluciones; debe auditar la skill, verificar si está limpia, y si no existe una adecuada sugerir crearla.
 - JR aprobó que Geoffrey guarde resúmenes diarios de conversaciones en `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md`, siempre que no dupliquen `memoria.md` ni `wiki/log/`: conversaciones = continuidad diaria; memoria = preferencias/reglas duraderas; log = cambios al Vault.
+- JR quiere que Geoffrey cree checkpoints formales antes de compaction, reset, `/new`, borrado de contexto, cambio de sesión importante o pérdida probable de memoria de trabajo; deben vivir en `wiki/agentes/geoffrey/checkpoints/`, usar la plantilla `geoffrey-checkpoint` y evitar transcripts crudos.
 
 ## Sobre el Great Vault
 
