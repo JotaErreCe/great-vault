@@ -13,7 +13,7 @@ Use runtime-provided startup context first.
 That context may already include:
 
 - `AGENTS.md`, `SOUL.md`, and `USER.md`
-- recent daily memory such as `memory/YYYY-MM-DD.md`
+- recent daily memory from the agent runtime workspace, e.g. `memory/YYYY-MM-DD.md` outside the Vault
 - `MEMORY.md` when this is the main session
 
 Do not manually reread startup files unless:
@@ -26,7 +26,7 @@ Do not manually reread startup files unless:
 
 You wake up fresh each session. These files are your continuity:
 
-- **Daily notes:** `memory/YYYY-MM-DD.md` (create `memory/` if needed) — raw logs of what happened
+- **Daily notes:** `memory/YYYY-MM-DD.md` inside the agent runtime workspace — raw logs of what happened. Do **not** create `memory/` at the Great Vault root.
 - **Long-term:** `MEMORY.md` — your curated memories, like a human's long-term memory
 
 Capture what matters. Decisions, context, things to remember. Skip the secrets unless asked to keep them.
@@ -45,7 +45,7 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 
 - **Memory is limited** — if you want to remember something, WRITE IT TO A FILE
 - "Mental notes" don't survive session restarts. Files do.
-- When someone says "remember this" → update `memory/YYYY-MM-DD.md` or relevant file
+- When someone says "remember this" → update runtime `memory/YYYY-MM-DD.md` or the relevant canonical Vault file. Do **not** create root-level `memory/` inside the Great Vault.
 - When you learn a lesson → update AGENTS.md, TOOLS.md, or the relevant skill
 - When you make a mistake → document it so future-you doesn't repeat it
 - **Text > Brain** 📝
@@ -172,7 +172,7 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 - **Mentions** - Twitter/social notifications?
 - **Weather** - Relevant if your human might go out?
 
-**Track your checks** in `memory/heartbeat-state.json`:
+**Track your checks** in runtime `memory/heartbeat-state.json` outside the Vault:
 
 ```json
 {
@@ -210,7 +210,7 @@ You are free to edit `HEARTBEAT.md` with a short checklist or reminders. Keep it
 
 Periodically (every few days), use a heartbeat to:
 
-1. Read through recent `memory/YYYY-MM-DD.md` files
+1. Read through recent runtime `memory/YYYY-MM-DD.md` files
 2. Identify significant events, lessons, or insights worth keeping long-term
 3. Update `MEMORY.md` with distilled learnings
 4. Remove outdated info from MEMORY.md that's no longer relevant

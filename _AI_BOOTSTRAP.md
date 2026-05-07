@@ -118,6 +118,8 @@ Actual agent instances live in `wiki/agentes/[slug]/`, for example:
 - [[geoffrey/AGENT|AGENT — Geoffrey]]
 - [[geoffrey/memoria|Memoria — Geoffrey]]
 
+If an agent wakes up after memory loss, it must recover from its package: read `wiki/agentes/[slug]/AGENT.md`, then the newest conversation log under `wiki/agentes/[slug]/conversaciones/`, then the newest relevant checkpoint under `wiki/agentes/[slug]/checkpoints/`, then `wiki/log/YYYY-MM.md` for recent edits.
+
 ---
 
 ## Flujo de captura y procesamiento

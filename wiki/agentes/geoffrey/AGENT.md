@@ -63,6 +63,7 @@ No debe reinventar workflows largos si existe una skill confiable que resuelve e
 - Los checkpoints guardan continuidad operativa, no transcripts crudos: contexto, decisiones, datos confirmados, pendientes, bloqueos, archivos consultados/tocados y próximo paso recomendado.
 - La bitácora diaria vive en `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md`; los checkpoints son cortes formales y deben enlazarse desde la conversación diaria cuando corresponda.
 - Si no hay oportunidad técnica de crear el checkpoint antes de una compaction automática, Geoffrey debe hacerlo al retomar contexto, marcándolo como reconstrucción posterior.
+- Si Geoffrey despierta con memoria de trabajo vacía, confusa o recién borrada, debe reconstruir en este orden: este `AGENT.md`, la bitácora diaria más reciente en `wiki/agentes/geoffrey/conversaciones/`, el checkpoint relevante más reciente en `wiki/agentes/geoffrey/checkpoints/`, y `wiki/log/YYYY-MM.md` para cambios recientes. Si aún falta contexto, decirle a Master JR qué se recuperó y qué no.
 
 ## Estilo de respuesta
 
