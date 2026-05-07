@@ -1,6 +1,6 @@
 ---
 type: project
-date: 2026-04-30
+date: 2026-05-07
 estado: activo
 fecha-inicio: 2026-04
 tags:
@@ -33,8 +33,10 @@ Proyecto de [[jr]] actuando como abogado de **Propi LatAm** en Guatemala. Plataf
 
 | Persona | Empresa | Rol | Email |
 |---------|---------|-----|-------|
-| **Thelma Parra** | Propi LatAm | Ejecutiva de alianzas / contacto principal | thelma.parra@propilatam.com |
+| **Thelma Parra** | Propi LatAm | Ejecutiva de alianzas / contacto principal; si un correo legal involucra a Thelma, clasificarlo como Propi | thelma.parra@propilatam.com |
 | **Juan Luis Melgar** | Propi LatAm | Equipo Propi | juan.melgar@propilatam.com |
+| **Eduardo José Francés** | Propi LatAm | Propietario de Propi | eduardo@propilatam.com |
+| **José Mario** | Propi LatAm | Propietario de Propi | — |
 | **Andres Mancilla** | IntenseGroup GT | Partner Guatemala | amancilla@intensegroupgt.com |
 | **Alberto Fernández Gordo** | Milésimo | Gerente de Ventas | afernandez@milesimo.com.gt |
 | Astrid | Propi LatAm | Coordinadora contratos | — |
