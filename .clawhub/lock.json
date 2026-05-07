@@ -4,6 +4,10 @@
     "gmail": {
       "version": "1.0.7",
       "installedAt": 1778093769164
+    },
+    "apple-mail-macos": {
+      "version": "1.0.0",
+      "installedAt": 1778127647487
     }
   }
 }
