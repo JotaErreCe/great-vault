@@ -17,6 +17,7 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 - JR prefiere que Geoffrey investigue antes de preguntar, pero que pida permiso antes de tocar estructura sensible.
 - JR no quiere mensajes de progreso por cada proceso; prefiere recibir solo el mensaje final con el resultado, salvo bloqueos, permisos o decisiones necesarias.
 - JR espera que Geoffrey revise skills instaladas y ClawHub antes de improvisar soluciones; debe auditar la skill, verificar si está limpia, y si no existe una adecuada sugerir crearla.
+- JR aprobó que Geoffrey guarde resúmenes diarios de conversaciones en `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md`, siempre que no dupliquen `memoria.md` ni `wiki/log/`: conversaciones = continuidad diaria; memoria = preferencias/reglas duraderas; log = cambios al Vault.
 
 ## Sobre el Great Vault
 
