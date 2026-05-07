@@ -96,6 +96,8 @@ Aprobó:
 |---|---|---|---|---|
 | [[imsg]] | aprobada | https://github.com/openclaw/imsg | no identificado | Aprobada para Geoffrey con lectura local de SMS/iMessage; enviar mensajes prohibido sin aprobación explícita. |
 | [[gmail]] | auditada | https://github.com/openclaw/gmail | no identificado | Auditada para lectura específica de correos (ej.: buscar correos de Thelma sobre contrato Altezza); envío, modificación o acceso a contactos requieren aprobación explícita de JR. |
+| [[canva]] | auditada | varios candidatos | `canva`, `canva-designs`, etc. | Recomendación: `canva-designs` si JR acepta ClawLink; alternativa conservadora: `canva` directo con Canva Developers. |
+| [[nano-banana-pro]] | auditada | varios candidatos | `nano-banana-pro`, `gemini-nano-banana`, etc. | Recomendación: diferir; si se aprueba, preferir `nano-banana-pro` sobre `nanobanana`. |
 
 ## Candidatas prioritarias por auditar
 
@@ -106,6 +108,8 @@ Aprobó:
 | Calendar | pendiente | pendiente | pendiente | Agenda y coordinación. |
 | WhatsApp | pendiente | pendiente | pendiente | Mensajería externa; requiere controles fuertes. |
 | iMessage / SMS | aprobada limitada | https://github.com/openclaw/imsg | no identificado | Cubierta por [[imsg]] para lectura local; envío bloqueado salvo aprobación explícita. |
+| Canva para PPT de gastos | auditada pendiente de aprobación | varios | `canva-designs` recomendado si se acepta ClawLink | Crear PPT local y subir/importar a Canva solo con aprobación. |
+| Nano Banana para visuales | auditada pendiente de aprobación | varios | `nano-banana-pro` recomendado si se necesita | No indispensable para el prototipo inicial. |
 
 ## Relacionado
 
