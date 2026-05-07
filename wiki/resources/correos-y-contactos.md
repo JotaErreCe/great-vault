@@ -1,6 +1,6 @@
 ---
 type: resource
-date: 2026-04-30
+date: 2026-05-07
 tags:
   - resource
   - tema/contactos
@@ -69,6 +69,27 @@ Mapa de cuentas de correo de [[jr]] y contactos frecuentes por proyecto. Como de
 | Banrural | — | Alertas a iCloud |
 | Interactive Brokers (IBKR) | Inversiones | Notificaciones a Gmail |
 | Banco Promerica | — | — |
+
+---
+
+## Organización de correo personal
+
+Al 2026-05-07 se crearon las siguientes carpetas/etiquetas en Apple Mail para `joserca95@gmail.com` e `iCloud` como primera fase de limpieza. No se movieron, borraron ni marcaron correos todavía.
+
+- `00-Accion`
+- `01-Esperando`
+- `Finanzas-Banco`
+- `Finanzas-Comprobantes`
+- `Finanzas-MetaAds`
+- `Proyectos-UK`
+- `Proyectos-Propi`
+- `Proyectos-AMCLegal`
+- `Personal-Familia`
+- `Lecturas-Cursos`
+- `Compras-Delivery`
+- `Archivo-Automatico`
+
+Próximo paso recomendado: archivar correos leídos antiguos del Inbox por lotes seguros, empezando con mensajes de más de un año que no estén no leídos ni marcados.
 
 ---
 
