@@ -272,8 +272,8 @@ Incluye campos para:
 1. **Copia el contenido** de la plantilla correspondiente en `_templates/`
 2. **Reemplaza los placeholders** (corchetes, valores genéricos)
 3. **Adapta a tu contexto** — mantén la estructura, cambia el contenido
-4. **Enlaza a notas existentes** — usa `[[nombre-exacto]]` en minúsculas
-5. **Guarda en carpeta correcta** — `daily-notes/YYYY-MM-DD.md`, `proyectos/activos/nombre.md`, etc.
+4. **Enlaza a notas existentes** — usa wikilinks reales en minúsculas, por ejemplo `[[index]]` o `[[dashboard]]`
+5. **Guarda en carpeta correcta** — `raw/daily/YYYY-MM-DD.md` para capturas crudas; `wiki/proyectos/activos/nombre.md`, `wiki/personas/nombre.md`, etc. para conocimiento procesado.
 
 ---
 
@@ -282,13 +282,13 @@ Incluye campos para:
 - **Frontmatter OBLIGATORIO** — cada nota debe tener YAML al inicio
 - **Sección "🔗 Relacionado" obligatoria** — excepto daily notes
 - **Wikilinks reales** — enlaza a notas que existen, no inventadas
-- **Tags consistentes** — usa los del sistema en `_CLAUDE.md`
+- **Tags consistentes** — usa los del sistema en `_AI_BOOTSTRAP.md`
 - **Nombres en minúsculas con guiones** — `mi-nota-nueva.md`
 
 ---
 
 ## 🔗 Relacionado
 
-- [[_CLAUDE]] — convenciones completas del vault
+- [[_AI_BOOTSTRAP]] — convenciones completas del vault
 - [[index]] — catálogo maestro
 - [[dashboard]] — vista operativa

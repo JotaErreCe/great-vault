@@ -79,4 +79,8 @@ tags: [navigation, index]
 
 ---
 
-*Vault: init 2026-04-29 · poblado 2026-04-30 · restructurado 2026-05-02 · refactor 2026-05-04 · Skills: 7 · Templates: 5*
+## Relacionado
+
+- [[_AI_BOOTSTRAP]] · [[dashboard]] · [[vault-map|Vault Map]] · [[agentes]]
+
+*Vault: init 2026-04-29 · poblado 2026-04-30 · restructurado 2026-05-02 · refactor 2026-05-07 · Skills: 7 · Templates: 6*

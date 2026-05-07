@@ -60,3 +60,7 @@ Vehículo de [[jr]]. Plan de 6 servicios prepagados hasta 25,000 km. Los servici
 - Los servicios se ejecutan por **km real**, no por fecha calendario
 - La tabla de fechas es solo referencial
 - A partir de 30,000 km, JR paga por su cuenta (salvo que renueve plan)
+
+## Relacionado
+
+- [[jr]] · [[agenda]] · [[dashboard]]

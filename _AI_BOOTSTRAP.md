@@ -1,6 +1,6 @@
 ---
 type: bootstrap
-updated: 2026-05-04
+updated: 2026-05-07
 ---
 
 # AI Bootstrap — entrada única
@@ -46,7 +46,7 @@ Great Vault/
 ├── _AI_BOOTSTRAP.md     ← este archivo. Schema + entry point.
 ├── _CLAUDE.md           ← redirect a este archivo
 ├── _sensitive.md        ← NIT, DPI, dirección. NO cargar por defecto.
-├── _templates/          ← plantillas: daily-note, proyecto, persona, research
+├── _templates/          ← plantillas: nota-diaria, proyecto, persona, research
 │
 ├── raw/                 ← FUENTES. LLM solo LEE. Nunca edita.
 │   ├── daily/           ← notas diarias crudas (captura del día)
@@ -112,7 +112,7 @@ The following files in `_templates/openclaw-agent/` are used to create new AI ag
 
 **These files are not active memory files by themselves.** Use them only as templates when creating or updating actual working agent files.
 
-Actual agent instances live in `wiki/agentes/[nombre]/`, for example:
+Actual agent instances live in `wiki/agentes/[slug]/`, for example:
 
 - [[geoffrey/SOUL|SOUL — Geoffrey]]
 - [[geoffrey/AGENT|AGENT — Geoffrey]]
@@ -184,7 +184,9 @@ tags: [tag1, tag2, ...]
 
 **Nombres de archivo:** `lowercase-con-guiones.md` — NUNCA UPPERCASE, espacios, números al inicio.
 
-**Wikilinks:** `[[lowercase-con-guion]]` — SIEMPRE doble corchete para referencias internas. Nunca `[texto](ruta)` para archivos internos. Con alias: `[[archivo|texto visible]]`.
+**Excepciones de compatibilidad:** archivos bootstrap/runtime de agentes pueden usar nombres esperados por OpenClaw (`AGENT.md`, `SOUL.md`, `IDENTITY.md`, `README.md`) cuando el runtime o la plantilla lo requiere. No crear nuevas excepciones sin documentarlas.
+
+**Wikilinks:** usar doble corchete para referencias internas reales, por ejemplo `[[index]]` o `[[vault-map|Vault Map]]`. Nunca `[texto](ruta)` para archivos internos.
 
 **Sección Relacionado:** obligatoria al final de todo archivo wiki, excepto daily notes y bootstrap.
 
@@ -204,7 +206,7 @@ tags: [tags]
 
 ## Relacionado
 
-- [[Relacionado1]] · [[Relacionado2]]
+- [[index]] · [[dashboard]]
 ```
 
 ---
@@ -268,7 +270,7 @@ No tienes acceso al filesystem. Tu workflow:
 1. El usuario te pegará archivos (empieza por este bootstrap).
 2. Devuelve **archivos completos modificados** en bloque de código, listos para copiar.
 3. Si necesitas un archivo que no has visto, pídelo. Nunca inventes su contenido.
-4. Para encontrar qué archivo pedir: consulta [[Vault Map]] (`wiki/resources/vault-map.md`).
+4. Para encontrar qué archivo pedir: consulta [[vault-map|Vault Map]] (`wiki/resources/vault-map.md`).
 5. Respeta: naming conventions, frontmatter, sección Relacionado, raw/ intocable, sensitive aislado.
 
 ---
@@ -278,4 +280,4 @@ No tienes acceso al filesystem. Tu workflow:
 - [[IDENTITY]] — identidad completa, valores, gustos, metas
 - [[dashboard]] — eventos del día, próximos 14 días
 - [[index]] — catálogo completo del wiki
-- [[Vault Map]] — índice searchable para AIs sin filesystem
+- [[vault-map|Vault Map]] — índice searchable para AIs sin filesystem

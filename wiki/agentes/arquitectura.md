@@ -1,6 +1,6 @@
 ---
 type: reference
-date: 2026-05-05
+date: 2026-05-07
 tags: [agente, arquitectura, reference]
 ---
 
@@ -14,14 +14,27 @@ Los agentes especializados son expertos por dominio; [[geoffrey/SOUL|Geoffrey]] 
 
 ## Agentes previstos
 
-| Agente | Rol |
-|---|---|
-| Geoffrey | Asistente personal, orquestador y generador del brief consolidado. |
-| Understanding Kids | Operación de UK: staff, finanzas, catálogo, diplomado y seguimiento comercial. |
-| Finanzas | IBKR, cripto, propiedades, patrimonio, cobros y suscripciones. |
-| Legal | AMC Legal, casos, clientes, facturación, plazos y Diario de Centro América. |
-| Meta Ads | Campañas publicitarias, pauta, métricas y alertas. |
-| Marketing / Imágenes | Identidad visual, Canva, creativos y activos gráficos. |
+| Agente | Carpeta canónica | Rol | Estado |
+|---|---|---|---|
+| Geoffrey | `wiki/agentes/geoffrey/` | Asistente personal, orquestador y generador del brief consolidado. | Activo |
+| Understanding Kids | `wiki/agentes/understanding-kids/` | Operación de UK: staff, finanzas, catálogo, diplomado y seguimiento comercial. | Previsto |
+| Finanzas | `wiki/agentes/finanzas/` | IBKR, cripto, propiedades, patrimonio, cobros y suscripciones. | Previsto |
+| Legal | `wiki/agentes/legal/` | AMC Legal, casos, clientes, facturación, plazos y Diario de Centro América. | Previsto |
+| Meta Ads | `wiki/agentes/meta-ads/` | Campañas publicitarias, pauta, métricas y alertas. | Previsto |
+| Marketing / Imágenes | `wiki/agentes/marketing-imagenes/` | Identidad visual, Canva, creativos y activos gráficos. | Previsto |
+
+## Auto-ubicación de agentes
+
+Regla para cualquier agente especializado:
+
+1. Leer [[_AI_BOOTSTRAP]] como schema global.
+2. Identificar su nombre/rol operativo actual.
+3. Normalizarlo a slug `lowercase-con-guiones`.
+4. Buscar su carpeta canónica en `wiki/agentes/[slug]/`.
+5. Si la carpeta existe, cargar en orden: `SOUL.md`, `AGENT.md`, `memoria.md`, `skills-permitidas.md`.
+6. Si la carpeta no existe, **no inventar identidad ni reglas**: usar esta arquitectura como referencia, revisar `_templates/openclaw-agent/` y pedir aprobación a Master JR o coordinación de Geoffrey antes de crear la instancia.
+
+Las carpetas previstas arriba son compromisos de ubicación; no implican que el agente esté creado todavía.
 
 ## Carpeta mínima por agente
 

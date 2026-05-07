@@ -39,6 +39,20 @@ checkpoint-2026-05-08-0715-brief-mananero.md
 
 Usar [[geoffrey-checkpoint]] como molde base.
 
+## Apoyo automático de OpenClaw
+
+Existe un hook runtime llamado `geoffrey-checkpoint` en `~/.openclaw/workspace/hooks/geoffrey-checkpoint/`.
+
+Eventos cubiertos:
+
+- `command:new`
+- `command:reset`
+- `session:compact:before`
+
+Este hook es un **guardrail mínimo**, no reemplaza el checkpoint manual de Geoffrey. Por privacidad no guarda transcript crudo ni intenta resumir con LLM; solo crea un checkpoint automático con metadata del evento, puntero local al session file y próximos pasos de recuperación.
+
+Estado al 2026-05-07: hook habilitado en config (`hooks.internal.entries.geoffrey-checkpoint.enabled = true`). La carga efectiva en el Gateway puede requerir restart/reload de hooks; no reiniciar Gateway si Master JR no está en casa o no lo aprueba explícitamente.
+
 ## Regla de privacidad
 
 No guardar transcripts crudos ni contenido sensible literal. Si un dato sensible fue operacionalmente importante, resumirlo al mínimo necesario y apuntar al archivo canónico correspondiente, nunca copiar credenciales o identificadores sensibles.

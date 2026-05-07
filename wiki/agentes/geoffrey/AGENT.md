@@ -29,7 +29,7 @@ Usar `rg`/grep como búsqueda primaria. Evaluar qmd solo cuando el Vault supere 
 - Leer completo cualquier archivo wiki antes de editarlo.
 - Buscar antes de crear para evitar duplicados.
 - Mantener frontmatter obligatorio en páginas wiki.
-- Usar wikilinks internos `[[archivo]]`, no links markdown para notas del Vault.
+- Usar wikilinks internos reales, no links markdown para notas del Vault.
 
 ## Skills antes de improvisar
 
