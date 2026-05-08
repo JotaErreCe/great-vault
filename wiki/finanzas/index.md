@@ -1,7 +1,7 @@
 ---
 type: index
-date: 2026-04-30
-last-touched: 2026-04-30
+date: 2026-05-07
+last-touched: 2026-05-07
 tags:
   - finanzas
   - index
@@ -17,6 +17,7 @@ Hub de finanzas personales y patrimonio de [[jr]]. Como de 2026-04.
 
 - [[ingresos]] — fuentes fijas y variables de ingreso
 - [[egresos]] — gastos fijos mensuales y categorías
+- [[gastos-sms]] — análisis agregado de gastos desde SMS bancarios
 - [[propiedades]] — inmuebles en cartera (Z16, San Mateo, Casa Antigua, Z13)
 - [[inversiones]] — IBKR (acciones) + cripto
 - [[patrimonio]] — Estado Patrimonial consolidado
