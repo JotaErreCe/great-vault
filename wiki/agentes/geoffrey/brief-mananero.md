@@ -14,7 +14,7 @@ Especificación operativa del brief diario que Geoffrey debe enviar a Master JR 
 - **Hora objetivo:** 7:15 AM Guatemala.
 - **Ventana aceptable:** 6:30–8:00 AM Guatemala.
 - **Formato:** mensajes separados por sección, no un bloque único.
-- **Extensión:** suficiente para ser útil; no rellenar por cumplir.
+- **Extensión:** útil pero comprimida. Preferir 4–6 mensajes cortos. Profundidad bajo demanda.
 - **Trato:** siempre de **usted**.
 - **Idioma:** español, con términos técnicos en inglés cuando sean naturales.
 
@@ -48,7 +48,7 @@ Si Geoffrey no puede ver el contenido suficiente para ser específico, debe deci
 - SMS vía [[imsg]], solo lectura local y minimizada.
 - Apple Notes, cuando la integración esté autorizada.
 - Great Vault: [[dashboard]], proyectos activos, agenda, conversación diaria y notas relevantes.
-- Web: Diario de Centro América, Congreso, SAT, SIB/IVE, Banguat, noticias Guatemala, AI/tech y fuentes relevantes a proyectos.
+- Web: Diario de Centro América, Congreso, SAT, SIB/IVE, Banguat y fuentes regulatorias relevantes. Noticias generales omitidas por ahora.
 
 ## Estructura del brief
 
@@ -72,11 +72,13 @@ Solo incluir comunicaciones que merecen atención. No newsletters ni ruido. Clas
 
 Para cada hilo o conversación:
 
+- **Link para abrir:** cuando sea correo, incluir enlace directo si se puede construir (`message://...` o equivalente). El link debe estar en el texto del asunto o título.
 - **Quién:** remitente/persona.
 - **Qué pasó exactamente:** documento enviado, respuesta recibida, pregunta planteada, cambio de versión, coordinación solicitada, deadline, adjunto, etc.
-- **Por qué importa:** impacto concreto en JR/AMC Legal/proyecto/familia.
 - **Siguiente movimiento:** responder, leer, agendar, delegar, esperar, ignorar.
-- **Limitación:** si solo se pudo ver asunto/remitente, indicarlo claramente.
+- **Limitación:** si solo se pudo ver asunto/remitente o no se pudo generar link, indicarlo claramente.
+
+Omitir “por qué importa” cuando sea obvio por el contexto; incluirlo solo si cambia la prioridad.
 
 Formato esperado:
 
@@ -122,14 +124,16 @@ Categorías mínimas DCA:
 
 Cómo resumir cada hallazgo legal:
 
-- **Instrumento:** Acuerdo/Decreto/Resolución + número + emisor.
-- **Contenido específico:** qué regula, modifica, autoriza o publica.
-- **Relevancia para JR:** alta/media/baja y por qué.
-- **Conexión:** AMC Legal, Propi/inmobiliario, fiscal/SAT, IVE/AML, sociedades, contratación pública, laboral, consumidor, banca/SIB, municipal, etc.
-- **Seguimiento sugerido:** guardar en radar, investigar, preparar nota, avisar a cliente, crear recordatorio, ignorar.
-- **Fuente:** enlace o `DocumentID`.
+- **Formato normal — compacto:** una línea por hallazgo: `Instrumento + emisor — una oración de qué pasó. Link/DocumentID para ampliar.`
+- **No expandir de oficio** relevancia, conexión o seguimiento salvo que sea claramente crítico para JR/AMC Legal/clientes.
+- **Expandir solo si:** afecta directamente Propi/AMC Legal, SAT/IVE/AML, inmobiliario, obligaciones de clientes, plazos o decisiones inmediatas.
+- **Fuente:** enlace directo o `DocumentID`.
 
-No decir “sin acción material” como cierre principal. Si no hay nada fuerte, decir: “sin hallazgos de alta relevancia; dejo X/Y/Z como radar de baja/media relevancia”.
+Ejemplo esperado:
+
+> **[SAT DSI-589-2026](https://legal.dca.gob.gt/GestionDocumento/VisualizarDocumento?verDocumentoPrevia=True&versionImpresa=False&doc=359951):** nuevas disposiciones para el Registro de Contadores ante SAT.
+
+No decir “sin acción material” como cierre principal. Si no hay nada fuerte, decir: “DCA revisado; hallazgos principales abajo, resto omitido por baja relevancia”.
 
 ### 4. 💼 Proyectos y frentes abiertos
 
@@ -151,41 +155,21 @@ Proyectos de referencia:
 
 No repetir descripciones estáticas salvo que ayuden a decidir.
 
-### 5. 🧨 Riesgos de arrastre / pendientes que se están pudriendo
+### 5. ⏳ Pendientes acumulados
 
-Separar de “urgentes” para que JR vea lo que no explota hoy pero se deteriora si se ignora.
+Antes llamado “riesgos de arrastre”. Son asuntos que no necesariamente vencen hoy, pero se vuelven problema si siguen abiertos.
 
 Ejemplos:
 
 - Tesis sin bloque semanal.
 - Checkout UK roto.
 - Contratos con contraparte esperando respuesta.
-- Pagos o trámites recurrentes vencidos.
+- Trámites recurrentes vencidos.
 - Recordatorios que ya pasaron y siguen sin cierre.
 
-Cada item debe tener “próximo paso mínimo”.
+Mantener máximo 3–5 items. Cada item debe tener “próximo paso mínimo”.
 
-### 6. 📰 Noticias relevantes para JR
-
-Máximo 3–5, seleccionadas por perfil de JR. No política genérica salvo impacto legal, regulatorio, económico o de negocio.
-
-Temas preferentes:
-
-- Guatemala legal/regulatorio.
-- Economía real: tipo de cambio, remesas, inflación, crédito, banca, impuestos.
-- Inmobiliario/construcción/municipalidades.
-- IVE/AML y cumplimiento.
-- Educación, clínica, terapias o marketing si afecta UK.
-- AI/productividad/automatización si puede servir a JR.
-- E-commerce/marketplaces si afecta Crisol o UK.
-
-Cada noticia debe decir:
-
-- **Qué pasó.**
-- **Por qué le importa a JR.**
-- **Si debe quedar en radar o merece acción.**
-
-### 7. ✅ Acciones que Geoffrey puede ejecutar
+### 6. ✅ Acciones que Geoffrey puede ejecutar
 
 Cierre obligatorio. No solo “acciones sugeridas”; deben ser acciones aprobables y ejecutables por Geoffrey.
 
@@ -232,11 +216,11 @@ Aunque haya poca información, el brief debe incluir:
 
 - Lo que le depara el día: agenda, recordatorios y ventanas.
 - Comunicaciones relevantes con movimiento específico o limitación clara.
-- Radar legal Guatemala con DCA y, cuando aplique, Congreso/SAT/SIB.
+- Radar legal Guatemala compacto: DCA en una oración por hallazgo + link/DocumentID; ampliar solo si es crítico.
 - Proyectos/frentes abiertos solo si hay cambio, bloqueo o deadline.
-- Riesgos de arrastre.
-- Noticias relevantes filtradas para JR.
-- Acciones ejecutables por Geoffrey.
+- Riesgos de arrastre, máximo 3–5.
+- No incluir noticias generales por ahora.
+- Acciones ejecutables por Geoffrey, máximo 5–7.
 
 Si no puede cumplir por fallo técnico, debe decir exactamente qué fuente falló y qué alternativa intentó.
 
