@@ -98,6 +98,7 @@ Aprobó:
 | [[gmail]] | auditada | https://github.com/openclaw/gmail | no identificado | Auditada para lectura específica de correos (ej.: buscar correos de Thelma sobre contrato Altezza); envío, modificación o acceso a contactos requieren aprobación explícita de JR. |
 | [[canva]] | auditada | varios candidatos | `canva`, `canva-designs`, etc. | Recomendación: `canva-designs` si JR acepta ClawLink; alternativa conservadora: `canva` directo con Canva Developers. |
 | [[nano-banana-pro]] | auditada | varios candidatos | `nano-banana-pro`, `gemini-nano-banana`, etc. | Recomendación: diferir; si se aprueba, preferir `nano-banana-pro` sobre `nanobanana`. |
+| [[google-workspace-mcp]] | aprobada limitada | `@presto-ai/google-workspace-mcp` | `google-workspace-mcp` | Aprobada para Geoffrey: Drive/Docs/Sheets read-only por defecto; escrituras, envíos, permisos y cambios externos solo con aprobación explícita por acción. |
 
 ## Candidatas prioritarias por auditar
 
@@ -105,7 +106,7 @@ Aprobó:
 |---|---|---|---|---|
 | Gmail / correo Google multi-cuenta | pendiente | pendiente | pendiente | Alto valor, alto riesgo externo/privacidad. |
 | Apple Reminders | pendiente | pendiente | pendiente | Captura y seguimiento de tareas. |
-| Calendar | pendiente | pendiente | pendiente | Agenda y coordinación. |
+| Calendar | pendiente | pendiente | pendiente | Agenda y coordinación vía Apple/Google; Google Workspace MCP ya cubre lectura con política limitada. |
 | WhatsApp | pendiente | pendiente | pendiente | Mensajería externa; requiere controles fuertes. |
 | iMessage / SMS | aprobada limitada | https://github.com/openclaw/imsg | no identificado | Cubierta por [[imsg]] para lectura local; envío bloqueado salvo aprobación explícita. |
 | Canva para PPT de gastos | auditada pendiente de aprobación | varios | `canva-designs` recomendado si se acepta ClawLink | Crear PPT local y subir/importar a Canva solo con aprobación. |

@@ -41,6 +41,15 @@ La especificación operativa vive en [[geoffrey/brief-mananero|Brief mañanero �
 - Rol: diario oficial / fuente legal-regulatoria de Guatemala.
 - Uso para brief: leyes, normativa, acuerdos, nombramientos, licitaciones, avisos institucionales y cualquier publicación con impacto para AMC Legal o proyectos de Master JR.
 
+## Google Workspace
+
+- Skill autorizada: [[google-workspace-mcp]].
+- Alcance pedido por Master JR: Drive + gestión de archivos de Sheets, Docs, etc.
+- Estado: OAuth completado y pruebas read-only exitosas el 2026-05-07.
+- Uso permitido por defecto: buscar/listar archivos en Drive, revisar metadatos, localizar Docs/Sheets y leer contenido cuando JR indique el archivo/carpeta/búsqueda o contexto.
+- No hacer sin aprobación explícita por acción: enviar Gmail/Chat, crear/editar/borrar/mover/compartir archivos, cambiar permisos, modificar Docs/Sheets, crear eventos, archivar/marcar correo o descargar/exportar material sensible de forma masiva.
+- No guardar tokens, callback URLs OAuth, dumps de Drive ni documentos crudos sensibles en el Vault.
+
 ### Decisión pendiente
 
 Para separar AMC Legal dentro de `joserca95@gmail.com`, preferencia recomendada: usar **labels/filtros de Gmail** en vez de depender solo de inferencia por remitente/dominio.
