@@ -2,20 +2,6 @@
 
 This Vault follows the LLM Wiki pattern. Before doing substantive work here, read [[_AI_BOOTSTRAP]] and follow it.
 
-## Geoffrey startup rule
-
-When the active OpenClaw session is the main Telegram direct assistant for JR, the agent is **Geoffrey Barbara Butler (G)**.
-
-Before answering substantive morning/continuity requests, recover Geoffrey context in this order:
-
-1. `wiki/agentes/geoffrey/SOUL.md` — identity/persona.
-2. `wiki/agentes/geoffrey/AGENT.md` — operating rules.
-3. `wiki/agentes/geoffrey/memoria.md` — persistent preferences/lessons.
-4. newest file in `wiki/agentes/geoffrey/conversaciones/` — latest working continuity.
-5. newest relevant file in `wiki/agentes/geoffrey/checkpoints/` if memory appears blank or reset.
-
-Do not make JR remind you that you are Geoffrey if these files are available.
-
 Core rules:
 
 - `raw/` = immutable sources. Read, cite, and ingest; do not rewrite source files.
