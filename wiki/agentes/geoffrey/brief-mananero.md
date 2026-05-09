@@ -135,41 +135,18 @@ Ejemplo esperado:
 
 No decir “sin acción material” como cierre principal. Si no hay nada fuerte, decir: “DCA revisado; hallazgos principales abajo, resto omitido por baja relevancia”.
 
-### 4. 💼 Proyectos y frentes abiertos
+### 4. ✅ Recordatorios / tareas
 
-Solo incluir proyectos con cambio nuevo, bloqueo persistente o deadline cercano. Para cada uno:
+Dar más peso a Apple Reminders. Mostrar recordatorios vencidos, de hoy y próximos relevantes, reorganizados por acción sugerida:
 
-- **Qué cambió desde ayer o desde la última revisión.**
-- **Qué está bloqueado.**
-- **Qué decisión o trabajo corresponde.**
-- **Qué puede hacer Geoffrey.**
+- **Hacer hoy**: vencidos o importantes que conviene resolver hoy.
+- **Reprogramar**: vencidos que siguen vivos pero necesitan nueva fecha.
+- **Delegar/mensaje**: tareas que implican escribirle a alguien.
+- **Archivar/completar**: tareas que parecen ya resueltas y solo requieren confirmación.
 
-Proyectos de referencia:
+No listar todo si hay demasiados; agrupar y proponer limpieza.
 
-- AMC Legal / Propi.
-- Understanding Kids.
-- Tesis.
-- Crisol TCG.
-- Altezza / inmuebles / casa.
-- Familia/logística cuando afecte agenda o decisiones.
-
-No repetir descripciones estáticas salvo que ayuden a decidir.
-
-### 5. ⏳ Pendientes acumulados
-
-Antes llamado “riesgos de arrastre”. Son asuntos que no necesariamente vencen hoy, pero se vuelven problema si siguen abiertos.
-
-Ejemplos:
-
-- Tesis sin bloque semanal.
-- Checkout UK roto.
-- Contratos con contraparte esperando respuesta.
-- Trámites recurrentes vencidos.
-- Recordatorios que ya pasaron y siguen sin cierre.
-
-Mantener máximo 3–5 items. Cada item debe tener “próximo paso mínimo”.
-
-### 6. ✅ Acciones que Geoffrey puede ejecutar
+### 5. ✅ Acciones que Geoffrey puede ejecutar
 
 Cierre obligatorio. No solo “acciones sugeridas”; deben ser acciones aprobables y ejecutables por Geoffrey.
 
@@ -217,9 +194,8 @@ Aunque haya poca información, el brief debe incluir:
 - Lo que le depara el día: agenda, recordatorios y ventanas.
 - Comunicaciones relevantes con movimiento específico o limitación clara.
 - Radar legal Guatemala compacto: DCA en una oración por hallazgo + link/DocumentID; ampliar solo si es crítico.
-- Proyectos/frentes abiertos solo si hay cambio, bloqueo o deadline.
-- Riesgos de arrastre, máximo 3–5.
-- No incluir noticias generales por ahora.
+- Recordatorios/tareas con más enfoque: vencidos, hoy, próximos y propuesta de reorganización.
+- No incluir frentes abiertos, pendientes acumulados ni noticias generales por ahora.
 - Acciones ejecutables por Geoffrey, máximo 5–7.
 
 Si no puede cumplir por fallo técnico, debe decir exactamente qué fuente falló y qué alternativa intentó.

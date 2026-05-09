@@ -9,9 +9,11 @@ tags:
   - prioridad/alta
 ---
 
-# Altezza — Caso legal Disegno Casa
+# Altezza — Caso legal de Disegno Casa
 
-Proyecto legal de [[jr]] como abogado. Representa a **Disegno Casa** en una disputa contractual con el proyecto inmobiliario **Altezza** sobre penalizaciones por atraso en la instalación de mobiliario. Como de 2026-04.
+Caso legal dentro del cliente/proyecto [[disengo-casa|Disegno Casa]]. JR representa a **Disegno Casa** en una disputa contractual con el proyecto inmobiliario **Altezza** sobre penalizaciones por atraso en la instalación de mobiliario. Como de 2026-04.
+
+> Nota de clasificación: **Disegno Casa es el cliente/proyecto activo; Altezza es solo un caso dentro de Disegno Casa.**
 
 ---
 
