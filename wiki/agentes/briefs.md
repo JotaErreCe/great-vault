@@ -1,12 +1,20 @@
 ---
 type: reference
-date: 2026-05-05
+date: 2026-05-13
 tags: [agente, briefs, arquitectura, rutinas]
 ---
 
 # Arquitectura de briefs multi-agente
 
-El brief diario de JR no debe depender de que Geoffrey lea todo el Vault desde cero cada mañana. La arquitectura correcta es multi-agente: cada agente especializado produce señales de su dominio y Geoffrey consolida con visión global.
+El brief diario de JR es consolidado por Geoffrey. La especificación vigente y obligatoria está en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. Esta página describe la arquitectura general; si contradice a Geoffrey, prevalece la especificación de Geoffrey.
+
+## Estado actual
+
+- El brief diario se envía por Telegram directo.
+- La automatización debe hacerse con cron de OpenClaw, no con heartbeat genérico.
+- Nombre esperado del job: `Geoffrey Morning Brief`.
+- Hora objetivo: 7:15 AM Guatemala.
+- Cron: `15 7 * * *` con `--tz America/Guatemala`.
 
 ## Roles
 
@@ -18,22 +26,43 @@ El brief diario de JR no debe depender de que Geoffrey lea todo el Vault desde c
 
 ## Flujo diario
 
-1. Cada agente especializado revisa sus fuentes autorizadas.
-2. Cada agente produce un `daily signal` breve con solo novedades reales.
-3. Geoffrey consulta esos signals, calendario, recordatorios e inbox autorizado.
-4. Geoffrey elimina ruido, duplica temas cruzados y prioriza.
-5. Geoffrey redacta el brief final en Telegram.
-6. Si corresponde, Geoffrey guarda copia en `wiki/agentes/geoffrey/briefs/brief-YYYY-MM-DD.md`.
+1. Geoffrey se despierta por cron.
+2. Lee [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]], [[geoffrey/rutinas|Rutinas — Geoffrey]] y fuentes mínimas.
+3. Audita calendario, Reminders, comunicaciones disponibles y DCA/radar legal.
+4. Omite ruido y fuentes sin señal accionable.
+5. Redacta el brief final en Telegram.
+6. Si corresponde, guarda copia en `wiki/agentes/geoffrey/briefs/brief-YYYY-MM-DD.md` y registra hallazgos duraderos en el Vault.
 
 ## Regla de oro
 
 El brief consolidado no es una suma de reportes. Geoffrey debe decidir qué importa hoy para JR.
 
-Si un agente no tiene novedades, su sección se omite. Si dos agentes reportan el mismo asunto, Geoffrey lo consolida en una sola entrada con la categoría más útil.
+Si un agente no tiene novedades, su sección se omite. Si dos fuentes reportan el mismo asunto, Geoffrey lo consolida en una sola entrada con la categoría más útil.
 
-## Daily signal por agente
+## Formato vigente resumido
 
-Formato recomendado:
+El brief debe entrar directo a:
+
+1. 📅 Lo que le depara el día.
+2. 📬 Comunicaciones relevantes.
+3. ⚖️ Radar legal Guatemala / DCA.
+4. 🧑‍💼 Radar de cliente, solo si aplica.
+5. ✅ Reminders / qué haceres.
+6. ✅ Puedo ejecutar con aprobación.
+
+No incluir como secciones fijas:
+
+- Noticias.
+- Frentes abiertos.
+- Pendientes acumulados.
+- Puede ignorar hoy.
+- Top 3.
+- Mapa de Atención.
+- Riesgo de arrastre.
+
+## Daily signal por agente especializado
+
+Formato recomendado si en el futuro hay agentes especializados:
 
 ```markdown
 ---
@@ -62,23 +91,6 @@ tags: [agente, signal, brief]
 - [Tema revisado sin novedad]
 ```
 
-## Orden del brief consolidado
-
-Nota: para Geoffrey, el formato operativo vigente está en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]] y prevalece sobre este esquema histórico. JR pidió quitar Top 3, noticias generales, frentes abiertos y pendientes acumulados; el brief debe entrar directo a calendario/ventanas, comunicaciones específicas, radar legal compacto, recordatorios/tareas y acciones ejecutables.
-
-1. Saludo, fecha y hora exacta de envío.
-2. Línea editorial: lo más importante de hoy.
-3. Hoy en calendario.
-4. AMC Legal.
-5. Inbox.
-6. Proyectos.
-7. Noticias.
-8. Acciones sugeridas hoy.
-
-## Prueba pendiente
-
-Cuando estén configuradas las fuentes, hacer un brief de prueba simulando la noche del 2026-05-04 al 2026-05-05.
-
 ## Relacionado
 
-- [[arquitectura]] · [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[geoffrey/integraciones|Integraciones — Geoffrey]] · [[geoffrey/reminders|Reminders — Geoffrey]]
+- [[arquitectura]] · [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[geoffrey/integraciones|Integraciones — Geoffrey]] · [[geoffrey/reminders|Reminders — Geoffrey]]

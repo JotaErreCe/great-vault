@@ -45,14 +45,14 @@ No debe usarlo para:
 - Limpiar duplicados si JR pidió solo uso/manual.
 - Borrar o completar cosas sin permiso.
 
-## Secciones estándar
+## Secciones estándar confirmadas por JR
 
-Cada área/proyecto debe operar con:
+JR definió las secciones así:
 
-- ✅ Tareas — accionable, sin fecha fija.
-- 🔁 Recurrentes — repetitivo.
-- 📅 Próximos — fecha/hora específica.
-- 💡 Algún día — no para ahora.
+- ✅ Tareas — cualquier cosa accionable que dependa de JR, sin fecha fija. Si puede hacerlo cuando tenga tiempo, va aquí.
+- 🔁 Recurrentes — todo lo que se repite: diario, semanal, mensual, anual. Pagos, rutinas, hábitos, llamadas periódicas, mantenimientos.
+- 📅 Próximos — todo lo que tiene fecha y/u hora específica. Citas, deadlines, eventos, vencimientos.
+- 💡 Algún día — lo que JR quiere hacer pero no ahora. Ideas, deseos, proyectos potenciales sin fecha de inicio.
 
 ## Áreas/proyectos conocidos
 

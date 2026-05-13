@@ -6,13 +6,13 @@ tags: [resource, agentes, reminders, productividad]
 
 # Manual operativo — Apple Reminders de JR
 
-> **BORRADOR NO AUTORIZADO.** Este documento todavía no debe tratarse como manual canónico. Falta que JR defina para qué sirve cada apartado/lista/sección de su sistema real de Recordatorios. Hasta entonces, ningún agente debe usar este archivo para reorganizar, mover o clasificar recordatorios automáticamente.
+Este manual define cómo deben usar Geoffrey y otros agentes la app Recordatorios de Apple de JR. JR confirmó el significado de las cuatro secciones estándar el 2026-05-13.
 
-Este borrador reúne supuestos iniciales sobre cómo podría usarse la app Recordatorios de Apple de JR. Debe validarse con JR antes de convertirse en regla operativa.
+Regla de autoridad: los agentes pueden usar este manual para **consultar, clasificar conceptualmente y proponer**. Para crear, mover, editar fechas/repeticiones, completar, borrar o reorganizar recordatorios, deben pedir aprobación explícita.
 
-## Principio central pendiente de validar
+## Principio central
 
-Recordatorios parece ser el sistema vivo de ejecución de JR, pero falta confirmar con JR la función exacta de cada apartado.
+Recordatorios es el sistema vivo de ejecución de JR. No es una lista decorativa ni un archivo histórico.
 
 Todo agente debe tratar cada recordatorio como una unidad operativa con esta pregunta:
 
@@ -28,14 +28,14 @@ La estructura puede verse en Apple Reminders como grupos, listas y secciones. Pa
 
 No asumir que las cuatro categorías son siempre listas separadas. En la implementación actual pueden existir como **secciones dentro de una lista**. Por eso los agentes deben buscar tanto listas como secciones antes de concluir que “no existe”.
 
-## Secciones detectadas / objetivo pendiente de definición
+## Secciones estándar
 
-Se detectan estas secciones, pero falta que JR confirme para qué sirve exactamente cada una en su sistema real:
+JR definió estas cuatro secciones así:
 
-- **✅ Tareas** — accionable, depende de JR, sin fecha fija.
-- **🔁 Recurrentes** — se repite: pagos, rutinas, hábitos, llamadas periódicas, mantenimiento.
-- **📅 Próximos** — fecha/hora específica: citas, deadlines, eventos, vencimientos no recurrentes.
-- **💡 Algún día** — idea, deseo, proyecto potencial o cosa que no toca todavía.
+- **✅ Tareas** — cualquier cosa accionable que dependa de JR, sin fecha fija. Si puede hacerlo cuando tenga tiempo, va aquí.
+- **🔁 Recurrentes** — todo lo que se repite: diario, semanal, mensual, anual. Pagos, rutinas, hábitos, llamadas periódicas, mantenimientos.
+- **📅 Próximos** — todo lo que tiene fecha y/u hora específica. Citas, deadlines, eventos, vencimientos.
+- **💡 Algún día** — lo que JR quiere hacer pero no ahora. Ideas, deseos, proyectos potenciales sin fecha de inicio.
 
 ## Áreas y proyectos
 
@@ -58,7 +58,7 @@ Proyectos conocidos/esperados en el sistema actual o reciente:
 
 Si un proyecto existe en la app, úselo. No pregunte “cuáles son sus proyectos” sin antes auditar la app y el Vault.
 
-## Cómo clasificar nuevos recordatorios — pendiente de validación
+## Cómo clasificar nuevos recordatorios
 
 ### Regla rápida
 
@@ -189,14 +189,14 @@ Importante: el dump debe mostrar **listas y secciones**. Si solo muestra listas,
 - No mover recordatorios solo porque “parecen” mal clasificados sin aprobación.
 - No borrar completados antiguos salvo instrucción directa.
 
-## Uso por agentes — regla temporal
+## Uso por agentes
 
-Hasta que JR valide este manual, cuando un agente reciba una tarea que implique Reminders:
+Cuando un agente reciba una tarea que implique Reminders:
 
 1. Leer este manual o la skill `apple-reminders`.
 2. Auditar Reminders actual.
-3. Auditar y describir lo que ve, sin asumir significado.
-4. Si necesita clasificar/mover/crear, preguntar la intención del apartado si no está explícita.
+3. Identificar área/proyecto + sección estándar según las definiciones confirmadas.
+4. Si solo es consulta: responder con estado y acciones sugeridas.
 5. Si implica cambio: pedir aprobación concreta.
 6. Después de cambiar: verificar y reportar qué quedó dónde.
 

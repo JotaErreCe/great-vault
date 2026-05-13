@@ -1,7 +1,9 @@
 ```markdown
-# Keep this file empty (or with only comments) to skip heartbeat API calls.
+# HEARTBEAT.md
 
-# Add tasks below when you want the agent to check something periodically.
+# Keep this file empty/comment-only so heartbeat does not duplicate scheduled jobs.
+# Geoffrey's morning brief is handled by OpenClaw cron job: Geoffrey Morning Brief.
+# Expected schedule: 15 7 * * * America/Guatemala, Telegram direct to JR.
 ```
 
 ## Related
