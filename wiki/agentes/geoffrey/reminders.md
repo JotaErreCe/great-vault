@@ -6,100 +6,97 @@ tags: [agente, geoffrey, reminders, tareas]
 
 # Reminders — Geoffrey
 
-Arquitectura objetivo para Apple Reminders de Master JR. Esta página documenta el formato aprobado y el proceso de seguridad. La skill ejecutable vive en `~/.openclaw/plugin-skills/apple-reminders/SKILL.md`.
+Esta página resume cómo Geoffrey debe usar Apple Reminders de JR. El manual canónico para cualquier agente está en [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]]. La skill ejecutable vive en `~/.openclaw/plugin-skills/apple-reminders/SKILL.md`.
 
-## Regla principal
+## Corrección importante
 
-Antes de modificar Reminders, Geoffrey debe:
+La estructura de JR **ya existe dentro de la app** y puede estar representada como **secciones dentro de listas**, no necesariamente como listas separadas.
 
-1. Auditar en modo read-only.
-2. Resumir estructura actual.
-3. Proponer migración.
-4. Preguntar proyectos activos si toca `🚀 Proyectos`.
-5. Esperar confirmación explícita antes de cambios destructivos.
+Error que no debe repetirse: auditar solo listas/grupos y concluir que falta estructura. Hay que revisar también secciones.
 
-## Estructura objetivo
+Comando read-only actualizado:
 
-### Grupos principales
+```bash
+python3 ~/.openclaw/plugin-skills/apple-reminders/scripts/dump_reminders.py --format markdown
+```
+
+Debe mostrar:
+
+- Structure — grupos/listas.
+- Sections inside lists — secciones internas.
+- Incomplete reminders — recordatorios incompletos.
+
+## Uso esperado
+
+Recordatorios es el sistema operativo de qué haceres de JR.
+
+Geoffrey debe usarlo para:
+
+- Detectar qué hay vencido, de hoy o próximo.
+- Convertir comunicaciones en tareas concretas.
+- Crear recordatorios con aprobación.
+- Reprogramar o mover recordatorios solo con aprobación.
+- Alimentar el brief mañanero con acciones reales.
+
+No debe usarlo para:
+
+- Rediseñar la app sin petición explícita.
+- Preguntar por estructura que se puede auditar.
+- Limpiar duplicados si JR pidió solo uso/manual.
+- Borrar o completar cosas sin permiso.
+
+## Secciones estándar
+
+Cada área/proyecto debe operar con:
+
+- ✅ Tareas — accionable, sin fecha fija.
+- 🔁 Recurrentes — repetitivo.
+- 📅 Próximos — fecha/hora específica.
+- 💡 Algún día — no para ahora.
+
+## Áreas/proyectos conocidos
+
+Áreas base:
 
 - 🏠 Personal
 - 💼 Trabajo
 - 🎯 Metas y hábitos
 - 👨‍👩‍👧 Familia y social
 - 🏡 Hogar y mandados
-- 🚀 Proyectos
 
-`🚀 Proyectos` debe contener subgrupos, uno por cada proyecto activo. Geoffrey debe preguntar a JR cuáles son los proyectos actuales antes de crearlos.
+Proyectos conocidos/recientes:
 
-### Listas estándar dentro de cada grupo/subgrupo
+- Propi
+- UK / Understanding Kids
+- Tesis
+- Crisol TCG
+- Disegno Casa / Altezza
 
-Cada grupo y cada proyecto debe contener exactamente:
+Auditar antes de asumir que falta alguno.
 
-- ✅ Tareas
-- 🔁 Recurrentes
-- 📅 Próximos
-- 💡 Algún día
+## Brief mañanero
 
-## Colores objetivo
+La sección de Reminders debe enfocarse en qué necesita pasar:
 
-- 🏠 Personal → azul
-- 💼 Trabajo → verde
-- 🎯 Metas y hábitos → morado
-- 👨‍👩‍👧 Familia y social → naranja
-- 🏡 Hogar y mandados → amarillo
-- 🚀 Proyectos → cada proyecto con color distinto.
+- **Hacer o confirmar hoy**
+- **Mañana / próximos días**
+- **Ordenar / reprogramar**
+- **Convertir en acción**
 
-Si Apple Reminders no permite aplicar color de forma confiable por API/SQLite, Geoffrey debe crear estructura primero y reportar limitación.
-
-## Etiquetas globales objetivo
-
-Crear sin autoaplicar:
-
-- `#urgente`
-- `#rapido`
-- `#$$`
-
-## Clasificación
-
-- ✅ Tareas: accionable, depende de JR, sin fecha fija.
-- 🔁 Recurrentes: todo lo que se repite — pagos, rutinas, hábitos, llamadas periódicas, mantenimientos.
-- 📅 Próximos: fecha/hora específica — citas, deadlines, eventos, vencimientos.
-- 💡 Algún día: ideas, deseos, proyectos potenciales sin fecha de inicio.
-
-Heurísticas:
-
-- Tiene recurrencia → 🔁 Recurrentes aunque tenga fecha.
-- Tiene fecha/hora sin recurrencia → 📅 Próximos.
-- No tiene fecha y es accionable → ✅ Tareas.
-- Idea/deseo/later → 💡 Algún día.
-- Pagos/casa/carro/mandados → 🏡 Hogar y mandados salvo contexto claro.
-- Familia/social → 👨‍👩‍👧 Familia y social.
-- Hábitos/metas → 🎯 Metas y hábitos.
-- Trabajo general → 💼 Trabajo.
-- Proyecto específico → 🚀 Proyectos / proyecto.
+No incluir “Puede ignorar hoy”. Si algo se ignora, se omite.
 
 ## Estado auditado 2026-05-13
 
-Auditoría read-only con `dump_reminders.py --format markdown`:
+Se detectó que el dump anterior estaba incompleto porque no mostraba secciones. Se actualizó el script para mostrar `ZREMCDBASESECTION`.
 
-### Store principal — 25 reminders
+Estructura/secciones visibles en auditoría:
 
-Estructura activa visible:
+- `🏠 Personal`: contiene secciones estándar y también secciones relacionadas con Hogar/Familia; revisar con cautela antes de concluir duplicados.
+- `💼 Trabajo`: ✅ Tareas, 🔁 Recurrentes, 📅 Próximos, 💡 Algún día.
+- `🎯 Metas y hábitos`: ✅ Tareas, 🔁 Recurrentes, 📅 Próximos, 💡 Algún día.
+- Proyectos/listas detectadas con secciones estándar o parciales: Propi, UK, Tesis, Crisol TCG, Disegno Casa.
 
-- GROUP: `Proyectos` — 0 total.
-- GROUP: `Trabajo` — 0 total.
-- LIST: `🏠 Personal` — 8 incompletos.
-- LIST: `Proyectos / Crisol TCG` — 0 incompletos.
-- LIST: `Trabajo / Disegno Casa` — 0 incompletos.
-- LIST: `Trabajo / Propi` — 0 incompletos.
-- LIST: `Trabajo / UK` — 6 incompletos, 1 completado.
-
-Stores secundarios:
-
-- `Reminders` — 0.
-- `SiriFoundInApps` — 0.
-
-### Recordatorios incompletos detectados
+Recordatorios incompletos visibles al corte:
 
 `🏠 Personal`:
 
@@ -121,45 +118,6 @@ Stores secundarios:
 - Empezar página web — sin fecha.
 - Organizar Calendario — sin fecha.
 
-## Plan preliminar de migración
-
-Sin tocar nada todavía:
-
-### 🏡 Hogar y mandados / 🔁 Recurrentes
-
-- Pagar Luz - Elgin.
-- Pagar Luz - Z.11.
-- Pagar Mantenimiento - Antigua.
-- Pagar Mantenimiento - Cañada 16.
-
-### 🏠 Personal / 🔁 Recurrentes
-
-- Emitir Factura - Airbnb.
-- Pagar Tarjeta - Puntos.
-- Emitir Factura - Inquilinas.
-- Pagar Tarjeta - Millas.
-
-Nota: si JR considera que tarjetas/facturas de inmuebles son “Hogar y mandados”, moverlas ahí en vez de Personal.
-
-### 🚀 Proyectos / UK / 🔁 Recurrentes
-
-- Pagos a Terapeutas - Quincena.
-- Pagos a Terapeutas - Fin de Mes.
-
-### 🚀 Proyectos / UK / ✅ Tareas
-
-- Crear empresa de ToyLab y Talleres.
-- Crear una Nueva Cuenta de banco para ToyLab y Talleres.
-- Empezar página web.
-- Organizar Calendario.
-
-## Pendientes antes de ejecutar
-
-- Confirmar proyectos activos para crear subgrupos dentro de `🚀 Proyectos`.
-- Confirmar si tarjetas/facturas de inmuebles van en `🏠 Personal` o `🏡 Hogar y mandados`.
-- Confirmar autorización para crear estructura y migrar recordatorios.
-- Confirmar si se dejan estructuras viejas intactas al principio y se eliminan solo después de verificación.
-
 ## Relacionado
 
-- [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[geoffrey/integraciones|Integraciones — Geoffrey]] · [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]]
+- [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]] · [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[geoffrey/integraciones|Integraciones — Geoffrey]] · [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]]

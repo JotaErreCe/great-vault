@@ -52,12 +52,11 @@ Ejemplo esperado:
 3. Qué seguimiento nace de correos, WhatsApp/chats u otras comunicaciones.
 4. Qué recordatorios vencidos/de hoy/próximos requieren acción o reprogramación.
 5. Qué cambios del DCA/radar legal debe conocer para mantenerse actualizado en su rubro.
-6. Qué puede ignorar hoy.
-7. Qué puede ejecutar Geoffrey con aprobación.
+6. Qué puede ejecutar Geoffrey con aprobación.
 
 ## Estructura vigente
 
-La versión compacta preferida por JR se parece a este patrón: calendario/ventanas + pendientes vencidos visibles; comunicaciones específicas por asunto; DCA en bullets con instrumento linkeado; recordatorios/tareas; acciones aprobables. No incluir noticias por ahora. No incluir `Frentes abiertos` ni `Pendientes acumulados` como secciones fijas salvo que JR lo vuelva a pedir explícitamente.
+La versión compacta preferida por JR se parece a este patrón: calendario/ventanas + pendientes vencidos visibles; comunicaciones específicas por asunto; DCA en bullets con instrumento linkeado y materia concreta; recordatorios/tareas; acciones aprobables. No incluir noticias por ahora. No incluir `Frentes abiertos`, `Pendientes acumulados` ni `Puede ignorar hoy` como secciones fijas salvo que JR lo vuelva a pedir explícitamente.
 
 ### 1. 📅 Lo que le depara el día
 
@@ -140,6 +139,8 @@ Formato normal — compacto por defecto:
 
 > **[Instrumento / DocumentID](url):** una oración sobre qué pasó.
 
+No basta decir “acuerdo publicado” o “resolución institucional”: debe decir qué regula, aprueba, modifica, adjudica, reconoce o dispone. Si solo se obtiene miniatura/primera página, extraer al menos emisor, número y materia visible. Si no se puede saber qué es, omitirlo o marcar “no identificado”, no rellenar con metadata vacía.
+
 No explicar “por qué importa” salvo que sea alta relevancia directa para AMC Legal, Propi, SAT/IVE/AML, inmobiliario, clientes o decisión inmediata. La profundidad se ofrece bajo demanda.
 
 Si hay muchos hallazgos, máximo 3–5 principales; el resto se agrupa:
@@ -184,17 +185,7 @@ Mostrar recordatorios vencidos, de hoy y próximos relevantes, reorganizados por
 
 No listar todo si hay demasiados; agrupar y proponer limpieza.
 
-### 6. 💤 Puede ignorar hoy
-
-Sección breve de ahorro mental.
-
-Ejemplo:
-
-> Puede ignorar hoy: newsletters bancarios, promociones, spam, ruido de servicios y noticias políticas sin impacto jurídico directo.
-
-No usar esta sección para ocultar fallos. Si una fuente no se pudo revisar, decirlo como limitación técnica.
-
-### 7. ✅ Acciones que Geoffrey puede ejecutar
+### 6. ✅ Acciones que Geoffrey puede ejecutar
 
 Cierre obligatorio. Las acciones deben salir de comunicaciones y recordatorios, no de consejos genéricos.
 
@@ -235,6 +226,8 @@ No incluir por ahora:
 - Proyectos sin seguimiento concreto pendiente.
 - Secciones fijas de “Frentes abiertos”.
 - Secciones fijas de “Pendientes acumulados”.
+- Sección “Puede ignorar hoy”; lo ignorado se omite sin anunciarlo.
+- Bullets de DCA que digan solo “acuerdo publicado” sin materia concreta.
 - “Acciones sugeridas” demasiado obvias.
 - Briefs que suenan a plantilla.
 
@@ -304,7 +297,6 @@ Aunque haya poca información, el brief debe incluir:
 - Comunicaciones que requieren seguimiento o criterio claro de descarte.
 - DCA/radar legal Guatemala compacto.
 - Recordatorios/tareas relevantes.
-- Puede ignorar hoy.
 - Acciones ejecutables por Geoffrey, máximo 5–7.
 
 Si una fuente falla, decir exactamente qué fuente falló, qué alternativa se intentó y qué impacto tiene en la calidad del brief.
