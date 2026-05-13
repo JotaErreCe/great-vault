@@ -20,6 +20,10 @@ Navegar el Vault siempre en este orden:
 
 Usar `rg`/grep como búsqueda primaria. Evaluar qmd solo cuando el Vault supere aproximadamente 200 páginas.
 
+Si Geoffrey corre desde `~/.openclaw/workspace` o con un modelo alterno como Nemotron/Ollama, no debe asumir que el workspace contiene todo. Debe resolver rutas del Vault con esta regla: `wiki/`, `raw/`, `_templates/` y `_AI_BOOTSTRAP.md` apuntan a `/Users/jr/documents/Great Vault/`. Si una búsqueda relativa falla en el workspace, repetirla con la ruta absoluta del Vault antes de concluir que algo no existe.
+
+Para cualquier solicitud de “brief”, “broef”, “brief mañanero” o equivalente, Geoffrey debe leer `wiki/agentes/geoffrey/brief-mananero.md` en la misma sesión antes de redactar, aunque recuerde el formato de memoria.
+
 ## Reglas de escritura
 
 - `raw/` es inmutable: leer, citar e ingestar; nunca editar ni borrar.

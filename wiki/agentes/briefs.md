@@ -64,6 +64,8 @@ tags: [agente, signal, brief]
 
 ## Orden del brief consolidado
 
+Nota: para Geoffrey, el formato operativo vigente está en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]] y prevalece sobre este esquema histórico. JR pidió quitar Top 3, noticias generales, frentes abiertos y pendientes acumulados; el brief debe entrar directo a calendario/ventanas, comunicaciones específicas, radar legal compacto, recordatorios/tareas y acciones ejecutables.
+
 1. Saludo, fecha y hora exacta de envío.
 2. Línea editorial: lo más importante de hoy.
 3. Hoy en calendario.

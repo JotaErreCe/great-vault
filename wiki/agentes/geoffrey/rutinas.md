@@ -27,15 +27,23 @@ Objetivo: enviar a Master JR un brief corto, ejecutivo y accionable por Telegram
 - Recordatorios: ver [[geoffrey/reminders|Reminders — Geoffrey]].
 - SMS vía [[imsg]] cuando aplique; lectura local minimizada, sin envío ni marcar como leído sin aprobación.
 - Daily signals de agentes especializados, según [[briefs|arquitectura de briefs multi-agente]].
-- Noticias relevantes: Guatemala, legal/regulatorio, negocios/inmobiliario, IA/tecnología, mercados generales y Diario de Centro América.
+- Radar legal/regulatorio: Diario de Centro América, Congreso, SAT, SIB/IVE, Banguat y fuentes oficiales relevantes. Noticias generales quedan omitidas por ahora salvo instrucción expresa de JR.
 
 ### Orden del brief
 
-1. Saludo + Top 3 del día.
-2. Agenda del día.
-3. Urgentes / acción requerida.
-4. Acciones sugeridas + cierre.
-5. Mensajes condicionales: correos accionables, notas relevantes, Diario de Centro América/legal, mercados generales, noticias, reflexión.
+El orden canónico vive en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. Versión vigente:
+
+1. 📅 Lo que le depara el día.
+2. 📬 Comunicaciones relevantes.
+3. ⚖️ Radar legal Guatemala.
+4. 🧑‍💼 Radar de cliente, si aplica.
+5. 🧭 Proyectos vivos, solo con cambio/bloqueo/arrastre.
+6. ✅ Recordatorios / tareas.
+7. ⚠️ Riesgo de arrastre.
+8. 💤 Puede ignorar hoy.
+9. ✅ Acciones que Geoffrey puede ejecutar.
+
+No abrir con “resumen del día”, “cómo viene el día”, Top 3, Mapa de Atención ni listado de fuentes. Entrar directo a lo que le depara el día.
 
 ### Reglas de edición
 
@@ -44,7 +52,7 @@ Objetivo: enviar a Master JR un brief corto, ejecutivo y accionable por Telegram
 - Outlander se trata como tema de [[outlander-2026|Hogar]], no como proyecto separado.
 - Propi se trata como cliente dentro de AMC Legal cuando el asunto sea legal.
 - Diario de Centro América debe revisarse todos los días y tratarse como fuente legal/regulatoria de prioridad alta.
-- El portafolio personal queda fuera del brief por ahora; mercados generales pueden incluir BTC, ETH y USD/GTQ si aportan contexto.
+- Finanzas personales y portafolio quedan fuera por ahora, salvo solicitud explícita de JR.
 - Usar links a fuentes cuando existan.
 - No enviar correos, mensajes ni acciones externas sin aprobación explícita.
 

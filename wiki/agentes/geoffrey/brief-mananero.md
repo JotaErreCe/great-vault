@@ -1,12 +1,14 @@
 ---
 type: reference
-date: 2026-05-08
+date: 2026-05-13
 tags: [agente, geoffrey, brief, rutina]
 ---
 
 # Brief mañanero — Geoffrey
 
-Especificación operativa del brief diario que Geoffrey debe enviar a Master JR por Telegram. El brief no es un resumen ejecutivo ni una lista de fuentes: es una **lectura concreta de qué le depara el día a JR**, con radar legal, comunicaciones relevantes y acciones que Geoffrey puede ejecutar con aprobación.
+Especificación operativa del brief diario que Geoffrey debe enviar a Master JR por Telegram.
+
+El brief es un **seguimiento operativo**: cosas que a JR se le podrían haber olvidado, comunicaciones que necesitan seguimiento, recordatorios que requieren acción y actualización compacta del Diario de Centro América / radar legal. No es resumen ejecutivo, newsletter ni “qué pasó hoy”.
 
 ## Entrega
 
@@ -14,21 +16,26 @@ Especificación operativa del brief diario que Geoffrey debe enviar a Master JR 
 - **Hora objetivo:** 7:15 AM Guatemala.
 - **Ventana aceptable:** 6:30–8:00 AM Guatemala.
 - **Formato:** mensajes separados por sección, no un bloque único.
-- **Extensión:** útil pero comprimida. Preferir 4–6 mensajes cortos. Profundidad bajo demanda.
+- **Extensión:** útil pero comprimida. Preferir 4–6 mensajes cortos.
 - **Trato:** siempre de **usted**.
 - **Idioma:** español, con términos técnicos en inglés cuando sean naturales.
+- **Tono:** concreto, específico, filtrado, personalizado; no sonar a plantilla.
 
 ## Principio editorial
 
-El brief debe entrar en materia. No abrir con “resumen del día”, “estado general” ni Top 3. JR quiere saber directamente:
+Entrar en materia. No abrir con:
 
-1. **Qué tiene hoy en calendario y qué ventanas reales tiene.**
-2. **Qué comunicaciones/proyectos se movieron, exactamente.**
-3. **Qué cambios legales/regulatorios debe tener en radar.**
-4. **Qué pendientes o riesgos se están arrastrando.**
-5. **Qué puede hacer Geoffrey con aprobación: calendario, recordatorios, mensajes, correos, investigación, organización.**
+- “resumen del día”;
+- “cómo viene el día”;
+- “estado general”;
+- “Mapa de atención”;
+- Top 3.
 
-Regla de oro: **no decir “hubo movimiento” sin explicar el movimiento.** Cada item relevante debe decir quién hizo qué, sobre qué documento/asunto, qué cambió y qué queda pendiente.
+JR no quiere saber “qué pasó” como noticia. Quiere saber **qué necesita pasar**. Solo incluir qué pasó como contexto mínimo para explicar qué debe pasar después.
+
+Regla central:
+
+> Contexto breve → acción/seguimiento necesario.
 
 Ejemplo prohibido:
 
@@ -36,71 +43,211 @@ Ejemplo prohibido:
 
 Ejemplo esperado:
 
-> “Thelma envió versión revisada del contrato de Sur Desarrollos; Astrid quedó copiada para coordinar firma; falta que usted confirme si acepta la cláusula X / si responde con observaciones.”
+> **Propi — Sur Desarrollos:** Thelma mandó observaciones al contrato; falta que usted defina si acepta los cambios o si quiere que prepare respuesta con contraobservaciones.
 
-Si Geoffrey no puede ver el contenido suficiente para ser específico, debe decirlo: “solo pude ver remitente/asunto, no cuerpo/adjuntos”, y sugerir revisar el hilo.
+## Qué debe cubrir
 
-## Fuentes autorizadas / previstas
+1. Qué tiene hoy en calendario y qué ventanas reales tiene.
+2. Qué comunicaciones necesita contestar, revisar o recordar.
+3. Qué seguimiento nace de correos, WhatsApp/chats u otras comunicaciones.
+4. Qué recordatorios vencidos/de hoy/próximos requieren acción o reprogramación.
+5. Qué cambios del DCA/radar legal debe conocer para mantenerse actualizado en su rubro.
+6. Qué puede ignorar hoy.
+7. Qué puede ejecutar Geoffrey con aprobación.
 
-- Calendario del día.
-- Apple Reminders: vencidos, hoy y próximos deadlines críticos.
-- Gmail/Apple Mail autorizado según [[geoffrey/integraciones|integraciones]].
-- SMS vía [[imsg]], solo lectura local y minimizada.
-- Apple Notes, cuando la integración esté autorizada.
-- Great Vault: [[dashboard]], proyectos activos, agenda, conversación diaria y notas relevantes.
-- Web: Diario de Centro América, Congreso, SAT, SIB/IVE, Banguat y fuentes regulatorias relevantes. Noticias generales omitidas por ahora.
+## Estructura vigente
 
-## Estructura del brief
+La versión compacta preferida por JR se parece a este patrón: calendario/ventanas + pendientes vencidos visibles; comunicaciones específicas por asunto; DCA en bullets con instrumento linkeado; recordatorios/tareas; acciones aprobables. No incluir noticias por ahora. No incluir `Frentes abiertos` ni `Pendientes acumulados` como secciones fijas salvo que JR lo vuelva a pedir explícitamente.
 
 ### 1. 📅 Lo que le depara el día
 
-Primera sección obligatoria. Entrar directo:
+Primera sección obligatoria. Empezar aquí.
+
+Incluir:
 
 - Día y fecha.
 - Eventos del calendario con hora, duración, ubicación/link si existe.
 - Recordatorios vencidos/de hoy que afecten el día.
 - Ventanas reales de trabajo: mañana/tarde/noche.
 - Conflictos, traslapes, falta de buffer o preparación necesaria.
+- Qué necesita pasar hoy, no solo qué está agendado.
 
-Si no hay agenda fuerte, decir qué oportunidad crea:
+Ejemplo:
 
-> “No veo reuniones fijas antes de las 11:00; eso deja una ventana limpia para revisar contratos de Propi.”
+> No veo reuniones fijas antes de las 11:00; esa ventana debería usarse para cerrar Propi o avanzar tesis. Si se va en correos sueltos, el pendiente vuelve a arrastrarse.
 
-### 2. 📬 Comunicaciones relevantes
+### 2. 📬 Comunicaciones que requieren seguimiento
 
-Solo incluir comunicaciones que merecen atención. No newsletters ni ruido. Clasificar por proyecto/asunto, no por bandeja.
+Esta sección es el corazón del brief.
 
-Para cada hilo o conversación:
+No listar correos. Decir qué necesita atención y qué debe pasar después.
 
-- **Link para abrir:** cuando sea correo, incluir enlace directo si se puede construir (`message://...` o equivalente). El link debe estar en el texto del asunto o título.
-- **Quién:** remitente/persona.
-- **Qué pasó exactamente:** documento enviado, respuesta recibida, pregunta planteada, cambio de versión, coordinación solicitada, deadline, adjunto, etc.
-- **Siguiente movimiento:** responder, leer, agendar, delegar, esperar, ignorar.
-- **Limitación:** si solo se pudo ver asunto/remitente o no se pudo generar link, indicarlo claramente.
+Fuentes: correos, WhatsApp/chats cuando estén disponibles, SMS relevantes, Apple Mail/Gmail autorizado y cualquier comunicación local autorizada.
 
-Omitir “por qué importa” cuando sea obvio por el contexto; incluirlo solo si cambia la prioridad.
+Para cada comunicación relevante:
+
+- **Proyecto/asunto.**
+- **Quién escribió o intervino.**
+- **Contexto mínimo:** qué pasó, solo lo necesario para entender el seguimiento.
+- **Qué necesita pasar:** contestar, revisar, pedir documento, aprobar, calendarizar, crear reminder, esperar, delegar.
+- **Si JR no contestó:** marcarlo como seguimiento pendiente.
+- **Limitación:** si solo se pudo ver asunto/remitente o no cuerpo/adjuntos, decirlo.
+
+Clasificación sugerida:
+
+- **Contestar / resolver hoy.**
+- **Revisar para decidir.**
+- **Agregar a recordatorio/calendario.**
+- **Esperar / sin acción por ahora.**
+- **Ignorar / ruido.**
 
 Formato esperado:
 
-> **Propi — Contrato Alianza Intense Group**  
-> Astrid envió/reenviió el hilo “Contrato Alianza Intense Group”; Thelma y Andres también intervinieron en las últimas 24h. Falta revisar si el último correo trae versión final, observaciones del abogado de Intense o coordinación de firma.  
-> **Siguiente movimiento:** revisar hilo y separar: versión actual / puntos abiertos / quién debe responder.
+> **Propi — Contrato firma JM**  
+> Astrid y Thelma movieron el hilo esta mañana. Solo pude verificar remitentes/asunto, no el cuerpo ni adjuntos.  
+> **Qué necesita pasar:** abrir el hilo y confirmar si falta firma, versión final o instrucción a José Mario. Si quiere, preparo matriz del hilo.
 
-### 3. ⚖️ Radar legal Guatemala
+### 3. ⚖️ Diario de Centro América / radar legal Guatemala
 
-Esta sección no busca solo acciones inmediatas. Su función es mantener a JR actualizado como abogado/empresario sobre acuerdos, reformas, decretos, resoluciones y cambios regulatorios.
+Esta sección no busca acciones inmediatas. Sirve para mantener a JR actualizado como abogado/empresario sobre cómo van cambiando leyes, acuerdos, resoluciones, criterios e instituciones.
+
+Debe revisarse diario, pero con criterio. No listar todo el DCA.
 
 Subfuentes prioritarias:
 
 1. Diario de Centro América / portal legal.
 2. Congreso: iniciativas, dictámenes, reformas relevantes.
 3. SAT: acuerdos, resoluciones, criterios, registros, cumplimiento tributario.
-4. SIB / IVE / AML: prevención de lavado, banca, cumplimiento financiero.
-5. Banguat / Junta Monetaria cuando afecte economía, pagos, crédito o tipo de cambio.
-6. CC / CSJ / Organismo Judicial cuando haya resoluciones o acuerdos relevantes.
+4. SIB / IVE / AML.
+5. Banguat / Junta Monetaria.
+6. CC / CSJ / Organismo Judicial.
 7. Municipalidades si afecta inmuebles, licencias, construcción, operación o clientes.
 
-### DCA — protocolo robusto
+Temas siempre relevantes:
+
+- SAT, impuestos, facturación, registros tributarios, compliance.
+- IVE/AML, sujetos obligados, prevención de lavado.
+- Inmobiliario, licencias, municipalidades, construcción, arrendamientos.
+- Sociedades, Registro Mercantil, gobierno corporativo, representación legal.
+- Contratación pública, licitaciones, presupuesto estatal si afecta clientes o negocio.
+- Laboral, IGSS, Ministerio de Trabajo.
+- Banca/SIB, pagos, crédito, regulación financiera.
+- Congreso cuando impacte legal, fiscal, inmobiliario, empresarial o seguridad jurídica.
+- Educación/terapias si afecta Understanding Kids.
+- Tecnología, AI, e-commerce o pagos si afecta Crisol, UK o productividad de JR.
+
+Formato normal — compacto por defecto:
+
+> **[Instrumento / DocumentID](url):** una oración sobre qué pasó.
+
+No explicar “por qué importa” salvo que sea alta relevancia directa para AMC Legal, Propi, SAT/IVE/AML, inmobiliario, clientes o decisión inmediata. La profundidad se ofrece bajo demanda.
+
+Si hay muchos hallazgos, máximo 3–5 principales; el resto se agrupa:
+
+> Omití X licitaciones/avisos sin conexión clara con clientes o proyectos.
+
+Si no hay algo fuerte:
+
+> DCA revisado con criterio SAT/IVE/inmobiliario/sociedades/laboral; no encontré publicaciones de alta relevancia. Omití avisos administrativos, convocatorias sin conexión clara y publicaciones sin impacto para su práctica.
+
+No decir “sin acción inmediata” como conclusión principal.
+
+### 4. 🧑‍💼 Radar de cliente
+
+Incluir solo si hay señal real.
+
+Objetivo: anticipar consultas de clientes o ángulos útiles para AMC Legal.
+
+Ejemplos:
+
+- SAT cambia registro de contadores → clientes con contabilidad externa.
+- IVE/AML → Propi, inmobiliarias, sujetos obligados, clientes corporativos.
+- Presupuesto/lictitaciones → contratistas, proveedores del Estado, ejecución pública.
+- Municipalidad/licencias → inmobiliario, construcción, locales comerciales.
+- Laboral/IGSS → clientes con planillas o contratación.
+
+Formato:
+
+> **Radar de cliente:** si alguien de Propi pregunta por IVE/AML, conviene responder desde sujeto obligado y debida diligencia, no como trámite administrativo.
+
+### 5. ✅ Recordatorios / tareas
+
+Dar peso alto a Apple Reminders.
+
+Mostrar recordatorios vencidos, de hoy y próximos relevantes, reorganizados por qué necesita pasar:
+
+- **Hacer hoy.**
+- **Reprogramar.**
+- **Convertir en mensaje/correo.**
+- **Agregar a calendario.**
+- **Archivar/completar si ya no aplica.**
+
+No listar todo si hay demasiados; agrupar y proponer limpieza.
+
+### 6. 💤 Puede ignorar hoy
+
+Sección breve de ahorro mental.
+
+Ejemplo:
+
+> Puede ignorar hoy: newsletters bancarios, promociones, spam, ruido de servicios y noticias políticas sin impacto jurídico directo.
+
+No usar esta sección para ocultar fallos. Si una fuente no se pudo revisar, decirlo como limitación técnica.
+
+### 7. ✅ Acciones que Geoffrey puede ejecutar
+
+Cierre obligatorio. Las acciones deben salir de comunicaciones y recordatorios, no de consejos genéricos.
+
+Máximo 5–7 acciones.
+
+Incluir opciones como:
+
+- Agregar evento al calendario.
+- Crear/modificar recordatorio.
+- Mover o sugerir mover cita.
+- Preparar borrador de correo, WhatsApp o mensaje.
+- Enviar mensaje/correo solo si JR aprueba texto final.
+- Ordenar un hilo de correos en matriz.
+- Profundizar en DCA/SAT/SIB/Congreso.
+- Preparar nota legal breve para cliente/proyecto.
+- Revisar un sistema o archivo local.
+
+Formato:
+
+> 1. Le preparo matriz del hilo Propi: asunto / última intervención / qué falta / respuesta sugerida.  
+> 2. Creo reminder para pagar luz/mantenimiento hoy 5:00 PM.  
+> 3. Le redacto respuesta para Thelma preguntando por versión final y firma.  
+> 4. Agrego bloque de tesis de 90 min al calendario.
+
+Cierre:
+
+> ¿Aprueba alguna? Puede responder con números o decirme qué ajusto.
+
+## Exclusiones
+
+No incluir por ahora:
+
+- Finanzas personales.
+- Portafolio personal.
+- Noticias por el momento.
+- Correos tipo newsletter.
+- Listas largas de DCA sin relevancia.
+- Proyectos sin seguimiento concreto pendiente.
+- Secciones fijas de “Frentes abiertos”.
+- Secciones fijas de “Pendientes acumulados”.
+- “Acciones sugeridas” demasiado obvias.
+- Briefs que suenan a plantilla.
+
+## Reglas de compresión
+
+- DCA: una oración + link/DocumentID. Expandir solo si es claramente crítico.
+- Noticias/radar externo: máximo 3, cada una con una línea de “por qué le importa”.
+- Por ahora, no incluir noticias; esta regla queda suspendida hasta nueva instrucción.
+- Comunicaciones: contexto mínimo; foco en qué necesita pasar.
+- Acciones: máximo 5–8 cuando haya suficientes seguimientos reales; si hay demasiadas, agrupar.
+- Evitar repetir “por qué importa” cuando el siguiente movimiento ya lo deja claro.
+
+## DCA — protocolo robusto
 
 No depender solo de la portada `dca.gob.gt`. Usar:
 
@@ -122,90 +269,52 @@ Categorías mínimas DCA:
 - Otras instituciones: acuerdos/resoluciones varias, acuerdos municipales, avisos si parecen relevantes.
 - Convocatorias: licitaciones, subastas, balances/estados solo si tienen relevancia pública, legal o para clientes/proyectos.
 
-Cómo resumir cada hallazgo legal:
+## Fuentes autorizadas / previstas
 
-- **Formato normal — compacto:** una línea por hallazgo: `Instrumento + emisor — una oración de qué pasó. Link/DocumentID para ampliar.`
-- **No expandir de oficio** relevancia, conexión o seguimiento salvo que sea claramente crítico para JR/AMC Legal/clientes.
-- **Expandir solo si:** afecta directamente Propi/AMC Legal, SAT/IVE/AML, inmobiliario, obligaciones de clientes, plazos o decisiones inmediatas.
-- **Fuente:** enlace directo o `DocumentID`.
+- Calendario del día.
+- Apple Reminders: vencidos, hoy y próximos deadlines críticos.
+- Gmail/Apple Mail autorizado según [[geoffrey/integraciones|integraciones]].
+- SMS vía [[imsg]], solo lectura local y minimizada.
+- WhatsApp/chats cuando la integración esté disponible/autorizada.
+- Apple Notes, cuando la integración esté autorizada.
+- Great Vault: [[dashboard]], proyectos activos, agenda, conversación diaria y notas relevantes.
+- Web: DCA, Congreso, SAT, SIB/IVE, Banguat, CC/CSJ/OJ, municipalidades relevantes.
 
-Ejemplo esperado:
-
-> **[SAT DSI-589-2026](https://legal.dca.gob.gt/GestionDocumento/VisualizarDocumento?verDocumentoPrevia=True&versionImpresa=False&doc=359951):** nuevas disposiciones para el Registro de Contadores ante SAT.
-
-No decir “sin acción material” como cierre principal. Si no hay nada fuerte, decir: “DCA revisado; hallazgos principales abajo, resto omitido por baja relevancia”.
-
-### 4. ✅ Recordatorios / tareas
-
-Dar más peso a Apple Reminders. Mostrar recordatorios vencidos, de hoy y próximos relevantes, reorganizados por acción sugerida:
-
-- **Hacer hoy**: vencidos o importantes que conviene resolver hoy.
-- **Reprogramar**: vencidos que siguen vivos pero necesitan nueva fecha.
-- **Delegar/mensaje**: tareas que implican escribirle a alguien.
-- **Archivar/completar**: tareas que parecen ya resueltas y solo requieren confirmación.
-
-No listar todo si hay demasiados; agrupar y proponer limpieza.
-
-### 5. ✅ Acciones que Geoffrey puede ejecutar
-
-Cierre obligatorio. No solo “acciones sugeridas”; deben ser acciones aprobables y ejecutables por Geoffrey.
-
-Incluir opciones como:
-
-- Agregar evento al calendario.
-- Crear/modificar recordatorio.
-- Mover o sugerir mover cita.
-- Preparar borrador de correo o mensaje.
-- Enviar mensaje/correo solo si JR aprueba texto final.
-- Ordenar un hilo de correos en matriz.
-- Profundizar en DCA/SAT/SIB/Congreso.
-- Preparar nota legal breve para cliente/proyecto.
-- Actualizar una página del Vault.
-- Revisar un sistema o archivo local.
-
-Formato:
-
-> 1. Creo recordatorio para X el lunes 9:00.  
-> 2. Le preparo matriz de Propi: contrato / versión / contraparte / pendiente / respuesta sugerida.  
-> 3. Hago nota radar sobre SAT Acuerdo 3-2026.  
-> 4. Redacto mensaje para Thelma preguntando por versión final y firma.
-
-Cierre:
-
-> ¿Aprueba alguna? Puede responder con números o decirme qué ajusto.
-
-## Reglas de especificidad
+## Reglas duras de especificidad
 
 1. Prohibido usar frases vagas como “hubo movimiento”, “hay temas”, “revisar pendientes” sin detalle.
-2. Si hay correo/mensaje relevante, buscar cuerpo, adjuntos, asunto, remitentes y hora antes de resumir. Si no se puede, decir la limitación.
-3. Para proyectos: decir el cambio concreto o el bloqueo concreto.
-4. Para legal/regulatorio: decir número de instrumento, emisor y materia cuando esté disponible.
-5. Para calendario: decir horas reales y ventanas reales.
-6. Para acciones: proponer tareas que Geoffrey pueda ejecutar, no consejos genéricos.
-7. Omitir finanzas personales por ahora, salvo que JR lo pida explícitamente.
-8. No incluir portafolio personal, montos financieros sensibles ni composición patrimonial en Telegram.
+2. Prohibido decir “no encontré nada relevante” sin explicar criterio mínimo de búsqueda/descarte.
+3. Si hay correo/chat relevante, buscar cuerpo, adjuntos, asunto, remitentes y hora antes de resumir. Si no se puede, decir la limitación.
+4. No centrar el brief en “qué pasó”; usar contexto breve solo para explicar qué necesita pasar.
+5. Para legal/regulatorio: decir instrumento, emisor, materia y relevancia cuando esté disponible.
+6. Para calendario: decir horas reales y ventanas reales.
+7. Para acciones: proponer tareas ejecutables por Geoffrey basadas en comunicaciones o recordatorios.
+8. Omitir finanzas personales por ahora.
 9. Propi se trata como AMC Legal cuando el asunto sea legal; como proyecto solo si no es jurídico.
-10. Roamy, Diplomado de Autismo y Outlander se omiten salvo evento real relevante.
+10. Roamy, Diplomado de Autismo y Outlander se omiten salvo seguimiento concreto pendiente.
+11. No repetir proyectos sin seguimiento pendiente.
+12. No incluir newsletters salvo que traigan señal accionable.
+13. Evitar briefs que suenen a plantilla: adaptar tono, orden y énfasis al día real.
 
 ## Estándar mínimo de salida
 
 Aunque haya poca información, el brief debe incluir:
 
-- Lo que le depara el día: agenda, recordatorios y ventanas.
-- Comunicaciones relevantes con movimiento específico o limitación clara.
-- Radar legal Guatemala compacto: DCA en una oración por hallazgo + link/DocumentID; ampliar solo si es crítico.
-- Recordatorios/tareas con más enfoque: vencidos, hoy, próximos y propuesta de reorganización.
-- No incluir frentes abiertos, pendientes acumulados ni noticias generales por ahora.
+- Lo que le depara el día.
+- Comunicaciones que requieren seguimiento o criterio claro de descarte.
+- DCA/radar legal Guatemala compacto.
+- Recordatorios/tareas relevantes.
+- Puede ignorar hoy.
 - Acciones ejecutables por Geoffrey, máximo 5–7.
 
-Si no puede cumplir por fallo técnico, debe decir exactamente qué fuente falló y qué alternativa intentó.
+Si una fuente falla, decir exactamente qué fuente falló, qué alternativa se intentó y qué impacto tiene en la calidad del brief.
 
 ## Privacidad y ejecución
 
 - No ejecutar acciones sin confirmación explícita.
 - No enviar correos, SMS ni mensajes sin aprobación por acción y texto final.
 - No marcar mensajes/correos como leídos ni archivar sin aprobación.
-- No incluir finanzas personales en Telegram por ahora.
+- No incluir finanzas personales sensibles en Telegram por ahora.
 - Resumir información confidencial sin transcribir verbatim salvo que JR lo pida.
 
 ## Relacionado

@@ -19,6 +19,8 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 - JR espera que Geoffrey revise skills instaladas y ClawHub antes de improvisar soluciones; debe auditar la skill, verificar si está limpia, y si no existe una adecuada sugerir crearla.
 - JR aprobó que Geoffrey guarde resúmenes diarios de conversaciones en `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md`, siempre que no dupliquen `memoria.md` ni `wiki/log/`: conversaciones = continuidad diaria; memoria = preferencias/reglas duraderas; log = cambios al Vault.
 - JR quiere que Geoffrey cree checkpoints formales antes de compaction, reset, `/new`, borrado de contexto, cambio de sesión importante o pérdida probable de memoria de trabajo; deben vivir en `wiki/agentes/geoffrey/checkpoints/`, usar la plantilla `geoffrey-checkpoint` y evitar transcripts crudos.
+- JR señaló el 2026-05-13 que al usar Nemotron/modelos alternos Geoffrey no estaba buscando correctamente sus carpetas. Regla duradera: todos los modelos deben resolver el runtime `~/.openclaw/workspace` hacia el Vault canónico cuando busquen `wiki/`, `raw/`, `_templates/`, `_AI_BOOTSTRAP.md` o el paquete de Geoffrey.
+- JR reclamó que el brief pedido on-demand no respeta lo acordado. Regla duradera: antes de generar cualquier brief/broef, Geoffrey debe leer la especificación canónica `wiki/agentes/geoffrey/brief-mananero.md` y seguirla, no reconstruirla de memoria.
 
 ## Sobre el Great Vault
 

@@ -15,7 +15,9 @@ La especificación operativa vive en [[geoffrey/brief-mananero|Brief mañanero �
 - Trato siempre de **usted**.
 - Hora objetivo: 7:15 AM Guatemala; ventana aceptable 6:30–8:00 AM.
 - Diario de Centro América se revisa todos los días como fuente legal/regulatoria prioritaria.
-- Portafolio personal excluido por ahora; solo mercados generales si aportan.
+- El brief entra directo a lo que le depara el día; no inicia con resumen, Top 3 ni Mapa de Atención.
+- Portafolio y finanzas personales excluidos por ahora, salvo solicitud explícita de JR.
+- Noticias generales solo si afectan intereses reales de JR; máximo 3 y siempre con “por qué le importa”.
 - SMS autorizado vía [[imsg]] para lectura local minimizada; no enviar ni marcar como leído sin aprobación explícita.
 
 ## Gmail
