@@ -68,3 +68,7 @@ JR · Conejos · joserca95@gmail.com · Festivos en Guatemala · Todoist · Fami
 
 - [[tesis]] — entrega semanal miércoles 6 PM
 - [[outlander-2026]] — referencia para autos
+
+## Relacionado
+
+- [[index]]

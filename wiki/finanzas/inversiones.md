@@ -95,7 +95,7 @@ Datos verificados en Apple Mail local al 2026-05-07. No guardar credenciales, li
 |-------|------|
 | Institución | IDC Valores, S.A. / Grupo IDC |
 | Producto | Fondo Líquido de Inversión Dólares IDC |
-| Cliente IDC | 51366 |
+| Cliente IDC | ver `_sensitive.md` |
 | Titulares | José Roberto Castañeda Arriola o Mónica Samayoa Mendoza de Castañeda |
 | Ejecutivo | Lucrecia Urruela |
 | Contacto servicio | idcvalores@grupoidc.com / 2291-8181 |
@@ -161,3 +161,7 @@ Rendimientos anualizados reportados:
 - [[patrimonio]]
 - [[IDENTITY]]
 - [[recordatorios]] — recordatorio del portafolio RESUELTO con esta nota
+
+## Relacionado
+
+- [[index]]

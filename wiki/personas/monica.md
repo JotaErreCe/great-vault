@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-04-30
 rol: Terapeuta infantil / Directora
 empresa: Understanding Kids
@@ -49,3 +49,7 @@ Esposa de [[jr]]. Terapeuta infantil y directora de [[understanding-kids]], su c
 - [[integracion-sensorial]] — submarca que opera dentro de la clínica
 - [[diplomado-autismo-2026]] — campaña activa de formación
 - [[nicolas]] — hijo de ambos
+
+## Relacionado
+
+- [[index]]

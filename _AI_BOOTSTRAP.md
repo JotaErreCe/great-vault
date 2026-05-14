@@ -161,7 +161,7 @@ If an agent wakes up after memory loss, it must recover from its package: read `
 
 ```yaml
 ---
-type: [daily|proyecto|persona|idea|research|reference|resource|inbox]
+type: [daily|proyecto|persona|entidad|idea|research|reference|resource|inbox|dashboard|index|group]
 date: YYYY-MM-DD
 tags: [tag1, tag2, ...]
 ---
@@ -177,7 +177,7 @@ tags: [tag1, tag2, ...]
 
 ## Tag system
 
-- **Tipo:** `daily`, `proyecto`, `persona`, `research`, `idea`, `reference`, `resource`, `inbox`
+- **Tipo:** `daily`, `proyecto`, `persona`, `entidad`, `research`, `idea`, `reference`, `resource`, `inbox`, `dashboard`, `index`, `group`
 - **Estado:** `estado/activo`, `estado/pausado`, `estado/completado`
 - **Prioridad:** `prioridad/alta`, `prioridad/media`, `prioridad/baja`
 - **Tema:** `tema/[categoria]` (ej: `tema/autismo`, `tema/marketing`, `tema/legal`)
@@ -186,11 +186,11 @@ tags: [tag1, tag2, ...]
 
 **Nombres de archivo:** `lowercase-con-guiones.md` — NUNCA UPPERCASE, espacios, números al inicio.
 
-**Excepciones de compatibilidad:** archivos bootstrap/runtime de agentes pueden usar nombres esperados por OpenClaw (`AGENT.md`, `SOUL.md`, `IDENTITY.md`, `README.md`) cuando el runtime o la plantilla lo requiere. No crear nuevas excepciones sin documentarlas.
+**Excepciones documentadas:** archivos bootstrap/runtime de agentes pueden usar nombres esperados por OpenClaw (`AGENT.md`, `SOUL.md`, `IDENTITY.md`, `README.md`, `HEARTBEAT.md`, `TOOLS.md`, `USER.md`, `AGENTS.template.md`) cuando el runtime o la plantilla lo requiere. Logs mensuales, conversaciones y checkpoints pueden iniciar con fecha ISO (`2026-05.md`, `2026-05-13.md`, `checkpoint-YYYY-MM-DD-...`). No crear nuevas excepciones sin documentarlas.
 
 **Wikilinks:** usar doble corchete para referencias internas reales, por ejemplo `[[index]]` o `[[vault-map|Vault Map]]`. Nunca `[texto](ruta)` para archivos internos.
 
-**Sección Relacionado:** obligatoria al final de todo archivo wiki, excepto daily notes y bootstrap.
+**Sección Relacionado:** obligatoria al final de todo archivo wiki, excepto daily notes, logs append-only, conversaciones/checkpoints de agente y bootstrap.
 
 **Estructura de nota wiki (típica):**
 ```markdown
@@ -215,9 +215,10 @@ tags: [tags]
 
 ## Reglas de seguridad
 
-- Datos sensibles (NIT, DPI, dirección, cuentas, credenciales, tokens): SOLO en `_sensitive.md`.
-- NUNCA crear archivos con API keys, contraseñas o PII fuera de `_sensitive.md`.
-- Si detectas datos sensibles en wiki/ o raw/, es un bug — reportar al usuario.
+- Datos sensibles (NIT, DPI, dirección exacta, cuentas completas, identificadores financieros de cliente, credenciales, tokens): SOLO en `_sensitive.md`.
+- Contactos operativos de negocio (correos/teléfonos públicos o de clientes/proveedores) pueden vivir en wiki si sirven para operación; datos personales íntimos, residencia precisa, documentos de identidad, números completos de cuenta/tarjeta y secretos van en `_sensitive.md` o se reemplazan por `ver _sensitive.md`.
+- NUNCA crear archivos con API keys, contraseñas o PII sensible fuera de `_sensitive.md`.
+- Si detectas datos sensibles en wiki/ o raw/, es un bug — reportar al usuario sin imprimir el valor.
 
 ---
 

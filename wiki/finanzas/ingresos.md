@@ -26,8 +26,8 @@ Fuentes de ingreso de [[jr]]. Como de 2026-04.
 | Fuente | Detalle |
 |--------|---------|
 | **Artes [[understanding-kids]]** | Ingreso fijo por diseño de materiales gráficos para UK |
-| **Renta apartamento [[propiedades\|Z16 / Hexa Cañadá 16]]** | Renta mensual del apartamento en Zona 16 |
-| **Airbnb [[propiedades\|Museo San Mateo]]** | Ingreso variable pero recurrente del Airbnb |
+| **Renta apartamento [[propiedades|Z16 / Hexa Cañadá 16]]** | Renta mensual del apartamento en Zona 16 |
+| **Airbnb [[propiedades|Museo San Mateo]]** | Ingreso variable pero recurrente del Airbnb |
 | **Renta Casa Antigua a [[healing-hands]]** | Ingreso fijo del arrendamiento de la casa en La Antigua |
 
 ---
@@ -43,3 +43,7 @@ Fuentes de ingreso de [[jr]]. Como de 2026-04.
 - [[finanzas/index|Finanzas]]
 - [[propiedades]]
 - [[patrimonio]]
+
+## Relacionado
+
+- [[index]]

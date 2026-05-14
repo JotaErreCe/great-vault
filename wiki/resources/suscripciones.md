@@ -66,3 +66,7 @@ Gastos fijos mensuales de [[jr]]. Como de 2026-04 — pendiente completar montos
 ## 🔗 Relacionado
 
 - [[outlander-2026]] — el plan del Outlander es parte de estos fijos
+
+## Relacionado
+
+- [[index]]

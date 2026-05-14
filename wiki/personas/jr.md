@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-04-30
 aliases: [JotaErre, JR, José Roberto, José Roberto Castañeda]
 rol: Dueño del vault
@@ -26,7 +26,7 @@ Dueño de este vault. Aliases: **JotaErre**, **JR**. Como de 2026-04.
 - **Apodos:** JotaErre, JR
 - **Nacimiento:** 26 octubre 1995 (30 años)
 - **Origen:** La Antigua Guatemala
-- **Residencia actual:** Zona 13, Ciudad de Guatemala
+- **Residencia actual:** Ciudad de Guatemala (detalle exacto en `_sensitive.md`)
 - **Profesión:** Abogado independiente — [[amc-legal]]
 
 ---
@@ -54,3 +54,7 @@ Dueño de este vault. Aliases: **JotaErre**, **JR**. Como de 2026-04.
 - [[IDENTITY]]
 - [[IDENTITY]]
 - [[amc-legal]] — su despacho
+
+## Relacionado
+
+- [[index]]

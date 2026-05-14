@@ -1,5 +1,5 @@
 ---
-type: entity
+type: entidad
 date: 2026-04-30
 last-touched: 2026-04-30
 tipo-legal: sociedad-anónima
@@ -31,3 +31,7 @@ Sociedad anónima titular de la marca **Understanding Kids** (UK) y la submarca 
 - [[integracion-sensorial]] — submarca
 - [[diplomado-autismo-2026]] — campaña activa
 - [[monica]] — directora
+
+## Relacionado
+
+- [[index]]

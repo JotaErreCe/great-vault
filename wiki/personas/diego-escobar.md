@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-05-02
 last-touched: 2026-05-02
 aliases: [Chiriz, Chorizo]
@@ -27,3 +27,7 @@ Mejor amigo de [[jr]], miembro del grupo [[chirizosos]]. Apodos: **Chiriz**, **C
 ## 🔗 Relacionado
 
 - [[chirizosos]] — grupo de mejores amigos
+
+## Relacionado
+
+- [[index]]

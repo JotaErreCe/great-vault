@@ -1,5 +1,5 @@
 ---
-type: project
+type: proyecto
 date: 2026-04-30
 estado: activo
 tags:
@@ -48,16 +48,16 @@ Antes de AMC Legal, JR trabajó en **Iurisconsulti**, firma de abogados guatemal
 
 | Cliente | Tipo | Servicios identificados |
 |---------|------|------------------------|
-| **[[propi-tech\|Propi Tech, S.A.]]** | Corporativo / proptech | S.A. completo: asambleas, nombramientos, IVE, contratos, transferencia de acciones, marca |
-| **[[hector-rodas\|Héctor Rodas]] (Hebron)** | Personal — amigo | S.A.: acciones, asambleas, nombramientos, modificación de objeto |
-| **[[brera-arredamenti\|Brera Arredamenti]]** | Corporativo / muebles | Contratos de obra, facturación, reportes de cobro, laboral. Dueños: [[julio-cruz]], [[pablo-cruz]] |
+| **[[propi-tech|Propi Tech, S.A.]]** | Corporativo / proptech | S.A. completo: asambleas, nombramientos, IVE, contratos, transferencia de acciones, marca |
+| **[[hector-rodas|Héctor Rodas]] (Hebron)** | Personal — amigo | S.A.: acciones, asambleas, nombramientos, modificación de objeto |
+| **[[brera-arredamenti|Brera Arredamenti]]** | Corporativo / muebles | Contratos de obra, facturación, reportes de cobro, laboral. Dueños: [[julio-cruz]], [[pablo-cruz]] |
 | **Andrés Wer** | Personal | Matrimonio |
-| **[[jacky-chang\|Jacky Chang]]** | Personal / corporativo — mejor amigo | — |
-| **[[rafa-galvez\|Rafael Gálvez Cifuentes]] (Shafaga)** | Personal — mejor amigo, Chirizosos | — |
-| **[[sebastian-martinez\|Sebastián Martínez Miralles]]** | Personal — mejor amigo, Chirizosos | — |
+| **[[jacky-chang|Jacky Chang]]** | Personal / corporativo — mejor amigo | — |
+| **[[rafa-galvez|Rafael Gálvez Cifuentes]] (Shafaga)** | Personal — mejor amigo, Chirizosos | — |
+| **[[sebastian-martinez|Sebastián Martínez Miralles]]** | Personal — mejor amigo, Chirizosos | — |
 | **Luis Eduardo Arévalo** | Corporativo / Panama | Panama corporate structures, JV, due diligence, PAS |
-| **[[javier-hegel\|Javier Enrique Hegel Nevarez]]** | Personal / inmobiliario | Contrato de arrendamiento con garantía fiduciaria (dic 2024) |
-| **Proyecto Arlés — [[julio-cruz\|Julio Cruz Ramazzini]]** | Obra civil | Contrato de ejecución de obra + modificación + pagaré + reconocimiento de deuda (sep 2025). Misma persona que dueño de Brera |
+| **[[javier-hegel|Javier Enrique Hegel Nevarez]]** | Personal / inmobiliario | Contrato de arrendamiento con garantía fiduciaria (dic 2024) |
+| **Proyecto Arlés — [[julio-cruz|Julio Cruz Ramazzini]]** | Obra civil | Contrato de ejecución de obra + modificación + pagaré + reconocimiento de deuda (sep 2025). Misma persona que dueño de Brera |
 
 ---
 
@@ -91,3 +91,7 @@ AMC Legal/
 - [[propi]] — cliente principal activo
 - [[altezza]] — caso Brera Arredamenti / Disegno Casa (posible relación)
 - [[jacky-chang]] — cliente personal
+
+## Relacionado
+
+- [[index]]

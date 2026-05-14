@@ -116,3 +116,7 @@ Correcciones confirmadas por Master JR:
 - [[altezza]]
 - [[propi]]
 - [[suscripciones]]
+
+## Relacionado
+
+- [[index]]

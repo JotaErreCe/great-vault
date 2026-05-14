@@ -43,3 +43,7 @@ Hacer tokens físicos de Crisol TCG y regalarlos con cada compra. El paquete de 
 ## 🔗 Relacionado
 
 - [[crisol-tcg]] — proyecto al que aplica
+
+## Relacionado
+
+- [[index]]

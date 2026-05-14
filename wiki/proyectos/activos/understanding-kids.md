@@ -1,5 +1,5 @@
 ---
-type: project
+type: proyecto
 date: 2026-04-27
 estado: activo
 last-touched: 2026-05-04
@@ -30,7 +30,7 @@ UK = clínica + formación + (en desarrollo) B2B colegios. 2 sedes (Z14 maestra,
 | **UK Clínica** | activa | Terapias, tutorías, estimulación temprana, evaluaciones, talleres padres |
 | **UK Formación** | activa | Cursos, talleres, diplomados — mayor margen por hora |
 | **UK en el Aula** | intención | Línea B2B colegios e instituciones |
-| [[integracion-sensorial\|IS]] | activa | Submarca temática, redes propias, sin separación financiera aún |
+| [[integracion-sensorial|IS]] | activa | Submarca temática, redes propias, sin separación financiera aún |
 | ToyLab · Muffin | pausadas | Submarcas comerciales |
 
 ## Sedes

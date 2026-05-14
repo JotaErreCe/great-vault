@@ -1,5 +1,5 @@
 ---
-type: entity
+type: entidad
 date: 2026-04-30
 last-touched: 2026-04-30
 tipo-legal: nombre-comercial
@@ -32,3 +32,7 @@ Empresa / nombre comercial bajo el cual opera [[brera-arredamenti]] (Sociedad An
 
 - [[brera-arredamenti]] — sociedad titular
 - [[altezza]] — figura como contraparte en disputa documentada
+
+## Relacionado
+
+- [[index]]

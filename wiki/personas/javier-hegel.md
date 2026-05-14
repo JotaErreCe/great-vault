@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-04-30
 last-touched: 2026-04-30
 relacion: cliente-amc-legal
@@ -19,3 +19,7 @@ Cliente que llegó primero por [[propi]] y posteriormente pidió a JR una renova
 
 - [[propi]] — relación inicial
 - [[amc-legal]] — apoyo legal independiente
+
+## Relacionado
+
+- [[index]]

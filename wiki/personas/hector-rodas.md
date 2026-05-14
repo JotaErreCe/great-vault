@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-05-02
 last-touched: 2026-05-02
 aliases: [Hebron]
@@ -37,3 +37,7 @@ S.A.: acciones, asambleas, nombramientos, modificación de objeto social. (Si He
 
 - [[sebastian-martinez]] — amigo común, mismo grupo Chirizosos
 - [[amc-legal]] — JR como abogado
+
+## Relacionado
+
+- [[index]]

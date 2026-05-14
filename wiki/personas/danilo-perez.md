@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-04-30
 rol: Mejor amigo
 relacion: cercana
@@ -23,3 +23,7 @@ Mejor amigo de [[jr]]. Como de 2026-04.
 ## 🔗 Relacionado
 
 - [[jacky-chang]] — otro mejor amigo de JR
+
+## Relacionado
+
+- [[index]]

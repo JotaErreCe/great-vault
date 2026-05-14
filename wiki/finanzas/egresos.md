@@ -49,3 +49,7 @@ Estructura de gastos de [[jr]] y [[monica]]. Tracking detallado en `~/Documents/
 
 - [[suscripciones]] — desglose de tech subs
 - [[finanzas/index|Finanzas]]
+
+## Relacionado
+
+- [[index]]

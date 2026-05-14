@@ -40,3 +40,7 @@ Estado patrimonial de [[jr]]. Fuente: Google Drive "Estado Patrimonial" (Google 
 
 - [[ingresos]], [[egresos]], [[propiedades]], [[inversiones]]
 - [[finanzas/index|Finanzas]]
+
+## Relacionado
+
+- [[index]]

@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-04-30
 last-touched: 2026-04-30
 relacion: cliente-amc-legal
@@ -28,3 +28,7 @@ Parte del equipo de [[brera-arredamenti]] / [[disegno-casa]]. Como de 2026-04.
 - [[brera-arredamenti]]
 - [[disegno-casa]]
 - [[julio-cruz]] · [[pablo-cruz]] — dueños
+
+## Relacionado
+
+- [[index]]

@@ -1,5 +1,5 @@
 ---
-type: project
+type: proyecto
 date: 2026-04-30
 estado: activo
 fecha-inicio: 2025-10
@@ -71,3 +71,7 @@ La tesis analiza si esto constituye **elusión fiscal** (legal, aprovechar vací
 
 - [[amc-legal]] — firma de JR donde aplica estos conocimientos
 - [[propi]] — cliente inmobiliario con operaciones de compraventa
+
+## Relacionado
+
+- [[index]]

@@ -1,5 +1,5 @@
 ---
-type: project
+type: proyecto
 date: 2026-04-30
 estado: activo
 tags:
@@ -64,3 +64,7 @@ IS existe como marca de comunicación especializada en integración sensorial �
 - [[visual-identity]] — sistema de formatos IS en Canva
 - [[diplomado-autismo-2026]] — IS participa en piezas de apoyo
 - [[monica]] — aprueba contenido técnico
+
+## Relacionado
+
+- [[index]]

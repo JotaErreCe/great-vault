@@ -1,5 +1,5 @@
 ---
-type: creative
+type: resource
 platform: canva
 date: <% tp.date.now("YYYY-MM-DD") %>
 tags:

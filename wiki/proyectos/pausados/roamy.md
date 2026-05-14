@@ -1,11 +1,11 @@
 ---
-type: project
+type: proyecto
 date: 2026-04-27
 estado: pausado
 fecha-inicio: 2026-04-27
 tags:
   - proyecto
-  - estado/activo
+  - estado/pausado
   - tema/tecnologia
   - tema/app-movil
 ---
@@ -99,3 +99,7 @@ App para que grupos de personas que se mueven juntas puedan verse en un mapa en 
 
 - [[crisol-tcg]] — otro proyecto de JR (marketplace TCG, distinto)
 - [[IDENTITY]] — metas de JR
+
+## Relacionado
+
+- [[index]]

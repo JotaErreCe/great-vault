@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-04-30
 rol: Suegros
 relacion: familia-politica
@@ -34,3 +34,7 @@ Padres de [[monica]] — suegros de [[jr]]. Como de 2026-04.
 - [[monica]] — hija
 - [[nicolas]] — nieto
 - [[niko]] — Leah vive en su casa
+
+## Relacionado
+
+- [[index]]

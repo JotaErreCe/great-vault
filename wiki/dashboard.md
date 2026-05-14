@@ -1,62 +1,59 @@
 ---
 type: dashboard
-date: 2026-04-30
+date: 2026-05-13
 tags: [dashboard, navigation]
 ---
 
-# Dashboard — vista del día
+# Dashboard — vista operativa
 
-> Catálogo completo en [[index]]. Bootstrap en [[_AI_BOOTSTRAP]].
+> Catálogo completo en [[index]]. Bootstrap en [[_AI_BOOTSTRAP]]. Esta vista es un snapshot operativo; para el brief mañanero prevalece [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]].
 
-## Hoy (2026-04-30)
+## Estado del día — 2026-05-13
 
-- 4:00 PM — Cita doctor Leal — [[nicolas]]
+Calendario no verificado en esta auditoría: Apple Calendar devolvió `Application isn’t running. (-600)` en intentos recientes. No usar esta página como agenda exacta sin revisar calendario vivo.
 
-## Pendientes urgentes
+## Pendientes urgentes conocidos
 
-- ⚠️ Checkout roto — [[understanding-kids]]
-- Capítulo de tesis — entrega miércoles 6 PM (Fausto García Delgadillo)
+- ⚠️ Checkout roto — [[understanding-kids]].
+- Tesis — entrega/capítulo semanal miércoles 6 PM.
+- Reminders vencidos visibles al 2026-05-13: pagos recurrentes de luz/mantenimiento del 2026-05-03 y pago de terapeutas UK próximo 2026-05-14.
 
 ## Foco actual
 
-| Proyecto | Próximo paso |
+| Proyecto | Próximo paso / nota |
 |---|---|
-| [[crisol-tcg]] | Definir fecha lanzamiento |
-| [[understanding-kids]] | Arreglar checkout |
-| [[propi]] | Cerrar contratos IntenseGroup, Corp. Victoria |
-| [[tesis]] | Entrega semanal de capítulo |
-| [[altezza]] | Contenedor 2 may, apto 701, clósets 11 may |
-| [[diplomado-autismo-2026]] | Cierre estimado ago 2026 |
-| [[amc-legal]] | Tracking de horas, clientes |
+| [[crisol-tcg]] | Definir fecha de lanzamiento. |
+| [[understanding-kids]] | Reparar checkout y ordenar pendientes ToyLab/Talleres. |
+| [[propi]] | Seguimiento contratos brokers: Corp. Victoria y Sur Ventas/JM. |
+| [[tesis]] | Mantener entrega semanal de capítulo. |
+| [[disengo-casa|Disegno Casa]] | Proyecto/cliente principal; [[altezza]] es caso dentro de Disegno Casa. |
+| [[diplomado-autismo-2026]] | Campaña/cierre estimado agosto 2026. |
+| [[amc-legal]] | Tracking de horas, clientes y follow-ups legales. |
+| [[integracion-sensorial]] | Submarca/área activa vinculada a UK; revisar si debe seguir como proyecto standalone. |
 
 Pausado: [[roamy]].
 
-## Próximos 14 días
+## Próximos conocidos
 
-| Fecha | Evento |
+| Fecha | Evento / vencimiento |
 |---|---|
-| 2 may | Contenedor Altezza |
-| 5 may | Limpieza sillón (9 AM) · Pablo/Antonella (12 PM) |
-| 6 may | Cita pediatra (10 AM) |
-| 7 may | Entrega capítulo tesis (6 PM) |
-| 9 may | Churrasco infaltable |
-| 11 may | Contenedor clósets Altezza |
-| 14 may | Entrega capítulo tesis (6 PM) |
+| Miércoles 13 may | Brief/seguimiento operativo Geoffrey reconstruido; auditoría de Vault y cron. |
+| Jueves 14 may | UK: Pagos a Terapeutas - Quincena. |
+| Viernes 15 may | Personal: Emitir Factura - Airbnb; Propi: firma JM esperada para contrato Sur Ventas. |
+| Lunes 18 may | Propi: envío físico con Danny del contrato Sur Ventas/JM. |
 
-Vista completa: [[agenda]].
+Vista completa prevista: [[agenda]]. Verificar calendario vivo antes de comprometer horarios.
 
 ## Ideas vivas
 
-- [[crisol-tokens]] — tokens físicos como regalo con compra
-- [[inmortal]] — ropa de momentos épicos del fútbol
-
-## Inbox
-
-- [[apple-notes-pendientes]] — Altezza histórico, IVE/SIB, Pagaré Mónica
+- [[crisol-tokens]] — tokens físicos como regalo con compra.
+- [[inmortal]] — ropa de momentos épicos del fútbol.
 
 ## Atajos
 
 - [[IDENTITY]] · [[index]] · [[log/index|log]] · [[finanzas/index|Finanzas]] · [[agenda]]
 - [[amc-legal]] · [[understanding-kids]] · [[visual-identity]]
 
-> Auto-vista con Dataview: `TABLE estado, fecha-objetivo FROM "proyectos/activos" SORT last-touched DESC`
+## Relacionado
+
+- [[index]] · [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]]

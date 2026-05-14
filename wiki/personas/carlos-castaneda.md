@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-04-30
 rol: Medio hermano
 relacion: familia-directa
@@ -24,3 +24,7 @@ Medio hermano de [[jr]]. Como de 2026-04.
 ## 🔗 Relacionado
 
 - [[lucrecia-arriola]] — mamá de JR
+
+## Relacionado
+
+- [[index]]

@@ -1,5 +1,5 @@
 ---
-type: project
+type: proyecto
 date: 2026-05-08
 estado: activo
 tags:

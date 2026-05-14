@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-04-30
 rol: Mascota consentida
 relacion: cercana
@@ -46,3 +46,7 @@ El perro más importante en la vida de [[jr]]. Sumamente consentido. Familia, no
 
 - [[nicolas]] — el hijo (distinto)
 - [[monica]] — parte de la familia
+
+## Relacionado
+
+- [[index]]

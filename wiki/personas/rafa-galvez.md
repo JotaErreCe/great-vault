@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-05-02
 last-touched: 2026-05-02
 aliases: [Shafaga]
@@ -30,3 +30,7 @@ Mejor amigo de [[jr]], miembro del grupo [[chirizosos]]. Cliente ocasional de [[
 
 - [[chirizosos]] — grupo de mejores amigos
 - [[amc-legal]] — JR como abogado
+
+## Relacionado
+
+- [[index]]

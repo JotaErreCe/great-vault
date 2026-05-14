@@ -47,3 +47,7 @@ Inmuebles en cartera de [[jr]]. Como de 2026-04.
 - [[ingresos]] — rentas como fuente fija
 - [[healing-hands]] — arrendatario Casa Antigua
 - [[outlander-2026]] — relacionado a "Lucky"/luz/mantenimiento de propiedades
+
+## Relacionado
+
+- [[index]]

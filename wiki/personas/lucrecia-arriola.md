@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-04-30
 rol: Mamá
 relacion: familia-directa
@@ -26,3 +26,7 @@ Madre de [[jr]]. Como de 2026-04.
 
 - [[monica]] — nuera
 - [[nicolas]] — nieto
+
+## Relacionado
+
+- [[index]]

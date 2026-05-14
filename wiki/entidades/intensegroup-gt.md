@@ -1,5 +1,5 @@
 ---
-type: entity
+type: entidad
 date: 2026-05-02
 last-touched: 2026-05-02
 relacion: cliente / broker
@@ -33,3 +33,7 @@ Empresa de corretaje inmobiliario que opera con [[propi]] (Propi LatAm Guatemala
 - [[propi-tech]] — proptech con la que tiene contrato
 - [[propi]] — engagement legal con AMC Legal
 - [[amc-legal]] — despacho que maneja contratos
+
+## Relacionado
+
+- [[index]]

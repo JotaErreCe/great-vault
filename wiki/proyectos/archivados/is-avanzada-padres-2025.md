@@ -1,5 +1,5 @@
 ---
-type: project
+type: proyecto
 date: 2025-07-01
 estado: archivado
 fecha-inicio: 2025-07-14
@@ -98,3 +98,7 @@ Padres de familia (28–42 años), mayormente madres, que:
 - [[integracion-sensorial]] — submarca protagonista
 - [[diplomado-autismo-2026]] — referencia visual mencionada como antecedente
 - [[monica]] — ponente y directora
+
+## Relacionado
+
+- [[index]]

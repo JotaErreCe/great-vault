@@ -1,5 +1,5 @@
 ---
-type: knowledge
+type: research
 date: 2023-10-22
 fuente: "Atomic Habits — James Clear"
 relevancia: alta
@@ -45,3 +45,7 @@ El libro explica por qué los hábitos fallan y cómo construir sistemas sosteni
 
 - [[100m-offers]] — otra lectura de JR
 - [[IDENTITY]] — metas de JR incluyen rutinas de lectura y ejercicio
+
+## Relacionado
+
+- [[index]]

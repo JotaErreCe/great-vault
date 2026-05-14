@@ -37,10 +37,10 @@ Clientes: profesionales (psicólogos, terapeutas, médicos, pedagogos, educadore
 
 | Nombre | Año | Cuentas | Estado |
 |---|---|---|---|
-| [[diplomado-autismo-2026\|Diplomado Internacional de Autismo 2026]] | 2026 | UK lidera, IS apoya | Activo (cierre ago 2026) |
+| [[diplomado-autismo-2026|Diplomado Internacional de Autismo 2026]] | 2026 | UK lidera, IS apoya | Activo (cierre ago 2026) |
 | Diplomado de IS para Profesionales | 2026 | IS | Activo (13 may 2026) |
 | Taller de Alimentación Terapéutica | feb 2026 | UK | Realizado |
-| [[is-avanzada-padres-2025\|IS Avanzada para Padres]] | 2025 | UK + IS + Davinia García + Potty Learning | Archivado |
+| [[is-avanzada-padres-2025|IS Avanzada para Padres]] | 2025 | UK + IS + Davinia García + Potty Learning | Archivado |
 
 > ⚠️ Historial de diplomados anteriores incompleto — JR: agregar nombres, fechas, ponentes.
 

@@ -1,5 +1,5 @@
 ---
-type: knowledge
+type: research
 date: 2024-03-06
 fuente: "$100M Offers — Alex Hormozi"
 relevancia: alta
@@ -48,3 +48,7 @@ El libro explica cómo salir de la guerra de commodities creando valor diferenci
 - [[atomic-habits]] — otra lectura de JR
 - [[crisol-tcg]] — aplicar marco de valor diferenciado
 - [[understanding-kids]] — aplicar a formación y clínica
+
+## Relacionado
+
+- [[index]]

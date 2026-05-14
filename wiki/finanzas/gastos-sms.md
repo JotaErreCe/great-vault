@@ -71,12 +71,7 @@ Inferido desde el texto del SMS.
 
 ### Tarjetas / cuentas por últimos 4 dígitos
 
-| Cuenta | GTQ | Cargos GTQ | USD | Cargos USD |
-|--------|----:|-----------:|----:|-----------:|
-| ••4447 | Q59,637.38 | 96 | USD 7,350.48 | 92 |
-| ••3684 | Q46,960.18 | 175 | USD 519.04 | 24 |
-| ••5414 | Q45,224.12 | 187 | USD 1,398.17 | 19 |
-| ••8247 | Q38,760.08 | 87 | USD 3,338.98 | 62 |
+Detalle movido a `_sensitive.md`. Mantener fuera del wiki operativo para no exponer identificadores financieros.
 
 ---
 

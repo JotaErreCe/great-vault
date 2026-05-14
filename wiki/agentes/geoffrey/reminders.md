@@ -63,6 +63,7 @@ JR definió las secciones así:
 - 🎯 Metas y hábitos
 - 👨‍👩‍👧 Familia y social
 - 🏡 Hogar y mandados
+- 🚀 Proyectos
 
 Proyectos conocidos/recientes:
 

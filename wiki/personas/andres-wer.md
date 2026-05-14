@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-05-05
 last-touched: 2026-05-05
 relacion: amigo-cercano

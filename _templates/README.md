@@ -17,6 +17,8 @@ Colección de plantillas reutilizables para crear notas nuevas en el vault. Cada
 - [[persona]] — esqueleto de contacto
 - [[research]] — esqueleto de investigación
 - [[canva-project]] — esqueleto de diseño Canva
+- [[agentes-brief]] — plantilla de salida del brief mañanero Geoffrey
+- [[agent-senal-diaria]] — plantilla de signal diario por agente especializado
 
 ---
 
@@ -74,7 +76,7 @@ tags: [daily]
 
 ```markdown
 ---
-type: project
+type: proyecto
 date: 2026-04-13
 estado: activo
 fecha-inicio: 2026-04-18
@@ -140,7 +142,7 @@ Diplomado virtual internacional para profesionales. 21 sesiones en 5 meses. Enfo
 
 ```markdown
 ---
-type: person
+type: persona
 date: 2026-04-30
 rol: Directora y terapeuta
 empresa: Understanding Kids

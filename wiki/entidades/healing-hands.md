@@ -1,5 +1,5 @@
 ---
-type: entity
+type: entidad
 date: 2026-04-30
 last-touched: 2026-04-30
 tipo-legal: empresa
@@ -28,3 +28,7 @@ Spa + clínica fisioterapéutica que arrienda la **Casa Antigua** propiedad de J
 
 - [[propiedades]] — Casa Antigua
 - [[ingresos]]
+
+## Relacionado
+
+- [[index]]

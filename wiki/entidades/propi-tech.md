@@ -1,5 +1,5 @@
 ---
-type: entity
+type: entidad
 date: 2026-04-30
 last-touched: 2026-04-30
 tipo-legal: sociedad-anónima
@@ -40,3 +40,7 @@ Entidad guatemalteca de la red **Propi LatAm** (proptech). Cliente activo y comp
 
 - [[propi]] — proyecto / engagement legal activo
 - [[amc-legal]] — abogados
+
+## Relacionado
+
+- [[index]]

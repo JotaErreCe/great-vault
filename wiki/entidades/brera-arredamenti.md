@@ -1,5 +1,5 @@
 ---
-type: entity
+type: entidad
 date: 2026-04-30
 last-touched: 2026-04-30
 tipo-legal: sociedad-anónima
@@ -43,3 +43,7 @@ Sociedad anónima guatemalteca dedicada al amueblamiento (muebles, cocinas, cló
 - [[amc-legal]] — abogados
 - [[altezza]] — proyecto donde Brera/Disegno Casa figura en disputa con Altezza
 - [[julio-cruz]], [[pablo-cruz]], [[aracely-hernandez]]
+
+## Relacionado
+
+- [[index]]

@@ -1,5 +1,5 @@
 ---
-type: project
+type: proyecto
 estado: activo
 tags:
   - proyecto

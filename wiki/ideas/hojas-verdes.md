@@ -32,3 +32,7 @@ Joint Venture entre [[jr]] (o entidad asociada) y **Lluvia Environmental LTD** (
 ## 🔗 Relacionado
 
 - [[amc-legal]] — revisión puntual del documento, sin rol continuo
+
+## Relacionado
+
+- [[index]]

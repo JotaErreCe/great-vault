@@ -105,7 +105,7 @@ Aprobó:
 | Skill / necesidad | Estado | GitHub | ClawHub | Motivo |
 |---|---|---|---|---|
 | Gmail / correo Google multi-cuenta | pendiente | pendiente | pendiente | Alto valor, alto riesgo externo/privacidad. |
-| [[apple-reminders]] | auditada | https://github.com/steipete/remindctl | no identificado | Gestión de Apple Reminders vía CLI remindctl; permite listar, crear, completar y eliminar recordatorios y listas.
+| [[resources/apple-reminders-manual|Apple Reminders]] | auditada | https://github.com/steipete/remindctl | no identificado | Gestión de Apple Reminders vía CLI remindctl; permite listar, crear, completar y eliminar recordatorios y listas.
 | Calendar | pendiente | pendiente | pendiente | Agenda y coordinación vía Apple/Google; Google Workspace MCP ya cubre lectura con política limitada. |
 | WhatsApp | pendiente | pendiente | pendiente | Mensajería externa; requiere controles fuertes. |
 | iMessage / SMS | aprobada limitada | https://github.com/openclaw/imsg | no identificado | Cubierta por [[imsg]] para lectura local; envío bloqueado salvo aprobación explícita. |

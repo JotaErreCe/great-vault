@@ -1,5 +1,5 @@
 ---
-type: project
+type: proyecto
 date: 2026-05-07
 estado: activo
 fecha-inicio: 2026-04
@@ -86,3 +86,7 @@ Abogado de Propi Tech, S.A. a través de AMC Legal. Servicios:
 
 - [[apple-notes-pendientes]] — origen del item (Propi en inbox)
 - [[altezza]] — otro caso legal activo de JR
+
+## Relacionado
+
+- [[index]]

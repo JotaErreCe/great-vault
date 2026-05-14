@@ -31,3 +31,7 @@ Grupo de mejores amigos de [[jr]]. Como de 2026-05.
 
 - [[jacky-chang]], [[danilo-perez]] — otros mejores amigos (no Chirizosos)
 - [[amc-legal]] — JR ha trabajado para Rafa y Sebastián
+
+## Relacionado
+
+- [[index]]

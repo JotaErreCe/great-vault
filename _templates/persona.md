@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 tags:
   - persona
 ---

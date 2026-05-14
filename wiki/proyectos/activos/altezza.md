@@ -1,5 +1,5 @@
 ---
-type: project
+type: proyecto
 date: 2026-04-18
 estado: activo
 tags:
@@ -93,3 +93,7 @@ Reunión entre Disegno Casa (Pablo Cruz, María José Sierra, Aracely Hernández
 ## 🔗 Relacionado
 
 - Trabajo legal independiente de JR
+
+## Relacionado
+
+- [[index]]

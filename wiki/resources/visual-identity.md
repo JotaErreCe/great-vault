@@ -1,5 +1,5 @@
 ---
-type: creative
+type: resource
 date: 2026-04-30
 tags:
   - creative
@@ -104,3 +104,7 @@ Estilo: protagonista, redondeada. Prioriza legibilidad y jerarquía visual fuert
 - [[understanding-kids]] — el negocio
 - [[diplomado-autismo-2026]] — campaña activa
 - [[integracion-sensorial]] — submarca
+
+## Relacionado
+
+- [[index]]

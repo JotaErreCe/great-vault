@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-04-30
 rol: Mejor amigo
 relacion: cercana
@@ -24,3 +24,7 @@ Mejor amigo de [[jr]]. Relación cercana que incluye a su familia. Como de 2026-
 ## 🔗 Relacionado
 
 - [[danilo-perez]] — otro mejor amigo de JR
+
+## Relacionado
+
+- [[index]]

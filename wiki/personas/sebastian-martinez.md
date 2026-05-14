@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-05-02
 last-touched: 2026-05-02
 aliases: [Moreno, Morete, Elmo, Morado, Negro, Moruta, Negruta, Negroide]
@@ -40,3 +40,7 @@ Uno de los mejores amigos de [[jr]] dentro del grupo **Chirizosos**. Cliente oca
 - [[chirizosos]] — grupo de amigos
 - [[hector-rodas]]
 - [[amc-legal]]
+
+## Relacionado
+
+- [[index]]

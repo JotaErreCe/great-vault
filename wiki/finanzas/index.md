@@ -38,3 +38,7 @@ Hub de finanzas personales y patrimonio de [[jr]]. Como de 2026-04.
 - [[amc-legal]] — fuente principal de honorarios
 - [[understanding-kids]] — fuente de ingreso de Mónica
 - [[suscripciones]] — gastos fijos detallados
+
+## Relacionado
+
+- [[index]]

@@ -1,5 +1,5 @@
 ---
-type: project
+type: proyecto
 date: 2026-04-13
 estado: activo
 fecha-inicio: 2026-04-18

@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-05-02
 last-touched: 2026-05-02
 relacion: mejor-amigo
@@ -19,3 +19,7 @@ Mejor amigo de [[jr]], miembro del grupo [[chirizosos]]. Como de 2026-05.
 ## 🔗 Relacionado
 
 - [[chirizosos]]
+
+## Relacionado
+
+- [[index]]

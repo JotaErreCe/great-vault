@@ -1,5 +1,5 @@
 ---
-type: person
+type: persona
 date: 2026-04-30
 rol: Hijo
 relacion: cercana
@@ -36,3 +36,7 @@ Hijo de [[jr]] y [[monica]]. Recién nacido. La meta de largo plazo de JR gira e
 
 - [[monica]] — mamá
 - [[niko|Niko]] — el perro (distinto)
+
+## Relacionado
+
+- [[index]]
