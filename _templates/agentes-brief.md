@@ -4,72 +4,82 @@ date: YYYY-MM-DD
 tags: [template, geoffrey, brief]
 ---
 
-# Brief — YYYY-MM-DD
+# Brief mañanero — YYYY-MM-DD
 
-☀️ Buenos días, Master JR  
-**[fecha] · enviado [HH:MM]**
+> Plantilla de salida para Geoffrey. La especificación canónica vive en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. No usar esta plantilla como sustituto de revisar la especificación.
 
-> [Una línea: lo más importante de hoy.]
+📅 **Lo que le depara el día — [día DD de mes], corte [HH:MM AM/PM]**
 
-## 📅 HOY EN CALENDARIO
+[Calendario, ventanas reales y recordatorios que afectan el día. Si una fuente falla, decirlo brevemente con el error exacto.]
 
-- **HH:MM** — [Evento] · [contexto breve] · [link/fuente si aplica]
+• [HH:MM–HH:MM] — [Evento / cita / deadline], [contexto útil].
+• [Ventana útil] — [qué conviene hacer].
+• Pendientes operativos visibles: [vencidos/hoy/próximos relevantes].
 
-## ⚖️ AMC LEGAL
+───
 
-### [Cliente o subtema]
+📬 **Comunicaciones relevantes**
 
-- [Novedad / riesgo / plazo] · [fuente]
-- **Recomiendo:** [acción concreta]
-- **Cómo hacerlo:** [pasos breves]
+**[Proyecto/asunto] — [tema concreto]**  
+[Quién escribió/intervino y qué pasó, solo contexto necesario.]  
+**Siguiente paso:** [qué necesita pasar: contestar, revisar, pedir documento, calendarizar, crear reminder, esperar, etc.]
 
-## 📬 INBOX
+**[Proyecto/asunto] — [tema concreto]**  
+[Contexto mínimo.]  
+**Siguiente paso:** [acción/decisión requerida.]
 
-- **[Fuente/cuenta]** — [asunto relevante] · [link/fuente]
-- **Recomiendo:** [acción concreta]
+───
 
-## 🏗️ PROYECTOS
+⚖️ **Radar legal Guatemala — DCA [DD/MM/YYYY]**
 
-### Propi
+• **[[Instrumento / entidad / número](url)]:** [qué regula, aprueba, modifica, adjudica, reconoce o dispone].
+• **[[Instrumento / entidad / número](url)]:** [materia concreta].
 
-- [Novedad útil] · [fuente]
-- **Recomiendo:** [acción concreta]
+[Si se omitieron avisos/licitaciones por baja relevancia, decirlo en una línea. Si DCA/PDF falla, explicar la limitación brevemente y no inventar materia.]
 
-### Understanding Kids
+───
 
-- [Novedad útil] · [fuente]
-- **Recomiendo:** [acción concreta]
+🧑‍💼 **Radar de cliente**
 
-### Tesis
+[Incluir solo si hay señal real para AMC Legal, Propi u otro cliente/proyecto. Si no hay señal real, omitir toda esta sección.]
 
-- [Novedad útil] · [fuente]
-- **Recomiendo:** [acción concreta]
+**[Cliente/proyecto]:** [ángulo útil o consulta probable].  
+**Cómo responder/anticipar:** [criterio breve].
 
-### Crisol TCG
+───
 
-- [Novedad útil, solo si aplica] · [fuente]
-- **Recomiendo:** [acción concreta]
+✅ **Reminders / qué haceres**
 
-## 📰 Noticias
+**Hacer o confirmar hoy**  
+• [Recordatorio vencido/de hoy que requiere acción].  
+• [Recordatorio].
 
-- **Guatemala:** [titular] · [link]
-- **Legal / AMC Legal:** [titular] · [link]
-- **Negocios / inmobiliario:** [titular] · [link]
-- **IA / tecnología:** [titular] · [link]
-- **Bolsa / cripto:** [titular] · [link]
+**Mañana / próximos días**  
+• [Vencimiento próximo].
 
-## ✅ Acciones sugeridas hoy
+**Ordenar / reprogramar**  
+• [Tarea sin fecha que está flotando].
 
-1. **[Acción]** — [por qué importa].  
-   **Cómo:** [pasos concretos].
-2. **[Acción]** — [por qué importa].  
-   **Cómo:** [pasos concretos].
+───
 
-## Fuentes revisadas
+✅ **Puedo ejecutar con aprobación**
 
-- [Fuente 1]
-- [Fuente 2]
+1. [Acción ejecutable: crear reminder, redactar respuesta, revisar hilo, extraer compromisos, profundizar DCA, etc.]
+2. [Acción ejecutable.]
+3. [Acción ejecutable.]
+
+¿Aprueba alguna? Puede responder con números o decirme qué ajusto.
+
+## Reglas rápidas
+
+- Empezar directamente con `📅 Lo que le depara el día`.
+- Tratar a JR de usted.
+- No incluir: Noticias, Frentes abiertos, Pendientes acumulados, Puede ignorar hoy, Riesgo de arrastre, Top 3, Mapa de Atención.
+- Comunicaciones: quién / qué pasó / qué necesita pasar.
+- DCA: no decir solo “acuerdo publicado”; siempre materia concreta.
+- Reminders: usar definiciones confirmadas en [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]].
+- No ejecutar acciones externas ni modificar Reminders/Calendar sin aprobación.
 
 ## Relacionado
 
-- [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[geoffrey/SOUL|SOUL — Geoffrey]]
+- [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]]
