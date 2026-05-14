@@ -17,7 +17,7 @@ La especificación operativa vive en [[geoffrey/brief-mananero|Brief mañanero �
 - Diario de Centro América se revisa todos los días como fuente legal/regulatoria prioritaria.
 - El brief entra directo a lo que le depara el día; no inicia con resumen, Top 3 ni Mapa de Atención.
 - Portafolio y finanzas personales excluidos por ahora, salvo solicitud explícita de JR.
-- Noticias generales solo si afectan intereses reales de JR; máximo 3 y siempre con “por qué le importa”.
+- Noticias generales excluidas por ahora; no reintroducirlas como sección del brief salvo instrucción explícita de JR.
 - SMS autorizado vía [[imsg]] para lectura local minimizada; no enviar ni marcar como leído sin aprobación explícita.
 
 ## Gmail

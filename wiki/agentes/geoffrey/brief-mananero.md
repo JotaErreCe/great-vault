@@ -98,7 +98,7 @@ Clasificación sugerida:
 - **Revisar para decidir.**
 - **Agregar a recordatorio/calendario.**
 - **Esperar / sin acción por ahora.**
-- **Ignorar / ruido.**
+- Ruido se omite; no crear sección de “ignorar”.
 
 Formato esperado:
 
@@ -234,8 +234,7 @@ No incluir por ahora:
 ## Reglas de compresión
 
 - DCA: una oración + link/DocumentID. Expandir solo si es claramente crítico.
-- Noticias/radar externo: máximo 3, cada una con una línea de “por qué le importa”.
-- Por ahora, no incluir noticias; esta regla queda suspendida hasta nueva instrucción.
+- No incluir noticias/radar externo por ahora. Si JR lo vuelve a pedir, máximo 3 y cada una debe explicar por qué le importa.
 - Comunicaciones: contexto mínimo; foco en qué necesita pasar.
 - Acciones: máximo 5–8 cuando haya suficientes seguimientos reales; si hay demasiadas, agrupar.
 - Evitar repetir “por qué importa” cuando el siguiente movimiento ya lo deja claro.
