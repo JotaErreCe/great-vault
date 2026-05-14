@@ -30,6 +30,11 @@ Crecimiento feb vs ene 2026: **+73.38%**.
 - Productos: Q2,603.00
 - Formación: Q1,600.00
 
+
+## Nota metodológica — 2026-05-14
+
+JR confirmó que los documentos Excel/Sheets financieros de UK no tienen formato unificado. Cualquier consolidación futura debe hacerse como análisis profundo: revisar estructura por archivo/mes/sede, mapear columnas y categorías, normalizar criterios y evitar sumar mecánicamente datos incompatibles.
+
 ## Pendientes de análisis
 
 - Lectura financiera mensual Z14 2024–2025 (incompleta)

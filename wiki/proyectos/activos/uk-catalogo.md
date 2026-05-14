@@ -11,6 +11,8 @@ tags:
 
 # UK — Catálogo de productos y servicios
 
+> ⚠️ Estado 2026-05-14: JR confirmó que los catálogos están desactualizados por el momento. No usar este archivo como fuente vigente para decisiones comerciales hasta actualizar/validar.
+
 Inventario completo del portafolio de [[understanding-kids]]. Fuentes: Notion, `UNDERSTANDING_KIDS_MAESTRO.md`, sitio web. Como de 2026-05.
 
 > Regla: si una oferta aparece en Drive, Canva o web pero no está conectada a campaña activa, NO se asume vigente sin confirmación.

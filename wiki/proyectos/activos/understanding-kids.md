@@ -70,7 +70,7 @@ Detalle completo: [[understanding-kids/finanzas]].
 
 ## Sistemas y operación
 
-WordPress + WooCommerce · QPayPro (pasarela) · FEL via grupogdsdev.lat · Google Drive (hub operativo Z14 + CAES) · Notion (objetivo: fuente única de verdad) · Meta Ads (pauta activa).
+WordPress + WooCommerce · Recurrente (pasarela vigente; reemplazó QPayPro) · FEL via grupogdsdev.lat · Google Drive (hub operativo Z14 + CAES) · Notion (objetivo: fuente única de verdad) · Meta Ads (pauta activa).
 
 Detalle de sistemas, estructura Drive, políticas: [[understanding-kids/operacion]].
 
@@ -88,7 +88,8 @@ Sitio WordPress tiene productos publicados pero checkout no funciona. Posibles c
 
 ## Próximos pasos
 
-- [ ] Diagnosticar y reparar checkout en `kidsunderstanding.com`
+- [ ] Nutrir staff y operación como prioridad inmediata
+- [ ] Diagnosticar y reparar/probar checkout en `kidsunderstanding.com` con Recurrente
 - [ ] Separar financieramente IS (vistas: sin IS / solo IS / con IS)
 - [ ] Definir oferta UK en el Aula para colegios
 - [ ] Retomar webinars como herramienta de marketing para Formación

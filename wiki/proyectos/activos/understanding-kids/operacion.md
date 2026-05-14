@@ -8,12 +8,18 @@ tags: [understanding-kids, sistemas, operacion]
 
 > Detalle operativo de [[understanding-kids]].
 
+
+## Sedes — nomenclatura
+
+- `Z14`: sede principal / centro administrativo.
+- `CAES`: acrónimo de Carretera a El Salvador. Usar `CAES` como nombre común; la sede está en San José Pinula.
+
 ## Sistemas y procesadores de pago
 
 | Sistema | Uso |
 |---|---|
 | WordPress + WooCommerce | Sitio `kidsunderstanding.com` (⚠️ checkout roto) |
-| QPayPro | Pasarela de pago |
+| Recurrente | Procesador/pasarela de pago vigente; reemplazó por completo a QPayPro según JR (2026-05-14) |
 | FEL via grupogdsdev.lat | Facturas electrónicas |
 | Google Drive | Hub operativo: Z14 (maestro) + CAES (sede 2) |
 | Notion | Objetivo: fuente central de verdad (en construcción) |
