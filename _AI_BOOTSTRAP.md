@@ -1,6 +1,6 @@
 ---
 type: bootstrap
-updated: 2026-05-07
+updated: 2026-05-14
 ---
 
 # AI Bootstrap — entrada única
@@ -58,6 +58,7 @@ Great Vault/
     ├── dashboard.md     ← eventos del día y próximos 14 días
     ├── IDENTITY.md      ← identidad completa: personalidad, valores, gustos, metas
     ├── log/             ← historial append-only mensual (log/YYYY-MM.md)
+    ├── decisiones/      ← decisiones destiladas mensuales (decisiones/YYYY-MM.md)
     ├── proyectos/       ← activos/, pausados/, archivados/
     ├── personas/        ← contactos y personas relevantes
     ├── entidades/       ← empresas, sociedades, organizaciones
@@ -89,7 +90,8 @@ Great Vault/
 | Recurso / referencia | wiki | `wiki/resources/` |
 | Finanzas | wiki | `wiki/finanzas/` |
 | Idea en gestación | wiki | `wiki/ideas/` |
-| Historial append-only | wiki | `wiki/log/YYYY-MM.md` |
+| Historial append-only de cambios al Vault | wiki | `wiki/log/YYYY-MM.md` |
+| Decisiones destiladas de JR | wiki | `wiki/decisiones/YYYY-MM.md` |
 | Plantilla | schema | `_templates/` |
 | Datos sensibles | root | `_sensitive.md` |
 
@@ -118,7 +120,7 @@ Actual agent instances live in `wiki/agentes/[slug]/`, for example:
 - [[geoffrey/AGENT|AGENT — Geoffrey]]
 - [[geoffrey/memoria|Memoria — Geoffrey]]
 
-If an agent wakes up after memory loss, it must recover from its package: read `wiki/agentes/[slug]/AGENT.md`, then the newest conversation log under `wiki/agentes/[slug]/conversaciones/`, then the newest relevant checkpoint under `wiki/agentes/[slug]/checkpoints/`, then `wiki/log/YYYY-MM.md` for recent edits.
+If an agent wakes up after memory loss, it must recover from its package: read `wiki/agentes/[slug]/AGENT.md`, then the newest conversation log under `wiki/agentes/[slug]/conversaciones/`, then the newest relevant checkpoint under `wiki/agentes/[slug]/checkpoints/`, then `wiki/decisiones/YYYY-MM.md` for decisions, then `wiki/log/YYYY-MM.md` for recent edits.
 
 ---
 
@@ -134,6 +136,7 @@ If an agent wakes up after memory loss, it must recover from its package: read `
               · nuevo proyecto → wiki/proyectos/activos/
               · insight de libro → wiki/research/
               · dato financiero → wiki/finanzas/
+              · decisión explícita de JR → wiki/decisiones/YYYY-MM.md
               · actualiza wikilinks bidireccionales
       ↓
 4. ACTUALIZA → wiki/dashboard.md (si afecta hoy/14 días)
@@ -153,6 +156,7 @@ If an agent wakes up after memory loss, it must recover from its package: read `
 - **Nunca sobrescribir historial.** `wiki/log/` es append-only.
 - **Datos sensibles** (NIT, DPI, dirección, credenciales, cuentas) → SOLO en `_sensitive.md`.
 - **Toda modificación al wiki** → apendar línea a `wiki/log/YYYY-MM.md`.
+- **Decisiones de JR se destilan.** Si JR decide, aprueba, rechaza, cambia criterio o fija una preferencia/regla, guardar una versión breve en `wiki/decisiones/YYYY-MM.md`; no guardar transcript completo.
 - **Buenas respuestas se archivan.** Un análisis, comparación o síntesis valiosa → guardar como página en `wiki/`.
 
 ---
@@ -161,7 +165,7 @@ If an agent wakes up after memory loss, it must recover from its package: read `
 
 ```yaml
 ---
-type: [daily|proyecto|persona|entidad|idea|research|reference|resource|inbox|dashboard|index|group]
+type: [daily|proyecto|persona|entidad|idea|research|reference|resource|inbox|dashboard|index|group|decision]
 date: YYYY-MM-DD
 tags: [tag1, tag2, ...]
 ---
@@ -177,7 +181,7 @@ tags: [tag1, tag2, ...]
 
 ## Tag system
 
-- **Tipo:** `daily`, `proyecto`, `persona`, `entidad`, `research`, `idea`, `reference`, `resource`, `inbox`, `dashboard`, `index`, `group`
+- **Tipo:** `daily`, `proyecto`, `persona`, `entidad`, `research`, `idea`, `reference`, `resource`, `inbox`, `dashboard`, `index`, `group`, `decision`
 - **Estado:** `estado/activo`, `estado/pausado`, `estado/completado`
 - **Prioridad:** `prioridad/alta`, `prioridad/media`, `prioridad/baja`
 - **Tema:** `tema/[categoria]` (ej: `tema/autismo`, `tema/marketing`, `tema/legal`)
@@ -225,6 +229,7 @@ tags: [tags]
 ## Mantenimiento periódico
 
 **Mensual:**
+- Revisar `wiki/decisiones/YYYY-MM.md` — consolidar duplicados y enlazar a proyectos/personas/agentes relevantes
 - Procesar `raw/inbox/` — items resueltos → log
 - Revisar `raw/daily/` — insights → wiki
 - Actualizar `wiki/IDENTITY.md` si cambió familia, banca, foco

@@ -29,13 +29,29 @@ La especificación operativa vive en [[geoffrey/brief-mananero|Brief mañanero �
 | `joserca95@icloud.com` | iCloud — cobros y servicios | Vigilar cobros, suscripciones y facturas. Alertar si algo cambia, se duplica o parece anómalo. |
 | `joserca95@ufm.edu` | UFM | No incluir en integración activa; JR lo revisa manualmente salvo instrucción futura. |
 
-## SMS
+## SMS / iMessage
 
 - Skill autorizada: [[imsg]].
+- Estado runtime 2026-05-14: habilitada y `imsg ✓ Ready`.
 - Uso para brief: detectar SMS pendientes de respuesta o señales relevantes de familia, clientes activos y contactos VIP.
 - No transcribir mensajes crudos en el brief salvo instrucción explícita.
 - No enviar SMS, reaccionar, marcar como leído ni modificar conversaciones sin aprobación por acción.
 - Pendiente técnico: confirmar Full Disk Access en macOS si la lectura falla.
+
+## WhatsApp
+
+- Skill autorizada: [[wacli]].
+- Estado runtime 2026-05-14: habilitada, binario instalado y `wacli ✓ Ready`.
+- Uso permitido: sync/search/lectura minimizada para tareas explícitas y señales relevantes.
+- No enviar mensajes/archivos, hacer backfill amplio, responder, modificar conversaciones ni transcribir mensajes crudos sin aprobación explícita por acción.
+- Pendiente técnico: autenticación QR/sync inicial cuando JR quiera activar WhatsApp histórico.
+
+## Apple Calendar
+
+- Skill autorizada: [[apple-calendar-jr]] y, para Google Calendar, [[google-workspace-mcp]].
+- Estado runtime 2026-05-14: `apple-calendar-jr ✓ Ready`; script local probado con próximos eventos y alarmas.
+- Uso para brief: agenda del día, próximos eventos, alarmas faltantes, conflictos y ventanas reales.
+- No crear, editar, borrar, aceptar/rechazar eventos, invitar personas ni cambiar alarmas sin aprobación explícita por acción.
 
 ## Diario de Centro América
 

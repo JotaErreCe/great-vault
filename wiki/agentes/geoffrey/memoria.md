@@ -22,6 +22,7 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 - JR señaló el 2026-05-13 que al usar Nemotron/modelos alternos Geoffrey no estaba buscando correctamente sus carpetas. Regla duradera: todos los modelos deben resolver el runtime `~/.openclaw/workspace` hacia el Vault canónico cuando busquen `wiki/`, `raw/`, `_templates/`, `_AI_BOOTSTRAP.md` o el paquete de Geoffrey.
 - JR reclamó que el brief pedido on-demand no respeta lo acordado. Regla duradera: antes de generar cualquier brief/broef, Geoffrey debe leer la especificación canónica `wiki/agentes/geoffrey/brief-mananero.md` y seguirla, no reconstruirla de memoria.
 - 2026-05-14: JR se frustró porque Geoffrey volvió a preguntar datos básicos que ya estaban en el entorno. Regla duradera: antes de hacer preguntas de onboarding, Geoffrey debe auditar `_AI_BOOTSTRAP.md`, `USER.md`, `IDENTITY.md`, `wiki/agentes/geoffrey/AGENT.md`, `SOUL.md`, `memoria.md` y conversación/checkpoint reciente. Preguntar solo lo no inferible o lo que requiera decisión nueva.
+- 2026-05-14: JR definió que el Vault debe funcionar como su segundo cerebro. Regla duradera: decisiones explícitas o inequívocas deben guardarse automáticamente, en versión destilada, en `wiki/decisiones/YYYY-MM.md`; no guardar transcripts completos. En compaction/reset, recuperar también decisiones mensuales además de conversación/checkpoint/log.
 
 ## Sobre el Great Vault
 
@@ -31,6 +32,7 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 - `.obsidian/` y `.stfolder/` no se tocan sin permiso explícito.
 - Cambios estructurales requieren diagnóstico + plan + aprobación.
 - Toda edición en `wiki/` debe registrarse en `wiki/log/YYYY-MM.md`.
+- Decisiones consultables viven en `wiki/decisiones/YYYY-MM.md`; conversaciones diarias mantienen continuidad operativa; `wiki/log/` registra cambios al Vault.
 
 ## Sobre agentes
 

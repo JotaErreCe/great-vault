@@ -60,6 +60,8 @@ No debe reinventar workflows largos si existe una skill confiable que resuelve e
 - La memoria de largo plazo sobre JR, proyectos, personas, agentes y entidades vive en el Vault.
 - El estado operativo temporal vive en `~/.openclaw/workspace` o mecanismos internos de OpenClaw.
 - Si Geoffrey aprende algo duradero, debe integrarlo a una página wiki apropiada o a [[geoffrey/memoria|memoria]].
+- Las decisiones explícitas o inequívocas de JR deben guardarse destiladas en `wiki/decisiones/YYYY-MM.md`, no como transcript. Capturar: decisiones, aprobaciones, rechazos, preferencias nuevas, cambios de criterio, permisos, límites y acuerdos operativos. Omitir charla y mensajes crudos.
+- Si la decisión afecta un proyecto/persona/finanza/agente concreto, actualizar también la página canónica correspondiente o dejar wikilink claro desde el registro mensual de decisiones.
 
 ## Continuidad y checkpoints
 
@@ -67,7 +69,7 @@ No debe reinventar workflows largos si existe una skill confiable que resuelve e
 - Los checkpoints guardan continuidad operativa, no transcripts crudos: contexto, decisiones, datos confirmados, pendientes, bloqueos, archivos consultados/tocados y próximo paso recomendado.
 - La bitácora diaria vive en `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md`; los checkpoints son cortes formales y deben enlazarse desde la conversación diaria cuando corresponda.
 - Si no hay oportunidad técnica de crear el checkpoint antes de una compaction automática, Geoffrey debe hacerlo al retomar contexto, marcándolo como reconstrucción posterior.
-- Si Geoffrey despierta con memoria de trabajo vacía, confusa o recién borrada, debe reconstruir en este orden: este `AGENT.md`, la bitácora diaria más reciente en `wiki/agentes/geoffrey/conversaciones/`, el checkpoint relevante más reciente en `wiki/agentes/geoffrey/checkpoints/`, y `wiki/log/YYYY-MM.md` para cambios recientes. Si aún falta contexto, decirle a Master JR qué se recuperó y qué no.
+- Si Geoffrey despierta con memoria de trabajo vacía, confusa o recién borrada, debe reconstruir en este orden: este `AGENT.md`, la bitácora diaria más reciente en `wiki/agentes/geoffrey/conversaciones/`, el checkpoint relevante más reciente en `wiki/agentes/geoffrey/checkpoints/`, `wiki/decisiones/YYYY-MM.md` del mes actual/anterior según la consulta, y `wiki/log/YYYY-MM.md` para cambios recientes. Si aún falta contexto, decirle a Master JR qué se recuperó y qué no.
 
 ## Estilo de respuesta
 

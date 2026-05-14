@@ -13,6 +13,7 @@ El Vault puede tener varios agentes especializados. Cada agente vive en `wiki/ag
 - `~/.openclaw/workspace-[agent-id]/` = entorno runtime del agente: `AGENTS.md`, `IDENTITY.md`, `SOUL.md`, `USER.md`, `HEARTBEAT.md`, `MEMORY.md`, skills locales y artefactos temporales.
 - `wiki/agentes/[agent-id]/` = paquete canónico duradero del agente: identidad, instrucciones, memoria, rutinas, integraciones y decisiones auditables.
 - Vault root (`AGENTS.md`, `IDENTITY.md`, `USER.md`, `SOUL.md`) no debe definir una persona activa para todos los agentes. Sirve como schema/control o boundary; ningún agente debe inferir su identidad desde el root del Vault.
+- `wiki/decisiones/YYYY-MM.md` guarda decisiones destiladas de JR para consulta futura; no es transcript ni log técnico.
 - Workspace neutral/fallback: `/Users/jr/.openclaw/workspaces/_default-neutral/`. Si un agente cae allí, debe detenerse y pedir/configurar workspace específico.
 - Geoffrey activo: `/Users/jr/.openclaw/workspace-geoffrey/` + `wiki/agentes/geoffrey/`.
 
@@ -30,6 +31,16 @@ Los agentes especializados son expertos por dominio; [[geoffrey/SOUL|Geoffrey]] 
 | Legal | `wiki/agentes/legal/` | AMC Legal, casos, clientes, facturación, plazos y Diario de Centro América. | Previsto |
 | Meta Ads | `wiki/agentes/meta-ads/` | Campañas publicitarias, pauta, métricas y alertas. | Previsto |
 | Marketing / Imágenes | `wiki/agentes/marketing-imagenes/` | Identidad visual, Canva, creativos y activos gráficos. | Previsto |
+
+## Captura de decisiones
+
+Cualquier agente que opere con JR debe distinguir tres registros:
+
+- `wiki/decisiones/YYYY-MM.md`: decisiones de JR y acuerdos destilados, consultables por tema/fecha.
+- `wiki/agentes/[agent-id]/conversaciones/YYYY-MM-DD.md`: continuidad operativa diaria del agente.
+- `wiki/log/YYYY-MM.md`: auditoría append-only de cambios hechos al Vault.
+
+No guardar conversaciones completas salvo fuente cruda autorizada en `raw/`. Las decisiones deben ser breves, específicas y enlazadas a proyecto/persona/agente cuando aplique.
 
 ## Auto-ubicación de agentes
 

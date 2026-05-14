@@ -15,6 +15,7 @@ tags: [navigation, index]
 - [[dashboard]] — vista operativa del día
 - [[_CLAUDE]] — convenciones del vault
 - [[log/index|log]] — historial append-only
+- [[decisiones/index|decisiones]] — decisiones destiladas de JR por mes
 - `_sensitive.md` — datos legales (NIT, DPI, dirección) · NO compartir
 
 ## Agentes
