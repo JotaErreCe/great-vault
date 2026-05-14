@@ -1,44 +1,16 @@
-# TOOLS.md - Local Notes
+# TOOLS.md — Great Vault tooling boundary
 
-Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+This file is **not** an OpenClaw agent tool profile.
 
-## What Goes Here
+The Vault root documents knowledge/schema only. Per-agent tool notes, skills, allowlists and operational caveats belong in:
 
-Things like:
+- runtime workspace: `/Users/jr/.openclaw/workspace-[agent-id]/TOOLS.md`; and
+- durable package: `/Users/jr/documents/Great Vault/wiki/agentes/[agent-id]/integraciones.md` and `skills-permitidas.md`.
 
-- Camera names and locations
-- SSH hosts and aliases
-- Preferred voices for TTS
-- Speaker/room names
-- Device nicknames
-- Anything environment-specific
+For Geoffrey:
 
-## Examples
+- `/Users/jr/.openclaw/workspace-geoffrey/TOOLS.md`
+- `/Users/jr/documents/Great Vault/wiki/agentes/geoffrey/integraciones.md`
+- `/Users/jr/documents/Great Vault/wiki/agentes/geoffrey/skills-permitidas.md`
 
-```markdown
-### Cameras
-
-- living-room → Main area, 180° wide angle
-- front-door → Entrance, motion-triggered
-
-### SSH
-
-- home-server → 192.168.1.100, user: admin
-
-### TTS
-
-- Preferred voice: "Nova" (warm, slightly British)
-- Default speaker: Kitchen HomePod
-```
-
-## Why Separate?
-
-Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
-
----
-
-Add whatever helps you do your job. This is your cheat sheet.
-
-## Related
-
-- [Agent workspace](/concepts/agent-workspace)
+Do not infer agent identity or permissions from this Vault-root file.

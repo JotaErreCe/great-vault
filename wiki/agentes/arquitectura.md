@@ -6,7 +6,15 @@ tags: [agente, arquitectura, reference]
 
 # Arquitectura de agentes
 
-El Vault puede tener varios agentes especializados. Cada agente vive en `wiki/agentes/[nombre]/` y comparte las reglas base de [[_AI_BOOTSTRAP]].
+El Vault puede tener varios agentes especializados. Cada agente vive en `wiki/agentes/[nombre]/` para conocimiento duradero y comparte las reglas base de [[_AI_BOOTSTRAP]]. El runtime activo de OpenClaw vive fuera del Vault, en workspaces por agente bajo `~/.openclaw/`.
+
+## Separación runtime/Vault
+
+- `~/.openclaw/workspace-[agent-id]/` = entorno runtime del agente: `AGENTS.md`, `IDENTITY.md`, `SOUL.md`, `USER.md`, `HEARTBEAT.md`, `MEMORY.md`, skills locales y artefactos temporales.
+- `wiki/agentes/[agent-id]/` = paquete canónico duradero del agente: identidad, instrucciones, memoria, rutinas, integraciones y decisiones auditables.
+- Vault root (`AGENTS.md`, `IDENTITY.md`, `USER.md`, `SOUL.md`) no debe definir una persona activa para todos los agentes. Sirve como schema/control o boundary; ningún agente debe inferir su identidad desde el root del Vault.
+- Workspace neutral/fallback: `/Users/jr/.openclaw/workspaces/_default-neutral/`. Si un agente cae allí, debe detenerse y pedir/configurar workspace específico.
+- Geoffrey activo: `/Users/jr/.openclaw/workspace-geoffrey/` + `wiki/agentes/geoffrey/`.
 
 ## Principio central
 

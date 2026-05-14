@@ -1,5 +1,7 @@
 # AGENTS.md — Great Vault operating schema
 
+This is **not** an OpenClaw agent runtime identity file. The Vault root is neutral for multi-agent safety.
+
 This Vault follows the LLM Wiki pattern. Before doing substantive work here, read [[_AI_BOOTSTRAP]] and follow it.
 
 Core rules:
