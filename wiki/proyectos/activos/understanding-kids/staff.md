@@ -37,7 +37,7 @@ tags: [understanding-kids, staff, hr]
 | Annika Herbruger | Psicopedagoga | Activa |
 | Marcos Velasquez | Doctor; apoya dando tutorías | Activo |
 | Ariadna Morales | Servicios profesionales | **YA NO ESTÁ** |
-| Josselyn Ponciano | Psicóloga; también apoya con videos de YouTube junto con Felipe | Activa |
+| Josselyn Ponciano | Psicóloga; también apoya con videos de YouTube junto con Felipe. Estuvo en planilla; solicitó pasarse a servicios profesionales — finiquito de contrato laboral ejecutado, sigue activa como contratista | Activa |
 
 ## Limpieza / otros
 
@@ -46,11 +46,19 @@ tags: [understanding-kids, staff, hr]
 | Estela | Limpieza (Q375–1,375 / quincena según sede) | Activa |
 | Felipe (`Youtube` en pagos) | Graba, edita y hace miniaturas para YouTube UK junto con Josselyn; **contratado como externo — sin expediente en Drive** | Activo |
 
+## Historial laboral relevante
+
+| Nombre | Nota |
+|---|---|
+| **Karla Flores** | Terapeuta/SP terminada hace ~2 años. Tenía tarjeta de parqueo (sede fija). Archivos en iCloud/Contratos/Terminación Laboral. |
+| **Isabel López** | Contrato de Trabajo preparado pero **nunca firmado** — Isabel se echó para atrás. Sin vínculo laboral formal. Ya no está. |
+| **Aury (AVF)** | Cálculo de prestaciones en iCloud/Laboral. Salió 2026. |
+
 ## Notas de nomenclatura y corte
 
 - `CAES` = Carretera a El Salvador. Usar `CAES` como nombre común de la sede; dejar indexado que está en San José Pinula.
 - Corte vigente para staff/pagos al 2026-05-14: segunda quincena de abril 2026. Pagos de mayo pendientes de hacerse hoy/mañana.
-- Por ahora, todas las terapeutas/contratistas trabajan bajo servicios profesionales.
+- Todas las terapeutas/contratistas activas trabajan bajo servicios profesionales. Josselyn fue la última en hacer la transición desde planilla.
 
 ## Pendientes staff
 
