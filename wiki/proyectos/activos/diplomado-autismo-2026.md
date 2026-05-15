@@ -17,6 +17,8 @@ tags:
 
 Campaña de lanzamiento del producto de formación más ambicioso de [[understanding-kids]]. **Código interno: AUT26.** Diplomado virtual internacional para profesionales (psicólogos, terapeutas, médicos, pedagogos, educadores especiales, maestros). Secundariamente abierto a familias. **21 sesiones en 5 meses.** Enfoque neuroafirmativo y basado en evidencia.
 
+Meta comercial: mínimo 30 participantes; objetivo 50 participantes. Leads por WhatsApp, formularios y comentarios de redes; respuesta operativa a cargo de secretarías Z14 y CAES. Pagos en hoja propia de diplomado/formación.
+
 > Contexto maestro: `~/Documents/Understanding Kids/Campañas/Diplomado Internacional de Autismo 2026/CONTEXTO_CAMPANA_AUT26.md`
 > Canva editable: `https://canva.link/sy2s3rf6pncquj6` · Notion: `Marketing y Contenido / Campañas y Lanzamientos / Diplomado Internacional de Autismo 2026`
 
@@ -95,8 +97,9 @@ UK lidera, IS apoya selectivamente. Arranca en anuncio oficial. Objetivos: formu
 - [ ] Confirmar precio y cuotas (para IC01)
 - [ ] Confirmar apellidos completos de todas las ponentes
 - [ ] Crear formulario corto de interés
-- [ ] Definir número de WhatsApp para campaña
+- [ ] Definir número de WhatsApp para campaña o confirmar si usa WhatsApp compartido/sede
 - [ ] Definir sistema de tracking y flujo duda → venta
+- [ ] Confirmar participantes actuales contra hoja propia de pagos
 
 ## Relacionado
 

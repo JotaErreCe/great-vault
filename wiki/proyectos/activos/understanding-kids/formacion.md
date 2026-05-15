@@ -16,10 +16,9 @@ tags: [understanding-kids, formacion, diplomados, talleres]
 - **Estado**: **planificado / pre-venta** — aún no ha iniciado (inicia martes 4 ago 2026)
 - **Fechas**: martes 4 ago → martes 8 dic 2026 (21 sesiones, aprox. semanal)
 - **Precio**: USD $500/participante (paquete completo)
-- **Participantes**: meta 50 → real **40**
-- **Ingresos reales**: $18,000
-- **Gastos reales**: $7,129.80 (ponentes $5,545 + publicidad $500 + Recurrente/PayPal $1,080 + IVA mínimo $4.80)
-- **Utilidad libre**: **$10,870.20** (~Q83,700 a TC 7.7)
+- **Meta comercial 2026**: mínimo 30 participantes; meta 50 participantes
+- **Participantes actuales**: pendiente de confirmar contra hoja propia de pagos
+- **Referencia financiera previa en Vault**: ingresos $18,000; gastos $7,129.80; utilidad libre $10,870.20 (~Q83,700 a TC 7.7). Pendiente separar si corresponde a edición histórica o proyección.
 - **Ponentes**: Diana Bonilla, Ximena Carreto, Davinia García, Sara Vinueza, Dafne, Valeria, Andrea Orellana, Pilar, Tatiana Luis, Mónica Samayoa
 - **Drive**: `Diplomado Internacional en Autismo: Comprender, Evaluar e Intervenir` (spreadsheet con pagos, temario y hojas por ponente)
 - **Contratos ponentes**: carpeta iCloud `Contratos/Servicios Profesionales/`; carpeta Drive con PDFs firmados
@@ -30,6 +29,8 @@ tags: [understanding-kids, formacion, diplomados, talleres]
 - **Estado**: **en curso** (inició 13 mayo 2026)
 - **Fechas**: miércoles 13 may → miércoles 21 oct 2026 (24 sesiones semanales, dos fechas por sesión: mié/jue)
 - **Precio**: pendiente confirmar precio total al participante (modelo por sesión individual o paquete)
+- **Meta comercial 2026**: mínimo 25 participantes; meta 50 participantes
+- **Resultado comercial**: meta alcanzada — 50 participantes
 - **Ponentes y costos por sesión**:
   - Mónica Samayoa — Q2,250/sesión (11 sesiones)
   - Andrea Orellana — Q2,500/sesión (4 sesiones)
@@ -48,18 +49,21 @@ tags: [understanding-kids, formacion, diplomados, talleres]
 - **Ponente**: Marycarmen Montoya (externa, contratada por UK)
 - **Formato**: evento de un solo fin de semana (intensivo)
 - **Modelo de costos**: salón + honorarios de ponente como egreso
-- **Historial de ingresos brutos**:
+- **Datos Drive talleres**:
+  - 2025: 21 participantes; pagos registrados Q18,911.99 + $4,931.19; total aprox. $7,334.24 según hoja.
+  - 2026: 18 participantes; ingresos $5,724.20; egresos $3,243.32; diferencia $2,480.88.
+- **Historial financiero en resúmenes mensuales**:
   - Mar 2025: ~Q56,881 (Q18,912 + $4,931 USD)
   - Ene 2026: Q13,410
   - Feb 2026: Q37,412
-- **Notas**: El ingreso varía según si es edición intensiva o distribución en meses; identificado en Drive `Administración Pagos/`
+- **Notas**: El ingreso varía según si es edición intensiva o distribución en meses; identificado en Drive `Administración Pagos/` y carpeta Drive de talleres.
 
 ### Talleres/cursos activos y recurrentes (identificados en Drive)
 
 | Nombre | Audiencia | Recurrencia | Notas |
 |---|---|---|---|
-| Curso para Niñeras | Niñeras/cuidadores | Trimestral (Feb, Jun, Ago, Oct/Dic) | 4 sesiones × 1.5h; impartido por Josselyn (Z14) y María Ester (CAES). Ene Q900 / Feb Q5,950 |
-| Taller Domina el Perfil Sensorial | Profesionales | Puntual | Mar 2026 Q20,460; en Drive "Talleres zona 14" |
+| Curso para Niñeras | Niñeras/cuidadores | Trimestral (Feb, Jun, Ago, Oct/Dic) | 4 sesiones × 1.5h; impartido por Josselyn (Z14) y María Ester (CAES). Feb 2026 en Drive talleres: 6 participantes / Q2,700; resúmenes mensuales registran Ene Q900 / Feb Q5,950. |
+| Taller Domina el Perfil Sensorial | Profesionales | Puntual | 2026: 34 participantes; ingresos $5,554; egresos $1,014; diferencia $4,540. Mar 2026 Q20,460 en resumen mensual; revisar conciliación. |
 | Crisis Sensoriales | Padres/profesionales | Puntual | Ene 2026 Q2,366 / Feb 2026 Q3,300 |
 | Club de Lecto-escritura | Niños | Recurrente (grupal) | Visible en sheets Sep 2025; Q525/mes por niño aprox. |
 | Terapia Grupal de Lenguaje | Niños | Semestral (Feb-May / Ago-Oct) | 2 grupos; mié 9-10:30 am / jue 12:30-2 pm |
@@ -83,11 +87,11 @@ tags: [understanding-kids, formacion, diplomados, talleres]
 | Arte Terapia | Feb 2025 | |
 | Webinar gratuito: Señales de alerta IS | Jun 2025 | Gratuito (lead gen) |
 | Webinar gratuito: ¿Necesita tu hijo terapia? | Ene 2025 | Gratuito (lead gen) |
-| Neofobia Alimentaria | Sep 2024 | |
+| Neofobia Alimentaria | Oct 2024 | 14 participantes; $879.98 aprox. + Q1,800 según hoja Drive. |
 | Club de Inglés | Jul 2024 | |
 | Jornada de Capacitación: Alimentación + IS | Jul 2024 | Probablemente con ponente externa |
 | Webinar gratuito: Mi hijo no come | May 2024 | Gratuito (lead gen) |
-| Curso intensivo Alimentación y desarrollo motor | Feb 2024 | |
+| Curso intensivo Alimentación y desarrollo motor | 2023/2024 | 8 participantes; $525 + Q2,320 según hoja histórica. |
 | ¿Cómo apoyar en dificultades de aprendizaje? | Ene 2024 | |
 
 > **Observación de Planificación 2025**: El taller "Picky Eaters" (feb 2025) fue presencial, solo 3 inscritos — se registró como a repetir virtual. Los webinars gratuitos funcionan como canal de leads para formación de pago.
@@ -108,22 +112,35 @@ tags: [understanding-kids, formacion, diplomados, talleres]
 
 ---
 
+## Lógica comercial — leads y pagos
+
+- Los leads de formación/diplomados los responden las secretarias de Z14 y CAES.
+- Canales de leads: WhatsApp, formularios y comentarios de redes sociales.
+- Los pagos de diplomados están en su propia hoja, separada de finanzas generales.
+- Para análisis futuro, no copiar datos personales de leads/participantes al Vault: usar totales y métricas agregadas.
+
 ## Lógica de negocio — Formación
 
-- Los diplomados son el producto de mayor margen cuando escalan: el Autismo 2025 dejó ~$10,870 libre con solo 40 participantes.
+- Los diplomados son el producto de mayor margen cuando escalan: referencia previa en Vault indica ~$10,870 libre con 40 participantes; pendiente separar edición histórica vs proyección.
 - Los ponentes internacionales son el costo principal; locales (Mónica, Andrea) se pagan en quetzales.
 - Modelo: pago único por diplomado o pago por módulo — **confirmar con JR cuál es el modelo actual del IS Diplomado**.
 - UK opera como organizador/anfitrión; los ponentes son contratados por sesión.
 
 ---
 
+## Fuente Drive talleres
+
+JR indicó la carpeta Drive `Talleres` como fuente primaria para datos de talleres; auditoría agregada en [[understanding-kids/talleres-drive-2026-05-15]]. Tabla histórica viva: [[understanding-kids/tabla-historica-formacion-2024-2026]].
+
 ## Pendientes de confirmar
 
 - [ ] Precio al participante del Diplomado IS 2026 (¿$500? ¿por sesión? ¿paquete?)
-- [ ] Número de participantes inscritos en IS 2026
+- [x] Número de participantes inscritos en IS 2026: 50 participantes; meta alcanzada.
+- [ ] Participantes actuales del Diplomado Autismo 2026 contra hoja propia de pagos.
+- [ ] Nombre/ruta exacta de la hoja propia de pagos de diplomados.
 - [ ] Historial completo de talleres 2022–2025 (nombres, fechas, resultados)
 - [ ] Si hay una línea de cursos online permanentes o solo diplomados puntuales
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/finanzas]] · [[integracion-sensorial]] · [[diplomado-autismo-2026]]
+- [[understanding-kids]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/talleres-drive-2026-05-15]] · [[understanding-kids/tabla-historica-formacion-2024-2026]] · [[understanding-kids/finanzas]] · [[integracion-sensorial]] · [[diplomado-autismo-2026]]

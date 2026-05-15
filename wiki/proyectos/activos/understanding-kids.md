@@ -89,7 +89,7 @@ Sitio WordPress tiene productos publicados pero checkout no funciona. Posibles c
 ## Próximos pasos
 
 - [x] Nutrir staff y operación como prioridad inmediata — primer corte creado en [[understanding-kids/staff]] y [[understanding-kids/mapa-operativo]].
-- [ ] Crear bloque comercial/formación: diplomados, talleres, leads, metas, WhatsApp, pauta y pagos.
+- [x] Crear bloque comercial/formación: diplomados, talleres, leads, metas, WhatsApp, pauta y pagos — [[understanding-kids/comercial-formacion]]; fuente Drive de talleres auditada en [[understanding-kids/talleres-drive-2026-05-15]] y tabla histórica en [[understanding-kids/tabla-historica-formacion-2024-2026]].
 - [ ] Diagnosticar y reparar/probar checkout en `kidsunderstanding.com` con Recurrente.
 - [ ] Separar financieramente IS (vistas: sin IS / solo IS / con IS).
 - [ ] Definir oferta UK en el Aula para colegios.
@@ -101,4 +101,4 @@ Sitio WordPress tiene productos publicados pero checkout no funciona. Posibles c
 
 - [[monica]] · [[uk-catalogo]] · [[integracion-sensorial]] · [[diplomado-autismo-2026]]
 - [[visual-identity]] · [[inversiones-multidisciplinarias]]
-- [[understanding-kids/mapa-operativo]] · [[understanding-kids/staff]] · [[understanding-kids/finanzas]] · [[understanding-kids/operacion]]
+- [[understanding-kids/mapa-operativo]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/talleres-drive-2026-05-15]] · [[understanding-kids/tabla-historica-formacion-2024-2026]] · [[understanding-kids/staff]] · [[understanding-kids/finanzas]] · [[understanding-kids/operacion]]

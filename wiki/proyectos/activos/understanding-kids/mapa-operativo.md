@@ -118,8 +118,11 @@ Todas las terapeutas/contratistas activas trabajan por servicios profesionales p
 ### Formación / diplomados
 
 - Formación es un frente estratégico por margen y escalabilidad.
-- El Diplomado de Autismo 2026 está bien documentado como campaña.
-- El Diplomado IS 2026 existe como línea activa, pero faltan precio final, metas/cupos y responsable comercial explícito.
+- Los leads de diplomados/talleres los responden las secretarias de Z14 y CAES.
+- Canales de leads: WhatsApp, formularios y comentarios de redes sociales.
+- Los pagos de diplomados están en hoja propia, separada de finanzas generales.
+- El Diplomado de Autismo 2026 está bien documentado como campaña; mínimo comercial 30 participantes y meta 50.
+- El Diplomado IS 2026 está en curso; mínimo 25 participantes, meta 50 y meta alcanzada con 50 participantes.
 
 ### Web / tienda
 
@@ -159,8 +162,10 @@ Todas las terapeutas/contratistas activas trabajan por servicios profesionales p
 
 ### Comercial / formación
 
-- Confirmar metas/cupos/precios de Diplomado Autismo 2026 y Diplomado IS 2026.
-- Confirmar responsable de responder leads y cerrar ventas.
+- Confirmar precio del Diplomado IS 2026.
+- Confirmar participantes actuales del Diplomado Autismo 2026 contra hoja propia de pagos.
+- Confirmar nombre/ruta exacta de la hoja propia de pagos de diplomados.
+- Confirmar si WhatsApp es compartido o separado por sede/campaña.
 - Confirmar si habrá pipeline simple: lead → contactado → interesado → pagó → pendiente de pago.
 
 ### Web
@@ -182,8 +187,8 @@ Regla sugerida: agente UK puede leer señales autorizadas y preparar reportes/pr
 
 ## Próximo paso recomendado
 
-Crear el bloque `comercial-formacion.md` para entender dónde está el dinero escalable: diplomados, talleres, leads, metas, WhatsApp, pauta y pagos. En paralelo, mantener staff actualizado cuando aparezcan pagos de mayo.
+Completar `comercial-formacion.md` con la ruta/nombre exacto de la hoja propia de pagos, participantes actuales de Autismo 2026 y flujo de WhatsApp/formularios/comentarios. En paralelo, mantener staff actualizado cuando aparezcan pagos de mayo.
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/staff]] · [[understanding-kids/staff-auditoria-2026-05-14]] · [[understanding-kids/operacion]] · [[understanding-kids/finanzas]] · [[understanding-kids/formacion]] · [[understanding-kids/auditoria-2026-05-14]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]]
+- [[understanding-kids]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/staff]] · [[understanding-kids/staff-auditoria-2026-05-14]] · [[understanding-kids/operacion]] · [[understanding-kids/finanzas]] · [[understanding-kids/formacion]] · [[understanding-kids/auditoria-2026-05-14]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]]
