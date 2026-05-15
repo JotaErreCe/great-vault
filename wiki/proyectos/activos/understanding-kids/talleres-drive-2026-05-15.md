@@ -29,9 +29,9 @@ Criterio de privacidad: no se copian nombres, teléfonos, direcciones ni datos p
 
 | Taller / curso | Año/corte | Participantes | Ingresos / pagos agregados | Egresos | Resultado / nota |
 |---|---:|---:|---:|---:|---|
-| Alimentación Terapéutica | 2025 | 21 | Q18,911.99 + $4,931.19; hoja calcula total aprox. $7,334.24 | No consolidado en esta lectura | Taller fuerte; pagos en Q, PayPal y Recurrente. |
-| Alimentación Terapéutica | 2026 | 18 | $5,724.20 | $3,243.32 | Utilidad/diferencia $2,480.88; split 80/20 registrado en sheet. |
-| Domina el Perfil Sensorial | 2026 | 34 | $5,554.00 | $1,014.00 | Diferencia $4,540.00; split en dos de $2,270.00. |
+| Alimentación Terapéutica | 2025 | 21 | $7,334.24 total normalizado en hoja | $6,453.49 (gastos reales $2,930.51 + pago Marycarmen 80% $3,522.98) | Utilidad UK 20%: $880.75. |
+| Alimentación Terapéutica | 2026 | 18 | $5,724.20 | $5,228.02 (gastos reales $3,243.32 + pago Marycarmen 80% $1,984.70) | Utilidad UK 20%: $496.18. |
+| Domina el Perfil Sensorial | 2026 | 34 | $2,678.00 recibido por UK/Mónica | $408.00 reembolso de gastos Mónica | Utilidad UK/Mónica: $2,270.00. Davinia recibió todo y transfirió lo correspondiente; sin deducciones extra. |
 | Curso para niñeras | Feb 2026 | 6 | Q2,700.00 | No consolidado | Pago Q450 por participante según sheet. |
 | Curso para Pre-Universitarios | Mayo 2026 | 4 | Q4,000.00 | No consolidado | Pago Q1,000 por participante según sheet. |
 | Club de Lecto escritura | 2026 | 2 | Pagos marzo/abril/mayo parciales en sheet | No consolidado | Control mensual; requiere lectura por mes si se analiza rentabilidad. |
