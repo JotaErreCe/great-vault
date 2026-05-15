@@ -12,6 +12,29 @@ Google Sheet operativa creada en Drive: https://docs.google.com/spreadsheets/d/1
 
 Criterio de privacidad: no se copian nombres, teléfonos, direcciones ni datos personales de participantes. Solo métricas agregadas.
 
+## Vista simple en Google Sheet
+
+Tras feedback de JR, la Google Sheet ahora tiene una pestaña frontal `Resumen simple` con columnas mínimas:
+
+`taller · fecha · participantes · ingresos identificados · egresos identificados · utilidad preliminar · estado · qué falta`
+
+La pestaña técnica quedó como `Detalle financiero`; no debe ser la vista principal para revisión rápida.
+
+## Criterios financieros vigentes
+
+Criterios detallados: [[understanding-kids/criterios-financieros-formacion]].
+
+Resumen:
+
+- Registrar **ingresos brutos**, no netos.
+- Indexar GTQ y USD separados.
+- Calcular utilidad en GTQ con tipo de cambio **7.69**.
+- Separar: ingresos brutos, comisiones/impuestos, egresos operativos y utilidad neta estimada.
+- IVA aplica sobre ingresos brutos facturados antes de descontar comisiones; no aplica a PayPal porque no se emite factura.
+- Recurrente/PayPal son comisiones de pasarela; falta confirmar tasas exactas.
+- Pago a Mónica por servicios es egreso operativo, no utilidad.
+- Clasificar primero por taller/fecha de realización y luego por mes de pago/aporte, sin mezclar talleres.
+
 ## Cómo leer esta tabla
 
 - **Confirmado**: dato leído directamente de hoja/documento del taller.
@@ -21,13 +44,13 @@ Criterio de privacidad: no se copian nombres, teléfonos, direcciones ni datos p
 
 ## Tabla histórica — productos con datos agregados
 
-| Producto / edición | Año / fecha | Categoría | Audiencia | Formato / duración | Responsable / ponente | Participantes | Ingresos/pagos agregados | Egresos | Utilidad / diferencia | Estado dato | Fuente |
-|---|---:|---|---|---|---|---:|---:|---:|---:|---|---|
-| Alimentación Terapéutica | 2025 / mar | Taller intensivo alto ticket | Profesionales / padres | Presencial intensivo | Marycarmen Montoya | 21 | Q18,911.99 + $4,931.19; hoja calcula total aprox. $7,334.24 | Pendiente | Pendiente | Parcial | Drive `Alimentación Terapéutica/2025/Participantes` |
-| Alimentación Terapéutica | 2026 / feb-mar | Taller intensivo alto ticket | Profesionales / padres | Presencial intensivo | Marycarmen Montoya | 18 | $5,724.20 | $3,243.32 | $2,480.88 | Confirmado | Drive `Alimentación Terapéutica/2026/Presupuesto` + `Participantes 2026` |
-| Domina el Perfil Sensorial | 2026 / mar | Taller profesional | Profesionales | Virtual / grabado con material | Mónica + Davinia | 34 | $5,554.00 | $1,014.00 | $4,540.00 | Confirmado | Drive `Taller para profesionales: Domina el Perfil Sensorial/Calculos` |
-| Curso para niñeras | 2026 / feb | Curso recurrente | Niñeras / cuidadoras | 4 sesiones × 1.5 h | Secretaría/UK; 2025 planificado con Josselyn y María Esther | 6 | Q2,700.00 | Pendiente | Pendiente | Confirmado en ingresos; egresos pendiente | Drive `Taller para niñeras/Inscripciones/2026` |
-| Curso para Pre-Universitarios | 2026 / mayo | Curso académico | Preuniversitarios | 7 sesiones × 2 h según planificación | Mónica Valencia / Isabel López según planificación 2025; confirmar 2026 | 4 | Q4,000.00 | Pendiente | Pendiente | Confirmado en ingresos; responsable pendiente | Drive `Curso para Pre-Universitarios/Participantes 2026` |
+| Producto / edición | Año / fecha | Mes realización | Mes pago/aporte | Categoría | Participantes | Ingresos brutos GTQ | Ingresos brutos USD | TC | Ingresos brutos GTQ equiv. | Comisiones/impuestos GTQ | Egresos operativos GTQ | Utilidad neta GTQ | Estado dato | Fuente |
+|---|---:|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---|---|
+| Alimentación Terapéutica | 2025 / mar | 2025-03 | Pendiente | Taller intensivo alto ticket | 21 | Q18,911.99 | $4,931.19 | 7.69 | Q56,834.84 | Pendiente | Pendiente | Pendiente | Parcial | Drive `Alimentación Terapéutica/2025/Participantes` |
+| Alimentación Terapéutica | 2026 / feb-mar | 2026-02/03 | Pendiente | Taller intensivo alto ticket | 18 | Pendiente | $5,724.20 | 7.69 | Q44,010.70 | Pendiente | Q24,944.13 | Q19,066.57 antes de comisiones/impuestos pendientes | Parcial | Drive `Alimentación Terapéutica/2026/Presupuesto` + `Participantes 2026` |
+| Domina el Perfil Sensorial | 2026 / mar | 2026-03 | Pendiente | Taller profesional | 34 | Pendiente | $5,554.00 | 7.69 | Q42,710.26 | Pendiente | Q7,797.66 | Q34,912.60 antes de comisiones/impuestos pendientes | Parcial | Drive `Taller para profesionales: Domina el Perfil Sensorial/Calculos` |
+| Curso para niñeras | 2026 / feb | 2026-02 | 2026-02 | Curso recurrente | 6 | Q2,700.00 | $0.00 | 7.69 | Q2,700.00 | Pendiente | Pendiente | Pendiente | Parcial | Drive `Taller para niñeras/Inscripciones/2026` |
+| Curso para Pre-Universitarios | 2026 / mayo | 2026-05 | 2026-05 | Curso académico | 4 | Q4,000.00 | $0.00 | 7.69 | Q4,000.00 | Pendiente | Pendiente | Pendiente | Parcial | Drive `Curso para Pre-Universitarios/Participantes 2026` |
 | Club de Lecto-escritura | 2026 / mar-may | Club mensual / grupal | Niños | 2 veces por semana; ciclo 3 meses según planificación | Josselyn Ponciano según planificación | 2 | Pagos mensuales parciales visibles; monto no consolidado | Pendiente | Pendiente | Parcial | Drive `Club de Lecto escritura/Participantes 2025/Participantes 2026` |
 | Estimulación Temprana | 2024 | Curso/taller | Padres / bebés | Curso intensivo / materiales físicos | Pendiente | 9 | Pagos marcados como recibidos; monto no visible en hoja leída | Pendiente | Pendiente | Parcial | Drive `Curso intensivo de estimulación temprana/2024/Participantes` |
 | Actualización de Herramientas Psicológicas | 2025 / dic | Taller profesional | Profesionales / staff | Taller con material digital | Pendiente | 8 externos + staff UK listado | Pendiente | Pendiente | Pendiente | Parcial | Drive `Talleres antiguos/Actualización de Herramientas Psicológicas/Participantes` |
@@ -98,4 +121,4 @@ Cada taller/diplomado debería tener una fila con:
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/talleres-drive-2026-05-15]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/formacion]]
+- [[understanding-kids]] · [[understanding-kids/criterios-financieros-formacion]] · [[understanding-kids/talleres-drive-2026-05-15]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/formacion]]

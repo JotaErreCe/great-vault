@@ -36,9 +36,13 @@ Los leads los responden las secretarias de ambas sedes:
 
 > Pendiente: confirmar si ambas secretarias responden desde un WhatsApp compartido, números separados por sede o bandejas/canales diferentes según campaña.
 
-## Control de pagos
+## Control financiero y pagos
+
+Criterios financieros vigentes: [[understanding-kids/criterios-financieros-formacion]].
 
 - Los pagos de diplomados/formación están en su propia hoja, separada de finanzas generales.
+- Registrar ingresos brutos, comisiones/impuestos, egresos operativos y utilidad neta estimada por taller/edición.
+- Indexar GTQ y USD separados; calcular utilidad en GTQ con TC 7.69.
 - Para análisis futuro, esa hoja debe tratarse como fuente primaria del pipeline pagado: inscrito, pago parcial, pago completo, pendiente y/o beca/descuento si existiera.
 - No copiar datos personales de participantes al Vault; solo totales agregados, estados y métricas.
 
@@ -107,4 +111,4 @@ Guardrail: no responder WhatsApp, no publicar, no mover dinero ni modificar hoja
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/formacion]] · [[understanding-kids/talleres-drive-2026-05-15]] · [[understanding-kids/tabla-historica-formacion-2024-2026]] · [[understanding-kids/mapa-operativo]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]]
+- [[understanding-kids]] · [[understanding-kids/formacion]] · [[understanding-kids/criterios-financieros-formacion]] · [[understanding-kids/talleres-drive-2026-05-15]] · [[understanding-kids/tabla-historica-formacion-2024-2026]] · [[understanding-kids/mapa-operativo]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]]
