@@ -88,16 +88,17 @@ Sitio WordPress tiene productos publicados pero checkout no funciona. Posibles c
 
 ## Próximos pasos
 
-- [ ] Nutrir staff y operación como prioridad inmediata
-- [ ] Diagnosticar y reparar/probar checkout en `kidsunderstanding.com` con Recurrente
-- [ ] Separar financieramente IS (vistas: sin IS / solo IS / con IS)
-- [ ] Definir oferta UK en el Aula para colegios
-- [ ] Retomar webinars como herramienta de marketing para Formación
-- [ ] Completar lectura financiera mensual Z14 (2024-2025) y CAES (2025)
-- [ ] Confirmar apellidos completos del personal
+- [x] Nutrir staff y operación como prioridad inmediata — primer corte creado en [[understanding-kids/staff]] y [[understanding-kids/mapa-operativo]].
+- [ ] Crear bloque comercial/formación: diplomados, talleres, leads, metas, WhatsApp, pauta y pagos.
+- [ ] Diagnosticar y reparar/probar checkout en `kidsunderstanding.com` con Recurrente.
+- [ ] Separar financieramente IS (vistas: sin IS / solo IS / con IS).
+- [ ] Definir oferta UK en el Aula para colegios.
+- [ ] Retomar webinars como herramienta de marketing para Formación.
+- [ ] Completar lectura financiera mensual Z14 (2024-2025) y CAES (2025).
+- [ ] Confirmar apellidos completos del personal.
 
 ## Relacionado
 
 - [[monica]] · [[uk-catalogo]] · [[integracion-sensorial]] · [[diplomado-autismo-2026]]
 - [[visual-identity]] · [[inversiones-multidisciplinarias]]
-- [[understanding-kids/staff]] · [[understanding-kids/finanzas]] · [[understanding-kids/operacion]]
+- [[understanding-kids/mapa-operativo]] · [[understanding-kids/staff]] · [[understanding-kids/finanzas]] · [[understanding-kids/operacion]]
