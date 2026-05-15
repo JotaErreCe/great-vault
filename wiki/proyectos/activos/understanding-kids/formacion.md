@@ -54,18 +54,49 @@ tags: [understanding-kids, formacion, diplomados, talleres]
   - Feb 2026: Q37,412
 - **Notas**: El ingreso varía según si es edición intensiva o distribución en meses; identificado en Drive `Administración Pagos/`
 
-### Otros talleres identificados
+### Talleres/cursos activos y recurrentes (identificados en Drive)
 
-| Nombre | Año | Notas |
+| Nombre | Audiencia | Recurrencia | Notas |
+|---|---|---|---|
+| Curso para Niñeras | Niñeras/cuidadores | Trimestral (Feb, Jun, Ago, Oct/Dic) | 4 sesiones × 1.5h; impartido por Josselyn (Z14) y María Ester (CAES). Ene Q900 / Feb Q5,950 |
+| Taller Domina el Perfil Sensorial | Profesionales | Puntual | Mar 2026 Q20,460; en Drive "Talleres zona 14" |
+| Crisis Sensoriales | Padres/profesionales | Puntual | Ene 2026 Q2,366 / Feb 2026 Q3,300 |
+| Club de Lecto-escritura | Niños | Recurrente (grupal) | Visible en sheets Sep 2025; Q525/mes por niño aprox. |
+| Terapia Grupal de Lenguaje | Niños | Semestral (Feb-May / Ago-Oct) | 2 grupos; mié 9-10:30 am / jue 12:30-2 pm |
+| Circuito de Estimulación Temprana | Bebés | Trimestral | 8 semanas; también "Clase grupal" y "Pre gateo" |
+| Curso Pre-universitarios | Estudiantes | Semestral | En Z14; también modalidad CAES (pago taller dic 2025 Q1,050) |
+| Taller IS Avanzada para Padres | Padres | Puntual | 2025; con Dra. Davinia García |
+
+### Talleres para colegios / B2B (carpeta "Talleres Colegios")
+
+| Nombre | Año/mod | Notas |
 |---|---|---|
-| Taller Crisis Sensoriales | 2026 | Ene Q2,366 / Feb Q3,300 |
-| Taller Domina el Perfil Sensorial | Mar 2026 | Q20,460 |
-| Taller IS Avanzada para Padres | 2025 | Evento con Dra. Davinia García; artes en iCloud `Eventos/` |
-| Primeros Auxilios | 2026 | CAES; Feb Q1,600 |
-| Curso para Niñeras | 2026 | Ene Q900 / Feb Q5,950 |
-| Potty Learning | ¿? | Logo en iCloud; control de esfínteres |
-| Taller Inaccesible | ¿? | Presupuesto en Drive `Eventos/Presupuestos/` |
-| Clases grupales Z14 | Recurrente | Terapia grupal de lenguaje (grupos 1 y 2); Q88/sesión por participante |
+| Disciplina consciente y respetuosa | 2025 | Capacitación docentes |
+| Estimulación temprana | 2024 | Capacitación |
+| Primeros auxilios | 2024 | También corrió en CAES (Feb 2026 Q1,600) |
+
+### Talleres antiguos (archivados en "Talleres antiguos")
+
+| Nombre | Aprox. | Notas |
+|---|---|---|
+| Actualización de Herramientas Psicológicas | Dic 2025 | Para profesionales |
+| Arte Terapia | Feb 2025 | |
+| Webinar gratuito: Señales de alerta IS | Jun 2025 | Gratuito (lead gen) |
+| Webinar gratuito: ¿Necesita tu hijo terapia? | Ene 2025 | Gratuito (lead gen) |
+| Neofobia Alimentaria | Sep 2024 | |
+| Club de Inglés | Jul 2024 | |
+| Jornada de Capacitación: Alimentación + IS | Jul 2024 | Probablemente con ponente externa |
+| Webinar gratuito: Mi hijo no come | May 2024 | Gratuito (lead gen) |
+| Curso intensivo Alimentación y desarrollo motor | Feb 2024 | |
+| ¿Cómo apoyar en dificultades de aprendizaje? | Ene 2024 | |
+
+> **Observación de Planificación 2025**: El taller "Picky Eaters" (feb 2025) fue presencial, solo 3 inscritos — se registró como a repetir virtual. Los webinars gratuitos funcionan como canal de leads para formación de pago.
+
+### Clases grupales (clínica + formación mixta)
+
+- Grupos de terapia de lenguaje (grupo 1 y grupo 2) en Z14
+- Precio: ~Q88/sesión por participante en grupo
+- Aparece como `Clases Grupales` en el resumen de ingresos mensual
 
 ---
 
