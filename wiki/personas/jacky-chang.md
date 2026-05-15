@@ -10,13 +10,15 @@ tags:
 
 # Jacky Chang
 
-Mejor amigo de [[jr]]. Relación cercana que incluye a su familia. Como de 2026-04.
+Mejor amigo de [[jr]] desde 2005. Relación cercana que incluye a su familia. Pareja: Dulce, desde 2023-01-01.
 
 ---
 
 ## 📝 Resumen
 
 - **Tipo de relación:** Mejor amigo — junto con [[danilo-perez]]
+- **Desde:** 2005 (amistad con JR desde 2005)
+- **Pareja:** Dulce — novia desde 2023-01-01
 - **Nota:** La relación incluye a su familia — es una amistad de largo plazo
 
 ---
