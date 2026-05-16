@@ -82,3 +82,16 @@ La hoja `Planificación 2025` confirma un calendario amplio de formación:
 ## Relacionado
 
 - [[understanding-kids]] · [[understanding-kids/formacion]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/mapa-operativo]]
+
+## Continuación de conciliación — históricos restantes
+
+Actualización de trabajo sobre filas históricas/pedientes:
+
+| Producto / edición | Dato actualizado | Estado | Nota |
+|---|---|---|---|
+| Neofobia Alimentaria 2024 | Ingresos Q1,800 + $879.98; comisiones/impuestos estimados Q1,023.49; utilidad preliminar Q7,543.56 | Calculado parcial | Se aplicó IVA sobre Q, ISR sobre total bruto y PayPal 5.6% sobre USD. No se encontraron egresos operativos en carpeta revisada. |
+| Alimentación y Desarrollo Motor 2023 | Ingresos Q2,320 + $525; comisiones/impuestos estimados Q1,002.38; utilidad preliminar Q5,354.87 | Calculado parcial | USD contiene 2 Recurrente y 3 PayPal; se aplicaron reglas actuales. No se encontraron egresos operativos. |
+| Club de Lecto-escritura 2026 | 2 participantes; pagos marcados TRUE por meses | Pendiente monto | Hoja no muestra precio/monto; hay comprobantes adjuntos, pero falta OCR/revisión o dato de precio. |
+| Estimulación Temprana 2024 | 9 participantes con pagos marcados TRUE | Pendiente monto | Hoja no muestra precio/monto; poster revisado no muestra precio legible. |
+| Actualización Herramientas Psicológicas 2025 | 8 externos + staff UK; métodos de pago visibles | Pendiente monto | Hoja no muestra precio/monto. |
+| Arte Terapia 2025 | 5 participantes; métodos de pago visibles | Pendiente monto | Hoja no muestra precio/monto ni egresos. |
