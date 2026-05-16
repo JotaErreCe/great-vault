@@ -167,6 +167,8 @@ Estatus:
 
 ## Próximas acciones de Fase 2
 
+- [x] Hacer análisis semántico inicial de Drive/documentos: [[understanding-kids/analisis-semantico-drive-2026-05-15]].
+- [ ] Crear catálogo de fuentes por documento con sensibilidad/vigencia/uso.
 - [ ] Crear tabla de fuentes por sede/unidad para consolidación financiera marzo–mayo 2026.
 - [ ] Confirmar si `Resumen Fin de Mes` CAES es suficiente como fuente mensual o si hay que cruzar con caja/estados.
 - [ ] Revisar si ya aparecieron pagos de mayo en iCloud antes de actualizar staff.
@@ -175,4 +177,4 @@ Estatus:
 
 ## Relacionado
 
-- [[understanding-kids/mapa-operativo]] · [[understanding-kids/pendientes-operativos-2026-05-15]] · [[understanding-kids/operacion]] · [[understanding-kids/finanzas]] · [[understanding-kids/staff]] · [[understanding-kids/comercial-formacion]]
+- [[understanding-kids/mapa-operativo]] · [[understanding-kids/analisis-semantico-drive-2026-05-15]] · [[understanding-kids/pendientes-operativos-2026-05-15]] · [[understanding-kids/operacion]] · [[understanding-kids/finanzas]] · [[understanding-kids/staff]] · [[understanding-kids/comercial-formacion]]
