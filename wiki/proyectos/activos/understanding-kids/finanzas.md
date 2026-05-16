@@ -6,7 +6,7 @@ tags: [understanding-kids, finanzas]
 
 # UK — Finanzas detalladas
 
-> Detalle financiero de [[understanding-kids]]. Fuente principal: Drive (hojas "Resumen del mes de…"). CAES datos confirmados via Notion Registro Financiero (en MAESTRO.md). Z14 2024–2025 sin consolidar en Notion; en revisión.
+> Detalle financiero de [[understanding-kids]]. Fuente principal: Drive (hojas "Resumen del mes de…"). CAES datos confirmados via archivos XLSX en Drive. **Notion Registro Financiero: no usar — no confiable (confirmado JR 2026-05-15).**
 > Entidad legal: **Inversiones Multidisciplinarias, S.A.**
 
 ## Resumen mensual Z14 — 2026 (datos reales Drive)

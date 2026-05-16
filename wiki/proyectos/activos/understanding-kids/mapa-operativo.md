@@ -20,6 +20,8 @@ UK opera como una empresa multidisciplinaria con tres frentes:
 
 Integración Sensorial funciona como submarca temática/comercial dentro de UK, no como unidad operativa separada todavía.
 
+**Proyectos en pausa** (confirmado MAESTRO 2026-04-08): `ToyLab` (submarca comercial, posible integración futura) y `Muffin` (proyecto pausado indefinidamente).
+
 ## Fuentes de verdad por área
 
 | Área | Fuente principal actual | Fuente secundaria / notas | Estado |
