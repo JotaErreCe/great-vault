@@ -187,8 +187,15 @@ Regla sugerida: agente UK puede leer señales autorizadas y preparar reportes/pr
 
 ## Próximo paso recomendado
 
-Completar `comercial-formacion.md` con la ruta/nombre exacto de la hoja propia de pagos, participantes actuales de Autismo 2026 y flujo de WhatsApp/formularios/comentarios. En paralelo, mantener staff actualizado cuando aparezcan pagos de mayo.
+Talleres/formación financiera queda temporalmente en espera de respuesta de Magoo/Mónica al formato enviado. Mientras tanto, avanzar con el resto de UK:
+
+1. Completar índice operativo de Drive Z14 + CAES.
+2. Mantener staff actualizado cuando aparezcan pagos de mayo en iCloud.
+3. Preparar consolidación financiera marzo–mayo 2026 solo después de definir alcance por sede/unidad.
+4. Dejar web/checkout para auditoría read-only cuando JR autorice acceso.
+
+Nota operativa: [[understanding-kids/pendientes-operativos-2026-05-15]]. Índice Drive fase 2: [[understanding-kids/indice-operativo-drive-2026-05-15]].
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/staff]] · [[understanding-kids/staff-auditoria-2026-05-14]] · [[understanding-kids/operacion]] · [[understanding-kids/finanzas]] · [[understanding-kids/formacion]] · [[understanding-kids/auditoria-2026-05-14]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]]
+- [[understanding-kids]] · [[understanding-kids/indice-operativo-drive-2026-05-15]] · [[understanding-kids/pendientes-operativos-2026-05-15]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/staff]] · [[understanding-kids/staff-auditoria-2026-05-14]] · [[understanding-kids/operacion]] · [[understanding-kids/finanzas]] · [[understanding-kids/formacion]] · [[understanding-kids/auditoria-2026-05-14]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]]
