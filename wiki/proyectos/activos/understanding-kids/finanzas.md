@@ -21,7 +21,8 @@ tags: [understanding-kids, finanzas]
 | Enero | Q33,870 | Q25,302 | ~Q1,000 | **~Q60,172** |
 | Febrero | Q45,384 | Q57,255 | Q2,155 | **Q104,794** |
 | Marzo | Q34,975 | Q53,511 | Q2,452 | **~Q90,938** |
-| Abril | borrador | borrador | borrador | **borrador — sin consolidar** |
+| Abril | ~Q37,637 | ~Q71,953 | ~Q2,048 | **~Q111,638** |
+| Mayo (Q1 solo) | ~Q14,733 | ~Q15,368 | ~Q1,801 | **~Q31,902** ← mes en progreso |
 
 ### Gastos operación Z14 (excluye pagos a terapeutas)
 
@@ -30,6 +31,8 @@ tags: [understanding-kids, finanzas]
 | Enero | Q25,655 | ~Q8,065 | **~Q33,720** |
 | Febrero | Q22,231 | ~Q20,540 | **~Q42,771** |
 | Marzo | Q25,655 | ~Q22,635 | **~Q48,290** |
+| Abril | Q12,854 | Q31,032 | **~Q43,886** |
+| Mayo (Q1) | Q13,923 | ~Q16,211 | **—** ← mes en progreso |
 
 ### Gastos fijos recurrentes Z14
 
@@ -64,6 +67,12 @@ tags: [understanding-kids, finanzas]
 | Feb | Curso para niñeras | Q5,950 |
 | Mar | Taller domina el perfil sensorial | Q20,460 |
 | Mar | Diplomado IS | **Q33,051** |
+| Abr | Diplomado IS (GTQ) | Q5,570 |
+| Abr | Diplomado IS (USD) | **~Q63,383** ($8,232 × Q7.7) |
+| Abr | Curso pre-universitarios | Q3,000 |
+| May (Q1) | Diplomado IS (GTQ) | Q3,640 |
+| May (Q1) | Diplomado IS (USD) | ~Q10,728 ($1,393 × Q7.7) |
+| May (Q1) | Curso pre-universitarios | Q1,000 |
 
 ### Margen estimado Z14 (feb 2026, mes más completo)
 - Ingresos: **Q104,794**
@@ -78,11 +87,14 @@ tags: [understanding-kids, finanzas]
 |-----|:-:|:-:|:-:|:-:|:-:|:-:|
 | Enero | Q15,077 | — | — | Q15,077 | Q4,581 | **Q10,496** |
 | Febrero | Q19,733 | Q2,603 | Q1,600 | Q23,936 | Q9,740 | **Q14,196** |
-| Marzo | Q23,913 | Q2,535 | — | ~Q26,448 | en revisión | — |
-| Abril | borrador | borrador | borrador | borrador | — | — |
+| Marzo | Q23,913 | Q2,535 | — | ~Q26,448 | Q9,141 | **~Q17,307** |
+| Abril | ~Q18,708 | — | Q450 | ~Q19,158 | Q6,656 | **~Q12,502** |
+| Mayo (Q1 solo) | Q11,110 | — | Q900 | Q12,010 | Q400+ | **—** ← mes en progreso |
 
 > CAES abrió sep 2025. "En consolidación hacia equilibrio" según MAESTRO.
-> Drive CAES: carpeta `Administración CAES` → `Resumen Fin de Mes` → `Resumen 2026` → XLSX por mes.
+> Drive CAES: carpeta `Administración CAES` → `Resumen Fin de Mes` → `Resumen 2026` → XLSX (Mar–Abr) / Google Sheet (Mayo+).
+> La columna `Gastos Op` solo incluye gastos operativos (no terapeutas). Servicios terapeutas por mes: Mar Q9,326 | Abr ~Q9,315 (Q7,287 + Aura Q2,028) | Mayo Q1 ~Q3,212.
+> Talleres en Abr/Mayo = Curso para niñeras.
 
 ## CAES — 2025 (datos Drive XLSX confirmados)
 
@@ -151,6 +163,26 @@ Taller recurrente de alta facturación, corriendo desde al menos **mar 2025**:
 
 ---
 
+## Resumen mar 2026 (confirmado)
+
+| Métrica | Total | Z14 | CAES |
+|---|:-:|:-:|:-:|
+| Ingresos | **~Q117,386** | ~Q90,938 | ~Q26,448 |
+| Gastos op | Q34,796 | Q25,655 | Q9,141 |
+| Servicios terapeutas | ~Q31,961 | ~Q22,635 | ~Q9,326 |
+| **Egresos totales** | **~Q66,757** | **~Q48,290** | **~Q18,467** |
+
+## Resumen abr 2026 (estimado — sin resumen tab Z14)
+
+| Métrica | Total | Z14 | CAES |
+|---|:-:|:-:|:-:|
+| Ingresos | **~Q130,796** | ~Q111,638 | ~Q19,158 |
+| Gastos op | Q19,510 | Q12,854 | Q6,656 |
+| Servicios terapeutas | ~Q40,347 | ~Q31,032 | ~Q9,315 |
+| **Egresos totales** | **~Q59,857** | **~Q43,886** | **~Q15,971** |
+
+> **Nota metodológica abril:** No hay pestaña "Resumen" en Z14. Terapias sumadas desde subtotales por terapeuta en ambas quincenas. Formación incluye Diplomado IS con alta proporción de pagos en USD ($8,232 × Q7.7). Los Q31,032 de terapeutas Z14 incluyen Mónica Q20,000 que puede ser pago de coordinación del Diplomado IS, no solo clínica.
+
 ## Resumen feb 2026
 
 | Métrica | Total | Z14 | CAES |
@@ -180,6 +212,10 @@ JR confirmó que los documentos Excel/Sheets financieros de UK no tienen formato
 
 ## Pendientes de análisis
 
+- Z14 Mayo: completar Q2 cuando esté disponible (mes en progreso)
+- CAES Mayo: completar Q2 y gastos completos al cierre del mes
+- Confirmar con JR si Mónica Q20,000 en Abril Z14 es pago coordinación Diplomado IS o clínica
+- Confirmar tipo de cambio real usado (sheet dice Q7.7 — verificar si aplica igual a pagos Recurrente vs Paypal)
 - Lectura financiera mensual Z14 2024–2025 (incompleta)
 - Lectura financiera mensual CAES 2025
 - Separación contable de [[integracion-sensorial|IS]] dentro de UK (vistas: sin IS / solo IS / con IS)
