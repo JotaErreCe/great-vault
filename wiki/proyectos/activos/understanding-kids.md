@@ -2,7 +2,7 @@
 type: proyecto
 date: 2026-04-27
 estado: activo
-last-touched: 2026-05-04
+last-touched: 2026-05-16
 tags:
   - proyecto
   - estado/activo
@@ -21,7 +21,7 @@ Empresa multidisciplinaria fundada y dirigida por [[monica]] (terapeuta + direct
 
 ## Estado en 1 línea
 
-UK = clínica + formación + (en desarrollo) B2B colegios. 2 sedes (Z14 maestra, CAES sede 2). Feb 2026: Q128,729 ingresos / Q31,971 gastos / **Q96,758 utilidad**. Crecimiento feb vs ene: **+73%**. Checkout del sitio web ROTO ⚠️.
+UK = clínica + formación + (en desarrollo) B2B colegios. 2 sedes (Z14 maestra, CAES sede 2). Abr 2026 (mes más fuerte): ~Q130,796 ingresos consolidados. Checkout del sitio: no probado/no confiable ⚠️ · catálogo desactualizado.
 
 ## Arquitectura de marca
 
@@ -55,16 +55,15 @@ Catálogo completo: [[uk-catalogo]]. Resumen:
 - **Formación en vivo:** diplomados y talleres (profesionales)
 - **Tienda digital (~90 productos):** 7 talleres pre-grabados (Q180–1,599), 14 planes estimulación (Q150 c/u), imprimibles/flashcards (~Q8 c/u)
 
-## Finanzas (feb 2026, último corte confirmado)
+## Finanzas (resumen mar–abr 2026)
 
-| Métrica | Total | Z14 | CAES |
+| Mes | Ingresos total | Z14 | CAES |
 |---|:-:|:-:|:-:|
-| Ingresos | **Q128,729** | Q104,793 | Q23,936 |
-| Gastos | Q31,971 | Q22,231 | Q9,739 |
-| **Utilidad** | **Q96,758** | Q82,562 | Q14,196 |
+| Feb 2026 | Q128,729 | Q104,793 | Q23,936 |
+| Mar 2026 | ~Q117,386 | ~Q90,938 | ~Q26,448 |
+| Abr 2026 | ~Q130,796 | ~Q111,638 | ~Q19,158 |
 
-**Mix Z14:** Clínica Q45,983 · Formación Q57,255 (mayor) · Productos Q1,554
-**Mix CAES:** Clínica Q19,733 · Productos Q2,603 · Formación Q1,600
+Abril fue el mes más alto del año — impulsado por Diplomado IS con alta participación internacional (USD). Mayo en progreso.
 
 Detalle completo: [[understanding-kids/finanzas]].
 
@@ -74,9 +73,9 @@ WordPress + WooCommerce · Recurrente (pasarela vigente; reemplazó QPayPro) · 
 
 Detalle de sistemas, estructura Drive, políticas: [[understanding-kids/operacion]].
 
-## Problema urgente — Checkout roto
+## Web — estado actual
 
-Sitio WordPress tiene productos publicados pero checkout no funciona. Posibles causas: pasarela expirada, conflicto plugins, SSL, config moneda/país. JR tiene todos los accesos.
+Catálogo desactualizado. Checkout carga y muestra Recurrente, pero no ha sido probado en un flujo completo de compra. Estado: **no confiable / no probado**. Auditoría pendiente de autorización JR (read-only). JR tiene todos los accesos.
 
 ## Prioridades estratégicas
 
@@ -88,6 +87,7 @@ Sitio WordPress tiene productos publicados pero checkout no funciona. Posibles c
 
 ## Próximos pasos
 
+- [[understanding-kids/plan-nutricion-completa]] — plan maestro para completar la wiki operativa de UK antes de crear `README-AI.md` final.
 - [x] Nutrir staff y operación como prioridad inmediata — primer corte creado en [[understanding-kids/staff]] y [[understanding-kids/mapa-operativo]].
 - [x] Crear bloque comercial/formación: diplomados, talleres, leads, metas, WhatsApp, pauta y pagos — [[understanding-kids/comercial-formacion]]; fuente Drive de talleres auditada en [[understanding-kids/talleres-drive-2026-05-15]] y tabla histórica en [[understanding-kids/tabla-historica-formacion-2024-2026]].
 - [ ] Diagnosticar y reparar/probar checkout en `kidsunderstanding.com` con Recurrente.
@@ -101,4 +101,4 @@ Sitio WordPress tiene productos publicados pero checkout no funciona. Posibles c
 
 - [[monica]] · [[uk-catalogo]] · [[integracion-sensorial]] · [[diplomado-autismo-2026]]
 - [[visual-identity]] · [[inversiones-multidisciplinarias]]
-- [[understanding-kids/mapa-operativo]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/talleres-drive-2026-05-15]] · [[understanding-kids/tabla-historica-formacion-2024-2026]] · [[understanding-kids/staff]] · [[understanding-kids/finanzas]] · [[understanding-kids/operacion]]
+- [[understanding-kids/plan-nutricion-completa]] · [[understanding-kids/mapa-operativo]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/talleres-drive-2026-05-15]] · [[understanding-kids/tabla-historica-formacion-2024-2026]] · [[understanding-kids/staff]] · [[understanding-kids/finanzas]] · [[understanding-kids/operacion]]

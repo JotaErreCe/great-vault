@@ -1,6 +1,6 @@
 ---
 type: reference
-date: 2026-05-05
+date: 2026-05-16
 tags: [agente, geoffrey, integraciones, gmail, reminders]
 ---
 
@@ -40,11 +40,11 @@ La especificación operativa vive en [[geoffrey/brief-mananero|Brief mañanero �
 
 ## WhatsApp
 
-- Skill autorizada: [[wacli]].
-- Estado runtime 2026-05-14: habilitada, binario instalado y `wacli ✓ Ready`.
-- Uso permitido: sync/search/lectura minimizada para tareas explícitas y señales relevantes.
-- No enviar mensajes/archivos, hacer backfill amplio, responder, modificar conversaciones ni transcribir mensajes crudos sin aprobación explícita por acción.
-- Pendiente técnico: autenticación QR/sync inicial cuando JR quiera activar WhatsApp histórico.
+- **Estado 2026-05-16: desconectado y desautorizado por instrucción expresa de JR.**
+- Motivo: JR indicó que conectar Geoffrey/`wacli` a WhatsApp puede violar términos y condiciones de WhatsApp y pidió desconexión completa.
+- Acción ejecutada: `wacli auth logout` exitoso; store local `~/.wacli` eliminado; verificación posterior mostró `AUTHENTICATED false`, `CONNECTED false`, `MESSAGES 0`, `CHATS 0`, `CONTACTS 0`, `GROUPS 0`.
+- Geoffrey **no debe usar WhatsApp/wacli**, ni lectura, sync, búsqueda, backfill, envío ni perfil, salvo nueva aprobación explícita de JR tras revisar riesgos/TOS.
+- Si una tarea requiere WhatsApp, pedir a JR una alternativa o nueva autorización documentada.
 
 ## Apple Calendar
 

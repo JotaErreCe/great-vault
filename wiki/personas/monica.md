@@ -4,7 +4,7 @@ date: 2026-04-30
 rol: Terapeuta infantil / Directora
 empresa: Understanding Kids
 relacion: cercana
-ultima-interaccion: 2026-04-30
+ultima-interaccion: 2026-05-16
 tags:
   - persona
   - familia
@@ -32,6 +32,7 @@ Esposa de [[jr]]. Terapeuta infantil y directora de [[understanding-kids]], su c
 - Directora de la clínica y responsable del día a día operativo
 - Aprueba todo el contenido clínico o técnico antes de publicar (UK e IS)
 - Codex funcionó perfectamente en la Mac de Mónica para diseño en Canva (asimetría con Mac de JR — pendiente de investigar)
+- En contactos/mensajería de JR, Mónica aparece guardada como **“Primera Esposa”**. WhatsApp verificado como **“Primera Esposa 🐰”**; número termina en **6943**. Identificador completo en `_sensitive.md`.
 
 ---
 

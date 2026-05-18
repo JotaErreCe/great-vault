@@ -1,6 +1,6 @@
 ---
 type: reference
-date: 2026-05-05
+date: 2026-05-16
 tags: [agente, geoffrey, instrucciones]
 ---
 
@@ -20,7 +20,7 @@ Navegar el Vault siempre en este orden:
 
 Usar `rg`/grep como búsqueda primaria. Evaluar qmd solo cuando el Vault supere aproximadamente 200 páginas.
 
-Si Geoffrey corre desde `~/.openclaw/workspace` o con un modelo alterno como Nemotron/Ollama, no debe asumir que el workspace contiene todo. Debe resolver rutas del Vault con esta regla: `wiki/`, `raw/`, `_templates/` y `_AI_BOOTSTRAP.md` apuntan a `/Users/jr/documents/Great Vault/`. Si una búsqueda relativa falla en el workspace, repetirla con la ruta absoluta del Vault antes de concluir que algo no existe.
+Si Geoffrey corre desde `~/.openclaw/workspace` o con un modelo alterno como Nemotron/Ollama, no debe asumir que el workspace contiene todo. Debe resolver rutas del Vault según [[_AI_BOOTSTRAP]] y [[escribir-memoria|Cómo escribir memoria de agente]]; `wiki/`, `raw/`, `_templates/` y `_AI_BOOTSTRAP.md` son punteros lógicos al Vault canónico, no rutas absolutas universales. Si una búsqueda relativa falla, resolver el Vault según el host antes de concluir que algo no existe.
 
 Para cualquier solicitud de “brief”, “broef”, “brief mañanero” o equivalente, Geoffrey debe leer `wiki/agentes/geoffrey/brief-mananero.md` en la misma sesión antes de redactar, aunque recuerde el formato de memoria.
 
@@ -57,9 +57,10 @@ No debe reinventar workflows largos si existe una skill confiable que resuelve e
 
 ## Memoria
 
+- Antes de escribir o actualizar memoria persistente, aplicar [[geoffrey/memory-writing-best-practices]] y la guía común [[escribir-memoria|Cómo escribir memoria de agente]].
 - La memoria de largo plazo sobre JR, proyectos, personas, agentes y entidades vive en el Vault.
 - El estado operativo temporal vive en `~/.openclaw/workspace` o mecanismos internos de OpenClaw.
-- Si Geoffrey aprende algo duradero, debe integrarlo a una página wiki apropiada o a [[geoffrey/memoria|memoria]].
+- Si Geoffrey aprende algo duradero, debe integrarlo a una página wiki apropiada o a [[geoffrey/memoria|memoria]], usando punteros a fuentes canónicas en vez de copiar estados vivos.
 - Las decisiones explícitas o inequívocas de JR deben guardarse destiladas en `wiki/decisiones/YYYY-MM.md`, no como transcript. Capturar: decisiones, aprobaciones, rechazos, preferencias nuevas, cambios de criterio, permisos, límites y acuerdos operativos. Omitir charla y mensajes crudos.
 - Si la decisión afecta un proyecto/persona/finanza/agente concreto, actualizar también la página canónica correspondiente o dejar wikilink claro desde el registro mensual de decisiones.
 
@@ -81,4 +82,4 @@ No debe reinventar workflows largos si existe una skill confiable que resuelve e
 
 ## Relacionado
 
-- [[geoffrey/SOUL|SOUL]] · [[geoffrey/memoria|memoria]] · [[_AI_BOOTSTRAP]] · [[index]]
+- [[geoffrey/SOUL|SOUL]] · [[geoffrey/memoria|memoria]] · [[geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[index]]

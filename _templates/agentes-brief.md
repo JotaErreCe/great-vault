@@ -1,50 +1,38 @@
 ---
 type: reference
-date: YYYY-MM-DD
+date: 2026-05-16
 tags: [template, geoffrey, brief]
 ---
 
-# Brief mañanero — YYYY-MM-DD
+# [Día] [DD] de [mes] de [YYYY] — [HH:MM AM/PM]
 
 > Plantilla de salida para Geoffrey. La especificación canónica vive en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. No usar esta plantilla como sustituto de revisar la especificación.
 
-📅 **Lo que le depara el día — [día DD de mes], corte [HH:MM AM/PM]**
+📅 **Lo que le depara el día**
 
-[Calendario, ventanas reales y recordatorios que afectan el día. Si una fuente falla, decirlo brevemente con el error exacto.]
+[Incluir solo si hay eventos, conflictos, preparación, ventanas útiles o recordatorios que afecten el día. Si no hay señal, omitir toda la sección.]
 
 • [HH:MM–HH:MM] — [Evento / cita / deadline], [contexto útil].
-• [Ventana útil] — [qué conviene hacer].
-• Pendientes operativos visibles: [vencidos/hoy/próximos relevantes].
+• [Ventana útil] — [prioridad útil, si realmente ayuda].
 
 ───
 
 📬 **Comunicaciones relevantes**
 
-**[Proyecto/asunto] — [tema concreto]**  
-[Quién escribió/intervino y qué pasó, solo contexto necesario.]  
-**Siguiente paso:** [qué necesita pasar: contestar, revisar, pedir documento, calendarizar, crear reminder, esperar, etc.]
+**[Proyecto/asunto — tema concreto](url)**  
+[Quién escribió/intervino y resumen breve de la comunicación. No poner aquí sugerencias ni “qué necesita pasar”.]
 
-**[Proyecto/asunto] — [tema concreto]**  
-[Contexto mínimo.]  
-**Siguiente paso:** [acción/decisión requerida.]
+**[Proyecto/asunto — tema concreto]**  
+[Contexto mínimo.] [Link al correo](url)
 
 ───
 
-⚖️ **Radar legal Guatemala — DCA [DD/MM/YYYY]**
+⚖️ **Diario de Centro América — [DD/MM/YYYY]** · [Leer diario](url)
 
-• **[[Instrumento / entidad / número](url)]:** [qué regula, aprueba, modifica, adjudica, reconoce o dispone].
-• **[[Instrumento / entidad / número](url)]:** [materia concreta].
+• **[Instrumento / entidad / número](url):** [qué regula, aprueba, modifica, adjudica, reconoce o dispone].
+• **[Instrumento / entidad / número](url):** [materia concreta].
 
-[Si se omitieron avisos/licitaciones por baja relevancia, decirlo en una línea. Si DCA/PDF falla, explicar la limitación brevemente y no inventar materia.]
-
-───
-
-🧑‍💼 **Radar de cliente**
-
-[Incluir solo si hay señal real para AMC Legal, Propi u otro cliente/proyecto. Si no hay señal real, omitir toda esta sección.]
-
-**[Cliente/proyecto]:** [ángulo útil o consulta probable].  
-**Cómo responder/anticipar:** [criterio breve].
+[No incluir explicaciones de proceso, limitaciones rutinarias, “por qué importa” ni acuerdos relacionados con iglesias evangélicas salvo conexión concreta.]
 
 ───
 
@@ -62,9 +50,9 @@ tags: [template, geoffrey, brief]
 
 ───
 
-✅ **Puedo ejecutar con aprobación**
+✅ **Sugerencias / acciones que Geoffrey puede ejecutar**
 
-1. [Acción ejecutable: crear reminder, redactar respuesta, revisar hilo, extraer compromisos, profundizar DCA, etc.]
+1. [¿Le doy sugerencias de respuesta a estos correos? / redactar respuesta / revisar hilo / crear reminder.]
 2. [Acción ejecutable.]
 3. [Acción ejecutable.]
 
@@ -72,11 +60,11 @@ tags: [template, geoffrey, brief]
 
 ## Reglas rápidas
 
-- Empezar directamente con `📅 Lo que le depara el día`.
+- Título únicamente con día, fecha y hora; sin adornos.
 - Tratar a JR de usted.
-- No incluir: Noticias, Frentes abiertos, Pendientes acumulados, Puede ignorar hoy, Riesgo de arrastre, Top 3, Mapa de Atención.
-- Comunicaciones: quién / qué pasó / qué necesita pasar.
-- DCA: no decir solo “acuerdo publicado”; siempre materia concreta.
+- No incluir: Noticias, Frentes abiertos, Pendientes acumulados, Puede ignorar hoy, Riesgo de arrastre, Radar de cliente, Top 3, Mapa de Atención.
+- Comunicaciones: quién / resumen breve / link embebido; sugerencias solo en apartado final.
+- DCA: encabezado “Diario de Centro América — DD/MM/YYYY” con link; siempre materia concreta, sin proceso ni explicación de relevancia.
 - Reminders: usar definiciones confirmadas en [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]].
 - No ejecutar acciones externas ni modificar Reminders/Calendar sin aprobación.
 

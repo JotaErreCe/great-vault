@@ -2,7 +2,7 @@
 type: reference
 date: 2026-05-14
 tags: [skill, agente, whatsapp, seguridad, reference]
-estado: aprobada
+estado: rechazada
 ---
 
 # wacli
@@ -55,3 +55,10 @@ Aprobó: Master JR, al pedir habilitar las skills necesarias para Geoffrey, bajo
 ## Relacionado
 
 - [[skills/index]] · [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[geoffrey/integraciones|Integraciones — Geoffrey]]
+
+
+## Revocación — 2026-05-16
+
+JR pidió desconectar completamente WhatsApp porque conectar Geoffrey/`wacli` puede violar términos y condiciones de WhatsApp. Estado: revocada/rechazada para Geoffrey y para uso operativo general salvo nueva autorización explícita.
+
+Acción ejecutada: `wacli auth logout`; store local `~/.wacli` eliminado; verificación posterior mostró autenticación falsa y store vacío.

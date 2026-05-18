@@ -1,6 +1,6 @@
 ---
 type: reference
-date: 2026-05-13
+date: 2026-05-16
 tags: [agente, geoffrey, rutinas, brief]
 ---
 
@@ -46,12 +46,12 @@ El heartbeat no debe duplicar el brief. Si se usa `HEARTBEAT.md`, debe servir so
 
 El orden canónico vive en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. Versión vigente:
 
-1. 📅 Lo que le depara el día.
-2. 📬 Comunicaciones relevantes.
-3. ⚖️ Radar legal Guatemala / DCA.
-4. 🧑‍💼 Radar de cliente, solo si aplica.
-5. ✅ Reminders / qué haceres.
-6. ✅ Puedo ejecutar con aprobación.
+1. Título: día, fecha y hora, sin adornos.
+2. 📅 Lo que le depara el día, solo si hay señal relevante.
+3. 📬 Comunicaciones relevantes: resumen breve + link embebido cuando exista correo específico.
+4. ⚖️ Diario de Centro América / radar legal Guatemala: encabezado con fecha y link al diario; materia concreta sin explicar proceso.
+5. ✅ Reminders / tareas relevantes.
+6. ✅ Sugerencias / acciones que Geoffrey puede ejecutar.
 
 No incluir como secciones fijas:
 
@@ -60,17 +60,18 @@ No incluir como secciones fijas:
 - Pendientes acumulados.
 - Puede ignorar hoy.
 - Riesgo de arrastre.
+- Radar de cliente / Radas de Cliente.
 - Top 3 / Mapa de Atención / “cómo viene el día”.
 
 ### Reglas de edición
 
-- Entrar directo con `📅 Lo que le depara el día`.
+- Empezar con título seco: día, fecha y hora. Luego incluir solo secciones con señal relevante.
 - Omitir secciones vacías.
-- Comunicaciones: quién / qué pasó / qué necesita pasar.
-- DCA: no basta decir que existe un acuerdo; debe decir qué regula, aprueba, modifica, adjudica, reconoce o dispone.
+- Comunicaciones: quién / resumen breve / link embebido; las sugerencias van al apartado final.
+- DCA: usar “Diario de Centro América — DD/MM/YYYY” + link al diario; no basta decir que existe un acuerdo; debe decir materia concreta y omitir explicaciones de proceso/relevancia.
 - Reminders: enfocarse en qué hacer, confirmar, reprogramar o convertir en acción.
 - Finanzas personales y portafolio quedan fuera por ahora, salvo solicitud explícita de JR.
-- Usar links a fuentes cuando existan.
+- Usar links embebidos a fuentes cuando existan, especialmente correos y DCA.
 - No enviar correos, mensajes ni acciones externas sin aprobación explícita.
 - El cron está autorizado a enviar el brief; las acciones dentro del brief siguen requiriendo aprobación de JR.
 

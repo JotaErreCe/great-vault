@@ -1,6 +1,6 @@
 ---
 type: reference
-date: 2026-05-13
+date: 2026-05-16
 tags: [agente, geoffrey, brief, rutina]
 ---
 
@@ -31,11 +31,28 @@ Entrar en materia. No abrir con:
 - “Mapa de atención”;
 - Top 3.
 
-JR no quiere saber “qué pasó” como noticia. Quiere saber **qué necesita pasar**. Solo incluir qué pasó como contexto mínimo para explicar qué debe pasar después.
+JR quiere un brief filtrado: solo lo relevante, sin adornos, sin explicar el trabajo interno de Geoffrey y sin secciones vacías. Si no hay algo relevante que comunicar en una fuente o apartado, omitir ese apartado completo.
+
+Título del brief:
+
+- Únicamente día, fecha y hora.
+- Sin adornos, subtítulos, frases de bienvenida ni “brief mañanero”.
+- Ejemplo: `Sábado 16 de mayo de 2026 — 7:15 AM`.
+
+No incluir notas de proceso como “revisé X”, “no encontré Y”, “limitación técnica” o “fuente OK” salvo que una fuente crítica falle y afecte directamente la confiabilidad del brief.
+
+Control obligatorio antes de enviar:
+
+- Redactar primero un borrador interno.
+- Validarlo con `/Users/jr/.openclaw/workspace-geoffrey/scripts/validate_morning_brief.py` si el script está disponible.
+- Si falla la validación, reescribir el borrador y volver a validar antes de enviar.
+- No enviar un brief que contenga: título adornado, “Qué necesita pasar”, secciones vacías, “no veo eventos”, “Fuente:”, “Radar/Radas de cliente”, explicaciones de proceso del DCA o frases de relevancia tipo “Relevante para radar fiscal”.
+
+JR no quiere un resumen ejecutivo general ni fanfarronería metodológica. Quiere materia útil y accionable cuando aplique. Solo incluir contexto mínimo.
 
 Regla central:
 
-> Contexto breve → acción/seguimiento necesario.
+> Relevancia real → contexto breve → sugerencia/acción solo en el apartado de sugerencias.
 
 Ejemplo prohibido:
 
@@ -43,24 +60,23 @@ Ejemplo prohibido:
 
 Ejemplo esperado:
 
-> **Propi — Sur Desarrollos:** Thelma mandó observaciones al contrato; falta que usted defina si acepta los cambios o si quiere que prepare respuesta con contraobservaciones.
+> **Propi — Sur Desarrollos:** Thelma mandó observaciones al contrato. [Link al correo](url)
 
 ## Qué debe cubrir
 
-1. Qué tiene hoy en calendario y qué ventanas reales tiene.
-2. Qué comunicaciones necesita contestar, revisar o recordar.
-3. Qué seguimiento nace de correos, WhatsApp/chats u otras comunicaciones.
-4. Qué recordatorios vencidos/de hoy/próximos requieren acción o reprogramación.
-5. Qué cambios del DCA/radar legal debe conocer para mantenerse actualizado en su rubro.
-6. Qué puede ejecutar Geoffrey con aprobación.
+1. Qué tiene hoy en calendario solo si hay eventos, conflictos, preparación o ventanas relevantes.
+2. Qué comunicaciones relevantes conviene conocer, resumidas sin listar ruido.
+3. Qué recordatorios vencidos/de hoy/próximos requieren atención real.
+4. Qué cambios del DCA/radar legal debe conocer para mantenerse actualizado en su rubro.
+5. Qué sugiere o puede ejecutar Geoffrey con aprobación.
 
 ## Estructura vigente
 
-La versión compacta preferida por JR se parece a este patrón: calendario/ventanas + pendientes vencidos visibles; comunicaciones específicas por asunto; DCA en bullets con instrumento linkeado y materia concreta; recordatorios/tareas; acciones aprobables. No incluir noticias por ahora. No incluir `Frentes abiertos`, `Pendientes acumulados` ni `Puede ignorar hoy` como secciones fijas salvo que JR lo vuelva a pedir explícitamente.
+La versión compacta preferida por JR se parece a este patrón: título seco; calendario solo si aporta algo; comunicaciones específicas por asunto con links embebidos; DCA en bullets con link al diario/instrumento y materia concreta; recordatorios/tareas relevantes; sugerencias/acciones aprobables. No incluir noticias por ahora. No incluir `Frentes abiertos`, `Pendientes acumulados`, `Radar de cliente` ni `Puede ignorar hoy` como secciones fijas salvo que JR lo vuelva a pedir explícitamente.
 
 ### 1. 📅 Lo que le depara el día
 
-Primera sección obligatoria. Empezar aquí.
+Sección opcional. Incluir solo si hay eventos, conflictos, preparación necesaria, ventanas útiles o recordatorios que afecten el día. Si el calendario está vacío y no hay nada relevante, omitirla por completo.
 
 Incluir:
 
@@ -69,17 +85,17 @@ Incluir:
 - Recordatorios vencidos/de hoy que afecten el día.
 - Ventanas reales de trabajo: mañana/tarde/noche.
 - Conflictos, traslapes, falta de buffer o preparación necesaria.
-- Qué necesita pasar hoy, no solo qué está agendado.
+- Qué conviene priorizar hoy, solo si realmente ayuda.
 
 Ejemplo:
 
-> No veo reuniones fijas antes de las 11:00; esa ventana debería usarse para cerrar Propi o avanzar tesis. Si se va en correos sueltos, el pendiente vuelve a arrastrarse.
+Evitar bloques como “no veo eventos” + “fuente OK”; si no hay señal, no se menciona.
 
 ### 2. 📬 Comunicaciones que requieren seguimiento
 
 Esta sección es el corazón del brief.
 
-No listar correos. Decir qué necesita atención y qué debe pasar después.
+No listar correos. Comunicar únicamente lo relevante y resumir brevemente la comunicación. No decir aquí “qué necesita pasar”; si hay sugerencia o acción propuesta, moverla al apartado de sugerencias.
 
 Fuentes: correos, WhatsApp/chats cuando estén disponibles, SMS relevantes, Apple Mail/Gmail autorizado y cualquier comunicación local autorizada.
 
@@ -87,24 +103,24 @@ Para cada comunicación relevante:
 
 - **Proyecto/asunto.**
 - **Quién escribió o intervino.**
-- **Contexto mínimo:** qué pasó, solo lo necesario para entender el seguimiento.
-- **Qué necesita pasar:** contestar, revisar, pedir documento, aprobar, calendarizar, crear reminder, esperar, delegar.
-- **Si JR no contestó:** marcarlo como seguimiento pendiente.
-- **Limitación:** si solo se pudo ver asunto/remitente o no cuerpo/adjuntos, decirlo.
+- **Contexto mínimo:** resumen breve de la comunicación, sin transcribir de más.
+- **Link embebido:** si hay correo específico, incluir enlace corto tipo `[Link al correo](url)` o embebido en el título, por ejemplo `**[Finanzas de talleres](url):** ...`.
+- **Limitación:** solo si impide entender el contenido; no mencionar limitaciones menores por rutina.
 
-Clasificación sugerida:
+Control de calidad obligatorio para correo:
 
-- **Contestar / resolver hoy.**
-- **Revisar para decidir.**
-- **Agregar a recordatorio/calendario.**
-- **Esperar / sin acción por ahora.**
-- Ruido se omite; no crear sección de “ignorar”.
+- No depender solo de Gmail API ni solo de `is:unread`; revisar también Apple Mail local cuando esté disponible.
+- Revisar correos recientes leídos y no leídos, especialmente de los últimos 3–7 días, porque JR puede haber abierto un correo y aún requerir seguimiento.
+- Usar `/Users/jr/.openclaw/workspace-geoffrey/scripts/scan_apple_mail_recent.py` para Apple Mail local si existe; cubre cuentas/carpetas locales como `kidsunderstanding.com`, iCloud y `[Gmail]/Todos` sin modificar correos.
+- Tratar como alta señal cualquier correo con vencimiento, formulario, pago, impuestos, ISR/IVA/ISO, retenciones, factura, contrato, firma o adjuntos operativos, aunque esté leído.
+- Para Understanding Kids / Inversiones Multidisciplinarias, correos de contabilidad como Elder Estrada / `mueblescontinental.com` son relevantes por defecto si contienen formularios, vencimientos o pagos.
+- Si hay link estable, usarlo embebido. Para Gmail web usar `https://mail.google.com/mail/u/0/#...`; para Apple Mail local puede usarse `message://...` generado desde Message-ID. Si no hay link seguro, incluir asunto/remitente y no inventar URL.
+
+Ruido se omite; no crear sección de “ignorar”.
 
 Formato esperado:
 
-> **Propi — Contrato firma JM**  
-> Astrid y Thelma movieron el hilo esta mañana. Solo pude verificar remitentes/asunto, no el cuerpo ni adjuntos.  
-> **Qué necesita pasar:** abrir el hilo y confirmar si falta firma, versión final o instrucción a José Mario. Si quiere, preparo matriz del hilo.
+> **[Propi — Contrato firma JM](url):** Astrid y Thelma movieron el hilo esta mañana; el asunto parece centrado en firma/versión final.
 
 ### 3. ⚖️ Diario de Centro América / radar legal Guatemala
 
@@ -137,11 +153,19 @@ Temas siempre relevantes:
 
 Formato normal — compacto por defecto:
 
+Encabezado del apartado:
+
+> **Diario de Centro América — 15/05/2026** · [Leer diario](url)
+
 > **[Instrumento / DocumentID](url):** una oración sobre qué pasó.
 
 No basta decir “acuerdo publicado” o “resolución institucional”: debe decir qué regula, aprueba, modifica, adjudica, reconoce o dispone. Si solo se obtiene miniatura/primera página, extraer al menos emisor, número y materia visible. Si no se puede saber qué es, omitirlo o marcar “no identificado”, no rellenar con metadata vacía.
 
-No explicar “por qué importa” salvo que sea alta relevancia directa para AMC Legal, Propi, SAT/IVE/AML, inmobiliario, clientes o decisión inmediata. La profundidad se ofrece bajo demanda.
+No explicar “por qué importa” y no agregar coletillas tipo “Relevante para radar fiscal”. La profundidad se ofrece bajo demanda.
+
+Omitir acuerdos ministeriales, reconocimientos, nombramientos o publicaciones relacionadas con iglesias evangélicas salvo que JR lo pida expresamente o exista conexión legal/cliente concreta.
+
+No mencionar frases de proceso como “el portal devolvió 0 documentos”, “revisé el último día hábil”, “PDF requirió sesión”, “extraje de primera página” o similares. Si el día publicado no coincide con el día actual, el encabezado ya comunica la fecha revisada.
 
 Si hay muchos hallazgos, máximo 3–5 principales; el resto se agrupa:
 
@@ -149,29 +173,12 @@ Si hay muchos hallazgos, máximo 3–5 principales; el resto se agrupa:
 
 Si no hay algo fuerte:
 
-> DCA revisado con criterio SAT/IVE/inmobiliario/sociedades/laboral; no encontré publicaciones de alta relevancia. Omití avisos administrativos, convocatorias sin conexión clara y publicaciones sin impacto para su práctica.
+> **Diario de Centro América — 15/05/2026** · [Leer diario](url)  
+> Sin publicaciones de alta relevancia para SAT/IVE/inmobiliario/sociedades/laboral.
 
 No decir “sin acción inmediata” como conclusión principal.
 
-### 4. 🧑‍💼 Radar de cliente
-
-Incluir solo si hay señal real.
-
-Objetivo: anticipar consultas de clientes o ángulos útiles para AMC Legal.
-
-Ejemplos:
-
-- SAT cambia registro de contadores → clientes con contabilidad externa.
-- IVE/AML → Propi, inmobiliarias, sujetos obligados, clientes corporativos.
-- Presupuesto/lictitaciones → contratistas, proveedores del Estado, ejecución pública.
-- Municipalidad/licencias → inmobiliario, construcción, locales comerciales.
-- Laboral/IGSS → clientes con planillas o contratación.
-
-Formato:
-
-> **Radar de cliente:** si alguien de Propi pregunta por IVE/AML, conviene responder desde sujeto obligado y debida diligencia, no como trámite administrativo.
-
-### 5. ✅ Recordatorios / tareas
+### 4. ✅ Recordatorios / tareas
 
 Dar peso alto a Apple Reminders.
 
@@ -185,21 +192,22 @@ Mostrar recordatorios vencidos, de hoy y próximos relevantes, reorganizados por
 
 No listar todo si hay demasiados; agrupar y proponer limpieza.
 
-### 6. ✅ Acciones que Geoffrey puede ejecutar
+### 5. ✅ Sugerencias / acciones que Geoffrey puede ejecutar
 
-Cierre obligatorio. Las acciones deben salir de comunicaciones y recordatorios, no de consejos genéricos.
+Cierre obligatorio si hay sugerencias útiles o acciones aprobables. Deben salir de comunicaciones, calendario o recordatorios, no de consejos genéricos. No incluir sugerencias sobre el Diario de Centro América salvo solicitud expresa de JR.
 
 Máximo 5–7 acciones.
 
 Incluir opciones como:
 
+- “¿Le doy sugerencias de respuesta a estos correos?”
+- “Sugiero añadir X a Reminders en Personal > Recurrentes.”
 - Agregar evento al calendario.
 - Crear/modificar recordatorio.
 - Mover o sugerir mover cita.
 - Preparar borrador de correo, WhatsApp o mensaje.
 - Enviar mensaje/correo solo si JR aprueba texto final.
 - Ordenar un hilo de correos en matriz.
-- Profundizar en DCA/SAT/SIB/Congreso.
 - Preparar nota legal breve para cliente/proyecto.
 - Revisar un sistema o archivo local.
 
@@ -209,6 +217,7 @@ Formato:
 > 2. Creo reminder para pagar luz/mantenimiento hoy 5:00 PM.  
 > 3. Le redacto respuesta para Thelma preguntando por versión final y firma.  
 > 4. Agrego bloque de tesis de 90 min al calendario.
+> 5. Sugiero añadir “pagar mantenimiento” a Reminders en Personal > Recurrentes.
 
 Cierre:
 
@@ -224,6 +233,11 @@ No incluir por ahora:
 - Correos tipo newsletter.
 - Listas largas de DCA sin relevancia.
 - Proyectos sin seguimiento concreto pendiente.
+- Sección “Radar de cliente” / “Radas de Cliente”.
+
+## Lecciones de control de calidad
+
+- 2026-05-17: el brief omitió un correo importante de Elder Estrada del 14/05/2026 sobre ISR rentas del trabajo abril 2026, con formulario y vencimiento 15/05/2026, porque el flujo revisó Gmail API/Apple Mail de forma insuficiente y no trató correos leídos con vencimientos fiscales como señal fuerte. Regla: los correos fiscales/contables con vencimiento deben entrar en Comunicaciones o Sugerencias aunque ya estén leídos.
 - Secciones fijas de “Frentes abiertos”.
 - Secciones fijas de “Pendientes acumulados”.
 - Sección “Puede ignorar hoy”; lo ignorado se omite sin anunciarlo.
@@ -235,9 +249,9 @@ No incluir por ahora:
 
 - DCA: una oración + link/DocumentID. Expandir solo si es claramente crítico.
 - No incluir noticias/radar externo por ahora. Si JR lo vuelve a pedir, máximo 3 y cada una debe explicar por qué le importa.
-- Comunicaciones: contexto mínimo; foco en qué necesita pasar.
+- Comunicaciones: contexto mínimo, resumen breve y link embebido cuando exista correo específico; cualquier propuesta pasa a sugerencias.
 - Acciones: máximo 5–8 cuando haya suficientes seguimientos reales; si hay demasiadas, agrupar.
-- Evitar repetir “por qué importa” cuando el siguiente movimiento ya lo deja claro.
+- Evitar explicar “por qué importa” en DCA; el brief debe entrar en materia y dejar la profundidad para demanda posterior.
 
 ## DCA — protocolo robusto
 
@@ -263,7 +277,7 @@ Categorías mínimas DCA:
 
 ## Fuentes autorizadas / previstas
 
-- Calendario del día.
+- Calendario del día, solo si aporta eventos/ventanas/conflictos relevantes.
 - Apple Reminders: vencidos, hoy y próximos deadlines críticos.
 - Gmail/Apple Mail autorizado según [[geoffrey/integraciones|integraciones]].
 - SMS vía [[imsg]], solo lectura local y minimizada.
@@ -275,10 +289,10 @@ Categorías mínimas DCA:
 ## Reglas duras de especificidad
 
 1. Prohibido usar frases vagas como “hubo movimiento”, “hay temas”, “revisar pendientes” sin detalle.
-2. Prohibido decir “no encontré nada relevante” sin explicar criterio mínimo de búsqueda/descarte.
+2. Prohibido llenar espacio con disclaimers de búsqueda. Si no hay señal relevante, omitir el apartado o usar una línea seca solo cuando el apartado sea estructural, como DCA.
 3. Si hay correo/chat relevante, buscar cuerpo, adjuntos, asunto, remitentes y hora antes de resumir. Si no se puede, decir la limitación.
-4. No centrar el brief en “qué pasó”; usar contexto breve solo para explicar qué necesita pasar.
-5. Para legal/regulatorio: decir instrumento, emisor, materia y relevancia cuando esté disponible.
+4. No centrar el brief en “qué pasó”; usar contexto breve solo para explicar la relevancia de la comunicación. Acciones/sugerencias van en el apartado final.
+5. Para legal/regulatorio: decir instrumento, emisor y materia concreta cuando esté disponible; omitir explicación de relevancia salvo urgencia directa.
 6. Para calendario: decir horas reales y ventanas reales.
 7. Para acciones: proponer tareas ejecutables por Geoffrey basadas en comunicaciones o recordatorios.
 8. Omitir finanzas personales por ahora.
@@ -290,15 +304,13 @@ Categorías mínimas DCA:
 
 ## Estándar mínimo de salida
 
-Aunque haya poca información, el brief debe incluir:
+El brief debe incluir solo apartados con señal relevante. Mínimo operativo:
 
-- Lo que le depara el día.
-- Comunicaciones que requieren seguimiento o criterio claro de descarte.
-- DCA/radar legal Guatemala compacto.
-- Recordatorios/tareas relevantes.
-- Acciones ejecutables por Geoffrey, máximo 5–7.
+- Título con día, fecha y hora.
+- DCA/radar legal Guatemala compacto con link al diario, salvo fallo total de acceso.
+- Comunicaciones, calendario, recordatorios y sugerencias solo cuando haya contenido relevante.
 
-Si una fuente falla, decir exactamente qué fuente falló, qué alternativa se intentó y qué impacto tiene en la calidad del brief.
+Si una fuente crítica falla y eso afecta el brief, decirlo en una línea sobria: fuente, impacto y nada más.
 
 ## Privacidad y ejecución
 

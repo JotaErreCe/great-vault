@@ -1,6 +1,6 @@
 ---
 type: reference
-date: 2026-05-05
+date: 2026-05-16
 tags: [agente, skills, seguridad, reference]
 ---
 
@@ -100,7 +100,7 @@ Aprobó:
 | [[nano-banana-pro]] | auditada | varios candidatos | `nano-banana-pro`, `gemini-nano-banana`, etc. | Recomendación: diferir; si se aprueba, preferir `nano-banana-pro` sobre `nanobanana`. |
 | [[google-workspace-mcp]] | aprobada limitada | `@presto-ai/google-workspace-mcp` | `google-workspace-mcp` | Aprobada para Geoffrey: Drive/Docs/Sheets read-only por defecto; escrituras, envíos, permisos y cambios externos solo con aprobación explícita por acción. |
 | [[apple-calendar-jr]] | aprobada limitada | local | no aplica | Lectura local de Apple Calendar para agenda/brief/alarmas; sin escrituras. |
-| [[wacli]] | aprobada limitada | https://wacli.sh | bundled OpenClaw | WhatsApp sync/search y envío; lectura minimizada, enviar solo con aprobación explícita por acción. |
+| [[wacli]] | rechazada/revocada | https://wacli.sh | bundled OpenClaw | Revocada por JR el 2026-05-16 por posible violación de términos de WhatsApp; no usar salvo nueva aprobación explícita. |
 
 ## Candidatas prioritarias por auditar
 
@@ -109,7 +109,7 @@ Aprobó:
 | Gmail / correo Google multi-cuenta | pendiente | pendiente | pendiente | Alto valor, alto riesgo externo/privacidad. |
 | [[resources/apple-reminders-manual|Apple Reminders]] | auditada | https://github.com/steipete/remindctl | no identificado | Gestión de Apple Reminders vía CLI remindctl; permite listar, crear, completar y eliminar recordatorios y listas.
 | Calendar | cubierta | [[apple-calendar-jr]] + [[google-workspace-mcp]] | no aplica | Apple Calendar local y Google Calendar vía Workspace; escritura prohibida sin aprobación. |
-| WhatsApp | aprobada limitada | [[wacli]] | bundled OpenClaw | Mensajería externa; requiere controles fuertes y autenticación/sync pendiente. |
+| WhatsApp | rechazada/revocada | [[wacli]] | bundled OpenClaw | Desconectado y desautorizado por JR el 2026-05-16; no usar. |
 | iMessage / SMS | aprobada limitada | https://github.com/openclaw/imsg | no identificado | Cubierta por [[imsg]] para lectura local; envío bloqueado salvo aprobación explícita. |
 | Canva para PPT de gastos | auditada pendiente de aprobación | varios | `canva-designs` recomendado si se acepta ClawLink | Crear PPT local y subir/importar a Canva solo con aprobación. |
 | Nano Banana para visuales | auditada pendiente de aprobación | varios | `nano-banana-pro` recomendado si se necesita | No indispensable para el prototipo inicial. |

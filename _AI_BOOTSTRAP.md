@@ -1,6 +1,6 @@
 ---
 type: bootstrap
-updated: 2026-05-14
+updated: 2026-05-16
 ---
 
 # AI Bootstrap — entrada única
@@ -156,6 +156,7 @@ If an agent wakes up after memory loss, it must recover from its package: read `
 - **Nunca sobrescribir historial.** `wiki/log/` es append-only.
 - **Datos sensibles** (NIT, DPI, dirección, credenciales, cuentas) → SOLO en `_sensitive.md`.
 - **Toda modificación al wiki** → apendar línea a `wiki/log/YYYY-MM.md`.
+- **Memoria de agente envejece mal si copia estados vivos.** Antes de escribir memoria persistente, aplicar [[escribir-memoria|Cómo escribir memoria de agente]]: preferir reglas/punteros, no rutas hardcodeadas, no datos sensibles, no transcripts crudos.
 - **Decisiones de JR se destilan.** Si JR decide, aprueba, rechaza, cambia criterio o fija una preferencia/regla, guardar una versión breve en `wiki/decisiones/YYYY-MM.md`; no guardar transcript completo.
 - **Buenas respuestas se archivan.** Un análisis, comparación o síntesis valiosa → guardar como página en `wiki/`.
 
@@ -289,3 +290,4 @@ No tienes acceso al filesystem. Tu workflow:
 - [[dashboard]] — eventos del día, próximos 14 días
 - [[index]] — catálogo completo del wiki
 - [[vault-map|Vault Map]] — índice searchable para AIs sin filesystem
+- [[escribir-memoria]] — guía común para escribir memoria de agente sin hardcodear rutas ni copiar estados vivos

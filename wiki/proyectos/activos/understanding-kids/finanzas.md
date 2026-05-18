@@ -34,6 +34,8 @@ tags: [understanding-kids, finanzas]
 | Abril | Q12,854 | Q31,032 | **~Q43,886** |
 | Mayo (Q1) | Q13,923 | ~Q16,211 | **—** ← mes en progreso |
 
+> **Sueldo Mónica:** Q15,000/mes por labores clínicas. En Abril Z14 aparece Q20,000 — los Q5,000 restantes están por confirmar (posiblemente coordinación Diplomado IS u otro concepto).
+
 ### Gastos fijos recurrentes Z14
 
 | Concepto | Q/mes real |
@@ -214,7 +216,7 @@ JR confirmó que los documentos Excel/Sheets financieros de UK no tienen formato
 
 - Z14 Mayo: completar Q2 cuando esté disponible (mes en progreso)
 - CAES Mayo: completar Q2 y gastos completos al cierre del mes
-- Confirmar con JR si Mónica Q20,000 en Abril Z14 es pago coordinación Diplomado IS o clínica
+- Confirmar los Q5,000 extra de Mónica en Abril Z14 (sueldo clínica = Q15,000; total pagado = Q20,000 — diferencia pendiente de identificar)
 - Confirmar tipo de cambio real usado (sheet dice Q7.7 — verificar si aplica igual a pagos Recurrente vs Paypal)
 - Lectura financiera mensual Z14 2024–2025 (incompleta)
 - Lectura financiera mensual CAES 2025
@@ -223,4 +225,4 @@ JR confirmó que los documentos Excel/Sheets financieros de UK no tienen formato
 
 ## Relacionado
 
-- [[understanding-kids]] · [[uk-catalogo]] · [[finanzas/index|Finanzas hub]]
+- [[understanding-kids]] · [[uk-catalogo]] · [[finanzas/index|Finanzas hub]] · [[understanding-kids/criterios-financieros-formacion]] · [[understanding-kids/tabla-historica-formacion-2024-2026]]

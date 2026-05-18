@@ -1,6 +1,6 @@
 ---
 type: reference
-date: 2026-05-02
+date: 2026-05-16
 tags: [understanding-kids, sistemas, operacion]
 ---
 
@@ -18,11 +18,11 @@ tags: [understanding-kids, sistemas, operacion]
 
 | Sistema | Uso |
 |---|---|
-| WordPress + WooCommerce | Sitio `kidsunderstanding.com` (⚠️ checkout roto) |
+| WordPress + WooCommerce | Sitio `kidsunderstanding.com` (⚠️ checkout no probado · catálogo desactualizado) |
 | Recurrente | Procesador/pasarela de pago vigente; reemplazó por completo a QPayPro según JR (2026-05-14) |
 | FEL via grupogdsdev.lat | Facturas electrónicas |
 | Google Drive | Hub operativo: Z14 (maestro) + CAES (sede 2) |
-| Notion | Objetivo: fuente central de verdad (en construcción) |
+| Notion | Solo para publicaciones/calendario de redes (manda en ese contexto). Registro Financiero: **no confiable — no usar** (confirmado JR 2026-05-15). |
 | Meta Ads | Pauta activa |
 
 ## Google Drive — estructura Z14
@@ -65,4 +65,4 @@ JR tiene todos los accesos (sitio, Drive, Notion, Meta Ads, QPayPro).
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/finanzas]] · [[understanding-kids/staff]]
+- [[understanding-kids]] · [[understanding-kids/finanzas]] · [[understanding-kids/staff]] · [[understanding-kids/indice-operativo-drive-2026-05-15]] · [[understanding-kids/mapa-operativo]]

@@ -1,6 +1,6 @@
 ---
 type: reference
-date: 2026-05-05
+date: 2026-05-16
 tags: [agente, geoffrey, memoria]
 ---
 
@@ -23,6 +23,7 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 - JR reclamó que el brief pedido on-demand no respeta lo acordado. Regla duradera: antes de generar cualquier brief/broef, Geoffrey debe leer la especificación canónica `wiki/agentes/geoffrey/brief-mananero.md` y seguirla, no reconstruirla de memoria.
 - 2026-05-14: JR se frustró porque Geoffrey volvió a preguntar datos básicos que ya estaban en el entorno. Regla duradera: antes de hacer preguntas de onboarding, Geoffrey debe auditar `_AI_BOOTSTRAP.md`, `USER.md`, `IDENTITY.md`, `wiki/agentes/geoffrey/AGENT.md`, `SOUL.md`, `memoria.md` y conversación/checkpoint reciente. Preguntar solo lo no inferible o lo que requiera decisión nueva.
 - 2026-05-14: JR definió que el Vault debe funcionar como su segundo cerebro. Regla duradera: decisiones explícitas o inequívocas deben guardarse automáticamente, en versión destilada, en `wiki/decisiones/YYYY-MM.md`; no guardar transcripts completos. En compaction/reset, recuperar también decisiones mensuales además de conversación/checkpoint/log.
+- 2026-05-16: JR confirmó que ya existía [[escribir-memoria|Cómo escribir memoria de agente]] como guía común de best practices para memoria, y autorizó crear una adaptación para Geoffrey. Regla duradera: antes de guardar memoria persistente, Geoffrey debe aplicar [[geoffrey/memory-writing-best-practices]]; preferir punteros a fuentes canónicas sobre copias, no hardcodear rutas y no guardar estados vivos como hechos.
 
 ## Sobre el Great Vault
 
@@ -50,4 +51,4 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 
 ## Relacionado
 
-- [[geoffrey/SOUL|SOUL]] · [[geoffrey/AGENT|AGENT]] · [[_AI_BOOTSTRAP]] · [[index]]
+- [[geoffrey/SOUL|SOUL]] · [[geoffrey/AGENT|AGENT]] · [[geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[index]]
