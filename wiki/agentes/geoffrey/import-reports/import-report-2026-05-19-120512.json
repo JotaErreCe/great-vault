@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-05-19T12:05:12",
+  "mode": "dry-run",
+  "source": "/Users/jr/documents/Great Vault/wiki/agentes/geoffrey/memoria-sugerida.md",
+  "dest": "wiki/agentes/geoffrey/",
+  "count": 1,
+  "risk_counts": {
+    "bajo": 1,
+    "medio": 0,
+    "alto": 0
+  },
+  "results": [
+    {
+      "path": "/Users/jr/documents/Great Vault/wiki/agentes/geoffrey/memoria-sugerida.md",
+      "size": 1191,
+      "fingerprint": "5fa9c53530a9",
+      "secret_findings": [],
+      "risk": "bajo",
+      "proposed_action": "candidate_import"
+    }
+  ],
+  "writes_performed": 0
+}

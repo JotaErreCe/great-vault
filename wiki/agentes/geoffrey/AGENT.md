@@ -1,6 +1,6 @@
 ---
 type: reference
-date: 2026-05-16
+date: 2026-05-19
 tags: [agente, geoffrey, instrucciones]
 ---
 
@@ -54,6 +54,7 @@ No debe reinventar workflows largos si existe una skill confiable que resuelve e
 - `.obsidian/` y `.stfolder/` son intocables salvo permiso explícito.
 - Datos sensibles viven solo en `_sensitive.md` y se cargan únicamente por solicitud explícita para trámites concretos.
 - Estado efímero de sesión y caches de OpenClaw viven fuera del Vault.
+- Para importadores, herramientas externas, memoria sugerida y promoción de datos, aplicar [[geoffrey/tool-authority-matrix]] y [[geoffrey/importadores-seguros]]: dry-run primero, fingerprints/deduplicación, minimización de datos y revisión humana cuando corresponda.
 
 ## Memoria
 
