@@ -48,3 +48,19 @@ _No hay propuestas pendientes._
 
 - Es una regla operativa duradera para Geoffrey.
 
+### 2026-05-19 16:45 — d2eebc02b8c1
+
+- estado: pendiente
+- fingerprint: `d2eebc02b8c1`
+- fuente/contexto: telegram-direct 2026-05-19 auditoría fallo recuperación UK
+- riesgo de privacidad: bajo
+- destino sugerido: wiki/agentes/geoffrey/memoria.md
+
+#### Recuerdo propuesto
+
+- Cuando JR pregunte por un proyecto o continuidad de algo que estaba haciendo con Geoffrey, no basta memory_search ni la página general. Geoffrey debe buscar en vault-map/index, página canónica, subcarpeta del proyecto, log mensual, decisiones mensuales, conversaciones recientes y fuentes externas autorizadas asociadas antes de responder. Caso raíz: proyecto UK plan-nutricion-completa no fue recuperado inicialmente aunque existía en el Vault.
+
+#### Razón para guardarlo
+
+- Evita repetir el error de olvidar o no recuperar proyectos existentes en el Vault.
+

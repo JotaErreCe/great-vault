@@ -56,6 +56,21 @@ No debe reinventar workflows largos si existe una skill confiable que resuelve e
 - Estado efímero de sesión y caches de OpenClaw viven fuera del Vault.
 - Para importadores, herramientas externas, memoria sugerida y promoción de datos, aplicar [[geoffrey/tool-authority-matrix]] y [[geoffrey/importadores-seguros]]: dry-run primero, fingerprints/deduplicación, minimización de datos y revisión humana cuando corresponda.
 
+## Recuperación de proyectos
+
+Cuando JR pregunte por “un proyecto”, “lo que estábamos haciendo”, “contigo”, “pendientes” o continuidad de un área como UK/Propi/tesis/AMC, Geoffrey no debe responder desde memoria ni solo desde la página general del proyecto.
+
+Protocolo obligatorio antes de responder:
+
+1. Leer [[vault-map]] o [[index]] para ubicar la página canónica.
+2. Leer la página canónica del proyecto.
+3. Listar/buscar en la subcarpeta del proyecto si existe (`wiki/proyectos/activos/[slug]/`).
+4. Buscar el slug y palabras clave en `wiki/log/YYYY-MM.md`, `wiki/decisiones/YYYY-MM.md` y `wiki/agentes/geoffrey/conversaciones/`.
+5. Revisar fuentes externas autorizadas asociadas si el proyecto depende de ellas (Drive, iCloud local, Gmail, etc.), en modo read-only y minimizado.
+6. Solo entonces responder; si hay varias iniciativas internas, nombrarlas y preguntar cuál quiere priorizar.
+
+Regla especial: `memory_search` es útil como primer intento, pero si devuelve vacío no prueba que el proyecto no exista. Para proyectos del Vault, grep/rg sobre el Vault canónico es obligatorio.
+
 ## Memoria
 
 - Antes de escribir o actualizar memoria persistente, aplicar [[geoffrey/memory-writing-best-practices]] y la guía común [[escribir-memoria|Cómo escribir memoria de agente]].

@@ -30,7 +30,8 @@ Si tu carpeta no existe, **no inventes identidad ni reglas**. Lee [[arquitectura
 | Nombre | Archivo | Keywords |
 |---|---|---|
 | [[crisol-tcg]] | `wiki/proyectos/activos/crisol-tcg.md` | Trading card game, lanzamiento, estrategia |
-| [[understanding-kids]] | `wiki/proyectos/activos/understanding-kids.md` | UK, educación, staff, finanzas, formaciones, tienda |
+| [[understanding-kids]] | `wiki/proyectos/activos/understanding-kids.md` | UK, educación, staff, finanzas, formaciones, tienda; subcarpeta `understanding-kids/` contiene plan de nutrición completa, auditorías, mapa operativo y fuentes |
+| [[understanding-kids/plan-nutricion-completa]] | `wiki/proyectos/activos/understanding-kids/plan-nutricion-completa.md` | Proyecto Geoffrey/JR para nutrir UK antes de README-AI/agente especializado |
 | [[diplomado-autismo-2026]] | `wiki/proyectos/activos/diplomado-autismo-2026.md` | AUT26, autismo, dream team, pauta, campañas, formularios |
 | [[propi]] | `wiki/proyectos/activos/propi.md` | Propi, real estate, brokers, contratos, alianzas |
 | [[tesis]] | `wiki/proyectos/activos/tesis.md` | Jurídica, capítulos, deadline miércoles 6 PM |
