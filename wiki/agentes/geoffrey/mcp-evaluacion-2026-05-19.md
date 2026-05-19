@@ -77,3 +77,17 @@ Hallazgos preliminares:
 - [[geoffrey/checkpoints/index|Checkpoints — Geoffrey]]
 - [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]]
 - [[agentes/skills/index|Catálogo común de skills]]
+
+
+## Actualización — OpenClaw nativo — 2026-05-19 01:55
+
+JR corrigió que el objetivo operativo es OpenClaw, no Claude Code.
+
+- `google-workspace` fue agregado a `~/.openclaw/openclaw.json` con `npx -y @presto-ai/google-workspace-mcp`.
+- `apple-calendar` fue agregado a `~/.openclaw/openclaw.json`.
+- Para evitar el bug/ruta frágil del `npx` temporal, `apple-calendar-mcp@1.0.1` quedó instalado estable en `~/.openclaw/mcp/apple-calendar-mcp/` y OpenClaw apunta a:
+  - `node ~/.openclaw/mcp/apple-calendar-mcp/node_modules/apple-calendar-mcp/build/index.js`
+  - `APPLE_BRIDGE_BIN=~/.openclaw/mcp/apple-calendar-mcp/node_modules/apple-calendar-mcp/swift/.build/release/apple-bridge`
+- Schema MCP detectado: `get_calendars`, `get_events`, `get_today_events`, `search_events`, `create_event`, `delete_event`.
+- Bloqueo actual: `apple-bridge doctor` reporta `calendarAccess=writeOnly`; llamadas de lectura quedan en timeout hasta conceder Full Access en macOS Calendar privacy. Mientras tanto, `apple-calendar-jr` local sigue funcionando para el brief.
+- `web_search` actual de OpenClaw ya está configurado con provider `ollama` y fue probado con una búsqueda DCA. Es búsqueda web vía Ollama, no búsqueda semántica local del Vault.
