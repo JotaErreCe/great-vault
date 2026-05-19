@@ -54,7 +54,7 @@ Clientes: profesionales (psicólogos, terapeutas, médicos, pedagogos, educadore
 
 ## Tienda — Talleres pre-grabados (7)
 
-Bajo marca IS principalmente. Checkout actualmente roto.
+Bajo marca IS principalmente. Al corte 2026-05, checkout no confiable/pendiente de verificación; no afirmar estado actual sin probar el sitio.
 
 | Taller | Precio |
 |---|---:|

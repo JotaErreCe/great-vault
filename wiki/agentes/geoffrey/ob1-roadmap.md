@@ -14,8 +14,8 @@ Roadmap aprobado/adaptado para tomar patrones útiles de OB1 sin instalar OB1 co
 |---:|---|---|---|
 | 1 | Checkpoints + evaluación MCP | Crear `/geoffrey-checkpoint`, auto-capture mínimo, evaluar Gmail/Calendar/web. | completada |
 | 2 | Work log | Adaptar formato Geoffrey para tareas largas/subagentes. | completada con corrección |
-| 3 | Bandeja de revisión | Crear `/geoffrey-memory-review` y `wiki/agentes/geoffrey/memoria-sugerida.md`; nada pasa a `memoria.md` sin confirmación de JR. | pendiente |
-| 4 | Dedup/importadores | Crear `/obsidian-import-safe` con dry-run, secret scan, fingerprints, sync log y revisión antes de escritura masiva. | pendiente |
+| 3 | Bandeja de revisión | Crear `/geoffrey-memory-review` y `wiki/agentes/geoffrey/memoria-sugerida.md`; nada pasa a `memoria.md` sin confirmación de JR. | implementada base |
+| 4 | Dedup/importadores | Crear `/obsidian-import-safe` con dry-run, secret scan, fingerprints, sync log y revisión antes de escritura masiva. | implementada base |
 
 ## Fase 2 — Work log
 
@@ -102,6 +102,7 @@ La versión extendida vive en [[geoffrey/tool-authority-matrix]].
 
 ## Relacionado
 
+- [[protocolo-operativo-agentes]]
 - [[geoffrey/ob1-fase-2]]
 - [[geoffrey/work-logs/index]]
 - [[geoffrey/tool-authority-matrix]]

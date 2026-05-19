@@ -4,6 +4,8 @@ This is **not** an OpenClaw agent runtime identity file. The Vault root is neutr
 
 This Vault follows the LLM Wiki pattern. Before doing substantive work here, read [[_AI_BOOTSTRAP]] and follow it.
 
+Any agent operating in this Vault must also follow `wiki/resources/protocolo-operativo-agentes.md`, which connects OB1-style work logs/checkpoints/memory review/import safety with the Vault memory rules.
+
 Core rules:
 
 - `raw/` = immutable sources. Read, cite, and ingest; do not rewrite source files.

@@ -2,6 +2,8 @@
 
 Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
 
+For JR's Great Vault, tool use must also respect [[protocolo-operativo-agentes]]: approved skills only, source authority, dry-run importers, minimization, and no external actions without explicit approval.
+
 ## What Goes Here
 
 Things like:
@@ -41,5 +43,5 @@ Add whatever helps you do your job. This is your cheat sheet.
 
 ## Related
 
-- [[AGENTS.template]] · [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] · [[_templates/openclaw-agent/SOUL|SOUL.template]] · [[_templates/openclaw-agent/USER|USER.template]] · [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]]
+- [[AGENTS.template]] · [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] · [[_templates/openclaw-agent/SOUL|SOUL.template]] · [[_templates/openclaw-agent/USER|USER.template]] · [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]] · [[protocolo-operativo-agentes]]
 - Instancia real: [[geoffrey/AGENT|AGENT — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]]

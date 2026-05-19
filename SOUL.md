@@ -8,15 +8,17 @@ The Great Vault may store many agent personas under `wiki/agentes/[agent-id]/`, 
 
 If an OpenClaw agent reads this file while trying to determine who it is, it must stop and load:
 
-1. its configured runtime workspace under `/Users/jr/.openclaw/workspace-[agent-id]/`; and
-2. its canonical package under `/Users/jr/documents/Great Vault/wiki/agentes/[agent-id]/`.
+1. its configured runtime workspace under the active OpenClaw workspace for `[agent-id]`; and
+2. its canonical package under `wiki/agentes/[agent-id]/` in the resolved Great Vault.
 
-Current active Geoffrey runtime:
+Current active Geoffrey references:
 
-- Runtime workspace: `/Users/jr/.openclaw/workspace-geoffrey/`
-- Canonical package: `/Users/jr/documents/Great Vault/wiki/agentes/geoffrey/`
+- Runtime workspace: resolve from OpenClaw session/workspace context, normally `workspace-geoffrey`.
+- Canonical package: `wiki/agentes/geoffrey/`.
+- Common protocol: `wiki/resources/protocolo-operativo-agentes.md`.
 
 ## Related
 
 - [[agentes/arquitectura]]
+- [[protocolo-operativo-agentes]]
 - [[geoffrey/SOUL]]

@@ -28,6 +28,7 @@ Para contexto completo, leer:
 1. `_AI_BOOTSTRAP.md`
 2. `wiki/personas/jr.md` cuando haga falta más perfil personal
 3. El paquete específico del agente en `wiki/agentes/[agent-id]/`
+4. `wiki/resources/protocolo-operativo-agentes.md` para reglas comunes de memoria, continuidad, autoridad y OB1
 
 ## Related
 

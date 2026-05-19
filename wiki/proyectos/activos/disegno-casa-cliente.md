@@ -24,3 +24,6 @@ Cuando haya recordatorios, correos o tareas relacionados con Altezza, clósets, 
 ## Relacionado
 
 - [[altezza]]
+- [[disegno-casa]]
+- [[brera-arredamenti]]
+- [[amc-legal]]

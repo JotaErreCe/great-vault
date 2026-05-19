@@ -26,7 +26,7 @@ Calendario no verificado en esta auditoría: Apple Calendar devolvió `Applicati
 | [[understanding-kids]] | Reparar checkout y ordenar pendientes ToyLab/Talleres. |
 | [[propi]] | Seguimiento contratos brokers: Corp. Victoria y Sur Ventas/JM. |
 | [[tesis]] | Mantener entrega semanal de capítulo. |
-| [[disengo-casa|Disegno Casa]] | Proyecto/cliente principal; [[altezza]] es caso dentro de Disegno Casa. |
+| [[disegno-casa-cliente|Disegno Casa]] | Proyecto/cliente principal; [[altezza]] es caso dentro de Disegno Casa. |
 | [[diplomado-autismo-2026]] | Campaña/cierre estimado agosto 2026. |
 | [[amc-legal]] | Tracking de horas, clientes y follow-ups legales. |
 | [[integracion-sensorial]] | Submarca/área activa vinculada a UK; revisar si debe seguir como proyecto standalone. |

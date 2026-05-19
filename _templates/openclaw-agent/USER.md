@@ -16,7 +16,9 @@ _(What do they care about? What projects are they working on? What annoys them? 
 
 The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
 
+For JR's Great Vault, do not duplicate volatile personal/project state into this file. Follow [[escribir-memoria]] and [[protocolo-operativo-agentes]]: store durable preferences/rules here, and point to canonical Vault pages for live facts.
+
 ## Related
 
-- [[AGENTS.template]] · [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] · [[_templates/openclaw-agent/SOUL|SOUL.template]] · [[_templates/openclaw-agent/TOOLS|TOOLS.template]] · [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]]
+- [[AGENTS.template]] · [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] · [[_templates/openclaw-agent/SOUL|SOUL.template]] · [[_templates/openclaw-agent/TOOLS|TOOLS.template]] · [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]] · [[protocolo-operativo-agentes]] · [[escribir-memoria]]
 - Instancia real: [[geoffrey/SOUL|SOUL — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]] · [[IDENTITY|IDENTITY — JR]]

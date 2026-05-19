@@ -23,3 +23,10 @@ Cada skill de contexto debe producir primero un brief/checklist, no ejecutar acc
 ## Próximo paso recomendado
 
 Construir primero `/propi-brief`, porque está conectado a contratos activos/cumplimiento y puede producir valor operativo sin tocar terceros.
+
+## Relacionado
+
+- [[protocolo-operativo-agentes]]
+- [[geoffrey/ob1-roadmap]]
+- [[geoffrey/tool-authority-matrix]]
+- [[geoffrey/importadores-seguros]]

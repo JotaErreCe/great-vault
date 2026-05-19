@@ -19,6 +19,7 @@ Colección de plantillas reutilizables para crear notas nuevas en el vault. Cada
 - [[canva-project]] — esqueleto de diseño Canva
 - [[agentes-brief]] — plantilla de salida del brief mañanero Geoffrey
 - [[agent-senal-diaria]] — plantilla de signal diario por agente especializado
+- `_templates/openclaw-agent/` — templates de agentes; deben heredar [[protocolo-operativo-agentes]], [[escribir-memoria]] y [[protocolo-continuidad-proyectos]]
 
 ---
 

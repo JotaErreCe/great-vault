@@ -21,6 +21,7 @@ Geoffrey no puede usar skills no listadas aquí, aunque estén instaladas en el 
 | [[google-workspace-mcp]] | Drive, Docs, Sheets, Gmail y Calendar para tareas explícitas de JR. Read-only por defecto: buscar/listar archivos, revisar metadatos, leer contenido cuando JR indique archivo/carpeta/búsqueda/contexto y apoyar brief. | No enviar Gmail/Chat, crear/editar/borrar/mover/compartir archivos, modificar Docs/Sheets, crear/modificar eventos, cambiar permisos, descargar masivamente ni guardar tokens/contenido crudo sensible en el Vault sin aprobación explícita por acción. |
 | [[imsg]] | Lectura local minimizada de SMS/iMessage para tareas explícitas, gastos bancarios, señales relevantes y brief. | No enviar, reaccionar, marcar como leído, automatizar respuestas ni transcribir mensajes crudos sin aprobación explícita por acción. |
 | [[apple-calendar-jr]] | Lectura local de Apple Calendar: agenda, próximos eventos, alarmas, conflictos y brief. | No crear, editar, borrar, aceptar/rechazar eventos, invitar personas ni cambiar alarmas sin aprobación explícita por acción. |
+| [[openai-whisper-api]] | Transcribir audios enviados o indicados explícitamente por JR. | El audio se envía a OpenAI y puede generar costo API; no usar para audios altamente sensibles, grupos o terceros no autorizados sin confirmación específica; no guardar transcript crudo en Vault salvo instrucción clara. |
 
 ## Revocadas / no permitidas
 

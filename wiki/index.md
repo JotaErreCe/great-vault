@@ -35,6 +35,7 @@ tags: [navigation, index]
 - [[uk-catalogo]] — Catálogo UK: servicios, talleres, tienda (~90 productos)
 - [[diplomado-autismo-2026]] — Campaña AUT26
 - [[integracion-sensorial]] — Submarca de UK
+- [[disegno-casa-cliente]] — Cliente/proyecto AMC Legal; [[altezza]] vive bajo esta relación
 - [[altezza]] — Caso legal activo
 - [[propi]] — Engagement AMC Legal con [[propi-tech]]
 - [[amc-legal]] — Despacho jurídico (hub de clientes)

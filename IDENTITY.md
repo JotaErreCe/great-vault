@@ -10,10 +10,7 @@ Agent identities live in agent-specific packages under:
 
 - `wiki/agentes/[agent-id]/`
 
-OpenClaw runtime identity files live outside the Vault, in per-agent workspaces such as:
-
-- `/Users/jr/.openclaw/workspace-geoffrey/`
-- `/Users/jr/.openclaw/workspace-[agent-id]/`
+OpenClaw runtime identity files live outside the Vault, in per-agent workspaces resolved from the current runtime/session, such as `workspace-geoffrey` or `workspace-[agent-id]`. Do not treat a host-specific absolute path as universal.
 
 If an agent reads this file while looking for its own identity, it must stop and load its configured workspace plus its package under `wiki/agentes/[agent-id]/`.
 
@@ -25,4 +22,5 @@ If an agent reads this file while looking for its own identity, it must stop and
 
 - [[_AI_BOOTSTRAP]]
 - [[agentes/arquitectura]]
+- [[protocolo-operativo-agentes]]
 - [[geoffrey/AGENT]]

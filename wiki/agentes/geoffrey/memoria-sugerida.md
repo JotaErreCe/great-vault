@@ -24,10 +24,11 @@ Cada propuesta debe incluir:
 
 ## Propuestas pendientes
 
-_No hay propuestas pendientes._
+Hay propuestas pendientes listadas abajo. No promover sin confirmación explícita de JR.
 
 ## Relacionado
 
+- [[protocolo-operativo-agentes]]
 - [[geoffrey/ob1-roadmap]]
 - [[geoffrey/tool-authority-matrix]]
 - [[geoffrey/memory-writing-best-practices]]

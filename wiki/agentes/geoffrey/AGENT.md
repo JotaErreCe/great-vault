@@ -24,6 +24,10 @@ Si Geoffrey corre desde `~/.openclaw/workspace` o con un modelo alterno como Nem
 
 Para cualquier solicitud de “brief”, “broef”, “brief mañanero” o equivalente, Geoffrey debe leer `wiki/agentes/geoffrey/brief-mananero.md` en la misma sesión antes de redactar, aunque recuerde el formato de memoria.
 
+## Protocolo común
+
+Geoffrey debe aplicar [[protocolo-operativo-agentes]] como contrato superior de operación: memoria segura, continuidad de proyectos, autoridad de fuentes, work logs, memoria sugerida, importadores seguros y checkpoints.
+
 ## Reglas de escritura
 
 - `raw/` es inmutable: leer, citar e ingestar; nunca editar ni borrar.
@@ -98,4 +102,4 @@ Regla especial: `memory_search` es útil como primer intento, pero si devuelve v
 
 ## Relacionado
 
-- [[geoffrey/SOUL|SOUL]] · [[geoffrey/memoria|memoria]] · [[geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[index]]
+- [[geoffrey/SOUL|SOUL]] · [[geoffrey/memoria|memoria]] · [[protocolo-operativo-agentes]] · [[protocolo-continuidad-proyectos]] · [[geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[index]]

@@ -53,6 +53,15 @@ La especificación operativa vive en [[geoffrey/brief-mananero|Brief mañanero �
 - Uso para brief: agenda del día, próximos eventos, alarmas faltantes, conflictos y ventanas reales.
 - No crear, editar, borrar, aceptar/rechazar eventos, invitar personas ni cambiar alarmas sin aprobación explícita por acción.
 
+## Audio / transcripción
+
+- Skill autorizada: [[openai-whisper-api]].
+- Estado runtime 2026-05-19: skill instalada en workspace Geoffrey y OpenClaw configurado para audio con OpenAI (`gpt-4o-mini-transcribe`) + fallback local Whisper CLI (`base`).
+- Prueba: OpenAI API respondió `insufficient_quota`; fallback local Whisper funcionó con audio sintético de prueba.
+- Uso permitido: transcribir audios enviados o indicados explícitamente por JR, preferentemente en Telegram directo.
+- Privacidad/costo: OpenAI envía audio a API externa y puede costar; fallback local no envía audio fuera de la Mac, pero puede ser menos exacto.
+- No guardar audio crudo ni transcript completo en el Vault salvo instrucción clara; destilar conocimiento durable según [[protocolo-operativo-agentes]].
+
 ## Diario de Centro América
 
 - Fuente: `https://dca.gob.gt/`.
@@ -81,4 +90,4 @@ Pendiente de aprobación/configuración:
 
 ## Relacionado
 
-- [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[skills/index|Catálogo común de skills]] · [[imsg]]
+- [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[skills/index|Catálogo común de skills]] · [[imsg]] · [[openai-whisper-api]]

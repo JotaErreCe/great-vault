@@ -100,6 +100,7 @@ Aprobó:
 | [[nano-banana-pro]] | auditada | varios candidatos | `nano-banana-pro`, `gemini-nano-banana`, etc. | Recomendación: diferir; si se aprueba, preferir `nano-banana-pro` sobre `nanobanana`. |
 | [[google-workspace-mcp]] | aprobada limitada | `@presto-ai/google-workspace-mcp` | `google-workspace-mcp` | Aprobada para Geoffrey: Drive/Docs/Sheets read-only por defecto; escrituras, envíos, permisos y cambios externos solo con aprobación explícita por acción. |
 | [[apple-calendar-jr]] | aprobada limitada | local | no aplica | Lectura local de Apple Calendar para agenda/brief/alarmas; sin escrituras. |
+| [[openai-whisper-api]] | aprobada | bundled OpenClaw | bundled | Transcripción de audio vía OpenAI; permitido para audios enviados/indicados por JR; implica envío a OpenAI y posible costo API. |
 | [[wacli]] | rechazada/revocada | https://wacli.sh | bundled OpenClaw | Revocada por JR el 2026-05-16 por posible violación de términos de WhatsApp; no usar salvo nueva aprobación explícita. |
 
 ## Candidatas prioritarias por auditar

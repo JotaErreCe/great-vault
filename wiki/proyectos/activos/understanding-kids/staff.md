@@ -57,7 +57,7 @@ tags: [understanding-kids, staff, hr]
 ## Notas de nomenclatura y corte
 
 - `CAES` = Carretera a El Salvador. Usar `CAES` como nombre común de la sede; dejar indexado que está en San José Pinula.
-- Corte vigente para staff/pagos al 2026-05-14: segunda quincena de abril 2026. Pagos de mayo pendientes de hacerse hoy/mañana.
+- Corte vigente para staff/pagos al 2026-05-14: segunda quincena de abril 2026. En ese corte, pagos de mayo estaban pendientes; verificar Drive/Reminders antes de actuar.
 - Todas las terapeutas/contratistas activas trabajan bajo servicios profesionales. Josselyn fue la última en hacer la transición desde planilla.
 
 ## Pendientes staff

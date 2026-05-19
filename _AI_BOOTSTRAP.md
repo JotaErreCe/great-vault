@@ -1,6 +1,6 @@
 ---
 type: bootstrap
-updated: 2026-05-16
+updated: 2026-05-19
 ---
 
 # AI Bootstrap — entrada única
@@ -156,9 +156,11 @@ If an agent wakes up after memory loss, it must recover from its package: read `
 - **Nunca sobrescribir historial.** `wiki/log/` es append-only.
 - **Datos sensibles** (NIT, DPI, dirección, credenciales, cuentas) → SOLO en `_sensitive.md`.
 - **Toda modificación al wiki** → apendar línea a `wiki/log/YYYY-MM.md`.
+- **Protocolo operativo común.** Todo agente debe aplicar [[protocolo-operativo-agentes]]: bootstrap, auto-ubicación, memoria segura, continuidad de proyectos, autoridad de fuentes, work logs, memoria sugerida, importadores seguros y checkpoints.
 - **Memoria de agente envejece mal si copia estados vivos.** Antes de escribir memoria persistente, aplicar [[escribir-memoria|Cómo escribir memoria de agente]]: preferir reglas/punteros, no rutas hardcodeadas, no datos sensibles, no transcripts crudos.
 - **Decisiones de JR se destilan.** Si JR decide, aprueba, rechaza, cambia criterio o fija una preferencia/regla, guardar una versión breve en `wiki/decisiones/YYYY-MM.md`; no guardar transcript completo.
 - **Buenas respuestas se archivan.** Un análisis, comparación o síntesis valiosa → guardar como página en `wiki/`.
+- **Continuidad de proyectos.** Si JR pregunta por un proyecto, subproyecto, fase, pendiente o “lo que estábamos haciendo”, aplicar [[protocolo-continuidad-proyectos]] antes de responder: página canónica + subcarpeta + log + decisiones + conversaciones/checkpoints + fuentes externas autorizadas. `memory_search` vacío no prueba inexistencia.
 
 ---
 
@@ -270,7 +272,7 @@ Slash commands disponibles (`~/.claude/skills/obsidian-*`):
 | `/obsidian-daily` | Crea/abre nota del día en raw/daily/ |
 | `/obsidian-world [L0-L3]` | Carga contexto por niveles |
 
-Tienes acceso directo al filesystem (`~/Documents/Great Vault/`). Lee, edita y crea archivos directamente.
+Si tienes acceso directo al filesystem, resuelve primero la ruta del Vault según el host/runtime. No asumas que `~/Documents/Great Vault/` existe en todas las máquinas; usa este bootstrap y el routing local antes de leer, editar o crear archivos.
 
 ## Si eres ChatGPT / Gemini / cualquier otra AI
 

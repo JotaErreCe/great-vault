@@ -43,3 +43,9 @@ use_policy: operational_continuity
 - wiki/agentes/geoffrey/skills-contexto-candidatas.md
 - skills/geoffrey-memory-review/scripts/memory_review.py
 - skills/obsidian-import-safe/scripts/scan_import.py
+
+## Relacionado
+
+- [[geoffrey/work-logs/index]]
+- [[geoffrey/work-log]]
+- [[protocolo-operativo-agentes]]

@@ -21,6 +21,8 @@ El Vault puede tener varios agentes especializados. Cada agente vive en `wiki/ag
 
 Los agentes especializados son expertos por dominio; [[geoffrey/SOUL|Geoffrey]] es el orquestador con visión global de JR. Geoffrey consolida información de agentes, fuentes e integraciones para preparar el brief diario unificado.
 
+Todo agente hereda el [[protocolo-operativo-agentes]], que integra memoria segura, continuidad de proyectos, autoridad de fuentes, work logs, memoria sugerida, importadores seguros y checkpoints.
+
 ## Agentes previstos
 
 | Agente | Carpeta canónica | Rol | Estado |
@@ -31,6 +33,12 @@ Los agentes especializados son expertos por dominio; [[geoffrey/SOUL|Geoffrey]] 
 | Legal | `wiki/agentes/legal/` | AMC Legal, casos, clientes, facturación, plazos y Diario de Centro América. | Previsto |
 | Meta Ads | `wiki/agentes/meta-ads/` | Campañas publicitarias, pauta, métricas y alertas. | Previsto |
 | Marketing / Imágenes | `wiki/agentes/marketing-imagenes/` | Identidad visual, Canva, creativos y activos gráficos. | Previsto |
+
+## Continuidad de proyectos
+
+Todo agente debe aplicar [[protocolo-continuidad-proyectos]] cuando JR pregunte por un proyecto, subproyecto, fase, pendiente o continuidad de trabajo. La búsqueda debe cubrir página canónica, subcarpeta del proyecto, log mensual, decisiones mensuales, conversaciones/checkpoints del agente y fuentes externas autorizadas. `memory_search` vacío no prueba que el proyecto no exista.
+
+Para el contrato completo de operación entre OB1 + memoria + recuperación de contexto, ver [[protocolo-operativo-agentes]].
 
 ## Captura de decisiones
 

@@ -35,6 +35,7 @@ Si tu carpeta no existe, **no inventes identidad ni reglas**. Lee [[arquitectura
 | [[diplomado-autismo-2026]] | `wiki/proyectos/activos/diplomado-autismo-2026.md` | AUT26, autismo, dream team, pauta, campañas, formularios |
 | [[propi]] | `wiki/proyectos/activos/propi.md` | Propi, real estate, brokers, contratos, alianzas |
 | [[tesis]] | `wiki/proyectos/activos/tesis.md` | Jurídica, capítulos, deadline miércoles 6 PM |
+| [[disegno-casa-cliente]] | `wiki/proyectos/activos/disegno-casa-cliente.md` | Cliente/proyecto AMC Legal; casos bajo relación Disegno Casa |
 | [[altezza]] | `wiki/proyectos/activos/altezza.md` | Caso legal, demanda |
 | [[amc-legal]] | `wiki/proyectos/activos/amc-legal.md` | Despacho legal, clientes, tarifa USD $90/hr |
 | [[uk-catalogo]] | `wiki/proyectos/activos/uk-catalogo.md` | Catálogo UK, servicios, tienda, formación |
@@ -105,6 +106,8 @@ Si tu carpeta no existe, **no inventes identidad ni reglas**. Lee [[arquitectura
 | Suscripciones | `wiki/resources/suscripciones.md` | Servicios y cobros recurrentes |
 | Outlander 2026 | `wiki/resources/outlander-2026.md` | Vehículo y mantenimientos |
 | Information hierarchy | `wiki/resources/information-hierarchy.md` | Niveles de carga/contexto del Vault |
+| Protocolo operativo agentes | `wiki/resources/protocolo-operativo-agentes.md` | Contrato común OB1 + memoria + continuidad + autoridad para Geoffrey y agentes especializados |
+| Protocolo continuidad proyectos | `wiki/resources/protocolo-continuidad-proyectos.md` | Búsqueda obligatoria para proyectos/subproyectos: canónica, subcarpeta, log, decisiones, conversaciones y fuentes autorizadas |
 
 ## Cómo usar Vault Map
 

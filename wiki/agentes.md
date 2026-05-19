@@ -33,6 +33,8 @@ Si eres un agente:
 ## Recursos comunes
 
 - [[arquitectura|Arquitectura de agentes]] — reglas de paquetes, agentes previstos y auto-ubicación.
+- [[protocolo-operativo-agentes]] — contrato común OB1 + memoria + continuidad + autoridad para todos los agentes.
+- [[protocolo-continuidad-proyectos]] — recuperación obligatoria de proyectos/subproyectos antes de responder continuidad.
 - [[briefs|Briefs multi-agente]] — señales especializadas y consolidación.
 - [[skills/index|Catálogo común de skills]] — skills auditadas y whitelist por agente.
 

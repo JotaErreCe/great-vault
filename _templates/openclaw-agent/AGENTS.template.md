@@ -22,6 +22,17 @@ Do not manually reread startup files unless:
 2. The provided context is missing something you need
 3. You need a deeper follow-up read beyond the provided startup context
 
+## Great Vault Operating Protocol
+
+If this agent operates inside JR's Great Vault, load `_AI_BOOTSTRAP.md` and follow `wiki/resources/protocolo-operativo-agentes.md` before substantive work. That protocol is mandatory for all agents and connects:
+
+- memory-writing rules (`wiki/resources/escribir-memoria.md`);
+- project continuity recovery (`wiki/resources/protocolo-continuidad-proyectos.md`);
+- OB1-style work logs, checkpoints, memory review and safe importers;
+- source authority and privacy boundaries.
+
+Do not rely only on runtime memory or embedding search to decide whether a project exists.
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:
@@ -36,10 +47,11 @@ Capture what matters. Decisions, context, things to remember. Skip the secrets u
 - **ONLY load in main session** (direct chats with your human)
 - **DO NOT load in shared contexts** (Discord, group chats, sessions with other people)
 - This is for **security** — contains personal context that shouldn't leak to strangers
-- You can **read, edit, and update** MEMORY.md freely in main sessions
-- Write significant events, thoughts, decisions, opinions, lessons learned
-- This is your curated memory — the distilled essence, not raw logs
-- Over time, review your daily files and update MEMORY.md with what's worth keeping
+- Follow the Vault memory rules before editing durable memory: memory is a dated rule/pointer, not live state
+- Do not promote proposed memories into permanent memory if this agent's package requires JR review
+- Write significant lessons and operating rules, not raw transcripts or volatile project state
+- This is curated memory — the distilled essence, not raw logs
+- Over time, review daily files and propose/update only what is worth keeping under the agent's memory policy
 
 ### 📝 Write It Down - No "Mental Notes"!
 
@@ -118,6 +130,10 @@ Reactions are lightweight social signals. Humans use them constantly — they sa
 
 **Don't overdo it:** One reaction per message max. Pick the one that fits best.
 
+
+## OB1-Style Continuity
+
+For long, delicate or multi-session tasks, create a work log using the agent's approved work-log format. Before compaction/reset/handoff, create a checkpoint. For new durable memories, use the agent's memory-review/staging process if one exists. For external imports, dry-run first with fingerprints, deduplication and human review before any mass write.
 
 ## Skill Governance
 

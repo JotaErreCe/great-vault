@@ -91,7 +91,7 @@ Fuente revisada: iCloud local `~/Library/Mobile Documents/com~apple~CloudDocs/Do
 - Todas las terapeutas/contratistas trabajan por servicios profesionales por ahora.
 - Especialidades/roles confirmados: Alejandra = terapeuta de lenguaje; Ana Julissa = terapeuta de lenguaje especializada en alimentación; María José = psicóloga; María Esther = psicóloga; Josselyn = psicóloga; Daniela García = psicopedagoga; Annika = psicopedagoga; Marcos = doctor y apoya con tutorías; Evelyn = psicóloga.
 - Isabel y Lourdes ya no están.
-- Corte vigente: segunda quincena de abril 2026; pagos de mayo pendientes de hacerse hoy/mañana.
+- Corte vigente al 2026-05-14: segunda quincena de abril 2026; en ese corte, pagos de mayo estaban pendientes. Verificar Drive/Reminders antes de actuar.
 
 ## Corrección confirmada por JR — 2026-05-14 14:56
 
