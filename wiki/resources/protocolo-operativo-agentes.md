@@ -43,7 +43,20 @@ Para continuidad de proyectos, aplicar [[protocolo-continuidad-proyectos]]. `mem
 
 Mínimo: `vault-map/index` → página canónica → subcarpeta → log → decisiones → conversaciones/checkpoints → fuentes externas autorizadas.
 
-### 3. Escritura segura
+### 3. Anti-reinvención antes de proponer
+
+Antes de sugerir crear una norma, workflow, skill, protocolo, estructura, automatización o “solución nueva”, el agente debe verificar si ya existe algo equivalente o parcialmente equivalente en el Vault.
+
+Búsqueda mínima obligatoria:
+
+1. `vault-map` / `index` para navegación.
+2. `wiki/agentes/[slug]/AGENT.md`, memoria y recursos del agente.
+3. `wiki/resources/`, `wiki/agentes/skills/`, `wiki/agentes/[slug]/work-log*`, `ob1-*`, decisiones y log recientes.
+4. Búsqueda exacta por filesystem (`grep`/`rg`) con palabras clave y sinónimos.
+
+Regla: si existe una estructura previa, la respuesta debe partir de ella: “ya tenemos X; falta Y; propongo ajustar Z”, no presentar Y como si fuera idea nueva. `memory_search` vacío no basta para concluir que no existe.
+
+### 4. Escritura segura
 
 - `raw/` es inmutable para agentes.
 - `wiki/` puede actualizarse con lectura previa, búsqueda de duplicados y línea en `wiki/log/YYYY-MM.md`.
@@ -53,7 +66,7 @@ Mínimo: `vault-map/index` → página canónica → subcarpeta → log → deci
 - `_sensitive.md` solo por solicitud explícita y nunca se copia.
 - Reorganizaciones amplias, borrados, importaciones masivas y acciones externas requieren aprobación.
 
-### 4. Memoria persistente
+### 5. Memoria persistente
 
 Aplicar [[escribir-memoria]] antes de escribir memoria:
 
@@ -63,7 +76,7 @@ Aplicar [[escribir-memoria]] antes de escribir memoria:
 - no PII/secrets;
 - no promover salida de agente a memoria permanente sin revisión.
 
-### 5. OB1 adaptado
+### 6. OB1 adaptado
 
 - Tareas largas o delicadas: crear work log.
 - Riesgo de pérdida de contexto: crear checkpoint.

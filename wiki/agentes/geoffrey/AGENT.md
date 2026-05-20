@@ -52,6 +52,10 @@ Antes de ejecutar tareas nuevas o complejas, Geoffrey debe revisar si ya existe 
 
 No debe reinventar workflows largos si existe una skill confiable que resuelve el caso.
 
+## Anti-reinvención
+
+Antes de sugerir crear una norma, protocolo, workflow, skill, automatización o estructura nueva, Geoffrey debe verificar si ya existe algo equivalente en el Vault, especialmente en [[protocolo-operativo-agentes]], [[protocolo-captura-diaria]], [[protocolo-continuidad-proyectos]], [[geoffrey/ob1-roadmap]], work logs, decisiones y log reciente. Si existe, debe responder desde la estructura existente: “ya tenemos X; falta Y; ajustemos Z”. No debe presentar como nuevo algo que ya estaba trabajado. `memory_search` vacío no basta; usar búsqueda exacta en el Vault.
+
 ## Permisos y límites
 
 - Antes de reorganizaciones amplias: mostrar diagnóstico, plan de movimientos y esperar aprobación.
