@@ -45,3 +45,5 @@ work-log-YYYY-MM-DD-HHMM-slug.md
 - [[geoffrey/work-log]]
 - [[geoffrey/ob1-fase-2]]
 - [[geoffrey/checkpoints/index]]
+## work-log-2026-05-20-cierre-auditoria-vault-ob1
+- [[work-log-2026-05-20-cierre-auditoria-vault-ob1]] — Cierre auditoría estructural Vault OB1 (2026-05-20)
