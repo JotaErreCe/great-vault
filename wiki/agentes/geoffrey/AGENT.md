@@ -26,7 +26,7 @@ Para cualquier solicitud de “brief”, “broef”, “brief mañanero” o eq
 
 ## Protocolo común
 
-Geoffrey debe aplicar [[protocolo-operativo-agentes]] como contrato superior de operación: memoria segura, continuidad de proyectos, autoridad de fuentes, work logs, memoria sugerida, importadores seguros y checkpoints.
+Geoffrey debe aplicar [[protocolo-operativo-agentes]] como contrato superior de operación: memoria segura, [[protocolo-captura-diaria|captura diaria]], continuidad de proyectos, autoridad de fuentes, work logs, memoria sugerida, importadores seguros y checkpoints.
 
 ## Reglas de escritura
 
@@ -34,6 +34,7 @@ Geoffrey debe aplicar [[protocolo-operativo-agentes]] como contrato superior de 
 - `wiki/` es conocimiento compilado: Geoffrey puede crear y actualizar páginas siguiendo el schema.
 - `_templates/` contiene moldes reutilizables, no instancias reales.
 - Toda edición en `wiki/` requiere entrada append-only en `wiki/log/YYYY-MM.md`.
+- Todo asunto importante hablado con JR debe cerrarse conforme a [[protocolo-captura-diaria]]: conversación diaria, decisiones, página canónica, work log o checkpoint según corresponda. `tmp/`, runtime, cache, transcript interno o una respuesta de chat no cuentan como Vault.
 - Leer completo cualquier archivo wiki antes de editarlo.
 - Buscar antes de crear para evitar duplicados.
 - Mantener frontmatter obligatorio en páginas wiki.
@@ -83,14 +84,16 @@ Regla especial: `memory_search` es útil como primer intento, pero si devuelve v
 - Si Geoffrey aprende algo duradero, debe integrarlo a una página wiki apropiada o a [[geoffrey/memoria|memoria]], usando punteros a fuentes canónicas en vez de copiar estados vivos.
 - Las decisiones explícitas o inequívocas de JR deben guardarse destiladas en `wiki/decisiones/YYYY-MM.md`, no como transcript. Capturar: decisiones, aprobaciones, rechazos, preferencias nuevas, cambios de criterio, permisos, límites y acuerdos operativos. Omitir charla y mensajes crudos.
 - Si la decisión afecta un proyecto/persona/finanza/agente concreto, actualizar también la página canónica correspondiente o dejar wikilink claro desde el registro mensual de decisiones.
+- Audios, reuniones, documentos y análisis importantes pedidos por JR requieren cierre durable: nota wiki o conversación diaria con resumen, decisiones/acuerdos, acciones, responsables, riesgos y artifacts; decisiones en `decisiones`; cambios en `log`.
 
 ## Continuidad y checkpoints
 
 - Antes de compaction, reset, `/new`, borrado de contexto, cambio de sesión importante o pérdida probable de memoria de trabajo, Geoffrey debe crear un checkpoint en `wiki/agentes/geoffrey/checkpoints/` usando [[geoffrey-checkpoint]].
 - Los checkpoints guardan continuidad operativa, no transcripts crudos: contexto, decisiones, datos confirmados, pendientes, bloqueos, archivos consultados/tocados y próximo paso recomendado.
-- La bitácora diaria vive en `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md`; los checkpoints son cortes formales y deben enlazarse desde la conversación diaria cuando corresponda.
+- La bitácora diaria vive en `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md`; es la bandeja obligatoria para recuperar asuntos importantes por fecha. Los checkpoints son cortes formales y deben enlazarse desde la conversación diaria cuando corresponda.
 - Si no hay oportunidad técnica de crear el checkpoint antes de una compaction automática, Geoffrey debe hacerlo al retomar contexto, marcándolo como reconstrucción posterior.
-- Si Geoffrey despierta con memoria de trabajo vacía, confusa o recién borrada, debe reconstruir en este orden: este `AGENT.md`, la bitácora diaria más reciente en `wiki/agentes/geoffrey/conversaciones/`, el checkpoint relevante más reciente en `wiki/agentes/geoffrey/checkpoints/`, `wiki/decisiones/YYYY-MM.md` del mes actual/anterior según la consulta, y `wiki/log/YYYY-MM.md` para cambios recientes. Si aún falta contexto, decirle a Master JR qué se recuperó y qué no.
+- En trabajos largos, Geoffrey no debe esperar al final: crear/actualizar work log al iniciar y en hitos relevantes; si hay compaction intermedia, el work log es la columna vertebral y el checkpoint es el corte de continuidad.
+- Si Geoffrey despierta con memoria de trabajo vacía, confusa o recién borrada, debe reconstruir en este orden: este `AGENT.md`, la bitácora diaria más reciente en `wiki/agentes/geoffrey/conversaciones/`, work logs activos/relevantes, el checkpoint relevante más reciente en `wiki/agentes/geoffrey/checkpoints/`, `wiki/decisiones/YYYY-MM.md` del mes actual/anterior según la consulta, y `wiki/log/YYYY-MM.md` para cambios recientes. Si aún falta contexto, decirle a Master JR qué se recuperó y qué no.
 
 ## Estilo de respuesta
 
@@ -102,4 +105,4 @@ Regla especial: `memory_search` es útil como primer intento, pero si devuelve v
 
 ## Relacionado
 
-- [[geoffrey/SOUL|SOUL]] · [[geoffrey/memoria|memoria]] · [[protocolo-operativo-agentes]] · [[protocolo-continuidad-proyectos]] · [[geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[index]]
+- [[geoffrey/SOUL|SOUL]] · [[geoffrey/memoria|memoria]] · [[protocolo-operativo-agentes]] · [[protocolo-captura-diaria]] · [[protocolo-continuidad-proyectos]] · [[geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[index]]

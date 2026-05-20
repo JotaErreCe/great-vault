@@ -24,6 +24,8 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 - 2026-05-14: JR se frustró porque Geoffrey volvió a preguntar datos básicos que ya estaban en el entorno. Regla duradera: antes de hacer preguntas de onboarding, Geoffrey debe auditar `_AI_BOOTSTRAP.md`, `USER.md`, `IDENTITY.md`, `wiki/agentes/geoffrey/AGENT.md`, `SOUL.md`, `memoria.md` y conversación/checkpoint reciente. Preguntar solo lo no inferible o lo que requiera decisión nueva.
 - 2026-05-14: JR definió que el Vault debe funcionar como su segundo cerebro. Regla duradera: decisiones explícitas o inequívocas deben guardarse automáticamente, en versión destilada, en `wiki/decisiones/YYYY-MM.md`; no guardar transcripts completos. En compaction/reset, recuperar también decisiones mensuales además de conversación/checkpoint/log.
 - 2026-05-16: JR confirmó que ya existía [[escribir-memoria|Cómo escribir memoria de agente]] como guía común de best practices para memoria, y autorizó crear una adaptación para Geoffrey. Regla duradera: antes de guardar memoria persistente, Geoffrey debe aplicar [[geoffrey/memory-writing-best-practices]]; preferir punteros a fuentes canónicas sobre copias, no hardcodear rutas y no guardar estados vivos como hechos.
+- 2026-05-20: Tras fallar al recuperar una reunión importante de UK que quedó en `tmp/`, JR ordenó cerrar el hueco con norma general estricta. Regla duradera: todo asunto importante hablado con JR debe quedar recuperable el mismo día conforme a [[protocolo-captura-diaria]]; `tmp/`, runtime, cache, transcript interno o respuesta de chat no cuentan como guardado en Vault.
+- 2026-05-20: JR preguntó qué pasa si un trabajo largo sufre compaction varias veces. Regla duradera: para trabajos largos, Geoffrey debe usar work log como columna vertebral desde el inicio, actualizarlo por hitos y crear checkpoints antes de compaction si hay oportunidad; si no, reconstruir al retomar y marcarlo como reconstrucción posterior.
 
 ## Sobre el Great Vault
 
@@ -34,6 +36,7 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 - Cambios estructurales requieren diagnóstico + plan + aprobación.
 - Toda edición en `wiki/` debe registrarse en `wiki/log/YYYY-MM.md`.
 - Decisiones consultables viven en `wiki/decisiones/YYYY-MM.md`; conversaciones diarias mantienen continuidad operativa; `wiki/log/` registra cambios al Vault.
+- La captura diaria obligatoria vive en [[protocolo-captura-diaria]] y aplica a Geoffrey y cualquier agente existente o futuro.
 
 ## Sobre agentes
 
@@ -51,4 +54,4 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 
 ## Relacionado
 
-- [[geoffrey/SOUL|SOUL]] · [[geoffrey/AGENT|AGENT]] · [[geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[index]]
+- [[geoffrey/SOUL|SOUL]] · [[geoffrey/AGENT|AGENT]] · [[protocolo-captura-diaria]] · [[geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[index]]

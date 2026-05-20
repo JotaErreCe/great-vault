@@ -107,6 +107,7 @@ Si tu carpeta no existe, **no inventes identidad ni reglas**. Lee [[arquitectura
 | Outlander 2026 | `wiki/resources/outlander-2026.md` | Vehículo y mantenimientos |
 | Information hierarchy | `wiki/resources/information-hierarchy.md` | Niveles de carga/contexto del Vault |
 | Protocolo operativo agentes | `wiki/resources/protocolo-operativo-agentes.md` | Contrato común OB1 + memoria + continuidad + autoridad para Geoffrey y agentes especializados |
+| Protocolo captura diaria | `wiki/resources/protocolo-captura-diaria.md` | Norma estricta: todo asunto importante hablado con JR debe dejar huella durable por fecha/decisión/proyecto |
 | Protocolo continuidad proyectos | `wiki/resources/protocolo-continuidad-proyectos.md` | Búsqueda obligatoria para proyectos/subproyectos: canónica, subcarpeta, log, decisiones, conversaciones y fuentes autorizadas |
 
 ## Cómo usar Vault Map

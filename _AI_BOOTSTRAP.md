@@ -1,6 +1,6 @@
 ---
 type: bootstrap
-updated: 2026-05-19
+updated: 2026-05-20
 ---
 
 # AI Bootstrap — entrada única
@@ -92,6 +92,7 @@ Great Vault/
 | Idea en gestación | wiki | `wiki/ideas/` |
 | Historial append-only de cambios al Vault | wiki | `wiki/log/YYYY-MM.md` |
 | Decisiones destiladas de JR | wiki | `wiki/decisiones/YYYY-MM.md` |
+| Continuidad diaria importante con agentes | wiki | `wiki/agentes/[slug]/conversaciones/YYYY-MM-DD.md` |
 | Plantilla | schema | `_templates/` |
 | Datos sensibles | root | `_sensitive.md` |
 
@@ -156,6 +157,7 @@ If an agent wakes up after memory loss, it must recover from its package: read `
 - **Nunca sobrescribir historial.** `wiki/log/` es append-only.
 - **Datos sensibles** (NIT, DPI, dirección, credenciales, cuentas) → SOLO en `_sensitive.md`.
 - **Toda modificación al wiki** → apendar línea a `wiki/log/YYYY-MM.md`.
+- **Captura diaria obligatoria.** Todo asunto importante hablado con JR debe dejar huella durable el mismo día según [[protocolo-captura-diaria]]: conversación diaria, decisiones, página canónica, work log o checkpoint. Archivos en `tmp/`, runtime, cache o transcripts internos NO cuentan como Vault.
 - **Protocolo operativo común.** Todo agente debe aplicar [[protocolo-operativo-agentes]]: bootstrap, auto-ubicación, memoria segura, continuidad de proyectos, autoridad de fuentes, work logs, memoria sugerida, importadores seguros y checkpoints.
 - **Memoria de agente envejece mal si copia estados vivos.** Antes de escribir memoria persistente, aplicar [[escribir-memoria|Cómo escribir memoria de agente]]: preferir reglas/punteros, no rutas hardcodeadas, no datos sensibles, no transcripts crudos.
 - **Decisiones de JR se destilan.** Si JR decide, aprueba, rechaza, cambia criterio o fija una preferencia/regla, guardar una versión breve en `wiki/decisiones/YYYY-MM.md`; no guardar transcript completo.

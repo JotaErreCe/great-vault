@@ -19,6 +19,7 @@ Un agente no debe depender de memoria runtime, embeddings o “lo que cree recor
 | Bootstrap | [[_AI_BOOTSTRAP]] | Entrada única, schema global y reglas de cualquier AI. |
 | Arquitectura de agentes | [[arquitectura]] / [[agentes]] | Auto-ubicación, paquetes por agente y reglas comunes. |
 | Memoria | [[escribir-memoria]] + memoria del agente | Reglas duraderas y punteros; nunca estados vivos como verdad final. |
+| Captura diaria | [[protocolo-captura-diaria]] | Huella durable de asuntos importantes hablados con JR. |
 | Continuidad | [[protocolo-continuidad-proyectos]] | Recuperar proyectos/subproyectos antes de responder. |
 | Autoridad | [[geoffrey/tool-authority-matrix]] | Qué fuente puede convertirse en qué tipo de conocimiento. |
 | Work logs | [[geoffrey/work-log]] | Registro de tareas largas: intentado, cambiado, fallado, decisiones, pendientes, próximo paso y artifacts. |
@@ -47,6 +48,8 @@ Mínimo: `vault-map/index` → página canónica → subcarpeta → log → deci
 - `raw/` es inmutable para agentes.
 - `wiki/` puede actualizarse con lectura previa, búsqueda de duplicados y línea en `wiki/log/YYYY-MM.md`.
 - `wiki/decisiones/YYYY-MM.md` recibe decisiones explícitas de JR, destiladas.
+- `wiki/agentes/[slug]/conversaciones/YYYY-MM-DD.md` recibe continuidad diaria importante: temas, acuerdos, pendientes, artifacts y links, sin transcript crudo.
+- Todo asunto importante hablado con JR debe pasar por [[protocolo-captura-diaria]] antes de cerrarse. Un archivo temporal, transcript interno, cache o respuesta de chat no cuenta como guardado en el Vault.
 - `_sensitive.md` solo por solicitud explícita y nunca se copia.
 - Reorganizaciones amplias, borrados, importaciones masivas y acciones externas requieren aprobación.
 
@@ -78,6 +81,7 @@ Antes de contestar sobre algo que puede estar en el Vault:
 - [ ] ¿Revisé log/decisiones/conversaciones/checkpoints cuando es continuidad?
 - [ ] ¿Separé confirmado vs inferido vs pendiente?
 - [ ] ¿Necesito work log, checkpoint o memoria sugerida?
+- [ ] ¿Este asunto debe quedar en conversación diaria según [[protocolo-captura-diaria]]?
 - [ ] ¿La respuesta evita datos sensibles innecesarios?
 
 ## Checklist post-cambio
@@ -89,6 +93,7 @@ Después de editar el Vault:
 - [ ] `## Relacionado` cuando aplique.
 - [ ] Línea en `wiki/log/YYYY-MM.md`.
 - [ ] Decisión registrada si JR decidió algo.
+- [ ] Conversación diaria actualizada si el asunto debe ser recuperable por fecha.
 - [ ] Work log si fue tarea larga/delicada.
 - [ ] Memoria sugerida si es una regla duradera pendiente de aprobación.
 
@@ -98,6 +103,7 @@ Después de editar el Vault:
 - [[arquitectura]]
 - [[agentes]]
 - [[escribir-memoria]]
+- [[protocolo-captura-diaria]]
 - [[protocolo-continuidad-proyectos]]
 - [[geoffrey/tool-authority-matrix]]
 - [[geoffrey/work-log]]
