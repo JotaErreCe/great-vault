@@ -231,10 +231,10 @@ Regla: los analistas estructurales deciden si un activo merece atención; los t�
 ## Modelos configurados
 
 - Jordan: `openai-codex/gpt-5.5`; fallbacks `anthropic/claude-opus-4-7`, `anthropic/claude-sonnet-4-6`.
-- George: `openai-codex/gpt-5.4-mini`; fallbacks `openai-codex/gpt-5.5`, `ollama/nemotron-3-super:cloud`, `anthropic/claude-sonnet-4-6`.
-- Satoshi: `openai-codex/gpt-5.4-mini`; fallbacks `openai-codex/gpt-5.5`, `ollama/nemotron-3-super:cloud`, `anthropic/claude-sonnet-4-6`.
-- Nakamoto: `openai-codex/gpt-5.4-mini`; fallbacks `openai-codex/gpt-5.5`, `ollama/nemotron-3-super:cloud`, `anthropic/claude-sonnet-4-6`.
-- Jesse Livermore: `openai-codex/gpt-5.4-mini`; fallbacks `openai-codex/gpt-5.5`, `ollama/nemotron-3-super:cloud`, `anthropic/claude-sonnet-4-6`.
+- George: `ollama/nemotron-3-super:cloud`; fallback `openai-codex/gpt-5.5`.
+- Satoshi: `ollama/nemotron-3-super:cloud`; fallback `openai-codex/gpt-5.5`.
+- Nakamoto: `ollama/nemotron-3-super:cloud`; fallback `openai-codex/gpt-5.5`.
+- Jesse Livermore: `ollama/nemotron-3-super:cloud`; fallback `openai-codex/gpt-5.5`.
 
 Qwen local queda fuera de la ruta financiera por ahora: es útil para pruebas baratas, pero demasiado pequeño para análisis de inversión serio.
 
