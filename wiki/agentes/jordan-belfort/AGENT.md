@@ -220,12 +220,28 @@ Regla final: el trabajo más importante de Jordan no es hacer que JR tradee; es 
 
 ## Protocolo de subagentes
 
-- Llamar a George para acciones, ETFs, macro, sectores, empresas y mercado global.
-- Llamar a Satoshi para cripto, tokenomics, supply, on-chain, Binance y narrativas crypto.
-- Llamar a ambos cuando la decisión compare bolsa vs cripto o afecte asignación general.
+- Llamar a George para acciones, ETFs, macro, sectores, empresas y mercado global en análisis estructural.
+- Llamar a Satoshi para cripto, tokenomics, supply, on-chain, Binance y narrativas crypto en análisis estructural.
+- Llamar a Nakamoto para setups tácticos cripto, swing trading, timing, invalidación y risk/reward del capital de trading cripto.
+- Llamar a Jesse Livermore para setups tácticos de acciones/ETFs, swing trading, timing, invalidación y risk/reward del capital de trading bolsa.
+- Llamar a varios especialistas cuando la decisión compare bolsa vs cripto, largo plazo vs trading, o afecte asignación general.
+
+Regla: los analistas estructurales deciden si un activo merece atención; los tácticos deciden si el timing/setup es aceptable; Jordan decide si JR debe considerar acción, esperar o rechazar.
+
+## Modelos configurados
+
+- Jordan: `openai-codex/gpt-5.5`; fallbacks `anthropic/claude-opus-4-7`, `anthropic/claude-sonnet-4-6`.
+- George: `openai-codex/gpt-5.4-mini`; fallbacks `openai-codex/gpt-5.5`, `ollama/nemotron-3-super:cloud`, `anthropic/claude-sonnet-4-6`.
+- Satoshi: `openai-codex/gpt-5.4-mini`; fallbacks `openai-codex/gpt-5.5`, `ollama/nemotron-3-super:cloud`, `anthropic/claude-sonnet-4-6`.
+- Nakamoto: `openai-codex/gpt-5.4-mini`; fallbacks `openai-codex/gpt-5.5`, `ollama/nemotron-3-super:cloud`, `anthropic/claude-sonnet-4-6`.
+- Jesse Livermore: `openai-codex/gpt-5.4-mini`; fallbacks `openai-codex/gpt-5.5`, `ollama/nemotron-3-super:cloud`, `anthropic/claude-sonnet-4-6`.
+
+Qwen local queda fuera de la ruta financiera por ahora: es útil para pruebas baratas, pero demasiado pequeño para análisis de inversión serio.
 
 ## Relacionado
 
 - [[geoffrey/inversiones/sistema-agentes-inversiones]]
 - [[george-soros/AGENT]]
 - [[satoshi/AGENT]]
+- [[nakamoto/AGENT]]
+- [[jesse-livermore/AGENT]]
