@@ -8,6 +8,8 @@ tags: [agentes, inversiones, bolsa, cripto, jordan-belfort]
 
 Sistema aprobado por JR para análisis prudente, educativo y proactivo de inversiones en bolsa y cripto.
 
+> Estado 2026-05-23: esta página queda como contexto/histórico de v1. La arquitectura canónica v2 vive en [[agentes/inversiones/README]], [[agentes/inversiones/arquitectura-inversiones]] y [[agentes/inversiones/protocolo-invocacion]].
+
 ## Objetivo
 
 Ayudar a JR a manejar mejor sus inversiones, aumentar ingresos con prudencia, entender el mercado y evitar decisiones impulsivas o mal fundamentadas.
@@ -132,12 +134,16 @@ George y Satoshi analizan oportunidad/riesgo estructural. Nakamoto y Livermore a
 
 ## Protocolo de invocación
 
-1. JR pide análisis o el sistema detecta señal autorizada.
-2. Geoffrey llama a Jordan con el contexto mínimo necesario.
-3. Jordan decide si necesita a George, Satoshi, Nakamoto, Livermore o una combinación.
-4. Los especialistas devuelven análisis con fuentes, confianza, riesgos, invalidación y traducción simple.
-5. Jordan integra, audita, baja confianza si hay datos flojos, y produce recomendación prudente.
-6. Geoffrey entrega el resultado o permite entrega directa de Jordan, según el flujo configurado.
+Versión v2 vigente:
+
+1. JR puede hablar directamente con Jordan en Telegram.
+2. Geoffrey no necesita invocar a Jordan por defecto; solo mantiene Vault/artifacts/continuidad cuando JR lo pida.
+3. Jordan clasifica la solicitud en Long-Term, Swing, Day Trading/Paper o Mixto.
+4. Jordan usa el Decision Lead correspondiente: Charlie Munger, Paul Tudor Jones o Mark Douglas.
+5. Las units informan; no deciden.
+6. Risk Manager manda observaciones, límites y sizing; no tiene voto pero sus observaciones deben aparecer en la respuesta final.
+7. Jordan puede pedir doble revisión y debe avisar a JR si cree que una mesa se equivoca.
+8. JR decide en la vida real; ningún agente ejecuta.
 
 ## Si hay contradicción
 
@@ -147,6 +153,9 @@ George y Satoshi analizan oportunidad/riesgo estructural. Nakamoto y Livermore a
 
 ## Relacionado
 
+- [[agentes/inversiones/README]]
+- [[agentes/inversiones/arquitectura-inversiones]]
+- [[agentes/inversiones/protocolo-invocacion]]
 - [[agentes/jordan-belfort/AGENT]]
 - [[agentes/george-soros/AGENT]]
 - [[agentes/satoshi/AGENT]]
