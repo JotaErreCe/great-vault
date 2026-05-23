@@ -9,8 +9,8 @@ tags: [understanding-kids, staff, hr]
 
 > Detalle del personal de [[understanding-kids]]. Fuente principal para staff actualizado: iCloud local `~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Understanding Kids/Pagos/2026/` + Drive/RRHH cuando aplique.
 > Apellidos incompletos en varios casos — confirmar con [[monica]] o Drive RRHH.
-> Auditoría staff 2026: [[understanding-kids/staff-auditoria-2026-05-14]].
-> Inventario no sensible de expedientes Drive: [[understanding-kids/expedientes-staff-2026-05-14]].
+> Auditoría staff 2026: [[proyectos/activos/understanding-kids/staff-auditoria-2026-05-14]].
+> Inventario no sensible de expedientes Drive: [[proyectos/activos/understanding-kids/expedientes-staff-2026-05-14]].
 
 ## Planilla (sueldo)
 

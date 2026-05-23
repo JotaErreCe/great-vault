@@ -147,12 +147,14 @@ George y Satoshi analizan oportunidad/riesgo estructural. Nakamoto y Livermore a
 
 ## Relacionado
 
-- [[jordan-belfort/AGENT]]
-- [[george-soros/AGENT]]
-- [[satoshi/AGENT]]
-- [[nakamoto/AGENT]]
-- [[jesse-livermore/AGENT]]
+- [[agentes/jordan-belfort/AGENT]]
+- [[agentes/george-soros/AGENT]]
+- [[agentes/satoshi/AGENT]]
+- [[agentes/nakamoto/AGENT]]
+- [[agentes/jesse-livermore/AGENT]]
 - [[api-readonly-ibkr-binance]]
 - [[google-sheet-schema-inversiones]]
 - [[formatos-reportes-alertas-inversiones]]
 - [[guia-datos-seguros-ibkr-binance]]
+- [[agentes/geoffrey/inversiones/primer-reporte-real-jordan-2026-05-21]]
+- [[agentes/geoffrey/inversiones/primer-reporte-simulado-jordan-2026-05-21]]

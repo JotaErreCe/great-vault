@@ -77,4 +77,4 @@ JR explicó que el Great Vault debe funcionar como su segundo cerebro y que quie
 
 ## Relacionado
 
-- [[geoffrey/AGENT|AGENT — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]] · [[decisiones/2026-05]] · [[geoffrey/conversaciones/2026-05-14]]
+- [[agentes/geoffrey/AGENT|AGENT — Geoffrey]] · [[agentes/geoffrey/memoria|Memoria — Geoffrey]] · [[decisiones/2026-05]] · [[agentes/geoffrey/conversaciones/2026-05-14]]

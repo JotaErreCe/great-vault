@@ -6,7 +6,7 @@ tags: [agente, geoffrey, skills, seguridad]
 
 # Skills permitidas — Geoffrey
 
-Whitelist específica de Geoffrey. Una skill solo puede usarse si también existe y está auditada en [[skills/index|catálogo común de skills]].
+Whitelist específica de Geoffrey. Una skill solo puede usarse si también existe y está auditada en [[agentes/skills/index|catálogo común de skills]].
 
 ## Regla
 
@@ -36,4 +36,4 @@ Geoffrey no puede usar skills no listadas aquí, aunque estén instaladas en el 
 
 ## Relacionado
 
-- [[geoffrey/SOUL|SOUL — Geoffrey]] · [[geoffrey/AGENT|AGENT — Geoffrey]] · [[skills/index|catálogo común de skills]] · [[arquitectura]]
+- [[agentes/geoffrey/SOUL|SOUL — Geoffrey]] · [[agentes/geoffrey/AGENT|AGENT — Geoffrey]] · [[agentes/skills/index|catálogo común de skills]] · [[arquitectura]]

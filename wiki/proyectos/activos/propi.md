@@ -89,4 +89,4 @@ Abogado de Propi Tech, S.A. a través de AMC Legal. Servicios:
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

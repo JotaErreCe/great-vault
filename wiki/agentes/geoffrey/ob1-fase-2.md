@@ -34,10 +34,10 @@ Restricciones vigentes:
 
 | Entregable | Estado | Archivo |
 |---|---:|---|
-| Tool Authority Matrix formal | creado | [[geoffrey/tool-authority-matrix]] |
-| Especificación de importadores seguros | creado | [[geoffrey/importadores-seguros]] |
-| Work log operativo | creado | [[geoffrey/work-log]] |
-| Auditoría web search Brave vs Perplexity | preliminar | [[geoffrey/web-search-auditoria-2026-05-19]] |
+| Tool Authority Matrix formal | creado | [[agentes/geoffrey/tool-authority-matrix]] |
+| Especificación de importadores seguros | creado | [[agentes/geoffrey/importadores-seguros]] |
+| Work log operativo | creado | [[agentes/geoffrey/work-log]] |
+| Auditoría web search Brave vs Perplexity | preliminar | [[agentes/geoffrey/web-search-auditoria-2026-05-19]] |
 
 ## Criterio de cierre de Fase 2
 
@@ -60,6 +60,6 @@ Aplicar Fase 2 primero al brief mañanero y a Gmail/Calendar read-only:
 
 ## Relacionado
 
-- [[geoffrey/mcp-evaluacion-2026-05-19]]
-- [[geoffrey/checkpoints/checkpoint-2026-05-19-0142-ob1-roadmap-phase1-start-4c4e74ca3e1e]]
-- [[geoffrey/AGENT]]
+- [[agentes/geoffrey/mcp-evaluacion-2026-05-19]]
+- [[agentes/geoffrey/checkpoints/checkpoint-2026-05-19-0142-ob1-roadmap-phase1-start-4c4e74ca3e1e]]
+- [[agentes/geoffrey/AGENT]]

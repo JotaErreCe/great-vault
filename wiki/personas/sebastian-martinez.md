@@ -43,4 +43,4 @@ Uno de los mejores amigos de [[jr]] dentro del grupo **Chirizosos**. Cliente oca
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

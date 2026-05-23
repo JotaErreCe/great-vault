@@ -6,7 +6,7 @@ tags: [agente, briefs, arquitectura, rutinas]
 
 # Arquitectura de briefs multi-agente
 
-El brief diario de JR es consolidado por Geoffrey. La especificación vigente y obligatoria está en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. Esta página describe la arquitectura general; si contradice a Geoffrey, prevalece la especificación de Geoffrey.
+El brief diario de JR es consolidado por Geoffrey. La especificación vigente y obligatoria está en [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. Esta página describe la arquitectura general; si contradice a Geoffrey, prevalece la especificación de Geoffrey.
 
 ## Estado actual
 
@@ -27,7 +27,7 @@ El brief diario de JR es consolidado por Geoffrey. La especificación vigente y 
 ## Flujo diario
 
 1. Geoffrey se despierta por cron.
-2. Lee [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]], [[geoffrey/rutinas|Rutinas — Geoffrey]] y fuentes mínimas.
+2. Lee [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]], [[agentes/geoffrey/rutinas|Rutinas — Geoffrey]] y fuentes mínimas.
 3. Audita calendario, Reminders, comunicaciones disponibles y DCA/radar legal.
 4. Omite ruido y fuentes sin señal accionable.
 5. Redacta el brief final en Telegram.
@@ -93,4 +93,4 @@ tags: [agente, signal, brief]
 
 ## Relacionado
 
-- [[arquitectura]] · [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[geoffrey/integraciones|Integraciones — Geoffrey]] · [[geoffrey/reminders|Reminders — Geoffrey]]
+- [[arquitectura]] · [[agentes/geoffrey/rutinas|Rutinas — Geoffrey]] · [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[agentes/geoffrey/integraciones|Integraciones — Geoffrey]] · [[agentes/geoffrey/reminders|Reminders — Geoffrey]]

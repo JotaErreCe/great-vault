@@ -81,4 +81,4 @@ Recomendación: priorizar Canva oficial CLI/MCP ya instalado; entre skills ClawH
 
 ## Relacionado
 
-- [[skills/index]] · [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[imsg]]
+- [[agentes/skills/index]] · [[agentes/geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[imsg]]

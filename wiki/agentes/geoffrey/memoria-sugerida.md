@@ -10,7 +10,7 @@ Bandeja de revisión para recuerdos propuestos por Geoffrey antes de promoverlos
 
 ## Regla
 
-Nada de esta página se copia a [[geoffrey/memoria]] sin confirmación explícita de JR.
+Nada de esta página se copia a [[agentes/geoffrey/memoria]] sin confirmación explícita de JR.
 
 Cada propuesta debe incluir:
 
@@ -29,9 +29,9 @@ Hay propuestas pendientes listadas abajo. No promover sin confirmación explíci
 ## Relacionado
 
 - [[protocolo-operativo-agentes]]
-- [[geoffrey/ob1-roadmap]]
-- [[geoffrey/tool-authority-matrix]]
-- [[geoffrey/memory-writing-best-practices]]
+- [[agentes/geoffrey/ob1-roadmap]]
+- [[agentes/geoffrey/tool-authority-matrix]]
+- [[agentes/geoffrey/memory-writing-best-practices]]
 
 ### 2026-05-19 12:04 — 6f59354f5d00
 

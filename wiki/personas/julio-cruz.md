@@ -35,4 +35,4 @@ Dueño de [[brera-arredamenti]] (nombre comercial: [[disegno-casa]]). Cliente de
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

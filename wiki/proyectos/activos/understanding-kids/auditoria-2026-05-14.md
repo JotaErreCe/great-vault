@@ -147,7 +147,7 @@ Luego sí diseñar el agente especializado con responsabilidades claras.
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/finanzas]] · [[understanding-kids/operacion]] · [[uk-catalogo]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]] · [[agentes/arquitectura]]
+- [[understanding-kids]] · [[proyectos/activos/understanding-kids/finanzas]] · [[proyectos/activos/understanding-kids/operacion]] · [[uk-catalogo]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]] · [[agentes/arquitectura]]
 
 ## Respuestas de JR — 2026-05-14
 

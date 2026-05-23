@@ -6,7 +6,7 @@ tags: [geoffrey, memoria, vault, auditoria]
 
 # Auditoría de Vault con memory-writing-best-practices — 2026-05-17
 
-Auditoría solicitada por JR usando [[geoffrey/memory-writing-best-practices]] y [[escribir-memoria]]. Enfoque: memoria que envejece mal, rutas hardcodeadas, datos sensibles fuera de `_sensitive.md`, transcripts/relleno, duplicación y punteros rotos.
+Auditoría solicitada por JR usando [[agentes/geoffrey/memory-writing-best-practices]] y [[escribir-memoria]]. Enfoque: memoria que envejece mal, rutas hardcodeadas, datos sensibles fuera de `_sensitive.md`, transcripts/relleno, duplicación y punteros rotos.
 
 ## Alcance
 
@@ -109,12 +109,12 @@ Recomendación: renombrar `wiki/proyectos/activos/disengo-casa.md` → `disegno-
 
 Hallazgos reales o revisables:
 
-- `raw/Why Google Just Gave Away Gemma 4 for Free.md`: `[[Ali H. Salem]]` no existe.
-- `raw/Post by @danpeguine on X.md`: `[[@danpeguine]]` no existe.
+- `raw/Why Google Just Gave Away Gemma 4 for Free.md`: mención a `Ali H. Salem` sin página canónica.
+- `raw/Post by @danpeguine on X.md`: mención a `@danpeguine` sin página canónica.
 
 Falsos positivos aceptables:
 
-- `wiki/agentes/geoffrey/memory-writing-best-practices.md`: `[[archivo]]` es placeholder de ejemplo.
+- `wiki/agentes/geoffrey/memory-writing-best-practices.md`: el placeholder de ejemplo fue convertido a texto plano en la auditoría de enlaces del 2026-05-22.
 - `wiki/log/2026-05.md`: `[[JR]]` aparece como parte de una entrada histórica de normalización.
 
 Recomendación: en `raw/` no urge corregir; si esos autores importan, crear páginas/personas o convertir a texto plano para evitar nodos huérfanos.
@@ -186,8 +186,8 @@ La memoria estructural está bien encaminada: no hay transcripts crudos relevant
 
 ## Relacionado
 
-- [[geoffrey/memory-writing-best-practices]]
+- [[agentes/geoffrey/memory-writing-best-practices]]
 - [[escribir-memoria]]
 - [[_AI_BOOTSTRAP]]
-- [[geoffrey/memoria]]
-- [[geoffrey/AGENT]]
+- [[agentes/geoffrey/memoria]]
+- [[agentes/geoffrey/AGENT]]

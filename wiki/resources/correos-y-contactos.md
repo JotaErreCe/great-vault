@@ -119,4 +119,4 @@ Correcciones confirmadas por Master JR:
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

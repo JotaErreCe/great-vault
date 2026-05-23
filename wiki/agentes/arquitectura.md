@@ -19,7 +19,7 @@ El Vault puede tener varios agentes especializados. Cada agente vive en `wiki/ag
 
 ## Principio central
 
-Los agentes especializados son expertos por dominio; [[geoffrey/SOUL|Geoffrey]] es el orquestador con visión global de JR. Geoffrey consolida información de agentes, fuentes e integraciones para preparar el brief diario unificado.
+Los agentes especializados son expertos por dominio; [[agentes/geoffrey/SOUL|Geoffrey]] es el orquestador con visión global de JR. Geoffrey consolida información de agentes, fuentes e integraciones para preparar el brief diario unificado.
 
 Todo agente hereda el [[protocolo-operativo-agentes]], que integra memoria segura, continuidad de proyectos, autoridad de fuentes, work logs, memoria sugerida, importadores seguros y checkpoints.
 
@@ -80,7 +80,7 @@ Ningún agente puede usar libremente cualquier skill instalada en el sistema.
 
 Un agente solo puede usar una skill si cumple ambas condiciones:
 
-1. La skill está documentada y auditada en [[skills/index|catálogo común de skills]].
+1. La skill está documentada y auditada en [[agentes/skills/index|catálogo común de skills]].
 2. La skill aparece explícitamente en el `skills-permitidas.md` de ese agente.
 
 Si una tarea requiere una skill no autorizada, el agente debe pedir aprobación a Master JR antes de usarla, instalarla o configurarla.
@@ -98,4 +98,4 @@ El brief diario sigue la arquitectura descrita en [[briefs|briefs multi-agente]]
 
 ## Relacionado
 
-- [[geoffrey/SOUL|Geoffrey]] · [[geoffrey/AGENT|AGENT — Geoffrey]] · [[skills/index|Skills]] · [[_AI_BOOTSTRAP]]
+- [[agentes/geoffrey/SOUL|Geoffrey]] · [[agentes/geoffrey/AGENT|AGENT — Geoffrey]] · [[agentes/skills/index|Skills]] · [[_AI_BOOTSTRAP]]

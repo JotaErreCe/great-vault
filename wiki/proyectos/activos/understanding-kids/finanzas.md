@@ -225,4 +225,4 @@ JR confirmó que los documentos Excel/Sheets financieros de UK no tienen formato
 
 ## Relacionado
 
-- [[understanding-kids]] · [[uk-catalogo]] · [[finanzas/index|Finanzas hub]] · [[understanding-kids/criterios-financieros-formacion]] · [[understanding-kids/tabla-historica-formacion-2024-2026]]
+- [[understanding-kids]] · [[uk-catalogo]] · [[finanzas/index|Finanzas hub]] · [[proyectos/activos/understanding-kids/criterios-financieros-formacion]] · [[proyectos/activos/understanding-kids/tabla-historica-formacion-2024-2026]]

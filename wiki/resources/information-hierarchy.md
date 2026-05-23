@@ -143,6 +143,6 @@ TÚ (José Roberto Castañeda Arriola)
 ## Relacionado
 
 - [[_AI_BOOTSTRAP]] — entrada única
-- [[IDENTITY]] — identidad completa
+- [[wiki/IDENTITY]] — identidad completa
 - [[vault-map|Vault Map]] — búsqueda rápida
 - [[dashboard]] — eventos hoy

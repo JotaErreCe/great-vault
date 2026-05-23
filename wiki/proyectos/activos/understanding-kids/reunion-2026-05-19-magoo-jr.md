@@ -91,7 +91,7 @@ Reunión operativa para revisar pendientes estratégicos de UK: web/checkout, m�
 ## Relacionado
 
 - [[understanding-kids]]
-- [[understanding-kids/mapa-operativo]]
-- [[understanding-kids/comercial-formacion]]
-- [[understanding-kids/plan-nutricion-completa]]
+- [[proyectos/activos/understanding-kids/mapa-operativo]]
+- [[proyectos/activos/understanding-kids/comercial-formacion]]
+- [[proyectos/activos/understanding-kids/plan-nutricion-completa]]
 - [[monica]]

@@ -31,4 +31,4 @@ Parte del equipo de [[brera-arredamenti]] / [[disegno-casa]]. Como de 2026-04.
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

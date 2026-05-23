@@ -81,7 +81,7 @@ La hoja `Planificación 2025` confirma un calendario amplio de formación:
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/formacion]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/mapa-operativo]]
+- [[understanding-kids]] · [[proyectos/activos/understanding-kids/formacion]] · [[proyectos/activos/understanding-kids/comercial-formacion]] · [[proyectos/activos/understanding-kids/mapa-operativo]]
 
 ## Continuación de conciliación — históricos restantes
 

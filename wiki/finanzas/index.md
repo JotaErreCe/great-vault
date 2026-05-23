@@ -41,4 +41,4 @@ Hub de finanzas personales y patrimonio de [[jr]]. Como de 2026-04.
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

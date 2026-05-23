@@ -11,7 +11,7 @@ tags: [navigation, index]
 ## Núcleo
 
 - [[_AI_BOOTSTRAP]] — entrada única para AIs frías
-- [[IDENTITY]] — quién es JR (datos, valores, gustos, metas)
+- [[wiki/IDENTITY]] — quién es JR (datos, valores, gustos, metas)
 - [[dashboard]] — vista operativa del día
 - [[_CLAUDE]] — convenciones del vault
 - [[log/index|log]] — historial append-only
@@ -21,8 +21,8 @@ tags: [navigation, index]
 ## Agentes
 
 - [[arquitectura|Arquitectura de agentes]] — modelo multi-agente, rol orquestador de Geoffrey y regla común de skills.
-- [[skills/index|Catálogo común de skills]] — skills auditadas y autorizables para agentes.
-- [[geoffrey/SOUL|Geoffrey]] — mayordomo digital principal de JR. Instrucciones: [[geoffrey/AGENT|AGENT]] · memoria: [[geoffrey/memoria|memoria]] · rutinas: [[geoffrey/rutinas|rutinas]] · skills: [[geoffrey/skills-permitidas|permitidas]]
+- [[agentes/skills/index|Catálogo común de skills]] — skills auditadas y autorizables para agentes.
+- [[agentes/geoffrey/SOUL|Geoffrey]] — mayordomo digital principal de JR. Instrucciones: [[agentes/geoffrey/AGENT|AGENT]] · memoria: [[agentes/geoffrey/memoria|memoria]] · rutinas: [[agentes/geoffrey/rutinas|rutinas]] · skills: [[agentes/geoffrey/skills-permitidas|permitidas]]
 
 ## Daily Notes
 

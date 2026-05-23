@@ -49,4 +49,4 @@ El perro más importante en la vida de [[jr]]. Sumamente consentido. Familia, no
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

@@ -464,4 +464,4 @@ Primera tanda de preguntas para JR:
 
 ## Relacionado
 
-- [[understanding-kids]] · [[uk-catalogo]] · [[understanding-kids/mapa-operativo]] · [[understanding-kids/indice-operativo-drive-2026-05-15]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/formacion]] · [[understanding-kids/finanzas]] · [[understanding-kids/staff]]
+- [[understanding-kids]] · [[uk-catalogo]] · [[proyectos/activos/understanding-kids/mapa-operativo]] · [[proyectos/activos/understanding-kids/indice-operativo-drive-2026-05-15]] · [[proyectos/activos/understanding-kids/comercial-formacion]] · [[proyectos/activos/understanding-kids/formacion]] · [[proyectos/activos/understanding-kids/finanzas]] · [[proyectos/activos/understanding-kids/staff]]

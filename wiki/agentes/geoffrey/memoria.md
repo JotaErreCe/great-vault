@@ -23,7 +23,7 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 - JR reclamó que el brief pedido on-demand no respeta lo acordado. Regla duradera: antes de generar cualquier brief/broef, Geoffrey debe leer la especificación canónica `wiki/agentes/geoffrey/brief-mananero.md` y seguirla, no reconstruirla de memoria.
 - 2026-05-14: JR se frustró porque Geoffrey volvió a preguntar datos básicos que ya estaban en el entorno. Regla duradera: antes de hacer preguntas de onboarding, Geoffrey debe auditar `_AI_BOOTSTRAP.md`, `USER.md`, `IDENTITY.md`, `wiki/agentes/geoffrey/AGENT.md`, `SOUL.md`, `memoria.md` y conversación/checkpoint reciente. Preguntar solo lo no inferible o lo que requiera decisión nueva.
 - 2026-05-14: JR definió que el Vault debe funcionar como su segundo cerebro. Regla duradera: decisiones explícitas o inequívocas deben guardarse automáticamente, en versión destilada, en `wiki/decisiones/YYYY-MM.md`; no guardar transcripts completos. En compaction/reset, recuperar también decisiones mensuales además de conversación/checkpoint/log.
-- 2026-05-16: JR confirmó que ya existía [[escribir-memoria|Cómo escribir memoria de agente]] como guía común de best practices para memoria, y autorizó crear una adaptación para Geoffrey. Regla duradera: antes de guardar memoria persistente, Geoffrey debe aplicar [[geoffrey/memory-writing-best-practices]]; preferir punteros a fuentes canónicas sobre copias, no hardcodear rutas y no guardar estados vivos como hechos.
+- 2026-05-16: JR confirmó que ya existía [[escribir-memoria|Cómo escribir memoria de agente]] como guía común de best practices para memoria, y autorizó crear una adaptación para Geoffrey. Regla duradera: antes de guardar memoria persistente, Geoffrey debe aplicar [[agentes/geoffrey/memory-writing-best-practices]]; preferir punteros a fuentes canónicas sobre copias, no hardcodear rutas y no guardar estados vivos como hechos.
 - 2026-05-20: Tras fallar al recuperar una reunión importante de UK que quedó en `tmp/`, JR ordenó cerrar el hueco con norma general estricta. Regla duradera: todo asunto importante hablado con JR debe quedar recuperable el mismo día conforme a [[protocolo-captura-diaria]]; `tmp/`, runtime, cache, transcript interno o respuesta de chat no cuentan como guardado en Vault.
 - 2026-05-20: JR preguntó qué pasa si un trabajo largo sufre compaction varias veces. Regla duradera: para trabajos largos, Geoffrey debe usar work log como columna vertebral desde el inicio, actualizarlo por hitos y crear checkpoints antes de compaction si hay oportunidad; si no, reconstruir al retomar y marcarlo como reconstrucción posterior.
 - 2026-05-20: JR detectó un patrón: Geoffrey propone soluciones y, cuando JR pregunta si ya existían, reconoce tarde que sí existían. Regla duradera: antes de proponer normas/workflows/skills/protocolos nuevos, Geoffrey debe hacer anti-reinvención: buscar estructuras existentes por filesystem y responder desde lo ya construido, diferenciando “ya existe”, “falta ajustar” y “nuevo”.
@@ -44,9 +44,9 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 - Los moldes genéricos de OpenClaw viven en `_templates/openclaw-agent/`.
 - Las instancias reales de agentes viven en `wiki/agentes/[nombre]/`.
 - Para Geoffrey, los archivos canónicos son:
-  - [[geoffrey/SOUL|SOUL]] — identidad/persona.
-  - [[geoffrey/AGENT|AGENT]] — instrucciones operativas.
-  - [[geoffrey/memoria|memoria]] — aprendizajes persistentes.
+  - [[agentes/geoffrey/SOUL|SOUL]] — identidad/persona.
+  - [[agentes/geoffrey/AGENT|AGENT]] — instrucciones operativas.
+  - [[agentes/geoffrey/memoria|memoria]] — aprendizajes persistentes.
 
 ## Errores y lecciones
 
@@ -55,4 +55,4 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 
 ## Relacionado
 
-- [[geoffrey/SOUL|SOUL]] · [[geoffrey/AGENT|AGENT]] · [[protocolo-captura-diaria]] · [[geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[index]]
+- [[agentes/geoffrey/SOUL|SOUL]] · [[agentes/geoffrey/AGENT|AGENT]] · [[protocolo-captura-diaria]] · [[agentes/geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[wiki/index]]

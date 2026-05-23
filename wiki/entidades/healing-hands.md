@@ -31,4 +31,4 @@ Spa + clínica fisioterapéutica que arrienda la **Casa Antigua** propiedad de J
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

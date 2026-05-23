@@ -65,4 +65,4 @@ JR tiene todos los accesos (sitio, Drive, Notion, Meta Ads, QPayPro).
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/finanzas]] · [[understanding-kids/staff]] · [[understanding-kids/indice-operativo-drive-2026-05-15]] · [[understanding-kids/mapa-operativo]]
+- [[understanding-kids]] · [[proyectos/activos/understanding-kids/finanzas]] · [[proyectos/activos/understanding-kids/staff]] · [[proyectos/activos/understanding-kids/indice-operativo-drive-2026-05-15]] · [[proyectos/activos/understanding-kids/mapa-operativo]]

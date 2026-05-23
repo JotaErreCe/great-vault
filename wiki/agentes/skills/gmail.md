@@ -49,4 +49,4 @@ Aprobó:
 
 ## Relacionado
 
-- [[skills/index]] · [[geoffrey/skills-permitidas|skills permitidas — Geoffrey]] · [[arquitectura]]
+- [[agentes/skills/index]] · [[agentes/geoffrey/skills-permitidas|skills permitidas — Geoffrey]] · [[arquitectura]]

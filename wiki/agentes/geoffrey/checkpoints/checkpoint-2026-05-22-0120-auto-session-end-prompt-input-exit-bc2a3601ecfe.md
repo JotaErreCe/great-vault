@@ -87,4 +87,4 @@ Metadata segura del evento/hook:
 
 ## Relacionado
 
-- [[geoffrey/checkpoints/index|Checkpoints — Geoffrey]] · [[geoffrey/AGENT|AGENT — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]] · [[geoffrey/conversaciones/2026-05-22|Conversación del día]]
+- [[agentes/geoffrey/checkpoints/index|Checkpoints — Geoffrey]] · [[agentes/geoffrey/AGENT|AGENT — Geoffrey]] · [[agentes/geoffrey/memoria|Memoria — Geoffrey]] · [[agentes/geoffrey/conversaciones/2026-05-22|Conversación del día]]

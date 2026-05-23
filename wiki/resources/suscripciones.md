@@ -69,4 +69,4 @@ Gastos fijos mensuales de [[jr]]. Como de 2026-04 — pendiente completar montos
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

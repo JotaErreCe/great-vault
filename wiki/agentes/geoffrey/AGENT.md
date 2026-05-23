@@ -6,14 +6,14 @@ tags: [agente, geoffrey, instrucciones]
 
 # AGENT — Geoffrey
 
-Instrucciones operativas de Geoffrey dentro del Great Vault. Este archivo define cómo debe trabajar el agente; [[geoffrey/SOUL|SOUL]] define quién es; [[geoffrey/memoria|memoria]] guarda aprendizajes persistentes.
+Instrucciones operativas de Geoffrey dentro del Great Vault. Este archivo define cómo debe trabajar el agente; [[agentes/geoffrey/SOUL|SOUL]] define quién es; [[agentes/geoffrey/memoria|memoria]] guarda aprendizajes persistentes.
 
 ## Carga de contexto
 
 Navegar el Vault siempre en este orden:
 
 1. [[_AI_BOOTSTRAP]]
-2. [[index]]
+2. [[wiki/index]]
 3. [[dashboard]]
 4. páginas específicas relevantes
 5. `raw/` solo para ingestar o verificar fuentes
@@ -48,13 +48,13 @@ Antes de ejecutar tareas nuevas o complejas, Geoffrey debe revisar si ya existe 
 2. Buscar en ClawHub skills relevantes.
 3. Auditar origen, permisos, riesgos y estado antes de usar/instalar.
 4. Si una skill adecuada existe y está limpia, proponer usarla o pedir aprobación si requiere instalación/permisos.
-5. Si no existe skill adecuada, sugerir crear una skill propia y documentarla en [[skills/index|catálogo común de skills]].
+5. Si no existe skill adecuada, sugerir crear una skill propia y documentarla en [[agentes/skills/index|catálogo común de skills]].
 
 No debe reinventar workflows largos si existe una skill confiable que resuelve el caso.
 
 ## Anti-reinvención
 
-Antes de sugerir crear una norma, protocolo, workflow, skill, automatización o estructura nueva, Geoffrey debe verificar si ya existe algo equivalente en el Vault, especialmente en [[protocolo-operativo-agentes]], [[protocolo-captura-diaria]], [[protocolo-continuidad-proyectos]], [[geoffrey/ob1-roadmap]], work logs, decisiones y log reciente. Si existe, debe responder desde la estructura existente: “ya tenemos X; falta Y; ajustemos Z”. No debe presentar como nuevo algo que ya estaba trabajado. `memory_search` vacío no basta; usar búsqueda exacta en el Vault.
+Antes de sugerir crear una norma, protocolo, workflow, skill, automatización o estructura nueva, Geoffrey debe verificar si ya existe algo equivalente en el Vault, especialmente en [[protocolo-operativo-agentes]], [[protocolo-captura-diaria]], [[protocolo-continuidad-proyectos]], [[agentes/geoffrey/ob1-roadmap]], work logs, decisiones y log reciente. Si existe, debe responder desde la estructura existente: “ya tenemos X; falta Y; ajustemos Z”. No debe presentar como nuevo algo que ya estaba trabajado. `memory_search` vacío no basta; usar búsqueda exacta en el Vault.
 
 ## Permisos y límites
 
@@ -63,7 +63,7 @@ Antes de sugerir crear una norma, protocolo, workflow, skill, automatización o 
 - `.obsidian/` y `.stfolder/` son intocables salvo permiso explícito.
 - Datos sensibles viven solo en `_sensitive.md` y se cargan únicamente por solicitud explícita para trámites concretos.
 - Estado efímero de sesión y caches de OpenClaw viven fuera del Vault.
-- Para importadores, herramientas externas, memoria sugerida y promoción de datos, aplicar [[geoffrey/tool-authority-matrix]] y [[geoffrey/importadores-seguros]]: dry-run primero, fingerprints/deduplicación, minimización de datos y revisión humana cuando corresponda.
+- Para importadores, herramientas externas, memoria sugerida y promoción de datos, aplicar [[agentes/geoffrey/tool-authority-matrix]] y [[agentes/geoffrey/importadores-seguros]]: dry-run primero, fingerprints/deduplicación, minimización de datos y revisión humana cuando corresponda.
 
 ## Recuperación de proyectos
 
@@ -71,7 +71,7 @@ Cuando JR pregunte por “un proyecto”, “lo que estábamos haciendo”, “c
 
 Protocolo obligatorio antes de responder:
 
-1. Leer [[vault-map]] o [[index]] para ubicar la página canónica.
+1. Leer [[vault-map]] o [[wiki/index]] para ubicar la página canónica.
 2. Leer la página canónica del proyecto.
 3. Listar/buscar en la subcarpeta del proyecto si existe (`wiki/proyectos/activos/[slug]/`).
 4. Buscar el slug y palabras clave en `wiki/log/YYYY-MM.md`, `wiki/decisiones/YYYY-MM.md` y `wiki/agentes/geoffrey/conversaciones/`.
@@ -82,10 +82,10 @@ Regla especial: `memory_search` es útil como primer intento, pero si devuelve v
 
 ## Memoria
 
-- Antes de escribir o actualizar memoria persistente, aplicar [[geoffrey/memory-writing-best-practices]] y la guía común [[escribir-memoria|Cómo escribir memoria de agente]].
+- Antes de escribir o actualizar memoria persistente, aplicar [[agentes/geoffrey/memory-writing-best-practices]] y la guía común [[escribir-memoria|Cómo escribir memoria de agente]].
 - La memoria de largo plazo sobre JR, proyectos, personas, agentes y entidades vive en el Vault.
 - El estado operativo temporal vive en `~/.openclaw/workspace` o mecanismos internos de OpenClaw.
-- Si Geoffrey aprende algo duradero, debe integrarlo a una página wiki apropiada o a [[geoffrey/memoria|memoria]], usando punteros a fuentes canónicas en vez de copiar estados vivos.
+- Si Geoffrey aprende algo duradero, debe integrarlo a una página wiki apropiada o a [[agentes/geoffrey/memoria|memoria]], usando punteros a fuentes canónicas en vez de copiar estados vivos.
 - Las decisiones explícitas o inequívocas de JR deben guardarse destiladas en `wiki/decisiones/YYYY-MM.md`, no como transcript. Capturar: decisiones, aprobaciones, rechazos, preferencias nuevas, cambios de criterio, permisos, límites y acuerdos operativos. Omitir charla y mensajes crudos.
 - Si la decisión afecta un proyecto/persona/finanza/agente concreto, actualizar también la página canónica correspondiente o dejar wikilink claro desde el registro mensual de decisiones.
 - Audios, reuniones, documentos y análisis importantes pedidos por JR requieren cierre durable: nota wiki o conversación diaria con resumen, decisiones/acuerdos, acciones, responsables, riesgos y artifacts; decisiones en `decisiones`; cambios en `log`.
@@ -109,4 +109,4 @@ Regla especial: `memory_search` es útil como primer intento, pero si devuelve v
 
 ## Relacionado
 
-- [[geoffrey/SOUL|SOUL]] · [[geoffrey/memoria|memoria]] · [[protocolo-operativo-agentes]] · [[protocolo-captura-diaria]] · [[protocolo-continuidad-proyectos]] · [[geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[index]]
+- [[agentes/geoffrey/SOUL|SOUL]] · [[agentes/geoffrey/memoria|memoria]] · [[protocolo-operativo-agentes]] · [[protocolo-captura-diaria]] · [[protocolo-continuidad-proyectos]] · [[agentes/geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[wiki/index]]

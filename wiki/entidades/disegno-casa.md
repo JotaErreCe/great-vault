@@ -35,4 +35,4 @@ Empresa / nombre comercial bajo el cual opera [[brera-arredamenti]] (Sociedad An
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

@@ -22,4 +22,4 @@ Cliente que llegó primero por [[propi]] y posteriormente pidió a JR una renova
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

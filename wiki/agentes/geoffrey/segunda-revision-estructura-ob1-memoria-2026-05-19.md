@@ -42,11 +42,11 @@ El único “fallo” bruto fue por menciones históricas al typo `disengo-casa`
 - [x] [[protocolo-operativo-agentes]] existe.
 - [x] [[protocolo-continuidad-proyectos]] existe.
 - [x] [[escribir-memoria]] existe.
-- [x] [[geoffrey/tool-authority-matrix]] existe.
-- [x] [[geoffrey/work-log]] existe.
-- [x] [[geoffrey/memoria-sugerida]] existe.
-- [x] [[geoffrey/importadores-seguros]] existe.
-- [x] [[geoffrey/checkpoints/index]] existe.
+- [x] [[agentes/geoffrey/tool-authority-matrix]] existe.
+- [x] [[agentes/geoffrey/work-log]] existe.
+- [x] [[agentes/geoffrey/memoria-sugerida]] existe.
+- [x] [[agentes/geoffrey/importadores-seguros]] existe.
+- [x] [[agentes/geoffrey/checkpoints/index]] existe.
 
 ### Herencia desde puntos de entrada
 
@@ -56,7 +56,7 @@ El único “fallo” bruto fue por menciones históricas al typo `disengo-casa`
 - [x] [[agentes]] enlaza el protocolo común.
 - [x] [[arquitectura]] enlaza el protocolo común.
 - [x] [[vault-map]] enlaza el protocolo común.
-- [x] [[geoffrey/AGENT]] enlaza el protocolo común.
+- [x] [[agentes/geoffrey/AGENT]] enlaza el protocolo común.
 - [x] `_templates/openclaw-agent/*` hereda el protocolo común.
 - [x] `_templates/README.md` documenta herencia en templates.
 
@@ -93,7 +93,7 @@ El único “fallo” bruto fue por menciones históricas al typo `disengo-casa`
 
 ### Typo Disegno Casa
 
-- [x] Referencias activas a `[[disengo-casa]]`: 0.
+- [x] Referencias activas al wikilink histórico `disengo-casa`: 0.
 - [x] Menciones históricas permitidas: auditorías, conversaciones y log.
 - [x] Proyecto cliente separado: [[disegno-casa-cliente]].
 - [x] Entidad/nombre comercial preservado: [[disegno-casa]].
@@ -114,8 +114,8 @@ El siguiente endurecimiento posible no es documental, sino automatización: conv
 
 ## Relacionado
 
-- [[geoffrey/auditoria-estructura-ob1-memoria-2026-05-19]]
+- [[agentes/geoffrey/auditoria-estructura-ob1-memoria-2026-05-19]]
 - [[protocolo-operativo-agentes]]
 - [[protocolo-continuidad-proyectos]]
 - [[escribir-memoria]]
-- [[geoffrey/work-logs/index]]
+- [[agentes/geoffrey/work-logs/index]]

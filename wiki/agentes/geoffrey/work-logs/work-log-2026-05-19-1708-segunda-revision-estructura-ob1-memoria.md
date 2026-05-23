@@ -43,7 +43,7 @@ use_policy: operational_continuity
 
 ## Relacionado
 
-- [[geoffrey/work-logs/index]]
-- [[geoffrey/work-log]]
-- [[geoffrey/segunda-revision-estructura-ob1-memoria-2026-05-19]]
+- [[agentes/geoffrey/work-logs/index]]
+- [[agentes/geoffrey/work-log]]
+- [[agentes/geoffrey/segunda-revision-estructura-ob1-memoria-2026-05-19]]
 - [[protocolo-operativo-agentes]]

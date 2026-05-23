@@ -71,4 +71,4 @@ JR · Conejos · joserca95@gmail.com · Festivos en Guatemala · Todoist · Fami
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

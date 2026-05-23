@@ -35,8 +35,8 @@ Crear una sección por tarea con:
 - scope: formalizar jerarquía de confianza, autoridad de herramientas, importadores seguros, work log y auditoría web search.
 - status: active
 - sources:
-  - [[geoffrey/mcp-evaluacion-2026-05-19]]
-  - [[geoffrey/checkpoints/checkpoint-2026-05-19-0142-ob1-roadmap-phase1-start-4c4e74ca3e1e]]
+  - [[agentes/geoffrey/mcp-evaluacion-2026-05-19]]
+  - [[agentes/geoffrey/checkpoints/checkpoint-2026-05-19-0142-ob1-roadmap-phase1-start-4c4e74ca3e1e]]
   - [[decisiones/2026-05]]
 - decisions_needed:
   - Confirmar si se acepta el hook conservador que no lee transcript crudo.
@@ -45,10 +45,10 @@ Crear una sección por tarea con:
 
 ## Relacionado
 
-- [[geoffrey/ob1-fase-2]]
-- [[geoffrey/checkpoints/index]]
+- [[agentes/geoffrey/ob1-fase-2]]
+- [[agentes/geoffrey/checkpoints/index]]
 
 
 ## Implementación Fase 2
 
-El formato estándar y los registros individuales viven en [[geoffrey/work-logs/index]]. Para crear nuevos registros usar la skill runtime `geoffrey-work-log` / `/geoffrey-work-log`.
+El formato estándar y los registros individuales viven en [[agentes/geoffrey/work-logs/index]]. Para crear nuevos registros usar la skill runtime `geoffrey-work-log` / `/geoffrey-work-log`.

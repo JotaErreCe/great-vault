@@ -1,3 +1,9 @@
+---
+type: reference
+date: 2026-05-21
+tags: [agente, geoffrey, auditoria, superpowers]
+---
+
 # Auditoría Superpowers Extended CC → adaptación OpenClaw/Codex
 
 Fecha: 2026-05-21  
@@ -92,3 +98,10 @@ Adoptar Superpowers como **metodología de ejecución**, no como nueva fuente de
 3. evidencia antes de decir “listo”.
 
 La adaptación a OpenClaw/Codex es viable porque las piezas centrales son instrucciones y estructura de trabajo; lo que no es portable directamente son los hooks Claude Code y la task API nativa.
+
+## Relacionado
+
+- [[agentes/geoffrey/AGENT]]
+- [[agentes/geoffrey/ob1-roadmap]]
+- [[agentes/geoffrey/work-log]]
+- [[protocolo-operativo-agentes]]

@@ -33,4 +33,4 @@ Mejor amigo de [[jr]], miembro del grupo [[chirizosos]]. Cliente ocasional de [[
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

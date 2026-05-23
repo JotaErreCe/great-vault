@@ -121,4 +121,4 @@ Recordatorios incompletos visibles al corte:
 
 ## Relacionado
 
-- [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]] · [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[geoffrey/integraciones|Integraciones — Geoffrey]] · [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]]
+- [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]] · [[agentes/geoffrey/rutinas|Rutinas — Geoffrey]] · [[agentes/geoffrey/integraciones|Integraciones — Geoffrey]] · [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]]

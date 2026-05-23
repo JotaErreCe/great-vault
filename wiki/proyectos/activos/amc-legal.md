@@ -94,4 +94,4 @@ AMC Legal/
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

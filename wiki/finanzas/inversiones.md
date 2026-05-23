@@ -159,9 +159,9 @@ Rendimientos anualizados reportados:
 ## 🔗 Relacionado
 
 - [[patrimonio]]
-- [[IDENTITY]]
+- [[wiki/IDENTITY]]
 - [[recordatorios]] — recordatorio del portafolio RESUELTO con esta nota
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

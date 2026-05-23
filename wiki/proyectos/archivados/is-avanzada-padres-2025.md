@@ -101,4 +101,4 @@ Padres de familia (28–42 años), mayormente madres, que:
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

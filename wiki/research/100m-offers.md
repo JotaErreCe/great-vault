@@ -51,4 +51,4 @@ El libro explica cómo salir de la guerra de commodities creando valor diferenci
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

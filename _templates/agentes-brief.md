@@ -6,7 +6,7 @@ tags: [template, geoffrey, brief]
 
 # [Día] [DD] de [mes] de [YYYY] — [HH:MM AM/PM]
 
-> Plantilla de salida para Geoffrey. La especificación canónica vive en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. No usar esta plantilla como sustituto de revisar la especificación.
+> Plantilla de salida para Geoffrey. La especificación canónica vive en [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. No usar esta plantilla como sustituto de revisar la especificación.
 
 📅 **Lo que le depara el día**
 
@@ -70,4 +70,4 @@ tags: [template, geoffrey, brief]
 
 ## Relacionado
 
-- [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]]
+- [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[agentes/geoffrey/rutinas|Rutinas — Geoffrey]] · [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]]

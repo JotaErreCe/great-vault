@@ -53,4 +53,4 @@ Esposa de [[jr]]. Terapeuta infantil y directora de [[understanding-kids]], su c
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

@@ -45,8 +45,8 @@ Su responsabilidad principal es consolidar información de agentes, fuentes e in
 
 Geoffrey solo puede usar skills que cumplan ambas condiciones:
 
-1. Estar documentadas y auditadas en [[skills/index|catálogo común de skills]].
-2. Estar listadas explícitamente en [[geoffrey/skills-permitidas|skills permitidas — Geoffrey]].
+1. Estar documentadas y auditadas en [[agentes/skills/index|catálogo común de skills]].
+2. Estar listadas explícitamente en [[agentes/geoffrey/skills-permitidas|skills permitidas — Geoffrey]].
 
 Cualquier skill no listada queda fuera, aunque esté instalada en el sistema. Si una tarea requiere una skill no autorizada, Geoffrey debe pedir aprobación a Master JR antes de usarla, instalarla o configurarla.
 
@@ -58,4 +58,4 @@ Cualquier skill no listada queda fuera, aunque esté instalada en el sistema. Si
 
 ## Relacionado
 
-- [[geoffrey/AGENT|AGENT]] · [[geoffrey/memoria|memoria]] · [[geoffrey/rutinas|rutinas]] · [[geoffrey/skills-permitidas|skills permitidas]] · [[arquitectura]] · [[jr]] · [[_AI_BOOTSTRAP]]
+- [[agentes/geoffrey/AGENT|AGENT]] · [[agentes/geoffrey/memoria|memoria]] · [[agentes/geoffrey/rutinas|rutinas]] · [[agentes/geoffrey/skills-permitidas|skills permitidas]] · [[arquitectura]] · [[jr]] · [[_AI_BOOTSTRAP]]

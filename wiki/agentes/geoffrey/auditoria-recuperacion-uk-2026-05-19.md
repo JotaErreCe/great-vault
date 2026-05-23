@@ -8,16 +8,16 @@ tags: [agente, geoffrey, auditoria, memoria, understanding-kids, recuperacion]
 
 ## Incidente
 
-JR preguntó por “el proyecto de UK contigo”. Geoffrey respondió inicialmente desde el mapa operativo general de Understanding Kids y no recuperó de inmediato el proyecto específico: [[understanding-kids/plan-nutricion-completa]].
+JR preguntó por “el proyecto de UK contigo”. Geoffrey respondió inicialmente desde el mapa operativo general de Understanding Kids y no recuperó de inmediato el proyecto específico: [[proyectos/activos/understanding-kids/plan-nutricion-completa]].
 
 ## Verificación de existencia
 
 El proyecto sí existía y estaba correctamente documentado en el Vault:
 
-- [[understanding-kids/plan-nutricion-completa]] — plan maestro multi-día para nutrir UK antes de crear `README-AI.md` o agente especializado.
+- [[proyectos/activos/understanding-kids/plan-nutricion-completa]] — plan maestro multi-día para nutrir UK antes de crear `README-AI.md` o agente especializado.
 - [[understanding-kids]] — enlaza el plan en “Próximos pasos”.
 - [[decisiones/2026-05]] — registra la decisión de nutrir UK antes de crear `README-AI.md`/agente.
-- [[geoffrey/conversaciones/2026-05-16]] — registra la continuidad del plan.
+- [[agentes/geoffrey/conversaciones/2026-05-16]] — registra la continuidad del plan.
 - `wiki/log/2026-05.md` — contiene entradas del 2026-05-16 sobre creación/enlace del plan.
 
 También existen fuentes complementarias:
@@ -39,8 +39,8 @@ Conclusión: `memory_search` no puede ser la única recuperación para proyectos
 Se consultaron páginas de UK como:
 
 - [[understanding-kids]]
-- [[understanding-kids/mapa-operativo]]
-- [[understanding-kids/pendientes-operativos-2026-05-15]]
+- [[proyectos/activos/understanding-kids/mapa-operativo]]
+- [[proyectos/activos/understanding-kids/pendientes-operativos-2026-05-15]]
 
 Pero no se priorizó buscar el término “proyecto contigo” en:
 
@@ -64,10 +64,10 @@ El plan específico no era resolver checkout/finanzas/comercial inmediatamente, 
 Ya existían métodos suficientes, pero no se aplicaron en el orden correcto:
 
 1. [[_AI_BOOTSTRAP]]: indica cargar `index`, `dashboard`, páginas específicas, decisiones y log.
-2. [[geoffrey/AGENT]]: instruye usar grep/rg como búsqueda primaria y recuperar desde conversaciones/checkpoints/decisiones/log si falta contexto.
+2. [[agentes/geoffrey/AGENT]]: instruye usar grep/rg como búsqueda primaria y recuperar desde conversaciones/checkpoints/decisiones/log si falta contexto.
 3. [[vault-map]]: índice rápido de navegación.
-4. [[geoffrey/memoria]]: regla duradera de no preguntar ni responder sin auditar fuentes disponibles.
-5. [[escribir-memoria]] y [[geoffrey/memory-writing-best-practices]]: memoria debe apuntar a fuentes canónicas, no copiar estados vivos.
+4. [[agentes/geoffrey/memoria]]: regla duradera de no preguntar ni responder sin auditar fuentes disponibles.
+5. [[escribir-memoria]] y [[agentes/geoffrey/memory-writing-best-practices]]: memoria debe apuntar a fuentes canónicas, no copiar estados vivos.
 6. [[decisiones/2026-05]]: contiene decisiones destiladas de UK.
 7. `wiki/log/2026-05.md`: contiene historial operativo exacto de UK.
 8. `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md`: contiene continuidad diaria.
@@ -88,16 +88,16 @@ Agregar protocolo duradero para consultas de proyectos:
 
 ## Correcciones aplicadas
 
-- Actualizar [[geoffrey/AGENT]] con protocolo de recuperación de proyectos.
-- Registrar candidato de memoria en [[geoffrey/memoria-sugerida]] para que JR pueda promoverlo a memoria permanente.
+- Actualizar [[agentes/geoffrey/AGENT]] con protocolo de recuperación de proyectos.
+- Registrar candidato de memoria en [[agentes/geoffrey/memoria-sugerida]] para que JR pueda promoverlo a memoria permanente.
 - Actualizar [[vault-map]] para exponer el plan de nutrición completa de UK como subiniciativa navegable.
 - Registrar esta auditoría y los cambios en `wiki/log/2026-05.md`.
 
 ## Relacionado
 
-- [[understanding-kids/plan-nutricion-completa]]
+- [[proyectos/activos/understanding-kids/plan-nutricion-completa]]
 - [[understanding-kids]]
-- [[geoffrey/AGENT]]
-- [[geoffrey/memoria]]
+- [[agentes/geoffrey/AGENT]]
+- [[agentes/geoffrey/memoria]]
 - [[escribir-memoria]]
 - [[vault-map]]

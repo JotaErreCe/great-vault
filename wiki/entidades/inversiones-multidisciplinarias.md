@@ -34,4 +34,4 @@ Sociedad anónima titular de la marca **Understanding Kids** (UK) y la submarca 
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

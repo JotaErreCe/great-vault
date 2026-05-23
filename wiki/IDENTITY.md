@@ -84,6 +84,6 @@ Golf por la mañana → casa → videojuegos → ver partida de Magic Commander 
 
 ## Relacionado
 
-- [[_AI_BOOTSTRAP]] · [[dashboard]] · [[index]]
+- [[_AI_BOOTSTRAP]] · [[dashboard]] · [[wiki/index]]
 - [[monica]] · [[nicolas]] · [[niko]] · [[lucrecia-arriola]] · [[suegros]]
 - [[finanzas/index|Finanzas]] · [[amc-legal]]

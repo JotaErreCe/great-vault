@@ -46,4 +46,4 @@ Sociedad anónima guatemalteca dedicada al amueblamiento (muebles, cocinas, cló
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

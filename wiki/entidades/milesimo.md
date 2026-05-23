@@ -36,4 +36,4 @@ Empresa de corretaje inmobiliario que opera con [[propi]] (Propi LatAm Guatemala
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

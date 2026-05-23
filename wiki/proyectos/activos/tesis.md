@@ -74,4 +74,4 @@ La tesis analiza si esto constituye **elusión fiscal** (legal, aprovechar vací
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

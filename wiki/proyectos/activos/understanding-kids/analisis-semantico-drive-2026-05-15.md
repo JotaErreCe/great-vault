@@ -183,4 +183,4 @@ Ese catálogo será mejor base para el futuro agente UK que el índice de carpet
 
 ## Relacionado
 
-- [[understanding-kids/indice-operativo-drive-2026-05-15]] · [[understanding-kids/mapa-operativo]] · [[understanding-kids/pendientes-operativos-2026-05-15]] · [[understanding-kids/finanzas]] · [[understanding-kids/staff]] · [[understanding-kids/formacion]]
+- [[proyectos/activos/understanding-kids/indice-operativo-drive-2026-05-15]] · [[proyectos/activos/understanding-kids/mapa-operativo]] · [[proyectos/activos/understanding-kids/pendientes-operativos-2026-05-15]] · [[proyectos/activos/understanding-kids/finanzas]] · [[proyectos/activos/understanding-kids/staff]] · [[proyectos/activos/understanding-kids/formacion]]

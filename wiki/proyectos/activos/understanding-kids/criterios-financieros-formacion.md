@@ -98,4 +98,4 @@ Aunque algunas hojas históricas/2026 muestran diferencias cercanas a 6% entre b
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/tabla-historica-formacion-2024-2026]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/finanzas]]
+- [[understanding-kids]] · [[proyectos/activos/understanding-kids/tabla-historica-formacion-2024-2026]] · [[proyectos/activos/understanding-kids/comercial-formacion]] · [[proyectos/activos/understanding-kids/finanzas]]

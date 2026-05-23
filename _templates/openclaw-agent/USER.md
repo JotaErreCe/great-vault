@@ -21,4 +21,4 @@ For JR's Great Vault, do not duplicate volatile personal/project state into this
 ## Related
 
 - [[AGENTS.template]] · [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] · [[_templates/openclaw-agent/SOUL|SOUL.template]] · [[_templates/openclaw-agent/TOOLS|TOOLS.template]] · [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]] · [[protocolo-operativo-agentes]] · [[escribir-memoria]]
-- Instancia real: [[geoffrey/SOUL|SOUL — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]] · [[IDENTITY|IDENTITY — JR]]
+- Instancia real: [[agentes/geoffrey/SOUL|SOUL — Geoffrey]] · [[agentes/geoffrey/memoria|Memoria — Geoffrey]] · [[wiki/IDENTITY|IDENTITY — JR]]

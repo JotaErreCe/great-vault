@@ -20,7 +20,7 @@ Si la respuesta es no, no se guarda como memoria. Puede ir al log, a conversaci�
 
 | Tipo | Dónde va | Regla |
 |---|---|---|
-| Preferencia estable de JR | [[geoffrey/memoria]] | Solo si cambia cómo Geoffrey debe actuar. |
+| Preferencia estable de JR | [[agentes/geoffrey/memoria]] | Solo si cambia cómo Geoffrey debe actuar. |
 | Decisión explícita de JR | `wiki/decisiones/YYYY-MM.md` | Destilada, sin transcript crudo. |
 | Continuidad diaria | `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md` | Resumen operativo; no memoria duradera. |
 | Hecho de proyecto/persona | Página canónica del proyecto/persona | No duplicar en memoria general. |
@@ -48,7 +48,7 @@ Si la respuesta es no, no se guarda como memoria. Puede ir al log, a conversaci�
 ## Formato preferido
 
 ```markdown
-AAAA-MM-DD: [contexto breve]. Regla duradera: [qué hacer / qué no]. Fuente canónica: [[archivo]].
+AAAA-MM-DD: [contexto breve]. Regla duradera: [qué hacer / qué no]. Fuente canónica: wikilink a la página correspondiente.
 ```
 
 Ejemplo:
@@ -71,4 +71,4 @@ No hardcodear rutas del Great Vault en memorias o instrucciones duraderas. El Va
 
 ## Relacionado
 
-- [[escribir-memoria]] · [[geoffrey/memoria]] · [[geoffrey/AGENT]] · [[_AI_BOOTSTRAP]] · [[decisiones/index]]
+- [[escribir-memoria]] · [[agentes/geoffrey/memoria]] · [[agentes/geoffrey/AGENT]] · [[_AI_BOOTSTRAP]] · [[decisiones/index]]

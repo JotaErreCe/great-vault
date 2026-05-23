@@ -41,8 +41,8 @@ Más avanzada de lo que parece: existe `~/Documents/Personal/Varios/Tabla de Cos
 
 ## 🔗 Relacionado
 
-- [[IDENTITY]] — JR es fan apasionado del fútbol
+- [[wiki/IDENTITY]] — JR es fan apasionado del fútbol
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

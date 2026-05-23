@@ -6,11 +6,11 @@ tags: [agente, geoffrey, rutinas, brief]
 
 # Rutinas — Geoffrey
 
-Procedimientos recurrentes de Geoffrey. Este archivo define cómo ejecutar tareas repetidas; [[geoffrey/AGENT|AGENT]] define reglas operativas generales.
+Procedimientos recurrentes de Geoffrey. Este archivo define cómo ejecutar tareas repetidas; [[agentes/geoffrey/AGENT|AGENT]] define reglas operativas generales.
 
 ## Brief mañanero
 
-Objetivo: enviar a Master JR un brief diario corto, específico y accionable por Telegram. La especificación canónica vive en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]].
+Objetivo: enviar a Master JR un brief diario corto, específico y accionable por Telegram. La especificación canónica vive en [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]].
 
 ### Entrega
 
@@ -36,15 +36,15 @@ El heartbeat no debe duplicar el brief. Si se usa `HEARTBEAT.md`, debe servir so
 ### Fuentes previstas
 
 - Calendario del día.
-- Apple Reminders: vencidos, hoy y próximos; ver [[geoffrey/reminders|Reminders — Geoffrey]] y [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]].
-- Correo: ver [[geoffrey/integraciones|Integraciones — Geoffrey]] (`joserca95@gmail.com`, `jcastaneda@kidsunderstanding.com`, `joserca95@icloud.com`; UFM excluida por defecto).
+- Apple Reminders: vencidos, hoy y próximos; ver [[agentes/geoffrey/reminders|Reminders — Geoffrey]] y [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]].
+- Correo: ver [[agentes/geoffrey/integraciones|Integraciones — Geoffrey]] (`joserca95@gmail.com`, `jcastaneda@kidsunderstanding.com`, `joserca95@icloud.com`; UFM excluida por defecto).
 - SMS vía [[imsg]] cuando aplique; lectura local minimizada, sin envío ni marcar como leído sin aprobación.
 - Radar legal/regulatorio: Diario de Centro América, Congreso, SAT, SIB/IVE, Banguat, CC/CSJ/OJ y fuentes oficiales relevantes.
 - Great Vault: dashboard/proyectos/notas relevantes si aportan seguimiento real.
 
 ### Orden vigente del brief
 
-El orden canónico vive en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. Versión vigente:
+El orden canónico vive en [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. Versión vigente:
 
 1. Título: día, fecha y hora, sin adornos.
 2. 📅 Lo que le depara el día, solo si hay señal relevante.
@@ -97,4 +97,4 @@ Debe existir un job diario habilitado para `Geoffrey Morning Brief`. Si no exist
 
 ## Relacionado
 
-- [[geoffrey/SOUL|SOUL — Geoffrey]] · [[geoffrey/AGENT|AGENT — Geoffrey]] · [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[briefs|briefs multi-agente]] · [[geoffrey/integraciones|integraciones]] · [[geoffrey/reminders|reminders]] · [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]]
+- [[agentes/geoffrey/SOUL|SOUL — Geoffrey]] · [[agentes/geoffrey/AGENT|AGENT — Geoffrey]] · [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[briefs|briefs multi-agente]] · [[agentes/geoffrey/integraciones|integraciones]] · [[agentes/geoffrey/reminders|reminders]] · [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]]

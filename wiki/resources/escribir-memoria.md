@@ -139,5 +139,5 @@ Correr sobre cada archivo de memoria:
 - [[_AI_BOOTSTRAP]] — entrada única y fuente canónica de rutas
 - [[arquitectura|arquitectura de agentes]] — cómo se crean y operan los agentes del vault
 - [[information-hierarchy]] — capas L0–L4 de información
-- [[geoffrey/memoria|memoria de Geoffrey]] — ejemplo de memoria de agente que aplica esta guía
-- [[index]] · [[dashboard]]
+- [[agentes/geoffrey/memoria|memoria de Geoffrey]] — ejemplo de memoria de agente que aplica esta guía
+- [[wiki/index]] · [[dashboard]]

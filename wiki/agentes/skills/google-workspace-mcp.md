@@ -58,4 +58,4 @@ Aprobó: Master JR, para Drive + Docs + Sheets; se mantiene política read-only 
 
 ## Relacionado
 
-- [[skills/index]] · [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[geoffrey/integraciones|Integraciones — Geoffrey]]
+- [[agentes/skills/index]] · [[agentes/geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[agentes/geoffrey/integraciones|Integraciones — Geoffrey]]

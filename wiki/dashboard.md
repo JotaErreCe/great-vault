@@ -6,7 +6,7 @@ tags: [dashboard, navigation]
 
 # Dashboard — vista operativa
 
-> Catálogo completo en [[index]]. Bootstrap en [[_AI_BOOTSTRAP]]. Esta vista es un snapshot operativo; para el brief mañanero prevalece [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]].
+> Catálogo completo en [[wiki/index]]. Bootstrap en [[_AI_BOOTSTRAP]]. Esta vista es un snapshot operativo; para el brief mañanero prevalece [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]].
 
 ## Estado del día — 2026-05-13
 
@@ -51,9 +51,9 @@ Vista completa prevista: [[agenda]]. Verificar calendario vivo antes de comprome
 
 ## Atajos
 
-- [[IDENTITY]] · [[index]] · [[log/index|log]] · [[finanzas/index|Finanzas]] · [[agenda]]
+- [[wiki/IDENTITY]] · [[wiki/index]] · [[log/index|log]] · [[finanzas/index|Finanzas]] · [[agenda]]
 - [[amc-legal]] · [[understanding-kids]] · [[visual-identity]]
 
 ## Relacionado
 
-- [[index]] · [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]]
+- [[wiki/index]] · [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[resources/apple-reminders-manual|Manual operativo — Apple Reminders de JR]]

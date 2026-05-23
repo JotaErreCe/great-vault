@@ -64,6 +64,6 @@ Si el conflicto afecta dinero, terceros, legal, salud, permisos o datos sensible
 
 ## Relacionado
 
-- [[geoffrey/ob1-fase-2]]
-- [[geoffrey/importadores-seguros]]
-- [[geoffrey/memory-writing-best-practices]]
+- [[agentes/geoffrey/ob1-fase-2]]
+- [[agentes/geoffrey/importadores-seguros]]
+- [[agentes/geoffrey/memory-writing-best-practices]]

@@ -88,4 +88,4 @@ JR ordenó avanzar con Fase 2 de OB1 para Geoffrey/OpenClaw/Great Vault. Se ejec
 
 ## Relacionado
 
-- [[geoffrey/checkpoints/index|Checkpoints — Geoffrey]] · [[geoffrey/AGENT|AGENT — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]] · [[geoffrey/conversaciones/2026-05-19|Conversación del día]]
+- [[agentes/geoffrey/checkpoints/index|Checkpoints — Geoffrey]] · [[agentes/geoffrey/AGENT|AGENT — Geoffrey]] · [[agentes/geoffrey/memoria|Memoria — Geoffrey]] · [[agentes/geoffrey/conversaciones/2026-05-19|Conversación del día]]

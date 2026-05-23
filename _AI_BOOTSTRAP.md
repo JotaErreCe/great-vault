@@ -117,9 +117,9 @@ The following files in `_templates/openclaw-agent/` are used to create new AI ag
 
 Actual agent instances live in `wiki/agentes/[slug]/`, for example:
 
-- [[geoffrey/SOUL|SOUL — Geoffrey]]
-- [[geoffrey/AGENT|AGENT — Geoffrey]]
-- [[geoffrey/memoria|Memoria — Geoffrey]]
+- [[agentes/geoffrey/SOUL|SOUL — Geoffrey]]
+- [[agentes/geoffrey/AGENT|AGENT — Geoffrey]]
+- [[agentes/geoffrey/memoria|Memoria — Geoffrey]]
 
 If an agent wakes up after memory loss, it must recover from its package: read `wiki/agentes/[slug]/AGENT.md`, then the newest conversation log under `wiki/agentes/[slug]/conversaciones/`, then the newest relevant checkpoint under `wiki/agentes/[slug]/checkpoints/`, then `wiki/decisiones/YYYY-MM.md` for decisions, then `wiki/log/YYYY-MM.md` for recent edits.
 
@@ -197,7 +197,7 @@ tags: [tag1, tag2, ...]
 
 **Excepciones documentadas:** archivos bootstrap/runtime de agentes pueden usar nombres esperados por OpenClaw (`AGENT.md`, `SOUL.md`, `IDENTITY.md`, `README.md`, `HEARTBEAT.md`, `TOOLS.md`, `USER.md`, `AGENTS.template.md`) cuando el runtime o la plantilla lo requiere. Logs mensuales, conversaciones y checkpoints pueden iniciar con fecha ISO (`2026-05.md`, `2026-05-13.md`, `checkpoint-YYYY-MM-DD-...`). No crear nuevas excepciones sin documentarlas.
 
-**Wikilinks:** usar doble corchete para referencias internas reales, por ejemplo `[[index]]` o `[[vault-map|Vault Map]]`. Nunca `[texto](ruta)` para archivos internos.
+**Wikilinks:** usar doble corchete para referencias internas reales, por ejemplo `[[wiki/index]]` o `[[vault-map|Vault Map]]`. Nunca `[texto](ruta)` para archivos internos.
 
 **Sección Relacionado:** obligatoria al final de todo archivo wiki, excepto daily notes, logs append-only, conversaciones/checkpoints de agente y bootstrap.
 
@@ -217,7 +217,7 @@ tags: [tags]
 
 ## Relacionado
 
-- [[index]] · [[dashboard]]
+- [[wiki/index]] · [[dashboard]]
 ```
 
 ---
@@ -290,8 +290,8 @@ No tienes acceso al filesystem. Tu workflow:
 
 ## Relacionado
 
-- [[IDENTITY]] — identidad completa, valores, gustos, metas
+- [[wiki/IDENTITY]] — identidad completa, valores, gustos, metas
 - [[dashboard]] — eventos del día, próximos 14 días
-- [[index]] — catálogo completo del wiki
+- [[wiki/index]] — catálogo completo del wiki
 - [[vault-map|Vault Map]] — índice searchable para AIs sin filesystem
 - [[escribir-memoria]] — guía común para escribir memoria de agente sin hardcodear rutas ni copiar estados vivos

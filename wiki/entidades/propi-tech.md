@@ -43,4 +43,4 @@ Entidad guatemalteca de la red **Propi LatAm** (proptech). Cliente activo y comp
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

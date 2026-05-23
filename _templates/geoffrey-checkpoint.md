@@ -58,4 +58,4 @@ Qué se estaba trabajando y por qué importa.
 
 ## Relacionado
 
-- [[geoffrey/AGENT|AGENT — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]] · conversación diaria correspondiente en `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md`
+- [[agentes/geoffrey/AGENT|AGENT — Geoffrey]] · [[agentes/geoffrey/memoria|Memoria — Geoffrey]] · conversación diaria correspondiente en `wiki/agentes/geoffrey/conversaciones/YYYY-MM-DD.md`

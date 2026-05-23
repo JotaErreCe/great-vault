@@ -240,8 +240,8 @@ Qwen local queda fuera de la ruta financiera por ahora: es útil para pruebas ba
 
 ## Relacionado
 
-- [[geoffrey/inversiones/sistema-agentes-inversiones]]
-- [[george-soros/AGENT]]
-- [[satoshi/AGENT]]
-- [[nakamoto/AGENT]]
-- [[jesse-livermore/AGENT]]
+- [[agentes/geoffrey/inversiones/sistema-agentes-inversiones]]
+- [[agentes/george-soros/AGENT]]
+- [[agentes/satoshi/AGENT]]
+- [[agentes/nakamoto/AGENT]]
+- [[agentes/jesse-livermore/AGENT]]

@@ -21,4 +21,4 @@ Current active Geoffrey references:
 
 - [[agentes/arquitectura]]
 - [[protocolo-operativo-agentes]]
-- [[geoffrey/SOUL]]
+- [[agentes/geoffrey/SOUL]]

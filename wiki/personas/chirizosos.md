@@ -34,4 +34,4 @@ Grupo de mejores amigos de [[jr]]. Como de 2026-05.
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

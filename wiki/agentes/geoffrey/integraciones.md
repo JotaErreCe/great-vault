@@ -10,7 +10,7 @@ Integraciones previstas para Geoffrey. Esta página documenta roles, límites y 
 
 ## Brief mañanero
 
-La especificación operativa vive en [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. Decisiones vigentes:
+La especificación operativa vive en [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]]. Decisiones vigentes:
 
 - Trato siempre de **usted**.
 - Hora objetivo: 7:15 AM Guatemala; ventana aceptable 6:30–8:00 AM.
@@ -90,4 +90,4 @@ Pendiente de aprobación/configuración:
 
 ## Relacionado
 
-- [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[skills/index|Catálogo común de skills]] · [[imsg]] · [[openai-whisper-api]]
+- [[agentes/geoffrey/rutinas|Rutinas — Geoffrey]] · [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[agentes/geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[agentes/skills/index|Catálogo común de skills]] · [[imsg]] · [[openai-whisper-api]]

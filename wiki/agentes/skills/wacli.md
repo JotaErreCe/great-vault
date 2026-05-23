@@ -54,7 +54,7 @@ Aprobó: Master JR, al pedir habilitar las skills necesarias para Geoffrey, bajo
 
 ## Relacionado
 
-- [[skills/index]] · [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[geoffrey/integraciones|Integraciones — Geoffrey]]
+- [[agentes/skills/index]] · [[agentes/geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[agentes/geoffrey/integraciones|Integraciones — Geoffrey]]
 
 
 ## Revocación — 2026-05-16

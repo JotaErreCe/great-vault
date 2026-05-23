@@ -44,11 +44,11 @@ Se corrigió creando [[protocolo-operativo-agentes]] y enlazándolo desde las ca
 Existían piezas correctas:
 
 - [[escribir-memoria]] — reglas globales de memoria.
-- [[geoffrey/tool-authority-matrix]] — autoridad por fuente/superficie.
-- [[geoffrey/work-log]] — estándar de work logs.
-- [[geoffrey/memoria-sugerida]] — staging de memoria.
-- [[geoffrey/importadores-seguros]] — dry-run/fingerprints/dedup.
-- [[geoffrey/checkpoints/index]] — continuidad ante pérdida de contexto.
+- [[agentes/geoffrey/tool-authority-matrix]] — autoridad por fuente/superficie.
+- [[agentes/geoffrey/work-log]] — estándar de work logs.
+- [[agentes/geoffrey/memoria-sugerida]] — staging de memoria.
+- [[agentes/geoffrey/importadores-seguros]] — dry-run/fingerprints/dedup.
+- [[agentes/geoffrey/checkpoints/index]] — continuidad ante pérdida de contexto.
 - [[protocolo-continuidad-proyectos]] — recuperación de proyectos.
 
 Pero faltaba una página que dijera: “estas piezas son un solo contrato común para cualquier agente”.
@@ -103,10 +103,10 @@ Escaneo de 137 archivos Markdown en `wiki/`:
 |---|---:|
 | [[escribir-memoria]] | 10 |
 | [[protocolo-continuidad-proyectos]] | 7 |
-| [[geoffrey/tool-authority-matrix]] | 11 |
-| [[geoffrey/importadores-seguros]] | 9 |
-| [[geoffrey/work-log]] / work logs | 12 |
-| [[geoffrey/memoria-sugerida]] | 11 |
+| [[agentes/geoffrey/tool-authority-matrix]] | 11 |
+| [[agentes/geoffrey/importadores-seguros]] | 9 |
+| [[agentes/geoffrey/work-log]] / work logs | 12 |
+| [[agentes/geoffrey/memoria-sugerida]] | 11 |
 | `obsidian-import-safe` | 4 |
 
 Cobertura cualitativa después del ajuste:
@@ -127,7 +127,7 @@ No conviene copiar todo el protocolo en cada página del Vault. Eso crearía dup
 2. **Contrato común**: [[protocolo-operativo-agentes]].
 3. **Herencia por arquitectura**: [[arquitectura]] y [[agentes]].
 4. **Herencia por templates**: `_templates/openclaw-agent/`.
-5. **Punteros en índices**: [[vault-map]] e [[index]].
+5. **Punteros en índices**: [[vault-map]] e [[wiki/index]].
 6. **Aplicación por agente**: cada `AGENT.md` específico debe enlazarlo.
 
 Así evitamos repetir texto y mantenemos una sola fuente de verdad.
@@ -147,9 +147,9 @@ Estos puntos no se resolvieron en esta pasada porque requieren decisión o lote 
 - Actualizado `_AI_BOOTSTRAP.md`.
 - Actualizado Vault root `AGENTS.md`, `SOUL.md`, `TOOLS.md`, `IDENTITY.md`, `USER.md`.
 - Actualizado [[arquitectura]], [[agentes]] y [[vault-map]].
-- Actualizado [[geoffrey/AGENT]].
+- Actualizado [[agentes/geoffrey/AGENT]].
 - Actualizados `_templates/openclaw-agent/` y `_templates/README.md`.
-- Actualizados [[geoffrey/ob1-roadmap]], [[geoffrey/memoria-sugerida]], [[geoffrey/work-logs/index]].
+- Actualizados [[agentes/geoffrey/ob1-roadmap]], [[agentes/geoffrey/memoria-sugerida]], [[agentes/geoffrey/work-logs/index]].
 - Renombrado proyecto de cliente Disegno Casa a `disegno-casa-cliente.md` para evitar typo/choque.
 - Convertidas frases vivas de UK a cortes fechados.
 
@@ -164,9 +164,9 @@ El riesgo residual principal no es estructural sino operativo: cada agente debe 
 - [[protocolo-operativo-agentes]]
 - [[protocolo-continuidad-proyectos]]
 - [[escribir-memoria]]
-- [[geoffrey/tool-authority-matrix]]
-- [[geoffrey/work-log]]
-- [[geoffrey/memoria-sugerida]]
-- [[geoffrey/importadores-seguros]]
-- [[geoffrey/auditoria-recuperacion-uk-2026-05-19]]
-- [[geoffrey/auditoria-vault-memoria-2026-05-17]]
+- [[agentes/geoffrey/tool-authority-matrix]]
+- [[agentes/geoffrey/work-log]]
+- [[agentes/geoffrey/memoria-sugerida]]
+- [[agentes/geoffrey/importadores-seguros]]
+- [[agentes/geoffrey/auditoria-recuperacion-uk-2026-05-19]]
+- [[agentes/geoffrey/auditoria-vault-memoria-2026-05-17]]

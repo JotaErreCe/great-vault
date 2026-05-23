@@ -1,4 +1,5 @@
 ---
+type: reference
 title: "Work log — Cierre auditoría estructural Vault OB1"
 date: 2026-05-20
 session: "2026-05-19 → 2026-05-20"

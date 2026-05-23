@@ -59,4 +59,4 @@ No guardar transcripts crudos ni contenido sensible literal. Si un dato sensible
 
 ## Relacionado
 
-- [[geoffrey/AGENT|AGENT — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]] · [[geoffrey/conversaciones/2026-05-07|Conversación — 2026-05-07]] · [[geoffrey-checkpoint]]
+- [[agentes/geoffrey/AGENT|AGENT — Geoffrey]] · [[agentes/geoffrey/memoria|Memoria — Geoffrey]] · [[agentes/geoffrey/conversaciones/2026-05-07|Conversación — 2026-05-07]] · [[geoffrey-checkpoint]]

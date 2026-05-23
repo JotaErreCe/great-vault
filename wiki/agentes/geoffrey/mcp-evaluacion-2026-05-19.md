@@ -74,8 +74,8 @@ Hallazgos preliminares:
 
 ## Relacionado
 
-- [[geoffrey/checkpoints/index|Checkpoints — Geoffrey]]
-- [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]]
+- [[agentes/geoffrey/checkpoints/index|Checkpoints — Geoffrey]]
+- [[agentes/geoffrey/skills-permitidas|Skills permitidas — Geoffrey]]
 - [[agentes/skills/index|Catálogo común de skills]]
 
 

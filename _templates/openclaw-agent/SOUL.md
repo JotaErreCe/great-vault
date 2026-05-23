@@ -42,4 +42,4 @@ _This file is yours to evolve. As you learn who you are, update it._
 ## Related
 
 - [[AGENTS.template]] · [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] · [[_templates/openclaw-agent/USER|USER.template]] · [[_templates/openclaw-agent/TOOLS|TOOLS.template]] · [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]] · [[protocolo-operativo-agentes]]
-- Instancia real: [[geoffrey/SOUL|SOUL — Geoffrey]] · [[geoffrey/AGENT|AGENT — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]]
+- Instancia real: [[agentes/geoffrey/SOUL|SOUL — Geoffrey]] · [[agentes/geoffrey/AGENT|AGENT — Geoffrey]] · [[agentes/geoffrey/memoria|Memoria — Geoffrey]]

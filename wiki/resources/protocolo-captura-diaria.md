@@ -113,6 +113,6 @@ Antes de cerrar una respuesta sobre un asunto importante:
 - [[protocolo-operativo-agentes]]
 - [[protocolo-continuidad-proyectos]]
 - [[escribir-memoria]]
-- [[geoffrey/AGENT]]
-- [[geoffrey/memoria]]
+- [[agentes/geoffrey/AGENT]]
+- [[agentes/geoffrey/memoria]]
 - [[decisiones/index]]

@@ -44,7 +44,7 @@ use_policy: operational_continuity
 
 ## Relacionado
 
-- [[geoffrey/work-logs/index]]
-- [[geoffrey/work-log]]
+- [[agentes/geoffrey/work-logs/index]]
+- [[agentes/geoffrey/work-log]]
 - [[protocolo-operativo-agentes]]
-- [[geoffrey/auditoria-estructura-ob1-memoria-2026-05-19]]
+- [[agentes/geoffrey/auditoria-estructura-ob1-memoria-2026-05-19]]

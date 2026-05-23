@@ -33,4 +33,4 @@ Accionista / dueño de [[brera-arredamenti]] (nombre comercial: [[disegno-casa]]
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

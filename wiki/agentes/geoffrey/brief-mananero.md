@@ -279,7 +279,7 @@ Categorías mínimas DCA:
 
 - Calendario del día, solo si aporta eventos/ventanas/conflictos relevantes.
 - Apple Reminders: vencidos, hoy y próximos deadlines críticos.
-- Gmail/Apple Mail autorizado según [[geoffrey/integraciones|integraciones]].
+- Gmail/Apple Mail autorizado según [[agentes/geoffrey/integraciones|integraciones]].
 - SMS vía [[imsg]], solo lectura local y minimizada.
 - WhatsApp/chats cuando la integración esté disponible/autorizada.
 - Apple Notes, cuando la integración esté autorizada.
@@ -322,4 +322,4 @@ Si una fuente crítica falla y eso afecta el brief, decirlo en una línea sobria
 
 ## Relacionado
 
-- [[geoffrey/rutinas|Rutinas — Geoffrey]] · [[briefs|briefs multi-agente]] · [[geoffrey/integraciones|Integraciones — Geoffrey]] · [[geoffrey/reminders|Reminders — Geoffrey]] · [[imsg]]
+- [[agentes/geoffrey/rutinas|Rutinas — Geoffrey]] · [[briefs|briefs multi-agente]] · [[agentes/geoffrey/integraciones|Integraciones — Geoffrey]] · [[agentes/geoffrey/reminders|Reminders — Geoffrey]] · [[imsg]]

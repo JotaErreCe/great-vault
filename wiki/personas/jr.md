@@ -15,8 +15,8 @@ tags:
 
 Dueño de este vault. Aliases: **JotaErre**, **JR**. Como de 2026-04.
 
-> Para perfil profundo de identidad, valores, gustos y voz, ver [[IDENTITY]].
-> Para datos de hoy mismo (familia, foco, banco, etc.), ver [[IDENTITY]].
+> Para perfil profundo de identidad, valores, gustos y voz, ver [[wiki/IDENTITY]].
+> Para datos de hoy mismo (familia, foco, banco, etc.), ver [[wiki/IDENTITY]].
 
 ---
 
@@ -51,10 +51,10 @@ Dueño de este vault. Aliases: **JotaErre**, **JR**. Como de 2026-04.
 
 ## 🔗 Relacionado
 
-- [[IDENTITY]]
-- [[IDENTITY]]
+- [[wiki/IDENTITY]]
+- [[wiki/IDENTITY]]
 - [[amc-legal]] — su despacho
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

@@ -1,4 +1,5 @@
 ---
+type: reference
 title: Auditoría estructural Vault OB1 — 2026-05-20
 date: 2026-05-20
 tags: [auditoria, ob1, vault, estructura]

@@ -79,4 +79,4 @@ Orden sugerido:
 
 ## Relacionado
 
-- [[understanding-kids/mapa-operativo]] · [[understanding-kids/operacion]] · [[understanding-kids/staff]] · [[understanding-kids/finanzas]] · [[understanding-kids/comercial-formacion]]
+- [[proyectos/activos/understanding-kids/mapa-operativo]] · [[proyectos/activos/understanding-kids/operacion]] · [[proyectos/activos/understanding-kids/staff]] · [[proyectos/activos/understanding-kids/finanzas]] · [[proyectos/activos/understanding-kids/comercial-formacion]]

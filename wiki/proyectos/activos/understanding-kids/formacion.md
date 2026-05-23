@@ -130,7 +130,7 @@ tags: [understanding-kids, formacion, diplomados, talleres]
 
 ## Fuente Drive talleres
 
-JR indicó la carpeta Drive `Talleres` como fuente primaria para datos de talleres; auditoría agregada en [[understanding-kids/talleres-drive-2026-05-15]]. Tabla histórica viva: [[understanding-kids/tabla-historica-formacion-2024-2026]].
+JR indicó la carpeta Drive `Talleres` como fuente primaria para datos de talleres; auditoría agregada en [[proyectos/activos/understanding-kids/talleres-drive-2026-05-15]]. Tabla histórica viva: [[proyectos/activos/understanding-kids/tabla-historica-formacion-2024-2026]].
 
 ## Pendientes de confirmar
 
@@ -143,4 +143,4 @@ JR indicó la carpeta Drive `Talleres` como fuente primaria para datos de taller
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/talleres-drive-2026-05-15]] · [[understanding-kids/tabla-historica-formacion-2024-2026]] · [[understanding-kids/finanzas]] · [[integracion-sensorial]] · [[diplomado-autismo-2026]]
+- [[understanding-kids]] · [[proyectos/activos/understanding-kids/comercial-formacion]] · [[proyectos/activos/understanding-kids/talleres-drive-2026-05-15]] · [[proyectos/activos/understanding-kids/tabla-historica-formacion-2024-2026]] · [[proyectos/activos/understanding-kids/finanzas]] · [[integracion-sensorial]] · [[diplomado-autismo-2026]]

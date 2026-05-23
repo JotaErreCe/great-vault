@@ -19,7 +19,7 @@ Todo importador debe iniciar en **dry-run**. El primer output es una lista de ca
 3. **Redacción/minimización**: excluir tokens, credenciales, adjuntos crudos, DPI/NIT y datos no necesarios.
 4. **Fingerprint**: generar hash estable por fuente+id+fecha+asunto/metadata.
 5. **Deduplicación**: comparar contra candidatos previos y páginas existentes.
-6. **Clasificación de confianza**: aplicar [[geoffrey/tool-authority-matrix]].
+6. **Clasificación de confianza**: aplicar [[agentes/geoffrey/tool-authority-matrix]].
 7. **Dry-run report**: candidatos, motivo de señal, destino propuesto, riesgo y acción sugerida.
 8. **Aprobación**: JR confirma si se escribe, se ignora o se ajusta.
 9. **Write mínimo**: si procede, destilar a `wiki/` o staging; nunca dump masivo.
@@ -59,6 +59,6 @@ Todo importador debe iniciar en **dry-run**. El primer output es una lista de ca
 
 ## Relacionado
 
-- [[geoffrey/tool-authority-matrix]]
-- [[geoffrey/ob1-fase-2]]
-- [[geoffrey/skills-permitidas]]
+- [[agentes/geoffrey/tool-authority-matrix]]
+- [[agentes/geoffrey/ob1-fase-2]]
+- [[agentes/geoffrey/skills-permitidas]]

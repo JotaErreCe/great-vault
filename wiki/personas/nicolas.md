@@ -39,4 +39,4 @@ Hijo de [[jr]] y [[monica]]. Recién nacido. La meta de largo plazo de JR gira e
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

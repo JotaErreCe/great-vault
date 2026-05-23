@@ -86,7 +86,7 @@ Qué hace en una línea.
 
 ## Relacionado
 
-- [[skills/index]]
+- [[agentes/skills/index]]
 ```
 
 ## Estados
@@ -98,4 +98,4 @@ Qué hace en una línea.
 
 ## Relacionado
 
-- [[skills/index|Catálogo común de skills]] · [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[arquitectura]]
+- [[agentes/skills/index|Catálogo común de skills]] · [[agentes/geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[arquitectura]]

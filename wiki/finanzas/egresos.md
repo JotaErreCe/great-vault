@@ -52,4 +52,4 @@ Estructura de gastos de [[jr]] y [[monica]]. Tracking detallado en `~/Documents/
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

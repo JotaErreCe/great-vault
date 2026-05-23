@@ -146,8 +146,8 @@ Plataforma digital multivendedor donde compradores y vendedores de TCG (Yu-Gi-Oh
 
 - [[roamy|Roamy]] — otro proyecto de JR (app distinta)
 - [[understanding-kids]] — proyecto de Mónica
-- [[IDENTITY]] — metas de JR vinculadas a Crisol
+- [[wiki/IDENTITY]] — metas de JR vinculadas a Crisol
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

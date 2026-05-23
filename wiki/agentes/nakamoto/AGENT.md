@@ -66,6 +66,6 @@ Debe recomendar esperar/no acción cuando:
 
 ## Relacionado
 
-- [[jordan-belfort/AGENT]]
-- [[satoshi/AGENT]]
-- [[geoffrey/inversiones/sistema-agentes-inversiones]]
+- [[agentes/jordan-belfort/AGENT]]
+- [[agentes/satoshi/AGENT]]
+- [[agentes/geoffrey/inversiones/sistema-agentes-inversiones]]

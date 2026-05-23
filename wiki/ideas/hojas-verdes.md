@@ -35,4 +35,4 @@ Joint Venture entre [[jr]] (o entidad asociada) y **Lluvia Environmental LTD** (
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

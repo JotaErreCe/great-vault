@@ -40,4 +40,4 @@ S.A.: acciones, asambleas, nombramientos, modificación de objeto social. (Si He
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

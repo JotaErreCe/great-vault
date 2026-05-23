@@ -22,7 +22,7 @@ La pestaña técnica quedó como `Detalle financiero`; no debe ser la vista prin
 
 ## Criterios financieros vigentes
 
-Criterios detallados: [[understanding-kids/criterios-financieros-formacion]].
+Criterios detallados: [[proyectos/activos/understanding-kids/criterios-financieros-formacion]].
 
 Resumen:
 
@@ -121,4 +121,4 @@ Cada taller/diplomado debería tener una fila con:
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/criterios-financieros-formacion]] · [[understanding-kids/talleres-drive-2026-05-15]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/formacion]]
+- [[understanding-kids]] · [[proyectos/activos/understanding-kids/criterios-financieros-formacion]] · [[proyectos/activos/understanding-kids/talleres-drive-2026-05-15]] · [[proyectos/activos/understanding-kids/comercial-formacion]] · [[proyectos/activos/understanding-kids/formacion]]

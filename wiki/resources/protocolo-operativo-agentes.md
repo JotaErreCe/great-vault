@@ -21,11 +21,11 @@ Un agente no debe depender de memoria runtime, embeddings o “lo que cree recor
 | Memoria | [[escribir-memoria]] + memoria del agente | Reglas duraderas y punteros; nunca estados vivos como verdad final. |
 | Captura diaria | [[protocolo-captura-diaria]] | Huella durable de asuntos importantes hablados con JR. |
 | Continuidad | [[protocolo-continuidad-proyectos]] | Recuperar proyectos/subproyectos antes de responder. |
-| Autoridad | [[geoffrey/tool-authority-matrix]] | Qué fuente puede convertirse en qué tipo de conocimiento. |
-| Work logs | [[geoffrey/work-log]] | Registro de tareas largas: intentado, cambiado, fallado, decisiones, pendientes, próximo paso y artifacts. |
-| Memoria sugerida | [[geoffrey/memoria-sugerida]] | Bandeja de revisión; nada pasa a memoria permanente sin JR. |
-| Importadores seguros | [[geoffrey/importadores-seguros]] | Dry-run, fingerprints, dedup, minimización y aprobación antes de escrituras masivas. |
-| Checkpoints | [[geoffrey/checkpoints/index]] | Cortes de continuidad ante compaction, reset o handoff. |
+| Autoridad | [[agentes/geoffrey/tool-authority-matrix]] | Qué fuente puede convertirse en qué tipo de conocimiento. |
+| Work logs | [[agentes/geoffrey/work-log]] | Registro de tareas largas: intentado, cambiado, fallado, decisiones, pendientes, próximo paso y artifacts. |
+| Memoria sugerida | [[agentes/geoffrey/memoria-sugerida]] | Bandeja de revisión; nada pasa a memoria permanente sin JR. |
+| Importadores seguros | [[agentes/geoffrey/importadores-seguros]] | Dry-run, fingerprints, dedup, minimización y aprobación antes de escrituras masivas. |
+| Checkpoints | [[agentes/geoffrey/checkpoints/index]] | Cortes de continuidad ante compaction, reset o handoff. |
 
 ## Reglas obligatorias para cualquier agente
 
@@ -118,7 +118,7 @@ Después de editar el Vault:
 - [[escribir-memoria]]
 - [[protocolo-captura-diaria]]
 - [[protocolo-continuidad-proyectos]]
-- [[geoffrey/tool-authority-matrix]]
-- [[geoffrey/work-log]]
-- [[geoffrey/memoria-sugerida]]
-- [[geoffrey/importadores-seguros]]
+- [[agentes/geoffrey/tool-authority-matrix]]
+- [[agentes/geoffrey/work-log]]
+- [[agentes/geoffrey/memoria-sugerida]]
+- [[agentes/geoffrey/importadores-seguros]]

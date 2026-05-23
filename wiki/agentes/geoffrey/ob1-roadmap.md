@@ -32,7 +32,7 @@ Implementación requerida por JR:
   - artifacts.
 - Destino: `wiki/agentes/geoffrey/work-logs/`.
 
-Estado: implementado en [[geoffrey/work-logs/index]] y skill runtime `geoffrey-work-log`.
+Estado: implementado en [[agentes/geoffrey/work-logs/index]] y skill runtime `geoffrey-work-log`.
 
 ## Fase 3 — Bandeja de revisión
 
@@ -84,7 +84,7 @@ Antes de considerar pgvector o infraestructura nueva:
 | `wiki/agentes/geoffrey/memoria.md` | Solo con confirmación explícita de JR |
 | `_sensitive.md` | Solo JR |
 
-La versión extendida vive en [[geoffrey/tool-authority-matrix]].
+La versión extendida vive en [[agentes/geoffrey/tool-authority-matrix]].
 
 ## Lo que NO hacer — confirmado
 
@@ -98,12 +98,13 @@ La versión extendida vive en [[geoffrey/tool-authority-matrix]].
 - Fase 2: implementada con `geoffrey-work-log` y `work-logs/`.
 - Fase 3: implementada base con `geoffrey-memory-review`, `memoria-sugerida.md` y script de proponer/listar/promover con confirmación JR.
 - Fase 4: implementada base con `obsidian-import-safe` y scanner dry-run; aún no hace escrituras masivas.
-- Skills de contexto: documentadas como candidatas en [[geoffrey/skills-contexto-candidatas]].
+- Skills de contexto: documentadas como candidatas en [[agentes/geoffrey/skills-contexto-candidatas]].
 
 ## Relacionado
 
 - [[protocolo-operativo-agentes]]
-- [[geoffrey/ob1-fase-2]]
-- [[geoffrey/work-logs/index]]
-- [[geoffrey/tool-authority-matrix]]
-- [[geoffrey/importadores-seguros]]
+- [[agentes/geoffrey/ob1-fase-2]]
+- [[agentes/geoffrey/work-logs/index]]
+- [[agentes/geoffrey/tool-authority-matrix]]
+- [[agentes/geoffrey/importadores-seguros]]
+- [[agentes/geoffrey/investigaciones/superpowers-codex-audit-2026-05-21]]

@@ -34,16 +34,16 @@ work-log-YYYY-MM-DD-HHMM-slug.md
 
 ## Índice
 
-- [[geoffrey/work-logs/work-log-2026-05-19-1200-ob1-fase-2]]
-- [[geoffrey/work-logs/work-log-2026-05-19-1206-ob1-fases-3-4-base]]
-- [[geoffrey/work-logs/work-log-2026-05-19-1645-auditoria-recuperacion-proyecto-uk]]
-- [[geoffrey/work-logs/work-log-2026-05-19-1705-auditoria-estructura-ob1-memoria]]
-- [[geoffrey/work-logs/work-log-2026-05-19-1708-segunda-revision-estructura-ob1-memoria]]
+- [[agentes/geoffrey/work-logs/work-log-2026-05-19-1200-ob1-fase-2]]
+- [[agentes/geoffrey/work-logs/work-log-2026-05-19-1206-ob1-fases-3-4-base]]
+- [[agentes/geoffrey/work-logs/work-log-2026-05-19-1645-auditoria-recuperacion-proyecto-uk]]
+- [[agentes/geoffrey/work-logs/work-log-2026-05-19-1705-auditoria-estructura-ob1-memoria]]
+- [[agentes/geoffrey/work-logs/work-log-2026-05-19-1708-segunda-revision-estructura-ob1-memoria]]
 
 ## Relacionado
 
-- [[geoffrey/work-log]]
-- [[geoffrey/ob1-fase-2]]
-- [[geoffrey/checkpoints/index]]
+- [[agentes/geoffrey/work-log]]
+- [[agentes/geoffrey/ob1-fase-2]]
+- [[agentes/geoffrey/checkpoints/index]]
 ## work-log-2026-05-20-cierre-auditoria-vault-ob1
 - [[work-log-2026-05-20-cierre-auditoria-vault-ob1]] — Cierre auditoría estructural Vault OB1 (2026-05-20)

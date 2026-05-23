@@ -22,4 +22,4 @@ Mejor amigo de [[jr]], miembro del grupo [[chirizosos]]. Como de 2026-05.
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

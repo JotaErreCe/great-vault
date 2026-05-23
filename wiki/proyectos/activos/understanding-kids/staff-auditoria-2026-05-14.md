@@ -75,7 +75,7 @@ Fuente revisada: iCloud local `~/Library/Mobile Documents/com~apple~CloudDocs/Do
 
 ## Relacionado
 
-- [[understanding-kids/staff]] · [[understanding-kids/operacion]] · [[understanding-kids/auditoria-2026-05-14]]
+- [[proyectos/activos/understanding-kids/staff]] · [[proyectos/activos/understanding-kids/operacion]] · [[proyectos/activos/understanding-kids/auditoria-2026-05-14]]
 
 ## Correcciones confirmadas por JR — 2026-05-14 14:44
 

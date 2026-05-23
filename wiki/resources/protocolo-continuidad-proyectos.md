@@ -33,7 +33,7 @@ Para proyectos del Vault, la recuperación mínima es filesystem + índices + hi
 Antes de responder sobre continuidad de un proyecto:
 
 1. **Ubicar el dominio**
-   - Leer [[vault-map]] o [[index]].
+   - Leer [[vault-map]] o [[wiki/index]].
    - Identificar slug del proyecto/persona/agente.
 
 2. **Leer página canónica**
@@ -85,11 +85,11 @@ Antes de decir “no sé” o responder genérico:
 
 ## Caso de referencia
 
-El 2026-05-19 Geoffrey no recuperó inicialmente el proyecto específico de UK [[understanding-kids/plan-nutricion-completa]] y respondió desde el mapa operativo general. Auditoría: [[geoffrey/auditoria-recuperacion-uk-2026-05-19]].
+El 2026-05-19 Geoffrey no recuperó inicialmente el proyecto específico de UK [[proyectos/activos/understanding-kids/plan-nutricion-completa]] y respondió desde el mapa operativo general. Auditoría: [[agentes/geoffrey/auditoria-recuperacion-uk-2026-05-19]].
 
 ## Relacionado
 
 - [[_AI_BOOTSTRAP]]
 - [[arquitectura]]
 - [[vault-map]]
-- [[geoffrey/auditoria-recuperacion-uk-2026-05-19]]
+- [[agentes/geoffrey/auditoria-recuperacion-uk-2026-05-19]]

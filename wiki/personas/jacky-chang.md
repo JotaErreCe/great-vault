@@ -29,4 +29,4 @@ Mejor amigo de [[jr]] desde 2005. Relación cercana que incluye a su familia. Pa
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

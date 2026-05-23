@@ -40,5 +40,5 @@ Auditoría preliminar completa. Falta decisión de JR si quiere pagar/configurar
 
 ## Relacionado
 
-- [[geoffrey/mcp-evaluacion-2026-05-19]]
-- [[geoffrey/ob1-fase-2]]
+- [[agentes/geoffrey/mcp-evaluacion-2026-05-19]]
+- [[agentes/geoffrey/ob1-fase-2]]

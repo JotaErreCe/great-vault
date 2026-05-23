@@ -196,8 +196,8 @@ Talleres/formación financiera queda temporalmente en espera de respuesta de Mag
 3. Preparar consolidación financiera marzo–mayo 2026 solo después de definir alcance por sede/unidad.
 4. Dejar web/checkout para auditoría read-only cuando JR autorice acceso.
 
-Nota operativa: [[understanding-kids/pendientes-operativos-2026-05-15]]. Índice Drive fase 2: [[understanding-kids/indice-operativo-drive-2026-05-15]].
+Nota operativa: [[proyectos/activos/understanding-kids/pendientes-operativos-2026-05-15]]. Índice Drive fase 2: [[proyectos/activos/understanding-kids/indice-operativo-drive-2026-05-15]].
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/indice-operativo-drive-2026-05-15]] · [[understanding-kids/pendientes-operativos-2026-05-15]] · [[understanding-kids/comercial-formacion]] · [[understanding-kids/staff]] · [[understanding-kids/staff-auditoria-2026-05-14]] · [[understanding-kids/operacion]] · [[understanding-kids/finanzas]] · [[understanding-kids/formacion]] · [[understanding-kids/auditoria-2026-05-14]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]]
+- [[understanding-kids]] · [[proyectos/activos/understanding-kids/indice-operativo-drive-2026-05-15]] · [[proyectos/activos/understanding-kids/analisis-semantico-drive-2026-05-15]] · [[proyectos/activos/understanding-kids/pendientes-operativos-2026-05-15]] · [[proyectos/activos/understanding-kids/comercial-formacion]] · [[proyectos/activos/understanding-kids/staff]] · [[proyectos/activos/understanding-kids/staff-auditoria-2026-05-14]] · [[proyectos/activos/understanding-kids/operacion]] · [[proyectos/activos/understanding-kids/finanzas]] · [[proyectos/activos/understanding-kids/formacion]] · [[proyectos/activos/understanding-kids/auditoria-2026-05-14]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]]

@@ -98,8 +98,8 @@ App para que grupos de personas que se mueven juntas puedan verse en un mapa en 
 ## 🔗 Relacionado
 
 - [[crisol-tcg]] — otro proyecto de JR (marketplace TCG, distinto)
-- [[IDENTITY]] — metas de JR
+- [[wiki/IDENTITY]] — metas de JR
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

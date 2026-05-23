@@ -6,7 +6,7 @@ tags: [agente, geoffrey, skills, contexto, ob1]
 
 # Skills de contexto candidatas — Geoffrey
 
-Estas skills pueden construirse en paralelo con Fases 1–2 del roadmap OB1, pero deben respetar [[geoffrey/tool-authority-matrix]] y no comprometer a JR con terceros.
+Estas skills pueden construirse en paralelo con Fases 1–2 del roadmap OB1, pero deben respetar [[agentes/geoffrey/tool-authority-matrix]] y no comprometer a JR con terceros.
 
 ## Candidatas
 
@@ -18,7 +18,7 @@ Estas skills pueden construirse en paralelo con Fases 1–2 del roadmap OB1, per
 
 ## Regla común
 
-Cada skill de contexto debe producir primero un brief/checklist, no ejecutar acciones externas. Si propone memoria, va a [[geoffrey/memoria-sugerida]]. Si cambia `wiki/`, requiere log obligatorio.
+Cada skill de contexto debe producir primero un brief/checklist, no ejecutar acciones externas. Si propone memoria, va a [[agentes/geoffrey/memoria-sugerida]]. Si cambia `wiki/`, requiere log obligatorio.
 
 ## Próximo paso recomendado
 
@@ -27,6 +27,6 @@ Construir primero `/propi-brief`, porque está conectado a contratos activos/cum
 ## Relacionado
 
 - [[protocolo-operativo-agentes]]
-- [[geoffrey/ob1-roadmap]]
-- [[geoffrey/tool-authority-matrix]]
-- [[geoffrey/importadores-seguros]]
+- [[agentes/geoffrey/ob1-roadmap]]
+- [[agentes/geoffrey/tool-authority-matrix]]
+- [[agentes/geoffrey/importadores-seguros]]

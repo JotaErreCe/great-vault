@@ -32,5 +32,5 @@ Satoshi entrega análisis estructurado, fuentes, confianza, razones a favor/en c
 
 ## Relacionado
 
-- [[jordan-belfort/AGENT]]
-- [[geoffrey/inversiones/sistema-agentes-inversiones]]
+- [[agentes/jordan-belfort/AGENT]]
+- [[agentes/geoffrey/inversiones/sistema-agentes-inversiones]]

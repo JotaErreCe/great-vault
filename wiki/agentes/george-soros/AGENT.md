@@ -40,5 +40,5 @@ George entrega análisis estructurado, fuentes, confianza, razones a favor/en co
 
 ## Relacionado
 
-- [[jordan-belfort/AGENT]]
-- [[geoffrey/inversiones/sistema-agentes-inversiones]]
+- [[agentes/jordan-belfort/AGENT]]
+- [[agentes/geoffrey/inversiones/sistema-agentes-inversiones]]

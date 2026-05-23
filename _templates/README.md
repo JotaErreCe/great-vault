@@ -275,7 +275,7 @@ Incluye campos para:
 1. **Copia el contenido** de la plantilla correspondiente en `_templates/`
 2. **Reemplaza los placeholders** (corchetes, valores genéricos)
 3. **Adapta a tu contexto** — mantén la estructura, cambia el contenido
-4. **Enlaza a notas existentes** — usa wikilinks reales en minúsculas, por ejemplo `[[index]]` o `[[dashboard]]`
+4. **Enlaza a notas existentes** — usa wikilinks reales en minúsculas, por ejemplo `[[wiki/index]]` o `[[dashboard]]`
 5. **Guarda en carpeta correcta** — `raw/daily/YYYY-MM-DD.md` para capturas crudas; `wiki/proyectos/activos/nombre.md`, `wiki/personas/nombre.md`, etc. para conocimiento procesado.
 
 ---
@@ -293,5 +293,5 @@ Incluye campos para:
 ## 🔗 Relacionado
 
 - [[_AI_BOOTSTRAP]] — convenciones completas del vault
-- [[index]] — catálogo maestro
+- [[wiki/index]] — catálogo maestro
 - [[dashboard]] — vista operativa

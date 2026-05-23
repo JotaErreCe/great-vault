@@ -6,7 +6,7 @@ tags: [agente, skills, seguridad, reference]
 
 # Catálogo común de skills
 
-Este folder documenta las skills que pueden ser consideradas por los agentes del Vault. Es un catálogo auditado, no una carpeta de ejecución.
+Este folder documenta las skills que pueden ser consideradas por los agentes del Vault. Es un catálogo auditado, no una carpeta de ejecución. Guía del folder: [[agentes/skills/README]].
 
 Las skills ejecutables siguen viviendo donde OpenClaw las descubre en el sistema. Este catálogo registra qué hace cada skill, qué riesgos tiene, dónde revisar su fuente y si JR aprobó su uso.
 
@@ -85,7 +85,7 @@ Aprobó:
 
 ## Relacionado
 
-- [[skills/index]] · [[arquitectura]]
+- [[agentes/skills/index]] · [[arquitectura]]
 ```
 
 ## Skills auditadas / aprobadas
@@ -117,4 +117,4 @@ Aprobó:
 
 ## Relacionado
 
-- [[arquitectura]] · [[geoffrey/skills-permitidas|skills permitidas — Geoffrey]] · [[_AI_BOOTSTRAP]]
+- [[arquitectura]] · [[agentes/geoffrey/skills-permitidas|skills permitidas — Geoffrey]] · [[_AI_BOOTSTRAP]]

@@ -242,5 +242,5 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 ## Related
 
 - [[_templates/openclaw-agent/IDENTITY|IDENTITY.template]] · [[_templates/openclaw-agent/SOUL|SOUL.template]] · [[_templates/openclaw-agent/USER|USER.template]] · [[_templates/openclaw-agent/TOOLS|TOOLS.template]] · [[_templates/openclaw-agent/HEARTBEAT|HEARTBEAT.template]]
-- Instancia real: [[geoffrey/AGENT|AGENT — Geoffrey]] · [[geoffrey/SOUL|SOUL — Geoffrey]] · [[geoffrey/memoria|Memoria — Geoffrey]]
-- Schema del Vault: [[_AI_BOOTSTRAP]] · [[index]]
+- Instancia real: [[agentes/geoffrey/AGENT|AGENT — Geoffrey]] · [[agentes/geoffrey/SOUL|SOUL — Geoffrey]] · [[agentes/geoffrey/memoria|Memoria — Geoffrey]]
+- Schema del Vault: [[_AI_BOOTSTRAP]] · [[wiki/index]]

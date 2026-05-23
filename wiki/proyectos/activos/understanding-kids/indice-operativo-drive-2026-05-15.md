@@ -103,4 +103,4 @@ Mapeado el 2026-05-15. Fuente: Google Drive de UK. No incluye datos sensibles cr
 
 ## Relacionado
 
-- [[understanding-kids/mapa-operativo]] · [[understanding-kids/pendientes-operativos-2026-05-15]] · [[understanding-kids/finanzas]] · [[understanding-kids/operacion]]
+- [[proyectos/activos/understanding-kids/mapa-operativo]] · [[proyectos/activos/understanding-kids/pendientes-operativos-2026-05-15]] · [[proyectos/activos/understanding-kids/finanzas]] · [[proyectos/activos/understanding-kids/operacion]]

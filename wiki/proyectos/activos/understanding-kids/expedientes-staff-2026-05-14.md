@@ -53,4 +53,4 @@ Inventario no sensible de expedientes/documentos de staff en Drive. No se copiar
 
 ## Relacionado
 
-- [[understanding-kids/staff]] · [[understanding-kids/staff-auditoria-2026-05-14]] · [[understanding-kids/operacion]]
+- [[proyectos/activos/understanding-kids/staff]] · [[proyectos/activos/understanding-kids/staff-auditoria-2026-05-14]] · [[proyectos/activos/understanding-kids/operacion]]

@@ -107,4 +107,4 @@ Estilo: protagonista, redondeada. Prioriza legibilidad y jerarquía visual fuert
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

@@ -68,4 +68,4 @@ Recomendación: diferir instalación; candidata preferida si se aprueba: `nano-b
 
 ## Relacionado
 
-- [[skills/index]] · [[canva]] · [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]]
+- [[agentes/skills/index]] · [[canva]] · [[agentes/geoffrey/skills-permitidas|Skills permitidas — Geoffrey]]

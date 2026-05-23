@@ -27,4 +27,4 @@ Medio hermano de [[jr]]. Como de 2026-04.
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

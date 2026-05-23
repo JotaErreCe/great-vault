@@ -96,4 +96,4 @@ Reunión entre Disegno Casa (Pablo Cruz, María José Sierra, Aracely Hernández
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

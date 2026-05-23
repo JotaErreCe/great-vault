@@ -36,8 +36,8 @@ Si eres un agente:
 - [[protocolo-operativo-agentes]] — contrato común OB1 + memoria + continuidad + autoridad para todos los agentes.
 - [[protocolo-continuidad-proyectos]] — recuperación obligatoria de proyectos/subproyectos antes de responder continuidad.
 - [[briefs|Briefs multi-agente]] — señales especializadas y consolidación.
-- [[skills/index|Catálogo común de skills]] — skills auditadas y whitelist por agente.
+- [[agentes/skills/index|Catálogo común de skills]] — skills auditadas y whitelist por agente.
 
 ## Relacionado
 
-- [[_AI_BOOTSTRAP]] · [[arquitectura|Arquitectura de agentes]] · [[briefs|Briefs multi-agente]] · [[skills/index|Skills]]
+- [[_AI_BOOTSTRAP]] · [[arquitectura|Arquitectura de agentes]] · [[briefs|Briefs multi-agente]] · [[agentes/skills/index|Skills]]

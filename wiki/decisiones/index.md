@@ -20,8 +20,8 @@ Formato mensual: `YYYY-MM.md`.
 
 ## Índice mensual
 
-- [[2026-05]]
+- [[decisiones/2026-05]]
 
 ## Relacionado
 
-- [[geoffrey/AGENT]] · [[geoffrey/memoria]] · [[log/2026-05]]
+- [[agentes/geoffrey/AGENT]] · [[agentes/geoffrey/memoria]] · [[log/2026-05]]

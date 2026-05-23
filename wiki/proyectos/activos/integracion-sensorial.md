@@ -67,4 +67,4 @@ IS existe como marca de comunicación especializada en integración sensorial �
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

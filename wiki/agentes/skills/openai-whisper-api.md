@@ -56,7 +56,7 @@ Aprobó: JR solicitó instalar el transcriptor de OpenAI y lo necesario para tra
 
 ## Relacionado
 
-- [[skills/index]]
-- [[geoffrey/skills-permitidas]]
+- [[agentes/skills/index]]
+- [[agentes/geoffrey/skills-permitidas]]
 - [[protocolo-operativo-agentes]]
-- [[geoffrey/importadores-seguros]]
+- [[agentes/geoffrey/importadores-seguros]]

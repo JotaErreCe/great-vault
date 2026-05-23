@@ -69,6 +69,6 @@ Debe recomendar esperar/no acción cuando:
 
 ## Relacionado
 
-- [[jordan-belfort/AGENT]]
-- [[george-soros/AGENT]]
-- [[geoffrey/inversiones/sistema-agentes-inversiones]]
+- [[agentes/jordan-belfort/AGENT]]
+- [[agentes/george-soros/AGENT]]
+- [[agentes/geoffrey/inversiones/sistema-agentes-inversiones]]

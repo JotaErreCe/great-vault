@@ -23,4 +23,4 @@ If an agent reads this file while looking for its own identity, it must stop and
 - [[_AI_BOOTSTRAP]]
 - [[agentes/arquitectura]]
 - [[protocolo-operativo-agentes]]
-- [[geoffrey/AGENT]]
+- [[agentes/geoffrey/AGENT]]

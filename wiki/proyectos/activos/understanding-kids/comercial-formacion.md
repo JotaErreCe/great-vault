@@ -38,7 +38,7 @@ Los leads los responden las secretarias de ambas sedes:
 
 ## Control financiero y pagos
 
-Criterios financieros vigentes: [[understanding-kids/criterios-financieros-formacion]].
+Criterios financieros vigentes: [[proyectos/activos/understanding-kids/criterios-financieros-formacion]].
 
 - Los pagos de diplomados/formación están en su propia hoja, separada de finanzas generales.
 - Registrar ingresos brutos, comisiones/impuestos, egresos operativos y utilidad neta estimada por taller/edición.
@@ -73,7 +73,7 @@ Para operar y medir mejor formación, conviene normalizar los estados así:
 
 ## Fuente Drive de talleres
 
-JR indicó carpeta Drive principal para talleres: `19XFN_MxgAklPxWg2wtIUQUrqAcY9JMi9`. Auditoría agregada: [[understanding-kids/talleres-drive-2026-05-15]]. Tabla histórica viva: [[understanding-kids/tabla-historica-formacion-2024-2026]].
+JR indicó carpeta Drive principal para talleres: `19XFN_MxgAklPxWg2wtIUQUrqAcY9JMi9`. Auditoría agregada: [[proyectos/activos/understanding-kids/talleres-drive-2026-05-15]]. Tabla histórica viva: [[proyectos/activos/understanding-kids/tabla-historica-formacion-2024-2026]].
 
 Hallazgos iniciales:
 
@@ -111,4 +111,4 @@ Guardrail: no responder WhatsApp, no publicar, no mover dinero ni modificar hoja
 
 ## Relacionado
 
-- [[understanding-kids]] · [[understanding-kids/formacion]] · [[understanding-kids/criterios-financieros-formacion]] · [[understanding-kids/talleres-drive-2026-05-15]] · [[understanding-kids/tabla-historica-formacion-2024-2026]] · [[understanding-kids/mapa-operativo]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]]
+- [[understanding-kids]] · [[proyectos/activos/understanding-kids/formacion]] · [[proyectos/activos/understanding-kids/criterios-financieros-formacion]] · [[proyectos/activos/understanding-kids/talleres-drive-2026-05-15]] · [[proyectos/activos/understanding-kids/tabla-historica-formacion-2024-2026]] · [[proyectos/activos/understanding-kids/mapa-operativo]] · [[diplomado-autismo-2026]] · [[integracion-sensorial]]

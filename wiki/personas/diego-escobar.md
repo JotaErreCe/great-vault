@@ -30,4 +30,4 @@ Mejor amigo de [[jr]], miembro del grupo [[chirizosos]]. Apodos: **Chiriz**, **C
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

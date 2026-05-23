@@ -60,4 +60,4 @@ CLI macOS para leer historial local de iMessage/SMS y, si se autoriza, enviar me
 
 ## Relacionado
 
-- [[skills/index|Catálogo común de skills]] · [[geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[geoffrey/integraciones|Integraciones — Geoffrey]]
+- [[agentes/skills/index|Catálogo común de skills]] · [[agentes/geoffrey/skills-permitidas|Skills permitidas — Geoffrey]] · [[agentes/geoffrey/integraciones|Integraciones — Geoffrey]]

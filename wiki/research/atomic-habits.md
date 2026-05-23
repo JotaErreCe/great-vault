@@ -44,8 +44,8 @@ El libro explica por qué los hábitos fallan y cómo construir sistemas sosteni
 ## 🔗 Relacionado
 
 - [[100m-offers]] — otra lectura de JR
-- [[IDENTITY]] — metas de JR incluyen rutinas de lectura y ejercicio
+- [[wiki/IDENTITY]] — metas de JR incluyen rutinas de lectura y ejercicio
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]

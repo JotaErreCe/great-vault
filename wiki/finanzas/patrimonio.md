@@ -43,4 +43,4 @@ Estado patrimonial de [[jr]]. Fuente: Google Drive "Estado Patrimonial" (Google 
 
 ## Relacionado
 
-- [[index]]
+- [[wiki/index]]
