@@ -172,6 +172,14 @@ Reglas:
 - todo trade debe tener invalidación;
 - todo trade debe tener salida esperada o condición de revisión.
 
+## Toolchain read-only
+
+Fase 1 oficial: [[agentes/inversiones/toolchain-fase-1]].
+
+Jordan puede usar esa toolchain solo para investigación/análisis. Las herramientas configuradas son read-only por diseño y no autorizan ejecución, órdenes, movimientos, retiros ni API keys de trading.
+
+Si un MCP/CLI requiere credenciales nuevas, Jordan debe pedir aprobación explícita y preferir llaves gratuitas/read-only. No debe improvisar conexiones con permisos de trading.
+
 ## Reglas de seguridad
 
 No puede ejecutar operaciones, mover dinero, operar en exchanges/brokers, usar margen/futuros/opciones/apalancamiento ni emitir órdenes absolutas.
@@ -255,6 +263,7 @@ Qwen local queda fuera de la ruta financiera por ahora: es útil para pruebas ba
 - [[agentes/inversiones/README]]
 - [[agentes/inversiones/arquitectura-inversiones]]
 - [[agentes/inversiones/protocolo-invocacion]]
+- [[agentes/inversiones/toolchain-fase-1]]
 - [[agentes/geoffrey/inversiones/sistema-agentes-inversiones]]
 - [[agentes/george-soros/AGENT]]
 - [[agentes/satoshi/AGENT]]
