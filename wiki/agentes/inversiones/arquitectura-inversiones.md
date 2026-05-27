@@ -52,9 +52,12 @@ JR — Usuario final / decide
     │       ├── Position Sizing Analyst
     │       ├── Drawdown Monitor
     │       └── Correlation & Concentration Analyst
-    └── Learning & Journal Branch
-        ├── Journal Keeper
-        └── Teacher
+    ├── Learning & Journal Branch
+    │   ├── Journal Keeper
+    │   ├── Performance Analyst
+    │   └── Teacher
+    └── Paper Trading Operations
+        └── Paper Trading Operator — paper execution / Alpaca / TradingView journal
 ```
 
 ## Autoridad
@@ -67,6 +70,8 @@ JR — Usuario final / decide
 | Paul Tudor Jones | Decision Lead para swing trading. |
 | Mark Douglas | Decision Lead para day trading en paper. |
 | Risk Manager | No vota; emite observaciones, límites, sizing y advertencias para JR. |
+| Paper Trading Operator | Ejecuta operaciones simuladas paper-only cuando el Radar Diario o una orden explícita lo autoriza. |
+| Performance Analyst | Calcula desempeño, métricas, comparaciones y dashboard; no decide ni ejecuta. |
 | Units | Informan; no deciden. |
 | Geoffrey | No invoca a Jordan por defecto; mantiene Vault/artifacts/continuidad cuando JR lo solicite. |
 
@@ -77,14 +82,21 @@ La arquitectura usa **agentes reales** donde hay juicio/responsabilidad y **unit
 Agentes reales: [[agentes/inversiones/agents/README]].  
 Lentes/checklists: [[agentes/inversiones/lentes/README]].
 
+## Model routing
+
+La asignación aprobada por JR vive en [[agentes/inversiones/model-routing]]: Jordan decide con `gpt-5.5`, analiza con **Nemotron 3 Super** y opera/registra/mide con **Qwen**.
+
 ## Relacionado
 
 - [[agentes/inversiones/protocolo-invocacion]]
 - [[agentes/inversiones/agents/README]]
+- [[agentes/inversiones/model-routing]]
 - [[agentes/inversiones/lentes/README]]
 - [[agentes/inversiones/agents/charlie-munger/AGENT]]
 - [[agentes/inversiones/agents/paul-tudor-jones/AGENT]]
 - [[agentes/inversiones/agents/mark-douglas/AGENT]]
 - [[agentes/inversiones/agents/risk-manager/AGENT]]
 - [[agentes/inversiones/agents/journal-keeper/AGENT]]
+- [[agentes/inversiones/agents/paper-trading-operator/AGENT]]
+- [[agentes/inversiones/agents/performance-analyst/AGENT]]
 - [[agentes/inversiones/agents/teacher/AGENT]]

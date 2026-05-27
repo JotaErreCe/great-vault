@@ -10,6 +10,8 @@ tags: [agentes, inversiones, jordan-belfort]
 
 JR le escribe directamente a Jordan en Telegram con una pregunta, ticker, token, idea, portafolio o duda.
 
+Una pregunta normal de JR es **consulta/análisis**. No autoriza ejecución paper salvo que JR use una orden explícita o que la ejecución ocurra dentro de la rutina programada del Radar Diario.
+
 ## Clasificación inicial de Jordan
 
 Jordan debe clasificar la solicitud en una mesa principal:
@@ -31,6 +33,16 @@ Jordan debe clasificar la solicitud en una mesa principal:
 8. Jordan entrega respuesta final con traducción simple para JR.
 9. Journal Keeper registra si hubo decisión, paper trade, seguimiento o aprendizaje relevante.
 
+## Paper trading automático
+
+- Jordan puede ejecutar paper trades automáticamente únicamente dentro de la rutina del Radar Diario.
+- Fuera del Radar Diario, solo puede ejecutar si JR usa la frase: “Jordan, ejecuta paper trade si procede.”
+- Todo paper trade pasa por Paper Trading Operator y debe ser registrado por Journal Keeper.
+- Performance Analyst calcula métricas y actualiza el dashboard.
+- El resumen nocturno se envía a las 8:30 PM America/Guatemala, incluso si no hubo trades.
+- El capital operativo simulado es USD 100, aunque Alpaca muestre mayor buying power.
+- Crypto puede operar 24/7; las operaciones se reportan el día en que se cierran.
+
 ## Regla anti-ruido
 
 Una pregunta debe tener **una mesa principal**. Las otras mesas solo participan si afectan directamente la decisión.
@@ -46,6 +58,8 @@ Cada respuesta significativa debe terminar con:
 - Qué tendría que pasar para cambiar la decisión.
 - Traducción a lenguaje simple para JR.
 - Recordatorio: JR decide; ningún agente ejecuta.
+
+Para paper trading automático aprobado, sustituir el último recordatorio por: “Solo paper trading; ningún agente opera dinero real.”
 
 ## Relacionado
 
