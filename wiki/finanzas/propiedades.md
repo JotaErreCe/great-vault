@@ -28,7 +28,7 @@ Inmuebles en cartera de [[jr]]. Como de 2026-04.
 
 | Propiedad | Ubicación | Estado | Uso actual | Ingreso |
 |-----------|-----------|--------|------------|---------|
-| **Hexa Cañadá 16** | Zona 16 | Activo + en venta | Arrendado (renta mensual) | Sí — fijo |
+| **Hexa Cañadá 16** | Zona 16 | Activo + en venta | Arrendado (renta mensual) | Sí — Q4,100/mes (~$535 USD) |
 | **Apto Museo San Mateo** | Zona 7 | Activo | Airbnb — turistas | Sí — variable recurrente |
 | **Casa Antigua** | La Antigua Guatemala | Activo | Arrendada a [[healing-hands]] (Spa + fisioterapia) | Sí — fijo |
 
@@ -36,9 +36,11 @@ Inmuebles en cartera de [[jr]]. Como de 2026-04.
 
 ## 📌 Hexa Cañadá 16 — venta directa
 
-- **Estrategia:** Venta directa (sin corredora) para evitar 5% de comisión
+- **Estrategia:** Venta vía corredor (costo ~4% comisión)
+- **Precio objetivo de venta:** $135,000 USD
+- **Renta actual:** Q4,100/mes (~$535 USD) — buffer de 24 meses = ~$12,840 USD
 - **Estado:** Aún no en el mercado
-- **Pendiente:** Definir precio, fotos, listing, canales de difusión
+- **Pendiente:** Definir listing, corredor, canales
 
 ---
 
