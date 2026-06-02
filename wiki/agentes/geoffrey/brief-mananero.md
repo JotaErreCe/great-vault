@@ -171,10 +171,7 @@ Si hay muchos hallazgos, máximo 3–5 principales; el resto se agrupa:
 
 > Omití X licitaciones/avisos sin conexión clara con clientes o proyectos.
 
-Si no hay algo fuerte:
-
-> **Diario de Centro América — 15/05/2026** · [Leer diario](url)  
-> Sin publicaciones de alta relevancia para SAT/IVE/inmobiliario/sociedades/laboral.
+Si no hay algo fuerte, omitir el apartado completo. No escribir líneas tipo “sin publicaciones fuertes”, “sin publicaciones de alta relevancia”, “lo visible fue...” ni listados de lo irrelevante. Eso es ruido para JR.
 
 No decir “sin acción inmediata” como conclusión principal.
 
@@ -194,22 +191,29 @@ No listar todo si hay demasiados; agrupar y proponer limpieza.
 
 ### 5. ✅ Sugerencias / acciones que Geoffrey puede ejecutar
 
-Cierre obligatorio si hay sugerencias útiles o acciones aprobables. Deben salir de comunicaciones, calendario o recordatorios, no de consejos genéricos. No incluir sugerencias sobre el Diario de Centro América salvo solicitud expresa de JR.
+Cierre obligatorio solo si hay sugerencias útiles o acciones aprobables. Deben salir de comunicaciones, calendario o recordatorios, no de consejos genéricos. No incluir sugerencias sobre el Diario de Centro América salvo solicitud expresa de JR. Si no hay nada útil que sugerir, omitir la sección completa.
 
 Máximo 5–7 acciones.
 
-Incluir opciones como:
+Alcance permitido por defecto para sugerencias del brief:
 
-- “¿Le doy sugerencias de respuesta a estos correos?”
-- “Sugiero añadir X a Reminders en Personal > Recurrentes.”
 - Agregar evento al calendario.
 - Crear/modificar recordatorio.
-- Mover o sugerir mover cita.
-- Preparar borrador de correo, WhatsApp o mensaje.
-- Enviar mensaje/correo solo si JR aprueba texto final.
-- Ordenar un hilo de correos en matriz.
-- Preparar nota legal breve para cliente/proyecto.
-- Revisar un sistema o archivo local.
+- Preparar borrador de respuesta para correo, WhatsApp, SMS o chat.
+
+No sugerir por defecto checklists, presentaciones, documentos, matrices, notas legales, revisiones amplias o tareas de análisis. JR las pedirá directamente cuando las necesite.
+
+Regla proactiva calendario/reminders:
+
+- Si una comunicación menciona reunión, llamada, cita, vencimiento, pago, formulario, audiencia, entrega o fecha concreta, Geoffrey debe verificar si ya existe en Calendar o Reminders.
+- Si ya existe, no sugerir duplicado.
+- Si no existe y Geoffrey no tiene aprobación explícita para crearlo automáticamente, debe proponerlo al final como acción concreta: “Agrego X al calendario” o “Creo reminder para X”.
+
+Regla anti-repetición:
+
+- Antes de repetir una comunicación o sugerencia, revisar briefs/conversación reciente disponible y el estado actual de calendario/reminders.
+- No repetir avisos ya dados, como “enviar factura a Astrid”, salvo que haya novedad material, vencimiento real o JR no haya podido actuar y sea urgente.
+- Si algo sigue pendiente pero ya fue avisado, preferir convertirlo en sugerencia de recordatorio/calendario o respuesta, no volver a contarlo como si fuera nuevo.
 
 Formato:
 
@@ -237,6 +241,7 @@ No incluir por ahora:
 
 ## Lecciones de control de calidad
 
+- 2026-06-02: JR corrigió que el brief debe ser más proactivo y menos ruidoso. Si una reunión/vencimiento detectado en comunicaciones no está en Calendar ni Reminders, sugerir agregarla al final; no repetir avisos ya dados sin novedad; limitar sugerencias a calendario, recordatorios o preparar contestaciones. No sugerir checklists, presentaciones, documentos, matrices ni trabajo amplio salvo pedido directo. También corrigió DCA: si no hay señal útil, omitir el apartado completo; no decir “sin publicaciones fuertes” ni listar lo irrelevante.
 - 2026-05-17: el brief omitió un correo importante de Elder Estrada del 14/05/2026 sobre ISR rentas del trabajo abril 2026, con formulario y vencimiento 15/05/2026, porque el flujo revisó Gmail API/Apple Mail de forma insuficiente y no trató correos leídos con vencimientos fiscales como señal fuerte. Regla: los correos fiscales/contables con vencimiento deben entrar en Comunicaciones o Sugerencias aunque ya estén leídos.
 - Secciones fijas de “Frentes abiertos”.
 - Secciones fijas de “Pendientes acumulados”.
@@ -307,7 +312,7 @@ Categorías mínimas DCA:
 El brief debe incluir solo apartados con señal relevante. Mínimo operativo:
 
 - Título con día, fecha y hora.
-- DCA/radar legal Guatemala compacto con link al diario, salvo fallo total de acceso.
+- DCA/radar legal Guatemala compacto con link al diario solo cuando haya señal relevante; si no hay nada útil, omitir el apartado completo.
 - Comunicaciones, calendario, recordatorios y sugerencias solo cuando haya contenido relevante.
 
 Si una fuente crítica falla y eso afecta el brief, decirlo en una línea sobria: fuente, impacto y nada más.
