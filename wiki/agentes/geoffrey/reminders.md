@@ -12,7 +12,10 @@ Esta página resume cómo Geoffrey debe usar Apple Reminders de JR. El manual ca
 
 La estructura de JR **ya existe dentro de la app** y puede estar representada como **secciones dentro de listas**, no necesariamente como listas separadas.
 
-Error que no debe repetirse: auditar solo listas/grupos y concluir que falta estructura. Hay que revisar también secciones.
+Errores que no deben repetirse:
+
+1. Auditar solo listas/grupos y concluir que falta estructura. Hay que revisar también secciones.
+2. Crear recordatorios con AppleScript ad hoc y dejarlos en `🏠 Personal` con prefijo cuando pertenecen a un proyecto. Eso es incorrecto.
 
 Comando read-only actualizado:
 
@@ -24,7 +27,13 @@ Debe mostrar:
 
 - Structure — grupos/listas.
 - Sections inside lists — secciones internas.
-- Incomplete reminders — recordatorios incompletos.
+- Incomplete reminders — recordatorios incompletos con ruta completa `Área / Proyecto / Sección`.
+
+Regla dura de escritura:
+
+- Para crear recordatorios, usar `~/.openclaw/plugin-skills/apple-reminders/scripts/create_reminder.py`.
+- Antes de reportar éxito, verificar con `dump_reminders.py` que el recordatorio aparece en la ruta correcta: **área/proyecto + sección**.
+- Si no se puede escribir o verificar en la ruta correcta, reportar **bloqueado**. No usar `🏠 Personal` como fallback para asuntos de proyecto.
 
 ## Uso esperado
 
