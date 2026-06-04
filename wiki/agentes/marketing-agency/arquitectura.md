@@ -80,11 +80,11 @@ No puede:
 - dar por final una pieza sin revisión humana;
 - publicar por su cuenta.
 
-### 4. Agency Publishing Operator
+### 4. Hormozi
 
-**Agent ID sugerido:** `agency-publishing-operator`
+**Agent ID:** `agency-publishing-operator`
 
-Responsable de operación, programación, publicación y Meta Ads en modo controlado.
+Responsable de performance marketing, ofertas, programación, publicación y Meta Ads en modo controlado. Nombre inspirado en Alex Hormozi por su enfoque en ofertas y conversión; no representa ni suplanta a la persona real.
 
 Puede:
 
