@@ -64,7 +64,7 @@ Ejemplo esperado:
 
 ## Qué debe cubrir
 
-1. Qué tiene hoy en calendario solo si hay eventos, conflictos, preparación o ventanas relevantes.
+1. Qué tiene hoy en calendario solo si hay eventos del día, conflictos de hoy, preparación de hoy o ventanas relevantes de hoy. No incluir “próximos eventos” en calendario.
 2. Qué comunicaciones relevantes conviene conocer, resumidas sin listar ruido.
 3. Qué recordatorios vencidos/de hoy/próximos requieren atención real.
 4. Qué cambios del DCA/radar legal debe conocer para mantenerse actualizado en su rubro.
@@ -78,13 +78,15 @@ La versión compacta preferida por JR se parece a este patrón: título seco; ca
 
 Sección opcional. Incluir solo si hay eventos, conflictos, preparación necesaria, ventanas útiles o recordatorios que afecten el día. Si el calendario está vacío y no hay nada relevante, omitirla por completo.
 
+Regla dura de calendario: **solo eventos del día actual**. No adelantar “mañana”, “próximos días”, “próxima semana” ni eventos futuros en la sección de calendario. Los vencimientos próximos solo pueden aparecer en Reminders si son deadlines críticos; los eventos futuros se omiten salvo que JR pregunte por agenda próxima.
+
 Incluir:
 
 - Día y fecha.
-- Eventos del calendario con hora, duración, ubicación/link si existe.
+- Eventos de hoy del calendario con hora, duración, ubicación/link si existe.
 - Recordatorios vencidos/de hoy que afecten el día.
-- Ventanas reales de trabajo: mañana/tarde/noche.
-- Conflictos, traslapes, falta de buffer o preparación necesaria.
+- Ventanas reales de trabajo de hoy: mañana/tarde/noche.
+- Conflictos, traslapes, falta de buffer o preparación necesaria de hoy.
 - Qué conviene priorizar hoy, solo si realmente ayuda.
 
 Ejemplo:
@@ -212,8 +214,10 @@ Regla proactiva calendario/reminders:
 Regla anti-repetición:
 
 - Antes de repetir una comunicación o sugerencia, revisar briefs/conversación reciente disponible y el estado actual de calendario/reminders.
+- Revisar explícitamente al menos los últimos 2 briefs entregados cuando el historial esté disponible; si un correo ya fue mencionado, no volverlo a poner en Comunicaciones salvo que tenga novedad material posterior, vencimiento real de hoy/urgente, o JR haya pedido seguimiento.
 - No repetir avisos ya dados, como “enviar factura a Astrid”, salvo que haya novedad material, vencimiento real o JR no haya podido actuar y sea urgente.
 - Si algo sigue pendiente pero ya fue avisado, preferir convertirlo en sugerencia de recordatorio/calendario o respuesta, no volver a contarlo como si fuera nuevo.
+- Si se repite algo por urgencia, decirlo como seguimiento pendiente y mencionar la novedad concreta; no presentarlo como correo nuevo.
 
 Formato:
 
@@ -241,6 +245,7 @@ No incluir por ahora:
 
 ## Lecciones de control de calidad
 
+- 2026-06-04: JR corrigió dos fallas del brief: se repitieron correos ya mencionados el día anterior y se listaron “próximos” eventos. Regla vigente: Comunicaciones debe deduplicar contra los últimos briefs disponibles y solo repetir con novedad/urgencia explícita; Calendario debe mostrar únicamente eventos del día actual, no próximos eventos.
 - 2026-06-02: JR corrigió que el brief debe ser más proactivo y menos ruidoso. Si una reunión/vencimiento detectado en comunicaciones no está en Calendar ni Reminders, sugerir agregarla al final; no repetir avisos ya dados sin novedad; limitar sugerencias a calendario, recordatorios o preparar contestaciones. No sugerir checklists, presentaciones, documentos, matrices ni trabajo amplio salvo pedido directo. También corrigió DCA: si no hay señal útil, omitir el apartado completo; no decir “sin publicaciones fuertes” ni listar lo irrelevante.
 - 2026-05-17: el brief omitió un correo importante de Elder Estrada del 14/05/2026 sobre ISR rentas del trabajo abril 2026, con formulario y vencimiento 15/05/2026, porque el flujo revisó Gmail API/Apple Mail de forma insuficiente y no trató correos leídos con vencimientos fiscales como señal fuerte. Regla: los correos fiscales/contables con vencimiento deben entrar en Comunicaciones o Sugerencias aunque ya estén leídos.
 - Secciones fijas de “Frentes abiertos”.
@@ -282,7 +287,7 @@ Categorías mínimas DCA:
 
 ## Fuentes autorizadas / previstas
 
-- Calendario del día, solo si aporta eventos/ventanas/conflictos relevantes.
+- Calendario del día, solo si aporta eventos/ventanas/conflictos relevantes de hoy; no incluir próximos eventos.
 - Apple Reminders: vencidos, hoy y próximos deadlines críticos.
 - Gmail/Apple Mail autorizado según [[agentes/geoffrey/integraciones|integraciones]].
 - SMS vía [[imsg]], solo lectura local y minimizada.
