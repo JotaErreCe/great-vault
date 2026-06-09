@@ -8,7 +8,7 @@ tags: [agente, geoffrey, brief, rutina]
 
 Especificación operativa del brief diario que Geoffrey debe enviar a Master JR por Telegram.
 
-El brief es un **seguimiento operativo**: cosas que a JR se le podrían haber olvidado, comunicaciones que necesitan seguimiento, recordatorios que requieren acción y actualización compacta del Diario de Centro América / radar legal. No es resumen ejecutivo, newsletter ni “qué pasó hoy”.
+El brief es un **seguimiento operativo**: cosas que a JR se le podrían haber olvidado, comunicaciones que necesitan seguimiento y recordatorios que requieren acción. No es resumen ejecutivo, newsletter ni “qué pasó hoy”. El DCA/radar legal está fuera del scope del brief; lo manejará el agente legal.
 
 ## Entrega
 
@@ -46,7 +46,7 @@ Control obligatorio antes de enviar:
 - Redactar primero un borrador interno.
 - Validarlo con `/Users/jr/.openclaw/workspace-geoffrey/scripts/validate_morning_brief.py` si el script está disponible.
 - Si falla la validación, reescribir el borrador y volver a validar antes de enviar.
-- No enviar un brief que contenga: título adornado, “Qué necesita pasar”, secciones vacías, “no veo eventos”, “Fuente:”, “Radar/Radas de cliente”, explicaciones de proceso del DCA o frases de relevancia tipo “Relevante para radar fiscal”.
+- No enviar un brief que contenga: título adornado, “Qué necesita pasar”, secciones vacías, “no veo eventos”, “Fuente:”, “Radar/Radas de cliente”, cualquier mención al DCA o frases de relevancia tipo “Relevante para radar fiscal”.
 
 JR no quiere un resumen ejecutivo general ni fanfarronería metodológica. Quiere materia útil y accionable cuando aplique. Solo incluir contexto mínimo.
 
@@ -67,12 +67,11 @@ Ejemplo esperado:
 1. Qué tiene hoy en calendario solo si hay eventos del día, conflictos de hoy, preparación de hoy o ventanas relevantes de hoy. No incluir “próximos eventos” en calendario.
 2. Qué comunicaciones relevantes conviene conocer, resumidas sin listar ruido.
 3. Qué recordatorios vencidos/de hoy/próximos requieren atención real.
-4. Qué cambios del DCA/radar legal debe conocer para mantenerse actualizado en su rubro.
-5. Qué sugiere o puede ejecutar Geoffrey con aprobación.
+4. Qué sugiere o puede ejecutar Geoffrey con aprobación.
 
 ## Estructura vigente
 
-La versión compacta preferida por JR se parece a este patrón: título seco; calendario solo si aporta algo; comunicaciones específicas por asunto con links embebidos; DCA en bullets con link al diario/instrumento y materia concreta; recordatorios/tareas relevantes; sugerencias/acciones aprobables. No incluir noticias por ahora. No incluir `Frentes abiertos`, `Pendientes acumulados`, `Radar de cliente` ni `Puede ignorar hoy` como secciones fijas salvo que JR lo vuelva a pedir explícitamente.
+La versión compacta preferida por JR se parece a este patrón: título seco; calendario solo si aporta algo; comunicaciones específicas por asunto con links embebidos; recordatorios/tareas relevantes; sugerencias/acciones aprobables. No incluir noticias por ahora. No incluir `Frentes abiertos`, `Pendientes acumulados`, `Radar de cliente` ni `Puede ignorar hoy` como secciones fijas salvo que JR lo vuelva a pedir explícitamente. El DCA/radar legal NO va en el brief; está delegado al agente legal.
 
 ### 1. 📅 Lo que le depara el día
 
@@ -126,60 +125,7 @@ Formato esperado:
 
 > **[Propi — Contrato firma JM](url):** Astrid y Thelma movieron el hilo esta mañana; el asunto parece centrado en firma/versión final.
 
-### 3. ⚖️ Diario de Centro América / radar legal Guatemala
-
-Esta sección no busca acciones inmediatas. Sirve para mantener a JR actualizado como abogado/empresario sobre cómo van cambiando leyes, acuerdos, resoluciones, criterios e instituciones.
-
-Debe revisarse diario, pero con criterio. No listar todo el DCA.
-
-Subfuentes prioritarias:
-
-1. Diario de Centro América / portal legal.
-2. Congreso: iniciativas, dictámenes, reformas relevantes.
-3. SAT: acuerdos, resoluciones, criterios, registros, cumplimiento tributario.
-4. SIB / IVE / AML.
-5. Banguat / Junta Monetaria.
-6. CC / CSJ / Organismo Judicial.
-7. Municipalidades si afecta inmuebles, licencias, construcción, operación o clientes.
-
-Temas siempre relevantes:
-
-- SAT, impuestos, facturación, registros tributarios, compliance.
-- IVE/AML, sujetos obligados, prevención de lavado.
-- Inmobiliario, licencias, municipalidades, construcción, arrendamientos.
-- Sociedades, Registro Mercantil, gobierno corporativo, representación legal.
-- Contratación pública, licitaciones, presupuesto estatal si afecta clientes o negocio.
-- Laboral, IGSS, Ministerio de Trabajo.
-- Banca/SIB, pagos, crédito, regulación financiera.
-- Congreso cuando impacte legal, fiscal, inmobiliario, empresarial o seguridad jurídica.
-- Educación/terapias si afecta Understanding Kids.
-- Tecnología, AI, e-commerce o pagos si afecta Crisol, UK o productividad de JR.
-
-Formato normal — compacto por defecto:
-
-Encabezado del apartado:
-
-> **Diario de Centro América — 15/05/2026** · [Leer diario](url)
-
-> **[Instrumento / DocumentID](url):** una oración sobre qué pasó.
-
-No basta decir “acuerdo publicado” o “resolución institucional”: debe decir qué regula, aprueba, modifica, adjudica, reconoce o dispone. Si solo se obtiene miniatura/primera página, extraer al menos emisor, número y materia visible. Si no se puede saber qué es, omitirlo o marcar “no identificado”, no rellenar con metadata vacía.
-
-No explicar “por qué importa” y no agregar coletillas tipo “Relevante para radar fiscal”. La profundidad se ofrece bajo demanda.
-
-Omitir acuerdos ministeriales, reconocimientos, nombramientos o publicaciones relacionadas con iglesias evangélicas salvo que JR lo pida expresamente o exista conexión legal/cliente concreta.
-
-No mencionar frases de proceso como “el portal devolvió 0 documentos”, “revisé el último día hábil”, “PDF requirió sesión”, “extraje de primera página” o similares. Si el día publicado no coincide con el día actual, el encabezado ya comunica la fecha revisada.
-
-Si hay muchos hallazgos, máximo 3–5 principales; el resto se agrupa:
-
-> Omití X licitaciones/avisos sin conexión clara con clientes o proyectos.
-
-Si no hay algo fuerte, omitir el apartado completo. No escribir líneas tipo “sin publicaciones fuertes”, “sin publicaciones de alta relevancia”, “lo visible fue...” ni listados de lo irrelevante. Eso es ruido para JR.
-
-No decir “sin acción inmediata” como conclusión principal.
-
-### 4. ✅ Recordatorios / tareas
+### 3. ✅ Recordatorios / tareas
 
 Dar peso alto a Apple Reminders.
 
@@ -193,7 +139,7 @@ Mostrar recordatorios vencidos, de hoy y próximos relevantes, reorganizados por
 
 No listar todo si hay demasiados; agrupar y proponer limpieza.
 
-### 5. ✅ Sugerencias / acciones que Geoffrey puede ejecutar
+### 4. ✅ Sugerencias / acciones que Geoffrey puede ejecutar
 
 Cierre obligatorio solo si hay sugerencias útiles o acciones aprobables. Deben salir de comunicaciones, calendario o recordatorios, no de consejos genéricos. No incluir sugerencias sobre el Diario de Centro América salvo solicitud expresa de JR. Si no hay nada útil que sugerir, omitir la sección completa.
 
@@ -241,7 +187,7 @@ No incluir por ahora:
 - Portafolio personal.
 - Noticias por el momento.
 - Correos tipo newsletter.
-- Listas largas de DCA sin relevancia.
+- DCA / Diario de Centro América / radar legal — delegado al agente legal. No incluir nunca en el brief.
 - Proyectos sin seguimiento concreto pendiente.
 - Sección “Radar de cliente” / “Radas de Cliente”.
 
@@ -260,33 +206,9 @@ No incluir por ahora:
 
 ## Reglas de compresión
 
-- DCA: una oración + link/DocumentID. Expandir solo si es claramente crítico.
-- No incluir noticias/radar externo por ahora. Si JR lo vuelve a pedir, máximo 3 y cada una debe explicar por qué le importa.
+- No incluir noticias/radar externo por ahora.
 - Comunicaciones: contexto mínimo, resumen breve y link embebido cuando exista correo específico; cualquier propuesta pasa a sugerencias.
 - Acciones: máximo 5–8 cuando haya suficientes seguimientos reales; si hay demasiadas, agrupar.
-- Evitar explicar “por qué importa” en DCA; el brief debe entrar en materia y dejar la profundidad para demanda posterior.
-
-## DCA — protocolo robusto
-
-No depender solo de la portada `dca.gob.gt`. Usar:
-
-1. Portal legal: `https://legal.dca.gob.gt/`.
-2. API/búsqueda del portal legal:
-   - `GET /GestionDocumento/EstructuraPublicacionesDCA` para categorías.
-   - `POST /GestionDocumento/BusquedaDocumento` con fechas `DD/MM/YYYY`.
-   - Helper local si está disponible: `~/.openclaw/workspace/scripts/dca_legal_search.py DD/MM/YYYY`.
-   - Para documentos encontrados: `GET /GestionDocumento/VisualizarDocumento?...&doc=ID` y PDF en `/GestionDocumento/DescargarPDFDocumento?idDocumento=ID` cuando haga falta ver contenido.
-3. Portada editorial: `https://dca.gob.gt/`.
-4. Web search restringido a `site:dca.gob.gt` o `site:legal.dca.gob.gt`.
-5. Si todo falla: fuentes secundarias confiables, marcadas como no-DCA.
-
-Categorías mínimas DCA:
-
-- Organismo Legislativo: decretos, acuerdos, disposiciones varias.
-- Organismo Ejecutivo: decretos gubernativos, acuerdos gubernativos, acuerdos ministeriales, disposiciones varias.
-- Organismo Judicial: acuerdos, resoluciones, disposiciones varias.
-- Otras instituciones: acuerdos/resoluciones varias, acuerdos municipales, avisos si parecen relevantes.
-- Convocatorias: licitaciones, subastas, balances/estados solo si tienen relevancia pública, legal o para clientes/proyectos.
 
 ## Fuentes autorizadas / previstas
 
@@ -297,7 +219,6 @@ Categorías mínimas DCA:
 - WhatsApp/chats cuando la integración esté disponible/autorizada.
 - Apple Notes, cuando la integración esté autorizada.
 - Great Vault: [[dashboard]], proyectos activos, agenda, conversación diaria y notas relevantes.
-- Web: DCA, Congreso, SAT, SIB/IVE, Banguat, CC/CSJ/OJ, municipalidades relevantes.
 
 ## Reglas duras de especificidad
 
@@ -320,7 +241,6 @@ Categorías mínimas DCA:
 El brief debe incluir solo apartados con señal relevante. Mínimo operativo:
 
 - Título con día, fecha y hora.
-- DCA/radar legal Guatemala compacto con link al diario solo cuando haya señal relevante; si no hay nada útil, omitir el apartado completo.
 - Comunicaciones, calendario, recordatorios y sugerencias solo cuando haya contenido relevante.
 
 Si una fuente crítica falla y eso afecta el brief, decirlo en una línea sobria: fuente, impacto y nada más.
