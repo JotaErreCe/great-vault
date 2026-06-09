@@ -111,6 +111,8 @@ Para cada comunicación relevante:
 
 Control de calidad obligatorio para correo:
 
+- **Deduplicación obligatoria — ejecutar primero:** correr `python3 /Users/jr/.openclaw/workspace-geoffrey/scripts/brief_email_dedup.py recent` para obtener el listado de thread IDs y subjects ya reportados en los últimos 7 días. Un correo cuyo thread ID o subject ya aparezca en ese listado NO se incluye en Comunicaciones a menos que tenga novedad material posterior (nueva respuesta, vencimiento inminente de hoy, o JR lo pidió expresamente). Si se incluye por novedad, presentarlo como "Seguimiento —" no como correo nuevo.
+- **Registrar al final:** una vez redactado el brief (antes de enviarlo), correr `python3 /Users/jr/.openclaw/workspace-geoffrey/scripts/brief_email_dedup.py log YYYY-MM-DD <thread_id1> <thread_id2> --subjects "Subj A" "Subj B"` con la fecha de hoy, los thread IDs de Gmail incluidos y los subject-keys usados en Comunicaciones. Esto actualiza el log para mañana.
 - No depender solo de Gmail API ni solo de `is:unread`; revisar también Apple Mail local cuando esté disponible.
 - Revisar correos recientes leídos y no leídos, especialmente de los últimos 3–7 días, porque JR puede haber abierto un correo y aún requerir seguimiento.
 - Usar `/Users/jr/.openclaw/workspace-geoffrey/scripts/scan_apple_mail_recent.py` para Apple Mail local si existe; cubre cuentas/carpetas locales como `kidsunderstanding.com`, iCloud y `[Gmail]/Todos` sin modificar correos.
@@ -245,6 +247,7 @@ No incluir por ahora:
 
 ## Lecciones de control de calidad
 
+- 2026-06-09: JR reportó que el brief sigue enviando correos ya enviados en ocasiones anteriores. Se implementó log de deduplicación persistente (`outputs/brief-email-log.json`) y script helper (`scripts/brief_email_dedup.py`). Ahora el cron debe consultar el log antes de incluir cualquier correo en Comunicaciones y actualizarlo al terminar. Ver instrucciones en “Control de calidad obligatorio para correo”.
 - 2026-06-04: JR corrigió dos fallas del brief: se repitieron correos ya mencionados el día anterior y se listaron “próximos” eventos. Regla vigente: Comunicaciones debe deduplicar contra los últimos briefs disponibles y solo repetir con novedad/urgencia explícita; Calendario debe mostrar únicamente eventos del día actual, no próximos eventos.
 - 2026-06-02: JR corrigió que el brief debe ser más proactivo y menos ruidoso. Si una reunión/vencimiento detectado en comunicaciones no está en Calendar ni Reminders, sugerir agregarla al final; no repetir avisos ya dados sin novedad; limitar sugerencias a calendario, recordatorios o preparar contestaciones. No sugerir checklists, presentaciones, documentos, matrices ni trabajo amplio salvo pedido directo. También corrigió DCA: si no hay señal útil, omitir el apartado completo; no decir “sin publicaciones fuertes” ni listar lo irrelevante.
 - 2026-05-17: el brief omitió un correo importante de Elder Estrada del 14/05/2026 sobre ISR rentas del trabajo abril 2026, con formulario y vencimiento 15/05/2026, porque el flujo revisó Gmail API/Apple Mail de forma insuficiente y no trató correos leídos con vencimientos fiscales como señal fuerte. Regla: los correos fiscales/contables con vencimiento deben entrar en Comunicaciones o Sugerencias aunque ya estén leídos.
