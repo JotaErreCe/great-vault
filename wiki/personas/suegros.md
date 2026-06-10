@@ -19,7 +19,7 @@ Padres de [[monica]] — suegros de [[jr]]. Como de 2026-04.
 | Persona | Relación con JR |
 |---------|----------------------|
 | **Laura Mendoza Yaquián** | Suegra (mamá de Mónica) |
-| **Francisco Samayoa** | Suegro (papá de Mónica) |
+| **Francisco Samayoa** | Suegro (papá de Mónica) · fsamayoa@bytesw.com |
 
 ---
 
