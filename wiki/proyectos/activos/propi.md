@@ -80,6 +80,17 @@ Abogado de Propi Tech, S.A. a través de AMC Legal. Servicios:
 - [ ] Firma contratos Corp. Victoria — Thelma coordinando con Astrid, semana del 6 mayo
 - [ ] Alianza Milésimo — pendiente confirmación y firma
 
+## 📌 Actualización — 2026-06-15
+
+Reunión operativa Propi: Ena necesita que las personas puedan hacer todo a través de Propi y su página, con el beneficio de agilizar el proceso tanto para cliente como para desarrollador.
+
+Pendientes nuevos:
+
+- [ ] Revisar correo entrante de Propi con el requerimiento formal.
+- [ ] Preparar documento comercial/autorización donde el desarrollador autorice que los fondos pasen por cuentas de Propi/estructura operativa correspondiente y luego se transfieran al desarrollador.
+- [ ] Hacer consulta/análisis IVE sobre si existe inconveniente AML/regulatorio en recibir fondos y transferirlos posteriormente al desarrollador.
+- [ ] Firma con Stuardo Samayoa para Cashback: viernes 2026-06-19 a las 10:00 AM.
+
 ---
 
 ## 🔗 Relacionado
