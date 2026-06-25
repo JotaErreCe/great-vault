@@ -1,7 +1,7 @@
 ---
 type: resource
 date: 2026-04-30
-last-touched: 2026-04-30
+last-touched: 2026-06-24
 tags:
   - finanzas
   - tema/propiedades
@@ -20,9 +20,16 @@ Inmuebles en cartera de [[jr]]. Como de 2026-04.
 
 | Propiedad | Ubicación | Tipo |
 |-----------|-----------|------|
-| **Casa Elgin II** | Col. Elgin II, Z13, Timbre 2 | **Alquilada** — JR y familia viven aquí |
+| **Casa Elgin II** | Col. Elgin II, Z14, Timbre 2 | **Alquilada** — JR y familia viven aquí |
 
 ---
+
+### Servicios asociados
+
+| Servicio | Dato |
+|----------|------|
+| EEGSA — correlativo | 1406971 |
+| EEGSA — número de contador | V31569 |
 
 ## 🏢 Propiedades en cartera (de JR)
 

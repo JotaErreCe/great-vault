@@ -65,3 +65,19 @@ Hay propuestas pendientes listadas abajo. No promover sin confirmación explíci
 
 - Evita repetir el error de olvidar o no recuperar proyectos existentes en el Vault.
 
+### 2026-06-24 20:05 — e0a643cfad0a
+
+- estado: pendiente
+- fingerprint: `e0a643cfad0a`
+- fuente/contexto: telegram-direct 2026-06-24
+- riesgo de privacidad: medio
+- destino sugerido: wiki/agentes/geoffrey/memoria.md
+
+#### Recuerdo propuesto
+
+- El apartamento/casa de Elgin II donde vive JR con Magoo tiene servicio EEGSA: correlativo 1406971 y número de contador V31569.
+
+#### Razón para guardarlo
+
+- Dato operativo útil para pagos/revisión de luz EEGSA de Elgin II; sensible por identificar servicio residencial.
+
