@@ -39,3 +39,7 @@ use_policy: operational_continuity
 ## Artifacts
 
 - /Users/jr/Library/Mobile Documents/com~apple~CloudDocs/Documents/AMC Legal/Clientes/Propi/Geoffrey
+
+## Corrección posterior — 2026-07-01 14:59
+
+JR corrigió que la asamblea 14 sí está hecha. Queda sin efecto la advertencia anterior de tratar la asamblea 14 como pendiente. Para la renovación de José Mario, la asamblea 15 / 05-2026 / folio 15 puede mantenerse como siguiente acto en secuencia, sujeto a revisión del estado en `Control.xlsx`.
