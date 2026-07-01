@@ -16,7 +16,7 @@ tags:
 
 Entidad guatemalteca de la red **Propi LatAm** (proptech). Cliente activo y completo de [[amc-legal]]. Como de 2026-04.
 
-> Para el detalle del trabajo legal, alianzas y pendientes operativos, ver el proyecto [[propi]].
+> Para el detalle del trabajo legal, alianzas y pendientes operativos, ver el proyecto [[propi]] y el [[propi/mapa-operativo|mapa operativo]].
 
 ---
 
@@ -35,6 +35,10 @@ Entidad guatemalteca de la red **Propi LatAm** (proptech). Cliente activo y comp
 - [[corp-victoria]] — broker
 
 ---
+
+## 🗺️ Mapa operativo
+
+- [[propi/mapa-operativo|Mapa operativo Propi]] — carpetas iCloud, líneas legales, contactos, contratos, IVE/AML, marca, cobros y pendientes.
 
 ## 🔗 Relacionado
 

@@ -17,6 +17,12 @@ Proyecto de [[jr]] actuando como abogado de **Propi LatAm** en Guatemala. Plataf
 
 ---
 
+## 🗺️ Mapa operativo
+
+- [[propi/mapa-operativo|Mapa operativo Propi]] — índice canónico de carpetas iCloud, líneas legales, contactos, contratos, IVE/AML, marca, cobros, criterios y pendientes.
+
+---
+
 ## 📝 Descripción
 
 **Propi Tech, S.A.** es la entidad legal guatemalteca de Propi LatAm (propilatam.com), una proptech latinoamericana que comercializa proyectos inmobiliarios. JR es el **abogado de Propi Tech** a través de [[amc-legal]] — gestiona toda la estructura corporativa y contratos. No es solo revisor de documentos: lleva el expediente legal completo.
@@ -34,12 +40,13 @@ Proyecto de [[jr]] actuando como abogado de **Propi LatAm** en Guatemala. Plataf
 | Persona | Empresa | Rol | Email |
 |---------|---------|-----|-------|
 | **Thelma Parra** | Propi LatAm | Ejecutiva de alianzas / contacto principal; si un correo legal involucra a Thelma, clasificarlo como Propi | thelma.parra@propilatam.com |
-| **Juan Luis Melgar** | Propi LatAm | Equipo Propi | juan.melgar@propilatam.com |
+| **Juan Luis Melgar** | Ex Propi LatAm | Ex equipo Propi; expediente histórico/laboral, no contacto activo | juan.melgar@propilatam.com |
 | **Eduardo José Francés** | Propi LatAm | Propietario de Propi | eduardo@propilatam.com |
 | **José Mario** | Propi LatAm | Propietario de Propi | — |
 | **Andres Mancilla** | IntenseGroup GT | Partner Guatemala | amancilla@intensegroupgt.com |
+| Hidania Cifuentes | IntenseGroup GT | Seguimiento firma contrato IntenseGroup | hcifuentes@intensegroupgt.com |
 | **Alberto Fernández Gordo** | Milésimo | Gerente de Ventas | afernandez@milesimo.com.gt |
-| Astrid | Propi LatAm | Coordinadora contratos | — |
+| Astrid Landaverde | Propi LatAm | Coordinadora contratos / Regional Head of Treasury | astrid@propilatam.com |
 
 ---
 
@@ -92,6 +99,20 @@ Pendientes nuevos:
 - [ ] Firma con Stuardo Samayoa para Cashback: viernes 2026-06-19 a las 10:00 AM.
 
 ---
+
+
+## 📌 Actualización — 2026-06-30
+
+Terminaciones contractuales civiles para contratistas:
+
+- Se prepararon documentos privados separados de terminación contractual para **Carlos Antonio Huertas Ramírez** y **Angel David Vargas Pérez**.
+- Versiones finales verificadas:
+  - `Contratos/Empleados y Contratistas/Contratistas/Carlos Antonio Huertas Ramirez/Terminación Contractual V8 - Carlos Antonio Huertas Ramírez.docx`.
+  - `Contratos/Empleados y Contratistas/Contratistas/Angel David Vargas Pérez/Terminación Contractual V10 - Angel David Vargas Pérez.docx`.
+- Comparece **Ena Alejandra del Rosario González Ruiz**, soltera, Máster en Administración de Empresas, nicaragüense, domiciliada en Guatemala, con pasaporte número **“C” cero tres millones ochocientos cinco mil setecientos cincuenta y cuatro (C03805754)**, en calidad de **Country Manager Guatemala**.
+- Pasaporte de Ena guardado en `Documentos de Identificación/Pasaporte Ena Gonzalez.pdf`.
+- Documentos enviados a **Astrid Landaverde <astrid@propilatam.com>** con asunto `Documentos solicitados`.
+- Criterio jurídico anotado: la terminación unilateral sin responsabilidad del contrato original está atada a preaviso de 30 días; para evitar depender de ese plazo, conviene que el contratista acepte expresamente la terminación/finiquito o reconocer/pagar el equivalente del plazo.
 
 ## 🔗 Relacionado
 

@@ -34,7 +34,7 @@ Geoffrey debe aplicar [[protocolo-operativo-agentes]] como contrato superior de 
 - `wiki/` es conocimiento compilado: Geoffrey puede crear y actualizar páginas siguiendo el schema.
 - `_templates/` contiene moldes reutilizables, no instancias reales.
 - Toda edición en `wiki/` requiere entrada append-only en `wiki/log/YYYY-MM.md`.
-- Todo asunto importante hablado con JR debe cerrarse conforme a [[protocolo-captura-diaria]]: conversación diaria, decisiones, página canónica, work log o checkpoint según corresponda. `tmp/`, runtime, cache, transcript interno o una respuesta de chat no cuentan como Vault.
+- Todo asunto sustantivo hablado con JR debe cerrarse el mismo día conforme a [[protocolo-captura-diaria]]: conversación diaria, decisiones, página canónica, work log o checkpoint según corresponda. Por defecto, el chat directo con JR nutre el Vault: datos, decisiones, instrucciones, correcciones, criterios, documentos creados/enviados, contactos, pendientes y errores aprendidos deben quedar destilados en la ubicación correcta. `tmp/`, runtime, cache, transcript interno, `.learnings/` o una respuesta de chat no cuentan como Vault. No guardar transcripts crudos ni datos sensibles innecesarios.
 - Leer completo cualquier archivo wiki antes de editarlo.
 - Buscar antes de crear para evitar duplicados.
 - Mantener frontmatter obligatorio en páginas wiki.

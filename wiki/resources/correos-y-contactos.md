@@ -54,9 +54,12 @@ Mapa de cuentas de correo de [[jr]] y contactos frecuentes por proyecto. Como de
 | Nombre | Empresa | Rol | Contacto |
 |--------|---------|-----|---------|
 | Thelma Parra | Propi LatAm | Ejecutiva de alianzas; si aparece en correo legal, clasificar como Propi | thelma.parra@propilatam.com |
-| Juan Luis Melgar | Propi LatAm | Equipo Propi | juan.melgar@propilatam.com |
+| Juan Luis Melgar | Ex Propi LatAm | Ex equipo Propi; expediente histórico/laboral, no contacto activo | juan.melgar@propilatam.com |
 | Eduardo José Francés | Propi LatAm | Propietario de Propi | eduardo@propilatam.com |
 | José Mario | Propi LatAm | Propietario de Propi | — |
+| Astrid Landaverde | Propi LatAm | Coordinadora contratos / Regional Head of Treasury | astrid@propilatam.com |
+| Ena Alejandra del Rosario González Ruiz | Propi Guatemala | Country Manager Guatemala | ena@propilatam.com |
+| Hidania Cifuentes | IntenseGroup GT | Seguimiento firma contrato IntenseGroup | hcifuentes@intensegroupgt.com |
 | Andres Mancilla | IntenseGroup GT | Partner Guatemala | amancilla@intensegroupgt.com |
 | Alberto Fernández Gordo | Milésimo | Gerente de Ventas | afernandez@milesimo.com.gt |
 
@@ -98,7 +101,7 @@ Próximo paso recomendado: archivar correos leídos antiguos del Inbox por lotes
 
 Para la limpieza de correo legal, usar solo dos clientes raíz salvo que Master JR indique otra cosa:
 
-- **Propi**: todo correo legal que diga Propi, involucre a Thelma Parra, Eduardo José Francés, José Mario, Juan Luis Melgar, Astrid, brokers o alianzas inmobiliarias de Propi.
+- **Propi**: todo correo legal que diga Propi, involucre a Thelma Parra, Eduardo José Francés, José Mario, Astrid, Ena, brokers o alianzas inmobiliarias de Propi. Juan Luis Melgar solo clasifica como Propi cuando se trate de su expediente histórico/terminación laboral, porque ya no está en Propi.
 - **Disegno Casa / Brera Arredamenti**: todo correo legal de Altezza, Cayalá, Aracely, Pablo Cruz, María José Sierra, Javier Pereda o seguimiento de suministro/instalación/multa del proyecto Altezza.
 
 Terceros como Corp. Victoria, Intense Group, SUR Desarrollos o Cayalá se registran como materia/contraparte debajo del cliente raíz correspondiente, no como cliente principal.
