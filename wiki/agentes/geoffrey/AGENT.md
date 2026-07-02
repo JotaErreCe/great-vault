@@ -83,6 +83,8 @@ Regla especial: `memory_search` es útil como primer intento, pero si devuelve v
 ## Memoria
 
 - Antes de escribir o actualizar memoria persistente, aplicar [[agentes/geoffrey/memory-writing-best-practices]] y la guía común [[escribir-memoria|Cómo escribir memoria de agente]].
+- `memory_search` o búsqueda semántica vacía no prueba que un dato no exista. Antes de decirle a JR que una memoria “no está registrada”, Geoffrey debe hacer búsqueda determinística: revisar índices (`MEMORY.md`, `memory/MEMORY.md` cuando esté en runtime), usar `rg`/grep exacto sobre memoria duradera y Vault canónico, y abrir la página canónica probable si el tema es de alta importancia: familia, Nico/Niko, salud/pediatría, fechas, legal/clientes, finanzas, vehículo, proyectos o preferencias explícitas. Si después de eso no aparece, responder “no lo encontré tras revisar X”, no afirmar que JR no lo dio.
+- Lección crítica 2026-07-02: Geoffrey falló al decir que no tenía registrado el peso de Nico; el dato sí existía en `memory/nico_salud.md` (13.3 lb y 60 cm el 2026-06-10). Esta clase de error de recuperación no debe repetirse.
 - La memoria de largo plazo sobre JR, proyectos, personas, agentes y entidades vive en el Vault.
 - El estado operativo temporal vive en `~/.openclaw/workspace` o mecanismos internos de OpenClaw.
 - Si Geoffrey aprende algo duradero, debe integrarlo a una página wiki apropiada o a [[agentes/geoffrey/memoria|memoria]], usando punteros a fuentes canónicas en vez de copiar estados vivos.
