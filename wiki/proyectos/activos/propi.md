@@ -95,8 +95,12 @@ Pendientes nuevos:
 
 - [ ] Revisar correo entrante de Propi con el requerimiento formal.
 - [ ] Preparar documento comercial/autorización donde el desarrollador autorice que los fondos pasen por cuentas de Propi/estructura operativa correspondiente y luego se transfieran al desarrollador.
-- [ ] Hacer consulta/análisis IVE sobre si existe inconveniente AML/regulatorio en recibir fondos y transferirlos posteriormente al desarrollador.
+- [x] Consulta IVE/AML sobre recibir fondos de terceros y transferirlos al desarrollador: **resuelto, no existe inconveniente regulatorio**. La pregunta se la plantearon a JR directamente; confirmado que no hay problema.
 - [ ] Firma con Stuardo Samayoa para Cashback: viernes 2026-06-19 a las 10:00 AM.
+
+## 📌 Actualización — 2026-07-02
+
+Redactando contrato modelo de Alianza Estratégica (basado en contratos de Corp. Victoria/Segheria, Eccede, Factor Desarrollos, Milésimo, Intese Group, Owny) para uso con múltiples proyectos/desarrolladores. Incluye Cláusula V.B (cobro por cuenta ajena) para el escenario de fondos pasando por cuenta de Propi — **ya confirmado sin objeción IVE/AML**. Archivo: `AMC Legal/Clientes/Propi/Contratos/Alianzas Comerciales/MODELO - Contrato de Alianza Estratégica Propi.md`.
 
 ---
 
