@@ -6,6 +6,16 @@ tags: [agentes, inversiones, jordan-belfort]
 
 # Arquitectura de inversiones v2
 
+## Estado operativo — arquitectura histórica desde 2026-07-04
+
+Esta arquitectura queda preservada como **histórico del experimento Jordan/Paper Lab**. No es arquitectura activa.
+
+Hasta que JR apruebe una reestructuración nueva:
+
+- Jordan no opera como CIO/agente directo.
+- Los desks, branches, units y Paper Trading Operations no deben invocarse.
+- Cualquier análisis de inversiones debe tratar esta página como antecedente, no como protocolo vigente.
+
 ```text
 JR — Usuario final / decide
 └── Jordan Belfort — CIO / Investment Mentor / Auditor final / agente directo en Telegram

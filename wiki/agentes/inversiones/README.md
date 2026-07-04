@@ -6,18 +6,29 @@ tags: [index, agentes, inversiones, jordan-belfort]
 
 # Sistema de agentes de inversiones — v2
 
-Arquitectura canónica para Jordan Belfort como agente conversacional directo de JR en Telegram.
+## Estado operativo — sistema suspendido desde 2026-07-04
+
+JR retiró el experimento de Jordan/Paper Lab. Esta arquitectura queda **congelada como histórico** hasta rediseño completo.
+
+Estado vigente:
+
+- No hay invocación operativa de Jordan.
+- No hay Radar Diario ni paper trading automático activo.
+- No deben correr rutinas, análisis programados, resúmenes nocturnos ni operaciones simuladas.
+- Estos documentos solo sirven como antecedente para reconstruir una versión nueva del sistema de inversiones.
+
+Arquitectura histórica del experimento Jordan Belfort como agente conversacional directo de JR en Telegram.
 
 ## Principios
 
 1. **JR decide en la vida real.** Ningún agente ejecuta compras, ventas, transferencias ni movimientos de dinero.
-2. **Jordan es contacto directo de JR.** Geoffrey no necesita invocarlo; Geoffrey solo coordina documentación, Vault, artifacts y continuidad cuando JR se lo pida.
+2. **Históricamente Jordan fue contacto directo de JR.** Desde 2026-07-04 queda retirado; Geoffrey no debe invocarlo por defecto.
 3. **Tres mesas toman decisiones analíticas:** largo plazo, swing trading y day trading/paper trading.
 4. **Las unidades informan; no deciden.** El Decision Lead de cada mesa integra sus unidades.
 5. **Risk & Safety no vota, pero observa y puede advertir, limitar o recomendar no proceder.** JR recibe esas observaciones para decidir.
 6. **Jordan puede pedir doble revisión y debe avisar a JR si cree que un Decision Lead está equivocado, exagerando confianza o ignorando riesgo.**
 7. **Day trading está activo solo como paper trading.** No se usa dinero real hasta nueva autorización explícita de JR.
-8. **Paper trading automático aprobado:** Jordan puede ejecutar operaciones simuladas dentro del Radar Diario mediante el Paper Trading Operator, usando solo capital simulado y guardrails paper-only.
+8. **Paper trading automático retirado:** el Radar Diario/Paper Trading Operator queda suspendido desde 2026-07-04; esta regla se conserva solo como antecedente histórico.
 
 ## Mapa rápido
 

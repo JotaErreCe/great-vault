@@ -6,6 +6,17 @@ tags: [agentes, inversiones, jordan-belfort]
 
 # Protocolo de invocación — Jordan directo
 
+## Estado operativo — protocolo suspendido desde 2026-07-04
+
+Este protocolo queda **suspendido**. JR decidió retirar a Jordan como agente operativo y conservar sus datos solo como histórico.
+
+Mientras no exista una reactivación explícita:
+
+- No se debe invocar a Jordan.
+- No se debe clasificar solicitudes por mesas/desks.
+- No se debe ejecutar paper trading automático ni manual desde este sistema.
+- Si una solicitud de inversión llega a Geoffrey, debe responder él directamente con herramientas permitidas o pedir nuevo diseño, sin activar Jordan.
+
 ## Entrada normal
 
 JR le escribe directamente a Jordan en Telegram con una pregunta, ticker, token, idea, portafolio o duda.
