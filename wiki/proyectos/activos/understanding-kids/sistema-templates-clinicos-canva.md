@@ -86,6 +86,13 @@ Cada template tendrá versión UK, versión IS y adaptación a story. La bibliot
 - Primera generación: rechazada por saturación y exceso de recursos gráficos.
 - Segunda generación sobria: en revisión.
 - Tercera generación con fondos neutros editoriales: en revisión.
+- Prueba de construcción con Skill de Canva sin uso manual: `A1 · UK · Pedir ayuda no significa que algo esté mal · ImageToDesign` (`DAHOpVRST3Y`), 1 página, 1080 × 1350 px, guardado en `Artes Clínica/Templates/UK` el 2026-07-06.
+- [Editar prueba A1 con Skill en Canva](https://www.canva.com/d/gIWdmW9I5AGOsBc).
+- Resultado técnico de la prueba: la ruta `import-design-from-url` con HTML creó un documento, pero Canva lo detectó como vacío; se descarta como método. La ruta `image-to-design` desde PNG sí produjo una página visible, no vacía, editable, con 8 bloques de texto detectados y elementos gráficos separados. Este método queda como ruta provisional para construir A1 únicamente con la Skill, pendiente de aprobación visual final.
+- Corrección posterior por requerimiento de carrusel: `A1 · UK · Carrusel · Pedir ayuda · 1080x1350` (`DAHOpsgE9dg`), 6 páginas, cada una 1080 × 1350 px, texto editable, guardado en `Artes Clínica/Templates/UK` el 2026-07-06.
+- [Editar carrusel A1 final en Canva](https://www.canva.com/d/aD9JZRtBmp1TfjA).
+- Resultado técnico de la corrección: la ruta más estable sin uso manual de Canva es generar un PPTX multipágina 4:5 con tipografía, composición y jerarquía definidas, e importarlo mediante la Skill `import-design-from-url`. La primera importación PPTX conservó 4:5 pero quedó en 1036 × 1296 px; se regeneró con escala exacta para que Canva importara cada página como 1080 × 1350 px. La versión 1036 × 1296 fue movida a `Templates/Descartes`.
+- Carpeta Canva `Artes Clínica/Templates/Descartes` creada (`FAHOpeZ2c0g`) para separar pruebas fallidas sin contaminar `Templates/UK` ni `Templates/IS`.
 - Carpeta Canva `Artes Clínica/Templates` creada (`FAHOWbkAPuQ`).
 - Subcarpeta UK creada (`FAHOWRMWq3Y`).
 - Subcarpeta IS creada (`FAHOWQ_4BOE`).
