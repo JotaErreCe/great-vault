@@ -75,7 +75,14 @@ Cada template tendrá versión UK, versión IS y adaptación a story. La bibliot
 ## Estado
 
 - Arquitectura visual: aprobada por JR el 2026-07-03.
-- Construcción en Canva: pendiente.
+- Dirección visual definitiva para contenido clínico: **A1 refinado · Editorial amable**, aprobada por JR el 2026-07-06 y documentada en [[direccion-visual-contenido-clinico-2026]].
+- La dirección combina la jerarquía editorial de A1 con el fondo marfil, las formas suaves y el ritmo amable de A3.
+- Se elimina el nombre o logo repetido en cada página y se reemplazan las fotografías arrinconadas por ventanas fotográficas amplias con bordes redondeados.
+- Carrusel piloto reconstruido en Canva: `A1 · Carrusel clínico IS · ¿Qué debemos evitar en la alimentación?` (`DAHOoArCvfI`), 7 páginas, guardado en `Artes Clínica/Templates/IS` el 2026-07-06.
+- [Editar el carrusel piloto en Canva](https://www.canva.com/d/XQTBTKqtVmfW49e).
+- Construcción en Canva: piloto listo para revisión visual y clínica.
+- Nuevo documento maestro creado desde cero el 2026-07-06: `MASTER A1 · Contenido clínico IS · Feed 4x5` (`DAHOodjF8_Q`), una página vacía de 1080 × 1350 px en `Artes Clínica/Templates/IS`.
+- [Editar el nuevo documento maestro A1](https://www.canva.com/d/GDTaPd2I3z_6OAL).
 - Primera generación: rechazada por saturación y exceso de recursos gráficos.
 - Segunda generación sobria: en revisión.
 - Tercera generación con fondos neutros editoriales: en revisión.
@@ -152,4 +159,5 @@ Cada template tendrá versión UK, versión IS y adaptación a story. La bibliot
 
 - [[understanding-kids]]
 - [[integracion-sensorial]]
+- [[direccion-visual-contenido-clinico-2026]]
 - [[visual-identity]]
