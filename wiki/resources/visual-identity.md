@@ -19,23 +19,37 @@ Esta nota es la referencia principal para el **Canva Style Agent**.
 
 ## 🎨 Paleta de colores — Familia visual 2026
 
-| Rol | Color | Uso |
-|-----|-------|-----|
-| Acento principal | 🟡 **Amarillo** | Llamados visuales, CTA, destacados |
-| Apoyo | 🔵 **Azul / celeste** | Soporte, frescura, balance |
-| Contraste | ⚫ **Gris oscuro** | Texto principal, marcos |
-| Base | ⚪ **Blanco / crema** | Fondo principal — limpio y respirado |
+Hexadecimales oficiales confirmados desde `ManualDeMarca_UnderstandingKids.pdf` (paleta para redes y material digital, RGB).
 
-> Hexadecimales exactos pendientes de confirmar desde archivos Canva.
+| Rol | Color | Hex | RGB | Uso |
+|-----|-------|-----|-----|-----|
+| Acento principal | 🟡 Amarillo | `#EEB41E` | 238,180,30 | Llamados visuales, CTA, palabras destacadas |
+| Apoyo | 🔵 Celeste | `#57BAC6` | 87,186,198 | Soporte, frescura, balance |
+| Apoyo | 🟢 Verde | `#76B142` | 118,177,66 | Naturaleza, crecimiento; acento secundario |
+| Neutro / texto | ⚫ Gris | `#9F9F9F` | 159,159,159 | Texto secundario, líneas, marcos |
+| Base | ⚪ Blanco | `#FFFFFF` | 255,255,255 | Fondo principal — limpio y respirado |
+
+> Logo: degradado naranja → verde → celeste. CMYK disponible en el manual para impresos.
+
+**Colores funcionales (no son swatches de marca, son decisiones de uso derivadas de los 5 oficiales):**
+
+| Uso | Hex aprox. | Nota |
+|-----|-----------|------|
+| Texto oscuro (títulos/cuerpo sobre fondo claro) | `#6B6B6B` | Ninguno de los 5 colores oficiales da contraste suficiente para texto de lectura; gris neutro funcional. Medido por pixel de una pieza real, aproximado (Canva no expone el hex exacto por API). |
+| Resaltador amarillo (marcador detrás de palabra clave) | `#FEDC60` | Versión más clara del amarillo de marca `#EEB41E` — un resaltador sólido en el amarillo puro taparía la legibilidad del texto encima. |
+
+Confirmado por `brand-check` (skill de Canva) sobre `UK - 1a - Autismo` el 2026-07-08: diseño **on brand** — fondo crema, acento amarillo y tipografía Cocogoose consistentes con el manual oficial.
 
 ---
 
 ## 🔤 Tipografías
 
-- **Cocogoose Classic** — uso primario
-- **Cocogoose Pro** — variante
+Según el manual de marca (tipografía para redes y material digital): **Cocogoose + Montserrat**, una complementa a la otra.
 
-Estilo: protagonista, redondeada. Prioriza legibilidad y jerarquía visual fuerte.
+- **Cocogoose Pro** (Regular / Demibold) — títulos, hooks, palabras protagonistas. Redondeada, con peso; da calidez y fuerza. Ya instalada en el Canva de UK.
+- **Montserrat** (Regular) — cuerpo de texto y apoyos. Sin serifa, legible, moderna.
+
+Estilo: tipografía protagonista, jerarquía fuerte, legibilidad sobre densidad.
 
 ---
 
@@ -93,8 +107,8 @@ Estilo: protagonista, redondeada. Prioriza legibilidad y jerarquía visual fuert
 
 ## ⚠️ Pendientes
 
-- [ ] Confirmar hexadecimales exactos de la paleta desde Canva
-- [ ] Definir subformatos por objetivo (informativo, emocional, testimonio, promocional, lanzamiento)
+- [x] Confirmar hexadecimales exactos de la paleta — hechos desde el manual de marca oficial (2026-07-07).
+- [ ] Definir subformatos por objetivo — en curso vía [[proyectos/activos/understanding-kids/sistema-templates-canva]].
 - [ ] Tipografía y colores específicos para campaña AUT26
 
 ---

@@ -102,6 +102,15 @@ Pendientes nuevos:
 
 Redactando contrato modelo de Alianza Estratégica (basado en contratos de Corp. Victoria/Segheria, Eccede, Factor Desarrollos, Milésimo, Intese Group, Owny) para uso con múltiples proyectos/desarrolladores. Incluye Cláusula V.B (cobro por cuenta ajena) para el escenario de fondos pasando por cuenta de Propi — **ya confirmado sin objeción IVE/AML**. Archivo: `AMC Legal/Clientes/Propi/Contratos/Alianzas Comerciales/MODELO - Contrato de Alianza Estratégica Propi.md`.
 
+## 📌 Actualización — 2026-07-08
+
+Reporte de cobro de julio 2026 actualizado con:
+
+- 2:00 h — reunión con Propi.
+- 0:30 h — modificaciones al modelo del contrato de Alianza Estratégica.
+
+Archivo: `AMC Legal/Clientes/Propi/Reporte de Cobro/Control de Horas - Propi - Julio 2026.xlsx`. Vencimiento operativo: enviar el último día del mes (2026-07-31).
+
 ---
 
 
