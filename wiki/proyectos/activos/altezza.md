@@ -1,6 +1,7 @@
 ---
 type: proyecto
 date: 2026-04-18
+last-touched: 2026-07-13
 estado: activo
 tags:
   - proyecto
@@ -11,7 +12,7 @@ tags:
 
 # Altezza — Caso legal de Disegno Casa
 
-Caso legal dentro del cliente/proyecto [[disegno-casa-cliente|Disegno Casa]]. JR representa a **Disegno Casa** en una disputa contractual con el proyecto inmobiliario **Altezza** sobre penalizaciones por atraso en la instalación de mobiliario. Como de 2026-04.
+Caso legal dentro del cliente/proyecto [[disegno-casa-cliente|Disegno Casa]] / [[brera-arredamenti]]. JR representa a **Disegno Casa / Brera Arredamenti, S.A.** en una disputa contractual prolongada con el proyecto inmobiliario **Altezza** (72 apartamentos, Ciudad Cayalá) sobre suministro e instalación de cocinas, baños y closets. Como de 2026-04.
 
 > Nota de clasificación: **Disegno Casa es el cliente/proyecto activo; Altezza es solo un caso dentro de Disegno Casa.**
 
@@ -19,7 +20,19 @@ Caso legal dentro del cliente/proyecto [[disegno-casa-cliente|Disegno Casa]]. JR
 
 ## 📝 Descripción
 
-Disegno Casa es contratista de Altezza para suministro e instalación de mobiliario en apartamentos. Altezza pretende cobrar multas por atraso según la cláusula vigésimo octava, inciso b) del contrato. JR asesora y redacta la posición legal de Disegno Casa.
+Disegno Casa/Brera es contratista de Altezza para suministro e instalación de mobiliario en apartamentos. El contrato formal (Escritura Pública 83, 11-jul-2024) está celebrado con **Inversiones Gamora, S.A.** como contratante, asesorada por el bufete **INJURSA** (abogado Francisco Antonio Cardona). Altezza pretende cobrar multas por atraso según la cláusula vigésimo octava, inciso b) del contrato. JR asesora y redacta la posición legal de Disegno Casa/Brera.
+
+---
+
+## 🕰 Cronología de la disputa (más larga de lo que parece — mismo caso, distintas fases)
+
+| Fecha | Evento |
+|-------|--------|
+| 2025-11-05 | INJURSA (a nombre de Inversiones Gamora, S.A.) notifica a Brera Arredamenti por incumplimiento de plazos de instalación; invoca cláusula CUARTA (plazo de 10-15 días para solventar o terminación) y OCTAVA (Brera debe asumir costos de fabricación/almacenaje/traslado, sin poder cobrar aumentos). Propone **mutar el contrato de "suministro e instalación" a solo "suministro"**: Brera entregaría 100% del mobiliario en 30 días, reconociendo 60% del valor total (ya reconocido 51%), sin pagar el 40% de instalación (lo haría un tercero) |
+| 2025-12-01 | Disegno Casa (Aracely Hernández) responde formalmente a Cayalá (Rodolfo Martínez, José Carlos Yaxcal): reclama pagos pendientes (20% por producto fabricado = US$184,910.25; 35% por avances de instalación = US$506,789.92), condiciones de seguridad ocupacional inadecuadas para subir mobiliario a pisos altos, apartamentos "listos" que en realidad no lo estaban, y señala que Cayalá está considerando no seguir trabajando con Disegno Casa (comentarios de Ana Lucía Hong; nuevas salas de exhibición de proyectos Eonia y Azalea montadas con otros proveedores) |
+| 2026-01-29 | Modificación al contrato de mobiliario Altezza (documento "MODIFICACIÓN A CONTRATO MOBILIARIO ALTEZZA 290126") |
+| 2026-04-18 | Fase de cálculo de multas por atraso bajo cláusula 28(b) — ver detalle abajo |
+| 2026-04-29 | Reunión de coordinación de avances (contenedores, clósets de reposición) |
 
 ---
 
