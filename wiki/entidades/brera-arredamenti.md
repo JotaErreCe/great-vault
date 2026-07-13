@@ -55,6 +55,21 @@ Contacto/showroom: Villa Fontana, Guatemala. Tel. 2277-1188, info@disegnocasa.ne
 | **Giardino** | Proyecto Giardino | Fabricación e instalación de mobiliario de baños y closets (contrato con múltiples versiones/revisiones 2024-2025; monto ~US$390,766 con descuento, pagos por hitos: anticipo 40%, despacho/arribo/entrega 50%, entrega final 10%) | Contrato firmado; cronograma de instalación en curso 2025 |
 | **Look Magazine** | Look Group, S.A. | Contrato anual de publicidad/contenido (paquete "Diamond" 2024, Q31,420.48, revistas + redes) — no es obra, es marketing | Contrato anual 2024 finiquitado (Finiquito 2024 en carpeta) |
 
+## 📬 Pendientes activos (confirmado por correo, 2026-07-13)
+
+- **Arlés / Rexter (2026-07-08):** Rexter (representada por Sergio Jerez) envió carta pidiendo reintegro de costos por modificaciones en apartamentos Tipo B, y apoyo (idealmente gratuito) para retirar/reinstalar el mueble de cocina del apto 19A por humedad en paredes causada por trabajos de Rexter mismo. JR ya respondió el mismo día ofreciendo redactar la respuesta — **pendiente que le compartan los planos firmados por Julio Castellanos** para continuar.
+- **Altezza/Cayalá:** sigue activo — reunión semanal recurrente "AVANCE - DISEÑO CASA (ALTEZZA)" (con transcripción vía Read AI) continúa hasta jul-2026. En abril 2026 hubo un plan de acción de instalación de cocinas **rechazado** por Cayalá, más el ciclo de "NOTIFICACIÓN MULTA POR INCUMPLIMIENTO CONTRACTUAL" (16-22 abr 2026) al que JR respondió con la "Contestación Altezza" (18 abr 2026) — mismo argumento ya documentado en [[altezza]] (100% cumplimiento en calidad, atrasos no imputables a Disegno Casa). Contraparte incluye a Alejandro Sarmiento Carcamo (asarmiento@injursa.com).
+- **Contenedores/logística:** hilo largo y recurrente "Disegno Casa-Contenedor" con el equipo de Cayalá (Marcela Tovar, José Carlos Yaxcal, Alejandra Flores, Javier Pereda, Kevin Cotto, Samuel Puac, Oscar Villanueva) — coordinación operativa de envíos.
+- **"Contraseñas de pago"** — hilo recurrente con Pablo Cruz sobre aprobación/certificación de pagos de estimaciones (no son contraseñas literales, es terminología de obra para el documento que autoriza el pago de un avance).
+- **Asunto nuevo — expansión regional:** correo "OFERTA Y FACTURA CASA PRESIDENCIAL SAN SALVADOR" (jul-2026) sugiere que Disegno Casa está cotizando/facturando en El Salvador, consistente con su firma de correo "Guatemala – Nicaragua – Costa Rica – Panamá".
+
+## 👔 Asunto personal de Pablo Cruz (no es Brera, pero mismo cliente/canal — mayo 2026)
+
+Por el mismo hilo de correo ("Propuestas", mayo 2026) surgieron dos encargos separados para Pablo Cruz (y su esposa) que JR está trabajando en paralelo a Brera:
+
+1. **Constitución de una S.A. nueva** para que Pablo y su esposa sean accionistas (con el matiz legal de que cónyuges no pueden ser los únicos dos socios directamente — JR propuso dos rutas: socio temporal de 1 acción que luego transfiere, o constituir con Pablo+Julio y luego Julio transfiere a la esposa). Posible nombre: relacionado a **Ferro Import & Export, Sociedad Anónima**. Uno de los objetivos es que esta nueva sociedad pueda **adquirir propiedades en Nicaragua** (Pablo estaba confirmando viabilidad allá).
+2. **Regularización de libros corporativos** de una sociedad antigua de la familia (posiblemente la misma Ferro Import & Export) que lleva muchos años sin actualizar — Pablo no tiene los libros originales; JR ofreció revisar con el nombre de la sociedad en el Registro Mercantil.
+
 ## ⚖️ Patrón laboral
 
 Alto volumen de terminaciones laborales gestionadas por AMC Legal (carpeta "Terminación Laboral" con casos individuales: Lisbeth Rivera, María José Chávez, Lily Acevedo, Liliana Chávez, Nohemí Taracena, Guillermo Rubio, Crista Fernanda, Melyn Guerra Colindres — 2024 a 2026). Incluye conciliaciones ante MinTrab (ej. María José Chávez) y liquidaciones. Sugiere rotación de personal relativamente alta u operación con mucho personal administrativo/ventas temporal.
