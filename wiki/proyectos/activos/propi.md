@@ -127,6 +127,13 @@ Terminaciones contractuales civiles para contratistas:
 - Documentos enviados a **Astrid Landaverde <astrid@propilatam.com>** con asunto `Documentos solicitados`.
 - Criterio jurídico anotado: la terminación unilateral sin responsabilidad del contrato original está atada a preaviso de 30 días; para evitar depender de ese plazo, conviene que el contratista acepte expresamente la terminación/finiquito o reconocer/pagar el equivalente del plazo.
 
+## 📌 Actualización — 2026-07-13
+
+Revisión a fondo del cliente (correo + iCloud + confirmación directa de JR). Detalle completo en [[propi/mapa-operativo|mapa operativo]], sección 6. Resumen de lo confirmado por JR:
+
+- **Ena González:** rol solo operativo, sin facultades formales de representación societaria.
+- **Renovación nombramiento José Mario Ávila Palomo (Asamblea 15):** sigue pendiente — 3 borradores creados el 1-jul-2026 en `Propi/Geoffrey/`, aún sin revisión humana ni firma.
+
 ## 🔗 Relacionado
 
 - [[apple-notes-pendientes]] — origen del item (Propi en inbox)

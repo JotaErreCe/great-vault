@@ -1,7 +1,7 @@
 ---
 type: persona
 date: 2026-04-30
-last-touched: 2026-04-30
+last-touched: 2026-07-13
 relacion: cliente-amc-legal
 empresa: "[[brera-arredamenti]]"
 rol-empresa: dueño
@@ -20,8 +20,8 @@ Dueño de [[brera-arredamenti]] (nombre comercial: [[disegno-casa]]). Cliente de
 
 ## 📝 Resumen
 
-- **Rol:** Accionista / dueño de Brera Arredamenti, S.A. (Disegno Casa)
-- **Hermano / socio:** [[pablo-cruz]]
+- **Rol:** Accionista / dueño de Brera Arredamenti, S.A. (Disegno Casa). Nombrado Gerente General y Representante Legal por acta notarial (27/09/2021), pero funcionalmente actúa como **Gerente de Venta** (confirmado por JR, 2026-07-13). Junto con Pablo, tiene la última palabra en decisiones de la empresa (a nivel de junta).
+- **Hermano / socio:** [[pablo-cruz]] — hijos de Miriam Elizabeth Ramazzini Álvarez ("Doña Miriam"), accionista fundadora y Representante Legal, cuyo involucramiento directo se debe evitar en lo posible.
 
 ---
 

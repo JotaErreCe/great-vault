@@ -26,8 +26,9 @@ Sociedad anónima guatemalteca dedicada al amueblamiento (muebles, cocinas, cló
 - **Constitución:** Escritura Pública No. 19, 2 de octubre de 2019 (Notaria Claudia María Rocasermeño Montenegro); inscrita en Registro Mercantil el 20/11/2019 (Registro 161101, Folio 836, Libro 487)
 - **Fundadores / accionistas originales:** Promotora Guatemalteca, S.A. (9 acciones) y Miriam Elizabeth Ramazzini Álvarez (1 acción) — capital suscrito inicial Q1,000. Capital autorizado: Q499,900 (4,999 acciones de Q100 c/u). Miriam Ramazzini (probable madre de Julio y Pablo Cruz Ramazzini, misma línea de apellido) figura como "Doña Miriam" en nombramientos posteriores (Administradora, renovaciones 2025).
 - **Giro:** diseño y producción de muebles, cocinas y clósets; objeto social amplio (incluye diseño de interiores/exteriores, desarrollos urbanísticos, construcción de obras, importación/exportación, entre otros — objeto tipo "sombrilla" muy amplio, cláusula cuarta de la escritura)
-- **Gerente General y Representante Legal:** Julio Fernando Cruz Ramazzini, nombrado por plazo indefinido (acta notarial 27/09/2021, inscrita 04/10/2021 — Lic. Julio Roberto Morales Palma)
-- **Relación con JR:** Cliente activo de [[amc-legal]] — contratos de obra/mobiliario, disputas contractuales, facturación y reportes de cobro mensuales/periódicos, y una cantidad alta de terminaciones laborales
+- **Gerente General y Representante Legal (nombramiento notarial):** Julio Fernando Cruz Ramazzini, nombrado por plazo indefinido (acta notarial 27/09/2021, inscrita 04/10/2021 — Lic. Julio Roberto Morales Palma). **Nota (confirmado por JR, 2026-07-13):** en el día a día, Julio funge como **Gerente de Venta** — el nombramiento notarial no necesariamente refleja su rol funcional actual.
+- **Grupo regional:** Disegno Casa es la marca que el grupo maneja regionalmente. **EuroArredo, S.A.** (Nicaragua — misma familia Ramazzini) es la sociedad matriz/fabricante (aparece en el membrete de los planos técnicos de mobiliario, ej. cocinas de Arlés). Brera Arredamenti, S.A. es la sede/entidad de Guatemala. Hay marcas hermanas del mismo grupo en Costa Rica y Panamá (consistente con la firma de correo "Guatemala – Nicaragua – Costa Rica – Panamá").
+- **Relación con JR:** Cliente activo de [[amc-legal]] — contratos de obra/mobiliario, disputas contractuales, facturación y reportes de cobro mensuales/periódicos, y una cantidad alta de terminaciones laborales. **JR es el único abogado externo que lleva los asuntos de Brera Arredamenti**, contratado por servicio puntual (no por retainer/mensualidad) — esto implica que JR solo conoce los clientes/proyectos de Disegno Casa que han requerido trabajo legal; existen otros clientes de Disegno Casa fuera de su radar.
 
 ---
 
@@ -35,11 +36,11 @@ Sociedad anónima guatemalteca dedicada al amueblamiento (muebles, cocinas, cló
 
 | Persona | Rol |
 |---------|-----|
-| [[julio-cruz]] | Accionista / Gerente General y Representante Legal |
-| [[pablo-cruz]] | Accionista / Operaciones y suministro (pablocruz@disegnocasa.net) |
-| Miriam Elizabeth Ramazzini Álvarez ("Doña Miriam") | Accionista fundadora / cargo de administración (nombramientos 2025) |
-| [[aracely-hernandez]] | Gerente Administrativa Regional (admon1@disegnocasa.net) — firma la correspondencia formal con contrapartes (Cayalá, etc.) |
-| María José Sierra | Gerente Ventas Guatemala / Gerencia GT (gerenciagt@disegnocasa.net) |
+| [[julio-cruz]] | Accionista / Gerente General y Representante Legal (nombramiento notarial) — funcionalmente actúa como **Gerente de Venta**. Junto con Pablo, tiene la última palabra en decisiones de la empresa. |
+| [[pablo-cruz]] | Accionista / **Gerente de Operaciones y Director Financiero** (pablocruz@disegnocasa.net). Junto con Julio, tiene la última palabra en decisiones de la empresa. |
+| Miriam Elizabeth Ramazzini Álvarez ("Doña Miriam") | Accionista fundadora, madre de Julio y Pablo Cruz Ramazzini. Es Representante Legal, pero **JR indica evitar su involucramiento lo más posible** (confirmado 2026-07-13). |
+| [[aracely-hernandez]] | **Gerente Administrativa Regional** (admon1@disegnocasa.net) — firma/gestiona la correspondencia formal con contrapartes (Cayalá, Rexter, etc.) — rol confirmado 2026-07-13. |
+| María José Sierra | Ex Gerente Ventas Guatemala (gerenciagt@disegnocasa.net) — **renunció recientemente** (confirmado 2026-07-13; no se conoce reemplazo aún). |
 | Karolina Torrez | Tesorería (tesoreria@disegnocasa.net) |
 
 Contacto/showroom: Villa Fontana, Guatemala. Tel. 2277-1188, info@disegnocasa.net, www.disegnocasa.net
