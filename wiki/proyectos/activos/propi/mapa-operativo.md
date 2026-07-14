@@ -398,7 +398,11 @@ Q29,128.49 bruto, (–) Q1,300.38 ISR, = **Q27,828.11 neto** pagado por Astrid e
 
 Se detectó y corrigió un defecto real en los borradores 02 y 03: identificaban a José Mario con su **pasaporte salvadoreño B04339982, vencido desde el 13-mar-2025**, y con datos incorrectos (33 años, casado). Se generaron versiones **V2** usando su **DPI guatemalteco vigente** (CUI 4146 87248 0101, vence 2034): 36 años, soltero, guatemalteco, domiciliado en Guatemala. V1 se conserva como respaldo. Detalle completo en `Propi/Geoffrey/README - Renovación José Mario.md`.
 
-JR confirmó que no hay asamblea duplicada con el Acta 03-2026 de marzo: el nombramiento es individual por cargo (ver criterio societario en sección 6), así que el Acta 05-2026 solo para José Mario es la vía correcta. **Documentos listos para firma/notarización** en `Propi/Geoffrey/`: `V1 AGOTA...`, `V2 AN - Nombramiento PCA...`, `V2 AN - Cancelación...` (nombrado por versión, no por orden; ver README de esa carpeta) — falta únicamente la gestión física (JM lleva su DPI ante el notario Luis Pedro Arango Morales) y luego actualizar `Control.xlsx` fila 15 una vez firmada.
+JR confirmó que no hay asamblea duplicada con el Acta 03-2026 de marzo: el nombramiento es individual por cargo (ver criterio societario en sección 6), así que el Acta 05-2026 solo para José Mario es la vía correcta.
+
+**Segunda corrección (2026-07-13):** la fecha del nombramiento anterior a cancelar estaba mal en los borradores ("18 de octubre de 2023" — inventada). Verificado contra el acta notarial real (`Documentos S.A./Nombramiento PCA 2023...pdf`): la fecha correcta de autorización es **14 de junio de 2023**, con inicio de vigencia registral 18-jul-2023 y **vencimiento el 18-jul-2026** (¡5 días desde hoy!). Registro 705865/folio 617/libro 819 sí eran correctos.
+
+**Documentos listos para firma/notarización** en `Propi/Geoffrey/` (usar siempre el número de versión más alto — ver README de esa carpeta): `V2 AGOTA...`, `V2 AN - Nombramiento PCA...`, `V3 AN - Cancelación...`. Falta únicamente la gestión física (JM lleva su DPI ante el notario Luis Pedro Arango Morales, idealmente **antes del 18-jul-2026**) y luego actualizar `Control.xlsx` fila 15 una vez firmada.
 
 ## 8. Relacionado
 
