@@ -1,373 +1,336 @@
 ---
-type: poliza-seguro
+type: ocr-backup
 date: 2026-07-14
-last-touched: 2026-07-14
-estado: activo
-aseguradora: El Roble / RobleMed
-ramo: seguro-medico
-poliza: GMCO-29250
-carne: 502-1179513
-vigencia: 2026-08-01/2027-08-01
-fuente: raw/imports/seguros/GMCO-29250-poliza-roblemed-2026-2027.pdf
-sha256: 0cb1c918eff6d825f423301100027187cdb7c250f5fdf59b3fe5458c79a11add
-tags:
-  - finanzas
-  - seguros
-  - salud
-  - roblemed
-  - poliza
-  - sensible
+source: GMCO-29250-poliza-roblemed-2026-2027.pdf
+source-sha256: 0cb1c918eff6d825f423301100027187cdb7c250f5fdf59b3fe5458c79a11add
+method: macOS Vision OCR local
+tags: [seguros, poliza, ocr, respaldo, sensible]
 ---
 
-# Póliza médica RobleMed GMCO-29250 — Plan Centroamericano Plus 2026
-
-> **Documento sensible.** Esta página contiene información personal y contractual de seguro médico de JR. No compartir fuera de conversaciones privadas con JR salvo instrucción expresa.
-
-## Fuente y trazabilidad
-
-- **PDF fuente preservado:** `raw/imports/seguros/GMCO-29250-poliza-roblemed-2026-2027.pdf`
-- **OCR completo preservado:** `raw/imports/seguros/GMCO-29250-poliza-roblemed-2026-2027-ocr.md`
-- **Archivo original recibido:** `GMCO-29250---8e5537a2-9e8b-48dd-8b0b-4d98d058bd5a.pdf`
-- **SHA-256:** `0cb1c918eff6d825f423301100027187cdb7c250f5fdf59b3fe5458c79a11add`
-- **Tamaño / páginas:** 4.0 MB, 8 páginas.
-- **Método de lectura:** PDF basado en imágenes; OCR local con macOS Vision sobre imágenes extraídas del PDF. Donde el OCR no captó texto fino, se marcó como duda y se usó el preview textual recibido con el PDF.
-
-## Identificación de la póliza
-
-| Campo | Dato |
-|---|---|
-| Titular | **JOSE ROBERTO CASTAÑEDA ARRIOLA** |
-| Producto | **RobleMed — Plan Centroamericano Plus** |
-| Tipo de documento | Renovación |
-| Póliza | **GMCO-29250** |
-| Carné | **502-1179513** |
-| Vigencia | **01/08/2026 – 01/08/2027** |
-| Vigencia desde / antigüedad | **01/07/2025** *(según preview OCR; confirmar significado exacto)* |
-| Período de renovación | **1 de agosto 2026** |
-| Plan dental | **NO** *(confirmar: aparentemente no contratado)* |
-| Corredor / agente | **AGENCIA DE SEGUROS Y FIANZAS INNOVADORES, S. A.** |
-| Frecuencia de pago | **Mensual** |
-| Prima actual | **Q447.03** |
-| Prima a partir de 01/08/2026 | **Q477.26** |
-| Código/registro visto en carátula | **382** *(significado no identificado)* |
-
-## Resumen ejecutivo para JR
-
-- Es una **póliza médica RobleMed Plan Centroamericano Plus**, renovación 2026–2027.
-- Cobertura regional ampliada: **Guatemala, Centroamérica, Belice y Panamá**; Belice/Panamá aplican **por reembolso convencional** según aviso de renovación.
-- **Máximo médico vitalicio:** **Q3,500,000**.
-- **Deducible año calendario Guatemala/Centroamérica:** **Q1,000**.
-- **Reembolso Guatemala/Centroamérica:** **80%**.
-- **Desembolso máximo año calendario Guatemala/Centroamérica:** **Q60,000**.
-- Tiene **seguro de vida para titular**: **Q150,000**, con anticipo **Q20,000**.
-- Incluye asistencia de viaje nueva: viajes de hasta **60 días continuos**, cobertura **US$15,000**, solo titular.
-- La prima sube de **Q447.03** a **Q477.26 mensuales** a partir del **1 de agosto 2026**.
-- El documento recibido es una **renovación/resumen de beneficios y guías de uso**, no parecen estar incluidas todas las condiciones generales, exclusiones contractuales completas ni red completa de proveedores.
-
-## Cambios y mejoras de renovación 2026
-
-### Asistencia de viajes
-
-- Nueva asistencia de viajes.
-- Cada viaje puede durar hasta **60 días continuos**.
-- Cobertura: **US$15,000**.
-- Aplica únicamente para el **titular de la póliza**.
-
-### Dental — si estuviera contratado
-
-La carátula indica **Plan Dental: NO**, por lo que estos beneficios probablemente **no aplican actualmente** salvo que JR lo contrate. El documento dice que si ya está contratada la cobertura dental, el beneficio aumenta:
-
-| Beneficio dental | Actual | A partir del 1 de agosto 2026 |
-|---|---:|---:|
-| Fase I, II y III | Q8,000 | Q10,000 |
-| Ortodoncia fase IV | Q2,000 sublímite | Q4,000 sublímite |
-
-También indica: si no se tiene contratada, puede adicionarse al plan en cualquier momento.
-
-### Cobertura geográfica ampliada
-
-- Se amplía cobertura geográfica a **Belice y Panamá**.
-- Aplica por **reembolso convencional**.
-
-## Beneficios principales — Plan Centroamericano Plus 2026
-
-### Cobertura médica y financiera
-
-| Beneficio | Cobertura Centroamericana |
-|---|---:|
-| Máximo médico vitalicio | **Q3,500,000** |
-| Seguro de vida — asegurado titular, sin anexos | **Q150,000** |
-| Anticipo del seguro de vida | **Q20,000** |
-| Deducible año calendario — Guatemala y Centroamérica | **Q1,000** |
-| Reembolso — Guatemala y Centroamérica | **80%** |
-| Desembolso máximo año calendario — Guatemala y Centroamérica | **Q60,000** |
-| Beneficio diario por cuarto y alimento — Guatemala/Centroamérica | **Q900** |
-| Beneficio diario por cuarto intensivo — Guatemala/Centroamérica | **Q2,000** |
-
-### Otros beneficios
-
-| Beneficio | Límite / condición |
-|---|---|
-| Enfermedades congénitas y/o hereditarias | **Q200,000** |
-| Reconstrucción mamaria por cáncer con implantes | **Q30,000** |
-| Psiquiatría | **Q10,000**, reembolso al 50% según etiqueta del beneficio |
-| Ambulancia terrestre | **80%** |
-| VIH y/o SIDA | **Q100,000** |
-| Repatriación de restos mortales | **Q25,000** |
-| Trasplante de órganos humanos | **C.C.O.P.** / hasta agotar máximo médico vitalicio *(sigla requiere confirmación)* |
-| Ayuda de sepelio para dependientes | **Q15,000** |
-| Continuidad familiar por fallecimiento o ITP | **Titular o cónyuge** |
-| Chequeo médico preventivo anual por asegurado | **Q800 / copago Q250** |
-| Estadía acompañante en hospital de menor de 18 años | **Q250 diarios** |
-| Enfermería en el hogar | **30 días máximos, año calendario** |
-
-## Maternidad y recién nacido
-
-> Puede no ser relevante para JR directamente, pero queda documentado por si aplica a dependientes/cónyuge conforme condiciones de póliza.
-
-| Beneficio maternidad | Límite / condición |
-|---|---|
-| Cobertura maternidad | A partir del **mes 11** |
-| Guatemala y Centroamérica | **C.C.O.P.** |
-| Atención al recién nacido | **Q4,500** |
-| Complicaciones del recién nacido | **Q200,000** |
-| Inclusión de recién nacido de una maternidad cubierta | Desde el **1er día de nacido** |
-| Condiciones congénitas/hereditarias para hijos dependientes de maternidad cubierta | **Q200,000** |
-| Control de niño sano hasta cumplir 5 años | **Q3,500 anual** |
-| Nota OCR | Enfermedades congénitas/hereditarias de acuerdo a anexo |
-
-## Asistencias incluidas
-
-| Asistencia | Alcance |
-|---|---|
-| Asistencia telefónica | Limitada para todos los asegurados |
-| Asistencia psicológica | Teleconsulta ilimitada para todos los asegurados |
-
-## Beneficios opcionales
-
-| Beneficio opcional | Estado / nota |
-|---|---|
-| Plan Dental | Ver condiciones de póliza; carátula indica **NO** contratado |
-| Indemnización por cáncer | Ver condiciones de póliza |
-
-## Participación del asegurado: copagos y coaseguros
-
-### Gastos ambulatorios
-
-| Servicio | Participación del asegurado |
-|---|---|
-| Consulta médica | **Copago Q85** |
-| Medicamentos | **Copago Q250 + coaseguro 20%** |
-| Laboratorios y exámenes de diagnóstico | **Copago Q250 + coaseguro 20%** |
-
-### Emergencia médica
-
-| Hospital | Participación del asegurado |
-|---|---|
-| Hospital tipo A | **Copago Q1,000 + coaseguro 25%** |
-| Hospital tipo B | **Copago Q500 + coaseguro 10%** |
-| Hospital tipo C | **Copago Q700** |
-
-### Hospitalización
-
-| Hospital | Participación del asegurado |
-|---|---|
-| Hospital tipo A | **Copago Q1,000 + coaseguro 30%** |
-| Hospital tipo B | **Coaseguro 20%**, mínimo **Q1,000** |
-| Hospital tipo C | **Coaseguro 10%**, mínimo **Q1,000** |
-
-**Nota importante del documento:** Hospital Herrera Llerandi **no aplica en pago directo** para CA y CA Plus; solo aplica por **reembolso convencional**.
-
-### Dental — solo si contratado
-
-| Fase dental | Participación del asegurado |
-|---|---|
-| Fase I y II — tratamiento preventivo y restaurativo | Coaseguro 20% |
-| Fase III — servicios restaurativos mayores | Coaseguro 50% |
-| Fase IV — ortodoncia | Coaseguro 50% |
-
-Nota del documento: aplica si se tiene cobertura dental contratada; si no, puede adicionarse al plan en cualquier momento.
-
-## Contactos y canales
-
-| Canal | Dato |
-|---|---|
-| App | **RobleRed** |
-| Emergencias | **1797** |
-| Servicio al cliente | **2420-3333** |
-| Autorizaciones médicas | **2318-3500** |
-| WhatsApp | **2420-3397** |
-| Correo autorizaciones | **autorizaciones@roblered.com** |
-
-## App RobleRed — uso y funciones
-
-Para usar el seguro desde la app:
-
-- Ingresar a **RobleRed**.
-- Ingresar número de carné y fecha de nacimiento.
-- Activar “Recordar datos” para agilizar accesos.
-
-Desde la app se puede:
-
-- Consultar la póliza 24/7.
-- Acceder a red de proveedores.
-- Gestionar y dar seguimiento a autorizaciones.
-- Acceder a telemedicina y asistencia.
-- Realizar gestiones en línea.
-- Descargar documentos digitales.
-- Comunicarse con canales de atención.
-- Consultar, descargar y presentar carné digital ante proveedores.
-- Descargar renovación de póliza.
-- Obtener carta de asegurabilidad.
-- Acceder a cupones de chequeo médico.
-- Notificar egreso hospitalario.
-- Descargar formularios para pago directo y solicitud de reembolso de gastos médicos.
-
-## Guía de uso: pago directo
-
-### Asistencia médica
-
-Servicio 24 horas, 365 días del año.
-
-#### Orientación médica vía telefónica
-
-- Un médico responde consultas básicas o coordina servicios médicos requeridos.
-- Servicio ilimitado para todos los asegurados.
-
-#### Médico domiciliar
-
-- Se coordina visita de médico general si es necesario.
-- Cobertura: **4 visitas al año por persona asegurada**.
-
-#### Ambulancia terrestre
-
-- Coordinación de ambulancia terrestre si es necesario.
-- Cobertura: **4 servicios al año por persona asegurada**.
-
-Para utilizar asistencia: llamar **1797**.
-
-El servicio de ambulancia y médico domiciliar se presta dentro de un rango de **25 km partiendo de Ciudad de Guatemala**.
-
-### Emergencia hospitalaria
-
-Pasos:
-
-1. Ingresar a app RobleRed con datos personales: código **502** y fecha de nacimiento.
-2. Ir al ícono de proveedores para ubicar hospital más cercano o de preferencia.
-3. Al ingresar al hospital, presentar carné digital y documento de identificación.
-4. Al egreso, el hospital solicita autorización de la emergencia.
-5. Una vez autorizada, pagar lo que corresponde según póliza.
-
-### Consulta médica
-
-Pasos:
-
-1. Ingresar a App RobleRed.
-2. En “Proveedores”, ubicar médico de la especialidad necesaria.
-3. Entrar a la información del médico y tocar el número para llamar desde celular.
-4. Programar cita.
-5. Acudir a la cita, presentar carné digital y documento de identificación.
-6. Pagar **Q85** de copago.
-
-### Medicamentos, laboratorios y radiología
-
-1. El médico completa formulario:
-   - **Electrónico:** el médico solicita los datos en clínica para pedir autorización.
-   - Después del primer año de la póliza, se recibe autorización inmediata mediante PIN por SMS y correo para exámenes o compra de medicamentos; o correo indicando que la autorización está en evaluación.
-   - **Físico:** el médico completa formulario correspondiente; JR llena sección A y verifica que médico complete sección B con firma y sello.
-2. Opciones con formulario físico:
-   - **Despacho Express:** ir a farmacia para que proveedor revise si es posible despacho inmediato de medicamentos.
-   - Para enfermedades crónicas: enviar formulario a **autorizaciones@roblered.com**, por app o WhatsApp.
-3. La respuesta llega por app y WhatsApp.
-4. Presentar autorización, carné digital e identificación con proveedor afiliado.
-5. Tiempos de respuesta:
-   - Medicamentos: **4 horas**.
-   - Medicamentos y exámenes especiales: **24 horas**.
-   - Laboratorios y Rayos X: **18 horas**.
-6. El proveedor valida autorización; se paga **Q250 + 20% del costo total**.
-
-Nota del documento: si la solicitud no tiene cobertura, se recibe una negatoria con motivos detallados.
-
-Nota sobre Despacho Express: farmacia revisa en sistema si los medicamentos pueden despacharse inmediatamente; depende del estatus del asegurado, período de preexistencias, si el padecimiento es agudo, si los productos recetados no están excluidos o si requiere evaluación por autorización.
-
-### Procedimientos especiales
-
-1. Médico completa formulario:
-   - **Digital:** médico solicita datos; llega mensaje de proceso; autorización promedio en **24 horas**.
-   - **Físico:** médico completa sección B y C del formulario de procedimientos especiales con firma y sello; asegurado completa sección A.
-   - Enviar formulario a **autorizaciones@roblered.com**, por app o WhatsApp.
-2. De acuerdo con el procedimiento, ubicar proveedor afiliado por app.
-3. Contactar proveedor, enviar autorización y coordinar pasos.
-4. Pagar **Q250 fijos + 20% del valor total** el día del procedimiento.
-
-Nota: si la solicitud no tiene cobertura, se recibe negatoria con motivos detallados.
-
-### Hospitalización para procedimiento programado
-
-1. Médico completa sección B y C del formulario “solicitud de hospitalización” con firma y sello.
-2. Asegurado completa sección A.
-3. Enviar formulario a **autorizaciones@roblered.com**, app o WhatsApp.
-4. Respuesta promedio: **48 a 72 horas**.
-5. Coordinar hospitalización con médico tratante.
-6. Al ingresar al hospital, presentar carné digital y autorización desde app.
-7. Al egreso, pagar porcentaje según proveedor de red elegido.
-8. Puede agilizar egreso hospitalario notificando desde la app.
-
-## Exclusiones, límites y puntos críticos visibles
-
-El PDF recibido **no incluye una sección completa de exclusiones contractuales**. Solo se observan estos límites/condiciones relevantes:
-
-- Hospital Herrera Llerandi no aplica en pago directo para CA y CA Plus; solo reembolso convencional.
-- Belice y Panamá aplican por reembolso convencional.
-- Asistencia de viaje aplica solo al titular, hasta 60 días continuos por viaje, US$15,000.
-- Dental no aplica salvo contratación específica; carátula indica Plan Dental: NO.
-- Medicamentos, laboratorios, radiología y procedimientos dependen de autorización y pueden ser negados con motivos.
-- Despacho Express depende de estatus del asegurado, período de preexistencias, padecimiento agudo, exclusiones de productos y evaluación de autorización.
-- Maternidad aplica desde mes 11.
-- Algunas coberturas remiten a “anexo” o “condiciones de póliza”, que no están íntegramente en este PDF.
-- Sigla **C.C.O.P.** aparece en maternidad y trasplantes; significado debe confirmarse con corredor o condiciones generales.
-
-## Dudas para preguntar al corredor
-
-1. Confirmar si **Plan Dental: NO** significa que JR no tiene cobertura dental activa, y cuánto costaría agregarla.
-2. Pedir **condiciones generales completas**, anexos y exclusiones completas de RobleMed Plan Centroamericano Plus 2026.
-3. Confirmar significado de **C.C.O.P.**.
-4. Confirmar si **01/07/2025** es fecha de inicio de cobertura/antigüedad y cómo afecta preexistencias.
-5. Confirmar si hay dependientes actualmente incluidos o si esta póliza es solo titular.
-6. Pedir listado actualizado de hospitales tipo **A/B/C** y red médica aplicable al plan.
-7. Confirmar proceso exacto para **reembolso convencional** en Belice, Panamá y Herrera Llerandi.
-8. Confirmar deducible: si los **Q1,000** aplican por asegurado/año calendario y si ya se reinicia cada enero.
-9. Confirmar qué integra el **desembolso máximo Q60,000** y si limita el gasto de bolsillo anual.
-10. Confirmar si la asistencia de viaje US$15,000 cubre enfermedad/accidente, repatriación, medicamentos, hospitalización y si requiere aviso previo.
-11. Pedir detalle de **preexistencias**, períodos de espera y medicamentos excluidos.
-12. Confirmar si el chequeo preventivo anual Q800/copago Q250 está disponible para JR desde ya y cómo se agenda.
-13. Confirmar si hay cobertura para Nico/Mónica bajo esta póliza o si son pólizas separadas.
-14. Confirmar número/canal prioritario en emergencia real: **1797** vs autorizaciones **2318-3500**.
-
-## Respuestas rápidas preparadas
-
-- **¿Cuánto pago?** Q477.26 mensual desde 01/08/2026; antes Q447.03.
-- **¿Cuál es mi póliza?** GMCO-29250.
-- **¿Cuál es mi carné?** 502-1179513.
-- **¿Cuál es el máximo médico?** Q3,500,000 vitalicio.
-- **¿Deducible?** Q1,000 por año calendario para Guatemala/Centroamérica.
-- **¿Consulta médica en red?** Copago Q85.
-- **¿Medicinas/labs/rayos X?** Q250 + 20%, con autorización.
-- **¿Emergencia hospital tipo A?** Q1,000 + 25%.
-- **¿Emergencia hospital tipo B?** Q500 + 10%.
-- **¿Emergencia hospital tipo C?** Q700.
-- **¿Hospitalización tipo A?** Q1,000 + 30%.
-- **¿Hospitalización tipo B?** 20%, mínimo Q1,000.
-- **¿Hospitalización tipo C?** 10%, mínimo Q1,000.
-- **¿Herrera Llerandi?** No pago directo para CA/CA Plus; solo reembolso convencional.
-- **¿Emergencias?** 1797.
-- **¿Servicio al cliente?** 2420-3333.
-- **¿Autorizaciones?** 2318-3500 / autorizaciones@roblered.com.
-- **¿WhatsApp?** 2420-3397.
-
-## Anexo: OCR crudo preservado
-
-El OCR crudo se conserva para búsqueda y verificación posterior. Coordenadas en formato `[x y ancho alto]` sobre cada imagen extraída.
+# OCR completo — Póliza médica RobleMed GMCO-29250
+
+> Respaldo textual extraído localmente con macOS Vision OCR desde el PDF escaneado. Puede contener errores de OCR; para valor contractual, verificar contra el PDF fuente: `GMCO-29250-poliza-roblemed-2026-2027.pdf`.
+
+> Documento sensible: contiene información personal/contractual de JR.
+
+## Fuente
+
+- PDF fuente: `raw/imports/seguros/GMCO-29250-poliza-roblemed-2026-2027.pdf`
+- SHA-256: `0cb1c918eff6d825f423301100027187cdb7c250f5fdf59b3fe5458c79a11add`
+- Método: extracción de imágenes internas del PDF + OCR local macOS Vision.
+
+## Texto OCR por página
+
+### Página 1 — Carátula / renovación
+
+Plan Centroamericano Plus
+RobleMed
+RENOVACIÓN
+Titular:
+Póliza:
+Carné:
+Vigencia desde:
+Plan Dental:
+Período de renovación:
+155151
+ARL
+¡Nuevos beneficios y mejoras en tu renovación!
+Ahora cuentas con la asistencia de viajes, Cada viaje puede tener una duración de 60 días
+continuos, con una cobertura de US15mil. Aplica únicamente para el titular de la póliza.
+Si tienes contratada la cobertura dental tu beneficio ha aumentado.
+Beneficio
+Fase I, Il y III
+Ortodoncia fase IV
+Actual
+Q 8,000
+Q 2,000
+(Sub-límite)
+A partir del 1 de agosto 2026
+Q 10,000
+Q 4,000
+(Sub-límite)
+Si aún no la has contratado, puedes hacerlo en cualquier momento.
+Hemos ampliado la cobertura geográfica de tu póliza; ahora te damos cobertura en Belice
+y Panamá. Aplica por reembolso convencional.
+Frecuencia
+Prima de renovación
+Actual
+A partir del
+Si tienes dependientes hijos y alguno llegó a los 26 años, te enviaremos por medio de tu corredor de seguros la póliza
+emitida para que confirmes su aceptación, completes los documentos necesarios y así pueda continuar con su cobertura.
+Corredor / Agente:
+EL ROBLE
+Asegura lo que más quieres
+
+### Página 2 — Beneficios Plan Centroamericano Plus 2026
+
+RobleMed
+| Plan Centroamericano Plus 2026
+BENEFICIOS
+Máximo Médico Vitalicio
+SEGURO DE VIDA (ASEGURADO TITULAR)
+Monto de Seguro de Vida (Sin Anexos)
+Anticipo del Seguro de Vida
+DEDUCIBLE (AÑO CALENDARIO)
+Guatemala y Centroamérica
+REEMBOLSO
+Guatemala y Centroamérica
+DESEMBOLSO MÁXIMO (AÑO CALENDARIO)
+Guatemala y Centroamérica
+BENEFICIO DIARIO POR CUARTO Y ALIMENTO
+Guatemala y Centroamérica
+BENEFICIO DIARIO POR CUARTO INTENSIVO
+Guatemala y Centroamérica
+OTROS BENEFICIOS
+*Enfermedades congénitas y/o hereditarias
+Reconstrucción mamaria por cáncer con implantes
+Psiquiatría (Reembolso al 50%)
+Ambulancia Terrestre
+VIH y/o SIDA
+Repatriación de Restos Mortales
+Trasplante de Órganos Humanos
+Ayuda de Sepelio para dependientes
+Continuidad Familiar (Fallecimiento o ITP)
+Chequeo Médico Preventivo Anual por Asegurado
+Estadía Acompañante en Hospital de un menor de 18 años
+Enfermería en el Hogar
+MATERNIDAD
+Cobertura a partir del mes 11
+Guatemala y Centroamérica
+Atención al Recién Nacido
+Complicaciones del Recién Nacido
+Inclusión de Recién Nacido de una maternidad cubierta
+*Condiciones Congénitas y/o Hereditarias para hijos dependientes
+(maternidad cubierta)
+Control de Niño Sano (hasta el cumplimiento de 5 años)
+*Enfermedades congénitas y/o hereditarias de acuerdo a anexo
+COBERTURA CENTROAMERICANA
+Q3,500,000
+Q150,000
+Q 20,000
+Q1,000
+80%
+Q60,000
+Q900
+Q2,000
+Q200,000
+Q30,000
+Q10,000
+80%
+Q100,000
+Q 25,000
+C.C.O.P
+Hasta agotar el Máximo Médico Vitalicio
+Q15,000
+Titular o Cónyuge
+Q800 / Copago Q250
+Q250 Diarios
+30 días máximos, año calendario
+C.C.O.P.
+Q4,500
+Q200,000
+Desde el 1er. día de nacido
+Q200,000
+Q3,500 anual
+
+### Página 3 — Asistencias, beneficios opcionales y contactos
+
+RobleMed
+( Plan Centroamericano Plus 2026
+ASISTENCIAS
+Asistencia telefónica
+Asistencia psicológica
+limitada para todos los asegurados
+Teleconsulta ilimitada para todos los asegurados
+BENEFICIOS OPCIONALES
+Plan Dental
+Indemnización por Cáncer
+Ver condiciones de su póliza
+¿Qué debo tener para utilizar mi seguro?
+EL ROBLE
+Descarga la App RobleRed
+Principales contactos
+® Elliga tu pais
+Guatemal
+ca) Número de camé
+D Fecha de nacimiento
+22/30/1979
+A App Store
+• Google Play
+Aceptar
+(2) No se mi numero de cand
+2. No soy cliente RopsoRer
+C Emergencias
+1797
+° Servicio al cliente
+2420-3333
+Y Autorizaciones médicas
+2318-3500
+• WhatsApp
+2420-3397
+
+### Página 4 — Uso de App RobleRed
+
+RobleMed
+Utiliza tu seguro médico desde la App )
+RobleRed
+E) EL ROBLE
+Ingresa a la App
+Ingresa tu número de carné y fecha de nacimiento.
+Activa la opción "Recordar datos" para agilizar tus próximos accesos.
+Desde la App podrás
+Consultar tu póliza las 24 horas al día
+Acceder fácilmente a la red de proveedores
+Gestionar y dar seguimiento a tus autorizaciones
+Acceder a servicios de telemedicina y asistencia
+Realizar gestiones en línea
+Descargar documentos digitales
+Comunicarte con nuestros canales de atención
+O ELROBLE
+Caré digital
+Consulta, descarga y presenta tu carné digital
+al momento de asistir con cualquier proveedor de la red.
+Documentos y gestiones en línea
+Realiza tus principales trámites de forma rápida y sencilla desde la App:
+Descarga tu renovación de póliza
+Obtén tu carta de asegurabilidad
+Accede a tus cupones de chequeo médico
+Notifica tu egreso hospitalario
+Descarga formularios para pago directo y para solicitud
+de reembolso de gastos médicos
+
+### Página 5 — Guía pago directo: asistencia y emergencia hospitalaria
+
+RobleMed
+(Planes Centroamericanos
+Guía del Asegurado para uso de pago directo
+Asistencia médica
+Servicio 24 Hrs. los 365 días del año
+Orientación médica vía telefónica:
+• Un médico responderá consultas básicas o coordinará los servicios médicos que requieras.
+• Servicio ilimitado para todos los asegurados.
+Médico domiciliar:
+- Se coordinará la visita de un Médico General, de ser necesario.
+La cobertura incluye 4 visitas al año por persona asegurada.
+Servicio de ambulancia:
+•Coordinación de una ambulancia terrestre, en caso de ser necesario.
+• 4 servicios al año por persona asegurada.
+Para utilizar el servicio de asistencia marca el 1797.
+El servicio de ambulancia y médico domiciliar, se prestará dentro de un rango de 25 kilómetros.
+Partiendo de la Ciudad de Guatemala.
+Emergencia hospitalaria
+1 Ingresa a la app RobleRed con tus datos personales (código 502 y fecha de nacimiento).
+2. Dirígete al ícono de proveedores para ubicar el hospital más cercano o de tu preferencia.
+3. Al ingresar al hospital debes presentar tu carné digital y documento de identificación.
+4. Al momento del egreso, el hospital solicitará autorización de la emergencia.
+5. Una vez autorizada, debes realizar el pago que te corresponde.
+
+### Página 6 — Guía pago directo: consulta, medicamentos, laboratorios y radiología
+
+RobleMed
+(Planes Centroamericanos)
+Guía del Asegurado para uso de pago directo
+Consulta médica
+1 Ingresa a la App RobleRed.
+2. En la opción "Proveedores" ubica al médico de la especialidad que necesitas.
+3. Ingresa a la información del médico que seleccionaste y dale tap al número para marcar desde tu celular.
+4. Programa tu cita.
+5. Acude el día y hora programada, presenta tu carné digital y documento de identificación.
+6. Debes realizar el pago de Q85 (copago).
+Medicamentos, laboratorios y radiología
+1 El médico completará el formulario:
+A. Electrónico: El médico solicitará tus datos en clínica para solicitar tu autorización.
+- Después del primer año de tu póliza: recibirás tu autorización de inmediato por mediode un PIN por mensaje
+de texto y correo electrónico para que puedas acudir a realizarte tus exámenes o compra de medicamentos;
+o bien te llegará un correo electrónico indicando que tu autorización se encuentra en evaluación.
+B. Físico: El médico completará el formulario correspondiente:
+• Llena la sección "A" y verifica que el médico complete la sección "B" con firma y sello, para posteriormente
+hacer una de las opciones a continuación:
+Opción 1: Despacho Express: Dirígete a la farmacia para que el proveedor pueda revisar si es posible el
+despacho inmediato de tus medicamentos.*
+• Opción 2: Para enfermedades crónicas envía el formulario al correo autorizaciones@roblered.com
+o a través de la App.
+Recibirás la respuesta de tu solicitud por medio de la App y WhatsApp.
+* Farmacia revisará en sistema si los medicamentos pueden despacharse de forma inmediata, esto dependerá del estatus del asegurado,
+período de preexistencias, si el padecimiento es de tipo agudo y si los productos recetados no se encuentran excluidos o es necesaria una
+evaluación a través de autorización.
+2. Presenta la autorización, tu carné digital y tu identificación con el proveedor afiliado.
+Tiempos de respuesta:
+• Medicamentos | 4 horas
+Medicamentos y exámenes especiales | 24 horas
+Laboratorios y Rayos X | 18 horas
+3. El proveedor validará tu autorización (medicamentos, laboratorios y/o radiología). Deberás
+pagar Q250+20% del costo total.
+Nota: Si tu solicitud no tiene cobertura, recibirás una negatoria con los motivos detallados.
+
+### Página 7 — Guía pago directo: procedimientos especiales y hospitalización programada
+
+RobleMed
+( Planes Centroamericanos
+Guía del Asegurado para uso de pago directo
+Procedimientos especiales
+1. El médico completará el formulario:
+Digital: El médico solicitará tus datos, recibirás un mensaje indicando que está en proceso;
+y la autorización llegará en un promedio de 24 horas.
+Físico: El médico completará la sección "B y C" del formulario de procedimientos
+especiales con firma y sello.
+• Asegúrate de completar la sección "A" con tus datos personales.
+- Envía el formulario al correo autorizaciones@roblered.com, por medio de la APP o Whatsapp.
+Recibirás respuesta en un promedio de 24 horas.
+2. De acuerdo al procedimiento que debas realizar, ubica al proveedor afiliado por medio de la APP.
+3. Contacta a tu proveedor, envíale tu autorización y coordina con ellos los pasos necesarios para realizarlo.
+4. Deberás pagar Q250 fijos + 20% del valor total de los procedimientos el día que acudas a realizarlos.
+Nota: Si tu solicitud no tiene cobertura, recibirás una negatoria con los motivos detallados.
+Hospitalización para un procedimiento programado
+1. El médico completará el formulario:
+El médico completará la sección "B y C" del formulario "solicitud de hospitalización" con
+firma y sello.
+• Asegúrate de completar la sección "A" con tus datos personales.
+• Envía el formulario al correo autorizaciones@roblered.com, por medio de la APP o Whatsapp.
+Recibirás respuesta en un promedio de 48 a 72 horas.
+2. Coordina la hospitalización directamente con tu médico tratante.
+3. Al ingresar al hospital, presenta tu carné digital y la autorización desde la App.
+4. Al egreso deberás pagar el porcentaje de acuerdo a proveedor de la Red elegido.
+Recuerda, al recibir el alta médica puedes agilizar tu egreso hospitalario,
+notificando desde la App.
+Egreso hospitalario
+Tu salia de tensi
+Cuiden muchol
+
+### Página 8 — Participación del asegurado / copagos y coaseguros
+
+RobleMed
+Planes Centroamericanos
+Participación del Asegurado
+(Copago y/o Coaseguro)
+Gastos Ambulatorios
+Consulta Médica:
+Copago Q.85
+Medicamentos:
+Copago Q.250 + Coaseguro 20%
+Lab. y Exámenes de Diagnóstico: Copago Q.250 + Coaseguro 20%
+Emergencia Médica
+Hospital tipo "A" Copago Q.1,000 + Coaseguro 25%
+Hospital tipo "B" Copago Q.500 + Coaseguro 10%
+Hospital tipo "C" Copago Q.700
+Hospitalización
+Hospital tipo "A" Copago Q.1,000 + Coaseguro 30%
+Hospital tipo "B" Coaseguro 20% (mínimo Q.1,000)
+Hospital tipo "C" Coaseguro 10% (mínimo Q.1,000)
+IMPORTANTE: Hospital Herrera Llerandi no aplica en pago directo para CA y CA Plus,
+solo por reembolso convencional.
+Dental*
+Fase I y Il: Tratamiento Preventivo y Restaurativo
+Fase III: Servicios Restaurativos Mayores
+Fase IV: Ortodoncia
+Coaseguro 20%
+Coaseguro 50%
+Coaseguro 50%
+*Aplica si tienes la cobertura dental contratada, si actualmente no cuentas con esta cobertura,
+puedes adicionarla a tu plan en cualquier momento.
+
+
+## Anexo técnico — OCR crudo con coordenadas
 
 ```text
 ---FILE: /Users/jr/.openclaw/workspace-geoffrey/tmp/gmco-29250-images/obj-22.jpg
@@ -662,5 +625,4 @@ El OCR crudo se conserva para búsqueda y verificación posterior. Coordenadas e
 [0.808 0.230 0.073 0.009] Egreso hospitalario
 [0.825 0.151 0.043 0.003] Tu salia de tensi
 [0.827 0.122 0.047 0.007] Cuiden muchol
-
 ```
