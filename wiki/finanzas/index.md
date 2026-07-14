@@ -1,7 +1,7 @@
 ---
 type: index
 date: 2026-05-07
-last-touched: 2026-05-07
+last-touched: 2026-07-14
 tags:
   - finanzas
   - index
@@ -21,6 +21,7 @@ Hub de finanzas personales y patrimonio de [[jr]]. Como de 2026-04.
 - [[propiedades]] — inmuebles en cartera (Z16, San Mateo, Casa Antigua, Z13)
 - [[inversiones]] — IBKR (acciones) + cripto
 - [[patrimonio]] — Estado Patrimonial consolidado
+- [[seguros/poliza-medica-roblemed-gmco-29250|Póliza médica RobleMed GMCO-29250]] — seguro médico Plan Centroamericano Plus 2026–2027
 
 ---
 
