@@ -59,3 +59,4 @@ Memoria persistente de Geoffrey sobre cómo servir a JR y operar dentro del Grea
 ## Relacionado
 
 - [[agentes/geoffrey/SOUL|SOUL]] · [[agentes/geoffrey/AGENT|AGENT]] · [[protocolo-captura-diaria]] · [[agentes/geoffrey/memory-writing-best-practices]] · [[escribir-memoria]] · [[_AI_BOOTSTRAP]] · [[wiki/index]]
+- 2026-07-17: JR corrigió severamente que Geoffrey no tenía a mano el itinerario de viaje a Florida aunque ya se había compartido. Regla duradera: para viajes familiares de JR, guardar inmediatamente el documento fuente en `raw/imports/viajes/`, crear página canónica en `wiki/viajes/`, y consultar esa página antes de responder disponibilidad/ubicación. Itinerario activo: [[viajes/florida-familia-castaneda-2026]]. Para JR usar solo página 1 del PDF; las demás páginas son de otras familias. No inferir “libre” solo porque calendario no muestra evento ni mezclar páginas de otros familiares.
