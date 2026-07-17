@@ -30,16 +30,17 @@ Ingresos mensuales del **Apto 308, Edificio Museo San Mateo, Zona 7, Ciudad de G
 | Marzo 2026 | $480.02 | Q3,277 |
 | Abril 2026 | $507.94 | Q3,463 |
 | Mayo 2026 | $487.66 | Q3,319 |
-| **TOTAL 10 meses** | **$5,757.97** | **~Q39,351** |
+| Junio 2026 | $329.38 | Q2,240 |
+| **TOTAL 11 meses** | **$6,087.35** | **~Q41,591** |
 
 ---
 
-## 📈 Resumen estadístico (ago 2025 – may 2026)
+## 📈 Resumen estadístico (ago 2025 – jun 2026)
 
 | Métrica | USD |
 |---------|----:|
-| Promedio mensual | **$575.80** |
-| Proyección anual (×12) | **~$6,910** |
+| Promedio mensual | **$553.40** |
+| Proyección anual (×12) | **~$6,641** |
 | Mes más alto | Enero 2026: $734.04 |
 | Mes más bajo | Febrero 2026: $459.29 |
 
@@ -54,6 +55,7 @@ Ingresos mensuales del **Apto 308, Edificio Museo San Mateo, Zona 7, Ciudad de G
 - El monto en GTQ varía según el TC del día de emisión de factura.
 - Para meses antes de agosto 2025 no hay datos en Excel — solo PDFs de retención ISR (imagen, no procesables).
 - Mayo 2026: $487.66 USD (Q3,319 sin IVA, TC Q7.6224). Cierre recibido 11/06/2026.
+- Junio 2026: $329.38 USD (Q2,240 sin IVA, TC Q7.6181). Factura enviada 17/07/2026.
 
 ---
 
