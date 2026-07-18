@@ -106,8 +106,14 @@ Redactando contrato modelo de Alianza Estratégica (basado en contratos de Corp.
 
 Reporte de cobro de julio 2026 actualizado con:
 
-- 2:00 h — reunión con Propi.
-- 0:30 h — modificaciones al modelo del contrato de Alianza Estratégica.
+- 2:00 h — reunión con Propi (2026-07-08).
+- 0:30 h — modificaciones al modelo del contrato de Alianza Estratégica (2026-07-08).
+- 1:00 h — reunión IVE / formularios con Propi (2026-07-03).
+- 0:30 h — reunión con Propi (2026-07-14).
+- 0:15 h — reunión con Thelma (2026-07-16).
+- 1:30 h — reunión con Ena y Thelma sobre IVE y compliance de Propi (2026-07-17).
+
+Total actualizado en Excel: **345 min / 5.75 h**.
 
 Archivo: `AMC Legal/Clientes/Propi/Reporte de Cobro/Control de Horas - Propi - Julio 2026.xlsx`. Vencimiento operativo: enviar el último día del mes (2026-07-31).
 
