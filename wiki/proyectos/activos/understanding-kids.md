@@ -2,7 +2,7 @@
 type: proyecto
 date: 2026-04-27
 estado: activo
-last-touched: 2026-07-03
+last-touched: 2026-07-21
 tags:
   - proyecto
   - estado/activo
@@ -87,7 +87,7 @@ Catálogo desactualizado. Checkout carga y muestra Recurrente, pero no ha sido p
 
 ## Próximos pasos
 
-- [ ] Sistema de templates de Canva para IG (posts + stories) reconstruido de cero: [[proyectos/activos/understanding-kids/sistema-templates-canva]]. Falta validar variantes con JR y construir en Canva. (Trabajo previo de Codex descartado el 2026-07-07, en `wiki/_descartado-codex-2026-07/`.)
+- [x] Sistema de artes para IG/FB (posts + historias) **operativo y automatizado**: [[proyectos/activos/understanding-kids/sistema-artes-redes]]. HTML/CSS + Playwright (se abandonó Canva), en iCloud, con 2 agentes programados (generación semanal domingos + tendencias virales jueves en IG/FB/YT/TikTok → Notion 🔥 Tendencias). Ciclo completo probado 2026-07-20. Pendiente operativo: mudar los agentes a la Mac Mini siempre-encendida (`Sistema/MIGRACION.md`). Nota vieja de Canva quedó superada: [[proyectos/activos/understanding-kids/sistema-templates-canva]].
 - [[proyectos/activos/understanding-kids/plan-nutricion-completa]] — plan maestro para completar la wiki operativa de UK antes de crear `README-AI.md` final.
 - [x] Nutrir staff y operación como prioridad inmediata — primer corte creado en [[proyectos/activos/understanding-kids/staff]] y [[proyectos/activos/understanding-kids/mapa-operativo]].
 - [x] Crear bloque comercial/formación: diplomados, talleres, leads, metas, WhatsApp, pauta y pagos — [[proyectos/activos/understanding-kids/comercial-formacion]]; fuente Drive de talleres auditada en [[proyectos/activos/understanding-kids/talleres-drive-2026-05-15]] y tabla histórica en [[proyectos/activos/understanding-kids/tabla-historica-formacion-2024-2026]].
@@ -103,4 +103,4 @@ Catálogo desactualizado. Checkout carga y muestra Recurrente, pero no ha sido p
 - [[monica]] · [[uk-catalogo]] · [[integracion-sensorial]] · [[diplomado-autismo-2026]]
 - [[visual-identity]] · [[inversiones-multidisciplinarias]]
 - [[proyectos/activos/understanding-kids/plan-nutricion-completa]] · [[proyectos/activos/understanding-kids/mapa-operativo]] · [[proyectos/activos/understanding-kids/comercial-formacion]] · [[proyectos/activos/understanding-kids/talleres-drive-2026-05-15]] · [[proyectos/activos/understanding-kids/tabla-historica-formacion-2024-2026]] · [[proyectos/activos/understanding-kids/staff]] · [[proyectos/activos/understanding-kids/finanzas]] · [[proyectos/activos/understanding-kids/operacion]]
-- [[proyectos/activos/understanding-kids/sistema-templates-canva]]
+- [[proyectos/activos/understanding-kids/sistema-artes-redes]] (operativo) · [[proyectos/activos/understanding-kids/sistema-templates-canva]] (superado)

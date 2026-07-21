@@ -1,14 +1,17 @@
 ---
 type: resource
 date: 2026-07-07
+last-touched: 2026-07-21
 tags:
   - resource
   - tema/marketing
   - tema/canva
   - tema/branding
   - proyecto/understanding-kids
-status: en-construccion
+status: superado
 ---
+
+> ⚠️ **NOTA SUPERADA (2026-07-21).** El enfoque de Canva se abandonó porque su API no crea elementos nuevos ni cambia fondos. El sistema real, operativo y automatizado (HTML/CSS + Playwright, en iCloud, con 2 agentes) está en **[[proyectos/activos/understanding-kids/sistema-artes-redes]]**. Esta nota se conserva por el fundamento de marca (colores del manual) y el diagnóstico de los artes viejos.
 
 # Sistema de templates de Canva — UK / IS
 
