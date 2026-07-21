@@ -28,18 +28,39 @@ Plantillas **HTML/CSS renderizadas con Playwright** → PNG 1080×1350 (posts) y
 - `Pendientes de Revision/` — artes recién generados, esperando el OK de JR.
 - `Aprobadas/` — artes ya cerrados (subidos a Drive + Notion).
 
+> **Espejo de respaldo del motor:** `raw/imports/uk-sistema-artes-mirror/` dentro de este vault (viaja por Syncthing). Existe para que la migración a la Mac Mini no dependa de que iCloud funcione. La copia CANÓNICA sigue siendo la de iCloud; tras cambiar una plantilla, re-sincronizar el espejo con el comando de su `_LEEME-ESPEJO.md`.
+
 Guías dentro de `Sistema/` (fuentes de verdad):
 - **`GUIA_MAESTRA_ESTILO.md`** — la línea visual completa: paletas, acento por marca, semántica de color, márgenes, catálogo de plantillas, reglas para crear variaciones sin salirse de la línea, y contenido viral (§7).
 - **`GUIA_PROMOS_TALLERES.md`** — sub-sistema de promoción de talleres (portada-flyer, paleta propia por campaña).
-- **`MIGRACION.md`** + `setup_mac_nueva.sh` — cómo mudar todo a otra Mac.
+- **`MIGRACION.md`** + `setup_mac_nueva.sh` — cómo mudar todo a otra Mac. **Runbook completo y actualizado: [[proyectos/activos/understanding-kids/migracion-sistema-artes]]** (vive en el vault a propósito, para que esté disponible aunque iCloud falle).
 
 ## Línea visual (resumen; detalle en GUIA_MAESTRA)
 
 - **Tipografía (fija):** Cocogoose Pro Bold (títulos) + Montserrat (cuerpo).
 - **Fondo:** crema `#FBFAF6`. **Texto:** gris `#33363B`.
-- **Acento POR MARCA:** UK = amarillo `#EEB41E` · **IS = turquesa `#3FA8C0`** (del logo IS). Lo único que cambia entre marcas es logo + acento; contactos y todo lo demás, compartido.
+- **Acento POR MARCA:** UK = amarillo `#EEB41E` · **IS = turquesa `#3FA8C0`** (del logo IS). Lo único que cambia entre marcas es logo + acento; contactos y todo lo demás, compartido. En código: `"marca": "UK"/"IS"` en cada dict de contenido.
 - **Semántica de color:** rojo terracota suave = negativo (mito/presión) · verde = positivo · amarillo/turquesa = énfasis de marca · celeste = info.
 - **Contactos (ambas marcas):** FB Understanding Kids · IG @kidsunderstanding · WA +502 5926-9205 · kidsunderstanding.com.
+
+## Pilar estratégico: autoridad en autismo (2026-07-21)
+
+Objetivo declarado de JR: que UK/IS sean **reconocidos como autoridad en autismo**. Decisiones y hallazgos:
+
+- **La estrategia es el CRUCE, y la puerta de entrada es SENSORIAL.** Medición con Apify (2026-07-21, 50 reels): `#integracionsensorial` tiene **mediana 89,546 vistas y máximo 2.97M**, contra **16,470 / 44,541** de `#autismo` — 5.4× más en mediana, 67× en el techo. `#autismo` está saturado (~21 posts cada 13 min) y dominado por Brasil/portugués. **Conclusión: el contenido de autismo se publica bajo el ángulo sensorial**, que además es la ventaja real de la casa. Cruces: **autismo × integración sensorial ⭐**, × alimentación, × lenguaje, × emociones, × autonomía, × juego.
+- **Lenguaje identidad-primero: "niño autista"**, nunca "niño con autismo" ([[decisiones/2026-07]]).
+- **Símbolo: el infinito ∞ de neurodiversidad; el 🧩 está prohibido.** No es el glifo tipográfico sino un **activo de marca dibujado** (SVG): trazo fino redondeado + "bump" de lima en las puntas + arcoíris con la paleta UK/IS. Se usa como **sello discreto** (46px, centrado, al pie; en el cierre justo sobre la línea de contacto) activándolo con `"autismo": True` en cada slide — así el ícono queda libre para el emoji del tema.
+- Tono obligatorio: el autismo no es enfermedad; nunca cura/alarmismo/burla.
+- Distinto de la campaña **AUT26** del Diplomado, que JR maneja aparte.
+
+## Datos de redes: Apify (conectado 2026-07-21)
+
+MCP de Apify activo → datos de primera mano de IG/FB/TikTok/YT **con métricas de engagement**, sin arriesgar las cuentas propias de UK (el scraping corre en la infraestructura de Apify). Reemplaza la idea descartada de usar una cuenta propia para scrapear, que era frágil y se ganaba bans.
+
+- Actor probado: `apify/instagram-hashtag-scraper` (~$0.0026 por resultado, ~8 s por corrida).
+- **Gotcha:** al leer resultados pedir solo los campos útiles (`ownerUsername,likesCount,commentsCount,type,productType,timestamp,url,caption`) — devuelve 120+ campos y ahoga el contexto.
+- **Método:** ordenar por engagement (likes + comentarios×3) y buscar **outliers** (5-10× el promedio del hashtag). El outlier ES la tendencia.
+- **Presupuesto: máx ~$2 USD por corrida** semanal (~$5-8/mes).
 
 ## Plantillas (build_*.py)
 
@@ -77,8 +98,23 @@ Magoo nutre Calendario de Artes ─┐        Agente tendencias (jue) → 🔥 T
 - **2026-07-07:** primer intento con Canva MCP (nota [[proyectos/activos/understanding-kids/sistema-templates-canva|sistema-templates-canva]]). Se topó con que la API de Canva no crea elementos ni cambia fondos.
 - **2026-07-16 →:** pivote a HTML/CSS + Playwright. 5 plantillas base aprobadas por JR, luego ampliadas (promos, historias, semántica de color, acento por marca).
 - **2026-07-20:** ciclo completo probado (8 piezas generadas, aprobadas, subidas a Drive + Notion, correo a Magoo).
-- **2026-07-21:** motor movido a iCloud para migración a Mac siempre-encendida; agente de tendencias creado (4 redes).
+- **2026-07-21:** motor movido a iCloud para migración a Mac siempre-encendida; agente de tendencias creado (4 redes); Apify conectado; pilar de autismo definido con su símbolo propio.
+
+## Estado al 2026-07-21 (para retomar sin contexto)
+
+**✅ Funcionando:**
+- Motor completo con 11 plantillas + historias, probado de punta a punta.
+- Ciclo completo validado el 2026-07-20: 8 piezas generadas → aprobadas por JR → Drive + Notion + correo a Magoo.
+- Los 2 agentes creados y configurados. Apify conectado y probado.
+- Todo el conocimiento en las guías de `Sistema/` + este vault.
+
+**⏳ Pendiente (en orden):**
+1. **Migrar a la Mac Mini** — bloqueado hasta el **1 de agosto de 2026** (JR de viaje). Runbook: [[proyectos/activos/understanding-kids/migracion-sistema-artes]]. Mientras tanto las tareas corren en la laptop y **se pierden las corridas cuando está apagada**; se pueden disparar a mano al volver.
+2. **Primera corrida real del agente de tendencias** — nunca ha corrido completo con Apify. Conviene lanzarlo a mano y revisar qué sugiere antes de confiar en el automático.
+3. Formato **Reel/video** sigue sin cubrir (se reporta como "atención manual").
+
+**Decisiones abiertas:** ninguna. Las de lenguaje y símbolo de autismo quedaron cerradas en [[decisiones/2026-07]].
 
 ## Relacionado
 
-[[understanding-kids]] · [[integracion-sensorial]] · [[monica]] · [[visual-identity]] · [[uk-catalogo]] · [[proyectos/activos/understanding-kids/sistema-templates-canva]] · [[diplomado-autismo-2026]]
+[[understanding-kids]] · [[integracion-sensorial]] · [[monica]] · [[visual-identity]] · [[uk-catalogo]] · [[proyectos/activos/understanding-kids/migracion-sistema-artes]] · [[proyectos/activos/understanding-kids/sistema-templates-canva]] · [[diplomado-autismo-2026]]
