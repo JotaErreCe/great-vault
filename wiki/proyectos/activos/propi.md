@@ -140,8 +140,19 @@ Revisión a fondo del cliente (correo + iCloud + confirmación directa de JR). D
 - **Ena González:** rol solo operativo, sin facultades formales de representación societaria.
 - **Renovación nombramiento José Mario Ávila Palomo (Asamblea 15):** sigue pendiente — 3 borradores creados el 1-jul-2026 en `Propi/Geoffrey/`, aún sin revisión humana ni firma.
 
+## 📌 Actualización — 2026-07-23 (Decreto 15-2026 / AML)
+
+Se publicó el **Decreto 15-2026** — nueva Ley Integral para la Prevención y Represión del LD/FT/FPADM (DCA 17-jun-2026), que **entra en vigor el 17-sep-2026** y deroga los Dtos. 67-2001 y 58-2005. Propi sigue siendo Persona Obligada, ahora bajo el **Art. 3.c.1.i** (intermediación/promoción inmobiliaria).
+
+- Se montó una biblioteca legal reutilizable en el vault: [[index|wiki/resources/legal/aml-gt]] con el texto verbatim del Dto. 15-2026, el 67-2001 y el reglamento AG 118-2002.
+- Análisis de brechas del manual de Propi: **[[analisis-brechas-15-2026]]**. Conclusión: el manual **no se reescribe, se alinea**. Cambios firmes: beneficiario final 10%→**15%**, período PEP (hoy dice 3 y 5 años, inconsistente)→**1 año**, agregar procedimiento de **congelamiento sin demora** de listas ONU (Arts. 43-44).
+- Acciones societarias con plazo por reforma al Código de Comercio: registro de acciones (≤1 año) y inscripción de administradores en Registro Mercantil (≤6 meses).
+- **Flag a decidir:** revisar bajo el nuevo marco el modelo de fondos de terceros (cobro por cuenta ajena/cashback) — podría acercar a Propi a actividad financiera del Art. 3.b.
+- Pendiente: conseguir el Decreto 58-2005 para el archivo; y (otra sesión) redactar las actualizaciones del manual.
+
 ## 🔗 Relacionado
 
+- [[analisis-brechas-15-2026]] — brechas manual de cumplimiento vs. Dto. 15-2026
 - [[apple-notes-pendientes]] — origen del item (Propi en inbox)
 - [[altezza]] — otro caso legal activo de JR
 
