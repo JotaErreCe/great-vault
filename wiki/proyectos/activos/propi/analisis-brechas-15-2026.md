@@ -48,9 +48,9 @@ El manual **NO requiere reescritura**. Su estructura ya es moderna: enfoque por 
 
 | # | Sección | Valor en el manual | Valor Dto. 15-2026 | Acción / decisión |
 |---|---|---|---|---|
-| B1 | **Beneficiario final** (Glosario p.8; Tabla 1 p.15; Tabla 2 proveedores; DDC; clientes no aceptados) | **"10% o más"** / "más del 10%" | **≥ 15 %** (Art. 2.b) | Cambiar a **15 %** en TODAS las apariciones. *Decisión JR:* la ley fija piso del 15%; Propi puede mantener 10% como política interna más estricta, pero entonces debe decirlo explícitamente ("Propi aplica un umbral más riguroso del 10% respecto del 15% legal"). Recomiendo alinear a 15% salvo que quieras el estándar más estricto. |
+| B1 | **Beneficiario final** (Glosario p.8; Tabla 1 p.15; Tabla 2 proveedores; DDC; clientes no aceptados) | **"10% o más"** / "más del 10%" | **≥ 15 %** (Art. 2.b) | ✅ **DECIDIDO (JR, 23-jul-2026): alinear a 15 %** en TODAS las apariciones. |
 | B2 | **Período PEP tras cesar** (p.8 "igual al ejercicio"; **p.17 "5 años"**; **p.18 "3 años"**) | Inconsistente: 5 años y 3 años | **1 año** posterior al cese, sin trámite (Art. 2.g y Art. 25.a) | Unificar a **1 año** en las tres apariciones. Hoy el manual se contradice a sí mismo y ninguna cifra coincide con la ley. |
-| B3 | **Conservación de documentos** (XIII p.33) | **15 años** | **5 años** mínimo (Art. 34). Los 10 años digitales adicionales aplican SOLO a POs de los bloques a) y b); Propi es bloque c) → no le aplican | Re-anclar la base legal a Art. 34 y corregir cita. *Decisión JR:* 15 años es más estricto que la ley (no es infracción). Mantener 15 o bajar a 5 es decisión de negocio; recomiendo al menos re-fundamentar la cita. |
+| B3 | **Conservación de documentos** (XIII p.33) | **15 años** | **5 años** mínimo (Art. 34). Los 10 años digitales adicionales aplican SOLO a POs de los bloques a) y b); Propi es bloque c) → no le aplican | ✅ **DECIDIDO (JR, 23-jul-2026): mantener 15 años** (política más estricta que la ley, válido). Solo re-anclar la cita legal a **Art. 34** del Dto. 15-2026. |
 | B4 | **Umbral "otro medio"** (X.e p.27) | Reporte de operaciones en "otro medio" > **US$25,000** | El Dto. 15-2026 solo fija efectivo **≥US$10k** (Art. 31); el umbral de "otros medios/transferencias" queda "según reglamentación" (Art. 25.l/m) | Mantener interino y marcar **"pendiente de reglamento"**. No inventar base legal para los 25k. |
 | B5 | **Beneficiario final % (screening listas)** p.16-19 | "accionistas con más del 10%" | ≥15% (Art. 2.b) | Igual que B1. |
 
@@ -131,6 +131,8 @@ Propi cobra por cuenta ajena / cashback: recibe fondos de clientes y los transfi
 Si la IVE llegara a considerar que Propi realiza una de esas actividades, subiría de categoría (de APNFD inmobiliaria a **actividad financiera**), lo que activa obligaciones **más pesadas**: Art. 39 (obligaciones de transferencias de fondos/valores), conservación digital adicional de **10 años** (Art. 34), y mayor escrutinio de supervisión.
 
 **Recomendación:** documentar por qué el flujo es accesorio a la intermediación inmobiliaria (mandato de cobro puntual, no giro de transferencias), y valorar reconfirmarlo con la IVE bajo el nuevo marco antes del 17-sep-2026. Decisión de JR.
+
+> 📄 **Análisis desarrollado (23-jul-2026):** [[analisis-fondos-terceros-15-2026]]. Punto clave: el Dto. 15-2026 **eliminó el calificativo "sistemáticas o sustanciales"** del Dto. 67-2001 Art. 18.5.c, que era lo que sostenía el visto bueno previo de la IVE. Recomendación de fondo: sacar los fondos del balance de Propi vía escrow/fiducia o pasarela regulada, y reconfirmar el criterio con la IVE **por escrito** antes del 17-sep-2026.
 
 ---
 

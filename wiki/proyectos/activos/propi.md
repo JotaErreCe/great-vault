@@ -112,8 +112,9 @@ Reporte de cobro de julio 2026 actualizado con:
 - 0:30 h — reunión con Propi (2026-07-14).
 - 0:15 h — reunión con Thelma (2026-07-16).
 - 1:30 h — reunión con Ena y Thelma sobre IVE y compliance de Propi (2026-07-17).
+- 1:05 h — reunión de seguimiento a procedimientos de cumplimiento (2026-07-23).
 
-Total actualizado en Excel: **345 min / 5.75 h**.
+Total actualizado en Excel: **410 min / 6.83 h**.
 
 Archivo: `AMC Legal/Clientes/Propi/Reporte de Cobro/Control de Horas - Propi - Julio 2026.xlsx`. Vencimiento operativo: enviar el último día del mes (2026-07-31).
 
@@ -147,8 +148,12 @@ Se publicó el **Decreto 15-2026** — nueva Ley Integral para la Prevención y 
 - Se montó una biblioteca legal reutilizable en el vault: [[index|wiki/resources/legal/aml-gt]] con el texto verbatim del Dto. 15-2026, el 67-2001 y el reglamento AG 118-2002.
 - Análisis de brechas del manual de Propi: **[[analisis-brechas-15-2026]]**. Conclusión: el manual **no se reescribe, se alinea**. Cambios firmes: beneficiario final 10%→**15%**, período PEP (hoy dice 3 y 5 años, inconsistente)→**1 año**, agregar procedimiento de **congelamiento sin demora** de listas ONU (Arts. 43-44).
 - Acciones societarias con plazo por reforma al Código de Comercio: registro de acciones (≤1 año) y inscripción de administradores en Registro Mercantil (≤6 meses).
-- **Flag a decidir:** revisar bajo el nuevo marco el modelo de fondos de terceros (cobro por cuenta ajena/cashback) — podría acercar a Propi a actividad financiera del Art. 3.b.
-- Pendiente: conseguir el Decreto 58-2005 para el archivo; y (otra sesión) redactar las actualizaciones del manual.
+- **Flag a decidir:** revisar bajo el nuevo marco el modelo de fondos de terceros (cobro por cuenta ajena/cashback) — podría acercar a Propi a actividad financiera del Art. 3.b. Memo: [[analisis-fondos-terceros-15-2026]].
+- Biblioteca AML completa (4 leyes) + catálogo de formularios IVE ([[formularios-ive]]); Decreto 58-2005 ya archivado.
+- **Procedimiento de expediente/DDC** con matriz "dato→documento de respaldo" y DDC **híbrida** (valor+perfil): [[procedimiento-expediente-cliente]].
+- **Contexto del equipo:** Ena y Thelma corren un **cronograma de 7 semanas** (14-jul→30-ago) para adecuar Propi; ver [[cronograma-adecuacion-15-2026]] con el cruce de nuestro trabajo a sus tareas. **Thelma = Oficial de Cumplimiento.** ⚠️ Su cronograma trae beneficiario final al "20%" — es **15%** por ley; corregir antes de S3-S4.
+- Decisiones de JR (23-jul): beneficiario final **15%**, conservación **15 años**, DDC **híbrida**, fondos por **ambas rutas** (directo a desarrolladora + cobro por cuenta ajena vía escrow/fideicomiso/convenio de recaudo).
+- Pendiente (otra sesión): redactar el Procedimiento de DDC formal y las modificaciones al manual.
 
 ## 🔗 Relacionado
 

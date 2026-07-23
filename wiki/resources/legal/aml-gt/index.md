@@ -26,7 +26,7 @@ Base de conocimiento reutilizable de AMC Legal en materia de **prevención y rep
 |---|---|---|---|
 | **Decreto 15-2026** | Ley Integral para la Prevención y Represión del Lavado de Dinero u Otros Activos y del Financiamiento del Terrorismo | **VIGENTE a partir del 17-sep-2026** (publicada 17-jun-2026; vigor a los 3 meses, Art. 128) | [[decreto-15-2026-ley-integral-ldft-fpadm]] |
 | Decreto 67-2001 | Ley Contra el Lavado de Dinero u Otros Activos | **DEROGADO** por Art. 126.1 del Dto. 15-2026 (efecto 17-sep-2026) | [[decreto-67-2001-ley-lavado]] |
-| Decreto 58-2005 | Ley para Prevenir y Reprimir el Financiamiento del Terrorismo | **DEROGADO** por Art. 126.2 del Dto. 15-2026 | ⏳ pendiente de conseguir texto |
+| Decreto 58-2005 | Ley para Prevenir y Reprimir el Financiamiento del Terrorismo | **DEROGADO** por Art. 126.2 del Dto. 15-2026 | [[decreto-58-2005-financiamiento-terrorismo]] |
 | AG 118-2002 | Reglamento de la Ley Contra el Lavado de Dinero u Otros Activos | Reglamento del Dto. 67-2001. Vigente transitoriamente hasta que SIB/IVE emita nuevo reglamento (≤6 meses, Art. 127 Dto. 15-2026) | [[ag-118-2002-reglamento]] |
 | Reglamento nuevo | Reglamento del Decreto 15-2026 | ⏳ **por emitirse** — plazo máximo 6 meses desde 17-jun-2026 (≈17-dic-2026), Art. 127 | — |
 
@@ -60,6 +60,8 @@ El Decreto 15-2026 **unifica en un solo cuerpo legal** lo que antes estaba dispe
 10. **Reformas conexas**: Código Penal (Dto. 17-73), Ley Contra la Delincuencia Organizada (21-2006), Código de Notariado (314), **Código de Comercio (2-70)** — registro de acciones con beneficiario final y nombramiento de administradores (Arts. 104-115).
 
 Detalle artículo-por-artículo aplicado a un cliente concreto: ver el análisis de brechas del cliente (p. ej. [[analisis-brechas-15-2026|Propi]]).
+
+**Operativa IVE:** [[formularios-ive]] — catálogo de formularios y reportes de la IVE (registro, expediente/FEIC, reportes mensuales IN-25/MY-28/ONU, RTS, Portal PPO) mapeados al Dto. 15-2026.
 
 ---
 
