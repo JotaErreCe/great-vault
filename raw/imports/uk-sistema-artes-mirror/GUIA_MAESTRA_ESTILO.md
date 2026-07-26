@@ -169,7 +169,7 @@ Objetivo del sistema: crecer sin fragmentarse. Antes de codear una plantilla nue
 
 ## 7. Contenido viral / tendencias (trabaja con el agente de tendencias)
 
-El agente de tendencias (`uk-tendencias-virales`, corre jueves) deja sugerencias en la base **"🔥 Tendencias"** de Notion. Al generar contenido desde una tendencia **Aprobada**:
+El agente de tendencias (`uk-tendencias-virales`, corre **lunes y jueves 7am**) deja sugerencias en la base **"🔥 Tendencias"** de Notion. **Alcance (JR 2026-07-21): SOLO Instagram + Facebook, SOLO posts estáticos y carruseles** (nada de reels/TikTok/YouTube). Su misión es detectar **formatos/ángulos que se están replicando entre cuentas — LO ANTES POSIBLE** — para subirse antes de que se saturen (el dolor: llegar tarde a trends como "Haaland de niño hacía X" o el "semáforo de alimentación"). Vigila una lista de **cuentas referentes** (`tendencias_referentes.md`) + barrido de hashtags en IG + momentos culturales por WebSearch. Al generar contenido desde una tendencia **Aprobada**:
 
 - **La tendencia aporta el QUÉ o el FORMATO** (el tema del momento, la estructura del meme, el estilo de video/carrusel que está funcionando). **La línea aporta el CÓMO:** SIEMPRE renderizado con nuestras anclas (§6.3). Un meme viral hecho con Cocogoose, crema y nuestro acento se ve nuestro; un meme copiado tal cual, no.
 - **Adaptar, no copiar:** tomar la estructura viral (ej. "expectativa vs realidad", "POV:", "cosas que nadie te dice de…") y llenarla con nuestro contenido de valor (desarrollo infantil, sensorial, crianza).

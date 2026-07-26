@@ -71,7 +71,7 @@ portada · contenido · contenido+imagen · frase/cita · infografía (tarjetas)
 Corren en Claude Code (tareas programadas). **Requieren la app abierta** en una Mac encendida a la hora del cron → objetivo: mudarlos a la Mac Mini siempre-encendida (ver `MIGRACION.md`).
 
 1. **`uk-artes-semanales`** (domingos 18:00): lee el **🗓️ Calendario de Artes** de Notion (briefs que escribe [[monica|Magoo]] en el campo Text) + las tendencias Aprobadas → genera carruseles + historias + captions → guarda en `Pendientes de Revision/`. **Excluye la campaña del Diplomado (AUT26)** — JR la maneja aparte. Reels/video = "atención manual".
-2. **`uk-tendencias-virales`** (jueves 18:00): rastrea tendencias virales en **Instagram, Facebook, YouTube y TikTok** relacionadas con el contenido de la clínica y las sugiere en la base Notion **🔥 Tendencias** (Status "Sugerida"). Filtro de marca: clínica seria (descarta miedo, política, burla a niños).
+2. **`uk-tendencias-virales`** (**lunes y jueves 7am** — refinado JR 2026-07-21): detecta **FORMATOS/ángulos que se están replicando** en **Instagram y Facebook, SOLO posts estáticos y carruseles** (nada de reels/TikTok/YouTube), para subirse a tiempo (dolor: llegar tarde a trends tipo "Haaland de niño" o "semáforo de alimentación"). Vigila cuentas referentes (`Sistema/tendencias_referentes.md`) + hashtags IG + momentos culturales (WebSearch). Sugiere en la base **🔥 Tendencias** (Status "Sugerida"). Presupuesto ~$1.50/corrida. Filtro de marca: clínica seria.
 
 ## Flujo operativo
 
