@@ -151,7 +151,7 @@ Se publicó el **Decreto 15-2026** — nueva Ley Integral para la Prevención y 
 - **Flag a decidir:** revisar bajo el nuevo marco el modelo de fondos de terceros (cobro por cuenta ajena/cashback) — podría acercar a Propi a actividad financiera del Art. 3.b. Memo: [[analisis-fondos-terceros-15-2026]].
 - Biblioteca AML completa (4 leyes) + catálogo de formularios IVE ([[formularios-ive]]); Decreto 58-2005 ya archivado.
 - **Procedimiento de expediente/DDC** con matriz "dato→documento de respaldo" y DDC **híbrida** (valor+perfil): [[procedimiento-expediente-cliente]].
-- **Contexto del equipo:** Ena y Thelma corren un **cronograma de 7 semanas** (14-jul→30-ago) para adecuar Propi; ver [[cronograma-adecuacion-15-2026]] con el cruce de nuestro trabajo a sus tareas. **Thelma = Oficial de Cumplimiento.** ⚠️ Su cronograma trae beneficiario final al "20%" — es **15%** por ley; corregir antes de S3-S4.
+- **Contexto del equipo:** Ena y Thelma corren un **cronograma de 7 semanas** (14-jul→30-ago) para adecuar Propi; ver [[cronograma-adecuacion-15-2026]] con el cruce de nuestro trabajo a sus tareas. **Thelma = Oficial de Cumplimiento titular; José Mario Ávila Palomo (socio fundador) = OC suplente.** ("José" en las tareas del cronograma = JR.) ⚠️ Su cronograma trae beneficiario final al "20%" — es **15%** por ley; corregir antes de S3-S4.
 - Decisiones de JR (23-jul): beneficiario final **15%**, conservación **15 años**, DDC **híbrida**, fondos por **ambas rutas** (directo a desarrolladora + cobro por cuenta ajena vía escrow/fideicomiso/convenio de recaudo).
 - Pendiente (otra sesión): redactar el Procedimiento de DDC formal y las modificaciones al manual.
 

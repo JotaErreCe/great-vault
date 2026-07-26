@@ -16,7 +16,7 @@ tags:
 
 Marco de trabajo que **Ena y Thelma** están ejecutando para adecuar Propi al Decreto 15-2026. Fuente: `IVE PROPI Schedule.xlsx`. Proyecto de **7 semanas: 14-jul → 30-ago-2026** (cierra ~2.5 semanas antes de la vigencia de la ley el 17-sep). El seguimiento post-cierre absorbe el nuevo reglamento SIB (~sept-dic).
 
-> **Rol confirmado:** **Thelma = Oficial de Cumplimiento** de Propi. Ena = sponsor/dirección. "José" aparece como responsable de flujo/tecnología/piloto (confirmar si es José Mario Ávila Palomo u otro).
+> **Roles confirmados (JR, 23-jul):** **Thelma = Oficial de Cumplimiento titular**. **José Mario Ávila Palomo (socio fundador) = Oficial de Cumplimiento suplente**. Ena = sponsor/dirección. **"José" en las tareas del cronograma = JR** (el propio abogado, no José Mario).
 
 ---
 
