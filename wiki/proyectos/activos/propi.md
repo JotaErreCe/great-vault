@@ -155,6 +155,20 @@ Se publicó el **Decreto 15-2026** — nueva Ley Integral para la Prevención y 
 - Decisiones de JR (23-jul): beneficiario final **15%**, conservación **15 años**, DDC **híbrida**, fondos por **ambas rutas** (directo a desarrolladora + cobro por cuenta ajena vía escrow/fideicomiso/convenio de recaudo).
 - Pendiente (otra sesión): redactar el Procedimiento de DDC formal y las modificaciones al manual.
 
+## 📌 Actualización — 2026-08-03 (Control de Horas)
+
+Incidente operativo con el Google Sheet `Control de Horas - Propi`: la pestaña `Julio 2026` debe generarse duplicando `Junio 2026` y sobrescribiendo únicamente datos variables, no reconstruyendo la hoja desde cero. Se creó el protocolo/skill [[propi-control-horas]] y un fixture local de prueba para Julio 2026 en `/Users/jr/.openclaw/workspace-geoffrey/outputs/propi-control-horas-test/`.
+
+Datos correctos Julio 2026:
+
+- Cliente: Propi Tech, S.A.
+- 11 rubros.
+- Total: 605 min / 10.083333 h.
+- Base: Q3,500.00.
+- Exceso: US$166.67.
+
+Estado de acceso Google auditado: la ruta confiable histórica era Google Workspace MCP/API con token cifrado en `~/.config/google-workspace-mcp/gemini-cli-workspace-token.json`; el token falta actualmente, aunque la master key existe. Requiere reautenticación/restauración una vez antes de ejecutar writes confiables.
+
 ## 🔗 Relacionado
 
 - [[analisis-brechas-15-2026]] — brechas manual de cumplimiento vs. Dto. 15-2026
