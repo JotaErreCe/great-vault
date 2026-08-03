@@ -38,11 +38,11 @@ Para cada nuevo mes:
 5. Sobreescribir solo los datos variables:
    - mes en encabezado;
    - descripciones/rubros;
-   - minutos;
-   - filas sobrantes dentro del bloque de rubros;
-   - totales solo si la plantilla no los calcula por fórmula.
-6. Preservar formato, fórmulas, anchos, estilos y estructura de la pestaña fuente.
-7. Verificar por API/export:
+   - **únicamente `Hora en minutos` para el cálculo**.
+6. **No tocar celdas con fórmula**: `Horas`, totales, base/exceso, IVA, tipo de cambio y cobro total deben quedar automáticos para que JR pueda corregir minutos y la tabla recalcule sola.
+7. Limpiar filas sobrantes dentro del bloque de rubros solo si no rompe fórmulas/estructura.
+8. Preservar formato, fórmulas, anchos, estilos y estructura de la pestaña fuente.
+9. Verificar por API/export:
    - existe exactamente una pestaña destino;
    - no quedan pestañas `Hoja`, `Copia`, `TEST` no autorizadas;
    - cliente/mes correctos;
@@ -61,10 +61,9 @@ Ruta confiable esperada:
 Estado auditado el 2026-08-03:
 
 - La master key existe.
-- El token cifrado falta.
-- `mcporter` está configurado pero `~/.mcporter/credentials.json` tiene `entries: {}` y el servidor queda offline/timeout.
-- `gws` existe pero no tiene OAuth client/credenciales configuradas.
-- Conclusión: hay que restaurar/rehacer una vez el OAuth y verificarlo con `scripts/propi/google-token-check.js`; después no depender de Chrome/UI.
+- El token cifrado fue recuperado desde transcripts del 2026-06-24 y re-cifrado para el hostname actual `JRs-Mac-mini-2.local`.
+- `mcporter` / Google Workspace MCP vuelve a leer el Spreadsheet por API oficial.
+- No depender de Chrome/UI para edición; usar API oficial y verificar rangos/formulas.
 
 ## Seguridad
 
@@ -87,6 +86,8 @@ Fixture local creado el 2026-08-03:
 ## Lección crítica
 
 El 2026-08-03 Geoffrey falló al crear/corregir `Julio 2026` reconstruyendo/pegando datos en vez de duplicar correctamente `Junio 2026` y tocar solo datos. Para este Sheet, la plantilla mensual —formato y fórmulas— es parte del dato y debe preservarse.
+
+Nueva regla de JR (2026-08-03): la hoja debe ser tabla automática. Geoffrey llena rubros y `Hora en minutos`; las fórmulas calculan todo lo demás.
 
 ## Decisión
 
