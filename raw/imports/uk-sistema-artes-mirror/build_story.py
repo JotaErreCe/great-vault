@@ -19,7 +19,7 @@ from pathlib import Path
 import base64
 
 from build_contenido import (
-    BASE_DIR, COLOR_BG, COLOR_TEXT, COLOR_ACCENT, COCOGOOSE_B64, MONTSERRAT_B64, icon_html,
+    BASE_DIR, COLOR_BG, bg_for, COLOR_TEXT, COLOR_ACCENT, COCOGOOSE_B64, MONTSERRAT_B64, icon_html,
 )
 from build_promo import LOGOS, _img_b64
 
@@ -89,7 +89,7 @@ def render_story_teaser(content: dict, out_path: str, marca: str = "UK"):
   <div class="cta">Toca abajo para ver el post completo</div>
   <div class="arrow">👇</div>
 </div>"""
-    _screenshot(_page(inner, COLOR_BG, "Story-Teaser"), out_path)
+    _screenshot(_page(inner, bg_for(marca), "Story-Teaser"), out_path)
 
 
 # ==================== 2. STORY-FLYER promo (talleres/cursos) ====================
@@ -166,7 +166,7 @@ def render_story_quote(content: dict, out_path: str, marca: str = "UK"):
   {author}
   <img class="logo" src="data:image/png;base64,{LOGOS.get(marca, LOGOS['UK'])}" />
 </div>"""
-    _screenshot(_page(inner, COLOR_BG, "Story-Quote"), out_path)
+    _screenshot(_page(inner, bg_for(marca), "Story-Quote"), out_path)
 
 
 # ==================== 4. TIP complemento (valor extra) ====================
@@ -195,4 +195,4 @@ def render_story_tip(content: dict, out_path: str, marca: str = "UK"):
   <div class="save">Guarda esta historia para tenerla a mano 📌</div>
   <img class="logo" src="data:image/png;base64,{LOGOS.get(marca, LOGOS['UK'])}" />
 </div>"""
-    _screenshot(_page(inner, COLOR_BG, "Story-Tip"), out_path)
+    _screenshot(_page(inner, bg_for(marca), "Story-Tip"), out_path)

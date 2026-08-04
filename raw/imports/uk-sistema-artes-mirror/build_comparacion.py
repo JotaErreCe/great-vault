@@ -9,6 +9,7 @@ from playwright.sync_api import sync_playwright
 from pathlib import Path
 
 from build_contenido import (
+    bg_for,
     BASE_DIR, CANVAS_W, CANVAS_H, MARGIN_X,
     COLOR_BG, COLOR_TEXT, COLOR_ACCENT, COCOGOOSE_B64, MONTSERRAT_B64, icon_html, inyectar_sello,
 )
@@ -35,6 +36,7 @@ CONTENT = {
 
 
 def build_html(content: dict) -> str:
+    bg = bg_for(content.get("marca"))
     neutral = content.get("left_kind") == "neutral"
     left_bg = COLOR_NEUTRAL_BG if neutral else COLOR_NEG_BG
     left_pill_bg = COLOR_NEUTRAL_PILL if neutral else COLOR_NEG_PILL
@@ -42,7 +44,7 @@ def build_html(content: dict) -> str:
     return f"""<meta charset="utf-8">
 <div data-document-role="page" data-label="Comparación" style="
     width:{CANVAS_W}px;height:{CANVAS_H}px;position:relative;overflow:hidden;
-    background:{COLOR_BG};box-sizing:border-box;">
+    background:{bg};box-sizing:border-box;">
 <style>
 @font-face {{ font-family:'CocogoosePro'; src:url(data:font/otf;base64,{COCOGOOSE_B64}) format('opentype'); font-weight:700; }}
 @font-face {{ font-family:'Montserrat'; src:url(data:font/ttf;base64,{MONTSERRAT_B64}) format('truetype'); font-weight:100 900; }}

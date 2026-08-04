@@ -11,6 +11,7 @@ from pathlib import Path
 from reglas_contenido import validar
 
 from build_contenido import (
+    bg_for,
     BASE_DIR, CANVAS_W, CANVAS_H, MARGIN_X,
     COLOR_BG, COLOR_TEXT, COLOR_ACCENT, COCOGOOSE_B64, MONTSERRAT_B64, icon_html, inyectar_sello,
 )
@@ -32,6 +33,7 @@ CONTENT = {
 
 
 def build_html(content: dict) -> str:
+    bg = bg_for(content.get("marca"))
     from build_contenido import accent_for, accent_text_for
     accent = accent_for(content.get("marca"))
     accent_fg = accent_text_for(content.get("marca"))
@@ -48,7 +50,7 @@ def build_html(content: dict) -> str:
     return f"""<meta charset="utf-8">
 <div data-document-role="page" data-label="Pasos" style="
     width:{CANVAS_W}px;height:{CANVAS_H}px;position:relative;overflow:hidden;
-    background:{COLOR_BG};box-sizing:border-box;">
+    background:{bg};box-sizing:border-box;">
 <style>
 @font-face {{ font-family:'CocogoosePro'; src:url(data:font/otf;base64,{COCOGOOSE_B64}) format('opentype'); font-weight:700; }}
 @font-face {{ font-family:'Montserrat'; src:url(data:font/ttf;base64,{MONTSERRAT_B64}) format('truetype'); font-weight:100 900; }}

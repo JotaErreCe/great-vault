@@ -26,6 +26,16 @@ COLOR_ACCENT = "#EEB41E"
 ACCENTS = {"UK": "#EEB41E", "IS": "#3FA8C0"}
 ACCENT_TEXT = {"UK": "#3a2c05", "IS": "#FFFFFF"}   # texto legible sobre el acento
 
+# ---- FONDO POR MARCA (JR 2026-08-03) ----
+# UK e IS NO comparten fondo: UK va sobre crema, IS sobre celeste claro.
+# La diferencia es deliberadamente sutil — las dos marcas deben leerse bajo la
+# misma sombrilla. COLOR_BG queda como el default (UK) para no romper llamadas
+# viejas; todo lo nuevo debe usar bg_for(content.get("marca")).
+BACKGROUNDS = {"UK": "#FBFAF6", "IS": "#F4F9FA"}
+
+def bg_for(marca: str | None) -> str:
+    return BACKGROUNDS.get(marca or "UK", BACKGROUNDS["UK"])
+
 def accent_for(marca: str | None) -> str:
     return ACCENTS.get(marca or "UK", ACCENTS["UK"])
 
@@ -167,6 +177,7 @@ CONTENT = {
 
 
 def build_html(content: dict) -> str:
+    bg = bg_for(content.get("marca"))
     accent = accent_for(content.get("marca"))
     bullets_html = ""
     if content.get("bullets"):
@@ -185,7 +196,7 @@ def build_html(content: dict) -> str:
     return f"""<meta charset="utf-8">
 <div data-document-role="page" data-label="Contenido" style="
     width:{CANVAS_W}px;height:{CANVAS_H}px;position:relative;overflow:hidden;
-    background:{COLOR_BG};box-sizing:border-box;">
+    background:{bg};box-sizing:border-box;">
 <style>
 @font-face {{
   font-family: 'CocogoosePro';

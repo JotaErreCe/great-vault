@@ -11,6 +11,7 @@ Documentos hermanos: `GUIA_PROMOS_TALLERES.md` (sub-sistema de promoción) · `M
 | | Understanding Kids (UK) | Integración Sensorial (IS) |
 |---|---|---|
 | Qué es | Clínica principal | Sub-marca ("by Understanding Kids") |
+| **Fondo** | Crema `#FBFAF6` | Celeste claro `#F4F9FA` |
 | **Acento de marca** | 🟡 Amarillo `#EEB41E` | 🔵 Turquesa `#3FA8C0` (del logo) |
 | Texto sobre el acento | Café oscuro `#3a2c05` | Blanco `#FFFFFF` |
 | Acento secundario | Verde `#76B142` | Verde lima `#6FAE1C` |
@@ -36,7 +37,8 @@ Jerarquía de tamaños en posts: portada 84px (auto-reduce hasta 52 si no cabe) 
 ### Paleta completa y roles
 | Color | Hex | Rol |
 |---|---|---|
-| Crema | `#FBFAF6` | Fondo base de todo el sistema diario |
+| Crema | `#FBFAF6` | **Fondo de UK** (no es el fondo de todo el sistema — ver abajo) |
+| Celeste claro | `#F4F9FA` | **Fondo de IS** |
 | Gris oscuro | `#33363B` | Texto |
 | Amarillo | `#EEB41E` | Acento UK (énfasis, no "bueno") |
 | Turquesa | `#3FA8C0` | Acento IS |
@@ -45,6 +47,8 @@ Jerarquía de tamaños en posts: portada 84px (auto-reduce hasta 52 si no cabe) 
 | Celeste | `#57BAC6` | Informativo/neutro, resalte emocional alternativo |
 | Tintes pastel | `#FBEFCF` `#E6F0DD` `#DDEFF2` `#EEEDE7` | Fondos de tarjetas de infografía |
 | Gris pie | `#6B6A64` texto / `#E2DFD5` línea | Barra de contacto |
+
+**FONDO POR MARCA (regla dura, JR 2026-08-03):** UK e IS **NUNCA comparten fondo**. UK va sobre crema `#FBFAF6`; IS sobre celeste claro `#F4F9FA`. La diferencia es deliberadamente sutil: las dos marcas tienen que leerse bajo la misma sombrilla, no como marcas ajenas. Implementado en `build_contenido.py` (`BACKGROUNDS`, `bg_for()`); las 11 plantillas lo leen de `content["marca"]` (las historias, del parámetro `marca=`). **Pasar siempre `"marca":"IS"` en TODOS los dicts de una pieza de IS** — si se olvida en un slide, ese slide sale con el crema de UK y se nota en el carrusel. Antes del 2026-08-03 el crema estaba hardcodeado para ambas marcas: las piezas de IS de julio que ya están en Drive salieron con fondo de UK. **Guardarraíl:** `verificar_marca.py` lee el fondo real de los PNG ya renderizados y avisa si alguno no corresponde a su marca (`python3 verificar_marca.py --todas "<carpeta>"`; deduce la marca del nombre de la carpeta). Correrlo SIEMPRE al terminar de generar.
 
 **Semántica (regla dura):** rojo suave = incorrecto · verde = correcto · amarillo/turquesa = énfasis de marca · celeste = info. Si una comparación no tiene carga (Sesión 1 vs 2), usar neutro gris (`left_kind="neutral"`), no rojo.
 
@@ -175,6 +179,17 @@ El agente de tendencias (`uk-tendencias-virales`, corre **lunes y jueves 7am**) 
 - **Adaptar, no copiar:** tomar la estructura viral (ej. "expectativa vs realidad", "POV:", "cosas que nadie te dice de…") y llenarla con nuestro contenido de valor (desarrollo infantil, sensorial, crianza).
 - **Filtro de marca (brand safety) — descartar tendencias que:** ridiculicen a niños o papás; usen miedo/alarma como gancho; toquen política, religión o polémicas; requieran audio/material con derechos de terceros; envejezcan mal (la clínica es seria: mejor llegar 2 días tarde que quedar mal); o simplemente no tengan traducción natural a nuestro nicho (no forzar).
 - Si la tendencia pide un formato que el sistema no cubre (ej. video), reportar "atención manual" — no improvisar fuera del sistema.
+
+## 7-bis. Campañas (identidad propia — NO se mezclan con el contenido diario)
+
+Las campañas (talleres grandes, diplomados, especializaciones) tienen **su propia identidad visual** y no usan la línea diaria (crema/amarillo UK, turquesa IS, sello ∞). Convención fija (JR 2026-07-21):
+
+1. **Cada campaña tiene una entrada "PARÁMETROS DE CAMPAÑA" como primer registro en el Calendario de Artes de Notion** — `Visuals needed`=NO, campo `Campaña` = código (ej. "EDA26 · Especialización Alimentación"). Su **cuerpo es el prompt maestro**: paleta + roles/60-30-10, tipografía, `THEME_*` del motor, highlighter, marca/contactos, y mapeo pieza→plantilla. Es lo PRIMERO que se lee antes de producir cualquier pieza de esa campaña.
+2. **Las piezas** de la campaña llevan el campo `Campaña` seteado. El agente las detecta, lee el maestro y aplica ESA identidad — nunca la paleta diaria ni el ∞.
+3. **El theme se codifica** en `build_promo.py` como `THEME_<CÓDIGO>`. Activo: **`THEME_EDA26`** (Pizarra & Rojo: fondo #F6F4F1, texto #263039, primario pizarra #35617A, acento/CTA rojo #D44B45, apoyo #F0DAD3, highlighter rojo ~28%). CTA/badge en rojo vía `THEME_EDA26["cta"]`.
+4. Campañas que JR maneja aparte y sin entrada de parámetros (ej. **AUT26**) → no se generan.
+
+Para crear una campaña nueva: (a) crear su entrada de PARÁMETROS en el calendario; (b) codificar su `THEME_*`; (c) cargar sus piezas con el campo `Campaña`. Guía de la campaña activa en Notion → "Especialización Clínica en Dificultades de la Alimentación 2026 — Campaña".
 
 ## 8. Flujo operativo (resumen)
 

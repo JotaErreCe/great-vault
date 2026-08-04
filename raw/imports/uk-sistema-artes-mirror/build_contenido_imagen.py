@@ -16,6 +16,7 @@ from reglas_contenido import validar_todos
 
 # Reutiliza el sistema de diseño ya definido en la plantilla de contenido
 from build_contenido import (
+    bg_for,
     BASE_DIR, CANVAS_W, CANVAS_H, MARGIN_X, COLUMN_MAX_WIDTH,
     COLOR_BG, COLOR_TEXT, COLOR_ACCENT, COCOGOOSE_B64, MONTSERRAT_B64, inyectar_sello,
 )
@@ -44,6 +45,7 @@ def _img_b64(path: str) -> tuple[str, str]:
 
 
 def build_html(content: dict) -> str:
+    bg = bg_for(content.get("marca"))
     from build_contenido import accent_for
     accent = accent_for(content.get("marca"))
     img_data, img_mime = _img_b64(content["image_path"])
@@ -60,7 +62,7 @@ def build_html(content: dict) -> str:
     return f"""<meta charset="utf-8">
 <div data-document-role="page" data-label="Contenido con imagen" style="
     width:{CANVAS_W}px;height:{CANVAS_H}px;position:relative;overflow:hidden;
-    background:{COLOR_BG};box-sizing:border-box;">
+    background:{bg};box-sizing:border-box;">
 <style>
 @font-face {{
   font-family:'CocogoosePro'; src:url(data:font/otf;base64,{COCOGOOSE_B64}) format('opentype'); font-weight:700;

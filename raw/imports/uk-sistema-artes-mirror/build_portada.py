@@ -44,12 +44,13 @@ CONTENT = {
 
 
 def build_html(content: dict) -> str:
-    from build_contenido import accent_for, icon_html
+    from build_contenido import bg_for, accent_for, icon_html
+    bg = bg_for(content.get("marca"))
     accent = accent_for(content.get("marca"))
     return f"""<meta charset="utf-8">
 <div data-document-role="page" data-label="Portada" style="
     width:{CANVAS_W}px;height:{CANVAS_H}px;position:relative;overflow:hidden;
-    background:{COLOR_BG};box-sizing:border-box;">
+    background:{bg};box-sizing:border-box;">
 <style>
 @font-face {{
   font-family: 'CocogoosePro';

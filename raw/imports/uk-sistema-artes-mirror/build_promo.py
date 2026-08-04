@@ -64,6 +64,19 @@ THEME_SUENO = make_theme(
     title="#3F5C8C", accent="#8CA0C9", accent2="#E8B04B",
     cover_bg="#E1E7F2", chip_border="#C6D2E6", bg="#F0F3F9", text="#2C3652")
 
+# ---- CAMPAÑAS (identidad propia, distinta del contenido diario) ----
+# EDA26 — Especialización Clínica en Dificultades de la Alimentación 2026.
+# Aprobada por JR 2026-07-21. "Pizarra & Rojo": base sofisticada + acento rojo.
+# El CTA/badge va en rojo (cta), no en el primario pizarra.
+THEME_EDA26 = make_theme(
+    title="#35617A",      # azul pizarra (títulos, estructura)
+    accent="#D44B45",     # rojo (acento: tarjetas, temario, subrayados)
+    accent2="#6E8FA0",    # pizarra claro (segundo tono)
+    cover_bg="#F6F4F1", chip_border="#E4DED6",
+    bg="#F6F4F1", text="#263039", muted="#7A8590")
+THEME_EDA26["cta"] = "#D44B45"       # CTA y badge en rojo (color firma)
+THEME_EDA26["highlight"] = "rgba(212,75,69,0.28)"  # highlighter translúcido (~28%)
+
 
 def _img_b64(path: str) -> tuple[str, str]:
     p = (BASE_DIR / path) if not Path(path).is_absolute() else Path(path)
@@ -108,6 +121,9 @@ def _screenshot(html: str, out_path: str):
 # integrados. El tomate se usa solo como acento (título/CTA), no como fondo pleno.
 def render_cover(content: dict, theme: dict, out_path: str, marca: str = "IS"):
     PHOTO_H = 720
+    # CTA/badge pueden usar un color propio (cta) distinto del primario (title).
+    # Si no se define, caen al title (comportamiento anterior).
+    cta_col = theme.get("cta", theme["title"])
     img_data, img_mime = _img_b64(content["image_path"])
     bg = theme["cover_bg"]
 
@@ -133,7 +149,7 @@ def render_cover(content: dict, theme: dict, out_path: str, marca: str = "IS"):
 .content {{ position:absolute; left:70px; right:70px; top:{PHOTO_H+2}px; bottom:60px;
   display:flex; flex-direction:column; align-items:center; text-align:center; gap:20px; }}
 .badge {{ font-family:'Montserrat'; font-weight:700; font-size:20px; letter-spacing:.08em; text-transform:uppercase;
-  background:{theme['title']}; color:#ffffff; padding:9px 24px; border-radius:22px; }}
+  background:{cta_col}; color:#ffffff; padding:9px 24px; border-radius:22px; }}
 .title {{ font-family:'CocogoosePro'; font-weight:700; font-size:62px; line-height:1.04; color:{theme['title']};
   text-align:center; text-wrap:balance; }}
 .subtitle {{ font-family:'Montserrat'; font-weight:500; font-size:27px; line-height:1.3; color:{theme['text']}; max-width:760px; }}
@@ -142,7 +158,7 @@ def render_cover(content: dict, theme: dict, out_path: str, marca: str = "IS"):
   border-radius:40px; padding:12px 22px; font-family:'Montserrat'; font-weight:600; font-size:25px; color:{theme['text']}; }}
 .chip .ci {{ font-size:24px; }}
 .cta {{ font-family:'CocogoosePro'; font-weight:700; font-size:36px; color:#ffffff;
-  background:{theme['title']}; padding:18px 54px; border-radius:44px; margin-top:6px;
+  background:{cta_col}; padding:18px 54px; border-radius:44px; margin-top:6px;
   box-shadow:0 12px 30px rgba(212,67,42,.30); }}
 </style>
 <img class="photo" src="data:image/{img_mime};base64,{img_data}" />

@@ -9,6 +9,7 @@ from playwright.sync_api import sync_playwright
 from pathlib import Path
 
 from build_contenido import (
+    bg_for,
     BASE_DIR, CANVAS_W, CANVAS_H, MARGIN_X, COLUMN_MAX_WIDTH,
     COLOR_BG, COLOR_TEXT, COLOR_ACCENT, COCOGOOSE_B64, MONTSERRAT_B64,
 )
@@ -32,6 +33,7 @@ CONTENT = {
 
 
 def build_html(content: dict) -> str:
+    bg = bg_for(content.get("marca"))
     badge_html = f'<div class="badge">{content["badge"]}</div>' if content.get("badge") else ""
     subtitle_html = f'<div class="subtitle">{content["subtitle"]}</div>' if content.get("subtitle") else ""
     cta_html = f'<div class="cta">{content["cta"]}</div>' if content.get("cta") else ""
@@ -46,7 +48,7 @@ def build_html(content: dict) -> str:
     return f"""<meta charset="utf-8">
 <div data-document-role="page" data-label="Flyer" style="
     width:{CANVAS_W}px;height:{CANVAS_H}px;position:relative;overflow:hidden;
-    background:{COLOR_BG};box-sizing:border-box;">
+    background:{bg};box-sizing:border-box;">
 <style>
 @font-face {{ font-family:'CocogoosePro'; src:url(data:font/otf;base64,{COCOGOOSE_B64}) format('opentype'); font-weight:700; }}
 @font-face {{ font-family:'Montserrat'; src:url(data:font/ttf;base64,{MONTSERRAT_B64}) format('truetype'); font-weight:100 900; }}

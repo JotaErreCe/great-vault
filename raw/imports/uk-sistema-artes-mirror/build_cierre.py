@@ -80,7 +80,8 @@ ICONS = {
 
 
 def build_html(content: dict, contact: dict) -> str:
-    from build_contenido import accent_for
+    from build_contenido import bg_for, accent_for
+    bg = bg_for(content.get("marca"))
     accent = accent_for(content.get("marca"))
     contact_items = "".join(
         f'<div class="contact-item">{ICONS[key]}<span>{value}</span></div>'
@@ -90,7 +91,7 @@ def build_html(content: dict, contact: dict) -> str:
     return f"""<meta charset="utf-8">
 <div data-document-role="page" data-label="Cierre" style="
     width:{CANVAS_W}px;height:{CANVAS_H}px;position:relative;overflow:hidden;
-    background:{COLOR_BG};box-sizing:border-box;">
+    background:{bg};box-sizing:border-box;">
 <style>
 @font-face {{
   font-family: 'CocogoosePro';
