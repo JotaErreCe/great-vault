@@ -68,6 +68,39 @@ Si los compradores pagan **rutinariamente hacia cuentas de Propi** como caracter
 
 ---
 
+## 3-bis. Consecuencias detalladas de ofrecer el cobro por cuenta ajena como servicio constante
+
+Si Propi decide **institucionalizar** el cobro por cuenta ajena (que los fondos transiten habitualmente por sus cuentas como parte del producto), las consecuencias no se limitan a "más papeleo AML". Se abren **siete frentes de riesgo**:
+
+**1. Reclasificación regulatoria (Art. 3.b.1.iv/xi/xii + Arts. 4 y 6).**
+Deja de ser accesorio y se vuelve **giro de negocio** → encuadra en actividad financiera. La IVE puede **reclasificar a Propi de oficio** (Art. 6) o incorporarla formalmente (Art. 4). Cambia su naturaleza: de APNFD inmobiliaria a **Persona Obligada financiera**, con un régimen mucho más exigente.
+
+**2. Obligaciones AML más gravosas que se activan de inmediato.**
+- **Art. 39 — "regla de viaje":** asegurar que la información de ordenante y beneficiario viaje con cada transferencia por toda la cadena de pagos; políticas para ejecutar/rechazar/suspender transferencias sin información completa; **registro de agentes y subagentes**; reporte de las transferencias a la IVE.
+- **Art. 34 — conservación digital adicional de 10 años** (además de los 5), exclusiva de los bloques a) y b).
+- **Art. 25.m — DDC intensificada** en transferencias sobre el umbral que fije el reglamento.
+- **Arts. 63-64 — supervisión más intensa** de la SIB, con enfoque basado en riesgo reforzado.
+- Sistemas de **monitoreo transaccional** más robustos (mayor volumen y velocidad de fondos).
+
+**3. Riesgo prudencial / de actividad reservada (Ley de Bancos y Grupos Financieros, Dto. 19-2002).**
+Movilizar fondos de terceros de forma habitual puede **rozar actividades reservadas** a entidades financieras autorizadas (captación/intermediación/servicios de pago). Guatemala **no tiene aún un marco claro de servicios de pago para no bancos**, por lo que operar un "canal de pago" de facto genera **incertidumbre regulatoria** y expone a Propi a que la SIB cuestione la actividad. En el peor caso, señalamiento por realizar actividad financiera sin autorización.
+
+**4. Riesgo tributario (SAT).**
+Los fondos que **entran a cuentas de Propi** pueden ser interpretados por la SAT como **ingreso propio** de la Sociedad, generando exposición de **ISR e IVA** sobre montos que no son de Propi. Mitigarlo exige un **mandato de cobro por cuenta ajena** impecable y **contabilidad segregada** (cuentas de orden / cuentas puente), con trazabilidad de que el dinero es de terceros. Un error contable convierte un pass-through en base imponible.
+
+**5. Riesgo civil y contractual.**
+Al recibir y custodiar dinero ajeno, Propi asume la calidad de **depositario/mandatario** → responde por la **guarda, exactitud, oportunidad y correcta transferencia** de los fondos. Se expone a **reclamos** de compradores y desarrolladores por demoras, errores o pérdidas, y al riesgo de **confusión patrimonial** (commingling) si no segrega cuentas. Un embargo a Propi podría alcanzar fondos de clientes si no están claramente separados.
+
+**6. Riesgo penal sustantivo (Arts. 73 y 76).**
+Interponerse en el flujo del dinero **coloca a Propi dentro de la cadena de pago** de cada operación. Si un comprador paga con **fondos de origen ilícito**, Propi los "invierte, convierte o transfiere" (Art. 73.a) o los "administra/tiene/utiliza" (Art. 73.b), y la cláusula de **"permita o facilite"** (Art. 73, párr. 2) amplía la exposición. La **responsabilidad penal de la persona jurídica** (Art. 76) se vuelve mucho más tangible: multa hasta US$625,000 y, en reincidencia, cancelación de la personalidad jurídica. En un esquema de intermediación pura (sin tocar el dinero), esta superficie es mínima; con pass-through, se dispara.
+
+**7. Riesgo bancario y reputacional (de-risking).**
+Cuentas con **alto flujo de fondos de terceros** hacen que Propi **parezca un transmisor de dinero** a los ojos de sus bancos. Riesgo real de **cierre de cuentas** (de-risking) por parte de la banca, que es reacia a clientes con perfil de "money service business". Perder la cuenta operativa paralizaría el negocio.
+
+> **Síntesis:** ofrecerlo como servicio constante convierte un riesgo AML acotado en un riesgo **regulatorio + tributario + civil + penal + bancario** simultáneo. La forma de tener la comodidad de "todo por la plataforma" **sin** cargar estos riesgos es sacar los fondos del balance de Propi (escrow, fideicomiso o convenio de recaudo a nombre de la desarrolladora), o canalizarlos por un tercero licenciado.
+
+---
+
 ## 4. Recomendaciones (para decisión de JR)
 
 1. **Levantar los hechos** con Propi (Ena/Thelma): frecuencia, volumen, titularidad de cuentas, y si el pago-a-Propi será opcional o el canal por defecto. Sin esto, cualquier opinión es preliminar.

@@ -46,6 +46,9 @@ Se iteró mucho; se descartó terracota y toda paleta que se pareciera a UK (par
 - **Codificado en el motor:** `THEME_EDA26` en `build_promo.py` (con clave `cta`=rojo y `highlight`).
 - **Tipografía (elegida JR 2026-07-21):** **Fraunces** (títulos, serif editorial) + **Hanken Grotesk** (cuerpo). Ambas Google Fonts/OFL. Archivos woff2+base64 en `Sistema/fonts_eda26/`. PENDIENTE: cablearlas en las plantillas de campaña (hoy el motor renderiza con Cocogoose+Montserrat).
 
+## Notion EXHAUSTIVO (2026-07-21)
+La guía de campaña en Notion es la fuente detallada y quedó completa para producción y para los web devs de Davinia. Además de estrategia/identidad, incluye: **temario completo de las 11 sesiones**, **guion pieza por pieza** (hook + estructura de slides + CTA por cada uno de los 9 artes), **voz y copy** (do/don't), **objeciones con respuesta (FAQ)**, **especificaciones de arte** (formatos, zonas seguras, nomenclatura EDA26, dónde se guardan), **hashtags** y **checklist de lanzamiento**. No reproducir todo acá: el Notion manda.
+
 ## Mecanismo de campañas (reutilizable — importante)
 Convención JR 2026-07-21: **cada campaña tiene una entrada "PARÁMETROS DE CAMPAÑA" en el Calendario de Artes de Notion** (`Visuals needed`=NO, campo `Campaña`=código). Su cuerpo es el **prompt maestro** (paleta, tipografía, THEME, 60-30-10, highlighter, marca/contactos, mapeo pieza→plantilla). El agente semanal detecta piezas por el campo `Campaña`, lee ese maestro y aplica **esa** identidad — nunca la línea diaria ni el sello ∞. Documentado en `GUIA_MAESTRA_ESTILO.md §7-bis`. AUT26 sigue gestionada por JR aparte (sin entrada maestra → no se genera).
 
