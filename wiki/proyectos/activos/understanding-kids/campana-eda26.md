@@ -44,7 +44,10 @@ Se iteró mucho; se descartó terracota y toda paleta que se pareciera a UK (par
 - **Proporción 60-30-10** (60 fondo, 30 pizarra, 10 rojo). Rojo nunca como fondo grande.
 - **Resaltado:** highlighter translúcido rojo **~28%** (`rgba(212,75,69,0.28)`) sobre palabras clave — NO barra sólida.
 - **Codificado en el motor:** `THEME_EDA26` en `build_promo.py` (con clave `cta`=rojo y `highlight`).
-- **Tipografía (elegida JR 2026-07-21):** **Fraunces** (títulos, serif editorial) + **Hanken Grotesk** (cuerpo). Ambas Google Fonts/OFL. Archivos woff2+base64 en `Sistema/fonts_eda26/`. PENDIENTE: cablearlas en las plantillas de campaña (hoy el motor renderiza con Cocogoose+Montserrat).
+- **Tipografía (elegida JR 2026-07-21):** **Fraunces** (títulos, serif editorial) + **Hanken Grotesk** (cuerpo). Ambas Google Fonts/OFL. Archivos woff2+base64 en `Sistema/fonts_eda26/` (ahora con los 5 pesos: Fraunces 600/700 + Hanken 400/600/700). PENDIENTE: cablearlas en las plantillas de campaña (hoy el motor renderiza con Cocogoose+Montserrat).
+- **Paquete de fuentes para web devs (self-host):** 5 woff2 + `fuentes.css` (@font-face + variables de paleta) + licencias OFL, subido a Drive `Campañas/Especialización Alimentación 2026/Tipografías/` → https://drive.google.com/drive/folders/1yIzi-YP9tclh2C7Cw6nQK7DAoepgLIlA . Link ya puesto en Notion §Identidad Visual (recomendado self-host; alternativa = @import de Google Fonts). ⚠️ Carpeta PRIVADA: falta darle acceso a los devs de Davinia.
+
+> **Nota de estructura (2026-08-06):** la sección **Identidad Visual** del Notion se reorganizó para dos lectores: arriba, lenguaje simple (Cómo se ve y se siente · Los colores con "para qué se usa" · Cómo combinarlos · Las tipografías); abajo, un toggle plegable **"🛠️ Para quien programe la web"** con todo el tecnicismo (hex, 60-30-10, CSS, contraste WCAG, pesos, self-host/@import). El submenú "Inversión" se eliminó y los 3 precios pasaron al bloque Datos del encabezado.
 
 ## Notion EXHAUSTIVO (2026-07-21)
 La guía de campaña en Notion es la fuente detallada y quedó completa para producción y para los web devs de Davinia. Además de estrategia/identidad, incluye: **temario completo de las 11 sesiones**, **guion pieza por pieza** (hook + estructura de slides + CTA por cada uno de los 9 artes), **voz y copy** (do/don't), **objeciones con respuesta (FAQ)**, **especificaciones de arte** (formatos, zonas seguras, nomenclatura EDA26, dónde se guardan), **hashtags** y **checklist de lanzamiento**. No reproducir todo acá: el Notion manda.
@@ -58,8 +61,10 @@ anuncio 5-ago · dream team 8-ago · precios 13-ago · ¿para quién? 20-ago · 
 ## Pendientes (para retomar)
 - [x] **Tipografía elegida:** Fraunces + Hanken Grotesk (archivos en `Sistema/fonts_eda26/`). Falta: cablearla en las plantillas de campaña del motor (hoy usan Cocogoose+Montserrat).
 - [x] **Identidad Visual en Notion detallada para los web devs** (hex+roles+60-30-10, tipografía con pesos/tamaños/import, botón/CTA, highlighter en CSS, contraste WCAG). Hecho 2026-07-21.
+- [ ] **Compartir la carpeta Tipografías de Drive** con los devs de Davinia (hoy privada) — link en Notion §Identidad Visual.
 - [ ] **Link del formulario** de inscripción (lo pasa JR; irá en la página de Davinia).
 - [ ] **Slogan final** (elige Davinia/Mónica entre las 2 opciones).
+- [ ] ⭐ **Revisar cronograma por fecha** y reacomodar artes si hace falta (evaluar al revisar la sección "Plan de Contenidos" del Notion, título por título).
 - [ ] **Producir fase 1** (anuncio + dream team no dependen del formulario) — JR evaluaba arrancar antes del domingo por el retraso.
 - [ ] Landing page → Davinia · Formularios → Mónica.
 
