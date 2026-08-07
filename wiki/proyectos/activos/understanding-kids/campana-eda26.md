@@ -67,6 +67,8 @@ Convención JR 2026-07-21: **cada campaña tiene una entrada "PARÁMETROS DE CAM
 - **"Dream Team" es término SOLO interno** — nunca en pieza pública (usar "las expositoras" / "quiénes te van a enseñar"); no hacer pieza dedicada tipo "conocé al equipo": la doble autoridad se reparte en el post ancla y en los reels.
 - **Pieza 1 = teaser** sin datos (expectativa); **pieza 2 = post ancla** que unifica expositoras + precios + info general.
 - Más peso a **historias** (antes había 1 sola) y a **reels personales** de cada expositora.
+- **Nomenclatura de artes:** `EDA26_<CÓDIGO>_C##` (carrusel) / `_ST` (historia). Códigos: TSR (teaser), ANCLA (post ancla), PARAQUIEN, OBJ (objeciones), TEM (temario), CIERRE (últimos cupos).
+- **Especificaciones (Notion):** se limpió la jerga del motor (build_promo.py / THEME_EDA26 / sello ∞) a lenguaje simple porque el doc lo ve Davinia; los nombres técnicos exactos viven en el vault y en la entrada de PARÁMETROS del Calendario.
 
 **Guion por pieza (Notion):** ✅ reescrito 2026-08-06 a las 6 piezas (teaser + post ancla nuevos, objeciones antes de temario, sin Diferenciales ni "Dream team") + guion corto de los 2 reels.
 
@@ -76,6 +78,8 @@ Convención JR 2026-07-21: **cada campaña tiene una entrada "PARÁMETROS DE CAM
 - [x] **Tipografía elegida:** Fraunces + Hanken Grotesk (archivos en `Sistema/fonts_eda26/`). Falta: cablearla en las plantillas de campaña del motor (hoy usan Cocogoose+Montserrat).
 - [x] **Identidad Visual en Notion detallada para los web devs** (hex+roles+60-30-10, tipografía con pesos/tamaños/import, botón/CTA, highlighter en CSS, contraste WCAG). Hecho 2026-07-21.
 - [ ] **Compartir la carpeta Tipografías de Drive** con los devs de Davinia (hoy privada) — link en Notion §Identidad Visual.
+- [x] **Diploma:** confirmado por JR que SÍ se entrega → agregado al FAQ del Notion.
+- [ ] **Formas de pago / cuotas:** correo enviado a Magoo (msamayoa@kidsunderstanding.com, desde jcastaneda@) el 2026-08-07 preguntando si hay pago en cuotas y qué métodos aceptan (tarjeta/PayPal/transferencia). Factura: SÍ (confirmado). Al responder → agregar objeción al FAQ y cerrar el ítem del checklist.
 - [ ] **Link del formulario** de inscripción (lo pasa JR; irá en la página de Davinia).
 - [ ] **Slogan final** (elige Davinia/Mónica entre las 2 opciones).
 - [ ] ⭐ **Revisar cronograma por fecha** y reacomodar artes si hace falta (evaluar al revisar la sección "Plan de Contenidos" del Notion, título por título).
