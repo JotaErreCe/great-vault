@@ -28,7 +28,8 @@ Campaña de lanzamiento de una **especialización clínica para profesionales** 
 - **Público:** SOLO profesionales — (1) los que ya reciben casos y no tienen método, (2) los que quieren especializar su práctica en un nicho rentable. (Sin familias.)
 - **Mensaje madre:** "Los casos de alimentación no se adivinan: se evalúan, se planifican y se acompañan."
 - **Subtítulo:** "Un método clínico para los casos de alimentación que nadie te enseñó a resolver."
-- **Slogan:** 2 opciones a elegir por Davinia/Mónica → «Aprendé a resolver lo que otros solo refieren» · «Comer es más complejo de lo que parece. Especializate.»
+- **Slogan:** 2 opciones a elegir por Davinia/Mónica → «Aprende a resolver lo que otros solo refieren» · «Comer es más complejo de lo que parece. Especialízate.»
+- **Trato/idioma:** TODO en **tú neutro** (panregional), nunca voseo. Decisión JR 2026-08-06. Aplica a copy, artes y a mis chats con JR → ver memoria [[feedback_style]].
 
 ## Identidad visual (aprobada) — "Pizarra & Rojo"
 Se iteró mucho; se descartó terracota y toda paleta que se pareciera a UK (para no chocar con Davinia). Método coherente: base sofisticada + 1 acento, saturación pareja (refs workovereasy / Figma). Distinta a propósito de la línea diaria de UK/IS.
@@ -55,8 +56,21 @@ La guía de campaña en Notion es la fuente detallada y quedó completa para pro
 ## Mecanismo de campañas (reutilizable — importante)
 Convención JR 2026-07-21: **cada campaña tiene una entrada "PARÁMETROS DE CAMPAÑA" en el Calendario de Artes de Notion** (`Visuals needed`=NO, campo `Campaña`=código). Su cuerpo es el **prompt maestro** (paleta, tipografía, THEME, 60-30-10, highlighter, marca/contactos, mapeo pieza→plantilla). El agente semanal detecta piezas por el campo `Campaña`, lee ese maestro y aplica **esa** identidad — nunca la línea diaria ni el sello ∞. Documentado en `GUIA_MAESTRA_ESTILO.md §7-bis`. AUT26 sigue gestionada por JR aparte (sin entrada maestra → no se genera).
 
-## Cronograma (9 piezas cargadas en el Calendario, Status Planning)
-anuncio 5-ago · dream team 8-ago · precios 13-ago · ¿para quién? 20-ago · early bird cierra 28-ago (historia) · temario 2-sep · diferenciales 9-sep · objeciones 18-sep (CTA WhatsApp) · últimos cupos 30-sep. Cada carrusel lleva su historia. Fechas ancladas a los hitos (lanzamiento/early-bird/inicio) — confirmado por JR que NO se han corrido.
+## Cronograma (rediseñado 2026-08-06 — 6 piezas de feed + reels + historias)
+**Feed (6):** teaser 5-ago (imagen+historias, sin datos) · **post ancla** "expositoras, precios e info" 8-ago (carrusel) · ¿para quién? 20-ago · objeciones 1-sep (CTA WhatsApp) · temario 9-sep · últimos cupos 30-sep.
+**Reels (manual, fuera del sistema):** Davinia ~15-ago (mirada médica) · Mónica ~25-ago (mirada sensorial).
+**Historias:** capa continua por fecha (encuesta "¿recibís casos?", reposteo de reels, cuenta regresiva Early Bird 27–31 ago, recordatorios con link, Q&A 16–27 sep, cuenta regresiva al inicio) — tabla en Notion §Plan de Contenidos.
+**Contenido paralelo/orgánico:** píldoras de valor (1 dato clínico/semana), testimonios/prueba social, detrás de cámaras, caso corto anonimizado, Q&A en vivo.
+
+### Decisiones JR 2026-08-06 (rediseño)
+- Se **eliminó "Diferenciales"** (casi no hay cursos comparables → comparación forzada).
+- **"Dream Team" es término SOLO interno** — nunca en pieza pública (usar "las expositoras" / "quiénes te van a enseñar"); no hacer pieza dedicada tipo "conocé al equipo": la doble autoridad se reparte en el post ancla y en los reels.
+- **Pieza 1 = teaser** sin datos (expectativa); **pieza 2 = post ancla** que unifica expositoras + precios + info general.
+- Más peso a **historias** (antes había 1 sola) y a **reels personales** de cada expositora.
+
+**Guion por pieza (Notion):** ✅ reescrito 2026-08-06 a las 6 piezas (teaser + post ancla nuevos, objeciones antes de temario, sin Diferenciales ni "Dream team") + guion corto de los 2 reels.
+
+⚠️ **Desync pendiente:** el Calendario de Artes de Notion todavía tiene las **9 piezas viejas** (con dream team/diferenciales/precios sueltos). Falta re-sincronizarlo al plan de 6 — se hace en su propio paso.
 
 ## Pendientes (para retomar)
 - [x] **Tipografía elegida:** Fraunces + Hanken Grotesk (archivos en `Sistema/fonts_eda26/`). Falta: cablearla en las plantillas de campaña del motor (hoy usan Cocogoose+Montserrat).
