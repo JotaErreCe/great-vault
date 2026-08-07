@@ -72,7 +72,7 @@ Convención JR 2026-07-21: **cada campaña tiene una entrada "PARÁMETROS DE CAM
 
 **Guion por pieza (Notion):** ✅ reescrito 2026-08-06 a las 6 piezas (teaser + post ancla nuevos, objeciones antes de temario, sin Diferenciales ni "Dream team") + guion corto de los 2 reels.
 
-⚠️ **Desync pendiente:** el Calendario de Artes de Notion todavía tiene las **9 piezas viejas** (con dream team/diferenciales/precios sueltos). Falta re-sincronizarlo al plan de 6 — se hace en su propio paso.
+**Calendario de Artes:** ✅ re-sincronizado 2026-08-06 al plan de 6 (sin borrar entradas: "Anuncio"→Teaser, "Dream team"→Post ancla, "Precios"/"Diferenciales"→Reels Davinia/Mónica marcados `Visuals needed=NO`). Entradas ahora: Teaser 5-ago · Post ancla 8-ago · Reel Davinia 15-ago (manual) · ¿Para quién? 20-ago · Reel Mónica 25-ago (manual) · Early Bird historia 28-ago · Objeciones 1-sep · Temario 9-sep · Últimos cupos 30-sep, + entrada PARÁMETROS. La entrada PARÁMETROS se actualizó (tipografía Fraunces/Hanken + mapeo de piezas nuevo); sigue marcando que el motor aún renderiza con Cocogoose/Montserrat hasta cablear las fuentes.
 
 ## Pendientes (para retomar)
 - [x] **Tipografía elegida:** Fraunces + Hanken Grotesk (archivos en `Sistema/fonts_eda26/`). Falta: cablearla en las plantillas de campaña del motor (hoy usan Cocogoose+Montserrat).
