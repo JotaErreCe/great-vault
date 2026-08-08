@@ -10,21 +10,15 @@ Referencia para el skill `meal-prep`. Responde la duda de JR sobre si la lista d
 
 Para lista de compras compartida, Recordatorios gana claro.
 
-## Setup manual — una sola vez
+## La lista
 
-Estas dos cosas **solo se pueden hacer desde la app**. AppleScript no expone ni el tipo de lista ni el compartir por iCloud; no hay forma de automatizarlas.
-
-1. Abrir **Recordatorios** → **Archivo › Lista nueva**
-2. Nombre: `🛒 Súper` · **Tipo de lista: Comestibles**
-3. Con la lista seleccionada, botón de **Compartir** (persona con `+`) → invitar a Magoo con su Apple ID → permitir que edite
-
-Hecho eso, el script ya puede escribir en la lista y Magoo la ve en su iPhone.
+**`Groceries`** — creada por JR el 2026-08-08 y compartida con Magoo. Ese es el nombre exacto y no se cambia.
 
 ## Estado actual de Reminders de JR
 
-Auditado el 2026-08-08: existe **una sola lista**, `🏠 Personal`. Las cuatro secciones estándar del manual (✅ Tareas, 🔁 Recurrentes, 📅 Próximos, 💡 Algún día) viven como secciones dentro de esa lista — exactamente el caso que el manual advierte que no se confunda con listas.
+Auditado el 2026-08-08: en la cuenta de iCloud aparece **una sola lista en esta Mac**, `🏠 Personal`. Las cuatro secciones estándar del manual (✅ Tareas, 🔁 Recurrentes, 📅 Próximos, 💡 Algún día) viven como secciones dentro de esa lista — exactamente el caso que el manual advierte que no se confunda con listas.
 
-`🛒 Súper` todavía no existe. Hay que crearla con el procedimiento de arriba antes del primer uso.
+`Groceries` **todavía no sincronizaba a esta Mac** al momento de la auditoría. Si el script reporta que no existe, la causa más probable es sincronización pendiente, no que falte la lista. Abrir Recordatorios en la Mac y reintentar. **No crear una lista nueva ni cambiarle el nombre** — se duplicaría la de Magoo.
 
 ## Qué puede y qué no puede AppleScript
 

@@ -28,7 +28,7 @@ sys.dont_write_bytecode = True  # el vault lo sincroniza Syncthing: nada de __py
 sys.path.insert(0, str(Path(__file__).parent))
 from perfil import dir_datos  # noqa: E402
 
-LISTA_DESTINO = "🛒 Súper"
+LISTA_DESTINO = "Groceries"  # lista creada por JR y compartida con Magoo
 
 ORDEN_PASILLOS = [
     "Verduras", "Frutas", "Carnes", "Pescadería", "Lácteos",
@@ -127,11 +127,10 @@ def main() -> None:
         print(f"\n'{a.lista}': {'existe' if a.lista in existentes else 'NO EXISTE'}")
         if a.lista not in existentes:
             print(
-                "\nCrearla a mano en la app (AppleScript no puede definir tipo Comestibles\n"
-                "ni compartir por iCloud):\n"
-                "  Recordatorios › Archivo › Lista nueva\n"
-                f"  Nombre: {a.lista}  ·  Tipo: Comestibles\n"
-                "  Botón Compartir → invitar a Magoo con permiso de edición"
+                f"\nSi JR ya creó '{a.lista}' en el iPhone, todavía no sincronizó a esta Mac.\n"
+                "Abrir Recordatorios en la Mac y esperar unos segundos, o verificar que esté\n"
+                "en la misma cuenta de iCloud. AppleScript no puede definir el tipo Comestibles\n"
+                "ni compartir por iCloud — eso solo se hace desde la app."
             )
         return
 

@@ -1,17 +1,18 @@
 #!/usr/bin/env python3
-"""Perfil y bitácora de peso para el skill meal-prep.
+"""Perfiles y bitácoras de peso para el skill meal-prep.
 
+Dos personas: JR y Magoo. Cada una con su perfil, sus targets y su bitácora.
 Todo vive dentro del vault para que Syncthing lo lleve a la otra Mac.
 La ruta del vault se resuelve por host — nunca se hardcodea.
 
 Uso:
     perfil.py vault-path
-    perfil.py existe
-    perfil.py get
-    perfil.py set --json '{"peso_kg": 84, ...}'
-    perfil.py calcular          # recalcula targets desde los stats guardados
-    perfil.py peso 83.4 [--nota "..."]
-    perfil.py tendencia
+    perfil.py existe            [--persona jr|magoo|ambos]
+    perfil.py get               --persona jr
+    perfil.py set               --persona magoo --json '{...}'
+    perfil.py calcular          --persona jr
+    perfil.py peso 83.4         --persona jr [--nota "..."]
+    perfil.py tendencia         --persona jr
 """
 
 import argparse
@@ -29,6 +30,8 @@ CANDIDATOS_VAULT = [
 
 SUBRUTA_DATOS = Path("wiki") / "proyectos" / "activos" / "dieta"
 
+PERSONAS = {"jr": "JR", "magoo": "Magoo"}
+
 FACTORES_ACTIVIDAD = {
     "sedentario": 1.20,
     "ligero": 1.375,
@@ -38,6 +41,12 @@ FACTORES_ACTIVIDAD = {
 }
 
 PISO_KCAL = {"hombre": 1500, "mujer": 1200}
+
+# Energía extra por lactancia (OMS / Academy of Nutrition and Dietetics)
+KCAL_LACTANCIA = {"exclusiva": 500, "parcial": 330, "no": 0}
+# Con lactancia el piso sube y el ritmo se limita: bajar rápido afecta la producción
+PISO_LACTANCIA = 1800
+MAX_KG_SEMANA_LACTANCIA = 0.5
 
 
 def vault() -> Path:
@@ -57,21 +66,19 @@ def dir_datos() -> Path:
     return d
 
 
-def ruta_perfil() -> Path:
-    return dir_datos() / "perfil.md"
+def ruta_perfil(persona: str) -> Path:
+    return dir_datos() / f"perfil-{persona}.md"
 
 
-def ruta_log() -> Path:
-    return dir_datos() / "log-peso.md"
+def ruta_log(persona: str) -> Path:
+    return dir_datos() / f"log-peso-{persona}.md"
 
-
-# --- perfil: markdown con un bloque json embebido, legible en Obsidian ---
 
 BLOQUE = re.compile(r"```json\n(.*?)\n```", re.DOTALL)
 
 
-def leer_perfil() -> dict:
-    p = ruta_perfil()
+def leer_perfil(persona: str) -> dict:
+    p = ruta_perfil(persona)
     if not p.exists():
         return {}
     m = BLOQUE.search(p.read_text(encoding="utf-8"))
@@ -83,13 +90,19 @@ def leer_perfil() -> dict:
         return {}
 
 
-def escribir_perfil(datos: dict) -> None:
+def escribir_perfil(persona: str, datos: dict) -> None:
+    nombre = PERSONAS[persona]
     t = datos.get("targets", {})
     filas = ""
     if t:
         filas = (
             f"| BMR | {t['bmr']} kcal |\n"
             f"| TDEE | {t['tdee']} kcal |\n"
+        )
+        if t.get("kcal_lactancia"):
+            filas += f"| Extra por lactancia | +{t['kcal_lactancia']} kcal |\n"
+            filas += f"| TDEE ajustado | {t['tdee_ajustado']} kcal |\n"
+        filas += (
             f"| **Objetivo diario** | **{t['objetivo_kcal']} kcal** |\n"
             f"| Proteína | {t['proteina_g']} g |\n"
             f"| Grasa | {t['grasa_g']} g |\n"
@@ -99,17 +112,21 @@ def escribir_perfil(datos: dict) -> None:
             f"| Ritmo estimado | {t['kg_semana']} kg/semana |\n"
         )
 
+    avisos = ""
+    for a in t.get("avisos", []):
+        avisos += f"> {a}\n\n"
+
     contenido = f"""---
 type: reference
 date: {date.today().isoformat()}
 tags: [reference, dieta, salud]
 ---
 
-# Perfil nutricional — JR
+# Perfil nutricional — {nombre}
 
 Perfil y targets del sistema [[meal-prep]]. Generado por `perfil.py`; no editar el bloque JSON a mano salvo que sepas lo que hacés.
 
-## Targets vigentes
+{avisos}## Targets vigentes
 
 | Métrica | Valor |
 |---|---|
@@ -123,13 +140,13 @@ Perfil y targets del sistema [[meal-prep]]. Generado por `perfil.py`; no editar 
 
 ## Relacionado
 
-- [[wiki/proyectos/activos/dieta|Proyecto Dieta]] · [[log-peso]] · [[wiki/IDENTITY]]
+- [[wiki/proyectos/activos/dieta|Proyecto Dieta]] · [[log-peso-{persona}]] · [[recetas]]
 """
-    ruta_perfil().write_text(contenido, encoding="utf-8")
+    ruta_perfil(persona).write_text(contenido, encoding="utf-8")
 
 
 def calcular_targets(d: dict) -> dict:
-    """Mifflin-St Jeor → TDEE → déficit → macros. Ver referencias/calculos.md."""
+    """Mifflin-St Jeor → TDEE → lactancia → déficit → macros. Ver referencias/calculos.md."""
     kg = float(d["peso_kg"])
     cm = float(d["estatura_cm"])
     edad = int(d["edad"])
@@ -137,47 +154,110 @@ def calcular_targets(d: dict) -> dict:
     actividad = d.get("actividad", "sedentario").lower()
     meta_kg = float(d.get("peso_meta_kg", kg))
     pct = float(d.get("deficit_pct", 22))
+    lactancia = str(d.get("lactancia", "no")).lower()
+
+    avisos = []
 
     bmr = 10 * kg + 6.25 * cm - 5 * edad + (5 if sexo == "hombre" else -161)
     tdee = bmr * FACTORES_ACTIVIDAD.get(actividad, 1.20)
 
-    objetivo = tdee * (1 - pct / 100)
+    # Lactancia: energía extra ANTES de aplicar el déficit
+    extra = KCAL_LACTANCIA.get(lactancia, 0)
+    tdee_ajustado = tdee + extra
+    if extra:
+        avisos.append(
+            f"**Lactancia {lactancia}:** se suman {extra} kcal/día antes del déficit. "
+            f"El piso sube a {PISO_LACTANCIA} kcal y el ritmo se limita a "
+            f"{MAX_KG_SEMANA_LACTANCIA} kg/semana — bajar más rápido puede reducir la producción de leche. "
+            "Cualquier plan de pérdida de peso durante lactancia conviene confirmarlo con su médico."
+        )
 
-    # pisos: ni bajo BMR ni bajo el mínimo absoluto
-    piso = max(bmr, PISO_KCAL.get(sexo, 1500))
+    imc = kg / ((cm / 100) ** 2)
+
+    objetivo = tdee_ajustado * (1 - pct / 100)
+
+    # Pisos.
+    # El piso absoluto no se cruza nunca. El piso de BMR solo aplica con IMC < 30:
+    # con obesidad, las reservas de grasa cubren la diferencia y comer bajo el BMR
+    # es práctica clínica estándar. Aplicarlo ahí dejaría un déficit inútilmente lento.
+    piso = PISO_KCAL.get(sexo, 1500)
+    if imc < 30:
+        piso = max(piso, bmr)
+    if extra:
+        piso = max(piso, PISO_LACTANCIA)
+
     limitado = objetivo < piso
     if limitado:
         objetivo = piso
+        avisos.append(
+            f"El objetivo tocó el piso calórico ({piso} kcal). No recortar más — "
+            "si hace falta más déficit, se sube actividad, no se baja comida."
+        )
 
-    # macros sobre peso objetivo, no peso actual
+    deficit = tdee_ajustado - objetivo
+    kg_semana = deficit * 7 / 7700
+
+    # Tope de ritmo: nunca más de 1% del peso corporal por semana
+    max_kg = kg * 0.01
+    if kg_semana > max_kg:
+        deficit = max_kg * 7700 / 7
+        objetivo = tdee_ajustado - deficit
+        kg_semana = max_kg
+        avisos.append(
+            f"Déficit recortado al tope de 1% del peso corporal ({max_kg:.2f} kg/semana). "
+            "Más rápido cuesta masa muscular."
+        )
+
+    # Señal de que la meta puede no ser el objetivo correcto
+    if imc < 25:
+        avisos.append(
+            f"**IMC actual {imc:.1f} — ya está en rango saludable (18.5-24.9).** "
+            "Perder peso desde aquí no mejora la salud por sí solo. Si lo que se busca es "
+            "verse y sentirse mejor, eso viene de proteína y fuerza, no de más déficit. "
+            "Vale la pena revisar si la meta correcta es bajar de peso o cambiar composición."
+        )
+
+    # Tope de ritmo durante lactancia
+    if extra and kg_semana > MAX_KG_SEMANA_LACTANCIA:
+        deficit = MAX_KG_SEMANA_LACTANCIA * 7700 / 7
+        objetivo = tdee_ajustado - deficit
+        kg_semana = MAX_KG_SEMANA_LACTANCIA
+        avisos.append("Déficit recortado para no pasar de 0.5 kg/semana durante lactancia.")
+
+    # Macros sobre peso objetivo, no peso actual
     base = meta_kg if meta_kg < kg else kg
     prot_g = round(base * 2.0)
     grasa_g = round(base * 0.9)
     kcal_restantes = objetivo - (prot_g * 4) - (grasa_g * 9)
     carbos_g = max(round(kcal_restantes / 4), 0)
 
-    deficit = tdee - objetivo
+    if carbos_g < 50:
+        avisos.append(
+            "Los carbohidratos quedaron muy bajos. Revisar: puede que el déficit sea "
+            "demasiado agresivo o el peso meta poco realista."
+        )
 
     return {
+        "imc": round(imc, 1),
         "bmr": round(bmr),
         "tdee": round(tdee),
+        "kcal_lactancia": extra,
+        "tdee_ajustado": round(tdee_ajustado),
         "objetivo_kcal": round(objetivo),
         "proteina_g": prot_g,
         "grasa_g": grasa_g,
         "carbos_g": carbos_g,
         "fibra_g": round(objetivo / 1000 * 14),
         "deficit_kcal": round(deficit),
-        "deficit_pct": round(deficit / tdee * 100, 1) if tdee else 0,
-        "kg_semana": round(deficit * 7 / 7700, 2),
+        "deficit_pct": round(deficit / tdee_ajustado * 100, 1) if tdee_ajustado else 0,
+        "kg_semana": round(kg_semana, 2),
         "limitado_por_piso": limitado,
+        "avisos": avisos,
     }
 
 
-# --- bitácora de peso ---
-
-
-def registrar_peso(valor: float, nota: str = "") -> None:
-    p = ruta_log()
+def registrar_peso(persona: str, valor: float, nota: str = "") -> None:
+    p = ruta_log(persona)
     if not p.exists():
         p.write_text(
             f"""---
@@ -186,7 +266,7 @@ date: {date.today().isoformat()}
 tags: [reference, dieta, salud]
 ---
 
-# Bitácora de peso — JR
+# Bitácora de peso — {PERSONAS[persona]}
 
 Append-only. Pesarse en las mismas condiciones: mañana, en ayunas, después del baño.
 Evaluar por promedio de 7 días, nunca por un dato suelto.
@@ -198,11 +278,11 @@ Evaluar por promedio de 7 días, nunca por un dato suelto.
         )
     with p.open("a", encoding="utf-8") as f:
         f.write(f"| {date.today().isoformat()} | {valor} | {nota} |\n")
-    print(f"Registrado: {valor} kg el {date.today().isoformat()}")
+    print(f"[{PERSONAS[persona]}] Registrado: {valor} kg el {date.today().isoformat()}")
 
 
-def leer_pesos() -> list:
-    p = ruta_log()
+def leer_pesos(persona: str) -> list:
+    p = ruta_log(persona)
     if not p.exists():
         return []
     filas = []
@@ -213,64 +293,87 @@ def leer_pesos() -> list:
     return filas
 
 
-def tendencia() -> None:
-    filas = leer_pesos()
+def tendencia(persona: str) -> None:
+    filas = leer_pesos(persona)
+    print(f"--- {PERSONAS[persona]} ---")
     if len(filas) < 2:
-        print("Faltan datos. Se necesitan al menos 2 pesadas; para ajustar, 3 semanas.")
+        print("Faltan datos. Se necesitan al menos 2 pesadas; para ajustar, 3 semanas.\n")
         return
-    print(f"{len(filas)} pesadas registradas")
-    print(f"Primera: {filas[0][0]} → {filas[0][1]} kg")
-    print(f"Última:  {filas[-1][0]} → {filas[-1][1]} kg")
-    delta = filas[-1][1] - filas[0][1]
-    print(f"Cambio total: {delta:+.2f} kg")
+    print(f"{len(filas)} pesadas · {filas[0][0]}: {filas[0][1]} kg → {filas[-1][0]}: {filas[-1][1]} kg")
+    print(f"Cambio total: {filas[-1][1] - filas[0][1]:+.2f} kg")
     if len(filas) >= 3:
         ult = [v for _, v in filas[-3:]]
         print(f"Promedio últimas 3: {sum(ult) / 3:.2f} kg")
     if len(filas) < 6:
-        print("\nAviso: menos de 3 semanas de datos. No ajustar calorías todavía — es ruido de agua y sodio.")
+        print("Aviso: menos de 3 semanas de datos. No ajustar calorías todavía — es ruido de agua y sodio.")
+    print()
 
 
 def main() -> None:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("comando", choices=["vault-path", "existe", "get", "set", "calcular", "peso", "tendencia"])
     ap.add_argument("valor", nargs="?")
+    ap.add_argument("--persona", default="ambos", choices=["jr", "magoo", "ambos"])
     ap.add_argument("--json", dest="payload")
     ap.add_argument("--nota", default="")
     a = ap.parse_args()
 
+    def una(cmd_name):
+        if a.persona == "ambos":
+            sys.exit(f"'{cmd_name}' necesita --persona jr | magoo")
+        return a.persona
+
     if a.comando == "vault-path":
         print(vault())
+
     elif a.comando == "existe":
-        print("true" if ruta_perfil().exists() else "false")
+        objetivo = PERSONAS if a.persona == "ambos" else {a.persona: PERSONAS[a.persona]}
+        for k in objetivo:
+            print(f"{k}: {'true' if ruta_perfil(k).exists() else 'false'}")
+
     elif a.comando == "get":
-        print(json.dumps(leer_perfil(), indent=2, ensure_ascii=False))
+        if a.persona == "ambos":
+            print(json.dumps({k: leer_perfil(k) for k in PERSONAS}, indent=2, ensure_ascii=False))
+        else:
+            print(json.dumps(leer_perfil(a.persona), indent=2, ensure_ascii=False))
+
     elif a.comando == "set":
+        p = una("set")
         if not a.payload:
             sys.exit("Falta --json con los datos del perfil.")
         datos = json.loads(a.payload)
-        faltan = [k for k in ("peso_kg", "estatura_cm", "edad") if k not in datos]
+        faltan = [k for k in ("peso_kg", "estatura_cm", "edad", "sexo") if k not in datos]
         if faltan:
             sys.exit(f"Faltan campos obligatorios: {', '.join(faltan)}")
+        if datos["sexo"].lower() == "mujer" and "lactancia" not in datos:
+            sys.exit(
+                "Falta el campo 'lactancia' (exclusiva | parcial | no). "
+                "Cambia el cálculo por cientos de calorías — no se puede asumir."
+            )
         datos["targets"] = calcular_targets(datos)
         datos["actualizado"] = date.today().isoformat()
-        escribir_perfil(datos)
+        escribir_perfil(p, datos)
         print(json.dumps(datos["targets"], indent=2, ensure_ascii=False))
-        if datos["targets"]["limitado_por_piso"]:
-            print("\nAviso: el objetivo tocó el piso calórico. No recortar más — subir actividad.", file=sys.stderr)
+
     elif a.comando == "calcular":
-        datos = leer_perfil()
+        p = una("calcular")
+        datos = leer_perfil(p)
         if not datos:
-            sys.exit("No hay perfil. Corré primero: perfil.py set --json '{...}'")
+            sys.exit(f"No hay perfil de {PERSONAS[p]}. Corré primero: perfil.py set --persona {p} --json '{{...}}'")
         datos["targets"] = calcular_targets(datos)
         datos["actualizado"] = date.today().isoformat()
-        escribir_perfil(datos)
+        escribir_perfil(p, datos)
         print(json.dumps(datos["targets"], indent=2, ensure_ascii=False))
+
     elif a.comando == "peso":
+        p = una("peso")
         if not a.valor:
-            sys.exit("Falta el peso. Ejemplo: perfil.py peso 83.4")
-        registrar_peso(float(a.valor), a.nota)
+            sys.exit("Falta el peso. Ejemplo: perfil.py peso 83.4 --persona jr")
+        registrar_peso(p, float(a.valor), a.nota)
+
     elif a.comando == "tendencia":
-        tendencia()
+        for k in (PERSONAS if a.persona == "ambos" else {a.persona: None}):
+            tendencia(k)
 
 
 if __name__ == "__main__":
