@@ -74,14 +74,14 @@ Formar tortitas y cocinarlas **a la plancha o al horno — nunca fritas**.
 
 ### C2 · Ceviche de tilapia — se hace y se come el lunes
 
-- 480 g de filete de tilapia fresca, picada en cuadritos
+- 1 libra de filete de tilapia fresca (454 g), picada en cuadritos
 - Jugo de 12 limones, que cubra bien el pescado
 - 1 pepino, 2 tomates, ½ cebolla, un manojo de cilantro — todo picado
 - Sal al gusto
 
 Dejar el pescado en el limón unos 20 minutos, hasta que se ponga blanco. Luego mezclar.
 
-**Servir:** 280 g de pescado para Don JR, 200 g para Doña Mónica. Con galletas Gama saladas (14 para él, 16 para ella) y aguacate — 70 g él, 60 g ella.
+**Servir:** 260 g de pescado para Don JR, 190 g para Doña Mónica. Con 16 galletas Gama saladas cada uno y aguacate — 70 g él, 60 g ella.
 
 ---
 
