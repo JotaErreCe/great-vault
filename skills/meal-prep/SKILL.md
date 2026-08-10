@@ -91,7 +91,11 @@ python3 "$SKILL_DIR/scripts/perfil.py" set --json '{...}'
 2. **Revisar la semana anterior** — leer el `menu-` más reciente. No repetir la misma proteína principal dos semanas seguidas; sí repetir lo que a JR le funcionó.
 3. **Elegir componentes, no platos.** Ver `referencias/batch-cooking.md`. Se cocinan 3-4 proteínas, 2-3 carbohidratos y 3-4 vegetales por separado; los 14 platos salen de combinarlos. Esto es lo que evita el hartazgo de comer lo mismo 7 días.
 4. **Verificar macros con el MCP** para cada componente, con gramaje por porción.
-5. **Repartir refri vs congelador.** JR eligió **una sesión el domingo + congelador** (2026-08-08). El reparto fijo es: **lun-mié al refrigerador** (ahí va todo lo que no congela: ceviche, ensaladas, huevo, aguacate, pescado) y **jue-dom al congelador** (guisos, deshebrados, frijol, arroz, carne molida). La columna ❄️ de `dieta/recetas.md` dice qué va dónde. Nunca proponer 7 días en refri — es un riesgo real de salud, no un melindre.
+5. **Estructura fija: 4 recetas, 2 sesiones, refrigerador.** (Definido 2026-08-10.) La empleada cocina **lunes y jueves** y deja platos individuales armados, pesados y etiquetados. Dos recetas de almuerzo (A1, A2) y dos de cena (C1, C2) para toda la semana — JR pidió repetición, no variedad.
+
+   **JR aceptó hasta 5 días en refrigerador.** Es su decisión y se respeta; la guía USDA son 3-4. Con 2 sesiones nada pasa de 3 días de todos modos, así que el margen queda de reserva.
+
+   **La única excepción real es el ceviche:** pescado crudo curtido aguanta 1-2 días y eso no se estira. Va siempre en día de cocina, hecho y comido el mismo día. Nunca programarlo para otro día.
 6. **Escribir** `menu-YYYY-MM-DD.md` con: tabla de 14 comidas, macros por comida, plan de la sesión de prep ordenado por tiempos, y qué va a congelador.
 7. **Generar lista de compras** (Flujo 3).
 
