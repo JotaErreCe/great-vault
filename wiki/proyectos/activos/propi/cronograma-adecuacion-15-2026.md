@@ -66,6 +66,7 @@ Marco de trabajo que **Ena y Thelma** están ejecutando para adecuar Propi al De
 ---
 
 ## Notas
+- **2026-08-10:** JR sostuvo reunión de **1:00 h** con Thelma para revisar avances del cronograma.
 - El cronograma cierra el 30-ago; la ley entra en vigor el 17-sep → buen margen. El reglamento SIB (~dic) queda para post-cierre, bien planteado.
 - La **matriz consolidada aprobada por dirección** (S4, #19) es obligación legal (Art. 8: el proceso de riesgo debe ser aprobado por el órgano de dirección superior y estar documentado). Bien contemplado.
 - La segmentación de DDC decidida (**híbrida: valor + perfil**, ver [[procedimiento-expediente-cliente]] §3) debe alimentar las matrices de riesgo #10-#13 y la política EDD #26.

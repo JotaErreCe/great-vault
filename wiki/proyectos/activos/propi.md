@@ -169,6 +169,12 @@ Datos correctos Julio 2026:
 
 Estado de acceso Google auditado: la ruta confiable histórica era Google Workspace MCP/API con token cifrado en `~/.config/google-workspace-mcp/gemini-cli-workspace-token.json`; el token falta actualmente, aunque la master key existe. Requiere reautenticación/restauración una vez antes de ejecutar writes confiables.
 
+## 📌 Actualización — 2026-08-10 (Cronograma Decreto 15-2026)
+
+- JR tuvo en la mañana una reunión de **1:00 h** con [[correos-y-contactos|Thelma Parra]] para revisar avances en el cronograma de adecuación de Propi al Decreto 15-2026.
+- Materia relacionada: [[proyectos/activos/propi/cronograma-adecuacion-15-2026]].
+- Pendiente operativo: si corresponde a reporte de cobro de agosto, agregar al Control de Horas Propi cuando se actualice el mes.
+
 ## 🔗 Relacionado
 
 - [[analisis-brechas-15-2026]] — brechas manual de cumplimiento vs. Dto. 15-2026
