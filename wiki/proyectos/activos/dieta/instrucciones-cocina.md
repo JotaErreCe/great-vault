@@ -1,10 +1,10 @@
 ---
 type: reference
-date: 2026-08-10
+date: 2026-08-17
 tags: [reference, dieta]
 ---
 
-# Instrucciones de cocina — semana del 10 de agosto
+# Instrucciones de cocina — semana del 17 de agosto
 
 Hoja para imprimir. Se cocina **lunes y jueves**. Todo al refrigerador, nada al congelador.
 
@@ -117,4 +117,4 @@ Anotarlo en un papel y dejarlo en la cocina. Saber qué sobró y qué faltó es 
 
 ## Relacionado
 
-- [[menu-2026-08-10]] · [[wiki/proyectos/activos/dieta|Proyecto Dieta]]
+- [[menu-2026-08-17]] · [[wiki/proyectos/activos/dieta|Proyecto Dieta]]

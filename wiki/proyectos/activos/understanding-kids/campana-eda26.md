@@ -79,7 +79,7 @@ Convención JR 2026-07-21: **cada campaña tiene una entrada "PARÁMETROS DE CAM
 - [x] **Identidad Visual en Notion detallada para los web devs** (hex+roles+60-30-10, tipografía con pesos/tamaños/import, botón/CTA, highlighter en CSS, contraste WCAG). Hecho 2026-07-21.
 - [ ] **Compartir la carpeta Tipografías de Drive** con los devs de Davinia (hoy privada) — link en Notion §Identidad Visual.
 - [x] **Diploma:** confirmado por JR que SÍ se entrega → agregado al FAQ del Notion.
-- [ ] **Formas de pago / cuotas:** correo enviado a Magoo (msamayoa@kidsunderstanding.com, desde jcastaneda@) el 2026-08-07 preguntando si hay pago en cuotas y qué métodos aceptan (tarjeta/PayPal/transferencia). Factura: SÍ (confirmado). Al responder → agregar objeción al FAQ y cerrar el ítem del checklist.
+- [x] **Formas de pago (confirmado por Magoo 2026-08-07):** SÍ hay pago en **cuotas**; se acepta **tarjeta y PayPal**, **NO transferencia**; **factura: SÍ**. Agregado al FAQ del Notion y cerrado en el checklist.
 - [ ] **Link del formulario** de inscripción (lo pasa JR; irá en la página de Davinia).
 - [ ] **Slogan final** (elige Davinia/Mónica entre las 2 opciones).
 - [ ] ⭐ **Revisar cronograma por fecha** y reacomodar artes si hace falta (evaluar al revisar la sección "Plan de Contenidos" del Notion, título por título).
