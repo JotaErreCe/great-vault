@@ -33,6 +33,7 @@ Hijo de [[jr]] y [[monica]]. Recién nacido. La meta de largo plazo de JR gira e
 | 2026-03-06 |     nacimiento | 6 lb 10 oz | 48.5 cm | nacimiento 3:10 PM; JR lo anotó como “6.10”       |
 | 2026-06-10 | 3 meses 4 días |    13.3 lb |   60 cm | control con Dr. Jorge Blanco                      |
 | 2026-07-15 | 4 meses 9 días |    15.0 lb | 62.5 cm | control en Centro Pediatra; dato reportado por JR |
+| 2026-08-12 | 5 meses 6 días |    16.6 lb |   65 cm | dato reportado por JR |
 
 ### Pendiente de reconstruir
 
