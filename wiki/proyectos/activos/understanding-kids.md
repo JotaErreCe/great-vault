@@ -85,6 +85,8 @@ Catálogo desactualizado. Checkout carga y muestra Recurrente, pero no ha sido p
 4. Integrar flujo Notion → Canva → publicación
 5. Convertir Notion en fuente central de verdad
 
+> ⚠️ **Corte más reciente: [[proyectos/activos/understanding-kids/estado-2026-08]]** (2026-08-13). Leerlo antes que el resto — corrige staff, contadores, campañas y estado de pendientes. Frente activo: [[proyectos/activos/understanding-kids/contratos-laborales]].
+
 ## Próximos pasos
 
 - [x] Sistema de artes para IG/FB (posts + historias) **operativo y automatizado**: [[proyectos/activos/understanding-kids/sistema-artes-redes]]. HTML/CSS + Playwright (se abandonó Canva), en iCloud, con 2 agentes programados (generación semanal domingos + tendencias virales jueves en IG/FB/YT/TikTok → Notion 🔥 Tendencias). Ciclo completo probado 2026-07-20. **Pendiente operativo: mudar los agentes a la Mac Mini siempre-encendida — bloqueado hasta el 1-ago-2026 (JR de viaje). Runbook paso a paso: [[proyectos/activos/understanding-kids/migracion-sistema-artes]].** Nota vieja de Canva quedó superada: [[proyectos/activos/understanding-kids/sistema-templates-canva]].
