@@ -104,6 +104,12 @@ Ese párrafo debe subir **al contrato**, no aparecer solo al terminar la relaci�
 
 Convenciones: todo campo a llenar va entre `«comillas angulares»` · nunca se consigna la edad (se usa "mayor de edad") · el bloque de personería sale del documento `00` y se copia literal · dos ejemplares, uno al expediente.
 
+**Decisiones de JR (2026-08-13):**
+- **Honorarios de terapeutas: Q70–100/hora**, ya cableado en la plantilla 07. Es el rango de los contratos vigentes (Annika, Daniela García). El Q88–132 de la plantilla vieja queda descartado.
+- **Legalización de firmas: NO por defecto.** En la práctica la clínica no siempre legaliza. El bloque de acta notarial vive al final de las plantillas 05 y 10 marcado como opcional, y se usa solo cuando la salida es conflictiva o se prevé reclamo (despido, malos términos, desacuerdo de montos).
+
+Script generador: `~/Documents/Understanding Kids/Contratos/_generador_plantillas.py` (regenera los 13 `.docx` de una corrida; editar ahí y volver a correr en vez de tocar archivo por archivo).
+
 | # | Documento | Vínculo |
 |---|---|---|
 | 00 | Datos maestros y guía de uso | — |
