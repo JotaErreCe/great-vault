@@ -100,31 +100,33 @@ Ese párrafo debe subir **al contrato**, no aparecer solo al terminar la relaci�
 
 ## ✅ Kit estándar — CREADO (2026-08-13)
 
-**Ubicación:** Drive UK → `My Drive/Contratos/Plantillas Maestras 2026/` (13 archivos `.docx`; se convierten a Google Docs con «Abrir con Google Docs»). Generados con `gen_contratos.py`.
+**Ubicación:** Drive UK → `My Drive/Contratos/Plantillas Maestras 2026/` (17 archivos `.docx`; se convierten a Google Docs con «Abrir con Google Docs»).
+**Script generador:** `~/Documents/Understanding Kids/Contratos/_generador_plantillas.py` — regenera las 17 de una corrida. Editar ahí y volver a correr, nunca archivo por archivo.
 
-Convenciones: todo campo a llenar va entre `«comillas angulares»` · nunca se consigna la edad (se usa "mayor de edad") · el bloque de personería sale del documento `00` y se copia literal · dos ejemplares, uno al expediente.
+### Organización: por situación (decisión JR 2026-08-13)
 
-**Decisiones de JR (2026-08-13):**
-- **Honorarios de terapeutas: Q70–100/hora**, ya cableado en la plantilla 07. Es el rango de los contratos vigentes (Annika, Daniela García). El Q88–132 de la plantilla vieja queda descartado.
-- **Legalización de firmas: NO por defecto.** En la práctica la clínica no siempre legaliza. El bloque de acta notarial vive al final de las plantillas 05 y 10 marcado como opcional, y se usa solo cuando la salida es conflictiva o se prevé reclamo (despido, malos términos, desacuerdo de montos).
+Se abre la carpeta del momento que se está viviendo y ahí está todo lo que se firma.
 
-Script generador: `~/Documents/Understanding Kids/Contratos/_generador_plantillas.py` (regenera los 13 `.docx` de una corrida; editar ahí y volver a correr en vez de tocar archivo por archivo).
+| Carpeta | Documentos |
+|---|---|
+| *(raíz)* | 00 Datos maestros y guía de uso |
+| **Contratación** | 01 Contrato de trabajo · admin/recepción · 02 Contrato de trabajo · profesional clínico · 03 Contrato de servicios profesionales · terapeuta · 04 Contrato de servicios profesionales · ponente (con Anexo A de formas de pago) · 05 Convenio de confidencialidad · 06 Acta de entrega de bienes |
+| **Durante la Relación (Adendas)** | 01 Adenda al contrato de trabajo · 02 Adenda de honorarios |
+| **Terminación Laboral** | 01 Carta de renuncia + acuse · 02 Finiquito laboral · 03 Constancia laboral · 04 Acta de devolución de bienes |
+| **Terminación Contractual** | 01 Aviso de terminación de servicios profesionales · 02 Finiquito civil · 03 Constancia de servicios profesionales · 04 Acta de devolución de bienes |
 
-| # | Documento | Vínculo |
-|---|---|---|
-| 00 | Datos maestros y guía de uso | — |
-| 01 | Contrato individual de trabajo · administrativo/recepción | laboral |
-| 02 | Contrato individual de trabajo · profesional clínico | laboral |
-| 03 | Adenda al contrato individual de trabajo | laboral |
-| 04 | Carta de renuncia (formato para el trabajador) + acuse | laboral |
-| 05 | Finiquito laboral + acta notarial | laboral |
-| 06 | Constancia laboral | laboral |
-| 07 | Contrato de prestación de servicios · terapeuta | civil |
-| 08 | Contrato de prestación de servicios · ponente + Anexo A de formas de pago | civil |
-| 09 | Adenda de honorarios | civil |
-| 10 | Finiquito civil + acta notarial | civil |
-| 11 | Convenio de confidencialidad y manejo de datos de pacientes | transversal |
-| 12 | Acta de entrega y devolución de bienes | transversal |
+La cuarta carpeta (Adendas) no la pidió JR explícitamente; se agregó porque las modificaciones no caben en contratación ni en terminación. El acta de bienes se partió en dos documentos de un solo propósito — entrega en Contratación, devolución en cada carpeta de terminación — en vez de un solo archivo con casilla.
+
+### Convenciones de redacción (decisiones JR 2026-08-13)
+
+- **Edad exacta, siempre**, en letras: «de treinta y un años de edad». **NO usar "mayor de edad".** Consecuencia: el documento queda atado a la fecha de firma, no se puede reciclar el número del año pasado.
+  - **Dónde sacar la fecha de nacimiento** (no se copia acá por privacidad): el certificado de **antecedentes penales** del Organismo Judicial la trae como texto extraíble y es la vía más rápida — `pdftotext -layout <archivo> | grep "Fecha de Nacimiento"`. Está en la carpeta de cada persona en Drive `Expedientes/`. Los DPI escaneados suelen ser imagen y a veces el holograma tapa el año.
+  - Verificadas al 2026-08-13: Mónica, Annika Herbruger, Daniela García, Daniela Guzmán y María José Velásquez. Las de Daniela Guzmán y María José ya estaban correctas en sus documentos.
+  - Ojo con el calendario: Magoo cumple en septiembre, Annika y Daniela García en octubre. Firmar antes o recalcular.
+- **Domicilio:** la representante legal va como «con domicilio en la ciudad de Guatemala». La contraparte, «de este domicilio» si vive en la capital, o «con domicilio en el municipio de ___, departamento de Guatemala» si vive fuera (Santa Catarina Pinula, Mixco).
+- **Honorarios de terapeutas: Q70–100/hora**, cableado en la plantilla de servicios profesionales. Es el rango de los contratos vigentes de Annika y Daniela García; el Q88–132 de la plantilla vieja queda descartado.
+- **Legalización de firmas: NO por defecto.** En la práctica la clínica no siempre legaliza. El bloque de acta notarial está al final de los dos finiquitos, marcado como opcional, y se usa solo cuando la salida es conflictiva o se prevé reclamo.
+- Campos a completar entre `«comillas angulares»` · el bloque de personería sale del documento 00 y se copia literal · dos ejemplares, uno al expediente.
 
 Novedades respecto de lo que existía: la **cláusula SEGUNDA de autonomía** en el contrato de SP (la redacción defensiva que solo estaba en el finiquito) · el contrato de ponente unifica los tres archivos de PayPal/transferencia/base en uno con anexo · se crearon desde cero las adendas, el convenio de confidencialidad como anexo firmable, la carta de renuncia genérica y el acta de entrega.
 
