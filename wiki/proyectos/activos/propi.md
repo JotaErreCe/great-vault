@@ -175,6 +175,16 @@ Estado de acceso Google auditado: la ruta confiable histórica era Google Worksp
 - Materia relacionada: [[proyectos/activos/propi/cronograma-adecuacion-15-2026]].
 - Pendiente operativo: si corresponde a reporte de cobro de agosto, agregar al Control de Horas Propi cuando se actualice el mes.
 
+## 📌 Actualización — 2026-08-13 (Control de Horas)
+
+Google Sheet `Control de Horas - Propi`, pestaña `Agosto 2026`, actualizado con dos rubros adicionales:
+
+- 30 min — preparación del documento de finiquito para firma de Jimena Jünger.
+- 60 min — reunión para firma de finiquito y entrega de constancia laboral de Nicolle.
+- Gastos agregados: **Q50.00**.
+
+Totales verificados en hoja: **537 min / 8.95 h**, gastos **Q150.00**, exceso **57 min / 0.95 h**. Se preservaron fórmulas del template (`G8:G16`, filas de cálculo `B20:F23`).
+
 ## 🔗 Relacionado
 
 - [[analisis-brechas-15-2026]] — brechas manual de cumplimiento vs. Dto. 15-2026

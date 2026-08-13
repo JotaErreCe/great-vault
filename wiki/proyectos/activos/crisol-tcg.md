@@ -126,6 +126,7 @@ Plataforma digital multivendedor donde compradores y vendedores de TCG (Yu-Gi-Oh
 
 ## ⚠️ Pendientes
 
+- [ ] Sourcing/proveedores TCG para Guatemala — investigación inicial en [[crisol-tcg-proveedores]].
 - [ ] Estado exacto: WooCommerce en producción vs. migración a Next.js/Supabase
 - [ ] Couriers / partners logísticos (Cargo Expreso, Guatex, Forza, etc.)
 - [ ] Pasarela de pago final: PagaloGT vs Visacuotas
