@@ -183,7 +183,14 @@ Google Sheet `Control de Horas - Propi`, pestaña `Agosto 2026`, actualizado con
 - 60 min — reunión para firma de finiquito y entrega de constancia laboral de Nicolle.
 - Gastos agregados: **Q50.00**.
 
-Totales verificados en hoja: **537 min / 8.95 h**, gastos **Q150.00**, exceso **57 min / 0.95 h**. Se preservaron fórmulas del template (`G8:G16`, filas de cálculo `B20:F23`).
+Totales verificados inicialmente en hoja: **537 min / 8.95 h**, gastos **Q150.00**, exceso **57 min / 0.95 h**. Se preservaron fórmulas del template (`G8:G16`, filas de cálculo `B20:F23`).
+
+Actualización posterior del mismo día:
+
+- 80 min — reunión con Thelma y Ena para revisar avances de compliance ante la IVE.
+- Recordatorio creado en Apple Reminders / Propi: `Enviar correo a Ena sobre caso Eddie Mazariegos y enganche de Q155,000`.
+
+Totales verificados tras la nueva reunión: **617 min / 10.28 h**, gastos **Q150.00**, exceso **137 min / 2.28 h**. Fórmulas preservadas.
 
 ## 🔗 Relacionado
 
