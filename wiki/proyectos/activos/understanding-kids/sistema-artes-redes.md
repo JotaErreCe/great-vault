@@ -1,7 +1,7 @@
 ---
 type: resource
 date: 2026-07-21
-last-touched: 2026-07-21
+last-touched: 2026-08-14
 tags:
   - resource
   - tema/marketing
@@ -35,11 +35,37 @@ Guías dentro de `Sistema/` (fuentes de verdad):
 - **`GUIA_PROMOS_TALLERES.md`** — sub-sistema de promoción de talleres (portada-flyer, paleta propia por campaña).
 - **`MIGRACION.md`** + `setup_mac_nueva.sh` — cómo mudar todo a otra Mac. **Runbook completo y actualizado: [[proyectos/activos/understanding-kids/migracion-sistema-artes]]** (vive en el vault a propósito, para que esté disponible aunque iCloud falle).
 
+## Organización de almacenamiento y convenciones (dictado por JR, 2026-08-14)
+
+**Dos almacenamientos con roles distintos:**
+- **iCloud = el TALLER** (`~/Documents/Understanding Kids/Artes/`). Acá se trabaja. Subcarpetas: `Sistema/` (motor), `Pendientes de Revision/` (cola de aprobación — nada avanza sin OK de JR), `Aprobadas/` (histórico local), `Logos/` (UK, IS y Dra. Davinia García), `Fotos expositoras/` (retratos recortados de Davinia y Mónica).
+- **Google Drive = la VITRINA** (`.../My Drive/Administración/Artes/`). De acá publica Magoo. **Solo se sube lo aprobado; nada de borradores.**
+
+**Dentro de `Sistema/`:**
+- `build_*.py` — 12 plantillas (portada, contenido, infografía, pasos, comparación, dato, cierre, promo, story…). Renderizan HTML+CSS con Playwright a PNG. **Solo se cambia el dict de contenido; no se toca el HTML.**
+- `armar_*.py` — orquestadores (uno por corrida semanal o por pieza). **Aquí vive el COPY** de cada arte.
+- `verificar_*.py` — **guardarraíles que corren SIEMPRE antes de reportar:** `verificar_marca.py` (lee el fondo real de cada PNG y confirma que corresponda a la marca) + `verificar_caption.py` (reglas de caption).
+- `buscar_foto.py` (Pexels→Openverse), `hacer_sticker.py` (troquela logos sobre foto), `reglas_contenido.py` (valida largo de copy — avisa, no bloquea), guías, fuentes/logos base64, `fonts_eda26/`.
+
+**Estructura de Drive (`2026/`):**
+- `Understanding Kids/` e `Integración Sensorial/` — cada marca con las MISMAS 6 subcarpetas: **Informativo · Frases · Testimonios · Promociones · Servicios · Recursos**.
+- `Campañas/` — una carpeta por campaña, con identidad visual propia (ej. "Diplomado de Autismo", "Especialización Alimentación 2026").
+- `Publicidad/` — carpeta reciente, **fuera de la convención**; ⚠️ CONFIRMAR con JR si se queda o si esos artes van a `<Marca>/Servicios/`.
+- `Artes (JR)/` — histórico viejo (UK, IS, Toylab), NO se usa para producción nueva. `Flashcards/`, `Planes/` — ajenos a este sistema.
+
+**Nomenclatura:**
+- Carpeta por pieza: `<AAAA-MM-DD> - <MARCA> <tema>` — ej. `2026-08-14 - IS Causas de la dificultad para comer`. **La marca NO es cosmética:** `verificar_marca.py` la usa para saber qué fondo esperar → tiene que llevar `- UK ` o `- IS `.
+- Dentro: `01_portada.png`, `02_*.png`, … (slides numerados en orden) · `story_*.png` · `caption.txt` (copy de IG + notas para quien publica).
+- Campañas usan su propia nomenclatura (ej. EDA26: `EDA26_ANCLA_C01.png`, `EDA26_ANCLA_ST1_flyer.png`).
+- ⚠️ **Convención de Magoo:** al publicar, **renombra la carpeta de Drive a "subido"** (de ahí "subido", "subido (1)", "subido (2)"…). Es su marca de "ya salió", pero **borra la fecha y el tema del nombre**. Para saber qué contiene una, hay que abrirla y leer el `caption.txt`.
+
+**Las dos líneas visuales (detalle abajo):** DIARIA (fondo por marca) vs CAMPAÑA (paleta propia). En ambas, **los contactos impresos son SIEMPRE los de UK**; entre marcas solo cambian **logo, acento y fondo**.
+
 ## Línea visual (resumen; detalle en GUIA_MAESTRA)
 
 - **Tipografía (fija):** Cocogoose Pro Bold (títulos) + Montserrat (cuerpo).
-- **Fondo:** crema `#FBFAF6`. **Texto:** gris `#33363B`.
-- **Acento POR MARCA:** UK = amarillo `#EEB41E` · **IS = turquesa `#3FA8C0`** (del logo IS). Lo único que cambia entre marcas es logo + acento; contactos y todo lo demás, compartido. En código: `"marca": "UK"/"IS"` en cada dict de contenido.
+- **Texto:** gris `#33363B`.
+- **Fondo y acento POR MARCA (línea DIARIA):** UK fondo crema `#FBFAF6` + acento amarillo `#EEB41E` · **IS fondo celeste `#F4F9FA` + acento turquesa `#3FA8C0`**. Entre marcas cambian **logo, acento y fondo**; contactos y todo lo demás son compartidos (siempre los de UK). En código: `"marca": "UK"/"IS"` en **CADA** slide; si se olvida en uno, sale con fondo UK y **el error es silencioso** → por eso corre `verificar_marca.py`. *(Corregido 2026-08-14: IS tiene fondo propio, ya no comparte el crema de UK.)*
 - **Semántica de color:** rojo terracota suave = negativo (mito/presión) · verde = positivo · amarillo/turquesa = énfasis de marca · celeste = info.
 - **Contactos (ambas marcas):** FB Understanding Kids · IG @kidsunderstanding · WA +502 5926-9205 · kidsunderstanding.com.
 
