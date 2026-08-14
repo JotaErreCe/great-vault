@@ -88,7 +88,10 @@ Tras ampliar búsqueda, sí hay más rutas además de Devir, aunque con distinto
 
 - Aparece en página oficial de One Piece/Bandai como distribuidor oficial por área.
 - ICv2 registró históricamente expansión de Coqui para Wizards of the Coast en México y Brasil.
-- Ruta útil: preguntar si cubre Centroamérica/Guatemala para Bandai, Wizards u otros TCG.
+- **Verificación 2026-08-13:** el sitio oficial de Coqui indica que Coqui Hobby Distribution LLC “serves the whole of Latin America” y está basado en Orlando, FL. También muestra testimonios de clientes en Chile y Costa Rica. Esto confirma cobertura regional latinoamericana compatible con Guatemala, pero **no se encontró mención pública específica de Guatemala ni un cliente guatemalteco nombrado**.
+- Requisito importante: Coqui indica que solo acepta solicitudes de tiendas físicas Gaming/Hobby/Toy/Comics; **no acepta tiendas online-only**. Priorizan tiendas físicas con espacio para juego organizado y creación de comunidad.
+- Contacto público: teléfono 407-904-0705; cuenta vía página `create-an-account-with-coqui/`.
+- Lectura para Crisol: Coqui es candidato real para Guatemala si Crisol puede presentarse como tienda física/comunidad o aliado con tienda física; si Crisol arranca solo marketplace online, probablemente no califica sin estructura adicional.
 
 ### GTS Distribution / Alliance Game Distributors / Universal Distribution
 
@@ -113,6 +116,45 @@ Tras ampliar búsqueda, sí hay más rutas además de Devir, aunque con distinto
 ### Brasil/Chile — baja prioridad para Guatemala
 
 Detectados varios distribuidores B2B TCG (Geek Culture Distribution, Cartinha, Super TCG, Geek Distribuidora, Ferret Games), pero parecen enfocados en mercados nacionales Brasil/Chile. Útiles solo si exportan o si se busca arbitraje/importación no oficial.
+
+## Confirmado para Guatemala — 2026-08-13
+
+### Distribución B2B confirmada públicamente para LatAm / Guatemala viable
+
+**Devir Américas** es el único proveedor encontrado hasta ahora con señal pública clara de ruta B2B aplicable a Guatemala:
+
+- Página `Nuevos Clientes` indica que Devir Américas vende a tiendas físicas o en línea, pide NIT/equivalente fiscal, nociones de importación y compra mínima mensual de USD 600.
+- La misma página declara distribución oficial para Latinoamérica de **Konami, Pokémon, Wizards of the Coast, Ultra PRO, Ultimate Guard**, entre otros.
+- No lista “Guatemala” expresamente en esa página, pero al pedir NIT/RUC/RUT/RFC/equivalentes por país y operar como Devir Américas/LatAm, es la ruta más confirmada para Crisol.
+
+### Tiendas oficiales en Guatemala — evidencia indirecta de canal autorizado
+
+Estas tiendas aparecen en el **Wizards Store Locator** para Guatemala (MTG/WPN):
+
+- Master Games — zona 17, C.C. Fátima.
+- Deck Box Store — zona 1.
+- Ilusion Gaming Lounge — zona 1, Plaza Vivar.
+- Smiley Games Creations — Av. Simeón Cañas.
+- Boomerang — Plaza Madero, zona 12.
+- MadHouse 33 — Tikal Futura.
+- Questoris — C.C. Monserrat, Mixco.
+
+Estas tiendas aparecen en el listado oficial **Yu-Gi-Oh! Official Tournament Stores — Latin America** para Guatemala:
+
+- Ilusion Gaming Lounge — zona 1, Plaza Vivar.
+- Mad House — Tikal Futura.
+- Mr Niwatori — zona 12, Plaza Comercial De León.
+- Magic Quest / Questoris — C.C. Monserrat, Mixco.
+- Deck Box Store TCG y Collectibles — zona 1.
+- Legado’s Xela — Quetzaltenango.
+
+Lectura: no son necesariamente mayoristas, pero sí son tiendas con acceso a canales oficiales. Pueden servir para: (i) benchmark de precios, (ii) validar quién les distribuye, (iii) posible seller estratégico/alianza, o (iv) preguntar si revenden al por mayor.
+
+### No confirmado para Guatemala
+
+- GTS Distribution, Alliance Game Distributors y Universal Distribution: aparecen como distribuidores oficiales en páginas Bandai/Ultra PRO, pero la evidencia pública consultada no confirma que abran cuenta o despachen a Guatemala.
+- Dragon Shield Direct: tiene portal wholesale para retailers verificados, pero falta confirmar cobertura Guatemala.
+- TCG Factory / Explosion / otros mayoristas México-España-Brasil-Chile: posibles, pero no confirmados para Guatemala.
 
 ## Recomendación operativa
 
