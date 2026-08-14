@@ -54,6 +54,21 @@ Mejoras que ya traen respecto de lo viejo: "mayor de edad" en vez de edad fija �
 | Constancia laboral / Acta de entrega de parqueo y llaves — Karla Flores | feb-2024 | iCloud | Únicos modelos existentes de esos dos documentos. |
 | Contratos de ponentes del Diplomado | — | iCloud `Contratos/Diplomado Internacional/` | Tres archivos separados (`Formato`, `Formato - Paypal`, `Formato - Transferencia`) que solo cambian la forma de pago. Debería ser uno con anexo. |
 
+## ✅ Los cuatro documentos pendientes — CORREGIDOS Y ENVIADOS (2026-08-13)
+
+| Documento | Dónde vive | Estado |
+|---|---|---|
+| Contrato SP — Annika Herbruger | Google Doc `1VngNsYWXgwJ6zXaCTEjcg0z-j-XNk2Dbs-9gEB4YBJY` (Drive `Expedientes/Annika Herbruger/`) | corregido **en el propio documento** |
+| Contrato SP — Daniela García | Google Doc `1vj1WDIKr_IdsMr2VbwqNc4czyDCCjyLWD7rgmovl678` (Drive `Expedientes/Daniela García/`) | corregido **en el propio documento** |
+| Contrato laboral — Daniela Guzmán | Word · Drive `Contratos/Para Firma 2026-08/` + enviado a Magoo | corregido |
+| Finiquito civil — María José Velásquez | Word · Drive `Contratos/Para Firma 2026-08/` + enviado a Magoo | corregido, con la cláusula laboral nueva y sin bloque notarial |
+
+Correcciones aplicadas: nombramiento correcto · nombre completo del Registro · edad exacta · domicilio · psicopedagogas · cláusula de inexistencia de relación laboral en el finiquito.
+
+Se avisó a Magoo por correo el 2026-08-13, respondiendo a cada uno de sus tres hilos del 4-ago.
+
+> **Lección operativa (JR, 2026-08-13):** cuando JR señala «el contrato dice X», se refiere **al documento real que va a firmarse**, no a la plantilla. Si es un Google Doc hay que **editarlo en el propio Doc**. El MCP de Drive solo lee; la vía que funciona es abrir el documento en Chrome (`claude-in-chrome`) y usar Buscar y reemplazar (`cmd+shift+H` → «Reemplazar todo»). Generar archivos nuevos al lado NO resuelve el pedido y además crea versiones duplicadas.
+
 ## ✅ Datos de personería — VERIFICADOS (2026-08-13)
 
 Fuente primaria: `~/Documents/Understanding Kids/Documentos S.A./Documentos S.A./Razón 1017-323155.pdf` (razonamiento del Registro Mercantil, No. 769672, emitido 18-jul-2025).
@@ -125,6 +140,7 @@ La cuarta carpeta (Adendas) no la pidió JR explícitamente; se agregó porque l
   - Ojo con el calendario: Magoo cumple en septiembre, Annika y Daniela García en octubre. Firmar antes o recalcular.
 - **Domicilio:** la representante legal va como «con domicilio en la ciudad de Guatemala». La contraparte, «de este domicilio» si vive en la capital, o «con domicilio en el municipio de ___, departamento de Guatemala» si vive fuera (Santa Catarina Pinula, Mixco).
 - **Honorarios de terapeutas: Q70–100/hora**, cableado en la plantilla de servicios profesionales. Es el rango de los contratos vigentes de Annika y Daniela García; el Q88–132 de la plantilla vieja queda descartado.
+- **El finiquito civil lleva cláusula de inexistencia de relación laboral** (SEXTA, decisión JR 2026-08-13). Además del pacto de no demandar civil, la contratista declara que el vínculo fue estrictamente civil —autonomía técnica, sin subordinación, sin horario impuesto, sin exclusividad, facturando— y que por eso no presentará reclamo laboral: indemnización, prestaciones, aguinaldo, bono 14, vacaciones, bonificación incentivo, horas extra, séptimo día, asuetos ni cuotas de seguridad social. Se cierra con la salvaguarda de que no cubre derechos irrenunciables por ley.
 - **Legalización de firmas: NO por defecto.** En la práctica la clínica no siempre legaliza. El bloque de acta notarial está al final de los dos finiquitos, marcado como opcional, y se usa solo cuando la salida es conflictiva o se prevé reclamo.
 - Campos a completar entre `«comillas angulares»` · el bloque de personería sale del documento 00 y se copia literal · dos ejemplares, uno al expediente.
 
