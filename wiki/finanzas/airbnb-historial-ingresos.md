@@ -1,7 +1,7 @@
 ---
 type: resource
 date: 2026-05-28
-last-touched: 2026-06-14
+last-touched: 2026-08-14
 tags:
   - finanzas
   - tema/ingresos
@@ -31,18 +31,19 @@ Ingresos mensuales del **Apto 308, Edificio Museo San Mateo, Zona 7, Ciudad de G
 | Abril 2026 | $507.94 | Q3,463 |
 | Mayo 2026 | $487.66 | Q3,319 |
 | Junio 2026 | $329.38 | Q2,240 |
-| **TOTAL 11 meses** | **$6,087.35** | **~Q41,591** |
+| Julio 2026 | $472.55 | Q3,217 |
+| **TOTAL 12 meses** | **$6,559.90** | **~Q44,808** |
 
 ---
 
-## 📈 Resumen estadístico (ago 2025 – jun 2026)
+## 📈 Resumen estadístico (ago 2025 – jul 2026)
 
 | Métrica | USD |
 |---------|----:|
-| Promedio mensual | **$553.40** |
-| Proyección anual (×12) | **~$6,641** |
+| Promedio mensual | **$546.66** |
+| Proyección anual (×12) | **~$6,560** |
 | Mes más alto | Enero 2026: $734.04 |
-| Mes más bajo | Febrero 2026: $459.29 |
+| Mes más bajo | Junio 2026: $329.38 |
 
 **Estacionalidad observada:**
 - Temporada alta (oct–ene): $670–$734/mes
@@ -56,6 +57,7 @@ Ingresos mensuales del **Apto 308, Edificio Museo San Mateo, Zona 7, Ciudad de G
 - Para meses antes de agosto 2025 no hay datos en Excel — solo PDFs de retención ISR (imagen, no procesables).
 - Mayo 2026: $487.66 USD (Q3,319 sin IVA, TC Q7.6224). Cierre recibido 11/06/2026.
 - Junio 2026: $329.38 USD (Q2,240 sin IVA, TC Q7.6181). Factura enviada 17/07/2026.
+- Julio 2026: $472.55 USD (Q3,217 sin IVA, TC Q7.62484). Factura enviada 14/08/2026.
 
 ---
 
