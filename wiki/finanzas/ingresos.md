@@ -1,7 +1,7 @@
 ---
 type: resource
 date: 2026-04-30
-last-touched: 2026-04-30
+last-touched: 2026-08-20
 tags:
   - finanzas
   - tema/ingresos
@@ -27,7 +27,7 @@ Fuentes de ingreso de [[jr]]. Como de 2026-04.
 |--------|---------|
 | **Artes [[understanding-kids]]** | Ingreso fijo por diseño de materiales gráficos para UK |
 | **Renta apartamento [[propiedades|Z16 / Hexa Cañadá 16]]** | Renta mensual del apartamento en Zona 16 |
-| **Airbnb [[propiedades|Museo San Mateo]]** | Ingreso variable recurrente. Promedio mensual: **USD $585.59** (~Q4,000 sin IVA). Proyección anual: ~USD $7,027. Ver detalle histórico en [[airbnb-historial-ingresos]]. Administrado por [[el-punto-sa]]. |
+| **Airbnb [[propiedades|Museo San Mateo]]** | Ingreso variable recurrente. Promedio mensual documentado por facturas FEL: **USD $584.71** (Q4,506.70 facturado / ~Q4,023.84 sin IVA). Proyección anual: ~USD $7,017. Ver detalle histórico en [[airbnb-historial-ingresos]]. Administrado por [[el-punto-sa]]. |
 | **Renta Casa Antigua a [[healing-hands]]** | Ingreso fijo del arrendamiento de la casa en La Antigua |
 
 ---
