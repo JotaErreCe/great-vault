@@ -192,6 +192,17 @@ Actualización posterior del mismo día:
 
 Totales verificados tras la nueva reunión: **617 min / 10.28 h**, gastos **Q150.00**, exceso **137 min / 2.28 h**. Fórmulas preservadas.
 
+## 📌 Actualización — 2026-08-21
+
+Detalle completo en [[propi/mapa-operativo|mapa operativo]], sección 8. Titulares:
+
+- ⚠️ **Nombramiento de José Mario vencido desde el 18-jul-2026.** El nuevo (Acta 05-2026, asamblea 14-ago) se envió a Astrid para firma el 21-ago, pero no está firmado ni inscrito. Mientras dure el hueco, **Eduardo Francés** es el representante legal con nombramiento vigente. Se comparece con pasaporte **C04339982** y nacionalidad salvadoreña (criterio de JR: identificación y nacionalidad van emparejadas).
+- **Hallazgo legal:** la afiliación a la CBR es voluntaria. El requisito legal real en Guatemala es la **Licencia de Corredor del Ministerio de Economía** (Código de Comercio + A.G. 239-2012). Los templates heredados exigían lo incorrecto.
+- **Alianzas nuevas:** Vladimir Flores (El Salvador, Kasa Homes) y Brenda Verás (Guatemala). Ambos pendientes de confirmar si contratan como persona individual o jurídica.
+- **Terminaciones cerradas:** Jimena Junger (despido, Q52,589.91) y Nicolle Mendez (renuncia, Q21,226.03).
+- **Corrección metodológica:** la plantilla interna de cálculo de prestaciones tenía mal la fórmula de vacaciones; corregida conforme al Art. 130 del Código de Trabajo.
+- Expedientes de empleados reorganizados en formato expediente (una carpeta por persona, todo su ciclo de vida).
+
 ## 🔗 Relacionado
 
 - [[analisis-brechas-15-2026]] — brechas manual de cumplimiento vs. Dto. 15-2026
