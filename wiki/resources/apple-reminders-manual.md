@@ -90,14 +90,35 @@ Filtros que ofrece el constructor: **Tags, Date, Time, Priority, Flag, Location,
 
 Opciones de Date: Any · Today · On Date · Before a Date · After a Date · Specified Range · **Relative Range** · **No Date**.
 
-Vistas ya construidas (2026-08-20):
+Vistas construidas (2026-08-20):
 
-| Vista | Receta |
-|---|---|
-| 📅 Próximos | Date → Relative Range → In the Next **30 Day** → ✅ **Include Past Due** |
-| ✅ Tareas | Date → **No Date** + Lists → **Exclude Selected List** → Groceries |
+| Vista | Receta | Ordenada por |
+|---|---|---|
+| 🎯 **Hoy** — la maestra diaria | Date → **Today** + ✅ Include Past Due | Fecha |
+| 🔥 **Prioridad** | Priority → **Any** (= con prioridad asignada) | **Priority** |
+| 📅 Próximos | Date → Relative Range → In the Next 30 Day + ✅ Include Past Due | Fecha |
+| ✅ Tareas | Date → **No Date** + Lists → Exclude Selected List → Groceries | Fecha |
 
-Para que algo salga de ✅ Tareas sin borrarlo, ponerle `startDateComponents` a futuro: desaparece de la vista y regresa solo.
+Opciones de Priority: Any · Low · Medium · High · No Priority. **`Any` significa "tiene prioridad asignada"**, no "sin restricción" — por eso 🔥 Prioridad excluye sola a Groceries y al backlog, que nunca llevan prioridad.
+
+El orden **no es un filtro**: se fija por lista en **View → Sort By** (Manual, Due Date, Creation Date, **Priority**, Title). Los submenús requieren *hover*, no clic.
+
+**Convención de prioridad que debe respetar el agente:**
+
+| Nivel | Cuándo | Se ve como |
+|---|---|---|
+| Alta (1) | Costo real de no atenderlo: deadline duro, exposición legal, dinero parado | `!!!` |
+| Media (5) | Compromiso adquirido con alguien, sin fecha crítica | `!!` |
+| Baja (9) | Deseable, sin consecuencia | `!` |
+| Ninguna (0) | Backlog, súper, cosas sin compromiso | — |
+
+Sin prioridad, un recordatorio **no aparece en 🔥 Prioridad**. Es la decisión más importante al crear uno.
+
+## 💡 Algún día — qué es y qué no
+
+**Es un backlog, no un aplazamiento.** Guarda cosas que *podrían* hacerse en algún momento pero que **no son una realidad hoy** — ideas, proyectos potenciales, deseos sin fecha de inicio. (JR lo precisó el 2026-08-20.)
+
+No confundir con posponer algo que sí va a pasar: para eso va `startDateComponents` a futuro, que lo oculta y lo devuelve solo el día indicado. Un recordatorio en Algún día **no lleva prioridad ni fecha**, y por eso no contamina 🎯 Hoy ni 🔥 Prioridad.
 
 > ⚠️ **Nunca usar "Convert to Smart List" sobre una lista de proyecto.** Etiqueta todos sus recordatorios con el nombre de la lista, destruye la lista real y **EventKit deja de verla** — se pierde el acceso de escritura. Verificado por error el 2026-08-20 sobre AMC Legal; hubo que borrar la Smart List y recrear la lista.
 
