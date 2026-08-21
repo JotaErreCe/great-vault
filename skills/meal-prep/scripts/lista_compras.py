@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Lista de compras: menú semanal → Apple Reminders (lista compartida con Magoo).
 
-Lee la sección `## Ingredientes` del menú, resta lo que ya está en despensa.md,
-agrupa por pasillo y lo empuja a Recordatorios.
+Lee la sección `## Ingredientes` del menú, resta lo que ya hay en inventario.md
+(con cantidades y unidades), agrupa por pasillo y lo empuja a Recordatorios.
 
 Formato esperado en el menú:
     ## Ingredientes
@@ -82,18 +82,33 @@ def parsear_ingredientes(ruta: Path) -> list:
     return items
 
 
-def leer_despensa() -> set:
-    p = dir_datos() / "despensa.md"
+CANT = re.compile(r"^\s*([\d.]+)\s*(.*)$")
+
+
+def parse_cant(s: str):
+    """'2.5 lb' -> (2.5, 'lb'). Sin número -> (None, texto)."""
+    m = CANT.match(s.strip())
+    if not m:
+        return None, s.strip().lower()
+    return float(m.group(1)), m.group(2).strip().lower()
+
+
+def leer_inventario() -> dict:
+    """{nombre_lower: (cantidad|None, unidad)}. None = siempre hay, nunca se pide."""
+    p = dir_datos() / "inventario.md"
     if not p.exists():
-        return set()
-    fuera = set()
+        return {}
+    inv = {}
     for line in p.read_text(encoding="utf-8").splitlines():
         line = line.strip()
-        if line.startswith("-"):
-            nombre = line.lstrip("-").split("|")[0].strip().lower()
-            if nombre:
-                fuera.add(nombre)
-    return fuera
+        if not line.startswith("-"):
+            continue
+        partes = [x.strip() for x in line.lstrip("-").split("|")]
+        nombre = partes[0].lower()
+        if not nombre:
+            continue
+        inv[nombre] = parse_cant(partes[1]) if len(partes) > 1 else (None, "")
+    return inv
 
 
 def agrupar(items: list) -> dict:
@@ -138,10 +153,29 @@ def main() -> None:
         ap.error("Falta --menu (o usá --check-lista)")
 
     items = parsear_ingredientes(a.menu)
-    fuera = leer_despensa()
+    inv = leer_inventario()
 
-    comprar = [i for i in items if i["nombre"].lower() not in fuera]
-    omitidos = [i for i in items if i["nombre"].lower() in fuera]
+    comprar, omitidos, ajustados = [], [], []
+    for it in items:
+        clave = it["nombre"].lower()
+        if clave not in inv:
+            comprar.append(it)
+            continue
+        cant_inv, uni_inv = inv[clave]
+        if cant_inv is None:
+            omitidos.append((it, "siempre hay"))
+            continue
+        need, uni_need = parse_cant(it["cantidad"])
+        if need is None or uni_need != uni_inv:
+            comprar.append(it)  # unidades distintas: no arriesgar, se pide
+            continue
+        falta = need - cant_inv
+        if falta <= 0:
+            omitidos.append((it, f"hay {cant_inv:g} {uni_inv}"))
+        else:
+            falta = int(falta) if falta == int(falta) else round(falta, 2)
+            ajustados.append((it["nombre"], it["cantidad"], f"{falta:g} {uni_inv}"))
+            comprar.append({**it, "cantidad": f"{falta:g} {uni_inv}"})
 
     grupos = agrupar(comprar)
 
@@ -153,8 +187,14 @@ def main() -> None:
             print(f"    · {etiqueta(it)}")
         print()
     print(f"Total: {len(comprar)} ítems")
+    if ajustados:
+        print("\nAjustados por inventario:")
+        for nm, pedia, ahora in ajustados:
+            print(f"  · {nm}: el menú pide {pedia} -> se compran {ahora}")
     if omitidos:
-        print(f"Omitidos por despensa ({len(omitidos)}): {', '.join(i['nombre'] for i in omitidos)}")
+        print(f"\nNo se piden ({len(omitidos)}):")
+        for it, razon in omitidos:
+            print(f"  · {it['nombre']} — {razon}")
 
     if not a.escribir:
         print("\n[dry-run] No se escribió nada. Para escribir de verdad, con OK de JR:")

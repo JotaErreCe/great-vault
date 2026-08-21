@@ -45,7 +45,7 @@ Datos del sistema (todos dentro del vault, para que sincronicen a la Mac Mini):
 | `wiki/proyectos/activos/dieta/log-peso-jr.md` · `log-peso-magoo.md` | Bitácora de peso (append-only) |
 | `wiki/proyectos/activos/dieta/cuestionario.md` | Las preguntas del setup inicial |
 | `wiki/proyectos/activos/dieta/recetas.md` | Biblioteca de recetas con macros ya calculados |
-| `wiki/proyectos/activos/dieta/despensa.md` | Lo que siempre hay en casa — se excluye de la lista de compras |
+| `wiki/proyectos/activos/dieta/inventario.md` | Lo que ya hay en casa, con cantidades — se resta de la lista |
 | `wiki/proyectos/activos/dieta/menu-YYYY-MM-DD.md` | El menú de cada semana |
 
 ## Regla de oro: macros con datos, no a ojo
@@ -91,13 +91,16 @@ python3 "$SKILL_DIR/scripts/perfil.py" set --json '{...}'
 2. **Revisar la semana anterior** — leer el `menu-` más reciente. No repetir la misma proteína principal dos semanas seguidas; sí repetir lo que a JR le funcionó.
 3. **Elegir componentes, no platos.** Ver `referencias/batch-cooking.md`. Se cocinan 3-4 proteínas, 2-3 carbohidratos y 3-4 vegetales por separado; los 14 platos salen de combinarlos. Esto es lo que evita el hartazgo de comer lo mismo 7 días.
 4. **Verificar macros con el MCP** para cada componente, con gramaje por porción.
-5. **Estructura fija: 4 recetas, 2 sesiones, refrigerador.** (Definido 2026-08-10.) La empleada cocina **lunes y jueves** y deja platos individuales armados, pesados y etiquetados. Dos recetas de almuerzo (A1, A2) y dos de cena (C1, C2) para toda la semana — JR pidió repetición, no variedad.
+5. **Estructura fija: 4 recetas, 4 días de cocina.** (Actualizado 2026-08-11.) La empleada cocina **lunes, miércoles, viernes y sábado** y deja platos individuales armados, pesados y etiquetados. Dos recetas de almuerzo (A1, A2) y dos de cena (C1, C2) para toda la semana — JR pidió repetición, no variedad.
 
-   **JR aceptó hasta 5 días en refrigerador.** Es su decisión y se respeta; la guía USDA son 3-4. Con 2 sesiones nada pasa de 3 días de todos modos, así que el margen queda de reserva.
+   Con 4 días de cocina **nada se come con más de 1 día de refrigerador**. JR aceptó hasta 5 días como techo, pero ya no hace falta usarlo.
 
-   **La única excepción real es el ceviche:** pescado crudo curtido aguanta 1-2 días y eso no se estira. Va siempre en día de cocina, hecho y comido el mismo día. Nunca programarlo para otro día.
-6. **Escribir** `menu-YYYY-MM-DD.md` con: tabla de 14 comidas, macros por comida, plan de la sesión de prep ordenado por tiempos, y qué va a congelador.
-7. **Generar lista de compras** (Flujo 3).
+   **El ceviche va siempre en día de cocina**, hecho y comido el mismo día: pescado curtido aguanta 1-2 días y eso no se estira.
+
+6. **Hay airfryer** (comprado 2026-08-11). Cambia dos cosas: el pollo y las papas salen sin una gota de aceite (~120 kcal/día menos para JR), y recalentar deja de arruinar la comida — 4 min a 180 °C y el pollo vuelve a estar como recién hecho. **Nunca recalentar pollo en microondas.** Es lo que hace que el meal prep dure meses en vez de semanas.
+7. **Correr el presupuesto** antes de cerrar el menú. Si se pasa de Q3,500/mes, ajustar aquí — no después.
+8. **Escribir** `menu-YYYY-MM-DD.md` con: calendario de 13 comidas (la cena del martes es de los suegros), macros y gramaje doble por plato, y qué cocina la empleada cada uno de sus 4 días.
+9. **Generar lista de compras** (Flujo 3).
 
 Cada comida debe caer dentro de ±10% del target calórico y llegar al piso de proteína. Si no cuadra, ajustar gramaje — no maquillar el número.
 
@@ -107,7 +110,9 @@ Cada comida debe caer dentro de ±10% del target calórico y llegar al piso de p
 python3 "$SKILL_DIR/scripts/lista_compras.py" --menu <ruta-menu.md> --dry-run
 ```
 
-Agrega ingredientes de las 14 comidas, resta lo que ya está en `despensa.md`, agrupa por pasillo y muestra el resultado.
+El menú pide **todo** lo que la semana necesita; el script resta lo que ya hay en `inventario.md` — con cantidades y unidades, no solo por nombre. Si el menú pide 6 lb de frijol y hay 2, pone 4 en la lista. Si hay más de lo que se ocupa, no lo pide.
+
+**Mantener el inventario al día es lo que evita comprar de más.** Después de cada compra grande, actualizar cantidades; cuando la empleada anote que algo se acabó, bajarlo.
 
 **Regla de autoridad:** por el manual de Reminders de JR, crear o escribir recordatorios requiere aprobación explícita. Siempre correr `--dry-run` primero, enseñar la lista, y solo si JR aprueba correr sin la bandera.
 
@@ -153,6 +158,29 @@ JR lo pidió así (2026-08-08): que esto funcione como **guía nutricional hacia
 - **Sostenibilidad sobre optimización.** Un plan al 80% que dure seis meses vale más que uno perfecto que muera en tres semanas. Ante la duda, elegir lo más fácil de cocinar.
 - **No moralizar la comida.** Nada de "portarse bien" o "hacer trampa". Si se salieron del plan un fin de semana, se sigue el lunes sin sermón y sin compensar recortando.
 - **Celebrar lo que no es la báscula.** Energía, ropa que queda mejor, dormir mejor, medidas. Con un bebé de meses el peso puede estancarse por sueño y estrés aunque todo lo demás vaya bien.
+
+## Presupuesto — Q3,500/mes, techo duro
+
+Incluye limpieza e higiene (Q600/mes, todo incluido). Eso deja ~Q2,900/mes de comida, o **Q667/semana**.
+
+```bash
+python3 "$SKILL_DIR/scripts/presupuesto.py" --res 3 --pollo 8 --ceviche 2
+```
+
+Correrlo **antes** de proponer cualquier cambio de menú. Un plato nuevo que suba el costo hay que compensarlo, no agregarlo y ya.
+
+Datos que decidieron el diseño actual (Q por gramo de proteína):
+
+| Fuente | Q/g |
+|---|---|
+| Frijol negro | 0.05 |
+| Huevo | 0.23 |
+| Pollo pechuga | 0.30 |
+| Tilapia congelada | 0.27 |
+| Res para asar | 0.47 |
+| Claras líquidas | 0.53 — **descartadas por caras** |
+
+Cuando falten calorías o proteína, la respuesta casi siempre es **más frijol**: cuesta una décima parte que la res por gramo de proteína y JR sí lo come.
 
 ## Registro de aprendizajes
 

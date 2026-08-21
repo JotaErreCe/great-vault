@@ -6,114 +6,141 @@ tags: [reference, dieta]
 
 # Instrucciones de cocina — semana del 17 de agosto
 
-Hoja para imprimir. Se cocina **lunes y jueves**. Todo al refrigerador, nada al congelador.
+Hoja para imprimir. Se cocina **lunes, miércoles, viernes y sábado**. Todo al refrigerador, nada al congelador.
 
-Son **4 recetas para toda la semana**. Cada una se reparte en platos individuales, pesados y etiquetados.
+Son **4 recetas** que se repiten toda la semana. Cada plato se arma completo, se pesa y se etiqueta.
 
 ## Reglas que no cambian
 
-1. **Pesar cada porción con la báscula.** Don JR y Doña Mónica llevan cantidades distintas.
-2. **Un plato = una comida.** Armar el plato completo, taparlo y etiquetarlo con el día y de quién es.
+1. **Pesar cada porción con la báscula.** Don JR y Doña Mónica llevan cantidades distintas — están en cada receta.
+2. **Un plato = una comida.** Armar completo, tapar y etiquetar con el día y de quién es.
 3. **Enfriar destapado** hasta que deje de salir vapor, luego tapar y refrigerar.
-4. **Una cucharada rasa de aceite por sartén**, medida con cuchara. No a chorro.
-5. **Sal, limón, cilantro, ajo, cebolla y chile: libres.** Hacen que la comida sepa rica y no afectan el plan.
-6. **El ceviche se hace el mismo día que se come.** Nunca se deja para otro día.
+4. **El airfryer no necesita aceite.** Nada de rociarlo ni untarlo. Así es como debe salir.
+5. **Sal, limón, cilantro, ajo, cebolla y chile: libres.**
+6. **El ceviche se hace el mismo día que se come.**
+
+## Cómo usar el airfryer
+
+| Qué | Temperatura | Tiempo |
+|---|---|---|
+| Pechuga de pollo | 200 °C | 15-18 min, voltear a la mitad |
+| Papa en gajos | 200 °C | 20 min, agitar a la mitad |
+| Recalentar pollo | 180 °C | 4 min |
+| Recalentar papa | 180 °C | 5 min |
+
+**Para recalentar, siempre airfryer — nunca microondas.** El microondas deja el pollo con textura de hule; el airfryer lo devuelve como recién hecho.
 
 ---
 
-## LUNES
+## LUNES — 3 comidas
 
-### Primero, lo de toda la semana
+### Lo que rinde toda la semana
 
-- **2 libras de frijol negro** cocido, sin manteca ni crema. Rinde para los desayunos de los dos y las cenas. No va en el almuerzo.
-- **2.5 kg de papa** cocida, guardada entera y sin pelar.
-- **Tortillas de maíz** — las hace usted o se compran en el pickup. Se ocupan para el desayuno de Don JR y de acompañamiento.
-- **Arroz** para los almuerzos y cenas de lunes a miércoles.
+- **3 libras de frijol negro** cocido, sin manteca ni crema
+- **2 kg de papa** cocida, guardada entera y sin pelar
+- **Arroz** para lunes a miércoles
+- **Tortillas de maíz** — hechas en casa o del pickup
 
-### A1 · Pollo a la plancha — 4 platos (almuerzo lun y mié)
+### A1 · Pollo al airfryer — 2 platos (almuerzo del lunes)
 
-- 700 g de pechuga, 1 cucharada de aceite, sal, pimienta, ajo
-- A la plancha hasta que esté bien cocida. Reposar 10 minutos antes de porcionar.
+- 350 g de pechuga. Sal, pimienta, ajo, paprika. **Sin aceite.**
+- Airfryer 200 °C, 15-18 min
 
-| | Don JR (2 platos) | Doña Mónica (2 platos) |
+| | Don JR | Doña Mónica |
 |---|---|---|
-| Pollo | 200 g | 140 g |
-| Arroz | 150 g | 190 g |
+| Pollo | 160 g | 125 g |
+| Arroz | 130 g | 150 g |
+| Frijol | 180 g | 170 g |
 | Pepino y tomate picados | 200 g | 200 g |
-| Aguacate | 60 g | 40 g |
 
-### A2 · Carne asada — 2 platos (almuerzo martes)
+### C2 · Ceviche — se hace y se come el lunes
 
-- 420 g de posta, sal y pimienta nada más. A la plancha o al carbón.
+- 1 libra de filete de tilapia (descongelada la noche antes), en cuadritos
+- Jugo de 12 limones, que cubra el pescado
+- 1 pepino, 2 tomates, ½ cebolla, un manojo de cilantro — picados
+- Sal
+
+Dejar el pescado en el limón ~20 min hasta que se ponga blanco. Mezclar.
+
+**Servir:** 260 g de pescado para Don JR, 190 g para Doña Mónica. Con 16 galletas Gama cada uno y aguacate — 70 g él, 60 g ella.
+
+### A2 · Churrasquito — 2 platos (almuerzo del martes)
+
+- 420 g de carne para asar. Sal y pimienta. Plancha o carbón.
+- Papas en gajos al airfryer, 200 °C, 20 min
 
 | | Don JR | Doña Mónica |
 |---|---|---|
 | Carne | 250 g | 170 g |
-| Papa | 200 g | 230 g |
+| Papa | 200 g | 220 g |
 | Brócoli al vapor | 150 g | 150 g |
+| Frijol | 100 g | 120 g |
 
-El brócoli que quede firme, no aguado.
-
-**Chirmol:** asar 4 tomates y ½ cebolla, machacar con cilantro, limón y sal. Un recipiente grande, se come libre.
-
-### C1 · Tortitas de carne molida — 2 platos (cena miércoles)
-
-- 340 g de molida de res magra
-- 1 huevo, ½ cebolla picada finita, sal, pimienta, comino
-- **Sin pan molido.** Se ligan con el huevo nomás.
-
-Formar tortitas y cocinarlas **a la plancha o al horno — nunca fritas**.
-
-**Salsa:** 4 tomates, ½ cebolla y ajo licuados, a fuego lento 15 minutos. Sin azúcar.
-
-| | Don JR | Doña Mónica |
-|---|---|---|
-| Tortitas (peso de la carne cruda) | 200 g | 140 g |
-| Arroz | 130 g | 170 g |
-| Zanahoria cocida | 150 g | 150 g |
-
-### C2 · Ceviche de tilapia — se hace y se come el lunes
-
-- 1 libra de filete de tilapia fresca (454 g), picada en cuadritos
-- Jugo de 12 limones, que cubra bien el pescado
-- 1 pepino, 2 tomates, ½ cebolla, un manojo de cilantro — todo picado
-- Sal al gusto
-
-Dejar el pescado en el limón unos 20 minutos, hasta que se ponga blanco. Luego mezclar.
-
-**Servir:** 260 g de pescado para Don JR, 190 g para Doña Mónica. Con 16 galletas Gama saladas cada uno y aguacate — 70 g él, 60 g ella.
+**Chirmol:** asar 4 tomates y ½ cebolla, machacar con cilantro, limón y sal.
 
 ---
 
-## JUEVES
+## MIÉRCOLES — 4 comidas
 
-Las mismas recetas, en estas cantidades:
-
-| Plato | Platos a dejar | Para |
+| Plato | Platos | Para |
 |---|---|---|
-| **A1** · Pollo | 4 | Almuerzo viernes y domingo |
-| **A2** · Carne asada | 4 | Almuerzo jueves y sábado |
-| **C1** · Tortitas | 6 | Cena viernes, sábado y domingo |
-| **C2** · Ceviche | — | Se hace y se come el jueves |
+| A1 · Pollo airfryer | 2 | Almuerzo miércoles |
+| C1 · Pollo a la mostaza | 4 | Cena miércoles y jueves |
+| A2 · Churrasquito | 2 | Almuerzo jueves |
 
-**Cantidades del jueves:**
+**Cantidades:** pechuga 1.2 kg · carne para asar 420 g
 
-- Pechuga: 700 g
-- Posta: 850 g
-- Molida: 1 kg
-- Tilapia: 470 g (para el ceviche del mismo día)
+### C1 · Pollo a la mostaza
 
-Mismos gramajes por plato. Volver a cocer arroz, frijol y papa si se acabaron.
+- Pollo al airfryer igual que A1
+- **Salsa aparte:** 4 cucharadas de mostaza, 2 dientes de ajo picados y ½ taza de caldo, a fuego lento 10 min. **Sin crema, sin azúcar.**
+- **Tomatada:** tomate, cebolla y ajo licuados, a fuego lento 15 min
+
+| | Don JR | Doña Mónica |
+|---|---|---|
+| Pollo | 160 g | 125 g |
+| Arroz | 150 g | 170 g |
+| Frijol | 80 g | 100 g |
+| Mostaza | 20 g | 15 g |
+
+---
+
+## VIERNES — 2 comidas
+
+| Plato | Platos | Para |
+|---|---|---|
+| A1 · Pollo airfryer | 2 | Almuerzo viernes |
+| C2 · Ceviche | — | Se hace y se come el viernes |
+
+**Cantidades:** pechuga 350 g · tilapia 1 libra
+
+Volver a cocer arroz y frijol si se acabaron.
+
+---
+
+## SÁBADO — 4 comidas
+
+| Plato | Platos | Para |
+|---|---|---|
+| A2 · Churrasquito | 2 | Almuerzo sábado |
+| C1 · Pollo a la mostaza | 4 | Cena sábado y domingo |
+| A1 · Pollo airfryer | 2 | Almuerzo domingo |
+
+**Cantidades:** carne para asar 420 g · pechuga 1.2 kg
+
+Dejar también chirmol y tomatada frescos para el fin de semana.
 
 ---
 
 ## Lo que NO lleva
 
-Nada frito · nada empanizado · nada de crema ni mayonesa en los platos · nada de azúcar en las salsas · nada de pan molido en las tortitas.
+Nada frito en aceite · nada empanizado · nada de crema ni mayonesa en los platos · nada de azúcar en las salsas.
+
+Con airfryer no hace falta freír nada. Sale crujiente sin aceite.
 
 ## Si algo sobra o falta
 
-Anotarlo en un papel y dejarlo en la cocina. Saber qué sobró y qué faltó es lo que permite ajustar la semana siguiente.
+Anotarlo en un papel y dejarlo en la cocina. Saber qué sobró y qué faltó es lo que permite ajustar la semana siguiente y no comprar de más.
 
 ## Relacionado
 
