@@ -1,212 +1,128 @@
 ---
 type: resource
-date: 2026-05-13
+date: 2026-08-20
 tags: [resource, agentes, reminders, productividad]
 ---
 
 # Manual operativo — Apple Reminders de JR
 
-Este manual define cómo deben usar Geoffrey y otros agentes la app Recordatorios de Apple de JR. JR confirmó el significado de las cuatro secciones estándar el 2026-05-13.
+Cómo deben usar Geoffrey y otros agentes la app Recordatorios de JR.
 
-Regla de autoridad: los agentes pueden usar este manual para **consultar, clasificar conceptualmente y proponer**. Para crear, mover, editar fechas/repeticiones, completar, borrar o reorganizar recordatorios, deben pedir aprobación explícita.
+> **Reescrito 2026-08-20.** La versión anterior describía cuatro secciones estándar dentro de cada lista. Ese modelo se abandonó: las secciones **no son escribibles por ninguna API**, y tres de las cuatro duplicaban campos que ya existen. Copia del manual anterior en `raw/imports/reminders-backup/`.
 
 ## Principio central
 
-Recordatorios es el sistema vivo de ejecución de JR. No es una lista decorativa ni un archivo histórico.
-
-Todo agente debe tratar cada recordatorio como una unidad operativa con esta pregunta:
+Recordatorios es el sistema vivo de ejecución de JR. No es lista decorativa ni archivo histórico.
 
 > ¿Qué necesita pasar con esto y cuándo debe volver a aparecer?
 
-## Modelo mental correcto
+## Regla de diseño
 
-La estructura puede verse en Apple Reminders como grupos, listas y secciones. Para operar, piense en tres niveles:
+**Organizar por el eje que NO cambia.**
 
-1. **Área / proyecto** — dónde vive el asunto.
-2. **Sección estándar** — qué tipo de recordatorio es.
-3. **Recordatorio** — la acción concreta, con o sin fecha/repetición.
+- El **proyecto** de un pendiente nunca cambia → va en la **lista**.
+- El **estado** cambia todo el tiempo (tarea → con fecha → hecho) → va en los **campos**, y el sistema lo deriva solo.
 
-No asumir que las cuatro categorías son siempre listas separadas. En la implementación actual pueden existir como **secciones dentro de una lista**. Por eso los agentes deben buscar tanto listas como secciones antes de concluir que “no existe”.
+Invertir esto obliga a arrastrar recordatorios a mano cada vez que cambian de estado. Con TDAH, ese peaje mata el sistema.
 
-## Secciones estándar
+## Estructura real (verificada 2026-08-20)
 
-JR definió estas cuatro secciones así:
-
-- **✅ Tareas** — cualquier cosa accionable que dependa de JR, sin fecha fija. Si puede hacerlo cuando tenga tiempo, va aquí.
-- **🔁 Recurrentes** — todo lo que se repite: diario, semanal, mensual, anual. Pagos, rutinas, hábitos, llamadas periódicas, mantenimientos.
-- **📅 Próximos** — todo lo que tiene fecha y/u hora específica. Citas, deadlines, eventos, vencimientos.
-- **💡 Algún día** — lo que JR quiere hacer pero no ahora. Ideas, deseos, proyectos potenciales sin fecha de inicio.
-
-## Áreas y proyectos
-
-Áreas base previstas:
-
-- **🏠 Personal** — vida personal no doméstica, administración personal, asuntos propios.
-- **💼 Trabajo** — trabajo general y operación profesional que no pertenezca claramente a un proyecto.
-- **🎯 Metas y hábitos** — hábitos, rutinas personales, salud, aprendizaje, disciplina.
-- **👨‍👩‍👧 Familia y social** — Mónica, Nicolás, familia, amistades, compromisos sociales.
-- **🏡 Hogar y mandados** — casa, servicios, mantenimiento, carro, compras, diligencias.
-- **🚀 Proyectos** — proyectos activos o incubados.
-
-Proyectos conocidos/esperados en el sistema actual o reciente:
-
-- Propi
-- UK / Understanding Kids
-- Tesis
-- Crisol TCG
-- Disegno Casa / Altezza
-
-Si un proyecto existe en la app, úselo. No pregunte “cuáles son sus proyectos” sin antes auditar la app y el Vault.
-
-## Cómo clasificar nuevos recordatorios
-
-### Regla rápida
-
-1. Elegir área/proyecto.
-2. Elegir sección estándar.
-3. Crear recordatorio con verbo claro.
-4. Agregar fecha/repetición solo si corresponde.
-
-### Por sección
-
-- Tiene repetición → **🔁 Recurrentes**, aunque tenga fecha.
-- Tiene fecha/hora fija y no se repite → **📅 Próximos**.
-- No tiene fecha pero se puede hacer cuando haya tiempo → **✅ Tareas**.
-- No es para ahora / idea futura → **💡 Algún día**.
-
-### Por área
-
-- Pagos de servicios, mantenimiento de propiedades, carro, mandados → **🏡 Hogar y mandados**.
-- Pagos o tareas administrativas personales no domésticas → **🏠 Personal**, salvo que JR haya indicado otra cosa.
-- Cliente/proyecto legal concreto → proyecto correspondiente, por ejemplo **Propi** o **Disegno Casa**.
-- UK/terapias/web/empresa/cuenta bancaria → **UK / Understanding Kids**.
-- Tesis, investigación, escritura académica → **Tesis**.
-- Hábitos/rutinas de salud, estudio o disciplina → **🎯 Metas y hábitos**.
-- Familia/social → **👨‍👩‍👧 Familia y social**.
-
-## Cómo redactar recordatorios
-
-Usar verbos y objetos claros. Evitar títulos vagos.
-
-Bueno:
-
-- `Responder a Thelma sobre Sur Desarrollos`
-- `Pagar mantenimiento Cañada 16`
-- `Revisar informe Read.ai Disegno Casa y extraer compromisos`
-- `Enviar datos faltantes de Intense Group a Astrid`
-
-Malo:
-
-- `Propi`
-- `Revisar`
-- `Pendiente`
-- `Tema contrato`
-
-## Fechas, horas y repetición
-
-No cambiar fechas, horas ni repetición de recordatorios existentes salvo instrucción explícita.
-
-Al crear nuevos:
-
-- Si JR debe hacerlo hoy: poner fecha de hoy, hora solo si ayuda.
-- Si vence mañana o fecha concreta: usar **📅 Próximos** o **🔁 Recurrentes** según corresponda.
-- Si es recurrente: usar repetición nativa de Reminders, no duplicar recordatorios manualmente.
-- Si no hay fecha real: dejar sin fecha en **✅ Tareas** o **💡 Algún día**.
-
-## Etiquetas
-
-Etiquetas disponibles/objetivo:
-
-- `#urgente` — algo sensible a tiempo o con costo claro de no atender.
-- `#rapido` — se puede resolver en pocos minutos.
-- `#$$` — implica pago, cobro, gasto, factura o dinero.
-
-No aplicar etiquetas automáticamente por ansiedad. Usarlas solo si agregan valor operativo.
-
-## Consultar Reminders para briefs
-
-En briefs, Reminders debe alimentar la sección **Reminders / qué haceres**.
-
-Formato recomendado:
-
-- **Hacer o confirmar hoy** — vencidos o críticos.
-- **Mañana / próximos días** — vencimientos cercanos.
-- **Ordenar / reprogramar** — tareas sin fecha que están flotando.
-- **Convertir en acción** — crear correo, llamada, evento, reminder nuevo.
-
-No hacer análisis financiero. Si hay pagos, tratarlos como pendientes operativos.
-
-No incluir “Puede ignorar hoy”. Si algo se ignora, se omite.
-
-## Consultar antes de actuar
-
-Antes de responder sobre Reminders, el agente debe auditar o verificar estado actual. No responder desde memoria si el estado puede haber cambiado.
-
-Comando read-only preferido:
-
-```bash
-python3 ~/.openclaw/plugin-skills/apple-reminders/scripts/dump_reminders.py --format markdown
+```
+📁 Trabajo (grupo)          📁 Proyectos (grupo)      (raíz)
+├── Propi                   ├── Crisol TCG            ├── 🏠 Personal
+├── UK                      └── Tesis                 ├── Groceries
+├── Disegno Casa                                      └── 💡 Algún día
+└── AMC Legal
 ```
 
-Importante: el dump debe mostrar **listas y secciones**. Si solo muestra listas, está incompleto para este sistema.
+`💡 Algún día` es el único eje que no se deriva de un campo, por eso merece lista propia.
+
+## Campos estándar (reemplazan a las secciones)
+
+| Situación | Cómo se registra |
+|---|---|
+| Tiene deadline real | `dueDateComponents` + alarma. Aparece en Hoy y Programados |
+| Cuesta caro no atenderlo | `priority = 1`. Reemplaza la etiqueta `#urgente` |
+| Es periódico | **Regla de repetición nativa** (`recurrenceRules`). Nunca duplicar recordatorios a mano |
+| "No me molestes hasta X" | `startDateComponents` a futuro: desaparece de la vista y vuelve solo |
+| Pendiente grande | Subtareas anidadas vía `parentID` |
+| Siempre | Notas con quién, cuándo y los datos duros (montos, fincas, registros) |
+
+**No hace falta una vista de recurrentes.** Un recurrente bien puesto aparece solo el día que toca; si hay que ir a verlos, no están trabajando. El inventario de recurrentes vive mejor en el vault que en la app.
+
+## Cómo redactar
+
+Verbo y objeto claros. El título debe ser accionable sin abrir las notas.
+
+Bueno: `Responder a Thelma sobre Sur Desarrollos` · `Pagar mantenimiento Cañada 16` · `Redactar contrato de arrendamiento bodega Avante`
+
+Malo: `Propi` · `Revisar` · `Pendiente` · `Tema contrato`
+
+## Cómo clasificar
+
+1. Elegir la lista por **proyecto o área**.
+2. Llenar los campos según la tabla de arriba.
+3. Nunca inventar listas nuevas sin aprobación de JR.
+
+Ruteo por área: pagos de casa, carro y mandados → `🏠 Personal`. Cliente o caso legal concreto → su lista (`Propi`, `Disegno Casa`). Trabajo legal sin cliente específico → `AMC Legal`. Terapias, web, planillas, contabilidad de la empresa → `UK`. Investigación y escritura académica → `Tesis`.
+
+## Acceso técnico
+
+**AppleScript NO sirve.** No enumera listas dentro de grupos ni ve secciones. `list "Propi"` falla con *Can't get list*.
+
+**La vía correcta es EventKit compilado con Swift** (`/usr/bin/swiftc`; permiso ya concedido). Detalles, gotchas y scripts de respaldo/auditoría en la memoria `apple_reminders_access`.
+
+| Escribible por API | No escribible |
+|---|---|
+| Crear, renombrar y borrar listas | **Secciones** dentro de listas |
+| Mover recordatorios entre listas | **Grupos** (Trabajo / Proyectos) |
+| Fecha de vencimiento, fecha de inicio, alarmas | **Etiquetas** (`#`) — quedan como texto literal en el título |
+| Recurrencia nativa, prioridad, notas, URL, ubicación | |
+| Subtareas, completar/descompletar | |
+
+Todo lo de la columna derecha solo se hace a mano en la interfaz.
+
+## Vistas: Smart Lists
+
+Las Smart Lists reemplazan a las secciones. **Solo se crean a mano** (Archivo → Nueva lista → List Type: Smart List); EventKit no las expone y tampoco puede escribir dentro de ellas.
+
+Filtros que ofrece el constructor: **Tags, Date, Time, Priority, Flag, Location, Lists**. No hay filtro por repetición, y **solo se admite un filtro de Lists por Smart List**.
+
+Opciones de Date: Any · Today · On Date · Before a Date · After a Date · Specified Range · **Relative Range** · **No Date**.
+
+Vistas ya construidas (2026-08-20):
+
+| Vista | Receta |
+|---|---|
+| 📅 Próximos | Date → Relative Range → In the Next **30 Day** → ✅ **Include Past Due** |
+| ✅ Tareas | Date → **No Date** + Lists → **Exclude Selected List** → Groceries |
+
+Para que algo salga de ✅ Tareas sin borrarlo, ponerle `startDateComponents` a futuro: desaparece de la vista y regresa solo.
+
+> ⚠️ **Nunca usar "Convert to Smart List" sobre una lista de proyecto.** Etiqueta todos sus recordatorios con el nombre de la lista, destruye la lista real y **EventKit deja de verla** — se pierde el acceso de escritura. Verificado por error el 2026-08-20 sobre AMC Legal; hubo que borrar la Smart List y recrear la lista.
 
 ## Escritura y cambios
 
-### Permitido sin confirmación destructiva
+**Sin confirmación:** leer, auditar, resumir, proponer clasificación, preparar texto.
 
-- Leer/auditar estructura.
-- Resumir recordatorios.
-- Proponer clasificación.
-- Preparar plan.
-- Preparar texto de nuevos recordatorios.
+**Requiere confirmación explícita de JR:** crear recordatorios, moverlos de lista, cambiar fecha/hora/repetición, marcar completado, crear o borrar listas, borrar cualquier cosa.
 
-### Requiere confirmación explícita
-
-- Crear recordatorios.
-- Mover recordatorios entre lista/sección.
-- Cambiar fecha/hora/repetición.
-- Marcar como completado.
-- Renombrar listas/secciones.
-- Crear/eliminar listas, secciones o grupos.
-- Eliminar cualquier cosa.
-
-### Antes de cambios grandes
-
-1. Auditar estado actual.
-2. Hacer backup de la base de Reminders.
-3. Mostrar plan concreto.
-4. Esperar aprobación.
-5. Ejecutar en lote pequeño y verificable.
-6. Auditar después.
+**Antes de cualquier cambio estructural:**
+1. Auditar el estado actual.
+2. **Respaldar a JSON** con el script de backup (captura recurrencias como RRULE, notas, alarmas, subtareas). Guardar en `raw/imports/reminders-backup/`.
+3. Mostrar el plan concreto y esperar aprobación.
+4. Ejecutar en lote pequeño.
+5. **Auditar contra el respaldo** y reportar faltantes y recurrencias perdidas.
+6. Registrar en `wiki/log/YYYY-MM.md`.
 
 ## Qué NO hacer
 
-- No preguntar por estructura que ya se puede auditar.
-- No asumir que algo no existe porque no aparece como lista; puede ser sección.
-- No “limpiar” duplicados si JR pidió solo manual o uso.
-- No crear categorías nuevas sin razón.
+- No preguntar por estructura que se puede auditar.
+- No crear listas ni categorías nuevas sin razón y sin aprobación.
 - No mezclar proyectos con áreas personales.
-- No mover recordatorios solo porque “parecen” mal clasificados sin aprobación.
+- No duplicar recordatorios para simular repetición: usar la regla nativa.
 - No borrar completados antiguos salvo instrucción directa.
-
-## Uso por agentes
-
-Cuando un agente reciba una tarea que implique Reminders:
-
-1. Leer este manual o la skill `apple-reminders`.
-2. Auditar Reminders actual.
-3. Identificar área/proyecto + sección estándar según las definiciones confirmadas.
-4. Si solo es consulta: responder con estado y acciones sugeridas.
-5. Si implica cambio: pedir aprobación concreta.
-6. Después de cambiar: verificar y reportar qué quedó dónde.
-
-## Relación con el Vault
-
-- Este manual define el comportamiento general.
-- La skill ejecutable vive en `~/.openclaw/plugin-skills/apple-reminders/SKILL.md`.
-- Geoffrey puede mantener notas operativas en `wiki/agentes/geoffrey/reminders.md`.
-- Cambios importantes deben registrarse en `wiki/log/YYYY-MM.md`.
 
 ## Relacionado
 
-- [[agentes/geoffrey/reminders|Reminders — Geoffrey]] · [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[agentes/geoffrey/rutinas|Rutinas — Geoffrey]]
+- [[agentes/geoffrey/reminders|Reminders — Geoffrey]] · [[agentes/geoffrey/brief-mananero|Brief mañanero — Geoffrey]] · [[wiki/index]]
