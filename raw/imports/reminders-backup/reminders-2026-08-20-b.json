@@ -1,0 +1,2567 @@
+{
+  "conteo" : {
+    "completados" : 76,
+    "incompletos" : 42,
+    "total" : 118
+  },
+  "exportedAt" : "2026-08-21T03:46:04Z",
+  "listas" : [
+    {
+      "editable" : "si",
+      "id" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "source" : "iCloud",
+      "title" : "🏠 Personal"
+    },
+    {
+      "editable" : "si",
+      "id" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "source" : "iCloud",
+      "title" : "UK"
+    },
+    {
+      "editable" : "si",
+      "id" : "5584B1A1-2DBD-49A5-9DB9-CFD5C417155E",
+      "source" : "iCloud",
+      "title" : "Disegno Casa"
+    },
+    {
+      "editable" : "si",
+      "id" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "source" : "iCloud",
+      "title" : "Propi"
+    },
+    {
+      "editable" : "si",
+      "id" : "520C291E-C307-4537-866F-7D50759433E4",
+      "source" : "iCloud",
+      "title" : "Crisol TCG"
+    },
+    {
+      "editable" : "si",
+      "id" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "source" : "iCloud",
+      "title" : "Groceries"
+    },
+    {
+      "editable" : "si",
+      "id" : "F60E02F8-A052-49F5-B533-774D92DF483E",
+      "source" : "iCloud",
+      "title" : "💡 Algún día"
+    },
+    {
+      "editable" : "si",
+      "id" : "57FAD6A8-49C5-459C-AF66-E4D3DE6797C5",
+      "source" : "iCloud",
+      "title" : "Tesis"
+    },
+    {
+      "editable" : "si",
+      "id" : "FB4C9B22-5D99-4540-9906-13F619EA5681",
+      "source" : "iCloud",
+      "title" : "AMC Legal"
+    }
+  ],
+  "reminders" : [
+    {
+      "alarms" : [
+        {
+          "absolute" : "2028-05-10T15:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 10,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2028
+      },
+      "id" : "ABF2D4FE-EB22-4432-9F05-5512F355D512",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Lo señalaste tú mismo en tu correo del 13-ago: conviene calendarizarlo.\n\nNombramiento vigente: Registro 797718, folio 366, libro 849 de Auxiliares de Comercio. Acta notarial del 11 de junio de 2025, Notario Luis Pedro Arango Morales.\n\nEste recordatorio está puesto un mes antes del vencimiento.",
+      "priority" : 5,
+      "start" : {
+        "day" : 10,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2028
+      },
+      "title" : "Renovar nombramiento — vence el 10 de junio de 2028"
+    },
+    {
+      "completed" : false,
+      "id" : "B579CEE6-FDC4-4FE3-9BC4-21633598531C",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Mónica te dio acceso de lectura el 18-ago. Entrar con la cuenta jcastaneda@kidsunderstanding.com.\n\nOrganizada por tipo (minutas, estados financieros y balances, impuestos y SAT, planillas e IGSS, honorarios, presupuestos, reportes contables, créditos y soportes) y luego por año, de 2022 a 2026. El resumen del alcance está en la subcarpeta \"00 Inventario\".",
+      "priority" : 0,
+      "title" : "Revisar carpeta contable de Elder, Walter y Francisco"
+    },
+    {
+      "completed" : false,
+      "due" : {
+        "day" : 14,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "id" : "DC62A2E2-E6E8-4302-AAB5-F454CC746CCE",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "daysOfMonth" : [
+            14
+          ],
+          "description" : "EKRecurrenceRule <0xa310711a0> RRULE FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=14",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 14,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "title" : "Pagos a Terapeutas - Quincena"
+    },
+    {
+      "completed" : false,
+      "due" : {
+        "day" : 31,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "1F5D1E8B-24FE-482D-AE37-8EE778830B23",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "daysOfMonth" : [
+            -1
+          ],
+          "description" : "EKRecurrenceRule <0xa31071260> RRULE FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=-1",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 31,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Pagos a Terapeutas - Fin de Mes"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-09-05T16:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "id" : "65A35ED4-127B-4027-A3B2-FBC684A3C821",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Factura mensual a favor de Understanding Kids. NIT: 110599004. Monto: Q2,500.00. Descripción: Servicios prestados a inversiónes Multidisciplinarias en el mes de {MES}. Después de emitirla, enviar a msamayoa@kidsunderstanding.com con texto en tono de Geoffrey a Magoo; mantener broma cariñosa y no hiriente sobre cachetes\/bigotes\/estatura.",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "description" : "EKRecurrenceRule <0xa31071320> RRULE FREQ=MONTHLY;INTERVAL=1",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "title" : "Emitir factura UK - Inversiones Multidisciplinarias"
+    },
+    {
+      "completed" : false,
+      "id" : "7C358C27-3AA3-4AF4-B210-2CC54B644800",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Preparar\/enviar redacción a Ena sobre el caso de Eddie Mazariegos respecto a los Q155,000 pagados como enganche. Revisar documentación antes de afirmar responsabilidad o posición final.",
+      "priority" : 0,
+      "title" : "Enviar correo a Ena sobre caso Eddie Mazariegos y enganche de Q155,000"
+    },
+    {
+      "completed" : false,
+      "id" : "CB79BA1E-8B3B-4CA6-AFE4-EF3F01D779AE",
+      "list" : "💡 Algún día",
+      "listId" : "F60E02F8-A052-49F5-B533-774D92DF483E",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Ir con Magoo a probar Tabaco y Vino en zona 10"
+    },
+    {
+      "completed" : false,
+      "id" : "A76DB775-FA61-4C74-9DE8-D9F7E39B036B",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Papa — 6 lb"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-21T15:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "C855629F-D726-41A2-B50C-DA9EA3CB9394",
+      "list" : "Crisol TCG",
+      "listId" : "520C291E-C307-4537-866F-7D50759433E4",
+      "notes" : "Hostinger, 18-ago. Revisión anual obligatoria por ICANN. Si los datos están desactualizados o incorrectos, se puede cancelar el registro del dominio.\n\nDominio registrado el 2025-02-19, caduca el 2027-02-19. Trámite de 5 minutos.",
+      "priority" : 5,
+      "start" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Verificar datos de contacto del dominio crisoltcg.com en Hostinger"
+    },
+    {
+      "completed" : false,
+      "id" : "6902B530-D424-48DD-BD3B-D20AD2AB5670",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Brócoli — 3 u"
+    },
+    {
+      "completed" : false,
+      "id" : "F29C9915-9B40-4201-B4E2-9C2F95F6A75C",
+      "list" : "Crisol TCG",
+      "listId" : "520C291E-C307-4537-866F-7D50759433E4",
+      "notes" : "Devir respondió el 17-ago y cerró la puerta:\n\n\"solo contamos con posibilidades para ofrecer esta marca a clientes con cuentas o sucursales activas al 31 de diciembre 2024 [...] es muy probable que durante un tiempo indefinido, no podamos ofrecer este material a tiendas o sucursales nuevas\"\n\nCrisol es tienda nueva → no califica. Siguen tomando preórdenes pero sin garantía de asignación.\n\nRetomar la nota [[crisol-tcg-proveedores]] del vault (13-ago) para buscar distribuidor alterno o recomponer el mix.",
+      "priority" : 0,
+      "title" : "Replantear mix de líneas tras la respuesta de Devir sobre Pokémon"
+    },
+    {
+      "completed" : false,
+      "id" : "D13804F4-CC20-4043-8AFB-433E0626D4A8",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Zanahoria — 3 lb"
+    },
+    {
+      "completed" : false,
+      "id" : "F1145209-D08E-4566-92F8-F955C14C688F",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Pepino — 10 u"
+    },
+    {
+      "completed" : false,
+      "id" : "0183351A-8A71-42E2-B827-00E84892E005",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Tomate — 7 lb"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-10T16:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 10,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "36525C0F-16F4-4E4B-A733-C201F7A0B027",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "description" : "EKRecurrenceRule <0xa31071740> RRULE FREQ=MONTHLY;INTERVAL=1",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 1,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Pagar Luz - Elgin"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-10T16:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 10,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "FE45874B-89B0-4433-B9BA-03A768ED4954",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "description" : "EKRecurrenceRule <0xa31071800> RRULE FREQ=MONTHLY;INTERVAL=1",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 1,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Pagar Luz - Z.11"
+    },
+    {
+      "completed" : false,
+      "due" : {
+        "day" : 9,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "id" : "4B64B25E-CEBE-4B47-B6BA-5B220D72283C",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "daysOfMonth" : [
+            9
+          ],
+          "description" : "EKRecurrenceRule <0xa310718c0> RRULE FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=9",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 9,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "title" : "Pagar Tarjeta - Millas"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-09-03T16:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 3,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "id" : "471A8A63-19E2-4DF7-9E21-3D841C2D5417",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "daysOfMonth" : [
+            3
+          ],
+          "description" : "EKRecurrenceRule <0xa31071980> RRULE FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=3",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 1,
+        "hour" : 4,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "title" : "Pagar Tarjeta - Puntos"
+    },
+    {
+      "completed" : false,
+      "id" : "34549064-B9D4-4FC9-B9DB-DE68573B9552",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Cebolla — 2 lb"
+    },
+    {
+      "completed" : false,
+      "id" : "41DC4452-DABC-41BB-900C-EC432A5C8B02",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Documento comercial donde el desarrollador autoriza que el dinero pase por cuentas de Propi\/estructura operativa y luego se transfiera a la cuenta del desarrollador.",
+      "priority" : 0,
+      "title" : "Propi: preparar autorización de desarrollador para flujo de fondos"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-09-03T16:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 3,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "id" : "378EB655-FFE0-4425-9930-9C21FCA41D53",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "daysOfMonth" : [
+            3
+          ],
+          "description" : "EKRecurrenceRule <0xa31071b00> RRULE FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=3",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 31,
+        "hour" : 18,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Pagar Mantenimiento - Cañada 16"
+    },
+    {
+      "completed" : false,
+      "id" : "8922AD94-E2C6-47B8-89FC-D5399B44D339",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Analizar\/consultar si la IVE tiene inconveniente con que Propi\/estructura relacionada reciba fondos y luego los transfiera al desarrollador.",
+      "priority" : 0,
+      "title" : "Propi: consultar IVE sobre recepción y transferencia de fondos"
+    },
+    {
+      "completed" : false,
+      "id" : "855E72CF-22D2-4913-B38A-E54F4A8CA947",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Cilantro — 3 manojos"
+    },
+    {
+      "completed" : false,
+      "id" : "AA3D9FEC-079F-4360-82CD-1C3F09BC57F9",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Aguacate — 8 u"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-09-03T16:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 3,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "id" : "D026D28C-04D7-46CD-BBB9-8FC46627A6CE",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "daysOfMonth" : [
+            3
+          ],
+          "description" : "EKRecurrenceRule <0xa31071ce0> RRULE FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=3",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 31,
+        "hour" : 18,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Pagar Mantenimiento - Antigua"
+    },
+    {
+      "completed" : false,
+      "due" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "id" : "89843E3D-1CC3-47EF-9E39-482E48918588",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "daysOfMonth" : [
+            5
+          ],
+          "description" : "EKRecurrenceRule <0xa31071da0> RRULE FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=5",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "title" : "Emitir Factura - Inquilinas"
+    },
+    {
+      "completed" : false,
+      "id" : "A5FD36B9-D9FD-49FA-9852-FE54487EA131",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Sandía — 1 u"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-09-06T16:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 6,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "id" : "D1380076-9860-430E-8F29-3B8BC0CD7B11",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "daysOfMonth" : [
+            6
+          ],
+          "description" : "EKRecurrenceRule <0xa31071ec0> RRULE FREQ=MONTHLY;INTERVAL=1;BYMONTHDAY=6",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 28,
+        "hour" : 4,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Emitir Factura - Airbnb"
+    },
+    {
+      "completed" : false,
+      "id" : "0F958B30-7BC9-4B28-837D-0490AB582A46",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Pera — 7 u"
+    },
+    {
+      "completed" : false,
+      "id" : "4F3D27A9-0A6B-472A-80BB-1F172B95F580",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Manzana — 7 u"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-24T15:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 24,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "FA3A1D84-10A7-468F-9E34-D24CAB11ABF8",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Ena González, 14-ago. Brenda va copiada en el hilo.\n\nAlcance solicitado:\n• Comercialización de proyectos del portafolio de Propi\n• Acceso a la plataforma (inventarios, disponibilidad, precios, comisiones, material gráfico)\n• Conexión con desarrolladores\n• Oportunidades de venta de terrenos",
+      "priority" : 5,
+      "start" : {
+        "day" : 24,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Redactar contrato de alianza comercial con Brenda Verás"
+    },
+    {
+      "completed" : false,
+      "id" : "F3E7DA26-12A0-4608-BC9B-F121CB1DFD09",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Uvas verdes — 2 lb"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-24T15:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 24,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "FB0CEB9D-4D86-4DC8-A106-50856BF2FFFD",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Ena González, 17-ago — vas en copia. Da seguimiento a Waleska y Cristhian, sin respuesta desde el jueves anterior.\n\nDisputa sobre la Casa 2. Propi sostiene que el cliente fue originado y acompañado por su equipo durante todo el proceso, y ya compartió detalle y evidencias.",
+      "priority" : 5,
+      "start" : {
+        "day" : 24,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Revisar caso Eddy Mazariegos y definir si corresponde intervención legal"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-21T15:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "5B0A65E1-7AB5-425B-84D3-085B7742960C",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Andrea Nicolle, 13-ago. Confirmó que los fondos ya se acreditaron, pero faltan dos cosas:\n\n1. La constancia laboral (no venía adjunta)\n2. Definir si la firma del finiquito es presencial o electrónica\n\nAstrid te reenvió el finiquito y la carta de referencia el 13-ago.",
+      "priority" : 1,
+      "start" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Enviar constancia laboral de Nicolle Mendez y definir modalidad de firma del finiquito"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-21T15:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "A3347162-D01A-4F34-B7D0-2E708C6770B3",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Te los mandaste tú mismo el 19-ago. Están en: ~\/Documents\/AMC Legal\/Clientes\/Propi\/Geoffrey\/\n\n1. V4 AGOTA — Renovación Nombramiento JM 2026 (Acta 05-2026, folio 15, 3 pp.)\n2. V4 AN — Nombramiento PCA y Representante Legal, 3 años (6 pp.)\n3. V5 AN — Cancelación nombramiento anterior (14-jun-2023, registro 705865\/617\/819, 2 pp.)",
+      "priority" : 5,
+      "start" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Revisar los 3 documentos de renovación del nombramiento de José Mario Ávila"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-24T15:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 24,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "D3A55D21-57FF-4486-9752-5EAFE2FB77F3",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Ena González, 14-ago. Línea de ingreso NUEVA para AMC Legal.\n\nPropi quiere un servicio gestionado internamente, con dos escenarios:\n1. Cliente SIN mandatario: tú provees la persona y toda la documentación legal\n2. Cliente CON mandatario: solo elaboración, revisión y formalización de documentación\n\nAplica a extranjeros que compran vía Propi y lo necesitan por requerimiento de la desarrolladora o para crédito hipotecario local.",
+      "priority" : 5,
+      "start" : {
+        "day" : 24,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Definir alcance y honorarios del servicio de mandatario para clientes extranjeros"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-21T15:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "2EA2CBF0-E922-4F49-8052-1134B68D59B4",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Eduardo Francés te preguntó directamente el 20-ago: Juan Luis ahora es independiente, ¿se le pide factura o cómo se maneja?\n\nOJO — discrepancia de monto sin resolver: Astrid calcula Q26,559.93 ÷ 2 = Q13,279.96, pero no coincide con lo que indicó Ena. Eduardo ya aprobó, falta confirmar la cifra correcta.",
+      "priority" : 1,
+      "start" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Responder a Eduardo cómo se documenta el pago de comisión a Juan Luis"
+    },
+    {
+      "completed" : false,
+      "id" : "DE22D854-2CAE-46EF-B4E1-387F831695A1",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Hilo de 7 mensajes entre el 10 y el 14 de agosto con Thelma Parra, Hidania Cifuentes (hcifuentes@intensegroupgt.com) y Andrés Mancilla (amancilla@intensegroupgt.com). Asunto: Propi Guatemala.",
+      "priority" : 0,
+      "title" : "Revisar hilo con Intense Group y responder"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-25T15:00:00Z"
+        }
+      ],
+      "completed" : false,
+      "due" : {
+        "day" : 25,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "B85B5929-66B3-4078-BA4F-D2BC9DAB3D4E",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Thelma Parra, 17-ago. FECHA DURA: el arrendamiento inicia el 1 de septiembre 2026.\n\n• 9.386 m² — 2ª calle 23-80 z.15, Nivel 5, Bodega Sótano 5, B-43, Edificio Avante\n• Finca 6266, folio 266, libro 73 E-1\n• Renta Q945 + mantenimiento Q85 = Q1,030 mensual con IVA\n• Depósito en garantía Q945\n• Plazo 1 año, renovable",
+      "priority" : 1,
+      "start" : {
+        "day" : 25,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Redactar contrato de arrendamiento bodega Avante"
+    },
+    {
+      "completed" : false,
+      "id" : "0D718156-B461-4503-BB20-1FE722BAC9EE",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Frijol negro — 2 lb"
+    },
+    {
+      "completed" : false,
+      "due" : {
+        "day" : 5,
+        "month" : 9,
+        "year" : 2026
+      },
+      "id" : "B40BD407-4A25-404A-834E-A95F5D5639FA",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "recurrence" : [
+        {
+          "description" : "EKRecurrenceRule <0xa31072400> RRULE FREQ=MONTHLY;INTERVAL=1",
+          "frequency" : 2,
+          "interval" : 1
+        }
+      ],
+      "start" : {
+        "day" : 5,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "title" : "Pagar Lucky"
+    },
+    {
+      "completed" : false,
+      "id" : "023CEF4E-E85E-4E9A-9643-E09CAE45D76F",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Galletas Sanissimo — 2 paquetes"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:24:16Z",
+      "id" : "FF5C9EB3-735F-492C-A1DC-98AC712719BD",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "WordPress de Understanding Kids, entre el 9 y el 18 de agosto:\n• Rutinas de mindfulness para niños\n• Historias sociales\n• Importancia de las rutinas en la infancia\n• Integración Sensorial y Alimentación Infantil\n• Los 5 lenguajes del amor en personas neurodivergentes",
+      "priority" : 0,
+      "title" : "Moderar los 5 comentarios pendientes del blog"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:02:32Z",
+      "id" : "34D49DFF-BE2C-4136-89D8-D47008D31913",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Crear una Nueva Cuenta de banco para ToyLab y Talleres"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-05-18T20:48:33Z",
+      "due" : {
+        "day" : 14,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "id" : "90B73DE4-C3EC-432E-9577-FA15F8C42E5F",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 14,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "title" : "Pagos a Terapeutas - Quincena"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-06-19T16:20:59Z",
+      "due" : {
+        "day" : 14,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "6C2E3C3D-3903-4AF6-9B1B-866D587815A8",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 14,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Pagos a Terapeutas - Quincena"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-07-19T19:54:40Z",
+      "due" : {
+        "day" : 14,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "id" : "54DDC8AB-83D9-48D0-ACD6-4F05F90B4D28",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 14,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "title" : "Pagos a Terapeutas - Quincena"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-19T05:18:36Z",
+      "due" : {
+        "day" : 14,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "A76D0CEF-7EE7-4870-AA23-F885EBC7A486",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 14,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Pagos a Terapeutas - Quincena"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-06-02T15:29:36Z",
+      "due" : {
+        "day" : 31,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "id" : "BC7BB63B-A54A-4038-903F-3425C2757E83",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 31,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "title" : "Pagos a Terapeutas - Fin de Mes"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-07-02T16:11:00Z",
+      "due" : {
+        "day" : 30,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "51F5FA1B-B0A3-4F55-B2D5-91C20CC0CA11",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 30,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Pagos a Terapeutas - Fin de Mes"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-04T04:01:31Z",
+      "due" : {
+        "day" : 31,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "id" : "59DD7CEC-4C8A-4AE7-A732-4B5DB2890423",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 31,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "title" : "Pagos a Terapeutas - Fin de Mes"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-09-14T15:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:23:17Z",
+      "due" : {
+        "day" : 14,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "id" : "8F3FC10A-042B-47F9-9347-CB316F1136F4",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Recordatorio preventivo creado tras correo de Elder Estrada\/Contabilidad sobre ISR Retenciones julio 2026 con vencimiento 14\/08\/2026. Revisar correo\/formulario recibido antes de pagar; ajustar si el vencimiento real cambia.",
+      "priority" : 0,
+      "start" : {
+        "day" : 14,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 9,
+        "year" : 2026
+      },
+      "title" : "Pagar ISR Retenciones UK"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:02:33Z",
+      "id" : "9992A645-A7B6-4EE4-B20B-00817D7432A1",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Organizar Calendario"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:02:33Z",
+      "id" : "B6207AA6-7D10-407C-9041-91B13D276FBE",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Empezar página web"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:02:34Z",
+      "id" : "8B415D58-D1B4-4DB0-B8B4-75FD0D1CEED1",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Crear empresa de ToyLab y Talleres"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-07-03T19:30:37Z",
+      "due" : {
+        "day" : 11,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "F96B9566-7EF7-40ED-8F69-0B925BC5127E",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Definir mecanismo legal para que la nueva Gerente de País pueda firmar documentos sin que eso genere relación laboral.",
+      "priority" : 0,
+      "start" : {
+        "day" : 11,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Analizar forma de firma para Gerente de País (Propi) sin relación laboral"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-24T15:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:24:30Z",
+      "due" : {
+        "day" : 24,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "478042FC-A303-4867-8EEC-3488E3D24B9B",
+      "list" : "Disegno Casa",
+      "listId" : "5584B1A1-2DBD-49A5-9DB9-CFD5C417155E",
+      "notes" : "Pablo Cruz, 15-ago. RIESGO DE CUSTODIA.\n\nDisegno Casa está desocupando los locales del Edificio Nogales donde resguarda mobiliario de Altezza que aún no se autoriza subir ni instalar. Quedan solo 2 locales, ya saturados, y también los van a desocupar pronto.\n\nPablo pidió que se asignen áreas dentro de los apartamentos y que se priorice al contratista de tablayeso.\n\nSi los obligan a desocupar sin alternativa asignada, hay exposición por daño o pérdida. Conviene dejar por escrito de quién es la responsabilidad mientras tanto.",
+      "priority" : 5,
+      "start" : {
+        "day" : 24,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Definir responsabilidad por custodia del mobiliario de Altezza al desocupar Nogales"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-25T15:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:24:33Z",
+      "due" : {
+        "day" : 25,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "F83C31EF-4198-4776-855A-C05391D0818A",
+      "list" : "Disegno Casa",
+      "listId" : "5584B1A1-2DBD-49A5-9DB9-CFD5C417155E",
+      "notes" : "Pablo Cruz, 15-ago. Posible incumplimiento contractual documentable.\n\nPatrón que documentó: los pagos de upgrades y órdenes adicionales SÍ cumplen el plazo de 15 días calendario (ej. reemplazo de closets dañados por filtraciones), pero los de estimaciones NO.\n\nEl contraargumento del departamento financiero invoca una \"fecha teórica\" que, según Pablo, el contrato no contempla.",
+      "priority" : 5,
+      "start" : {
+        "day" : 25,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Contrastar atrasos de pago de estimaciones contra el plazo de 15 días del contrato"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-21T15:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:24:37Z",
+      "due" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "6D42EDB6-D876-4EC1-BD23-EC87DF5AAE8D",
+      "list" : "Disegno Casa",
+      "listId" : "5584B1A1-2DBD-49A5-9DB9-CFD5C417155E",
+      "notes" : "ESCALAMIENTO FORMAL. Ángel Alberto Arévalo Catalán (alarevalo@cayala.com) envió carta formal de llamada de atención a Disegno Casa el 11-ago, con copia a cinco personas de Cayalá (José Carlos Yaxcal, Oscar Villanueva, Mynor Jocol, Samuel Puac, Zarina García).\n\nPablo Cruz te la reenvió el 15-ago. La carta va adjunta en ese correo.",
+      "priority" : 1,
+      "start" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Revisar carta de llamada de atención de Cayalá y definir postura"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-07-19T19:54:33Z",
+      "due" : {
+        "day" : 15,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "C736A940-E391-4AF1-947B-6C52016264B5",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Nombramiento como Gerente de País y Representante Legal. Checklist: nombramiento, aceptación, identificación, poderes\/facultades, acta\/resolución corporativa, datos fiscales y firmas requeridas.",
+      "priority" : 0,
+      "start" : {
+        "day" : 15,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Enviar documentación de representación legal de Ena en Propi"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-05-21T14:25:25Z",
+      "due" : {
+        "day" : 3,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "id" : "55EBA0DA-B61F-404B-BD38-28AE7E53C0E1",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 3,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "title" : "Pagar Luz - Elgin"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-06-05T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-06-19T16:20:46Z",
+      "due" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "C133C505-2944-4753-8F1A-FFEB3CCA9A43",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 2,
+        "hour" : 18,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Pagar Luz - Elgin"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-05-09T07:48:55Z",
+      "id" : "C8DAA819-D655-4BFD-9680-F64C1204EF83",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Crear página en Notion para organización Mensual de publicaciones"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-07-10T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-07-19T19:54:48Z",
+      "due" : {
+        "day" : 10,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "id" : "D008FD82-06F4-433D-93B0-5981E109A083",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 1,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "title" : "Pagar Luz - Elgin"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-06-05T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-06-19T16:20:48Z",
+      "due" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "1045E58D-283A-428A-873C-6F529F977122",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 2,
+        "hour" : 18,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Pagar Luz - Z.11"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-07-10T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-07-21T13:35:56Z",
+      "due" : {
+        "day" : 10,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "id" : "94545667-46C9-4D77-8369-F759F1D6A1DA",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 1,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "title" : "Pagar Luz - Z.11"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-06-19T16:20:56Z",
+      "due" : {
+        "day" : 9,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "56DC2AEC-AAE7-4329-926B-057AD4CB7F4F",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 9,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Pagar Tarjeta - Millas"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-07-11T03:59:09Z",
+      "due" : {
+        "day" : 9,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "id" : "E0D38FFC-6681-4023-A579-C55A876FF4B2",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 9,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "title" : "Pagar Tarjeta - Millas"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-13T00:30:57Z",
+      "due" : {
+        "day" : 9,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "C032969C-5832-4792-97E4-EF6A91684B40",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 9,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Pagar Tarjeta - Millas"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-06-05T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-06-05T14:17:25Z",
+      "due" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "DE7BA9B6-D48D-4D4B-A773-B65BA6CD56F7",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 3,
+        "hour" : 4,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Pagar Tarjeta - Puntos"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-07-03T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-07-05T12:43:17Z",
+      "due" : {
+        "day" : 3,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "id" : "91581C8E-8667-45A2-9903-24A1BD9B6114",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 1,
+        "hour" : 4,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "title" : "Pagar Tarjeta - Puntos"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-03T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-08-04T19:14:41Z",
+      "due" : {
+        "day" : 3,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "0C37DB3E-0F90-4237-9E6A-FE6D629B9D25",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 1,
+        "hour" : 4,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Pagar Tarjeta - Puntos"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-05-28T17:46:06Z",
+      "due" : {
+        "day" : 3,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "id" : "383FF3D4-A747-4A22-B929-F3FE27BAF66C",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 3,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "title" : "Pagar Mantenimiento - Cañada 16"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-06-05T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-06-25T15:41:23Z",
+      "due" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "6A008822-40F5-4069-ABE7-6DB27C411C93",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 2,
+        "hour" : 18,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Pagar Mantenimiento - Cañada 16"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-07-03T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-07-05T12:43:32Z",
+      "due" : {
+        "day" : 3,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "id" : "73A61F95-E697-41D3-BA38-21D1A804481F",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 30,
+        "hour" : 18,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Pagar Mantenimiento - Cañada 16"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-03T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-08-04T19:14:39Z",
+      "due" : {
+        "day" : 3,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "379CC048-B853-46C1-9317-0D6D0BAA577C",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 31,
+        "hour" : 18,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "title" : "Pagar Mantenimiento - Cañada 16"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-05-28T17:46:06Z",
+      "due" : {
+        "day" : 3,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "id" : "1BD144BF-49A1-40A4-BA92-DC5F70657A49",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 3,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "title" : "Pagar Mantenimiento - Antigua"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:02:34Z",
+      "id" : "97640554-BBCC-4DCA-A93C-1301B5030387",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Fase 3 — comercial. Estados: lead nuevo, respondido, interesado, seguimiento, inscrito sin pago, pagado, perdido. Espera confirmar WhatsApp\/formularios.",
+      "priority" : 0,
+      "title" : "Diseñar pipeline simple de leads UK"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-06-19T16:21:02Z",
+      "due" : {
+        "day" : 15,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "58669707-D4D2-4218-930C-A4BC399623AD",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Convertir el vale\/documento legal en carta simple: autorización\/beneficio, alcance\/monto si aplica, condiciones básicas y firma.",
+      "priority" : 0,
+      "start" : {
+        "day" : 15,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Enviar carta simple a Sara para compra de línea blanca"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-06-05T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-06-14T02:46:56Z",
+      "due" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "95020645-210F-4E30-92D9-ED1DF6778351",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 2,
+        "hour" : 18,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Pagar Mantenimiento - Antigua"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-07-03T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-07-05T12:43:30Z",
+      "due" : {
+        "day" : 3,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "id" : "853ED676-1811-4E5C-9C83-23C96E1D0890",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 30,
+        "hour" : 18,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Pagar Mantenimiento - Antigua"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-03T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-08-04T19:14:40Z",
+      "due" : {
+        "day" : 3,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "3AC6C38B-5729-4120-B02A-0724ACFA6BFB",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 31,
+        "hour" : 18,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "title" : "Pagar Mantenimiento - Antigua"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:02:35Z",
+      "id" : "B3C8EA79-27D8-4993-92E3-200664257432",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Fase 4 — web\/ecommerce. Hacer cuando JR autorice acceso; no cambiar WooCommerce ni completar compras sin aprobación.",
+      "priority" : 0,
+      "title" : "Auditar web\/checkout UK en modo read-only"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-06-15T15:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-06-15T16:08:30Z",
+      "due" : {
+        "day" : 15,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "E5DDB1EE-10CF-4BA4-9D73-C3F5F199FE51",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Llevar 3 puntos: riesgos legales, riesgos comerciales\/operativos y alternativa propuesta. Reunión 10:00.",
+      "priority" : 0,
+      "start" : {
+        "day" : 15,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Preparar puntos para reunión con Thelma y Ena sobre no firmar contrato con Milessimo"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-10T22:54:29Z",
+      "id" : "19DF64D2-4DB4-4CF8-9D57-67EC2919DC8F",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Limón — 30 u"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-06-24T19:34:47Z",
+      "due" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "17F480A0-A5CB-4B1B-87B0-60E44503E7B1",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Emitir Factura - Inquilinas"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:02:41Z",
+      "id" : "A7808A3D-FF9F-40C9-BA43-42523DAF37A6",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Fase 3 — finanzas. Hacer solo después de mapear fuentes por sede\/unidad para no mezclar Z14, CAES, formación e IS.",
+      "priority" : 0,
+      "title" : "Preparar consolidación financiera UK marzo–mayo 2026"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-07-21T01:45:26Z",
+      "due" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "id" : "9A7D314A-C9C1-4B53-A311-645FA12DCA97",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "title" : "Emitir Factura - Inquilinas"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-08T21:45:18Z",
+      "due" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "7A6E62EB-5F96-4C4A-98F1-A0367FDDBC0E",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 5,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Emitir Factura - Inquilinas"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:02:43Z",
+      "id" : "B36050E8-78AF-4670-8D72-473465E9F73C",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Fase 2 — mapa operativo. Crear índice de fuentes por área: administración, pagos, cierres, staff, expedientes, contenido, finanzas y comercial.",
+      "priority" : 0,
+      "title" : "Indexar Drive Z14 y CAES para UK"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-06-19T16:21:07Z",
+      "due" : {
+        "day" : 15,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "46B095AA-C851-4575-8E52-CA06393257E4",
+      "list" : "Propi",
+      "listId" : "13F1BA8B-C9E6-4149-B595-ECB60C826B2D",
+      "notes" : "Ena necesita que las personas puedan hacer todo a través de Propi y su página; revisar requerimiento formal cuando entre el correo.",
+      "priority" : 0,
+      "start" : {
+        "day" : 15,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Propi: revisar correo de Ena sobre flujo por página"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-05-15T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-05-18T18:42:14Z",
+      "due" : {
+        "day" : 15,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "id" : "8B4EF3F6-D1C9-44DC-8086-0609A439E293",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 6,
+        "hour" : 4,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "title" : "Emitir Factura - Airbnb"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-06-06T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-06-19T16:20:52Z",
+      "due" : {
+        "day" : 6,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "49E4DE40-168E-4CD4-8BBF-05AB11CAF0A7",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 28,
+        "hour" : 4,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "title" : "Emitir Factura - Airbnb"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-07-06T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-07-19T19:54:36Z",
+      "due" : {
+        "day" : 6,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "id" : "B45D1484-8E63-4B63-957B-A170270AB709",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 27,
+        "hour" : 4,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Emitir Factura - Airbnb"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-06T16:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-08-14T17:09:43Z",
+      "due" : {
+        "day" : 6,
+        "hour" : 10,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "F2FC0DBA-B702-4D31-9064-3E3CAC32C1C1",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 28,
+        "hour" : 4,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "title" : "Emitir Factura - Airbnb"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:02:43Z",
+      "id" : "9AE10C2A-EEB5-47C8-AC49-9698B8391493",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Fase 2 — staff\/operación. Fuente: iCloud Understanding Kids\/Pagos\/2026. Actualizar corte de staff si aparecen archivos de mayo.",
+      "priority" : 0,
+      "title" : "Revisar si ya aparecieron pagos de mayo de UK"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-05-15T18:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-05-15T18:00:29Z",
+      "due" : {
+        "day" : 15,
+        "hour" : 12,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "id" : "16DC3322-2A90-4B71-AC9B-DAD6DC05912E",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 15,
+        "hour" : 12,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "title" : "Escribirle a Isa (mamá de Jacky) sobre apartamentos en Pacífica Plaza o Villalbosque"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:02:44Z",
+      "id" : "0C5B732A-EBB5-48C1-8AFC-93E6BA106496",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Fase 2 — formación\/talleres. Usar Formato - Finanzas enviado; completar Niñeras, Preuniversitarios y demás pendientes.",
+      "priority" : 0,
+      "title" : "Completar finanzas de talleres cuando responda Magoo\/Mónica"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-06-07T15:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-06-16T00:02:36Z",
+      "due" : {
+        "day" : 7,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "75CF8CE3-E3B2-47A8-AA5F-03FB8C533F98",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Canva Team Subscription de Understanding Kids: Lourdes ya no trabaja con nosotros; quitarla del equipo para no pagar asiento innecesario.",
+      "priority" : 0,
+      "start" : {
+        "day" : 7,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Quitar a Lourdes del equipo Canva"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-10T21:50:10Z",
+      "id" : "80AAD832-A23F-4C83-8BA4-FB56BC4BDC17",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Pechuga de pollo — 4 lb"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-10T21:50:12Z",
+      "id" : "69D00A8E-1D16-49F0-9B74-FD515E736FAA",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Posta de res para asar — 3 lb"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-10T21:50:08Z",
+      "id" : "BE80D5E3-37C4-42F9-9ED2-30C7B8959A3E",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Carne molida de res 90% magra — 3 lb"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-10T22:54:32Z",
+      "id" : "10BB8635-4F6F-4B1F-B421-E2E3228387B2",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Tilapia fresca en filete — 2 lb"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-10T22:54:42Z",
+      "id" : "C407D20F-AE6F-4F9C-8516-C26A1819050D",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Huevos — 3 docenas"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-21T15:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:24:06Z",
+      "due" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "4369BC96-0EC2-4A4A-B320-96796D3980A7",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "Google Drive, 19-ago. Solicitante: direccion@adredestudio.com.mx — externa a la organización. Aprobar o rechazar.",
+      "priority" : 5,
+      "start" : {
+        "day" : 21,
+        "hour" : 9,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Resolver solicitud de acceso de Maria Jose Pérez a \"Especialización Alimentación 2026\""
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-05-21T14:25:25Z",
+      "due" : {
+        "day" : 3,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "id" : "C5C9C78E-9262-4F03-B9C2-8BECC97F975B",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 3,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "title" : "Pagar Luz - Z.11"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-10T22:54:36Z",
+      "id" : "1B169C9E-B90C-46F6-AC22-28DC3E1A35BD",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Claras de huevo líquidas Granjazul — 700 ml"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-21T14:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:24:25Z",
+      "due" : {
+        "day" : 21,
+        "hour" : 8,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "987C5758-DD7B-4BC9-A730-BD65181D34DF",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "ATRASADO — Mónica preguntó el 13-ago y sigue sin respuesta.\n\nEXPOSICIÓN LABORAL ACTIVA: Daniela está inscrita al IGSS desde mayo y trabajando desde entonces, pero el contrato no se ha firmado ni se ha depositado copia en el Ministerio de Trabajo.\n\nPregunta textual de Magoo: \"¿Entonces con qué fecha se firma?\"",
+      "priority" : 1,
+      "start" : {
+        "day" : 21,
+        "hour" : 8,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Definir con Magoo la fecha de firma del contrato de Daniela Guzmán"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-05-30T00:45:01Z",
+      "due" : {
+        "day" : 29,
+        "month" : 5,
+        "year" : 2026
+      },
+      "id" : "5A498F5B-B9EA-4A49-B20B-70BF125926F2",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "Diseñar un agente (o conjunto de agentes) para: publicaciones IG, publicidad digital y Meta Ads. Decidir si conviene 1 agente con estructura amplia o 3 especializados por función.",
+      "priority" : 0,
+      "start" : {
+        "day" : 29,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "title" : "Definir estructura agente(s) Instagram, publicidad y Meta Ads — ¿1 mega-agente o 3 separados?"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-05-29T22:23:01Z",
+      "due" : {
+        "day" : 29,
+        "month" : 5,
+        "year" : 2026
+      },
+      "id" : "C5A03803-9D50-4A1D-A8CB-0141CB8EEEE0",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 29,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 5,
+        "year" : 2026
+      },
+      "title" : "Escribirle a Juan Luis: 1) diferencia planos vs salida, 2) seguimiento cliente Stuardo"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-06-30T01:34:48Z",
+      "due" : {
+        "day" : 27,
+        "month" : 6,
+        "year" : 2026
+      },
+      "id" : "80E6F073-7E53-4652-8D01-2F977741C48E",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "Factura Junio 2026. Cliente 173-4434. Monto: Q354.00. Fecha límite: 30\/06\/2026.",
+      "priority" : 0,
+      "start" : {
+        "day" : 27,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 6,
+        "year" : 2026
+      },
+      "title" : "Pagar Claro Hogar (Q354) — vence 30 jun"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-10T22:54:26Z",
+      "id" : "A40AF1BB-0B76-4033-96E6-EEDA3088F31C",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Arroz — 3 lb"
+    },
+    {
+      "alarms" : [
+        {
+          "absolute" : "2026-08-21T14:00:00Z"
+        }
+      ],
+      "completed" : true,
+      "completionDate" : "2026-08-20T23:24:21Z",
+      "due" : {
+        "day" : 21,
+        "hour" : 8,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "D30B8570-CE49-43F4-BB7F-4D5455F5AC6C",
+      "list" : "UK",
+      "listId" : "CC0709A8-9E32-4AA0-8966-608F18C5930C",
+      "notes" : "ATRASADO — Mónica lo envió el 17-ago.\n\nUsar ÚNICAMENTE la versión ACTUALIZADA que incluye a Eva Beatríz Bocel Piló (Q132.00, sede Zona 14). Esa versión sustituye todas las anteriores.\n\nFacturas ya recibidas: Ana Julissa Girón (sede CAES y sede z.14), Eva Bocel, Annika Herbruger y Daniela García (corregida).",
+      "priority" : 1,
+      "start" : {
+        "day" : 21,
+        "hour" : 8,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Ejecutar pagos primera quincena de agosto (Q11,267.00)"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-06T16:53:35Z",
+      "due" : {
+        "day" : 5,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "5CBD3374-01BB-40D8-A57D-B27CF55F9098",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "",
+      "priority" : 0,
+      "start" : {
+        "day" : 5,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Pagar Lucky"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-10T21:50:04Z",
+      "id" : "1C7B9E22-3ADA-4D80-87B2-9D70A85D0F14",
+      "list" : "Groceries",
+      "listId" : "18B670AB-729A-417D-B023-67D3E5060466",
+      "notes" : "",
+      "priority" : 0,
+      "title" : "Galleta Gama Salada Soda (las azules) — 2 paquetes"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-07-21T13:35:58Z",
+      "due" : {
+        "day" : 31,
+        "month" : 7,
+        "year" : 2026
+      },
+      "id" : "799F3861-9EFD-46BE-BD7A-82640F4FC9C6",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "Recordatorio creado por instrucción de JR el 2026-07-13. Verificar monto y formulario SAT\/Declaraguate antes de pagar.",
+      "priority" : 0,
+      "start" : {
+        "day" : 31,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 7,
+        "year" : 2026
+      },
+      "title" : "Pagar ISO"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-20T17:56:30Z",
+      "due" : {
+        "day" : 19,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "F9D1A5AF-048C-4444-B2A7-F0FE436EF5FD",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "Seguimiento pedido por JR el 2026-08-12: después de una semana, preguntarle qué funcionó, qué falló y qué ajustes quiere en calendario\/recordatorios\/control diario.",
+      "priority" : 0,
+      "start" : {
+        "day" : 19,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Preguntarle a JR cómo mejorar el sistema de control proactivo"
+    },
+    {
+      "completed" : true,
+      "completionDate" : "2026-08-19T15:03:27Z",
+      "due" : {
+        "day" : 19,
+        "month" : 8,
+        "year" : 2026
+      },
+      "id" : "D2640995-5407-4A67-A491-30D7A21FEE1D",
+      "list" : "🏠 Personal",
+      "listId" : "B64C450C-1C81-47DD-AB54-F185C26073C1",
+      "notes" : "FedEx US: +1 800 463 3339 \/ 1-800-GoFedEx. Tracking: 383179751126. Pedir urgent delivery address correction\/delivery note. Dirección correcta: MONICA SAMAYOA \/ COMING, 10100 NW 25 Street, Miami, FL 33172, United States. Explicar que aparece como Guatemala, Florida 33172 y debe ser Miami, FL 33172.",
+      "priority" : 0,
+      "start" : {
+        "day" : 19,
+        "hour" : 0,
+        "minute" : 0,
+        "month" : 8,
+        "year" : 2026
+      },
+      "title" : "Llamar a FedEx US por corrección de dirección del tracking 383179751126"
+    }
+  ]
+}
