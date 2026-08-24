@@ -92,6 +92,8 @@ MCP de Apify activo → datos de primera mano de IG/FB/TikTok/YT **con métricas
 
 portada · contenido · contenido+imagen · frase/cita · infografía (tarjetas) · pasos · comparación 2 columnas · dato/dona (solo cifra real con fuente) · cierre (CTA+contacto) · promo (talleres) · story (4 tipos de historia). Regla: cada carrusel lleva 1-2 materiales visuales, VARIANDO el tipo (no siempre tarjetas). Fotos reales vía `buscar_foto.py` (Pexels, en inglés); nunca IA para niños.
 
+**Doodles hechos a mano (`doodles.py`, JR 2026-08-24):** biblioteca de ilustraciones SVG con trazo tembloroso (figuras, grupo, nube, nieve, corazón, brote, diálogo, estrella), acento por marca (amarillo UK / turquesa IS). Para artes que deben sentirse "más humanos" (nació del pedido de "gráficos como hechos con crayones de madera"). Se usan como SVG en slides custom (`doodles.doodle(nombre, accent=...)`) o rasterizados (`doodles.to_png(...)`) como imagen en las plantillas del motor. Tablero de prueba: `doodles_board.py`. Doc completa en `GUIA_MAESTRA_ESTILO.md §Doodles`. Referencia de uso: `armar_psico_ado_doodle.py`.
+
 ## Automatización (2 agentes programados)
 
 Corren en Claude Code (tareas programadas). **Requieren la app abierta** en una Mac encendida a la hora del cron → objetivo: mudarlos a la Mac Mini siempre-encendida (ver `MIGRACION.md`).
