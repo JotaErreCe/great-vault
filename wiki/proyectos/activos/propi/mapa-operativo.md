@@ -1,7 +1,7 @@
 ---
 type: mapa-operativo
 date: 2026-06-30
-last-touched: 2026-08-21
+last-touched: 2026-08-24
 proyecto: propi
 estado: v3
 tags:
@@ -207,13 +207,50 @@ Subexpedientes detectados:
 - Jessica Guzmán - Feliz Cardona.
 - Pedro García - Byung Sung.
 - Torres del Valle.
+- **Chamaquin - Propi Tech (Bodega Avante)** — ver 3.4.1.
 - Otros formatos de arrendamiento.
 
 Formatos relevantes:
 
-- `Formatos/Arrendamiento - VF.docx`.
+- `Formatos/Arrendamiento - VF.docx` — el más completo; trae el recuadro de doce Apartados.
 - `Formatos/CONTRATO DE ARRENDAMIENTO - Revisión V1.docx`.
 - `Contratos/Contrato de Arrendamiento.docx`.
+
+**Regla clave de estos expedientes:** salvo el de Bodega Avante, en **ninguno de estos arrendamientos Propi es parte**. Todos son contratos entre terceros (arrendante–arrendatario) que Propi intermedia o administra; la carpeta se nombra "Arrendante - Arrendatario". Las menciones a Propi que aparecen dentro de esos contratos son la cuenta bancaria donde Propi recibe el depósito en su calidad de administradora, no una posición contractual.
+
+**Defectos conocidos del formato `Arrendamiento - VF.docx`** (detectados 2026-08-21, corregidos al redactar Bodega Avante pero **no corregidos en el formato original**):
+
+- La Cláusula Décimo Séptima remite la cláusula penal al "Apartado Nueve", pero Apartado Nueve es el Depósito; la penal es el Diez.
+- Las cláusulas citan "Apartado Cuatro" y "Apartado Once", que no existen en el recuadro.
+- Se invocan los Anexos B (características del inmueble) y C (lineamientos de reparaciones) que el formato nunca incluye. Solo existe el Anexo A (tabla de intereses moratorios, 20% anual).
+- El formato está redactado **a favor del arrendante** y para destino de **vivienda**, con fiador. Si Propi u otro cliente actúa como arrendatario, hay que reequilibrarlo.
+
+#### 3.4.1 Bodega Avante — Chamaquin, S.A. / Propi Tech, S.A. (ago-2026)
+
+**Primer arrendamiento del expediente en que Propi es parte, y además como ARRENDATARIA.** Solicitado por Thelma Parra el 2026-08-17 (hilo "Contrato bodega Avante").
+
+| Dato | Valor |
+|---|---|
+| Arrendante | **Chamaquin, S.A.** — Reg. 86952, folio 623, libro 180 de Sociedades Mercantiles |
+| Representante | **Martín Rivera Peraza**, Administrador Único y Representante Legal. 43 años, casado, guatemalteco, vecindad Santa Catarina Pinula, DPI/CUI **1790 54643 0101** |
+| Nombramiento | Acta 16-may-2024, notaria Mildred María Almengor Roca. Reg. 742437, folio 105, libro 832 de Auxiliares de Comercio. Vigencia desde 08-abr-2024 por 3 años → **vence 08-abr-2027, vigente** |
+| Domicilio arrendante | Residenciales Bosques de las Luces, Calle Los Cipreses, casa C-18, zona 7, Santa Catarina Pinula |
+| Arrendataria | **Propi Tech, S.A.**, representada por José Mario Ávila Palomo |
+| Inmueble | Bodega **B-43**, Sótano 5, Nivel 5, Edificio Avante, 2a. calle 23-80 zona 15, Guatemala. Área **9.386 m²** |
+| Finca | **6266**, folio 266, libro 73 E-1 |
+| Renta | Q945.00 + mantenimiento Q85.00 = **Q1,030.00 mensuales, IVA incluido** |
+| Depósito | Q945.00 (una renta) |
+| Plazo | 1-sep-2026 a 31-ago-2027 (1 año), prorrogable por acuerdo escrito con 30 días de aviso |
+| Pago | Cuenta monetaria BI **712-008385-7** a nombre de Chamaquin, S.A. |
+| Sin | Fiador, incremento anual ni cláusula penal (decisión de JR) |
+
+Ruta: `Contratos/Contratos de Arrendamiento/Chamaquin - Propi Tech (Bodega Avante)/V1 Contrato de Arrendamiento - Bodega Avante (Chamaquin - Propi Tech).docx`
+
+**Criterio de redacción aplicado (instrucción de JR):** se **eliminó el recuadro** de Apartados del formato base y toda su información se integró dentro de las cláusulas, adaptando las referencias cruzadas. El contrato quedó en 23 cláusulas corridas (PRIMERA a VIGÉSIMO TERCERA), sin tablas, sin referencias a "Apartado" ni a "Anexo". **Este es el criterio a seguir en los arrendamientos que se redacten de aquí en adelante.**
+
+Reequilibrio hecho por ser Propi la arrendataria: se quitó que el arrendante pudiera elegir tribunal, la penalidad por holdover equivalente a una renta extra, el carácter de "título ejecutivo incontestable" con cuentas aceptadas de antemano, y el derecho a cobrar de golpe las rentas por vencerse del resto del plazo. Se agregó garantía de uso y goce pacífico a favor de Propi.
+
+Estado al 2026-08-24: borrador enviado a Thelma. **Pendientes:** días de pago mensual, correo de Chamaquin y datos de notificación de Propi (solicitados a Thelma); confirmar dirección exacta ("Nivel 5, Bodega Sótano 5") y el libro registral "73 E-1"; **no se tiene certificación registral de la finca 6266**, la declaración de dominio descansa solo en lo que declara Chamaquin. Riesgo menor anotado: el objeto social de Chamaquin en su patente es restaurante, bebidas y licores, y arrendar bodega no encaja obviamente, aunque cierra con "y otros que constan en la escritura social". **No puede firmarse hasta que se inscriba el nombramiento de José Mario, o lo firma Eduardo.**
 
 ### 3.5 Empleados y contratistas
 

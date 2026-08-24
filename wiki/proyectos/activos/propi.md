@@ -203,6 +203,14 @@ Detalle completo en [[propi/mapa-operativo|mapa operativo]], sección 8. Titular
 - **Corrección metodológica:** la plantilla interna de cálculo de prestaciones tenía mal la fórmula de vacaciones; corregida conforme al Art. 130 del Código de Trabajo.
 - Expedientes de empleados reorganizados en formato expediente (una carpeta por persona, todo su ciclo de vida).
 
+## 📌 Actualización — 2026-08-24 (Control de Horas)
+
+Google Sheet `Control de Horas - Propi`, pestaña `Agosto 2026`, actualizado con:
+
+- 90 min — elaboración del contrato de arrendamiento solicitado por Thelma para el arrendamiento de la bodega del edificio Avante.
+
+Totales verificados tras la actualización: **737 min / 12.283 h**, gastos **Q270.00 / USD 0**. Se agregó como rubro 10 y se amplió la fórmula del total de horas para cubrir el bloque disponible `G8:G20`.
+
 ## 🔗 Relacionado
 
 - [[analisis-brechas-15-2026]] — brechas manual de cumplimiento vs. Dto. 15-2026
