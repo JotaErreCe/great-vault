@@ -20,6 +20,8 @@ Mapa canónico de trabajo para que Geoffrey pueda ubicar rápidamente **qué es 
 
 ---
 
+> 🍊 **Handoff activo:** [[propi/handoff-2026-08-24|TORONJA, Handoff Propi]] (2026-08-24). Si vas a retomar el trabajo de este cliente desde otra máquina o sin contexto previo, **lee ese documento primero**: trae los pendientes ordenados, las reglas duras de operación y los errores ya cometidos que no hay que repetir.
+
 ## 1. Identidad y relación con JR
 
 - **Cliente raíz:** [[propi-tech|Propi Tech, S.A.]] / Propi LatAm Guatemala.

@@ -192,6 +192,10 @@ Actualización posterior del mismo día:
 
 Totales verificados tras la nueva reunión: **617 min / 10.28 h**, gastos **Q150.00**, exceso **137 min / 2.28 h**. Fórmulas preservadas.
 
+## 🍊 Handoff activo
+
+[[propi/handoff-2026-08-24|TORONJA, Handoff Propi]] (2026-08-24). Documento de traspaso para que otro agente continúe este cliente desde otra máquina. Trae los pendientes ordenados de más antiguo a más nuevo, las reglas duras de correo y estilo, el bloqueador del nombramiento de José Mario y los errores a corregir. La palabra de verificación es **TORONJA**.
+
 ## 📌 Actualización — 2026-08-21
 
 Detalle completo en [[propi/mapa-operativo|mapa operativo]], sección 8. Titulares:
