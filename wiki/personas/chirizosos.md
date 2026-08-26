@@ -17,13 +17,13 @@ Grupo de mejores amigos de [[jr]]. Como de 2026-05.
 
 ## 👥 Miembros (5)
 
-| Persona | Aliases | Notas |
-|---------|---------|-------|
-| [[rafa-galvez]] | Shafaga | Rafael Gálvez Cifuentes. También cliente de [[amc-legal]] |
+| Persona                | Aliases                                                        | Notas                                                      |
+| ---------------------- | -------------------------------------------------------------- | ---------------------------------------------------------- |
+| [[rafa-galvez]]        | Shafaga                                                        | Rafael Gálvez Cifuentes. También cliente de [[amc-legal]]  |
 | [[sebastian-martinez]] | Moreno, Morete, Elmo, Morado, Negro, Moruta, Negruta, Negroide | Sebastián Martínez Miralles. Arquitecto. Cliente AMC Legal |
-| [[oscar-batres]] | — | Óscar Batres Pfister |
-| [[diego-escobar]] | Chiriz, Chorizo | Diego Miguel Escobar Terán |
-| [[andre-suchini]] | — | André Suchini |
+| [[oscar-batres]]       | —                                                              | Óscar Batres Pfister                                       |
+| [[diego-escobar]]      | Chiriz, Chorizo                                                | Diego Miguel Escobar Terán                                 |
+| [[andre-suchini]]      | Chini, Indio Blanco                                            | André Suchini                                              |
 
 ---
 
