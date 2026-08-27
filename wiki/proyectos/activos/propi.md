@@ -215,6 +215,14 @@ Google Sheet `Control de Horas - Propi`, pestaña `Agosto 2026`, actualizado con
 
 Totales verificados tras la actualización: **737 min / 12.283 h**, gastos **Q270.00 / USD 0**. Se agregó como rubro 10 y se amplió la fórmula del total de horas para cubrir el bloque disponible `G8:G20`.
 
+## 📌 Actualización — 2026-08-27 (Control de Horas)
+
+Google Sheet `Control de Horas - Propi`, pestaña `Agosto 2026`, actualizado con:
+
+- 120 min — elaboración del contrato de corretaje para Brenda Verás como corredor externo.
+
+Totales verificados tras la actualización: **857 min / 14.283 h**, gastos **Q270.00 / USD 0**. Se agregó como rubro 11 y se preservaron las fórmulas de horas y cálculo de cobro.
+
 ## 🔗 Relacionado
 
 - [[analisis-brechas-15-2026]] — brechas manual de cumplimiento vs. Dto. 15-2026
