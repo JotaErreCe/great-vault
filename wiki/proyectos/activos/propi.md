@@ -227,9 +227,9 @@ Totales verificados tras la actualización: **857 min / 14.283 h**, gastos **Q27
 
 Google Sheet `Control de Horas - Propi`, pestaña `Agosto 2026`, actualizado con:
 
-- 90 min — revisión, análisis y modificación de la política de beneficiario final.
+- 180 min — revisión, análisis y modificación de la política de beneficiario final.
 
-Totales verificados tras la actualización: **947 min / 15.783 h**, gastos **Q270.00 / USD 0**. Se agregó como rubro 12 y se preservaron las fórmulas de horas y cálculo de cobro.
+Totales verificados tras la actualización: **1037 min / 17.283 h**, gastos **Q270.00 / USD 0**. Se agregó como rubro 12 y se preservaron las fórmulas de horas y cálculo de cobro.
 
 ## 🔗 Relacionado
 
