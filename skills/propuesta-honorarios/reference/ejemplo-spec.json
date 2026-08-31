@@ -1,0 +1,37 @@
+{
+  "plantilla": "membrete",
+  "fecha": "Guatemala, 31 de agosto de 2026",
+  "destinatario": ["Brera Arredamenti", "Ciudad de Guatemala,", "Guatemala"],
+  "saludo": "Estimados,",
+  "intro": "De acuerdo a su requerimiento, a continuación, le presento la descripción de los trabajos a realizar, así como la **Propuesta Honorarios** que corresponden a dicha solicitud.",
+  "secciones": [
+    {
+      "titulo": "Trabajos a Desarrollar:",
+      "bloques": [
+        {"lista": [
+          {"item": "Elaboración de Asamblea Extraordinaria de carácter totalitaria, en la que los accionistas:",
+           "sub": ["Aprueban el nombramiento del Administrador Único y Representante Legal.",
+                   "Aprueban la cancelación del nombramiento anterior."],
+           "tipo": "numero"},
+          "Ingreso de la documentación correspondiente al Registro Mercantil de Guatemala."
+        ], "tipo": "letra"},
+        {"texto": "El trabajo antes descrito será de un plazo estimado de 1 mes."}
+      ]
+    },
+    {
+      "titulo": "Honorarios Profesionales:",
+      "bloques": [{"p": "Los honorarios profesionales ascienden a un monto de **Q.1,250.00 + IVA** y gastos administrativos."}]
+    },
+    {
+      "titulo": "Gastos:",
+      "bloques": [
+        {"p": "Los gastos ascienden aproximadamente a **Q.950.00**"},
+        {"texto": "Detalle gastos registrales y de trámites:"},
+        {"lista": ["Timbres para la inscripción y cancelación del nombramiento.",
+                   "Aranceles registrales para los trámites en el Registro Mercantil.",
+                   "Gastos administrativos."], "tipo": "letra"},
+        {"p": "Al quedar finalizados los trámites, nosotros le presentaríamos la liquidación respectiva a efecto de determinar si existe un saldo acreedor o deudor con respecto a los gastos."}
+      ]
+    }
+  ]
+}
