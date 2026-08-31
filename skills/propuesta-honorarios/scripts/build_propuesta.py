@@ -63,10 +63,13 @@ def runs(texto, color=GRIS_TEXTO, bold=False, sz=None):
 
 
 def parrafo(texto="", *, style=None, jc="both", color=GRIS_TEXTO, bold=False,
-            num=None, ilvl=0, ind=None, spacing=None, sz=None):
+            num=None, ilvl=0, ind=None, spacing=None, sz=None, keep_next=False):
     ppr = ""
     if style:
         ppr += f'<w:pStyle w:val="{style}"/>'
+    if keep_next:
+        # Impide que un encabezado de sección quede solo al pie de una página.
+        ppr += "<w:keepNext/>"
     if num is not None:
         ppr += f'<w:numPr><w:ilvl w:val="{ilvl}"/><w:numId w:val="{num}"/></w:numPr>'
     if spacing:
@@ -268,7 +271,7 @@ def construir_cuerpo(spec):
 
     for sec in spec["secciones"]:
         xml.append(parrafo(sec["titulo"], style="NormalWeb", num=NUM_SECCIONES,
-                           color=AZUL_SECCION, bold=True))
+                           color=AZUL_SECCION, bold=True, keep_next=True))
         for bloque in sec.get("bloques", []):
             if "p" in bloque:
                 xml.append(parrafo(bloque["p"], style="NormalWeb"))

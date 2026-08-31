@@ -40,6 +40,12 @@ Siempre en este orden:
 6. Secciones numeradas en romanos (I., II., III.), encabezado en azul y negrita.
    El orden canónico es **Trabajos a Desarrollar** → **Honorarios Profesionales**
    → **Gastos** (esta última solo si hay gastos de terceros).
+
+   Cuando el encargo es complejo y el listado de trabajos se alarga, conviene
+   abrirlo en secciones propias — **Trabajos a Desarrollar** → **Requisitos y
+   Documentación Necesaria** → **Tiempos Estimados** → **Honorarios Profesionales**
+   → **Gastos**. Es la estructura que JR usó en la propuesta de mandatos para Propi
+   y hace el documento mucho más legible que meterlo todo bajo Trabajos.
 7. Separador `-------------------------------------O-------------------------------------`
 8. Cierre, `Atentamente,`, nombre y —opcionalmente— teléfono.
 
@@ -162,15 +168,34 @@ Claves y matices:
 
 ## Verificar antes de entregar
 
-Renderiza y míralo — el formato importa tanto como el contenido:
+Renderiza y míralo — el formato importa tanto como el contenido. En esta Mac no hay
+LibreOffice ni pandoc, y el `save as` de Word por AppleScript está roto.
+
+**Propuesta de una página** — Quick Look basta y es instantáneo:
 
 ```bash
 qlmanage -t -s 1400 -o /tmp/ "/ruta/Propuesta - X.docx"
 ```
 
-Lee el PNG resultante. Revisa que los encabezados salgan en azul, que la numeración
-romana corra I. → II. → III., que las listas reinicien, y que nada se corte de página.
-(Quick Look no dibuja el pie de página con el logo; ese viene intacto de la plantilla.)
+**Propuesta de varias páginas** — Quick Look solo dibuja la primera. Exporta a PDF
+con Pages y renderiza todas:
+
+```bash
+osascript -e 'tell application "Pages" to open POSIX file "/ruta/Propuesta - X.docx"' && sleep 7 && osascript -e 'tell application "Pages" to export document 1 to POSIX file "/tmp/p.pdf" as PDF' -e 'tell application "Pages" to close document 1 saving no' && pdftoppm -jpeg -r 65 /tmp/p.pdf /tmp/pg
+```
+
+Lee los PNG/JPG resultantes. Revisa que los encabezados salgan en azul, que la
+numeración romana corra I. → II. → III., que las listas reinicien, que ningún
+encabezado quede solo al pie de una página, y que la firma no quede huérfana en la
+última. (Quick Look no dibuja el pie con el logo; el PDF de Pages sí.)
+
+Para confirmar que el archivo abre sin pedir reparación y contar páginas:
+
+```bash
+osascript -e 'tell application "Microsoft Word" to open POSIX file "/ruta/Propuesta - X.docx"' -e 'delay 3' -e 'tell application "Microsoft Word" to compute statistics active document statistic statistic pages' -e 'tell application "Microsoft Word" to close active document saving no'
+```
+
+Borra el `~$…docx` que Word deja si quedó alguno.
 
 ## Historial de tarifas
 
