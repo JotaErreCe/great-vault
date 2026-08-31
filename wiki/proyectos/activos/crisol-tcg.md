@@ -129,7 +129,7 @@ Plataforma digital multivendedor donde compradores y vendedores de TCG (Yu-Gi-Oh
 - [ ] Sourcing/proveedores TCG para Guatemala — investigación inicial en [[crisol-tcg-proveedores]].
 - [ ] Estado exacto: WooCommerce en producción vs. migración a Next.js/Supabase
 - [ ] Couriers / partners logísticos (Cargo Expreso, Guatex, Forza, etc.)
-- [ ] Pasarela de pago final: PagaloGT vs Visacuotas
+- [x] Pasarela de pago: **Recurrente** (integrada en el sitio Next.js; ver [[crisol-tcg-pagos]])
 - [ ] Definir equipo: ¿solo JR? ¿hay socios o desarrollador?
 - [ ] Flujo completo de disputas y reputación de vendedores
 
@@ -145,6 +145,7 @@ Plataforma digital multivendedor donde compradores y vendedores de TCG (Yu-Gi-Oh
 
 ## 🔗 Relacionado
 
+- [[crisol-tcg-pagos]] — pagos con Recurrente (tarjeta + transferencia automática)
 - [[roamy|Roamy]] — otro proyecto de JR (app distinta)
 - [[understanding-kids]] — proyecto de Mónica
 - [[wiki/IDENTITY]] — metas de JR vinculadas a Crisol
