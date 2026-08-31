@@ -231,6 +231,14 @@ Google Sheet `Control de Horas - Propi`, pestaña `Agosto 2026`, actualizado con
 
 Totales verificados tras la actualización: **1037 min / 17.283 h**, gastos **Q270.00 / USD 0**. Se agregó como rubro 12 y se preservaron las fórmulas de horas y cálculo de cobro.
 
+## 📌 Actualización — 2026-08-31 (Control de Horas)
+
+Google Sheet `Control de Horas - Propi`, pestaña `Agosto 2026`, actualizado con:
+
+- 60 min — revisión de política de beneficiario final con Thelma.
+
+Totales verificados tras la actualización: **1097 min / 18.283 h**, gastos **Q270.00 / USD 0**. Se agregó como rubro 13; se preservaron las fórmulas de horas y cálculo de cobro, y se corrigió la celda manual de minutos totales.
+
 ## 🔗 Relacionado
 
 - [[analisis-brechas-15-2026]] — brechas manual de cumplimiento vs. Dto. 15-2026
