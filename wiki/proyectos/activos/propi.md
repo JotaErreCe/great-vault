@@ -239,6 +239,16 @@ Google Sheet `Control de Horas - Propi`, pestaña `Agosto 2026`, actualizado con
 
 Totales verificados tras la actualización: **1097 min / 18.283 h**, gastos **Q270.00 / USD 0**. Se agregó como rubro 13; se preservaron las fórmulas de horas y cálculo de cobro, y se corrigió la celda manual de minutos totales.
 
+## 📌 Actualización — 2026-09-01 (Control de Horas Compliance IVE)
+
+Google Sheet `Control de Horas - Propi` actualizado con una pestaña separada `Compliance IVE`, sin eliminar ni reemplazar `Julio 2026` ni `Agosto 2026`.
+
+- Entradas incluidas: 12 rubros de compliance IVE de julio y agosto 2026.
+- Julio IVE: **695 min / 11.583 h**.
+- Agosto IVE: **555 min / 9.250 h**.
+- Total combinado: **1250 min / 20.833 h**.
+- Verificación: `Julio 2026` conserva **755 min / 12.583 h** y `Agosto 2026` conserva **1097 min / 18.283 h**, gastos **Q270 / USD 0**.
+
 ## 🔗 Relacionado
 
 - [[analisis-brechas-15-2026]] — brechas manual de cumplimiento vs. Dto. 15-2026
