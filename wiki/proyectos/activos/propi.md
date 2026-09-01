@@ -249,6 +249,16 @@ Google Sheet `Control de Horas - Propi` actualizado con una pestaña separada `C
 - Total combinado: **1250 min / 20.833 h**.
 - Verificación: `Julio 2026` conserva **755 min / 12.583 h** y `Agosto 2026` conserva **1097 min / 18.283 h**, gastos **Q270 / USD 0**.
 
+Actualización posterior del mismo día:
+
+- Se reparó la pestaña `Compliance IVE` para dejar visibles los 12 rubros originales de julio/agosto y corregir el rubro de 2026-08-28 a **180 min** conforme al registro base.
+- Se agregaron dos rubros de 2026-08-31:
+  - 45 min — elaboración de formato para formulario de declaración de beneficiarios finales.
+  - 45 min — elaboración de formato para formulario de Persona Expuesta Políticamente.
+- Total actualizado de `Compliance IVE`: **1340 min / 22.333 h**.
+- Distribución actualizada: julio **695 min / 11.583 h**; agosto **645 min / 10.750 h**.
+- Verificación: `Julio 2026` conserva **755 min / 12.583 h** y `Agosto 2026` conserva **1097 min / 18.283 h**, gastos **Q270 / USD 0**.
+
 ## 🔗 Relacionado
 
 - [[analisis-brechas-15-2026]] — brechas manual de cumplimiento vs. Dto. 15-2026
