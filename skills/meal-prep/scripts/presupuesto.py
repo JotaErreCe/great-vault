@@ -20,7 +20,7 @@ PRECIOS = {
     "res_lb":       (38.73, "LT carne para asar económica"),
     "res_caro_lb":  (45.50, "PZ churrasco Don Cristóbal"),
     "molida_lb":    (38.45, "PS molida fresca 9.27 lb (Q368.74)"),
-    "tilapia_lb":   (39.99, "PZ filete Costa Mar 1 lb — fresca"),
+    "tilapia_lb":   (24.44, "PS caja congelada 10 lb (Q219.95), neto de glaseado"),
     "huevo_docena": (16.59, "PS Mister Huevo 60 u (Q82.95)"),
     "claras_l":     (58.00, "LT/PZ Granjazul líquida"),
     "frijol_lb":    (10.00, "estimado"),
@@ -30,7 +30,7 @@ PRECIOS = {
 }
 
 # Gramos por comida (crudo), suma de las dos porciones
-G_POR_COMIDA = {"pollo": 453, "res": 420, "tilapia": 450}
+G_POR_COMIDA = {"pollo": 380, "res": 420, "tilapia": 450}  # pollo: gramaje vigente
 LB = 453.59
 
 
@@ -46,11 +46,11 @@ def costo(res_comidas, pollo_comidas, ceviche_comidas, verdura_sem, fruta_sem, c
         ("Res", lb_res, p_res, lb_res * p_res),
         ("Pollo", lb_pollo, PRECIOS["pollo_lb"][0], lb_pollo * PRECIOS["pollo_lb"][0]),
         ("Tilapia", lb_tila, PRECIOS["tilapia_lb"][0], lb_tila * PRECIOS["tilapia_lb"][0]),
-        ("Huevos (3 doc)", 3, PRECIOS["huevo_docena"][0], 3 * PRECIOS["huevo_docena"][0]),
-        ("Claras (0.7 L)", 0.7, PRECIOS["claras_l"][0], 0.7 * PRECIOS["claras_l"][0]),
-        ("Frijol (2 lb)", 2, PRECIOS["frijol_lb"][0], 2 * PRECIOS["frijol_lb"][0]),
+        ("Huevos (4 doc)", 4, PRECIOS["huevo_docena"][0], 4 * PRECIOS["huevo_docena"][0]),
+        ("Mostaza (prorrateada)", 1, 7.0, 7.0),
+        ("Frijol (6 lb)", 6, PRECIOS["frijol_lb"][0], 6 * PRECIOS["frijol_lb"][0]),
         ("Arroz (3 lb)", 3, PRECIOS["arroz_lb"][0], 3 * PRECIOS["arroz_lb"][0]),
-        ("Galletas", 4, 11.25, 45.0),
+        ("Galletas Gama", 2, 7.5, 15.0),
     ]
     subtotal = sum(x[3] for x in lineas)
     semana = subtotal + verdura_sem + fruta_sem
@@ -65,9 +65,9 @@ def main():
     ap.add_argument("--res", type=int, default=7, help="comidas de res por semana")
     ap.add_argument("--pollo", type=int, default=4)
     ap.add_argument("--ceviche", type=int, default=2)
-    ap.add_argument("--verdura", type=float, default=200, help="Q/semana del verdulero")
-    ap.add_argument("--fruta", type=float, default=130)
-    ap.add_argument("--casa", type=float, default=800, help="Q/mes en limpieza e higiene")
+    ap.add_argument("--verdura", type=float, default=150, help="Q/semana del verdulero, verdura+fruta")
+    ap.add_argument("--fruta", type=float, default=0)
+    ap.add_argument("--casa", type=float, default=600, help="Q/mes de casa, todo incluido")
     ap.add_argument("--precio-res", type=float, default=None)
     a = ap.parse_args()
 

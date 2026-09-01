@@ -91,15 +91,22 @@ python3 "$SKILL_DIR/scripts/perfil.py" set --json '{...}'
 2. **Revisar la semana anterior** — leer el `menu-` más reciente. No repetir la misma proteína principal dos semanas seguidas; sí repetir lo que a JR le funcionó.
 3. **Elegir componentes, no platos.** Ver `referencias/batch-cooking.md`. Se cocinan 3-4 proteínas, 2-3 carbohidratos y 3-4 vegetales por separado; los 14 platos salen de combinarlos. Esto es lo que evita el hartazgo de comer lo mismo 7 días.
 4. **Verificar macros con el MCP** para cada componente, con gramaje por porción.
-5. **Estructura fija: 4 recetas, 4 días de cocina.** (Actualizado 2026-08-11.) La empleada cocina **lunes, miércoles, viernes y sábado** y deja platos individuales armados, pesados y etiquetados. Dos recetas de almuerzo (A1, A2) y dos de cena (C1, C2) para toda la semana — JR pidió repetición, no variedad.
+5. **Estructura fija: 4 recetas, 2 tandas.** (Actualizado 2026-08-11.) **María**, la empleada, cocina **lunes y viernes** y deja platos individuales armados, pesados y etiquetados. Dos recetas de almuerzo (A1, A2) y dos de cena (C1, C2) que se repiten dentro de cada tanda — JR pidió repetición, no variedad.
 
-   Con 4 días de cocina **nada se come con más de 1 día de refrigerador**. JR aceptó hasta 5 días como techo, pero ya no hace falta usarlo.
+   | Tanda | Día | Cubre | Comidas |
+   |---|---|---|---|
+   | 1 | Lunes | lun a jue | 7 |
+   | 2 | Viernes | vie a dom | 6 |
+
+   Nada pasa de **3 días** en refri. Si el segundo día tuviera que ser sábado en vez de viernes, la cena del viernes queda con 4 días — se puede (JR aceptó 5 como techo) pero viernes es mejor, y habría que mover el segundo ceviche al sábado.
 
    **El ceviche va siempre en día de cocina**, hecho y comido el mismo día: pescado curtido aguanta 1-2 días y eso no se estira.
 
+   **Con tandas de 3 días, el arroz es el punto crítico.** Enfriarlo rápido y aparte, nunca más de una hora fuera del refri.
+
 6. **Hay airfryer** (comprado 2026-08-11). Cambia dos cosas: el pollo y las papas salen sin una gota de aceite (~120 kcal/día menos para JR), y recalentar deja de arruinar la comida — 4 min a 180 °C y el pollo vuelve a estar como recién hecho. **Nunca recalentar pollo en microondas.** Es lo que hace que el meal prep dure meses en vez de semanas.
 7. **Correr el presupuesto** antes de cerrar el menú. Si se pasa de Q3,500/mes, ajustar aquí — no después.
-8. **Escribir** `menu-YYYY-MM-DD.md` con: calendario de 13 comidas (la cena del martes es de los suegros), macros y gramaje doble por plato, y qué cocina la empleada cada uno de sus 4 días.
+8. **Escribir** `menu-YYYY-MM-DD.md` con: calendario de 13 comidas (la cena del martes es de los suegros), macros y gramaje doble por plato, y qué prepara María en cada una de las 2 tandas.
 9. **Generar lista de compras** (Flujo 3).
 
 Cada comida debe caer dentro de ±10% del target calórico y llegar al piso de proteína. Si no cuadra, ajustar gramaje — no maquillar el número.
