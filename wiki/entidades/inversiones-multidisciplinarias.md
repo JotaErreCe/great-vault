@@ -1,7 +1,7 @@
 ---
 type: entidad
 date: 2026-04-30
-last-touched: 2026-08-10
+last-touched: 2026-09-05
 tipo-legal: sociedad-anónima
 nombre-comercial: Understanding Kids
 relacion: familia
@@ -40,6 +40,7 @@ Sociedad anónima titular de la marca **Understanding Kids** (UK) y la submarca 
 | Fecha | Mes | NIT receptor | Monto | Serie | Número DTE | Autorización | Artefactos |
 |---|---|---:|---:|---|---:|---|---|
 | 2026-08-10 | Agosto 2026 | 110599004 | Q2,500.00 | A10AD10D | 3769781649 | A10AD10D-E0B2-4D91-B383-2FA93716264C | `~/.openclaw/workspace-geoffrey/outputs/facturas/uk/2026-08/factura-uk-agosto-2026-A10AD10D.pdf` · `.xml` · enviada a `msamayoa@kidsunderstanding.com` |
+| 2026-09-05 | Septiembre 2026 | 110599004 | Q2,500.00 | CC0E9092 | 2113160264 | CC0E9092-7DF4-4448-B0D8-0D8A14B1A540 | `~/.openclaw/workspace-geoffrey/outputs/facturas/uk/2026-09/factura-uk-septiembre-2026-CC0E9092.pdf` · `.xml` · enviada a `msamayoa@kidsunderstanding.com` |
 
 ## Automatización
 
