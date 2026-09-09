@@ -15,6 +15,7 @@ class Redline:
         self.path = path; self.author = author; self._id = start_id
         self.tree = etree.parse(path); self.root = self.tree.getroot()
         self.body = self.root.find(q("body"))
+        if self.body is None: self.body = self.root  # encabezados / pies / notas
         self.date = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
         self.log = []
         self._toc = self._toc_paras()
@@ -116,6 +117,8 @@ class Redline:
     def replace_in(self, needle, old, new, nth=0):
         """Sustituye un fragmento dentro del párrafo: [antes] del(old) ins(new) [después]."""
         p = self.find(needle, nth); full = self.ptext(p); rpr = self._first_rpr(p)
+        if p.find(q("ins")) is not None or p.find(q("del")) is not None:
+            raise ValueError("replace_in sobre párrafo ya editado (usar una sola llamada o replace_token): " + needle[:50])
         m = re.search(self._tolerant_pattern(old), full)
         if not m: raise KeyError("FRAGMENTO NO ENCONTRADO: %r en %r" % (old[:40], needle[:40]))
         before, matched, after = full[:m.start()], full[m.start():m.end()], full[m.end():]

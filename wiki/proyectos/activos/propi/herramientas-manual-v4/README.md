@@ -25,3 +25,8 @@ Requisitos: `python3` con `lxml`; skill `docx` (validate.py). No requiere LibreO
 - Los `moveFrom/moveTo` de 2024 debían aceptarse en la base o la validación ve texto duplicado.
 - `replace_in` reconstruye el párrafo con el formato del primer run: para tokens sueltos usar `replace_token` (conserva formato y tabuladores).
 - Tras aceptar en Word, actualizar el índice (F9): las entradas del TOC no se tocan por diseño.
+
+## Actualización 2026-09-08 (tarde)
+- `accept_2024.py` — acepta cambios rastreados de autores distintos de JR en cualquier parte (document, header1, footnotes). Quedaban restos de Astrid/JR-2024 en `header1.xml`, `footnotes.xml` y `tblPrExChange` del cuerpo; ya están aceptados en la base.
+- `apply_header.py` + `header1.clean.xml` — ediciones del encabezado (título, Revisión 01, Fecha 08-sept-26) con control de cambios. Correr después de `apply_edits.py`, con `unpacked/word/header1.xml` copiado desde `header1.clean.xml`.
+- Verificación final: el único autor de revisiones en todas las partes es José Roberto Castañeda; comentarios de 2024 retirados.

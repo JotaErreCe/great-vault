@@ -32,7 +32,17 @@ DEC = "Decreto Número 15-2026 del Congreso de la República, Ley Integral para 
 # ================= 0. PORTADA / REGISTRO =================
 R("MANUAL DE CUMPLIMIENTO DEL SISTEMA INTEGRAL DE PREVENCIÓN DEL LAVADO DE ACTIVOS", "MANUAL DE PREVENCIÓN LD/FT/FPADM")
 IA("MANUAL DE PREVENCIÓN LD/FT/FPADM", "(Manual de Cumplimiento del Sistema Integral de Prevención del Lavado de Dinero u Otros Activos, del Financiamiento del Terrorismo y del Financiamiento de la Proliferación de Armas de Destrucción Masiva)", exact=True)
-rl.insert_row_after("Creación del documento", ["01", "____/____/2026", "Todo", "Actualización integral al Decreto 15-2026; reestructuración como manual marco con documentos complementarios independientes"])
+rl.insert_row_after("Creación del documento", ["01", "08-09-2026", "Todo", "Actualización integral al Decreto 15-2026; reestructuración como manual marco con documentos complementarios independientes"])
+
+# ================= TABLA ELABORA / REVISA / APRUEBA (portada) =================
+def set_cell(tbl, row, col, text):
+    tr = [x for x in tbl if x.tag == q("tr")][row]; tc = [x for x in tr if x.tag == q("tc")][col]
+    p = [x for x in tc if x.tag == q("p")][0]; rpr = rl._first_rpr(p)
+    rl._del_all_runs(p); rl._ins_run(p, text, rpr)
+_p = rl.find("Regional Head of Treasury"); _tbl = _p
+while _tbl.tag != q("tbl"): _tbl = _tbl.getparent()
+set_cell(_tbl, 1, 1, "José Roberto Castañeda Arriola"); set_cell(_tbl, 1, 2, "Asesor legal externo (AMC Legal)"); set_cell(_tbl, 1, 4, "08-09-2026")
+set_cell(_tbl, 2, 4, "Pendiente"); set_cell(_tbl, 3, 4, "Pendiente")
 
 # ================= I. INTRODUCCIÓN =================
 R("perteneciendo al grupo “B” de Personas Obligadas",
