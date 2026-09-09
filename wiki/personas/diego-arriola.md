@@ -1,7 +1,7 @@
 ---
 type: persona
 date: 2026-05-28
-last-touched: 2026-05-28
+last-touched: 2026-09-09
 relacion: primo-hermano
 tags:
   - persona
@@ -21,6 +21,7 @@ Primo hermano de [[jr]]. Candidato a **alcalde de La Antigua Guatemala**. JR es 
 - **Situación:** Candidato a alcalde de La Antigua Guatemala
 - **Rol de JR:** Miembro del equipo jurídico de campaña
 - **Email conocido:** diegoarriola@gmail.com
+- **Página de Facebook de campaña:** «Diego Arriola», buscándola por ese nombre en Facebook. Confirmado por JR el 9-sep-2026. Es el canal donde publicaría un eventual radar de noticias de Antigua.
 
 ---
 
