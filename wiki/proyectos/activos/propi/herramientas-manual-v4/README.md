@@ -30,3 +30,7 @@ Requisitos: `python3` con `lxml`; skill `docx` (validate.py). No requiere LibreO
 - `accept_2024.py` — acepta cambios rastreados de autores distintos de JR en cualquier parte (document, header1, footnotes). Quedaban restos de Astrid/JR-2024 en `header1.xml`, `footnotes.xml` y `tblPrExChange` del cuerpo; ya están aceptados en la base.
 - `apply_header.py` + `header1.clean.xml` — ediciones del encabezado (título, Revisión 01, Fecha 08-sept-26) con control de cambios. Correr después de `apply_edits.py`, con `unpacked/word/header1.xml` copiado desde `header1.clean.xml`.
 - Verificación final: el único autor de revisiones en todas las partes es José Roberto Castañeda; comentarios de 2024 retirados.
+
+## Actualización 2026-09-08 (noche) — base reconstruida
+- La aceptación de 2024 se rehace con `accept_full.py` desde el V3 original: además de ins/del/moves a nivel run, **fusiona los párrafos cuya marca de párrafo estaba eliminada o movida (rPr/del, rPr/moveFrom)** y quita comentarios. Sin esto quedaban 10 párrafos numerados vacíos (a)-j)) y frases partidas ("Asimismo, se / deberá agregar…"). Base: 816 párrafos. Sustituye a `accept_2024.py`.
+- Orden de regeneración: `cp -R <V3 original unzip> base2; python3 accept_full.py base2/word/{document,header1,footnotes}.xml; merge_runs.py base2/; vaciar comments*.xml, people.xml y core.xml; zip → "V3 base (cambios 2024 aceptados).docx"`. Luego `apply_edits.py` y `apply_header.py` sobre copias de esas partes.
