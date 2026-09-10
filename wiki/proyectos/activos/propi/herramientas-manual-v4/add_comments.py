@@ -7,11 +7,11 @@ DATE=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 def norm(s): return re.sub(r"\s+"," ",unicodedata.normalize("NFC",s or ""))
 COMMENTS=[
  ("Propi no difiere la verificación de la información del cliente",
-  ["Art. 22, diferimiento de la verificación — decisión del 8-sep-2026 (JR).",
+  ["Art. 22, diferimiento de la verificación — opción adoptada y alternativa.",
    "La ley permite, en casos determinados y justificados, completar la verificación hasta 3 meses después de iniciada la relación, siempre que los supuestos consten en el Manual.",
-   "Opción 1 (ADOPTADA): no diferir. La reserva no se habilita ni se entrega el número de cuenta hasta el dictamen del Oficial de Cumplimiento. Es lo acordado con Ena y Thelma el 26-27 de agosto; es más estricto que la ley y por tanto cumple. Ventajas: es lo que Propi ya opera, no crea un carril que nadie administra y evita justificar caso por caso ante la IVE.",
+   "Opción 1 (ADOPTADA): no diferir. La reserva no se habilita ni se entrega el número de cuenta hasta el dictamen del Oficial de Cumplimiento. Corresponde a lo acordado en las reuniones del 26 y 27 de agosto; es más estricto que la ley y por tanto cumple. Ventajas: es lo que Propi ya opera, no crea un carril que nadie administra y evita justificar caso por caso ante la IVE.",
    "Opción 2 (DESCARTADA): permitir el diferimiento en cuatro supuestos tasados: i) persona individual nacional de riesgo bajo o medio con comprobante de domicilio o RTU pendiente; ii) persona jurídica con patente o nombramiento en trámite de inscripción; iii) beneficiario final extranjero con certificación o apostilla en gestión; iv) referencias pendientes. Siempre antes de la promesa de compraventa, nunca con PEP, riesgo alto o transacción inusual, y autorizado por el OC en el expediente.",
-   "Si Ena prefiere la opción 2 para no perder reservas por papeleo menor, hay que reincorporar esos supuestos en este párrafo y ajustar el flujo comercial (PC-21)."]),
+   "Si Propi prefiere la opción 2 para no perder reservas por trámites documentales menores, habría que reincorporar esos supuestos en este párrafo y ajustar el flujo comercial (PC-21)."]),
 ]
 doc=etree.parse("unpacked/word/document.xml"); root=doc.getroot()
 ct=etree.parse("unpacked/word/comments.xml"); croot=ct.getroot()
