@@ -27,4 +27,8 @@ rl.insert_before(_ANCLA, [
   "f) que se reciban en una cuenta bancaria de Propi destinada exclusivamente a este fin y se trasladen íntegramente al destinatario, en la misma moneda en que fueron recibidos, dentro de los tres (3) días hábiles siguientes a su acreditación, sin que Propi los invierta, los retenga, los convierta a otra moneda ni cobre cargo alguno por la recepción o el traslado. Los cargos bancarios de las transferencias correrán por cuenta del cliente o del destinatario.",
   "El Oficial de Cumplimiento llevará un registro de estas operaciones e informará de ellas al órgano de dirección superior en su informe trimestral. Si su frecuencia o volumen dejan de ser excepcionales, lo advertirá de inmediato al órgano de dirección superior para suspenderlas y evaluar si Propi realiza actividades de carácter financiero conforme al artículo 3, literal b), del Decreto 15-2026. El detalle operativo se desarrolla en el Procedimiento de recepción excepcional de fondos por cuenta de terceros.",
   ""], exact=True, style_from=rl.find("El Oficial de Cumplimiento o el personal de negocios, cuando identifiquen"))
-print("EDICIONES EN REVISIÓN (con punto 6):", rl.save())
+# ---- Anexo: procedimiento de recepción excepcional (16-sep-2026) ----
+rl.insert_before("El Oficial de Cumplimiento mantendrá actualizado el registro de la versión vigente",
+  "16. Procedimiento de recepción excepcional de fondos por cuenta de terceros, incluidos el registro de operaciones y el formato de instrucción o mandato escrito del desarrollador o propietario.",
+  style_from=rl.find("15. Cláusulas contractuales modelo"))
+print("EDICIONES EN REVISIÓN (con punto 6 y Anexo):", rl.save())
