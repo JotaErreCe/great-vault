@@ -34,3 +34,11 @@ Requisitos: `python3` con `lxml`; skill `docx` (validate.py). No requiere LibreO
 ## Actualización 2026-09-08 (noche) — base reconstruida
 - La aceptación de 2024 se rehace con `accept_full.py` desde el V3 original: además de ins/del/moves a nivel run, **fusiona los párrafos cuya marca de párrafo estaba eliminada o movida (rPr/del, rPr/moveFrom)** y quita comentarios. Sin esto quedaban 10 párrafos numerados vacíos (a)-j)) y frases partidas ("Asimismo, se / deberá agregar…"). Base: 816 párrafos. Sustituye a `accept_2024.py`.
 - Orden de regeneración: `cp -R <V3 original unzip> base2; python3 accept_full.py base2/word/{document,header1,footnotes}.xml; merge_runs.py base2/; vaciar comments*.xml, people.xml y core.xml; zip → "V3 base (cambios 2024 aceptados).docx"`. Luego `apply_edits.py` y `apply_header.py` sobre copias de esas partes.
+
+## Etapa 2 — revisión sobre V4 aprobado (desde 2026-09-16)
+JR pidió que el V4 conserve aceptados todos los cambios V3→V4 ya aprobados y que en control de cambios queden **solo** las correcciones a partir del 16-sep.
+- `V4 base aprobada.docx` — V4 del 10-sep con todos los cambios aceptados (`accept_full.py` + `merge_runs.py`), sin comentarios. Es el nuevo `--original` para validar.
+- `edits_v4_revision.py` — cambios posteriores, en control de cambios (autor JR, ids desde 20000). Hoy: punto 2 de Ena (comité → autoriza el OC con acta; designación por Consejo o Asamblea).
+- Regenerar: `unzip "V4 base aprobada.docx" -d unpacked; python3 edits_v4_revision.py; python3 add_comments.py; activar <w:updateFields> en settings.xml antes de footnotePr; zip; validate.py --original "V4 base aprobada.docx" --author "José Roberto Castañeda"`.
+- `apply_edits.py` / `apply_header.py` quedan como historia de la etapa 1 (V3→V4); no se vuelven a correr.
+- Respaldos en `IVE/Adecuación Decreto 15-2026/`: redline completo V3→V4 (10-sep) y base aprobada.
