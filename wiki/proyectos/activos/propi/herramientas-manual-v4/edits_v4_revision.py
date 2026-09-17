@@ -31,4 +31,6 @@ rl.insert_before(_ANCLA, [
 rl.insert_before("El Oficial de Cumplimiento mantendrá actualizado el registro de la versión vigente",
   "16. Procedimiento de recepción excepcional de fondos por cuenta de terceros, incluidos el registro de operaciones y el formato de instrucción o mandato escrito del desarrollador o propietario.",
   style_from=rl.find("15. Cláusulas contractuales modelo"))
-print("EDICIONES EN REVISIÓN (con punto 6 y Anexo):", rl.save())
+# ---- Matriz de riesgo en la sección XI, formato V2/V3 (17-sep-2026) ----
+import matriz_block; matriz_block.build(rl)
+print("EDICIONES EN REVISIÓN (con matriz):", rl.save())

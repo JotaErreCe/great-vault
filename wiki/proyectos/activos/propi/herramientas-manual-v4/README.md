@@ -42,3 +42,9 @@ JR pidió que el V4 conserve aceptados todos los cambios V3→V4 ya aprobados y 
 - Regenerar: `unzip "V4 base aprobada.docx" -d unpacked; python3 edits_v4_revision.py; python3 add_comments.py; activar <w:updateFields> en settings.xml antes de footnotePr; zip; validate.py --original "V4 base aprobada.docx" --author "José Roberto Castañeda"`.
 - `apply_edits.py` / `apply_header.py` quedan como historia de la etapa 1 (V3→V4); no se vuelven a correr.
 - Respaldos en `IVE/Adecuación Decreto 15-2026/`: redline completo V3→V4 (10-sep) y base aprobada.
+
+## 2026-09-17 — formato corregido + matriz de riesgo en sección XI
+- `fix_format.py` corrige en la base (sin control de cambios, sin tocar texto): 5 tablas vacías, hoja en blanco antes del título, 15 párrafos con negrita indebida (restaura el patrón del V3: "Propi" o el término del glosario en negrita, resto normal), "Persona Obligada" al nivel 0. Produce **`V4 base aprobada v2.docx`**, que es el nuevo `--original`.
+- `matriz_block.py` (llamado desde `edits_v4_revision.py`): reconstruye la sección XI en el formato V2/V3 — Tabla 3 (escala, con "Ocasional", 4E y 4C en rojo), Tabla 4 (líneas de negocio) y Tabla 5 (21 riesgos: 13 del V3 + institucional de Thelma, sin los ajenos a LD/FT). Copia el XML de las tablas desde `document.clean.xml` (V3) y marca todo como insertado (`Redline.mark_inserted`). Las matrices por segmento van a las políticas.
+- Ya NO se activa `updateFields`: el índice se actualiza a mano en Word.
+- Regenerar: `unzip "V4 base aprobada v2.docx" -d unpacked; python3 edits_v4_revision.py; python3 add_comments.py; zip; validate.py --original "V4 base aprobada v2.docx" --author "José Roberto Castañeda"`.

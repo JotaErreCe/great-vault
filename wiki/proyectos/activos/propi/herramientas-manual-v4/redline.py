@@ -225,6 +225,27 @@ class Redline:
                 if kids[hit+1:]: parent.insert(idx, _wrap(kids[hit+1:])); idx += 1
         self.log.append(("replace_token", old, n)); return n
 
+    def mark_inserted(self, el):
+        """Marca como insertado un elemento completo (párrafo, tabla o fila): párrafos, runs y filas."""
+        for p in ([el] if el.tag == q("p") else list(el.iter(q("p")))):
+            self._mark_para_inserted(p)
+            for r in list(p):
+                if r.tag == q("r"):
+                    ins = etree.Element(q("ins")); self._mark(ins); r.addprevious(ins); ins.append(r)
+        for tr in ([el] if el.tag == q("tr") else list(el.iter(q("tr")))):
+            trpr = tr.find(q("trPr"))
+            if trpr is None:
+                trpr = etree.Element(q("trPr")); ex = tr.find(q("tblPrEx"))
+                tr.insert(list(tr).index(ex) + 1 if ex is not None else 0, trpr)
+            m = etree.Element(q("ins")); self._mark(m); trpr.append(m)
+        return el
+    def insert_elements_after(self, needle, elements, exact=False):
+        """Inserta elementos (párrafos/tablas ya construidos) después del párrafo ancla, marcados como insertados."""
+        last = self.find(needle, 0, exact)
+        for el in elements:
+            self.mark_inserted(el); last.addnext(el); last = el
+        self.log.append(("insert_elements_after", needle[:40], len(elements))); return last
+
     def save(self, out=None):
         self.tree.write(out or self.path, xml_declaration=True, encoding="UTF-8", standalone=True)
         return len(self.log)
