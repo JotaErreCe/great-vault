@@ -96,4 +96,64 @@ rl.insert_after("Elaborar el Plan de Trabajo anual del Oficial de Cumplimiento y
   ["Autorizar el establecimiento o la continuidad de relaciones de negocios con clientes o contrapartes calificados como Personas Expuestas Políticamente o de riesgo alto, y verificar por muestreo la validación de los expedientes de riesgo bajo y medio.",
    "Designar, con el visto bueno de la Gerencia General y dejando constancia escrita, a la persona que lo sustituya durante sus ausencias temporales para efectos de las autorizaciones anteriores, sin que ello lo releve de su responsabilidad."])
 
+# ---- Punto 3 de la auditoría: salida de operaciones en curso (Arts. 22 ¶3, 30, 38) ----
+rl.insert_after("Abstención y terminación. Propi se abstendrá", [
+  "Salida de operaciones en curso. Cuando la abstención o la terminación deba producirse respecto de una operación ya iniciada, la decisión la adopta el Oficial de Cumplimiento y consta en acta en la que se expresen los motivos, el estado de la operación, el destino de los fondos y la decisión sobre la comisión; el área comercial la ejecuta conforme a esa acta.",
+  "Según el estado de la operación: a) si aún no se ha habilitado la reserva, no se habilita ni se entrega el número de cuenta para el pago; b) si la reserva está pagada y la operación no se ha escriturado, se comunica la terminación por causas comerciales o contractuales y se instruye la devolución de los fondos a la misma cuenta de origen del cliente; c) si la promesa de compraventa está firmada o la escrituración está programada, Propi se retira de la intermediación, no participa en el cierre ni gestiona el pago, y las consecuencias contractuales se rigen por lo pactado entre el cliente y el desarrollador o propietario.",
+  "Propi no facturará ni cobrará comisión por la operación de la que se retire por esta causa; si la comisión ya se hubiere percibido, el Oficial de Cumplimiento documentará la decisión sobre su devolución.",
+  "Las comunicaciones se harán conforme a los textos modelo aprobados por el Oficial de Cumplimiento para cada destinatario —cliente, desarrolladora o propietario, corredor externo y notario—, fundadas únicamente en causas comerciales o contractuales, sin referencia alguna al examen practicado, al Reporte de Transacción Sospechosa ni a la prevención del LD/FT/FPADM (artículo 38 del Decreto 15-2026).",
+  "El acta, las comunicaciones y la evidencia de la devolución de los fondos se archivarán en el expediente por el plazo de cinco años y la persona se incluirá en la Lista de Control interna de personas no aceptadas. Lo anterior es independiente del examen y del eventual Reporte de Transacción Sospechosa, así como de las medidas de inmovilización y aviso al Ministerio Público que proceden ante coincidencias con las listas del Consejo de Seguridad de las Naciones Unidas (artículos 30, 43 y 44 del Decreto 15-2026).",
+])
+rl.replace_in("14. Formatos:",
+  "texto modelo de comunicación de rechazo o terminación",
+  "textos modelo de comunicación de rechazo o terminación, por destinatario (cliente, desarrolladora o propietario, corredor externo y notario)")
+
+# ---- Punto 4 de la auditoría: RTS ante coincidencia confirmada en listas del CSNU (Art. 30) ----
+rl.insert_after("De existir coincidencia con los nombres o datos de identificación",
+  "Toda coincidencia confirmada, sea en la vinculación o durante la relación de negocios, obliga además a remitir con prontitud el Reporte de Transacción Sospechosa a la Superintendencia de Bancos a través de la IVE (artículo 30 del Decreto 15-2026).")
+
+# ---- Punto 5 de la auditoría: universo único de colaboradores obligados (Art. 12, literal b) ----
+rl.replace_in("El presente Manual es de observancia obligatoria",
+  "cualquiera que sea la forma jurídica de su contratación; asimismo",
+  "cualquiera que sea la forma jurídica de su contratación (en adelante, los colaboradores obligados); asimismo")
+rl.replace_in("Luego de concluir con su proceso de capacitación anual",
+  "el personal de Propi deberá someterse a una prueba",
+  "los colaboradores obligados deberán someterse a una prueba")
+rl.replace_in("Todo el personal de nuevo ingreso",
+  "Todo el personal de nuevo ingreso, contratado o subcontratado, deberá recibir la inducción sobre prevención de LD/FT/FPADM durante los 30 días posteriores a su ingreso. El área de recursos humanos o su equivalente, en coordinación con el Oficial de Cumplimiento, son los encargados de programar la inducción a los empleados y personal subcontratado.",
+  "Todo colaborador obligado de nuevo ingreso deberá recibir la inducción sobre prevención de LD/FT/FPADM durante los 30 días posteriores a su ingreso o a su vinculación. El área de recursos humanos o su equivalente, en coordinación con el Oficial de Cumplimiento, son los encargados de programar la inducción del personal; la de los directores, agentes, corredores e intermediarios la programa el Oficial de Cumplimiento.")
+rl.replace_in("Propi entregará a todos los funcionarios",
+  "a todos los funcionarios, empleados, personal temporal o subcontratado el Código de Ética",
+  "a los colaboradores obligados el Código de Ética")
+rl.replace_in("El presente Manual o sus modificaciones se darán a conocer",
+  "a todos los funcionarios, empleados, directores, agentes, corredores e intermediarios de Propi",
+  "a los colaboradores obligados")
+
+# ---- Punto 6 de la auditoría: un solo criterio para el nivel de DDC (Arts. 21.4 y 22 ¶1) ----
+rl.replace_in("De conformidad con el enfoque basado en riesgo",
+  "el nivel de debida diligencia aplicable a cada cliente se asigna combinando el valor de la operación con el perfil de riesgo del cliente; el perfil de riesgo solo puede elevar el nivel, nunca reducirlo",
+  "el nivel de debida diligencia aplicable a cada cliente se asigna conforme al nivel de riesgo que se le haya asignado (bajo, medio o alto); el valor de la operación se pondera como uno de los factores de esa clasificación y, además, obliga a aplicar las medidas de debida diligencia cuando supere los umbrales que establezca la reglamentación")
+
+# ---- Punto 7 de la auditoría: exención de responsabilidad conforme al Art. 37 ----
+rl.replace_in("Queda terminantemente prohibido revelar a terceros",
+  "Propi, sus directores, gerentes, funcionarios, oficiales de cumplimiento, representantes legales y empleados quedan exentos de responsabilidad legal por haber proporcionado de buena fe información a las autoridades competentes, incluida la comunicación de RTS (artículo 37).",
+  "Propi, sus directores, gerentes, administradores, funcionarios, oficiales de cumplimiento, representantes legales y empleados debidamente autorizados quedan exentos de responsabilidad legal por haber proporcionado de buena fe a las autoridades competentes información, documentación, expedientes y registros, siempre que se cumplan las disposiciones del Decreto 15-2026, su reglamentación y demás disposiciones aplicables, incluida la comunicación de RTS a la Superintendencia de Bancos a través de la IVE (artículo 37).")
+
+# ---- Punto 8 de la auditoría: automatismo solo para listas del CSNU (Arts. 43 y 22) ----
+rl.replace_in("El potencial cliente o sus representantes legales",
+  "u otra lista que Propi, a través de su Oficial de Cumplimiento, establezca.",
+  "u otras listas de sanciones y de cautela nacionales e internacionales que determine el Oficial de Cumplimiento. La coincidencia con las listas del Consejo de Seguridad de las Naciones Unidas impide la vinculación; las coincidencias con las demás listas generarán una alerta que el Oficial de Cumplimiento analizará y confirmará antes de rechazar o terminar la relación.")
+
+# ---- Cierre de la matriz: colores = nivel de riesgo (Arts. 8 a 10) ----
+rl.insert_after("Verde: al menos semestral",
+  "El color resulta de cruzar la probabilidad con la consecuencia conforme a la Tabla 3 y expresa el nivel de riesgo: rojo, alto; amarillo, medio; verde, bajo.")
+
+# ---- Cierre previo al envío: señales de alerta en el Anexo (Art. 12, c) y conservación (Art. 34) ----
+rl.replace_in("7. Procedimiento de Reportes",
+  "reporte mensual sectorial y tablero de monitoreo, con sus plazos internos y umbrales.",
+  "reporte mensual sectorial y tablero de monitoreo, con sus plazos internos y umbrales; incluye el catálogo de señales de alerta y los escenarios de monitoreo por línea de negocio, que el Oficial de Cumplimiento mantiene actualizados.")
+rl.replace_in("Propi mantendrá, por un período no menor",
+  "dichos registros deben ser suficientes para permitir la reconstrucción íntegra de cada operación y atender los requerimientos de las autoridades competentes (artículo 34 del Decreto 15-2026).",
+  "así como los demás registros relacionados con el cumplimiento de las obligaciones del Decreto 15-2026, entre ellos el registro de transacciones en efectivo, los reportes remitidos y sus acuses, las actas de autorización, los expedientes de proveedores, empleados y corredores, la evidencia de capacitación, los informes de la evaluación anual y la evaluación de riesgo; dichos registros deben ser suficientes para permitir la reconstrucción íntegra de cada operación y atender los requerimientos de las autoridades competentes (artículo 34 del Decreto 15-2026).")
+
 print("EDICIONES EN REVISIÓN (con matriz):", rl.save())
