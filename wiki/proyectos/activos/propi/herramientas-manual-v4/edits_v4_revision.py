@@ -32,5 +32,24 @@ rl.insert_before("El Oficial de Cumplimiento mantendrá actualizado el registro 
   "16. Procedimiento de recepción excepcional de fondos por cuenta de terceros, incluidos el registro de operaciones y el formato de instrucción o mandato escrito del desarrollador o propietario.",
   style_from=rl.find("15. Cláusulas contractuales modelo"))
 # ---- Matriz de riesgo en la sección XI, formato V2/V3 (17-sep-2026) ----
+# ---- Sección XV y funciones del OC: evaluación anual del programa (17-sep-2026, decisión de JR) ----
+D = rl.delete_para; IA = rl.insert_after
+D("AUDITORÍA INTERNA", exact=True)
+R("La auditoría interna, o quien ejecute funciones similares dentro de Propi, deberá elaborar y ejecutar anualmente",
+  "Propi evaluará anualmente el cumplimiento y la efectividad de los Programas de Prevención LD/FT/FPADM contenidos en este Manual y en sus documentos complementarios (artículo 15 del Decreto 15-2026). La evaluación estará a cargo de la auditoría interna o de quien ejerza funciones equivalentes dentro de Propi o, en su defecto, de auditores externos especializados contratados para ese efecto.")
+IA("Propi evaluará anualmente el cumplimiento y la efectividad de los Programas de Prevención", [
+  "La modalidad, el alcance y el calendario de cada evaluación se definen en el Plan de Trabajo anual del Oficial de Cumplimiento, que este elabora durante el ejercicio anterior con el visto bueno del área legal y de la Gerencia General.",
+  "Quien realice la evaluación deberá ser independiente del Oficial de Cumplimiento y de las áreas que ejecutan los controles evaluados, y no podrá haber participado en el diseño de los programas que evalúa."])
+R("Se deberá emitir opinión respecto de la idoneidad y el funcionamiento de las políticas",
+  "La evaluación concluirá con un informe que exprese su opinión sobre la idoneidad y el funcionamiento de las políticas y procedimientos adoptados para prevenir los delitos de LD/FT/FPADM, las deficiencias u omisiones materialmente significativas, las recomendaciones para superarlas y las medidas correctivas adoptadas. El informe se presentará al órgano de dirección superior y al Oficial de Cumplimiento, quien coordinará la evaluación y dará seguimiento a la implementación de las recomendaciones. El informe estará a disposición de la Superintendencia de Bancos a través de la Intendencia de Verificación Especial y, cuando corresponda emitir informe de aseguramiento, se remitirá copia dentro de los quince (15) días siguientes a su recepción.")
+D("AUDITORÍA EXTERNA", exact=True)
+D("Sin perjuicio de que el informe de aseguramiento de auditoría externa es obligatorio únicamente")
+R("Instruir a la auditoría interna y externa, o quien realice funciones similares",
+  "Coordinar con quien realice la evaluación anual del programa la verificación muestral del acuse de recibo o de la evidencia del envío de los reportes de transacciones sospechosas y en efectivo.")
+R("Analizar e implementar las medidas correctivas derivadas de las observaciones de la auditoría interna",
+  "Analizar e implementar las medidas correctivas derivadas de las observaciones de la evaluación anual del programa.")
+IA("Diseñar el presente Manual y proponer su actualización.",
+   "Elaborar el Plan de Trabajo anual del Oficial de Cumplimiento y someterlo a aprobación del órgano de dirección superior; el plan comprenderá, entre otras actividades, la capacitación, la evaluación anual del programa y el monitoreo y los reportes previstos para el ejercicio.", exact=True)
+
 import matriz_block; matriz_block.build(rl)
 print("EDICIONES EN REVISIÓN (con matriz):", rl.save())
