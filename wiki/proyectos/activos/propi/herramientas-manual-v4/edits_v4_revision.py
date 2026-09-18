@@ -156,4 +156,28 @@ rl.replace_in("Propi mantendrá, por un período no menor",
   "dichos registros deben ser suficientes para permitir la reconstrucción íntegra de cada operación y atender los requerimientos de las autoridades competentes (artículo 34 del Decreto 15-2026).",
   "así como los demás registros relacionados con el cumplimiento de las obligaciones del Decreto 15-2026, entre ellos el registro de transacciones en efectivo, los reportes remitidos y sus acuses, las actas de autorización, los expedientes de proveedores, empleados y corredores, la evidencia de capacitación, los informes de la evaluación anual y la evaluación de riesgo; dichos registros deben ser suficientes para permitir la reconstrucción íntegra de cada operación y atender los requerimientos de las autoridades competentes (artículo 34 del Decreto 15-2026).")
 
+# ---- Registro de Revisiones: fila(s) de la revisión 02 ----
+from lxml import etree as _et2
+_reg = None
+for _t in rl.root.iter(q("tbl")):
+    _s = "".join(x.text or "" for x in _t.iter(q("t")))
+    if "Creación del documento" in _s: _reg = _t; break
+assert _reg is not None, "no se encontró el Registro de Revisiones"
+_filas = _reg.findall(q("tr"))
+_tpl = _filas[2]                      # fila de la revisión 01, como plantilla
+_vacia = _filas[3]                    # fila vacía al final
+
+REV02 = [
+ ("VII, XI y Anexo",
+  "Se añaden: matriz de riesgo institucional (XI); apartados de recepción excepcional de fondos por cuenta de terceros, validación de expedientes por muestreo y salida de operaciones en curso (VII); y numeral 16 del Anexo."),
+]
+
+def _set(tc, texto):
+    p = tc.findall(q("p"))[0]
+    rpr = rl._first_rpr(p)
+    rl._del_all_runs(p); rl._ins_run(p, texto, rpr)
+
+for j, val in enumerate(["02", "17-09-2026", REV02[0][0], REV02[0][1]]):
+    _set(_vacia.findall(q("tc"))[j], val)
+
 print("EDICIONES EN REVISIÓN (con matriz):", rl.save())
