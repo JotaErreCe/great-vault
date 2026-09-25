@@ -13,7 +13,7 @@ tags:
 
 Cómo funcionan los agentes tipo diio / Otter / Fireflies / Read AI, y si tiene sentido construir uno vertical para el mercado legal guatemalteco. Precios verificados al 2026-09-22.
 
-**Estado: análisis, no ejecución.** Ver [[#Puerta de decisión]].
+**Estado: en ejecución desde 2026-09-24.** Ver [[quedamos]] (proyecto activo). El análisis de abajo se conserva como estaba.
 
 ---
 
