@@ -51,7 +51,8 @@ Captura local (micrófono y audio del sistema en pistas separadas, nunca bots), 
 - [ ] JR: cuatro grabaciones más (Propi, Disegno Casa, UK, una por Meet/Zoom)
 - [ ] Correr `uv run fase0/run.py all` y decidir el ASR con `fase0/reports/comparativo.md`
 - [ ] JR: revisar el prompt `fase0/prompts/extraccion_system.md` y el correo generado de la reunión del 2026-05-19
-- [ ] Probar la app con una reunión real grabada desde la app (Fase 1)
+- [ ] JR: abrir `app/build/Quedamos.app`, revisar la reunión cargada, dar permisos de micrófono y audio del sistema y grabar una reunión de prueba (Fase 1)
+- [ ] Leer `docs/2026-09-25-reporte-para-JR.md` (qué se hizo la noche del 24 al 25 y qué falta)
 
 ---
 
