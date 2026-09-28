@@ -139,7 +139,7 @@ Terminaciones contractuales civiles para contratistas:
 Revisión a fondo del cliente (correo + iCloud + confirmación directa de JR). Detalle completo en [[propi/mapa-operativo|mapa operativo]], sección 6. Resumen de lo confirmado por JR:
 
 - **Ena González:** rol solo operativo, sin facultades formales de representación societaria.
-- **Renovación nombramiento José Mario Ávila Palomo (Asamblea 15):** sigue pendiente — 3 borradores creados el 1-jul-2026 en `Propi/Geoffrey/`, aún sin revisión humana ni firma.
+- ✅ **Renovación nombramiento José Mario Ávila Palomo:** **cerrada**. Inscrita el 08-sep-2026, registro 856573/folio 225/libro 866. Vence el 14-ago-2029.
 
 ## 📌 Actualización — 2026-07-23 (Decreto 15-2026 / AML)
 
@@ -200,7 +200,7 @@ Totales verificados tras la nueva reunión: **617 min / 10.28 h**, gastos **Q150
 
 Detalle completo en [[propi/mapa-operativo|mapa operativo]], sección 8. Titulares:
 
-- ⚠️ **Nombramiento de José Mario vencido desde el 18-jul-2026.** El nuevo (Acta 05-2026, asamblea 14-ago) se envió a Astrid para firma el 21-ago, pero no está firmado ni inscrito. Mientras dure el hueco, **Eduardo Francés** es el representante legal con nombramiento vigente. Se comparece con pasaporte **C04339982** y nacionalidad salvadoreña (criterio de JR: identificación y nacionalidad van emparejadas).
+- ✅ **Nombramiento de José Mario RESUELTO E INSCRITO (2026-09-28).** Acta notarial del **14-ago-2026**, 12:00, autorizada por el notario **Luis Pedro Arango Morales**. Inscrito en el Registro Mercantil el **08-sep-2026**: **registro 856573, folio 225, libro 866** de Auxiliares de Comercio. Expediente 119672-2026, razonamiento 903029. Cargo: **Presidente del Consejo de Administración y Representante Legal**. Vigencia desde el 14-ago-2026, plazo de **3 años**, por lo que **vence el 14-ago-2029**. Comparece como **salvadoreño con pasaporte C04339982**. PDF archivado en `Documentos S.A./Nombramiento PCA 2026 - José Mario Ávila Palomo (inscrito 08-09-2026).pdf`. Queda sin efecto la advertencia del hueco de representación: ya puede firmar. Ojo al redactar contratos: la comparecencia debe citar **este** nombramiento (856573/225/866), no el de 2023 (705865/617/819), y debe decir **Presidente del Consejo de Administración**, no Administrador Único.
 - **Hallazgo legal:** la afiliación a la CBR es voluntaria. El requisito legal real en Guatemala es la **Licencia de Corredor del Ministerio de Economía** (Código de Comercio + A.G. 239-2012). Los templates heredados exigían lo incorrecto.
 - **Alianzas nuevas:** Vladimir Flores (El Salvador, Kasa Homes) y Brenda Verás (Guatemala). Ambos pendientes de confirmar si contratan como persona individual o jurídica.
 - **Terminaciones cerradas:** Jimena Junger (despido, Q52,589.91) y Nicolle Mendez (renuncia, Q21,226.03).

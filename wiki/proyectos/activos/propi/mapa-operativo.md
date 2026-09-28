@@ -399,7 +399,7 @@ Dato de tarifa relacionado en [[amc-legal]]:
 - [ ] Revisar estado IVE vigente: persona obligada, oficial/encargado actual, periodicidad de reportes y obligaciones próximas.
 - [ ] Revisar facturación/honorarios 2025–2026 para detectar meses faltantes o cobros pendientes.
 - [ ] **Actualizar el Reglamento Operativo de Corredores Externos** — está atado a CBR/DPI y no admite corredores extranjeros (ver sección 8).
-- [ ] **Resolver el hueco de representación de José Mario** — nombramiento vencido el 18-jul-2026, el nuevo aún sin inscribir (ver sección 8).
+- [x] **Hueco de representación de José Mario: RESUELTO.** Nombramiento inscrito el 08-sep-2026 (856573/225/866), vigente hasta el 14-ago-2029.
 - [ ] Aclarar con Propi/CAE la diferencia de Q12,200.87 en la hoja de liquidación de Jimena Junger (ver sección 8).
 
 ---
@@ -409,7 +409,7 @@ Dato de tarifa relacionado en [[amc-legal]]:
 Relación con Propi calificada por JR como **sólida, sin fricciones** (pagos al día, buena relación con Thelma/Ena/Astrid). Focos de trabajo para las próximas semanas/meses, en orden de mención:
 
 1. **Nombramiento de Ena** — JR señaló esto como prioridad nueva; aún no hay expediente/borrador iniciado. Dado que el rol de Ena está confirmado como solo operativo (sin facultades formales — ver pendiente resuelto arriba), esto probablemente implica **formalizar un nombramiento/poder** para ella. Falta confirmar con JR el alcance exacto (¿gerente de país? ¿facultades específicas?) antes de redactar nada. **Sigue sin iniciarse al 2026-08-21.**
-2. **Tema societario de José Mario** — documentos enviados a Astrid para firma el 2026-08-21; **pendiente de firma, notarización e inscripción**. Ver sección 8.
+2. **Tema societario de José Mario** — ✅ cerrado. Acta del 14-ago-2026 ante Luis Pedro Arango Morales, inscrita el 08-sep-2026.
 3. **Cumplimiento IVE/AML** — incluye el trámite de "Firma con Certeza" (constancia IVE vigente pendiente de enviar a CBR Guatemala) y mantener al día manual/formularios.
 
 Prioridad añadida en agosto 2026:
@@ -478,7 +478,7 @@ JR confirmó que no hay asamblea duplicada con el Acta 03-2026 de marzo: el nomb
 
 ### 8.1 Renovación del nombramiento de José Mario — estado y advertencia crítica
 
-**Advertencia activa:** el nombramiento anterior de José Mario (inscrito el 18-jul-2023, plazo definido de 3 años) **venció el 18 de julio de 2026**. El nuevo aún no está firmado, notariado ni inscrito. **A la fecha, José Mario no tiene nombramiento inscrito vigente para comparecer como Representante Legal.** Cualquier contrato que él firme mientras dure este hueco queda expuesto. Eduardo José Frances Argueta (Vicepresidente) **sí tiene su nombramiento vigente** y también ostenta representación legal — es la alternativa limpia mientras se regulariza.
+**RESUELTO el 2026-09-28.** Acta notarial del **14-ago-2026**, 12:00, autorizada por el notario **Luis Pedro Arango Morales**. Inscrito en el Registro Mercantil el **08-sep-2026**: **registro 856573, folio 225, libro 866** de Auxiliares de Comercio. Expediente 119672-2026, razonamiento 903029. Cargo: **Presidente del Consejo de Administración y Representante Legal**. Vigencia desde el 14-ago-2026, plazo de **3 años**, por lo que **vence el 14-ago-2029**. Comparece como **salvadoreño con pasaporte C04339982**. PDF archivado en `Documentos S.A./Nombramiento PCA 2026 - José Mario Ávila Palomo (inscrito 08-09-2026).pdf`. Queda sin efecto la advertencia del hueco de representación: ya puede firmar. Ojo al redactar contratos: la comparecencia debe citar **este** nombramiento (856573/225/866), no el de 2023 (705865/617/819), y debe decir **Presidente del Consejo de Administración**, no Administrador Único.
 
 Historia de la revisión (varias vueltas, documentadas en `Propi/Geoffrey/README - Renovación José Mario.md`):
 
