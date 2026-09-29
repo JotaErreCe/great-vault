@@ -40,6 +40,7 @@ Captura local (micrófono y audio del sistema en pistas separadas, nunca bots), 
 | 2026-09-24 | Captura local, nunca bots; recordatorios solo al usuario; herramienta general; macOS primero; español con code-switching; no entrenar con datos del usuario | Decisiones cerradas por JR en el goal |
 | 2026-09-24 | JR delegó las decisiones de la noche ("decide por mí, quiero ver la app mañana") | Se construyó el prototipo antes de cerrar Fase 0, con el ASR detrás de una interfaz intercambiable |
 | 2026-09-25 | Whisper local corre con VAD Silero + `-mc 0` + `-sns` | Con flags por defecto alucinó en bucle y perdió 36 de 86 min de la reunión de prueba; con VAD: 0 bucles y 2.7 min de proceso |
+| 2026-09-29 | Transcripción en párrafos, vista previa en vivo (solo visual) y notas/marcas durante la reunión | Pedido de JR del 2026-09-26; las notas van al modelo como contexto, nunca como evidencia |
 | 2026-09-25 | Extracción de la noche hecha en sesión de Claude Code con el prompt de `fase0/prompts` | No hay ANTHROPIC_API_KEY ni `claude` CLI logueado en la Mac Pro |
 
 ---
