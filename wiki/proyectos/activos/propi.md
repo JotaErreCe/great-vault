@@ -259,6 +259,14 @@ Actualización posterior del mismo día:
 - Distribución actualizada: julio **695 min / 11.583 h**; agosto **645 min / 10.750 h**.
 - Verificación: `Julio 2026` conserva **755 min / 12.583 h** y `Agosto 2026` conserva **1097 min / 18.283 h**, gastos **Q270 / USD 0**.
 
+## 📌 Actualización — 2026-10-05 (Control de Horas)
+
+Archivo local `AMC Legal/Clientes/Propi/Reporte de Cobro/Control de Horas - Propi - Octubre 2026.xlsx` creado a partir del reporte local de septiembre 2026, preservando formato y fórmulas, con:
+
+- 90 min / 1.5 h — revisión y modificaciones al contrato de Impulsa.
+
+También se revirtió la edición errónea hecha inicialmente sobre la pestaña antigua `Octubre` del Google Sheet, que correspondía a 2024. El reporte local `Control de Horas - Propi - Septiembre 2026.xlsx` fue usado como fuente correcta; total septiembre: **690 min / 11.50 h**, base **Q3,920.00** y exceso **USD 313.60**.
+
 ## 🔗 Relacionado
 
 - [[analisis-brechas-15-2026]] — brechas manual de cumplimiento vs. Dto. 15-2026
