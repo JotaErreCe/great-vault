@@ -21,13 +21,13 @@ Esta nota es la referencia principal para el **Canva Style Agent**.
 
 Hexadecimales oficiales confirmados desde `ManualDeMarca_UnderstandingKids.pdf` (paleta para redes y material digital, RGB).
 
-| Rol | Color | Hex | RGB | Uso |
-|-----|-------|-----|-----|-----|
-| Acento principal | 🟡 Amarillo | `#EEB41E` | 238,180,30 | Llamados visuales, CTA, palabras destacadas |
-| Apoyo | 🔵 Celeste | `#57BAC6` | 87,186,198 | Soporte, frescura, balance |
-| Apoyo | 🟢 Verde | `#76B142` | 118,177,66 | Naturaleza, crecimiento; acento secundario |
-| Neutro / texto | ⚫ Gris | `#9F9F9F` | 159,159,159 | Texto secundario, líneas, marcos |
-| Base | ⚪ Blanco | `#FFFFFF` | 255,255,255 | Fondo principal — limpio y respirado |
+| Rol              | Color       | Hex       | RGB         | Uso                                         |
+| ---------------- | ----------- | --------- | ----------- | ------------------------------------------- |
+| Acento principal | 🟡 Amarillo | `#EEB41E` | 238,180,30  | Llamados visuales, CTA, palabras destacadas |
+| Apoyo            | 🔵 Celeste  | `#57BAC6` | 87,186,198  | Soporte, frescura, balance                  |
+| Apoyo            | 🟢 Verde    | `#76B142` | 118,177,66  | Naturaleza, crecimiento; acento secundario  |
+| Neutro / texto   | ⚫ Gris      | `#9F9F9F` | 159,159,159 | Texto secundario, líneas, marcos            |
+| Base             | ⚪ Blanco    | `#FFFFFF` | 255,255,255 | Fondo principal — limpio y respirado        |
 
 > Logo: degradado naranja → verde → celeste. CMYK disponible en el manual para impresos.
 
