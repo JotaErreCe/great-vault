@@ -15,14 +15,15 @@ tags: [identity, values, voice]
 - **Aliases:** JR, JotaErre
 - **Nacimiento:** 1995-10-26 (30 años)
 - **Origen:** La Antigua Guatemala
-- **Ubicación:** Ciudad de Guatemala (Z13, Col. Elgin II — alquilada)
+- **Ubicación:** Ciudad de Guatemala (Z13, Col. Elgin II — alquilada; confirmado 2026-10-07)
 - **Profesión:** Abogado independiente. Trayectoria: prácticas G&T Continental (2016) → Iurisconsulti → [[amc-legal]] (actual, propio).
 
 ## Familia
 
 - **Esposa:** [[monica]] (n. 1994-09-13). Aniversario: 2022-12-17.
 - **Hijo:** [[nicolas]] (n. 2026-03-06, 3:10 PM).
-- **Mascota:** [[niko]] (Nikolai) — perro, familia de primera clase. ⚠️ no confundir con Nicolás.
+- **Mascota:** [[niko]] (Nikolai) — perro, familia de primera clase. ⚠️ no confundir con Nicolás. Otras: Leah (vive con los suegros), Beto y Enrique (perros de la pradera).
+- **Apodo prenatal de Nico:** Patamon (Digimon).
 - **Padre:** [[jose-enrique-castaneda|José Enrique Castañeda Cofiño]] (falleció el 11-mar-2019). De él le viene el golf.
 - **Madre:** [[lucrecia-arriola|Ana Lucrecia Arriola Cuellar]] (viuda). Vive en la propiedad de JR en Z11 Country Club; JR le da Q7,500/mes.
 - **Medio hermano:** Carlos Enrique Castañeda Boer, "Quiquito", periodista ([[carlos-castaneda]]). Hoy están distanciados.
@@ -69,6 +70,10 @@ Asumir sin preguntar · inventar · usar info a medias · gastar dinero o compro
 - **Deportes:** Golf (lo juega), fútbol (Bayern Munich, Antigua GFC, Selección Guatemala).
 - **Marcas:** Uniqlo, Dragonshield, Sony, Apple, Yeti, Owala, True Linkswear, Nike, Sunday Red, Callaway, Ping, Google.
 
+## Cumpleaños
+
+Le gustan tranquilos, sin planes. No organizarle nada grande.
+
 ## Día libre ideal
 
 Golf por la mañana → casa → videojuegos → ver partida de Magic Commander mientras cena en la sala.
@@ -77,15 +82,16 @@ Golf por la mañana → casa → videojuegos → ver partida de Magic Commander 
 
 - **6 meses:** Vender Hexa Cañadá 16 (Z16). Enganchar 2+ apartamentos para revender. Lanzar [[crisol-tcg]]. Aprender a usar IA bien y generar ingresos con ella.
 - **1 año:** Generar al menos Q5,000 más mensualmente.
-- **5–10 años:** Salir del Derecho si Crisol y las inversiones con Magoo funcionan. Vivir de rentas e ingresos pasivos en un lugar con naturaleza y tranquilidad.
-- **Familia:** posible segundo hijo cuando Nico tenga ~2 años. Para Nico prefiere el colegio Montessori (no APDE). Ya existe un fondo de educación para él.
+- **5–10 años:** Salir del Derecho si Crisol y las inversiones con Magoo funcionan. Vivir de rentas e ingresos pasivos (meta familiar **60–80K/mes**, moneda asumida Q) en un lugar con naturaleza y tranquilidad, probablemente en Guatemala.
+- **Familia:** posible segundo hijo cuando Nico tenga ~2 años. Para Nico prefiere el colegio Montessori (no APDE). Su fondo de educación es el portafolio de IBKR + Binance. Para Nico quiere: golf, un tercer idioma y honestidad consigo mismo y con los demás.
 - **Largo plazo:** Que no le haga falta nada a Nico.
 
 ## Banca e inversiones
 
 - **Banco principal:** G&T Continental (GTQ y USD, cuenta personal — no empleador).
 - **Otros:** Banco Industrial (BI), Banrural.
-- **Inversiones:** Interactive Brokers (IBKR) + cripto. Fondo de educación de Nico en bolsa + BTC, en modo comprar y mantener.
+- **Inversiones:** IBKR + Binance = **fondo de educación de Nico** (comprar y mantener). A futuro, con Magoo: apartamentos para flippear + bolsa.
+- **Flujo del hogar (2026):** ~Q45K/mes de ingresos y ~Q44.5K de egresos presupuestados (ver [[ingresos]]).
 - **Seguros:** médico RobleMed. Sin seguro de vida.
 
 ## Relacionado

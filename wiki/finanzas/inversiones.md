@@ -82,11 +82,15 @@ Portafolio de inversiones financieras de [[jr]]. Datos capturados al 2026-05-02.
 
 ---
 
+## 🧭 Hacia dónde quiere ir JR (2026-10-07)
+
+- Las inversiones futuras con [[monica|Magoo]] serían **apartamentos para flippear** (comprar, mejorar y revender) y **bolsa**.
+- Encaja con la meta de 6 meses de [[wiki/IDENTITY]]: "enganchar 2+ apartamentos para revender".
+
 ## 🎓 Fondo de educación de Nico
 
-- Existe un fondo de educación para [[nicolas]], invertido en **bolsa y BTC** (JR, 2026-10-06).
+- **El portafolio de IBKR (arriba) y la cuenta de Binance son el fondo de educación de [[nicolas]]** (JR, 2026-10-07). No son inversión personal de JR.
 - Estrategia: **comprar y mantener**. "No somos inversores habituales"; se deja ahí hasta que se necesite.
-- Pendiente: confirmar si es una cuenta aparte o una parte del portafolio IBKR de arriba, y dónde está el BTC.
 
 ## Inversiones privadas / alternativas
 

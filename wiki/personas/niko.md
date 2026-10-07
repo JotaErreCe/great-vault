@@ -38,7 +38,7 @@ El perro más importante en la vida de [[jr]]. Sumamente consentido. Familia, no
 ## 💬 Notas
 
 - Cuando JR hable de Niko, prestar atención total
-- Otras mascotas de la familia: **Leah** (casa de los suegros), **Beto** y **Enrique** (perros de la pradera)
+- Mascotas de la familia (4): Niko, **Leah** (perrita que Magoo le regaló a JR en 2021; vive con los suegros porque tienen un jardín inmenso), **Beto** y **Enrique** (perros de la pradera)
 
 ---
 

@@ -3,12 +3,15 @@ type: persona
 date: 2026-04-30
 rol: Hijo
 relacion: cercana
+aliases: [Nico, Patamon]
 tags:
   - persona
   - familia
 ---
 
 # Nicolás (Nico)
+
+> Apodo prenatal: **Patamon** (por el Digimon). Así le decía JR durante el embarazo, cuando aún no sabían el nombre ni el sexo. En la agenda, "Patamon puede comer carne (15 oct)" se refiere a Nico.
 
 Hijo de [[jr]] y [[monica]]. Recién nacido. La meta de largo plazo de JR gira en torno a él: "que no le haga falta nada a Nico." Como de 2026-04.
 
@@ -54,6 +57,7 @@ Hijo de [[jr]] y [[monica]]. Recién nacido. La meta de largo plazo de JR gira e
 - **Fondo de educación:** ya existe, invertido en bolsa y BTC, en modo comprar y mantener hasta que se necesite (ver [[inversiones]]).
 - **¿Hermano/a?** Lo están discutiendo, sin decidir. Probablemente cuando Nico tenga unos 2 años (~2028).
 - **Hora de dormir:** 7:00–7:30 PM.
+- **Lo que JR quiere que tenga sí o sí:** (1) **golf**, como se lo pasó su papá a él; (2) un **tercer idioma** además de español e inglés; (3) **ser honesto consigo mismo y con los demás**.
 
 ---
 

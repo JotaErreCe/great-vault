@@ -44,7 +44,7 @@ Los datos viven en `wiki/proyectos/activos/dieta/` (dentro del vault, así Synct
 - [x] Sistema convertido a dos personas, con salvaguarda de lactancia
 - [x] Lista `Groceries` creada por JR y compartida con Magoo (2026-08-08)
 - [x] Perfil de JR — 127 kg, 1.89 m, 30 años, IMC 35.6 → **2,076 kcal/día**
-- [x] Perfil de Magoo — 54.4 kg, 1.60 m, 31 años, IMC 21.2, lactancia exclusiva → **1,800 kcal/día**
+- [x] Perfil de Magoo — ⚠️ aquí dice 54.4 kg, pero la báscula del 2026-08-10 marcó **65.27 kg** (ver [[log-peso-magoo]] y [[perfil-magoo]]); JR no sabe el dato actual. Dato original: 1.60 m, 31 años, IMC 21.2, lactancia exclusiva → **1,800 kcal/día**
 - [x] Primer menú semanal (`menu-2026-08-10.md`) + hoja para la empleada
 - [ ] **Báscula de cocina** — sin pesar, el gramaje es adivinanza
 - [ ] Magoo: confirmar el plan con su doctora (lactancia exclusiva)

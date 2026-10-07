@@ -18,7 +18,7 @@ Grupo con el que [[jr]] creció en las vacaciones en La Antigua. Su familia ten�
 | Persona | Relación con JR | Notas |
 |---|---|---|
 | **Estuardo Rosales Chavez** | Primo en 3er grado | Hijo de Estuardo Rosales Mirón, primo de [[lucrecia-arriola\|la mamá de JR]]. Vecino de la casa de Antigua. Fue quien conectó a JR con Mónica. |
-| **Juan Pablo** | Primo en 3er grado | Vecino de la casa de Antigua. Apellido y parentesco exacto con Estuardo pendientes. |
+| **Juan Pablo Rosales Chavez** | Primo en 3er grado | Hermano de Estuardo. Vecino de la casa de Antigua. |
 | **Mario Enrique Campollo Roma** | Amigo de infancia | Del Barrio II de Santo Domingo. |
 | **Javier Foncea Castañeda** | Sobrino en 2º grado | Hijo de Ana Cecilia Castañeda, prima hermana de JR. |
 

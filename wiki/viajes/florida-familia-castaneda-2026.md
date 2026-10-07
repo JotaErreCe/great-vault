@@ -55,6 +55,10 @@ JR reenviò el itinerario por Telegram el 2026-07-17 y corrigió que Geoffrey de
 
 Evitar: **19, 26 y 1 de agosto**. Evitar también **22 tarde** y **25 tarde** por logística de carro/aeropuerto.
 
+## Contexto familiar
+
+Fue un viaje con la familia Samayoa (ver [[suegros]]). El itinerario lo hizo Natalia, y "Papá" en el documento se refiere a **Francisco Samayoa**, no al papá de JR.
+
 ## Nota de corrección
 
 El 2026-07-17 JR aclaró que su itinerario es **solo página 1**; las demás páginas son de la demás familia. Cualquier dato de crucero Disney, Cabo Cañaveral, Castaway, Lookout Cay, etc., corresponde a otras páginas/familias y **no debe usarse** para ubicar a JR salvo que JR lo confirme expresamente.

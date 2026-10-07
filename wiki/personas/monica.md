@@ -44,6 +44,13 @@ Esposa de [[jr]]. Terapeuta infantil y directora de [[understanding-kids]], su c
 - JR le dijo que tenía 15 años, pero tenía 14. Ella se enteró en **enero de 2010**, y eso casi hace que le dijera que no, aunque ya le había dicho que sí le gustaba.
 - Boda: 17-dic-2022.
 
+## 🙂 Cómo es (JR, 2026-10-07)
+
+- **Hobbies:** no tiene, pero empezó a jugar **Magic** y **golf** con JR.
+- **Le estresa:** el trabajo y cuidar a Nico.
+- **Su meta:** ser feliz y ser una buena mamá.
+- Le regaló a JR la perrita **Leah** en 2021 (hoy vive con los suegros).
+
 ## 👨‍👩‍👧‍👦 Familia de origen
 
 - Papás: Francisco Samayoa y Laura Mendoza Yaquián (ver [[suegros]]).

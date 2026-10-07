@@ -25,7 +25,9 @@ Padres de [[monica]] — suegros de [[jr]]. Como de 2026-04.
 
 ## 💬 Notas
 
-- Su perro **Leah** vive en la casa de los suegros.
+- **Leah**, la perrita que Magoo le regaló a JR en 2021, vive con ellos porque tienen un jardín inmenso.
+- **Navidad:** JR, Magoo y Nico suelen viajar con ellos.
+- Viaje a Florida 2026: fue con la familia Samayoa; el itinerario lo hizo Natalia, y "Papá" ahí significa Francisco.
 
 - **Hijos (9):** Laura, [[monica|Mónica]], Andrea, Francisco, Adrián, Natalia, Antonio, Santiago y Mariana.
 - **Relación con JR:** buena.

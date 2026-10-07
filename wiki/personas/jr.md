@@ -48,7 +48,7 @@ Dueño de este vault. Aliases: **JotaErre**, **JR**. Como de 2026-04.
 - Estudió en el **Colegio Internacional Montessori**.
 - Pasó las vacaciones de su infancia en la casa familiar de La Antigua (Barrio II de Santo Domingo) con sus primos y amigos de [[primos-antigua]].
 - Conoció a [[monica|Magoo]] en noviembre de 2009, a los 14 años (ver la historia en [[monica]]).
-- Cuando se fue de la casa de sus papás vivió con su medio hermano [[carlos-castaneda|Carlos (Quiquito)]], que lo ayudó mucho (cercanos 2019–2022).
+- En mayo/junio de 2019, meses después de la muerte de su papá, se fue de su casa en malos términos con su mamá. Vivió con su medio hermano [[carlos-castaneda|Carlos (Quiquito)]], que lo ayudó mucho (cercanos 2019–2022).
 
 ---
 
@@ -65,7 +65,9 @@ Dueño de este vault. Aliases: **JotaErre**, **JR**. Como de 2026-04.
 
 - Alejarse del Derecho si [[crisol-tcg]] y las inversiones con Magoo van bien.
 - Vivir de **rentas e inversiones que generen ingresos pasivos**.
-- Vivir en un lugar con **naturaleza y tranquilidad**.
+- Vivir en un lugar con **naturaleza y tranquilidad**, probablemente en Guatemala.
+- **Meta de ingreso familiar:** **60–80K mensuales** (moneda asumida: quetzales).
+- **Cumpleaños:** le gustan tranquilos, sin planes. No organizarle nada grande.
 - **Casa propia:** probablemente en el futuro, pero hoy la ve como mala inversión por lo cara que está la vivienda en GT. Presupuesto por definir.
 
 ---

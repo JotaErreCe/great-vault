@@ -20,7 +20,7 @@ Inmuebles en cartera de [[jr]]. Como de 2026-04.
 
 | Propiedad | Ubicación | Tipo |
 |-----------|-----------|------|
-| **Casa Elgin II** | Col. Elgin II, Z14 (⚠️ IDENTITY decía Z13; pendiente confirmar), Timbre 2 | **Alquilada** — JR y familia viven aquí |
+| **Casa Elgin II** | Col. Elgin II, **Z13** (confirmado por JR 2026-10-07), Timbre 2 | **Alquilada** — JR y familia viven aquí |
 
 ---
 
@@ -37,7 +37,7 @@ Inmuebles en cartera de [[jr]]. Como de 2026-04.
 |-----------|-----------|--------|------------|---------|
 | **Hexa Cañadá 16** | Zona 16 | Activo + en venta | Arrendado (renta mensual) | Sí — Q4,100/mes (~$535 USD) |
 | **Apto Museo San Mateo** | Zona 7 | Activo | Airbnb — turistas | Sí — variable recurrente |
-| **Casa Country Club** | Zona 11, Col. Country Club | Activo | **Vive la mamá de JR** ([[lucrecia-arriola]]). Casa familiar. | No |
+| **Casa Country Club** | Zona 11, Col. Country Club | Activo | **Vive la mamá de JR** ([[lucrecia-arriola]]). Casa familiar, **heredada de su papá** ([[jose-enrique-castaneda]]). | No |
 | **Casa Antigua** | La Antigua Guatemala | Activo | Arrendada a [[healing-hands]] (Spa + fisioterapia) | Sí — fijo |
 
 ---
