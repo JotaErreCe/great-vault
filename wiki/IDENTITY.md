@@ -23,9 +23,12 @@ tags: [identity, values, voice]
 - **Esposa:** [[monica]] (n. 1994-09-13). Aniversario: 2022-12-17.
 - **Hijo:** [[nicolas]] (n. 2026-03-06, 3:10 PM).
 - **Mascota:** [[niko]] (Nikolai) — perro, familia de primera clase. ⚠️ no confundir con Nicolás.
-- **Madre:** [[lucrecia-arriola]] (viuda).
-- **Medio hermano:** Carlos Enrique Castañeda Boer ([[carlos-castaneda]]).
-- **Suegros:** Laura Mendoza Yaquián y Francisco Samayoa ([[suegros]]).
+- **Padre:** [[jose-enrique-castaneda|José Enrique Castañeda Cofiño]] (falleció el 11-mar-2019). De él le viene el golf.
+- **Madre:** [[lucrecia-arriola|Ana Lucrecia Arriola Cuellar]] (viuda). Vive en la propiedad de JR en Z11 Country Club; JR le da Q7,500/mes.
+- **Medio hermano:** Carlos Enrique Castañeda Boer, "Quiquito", periodista ([[carlos-castaneda]]). Hoy están distanciados.
+- **Suegros:** Laura Mendoza Yaquián y Francisco Samayoa ([[suegros]]). Tienen 9 hijos y cenan con JR y Magoo cada martes.
+- **Infancia:** [[primos-antigua]], el grupo de primos de Antigua con el que creció y por el que conoció a Magoo (2009).
+- **Hogar:** María (empleada) llega lunes, miércoles, viernes y sábado medio día. Limpia, cocina y lava ropa.
 
 ## Quién es
 
@@ -74,16 +77,19 @@ Golf por la mañana → casa → videojuegos → ver partida de Magic Commander 
 
 - **6 meses:** Vender Hexa Cañadá 16 (Z16). Enganchar 2+ apartamentos para revender. Lanzar [[crisol-tcg]]. Aprender a usar IA bien y generar ingresos con ella.
 - **1 año:** Generar al menos Q5,000 más mensualmente.
+- **5–10 años:** Salir del Derecho si Crisol y las inversiones con Magoo funcionan. Vivir de rentas e ingresos pasivos en un lugar con naturaleza y tranquilidad.
+- **Familia:** posible segundo hijo cuando Nico tenga ~2 años. Para Nico prefiere el colegio Montessori (no APDE). Ya existe un fondo de educación para él.
 - **Largo plazo:** Que no le haga falta nada a Nico.
 
 ## Banca e inversiones
 
 - **Banco principal:** G&T Continental (GTQ y USD, cuenta personal — no empleador).
 - **Otros:** Banco Industrial (BI), Banrural.
-- **Inversiones:** Interactive Brokers (IBKR) + cripto.
+- **Inversiones:** Interactive Brokers (IBKR) + cripto. Fondo de educación de Nico en bolsa + BTC, en modo comprar y mantener.
+- **Seguros:** médico RobleMed. Sin seguro de vida.
 
 ## Relacionado
 
 - [[_AI_BOOTSTRAP]] · [[dashboard]] · [[wiki/index]]
-- [[monica]] · [[nicolas]] · [[niko]] · [[lucrecia-arriola]] · [[suegros]]
+- [[monica]] · [[nicolas]] · [[niko]] · [[lucrecia-arriola]] · [[jose-enrique-castaneda]] · [[carlos-castaneda]] · [[suegros]] · [[primos-antigua]]
 - [[finanzas/index|Finanzas]] · [[amc-legal]]

@@ -21,6 +21,7 @@ Formato mensual: `YYYY-MM.md`.
 ## Índice mensual
 
 - [[decisiones/2026-05]]
+- [[decisiones/2026-10]]
 
 ## Relacionado
 

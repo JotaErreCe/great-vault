@@ -35,10 +35,38 @@ Dueño de este vault. Aliases: **JotaErre**, **JR**. Como de 2026-04.
 
 - Esposa: [[monica]]
 - Hijo: [[nicolas]]
-- Madre: [[lucrecia-arriola]] (papá fallecido)
+- Papá: [[jose-enrique-castaneda]] (falleció el 11-mar-2019). Relación muy buena; de él viene el golf.
+- Madre: [[lucrecia-arriola]]
 - Medio hermano: [[carlos-castaneda]]
 - Suegros: [[suegros]]
 - Perro: [[niko]]
+
+---
+
+## 🌱 Historia
+
+- Estudió en el **Colegio Internacional Montessori**.
+- Pasó las vacaciones de su infancia en la casa familiar de La Antigua (Barrio II de Santo Domingo) con sus primos y amigos de [[primos-antigua]].
+- Conoció a [[monica|Magoo]] en noviembre de 2009, a los 14 años (ver la historia en [[monica]]).
+- Cuando se fue de la casa de sus papás vivió con su medio hermano [[carlos-castaneda|Carlos (Quiquito)]], que lo ayudó mucho (cercanos 2019–2022).
+
+---
+
+## 🩺 Salud
+
+- **Último chequeo:** hace ~1 año (≈2025). Solo salió deficiencia de vitamina D, ya corregida. JR reporta no tener ninguna condición actual.
+- **Chequeo nuevo:** JR decidió que no es necesario por ahora (2026-10-06).
+- **Antecedentes familiares (papá):** diabetes mellitus tipo 2 y cáncer pulmonar.
+- **Seguro:** solo médico, [[seguros/poliza-medica-roblemed-gmco-29250|RobleMed GMCO-29250]]. **No tiene seguro de vida.**
+
+---
+
+## 🔭 Visión a 5–10 años
+
+- Alejarse del Derecho si [[crisol-tcg]] y las inversiones con Magoo van bien.
+- Vivir de **rentas e inversiones que generen ingresos pasivos**.
+- Vivir en un lugar con **naturaleza y tranquilidad**.
+- **Casa propia:** probablemente en el futuro, pero hoy la ve como mala inversión por lo cara que está la vivienda en GT. Presupuesto por definir.
 
 ---
 

@@ -36,6 +36,22 @@ Esposa de [[jr]]. Terapeuta infantil y directora de [[understanding-kids]], su c
 
 ---
 
+## 💞 Cómo se conocieron (contado por JR, 2026-10-06)
+
+- **Noviembre 2009, en Antigua.** Habían pasado 3 días desde que murió el abuelo materno de JR (2-nov-2009). Estaban en casa de Estuardo Rosales Chavez (ver [[primos-antigua]]) en su torneo de FIFA de siempre. Le tocaba jugar a Estuardo, que estaba chateando por Facebook, y le pidió a JR que siguiera la conversación por él. La persona del otro lado era Mónica.
+- JR le dijo quién era y la agregó a Facebook desde su propia cuenta para terminar la plática.
+- **Diciembre 2009:** se conocieron en persona en una salida al cine con el grupo de amigos del colegio de Estuardo.
+- JR le dijo que tenía 15 años, pero tenía 14. Ella se enteró en **enero de 2010**, y eso casi hace que le dijera que no, aunque ya le había dicho que sí le gustaba.
+- Boda: 17-dic-2022.
+
+## 👨‍👩‍👧‍👦 Familia de origen
+
+- Papás: Francisco Samayoa y Laura Mendoza Yaquián (ver [[suegros]]).
+- Son 9 hermanos en total: Laura, **Mónica**, Andrea, Francisco, Adrián, Natalia, Antonio, Santiago y Mariana.
+- Colegio: **Campoalegre (APDE)**.
+
+---
+
 ## 🎯 Oportunidades / ideas
 
 - Checkout de `kidsunderstanding.com` roto — urge reparar para que clientes puedan comprar

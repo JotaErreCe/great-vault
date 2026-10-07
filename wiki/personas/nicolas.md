@@ -47,6 +47,16 @@ Hijo de [[jr]] y [[monica]]. Recién nacido. La meta de largo plazo de JR gira e
 
 ---
 
+## 🎓 Educación y futuro (JR, 2026-10-06)
+
+- **Colegio:** JR prefiere el **Colegio Internacional Montessori**, donde estudió él. Pero pesa más que Nico esté cómodo y feliz, siempre que el colegio tenga un nivel "superior". Para JR, los buenos colegios de GT tienen niveles académicos parecidos, y lo que más valora son los **contactos** que Nico pueda hacer.
+- **Descartados:** los colegios de APDE / Opus Dei, como Campoalegre, donde estudió Magoo. No son religiosos.
+- **Fondo de educación:** ya existe, invertido en bolsa y BTC, en modo comprar y mantener hasta que se necesite (ver [[inversiones]]).
+- **¿Hermano/a?** Lo están discutiendo, sin decidir. Probablemente cuando Nico tenga unos 2 años (~2028).
+- **Hora de dormir:** 7:00–7:30 PM.
+
+---
+
 ## 🔗 Relacionado
 
 - [[monica]] — mamá

@@ -82,6 +82,12 @@ Portafolio de inversiones financieras de [[jr]]. Datos capturados al 2026-05-02.
 
 ---
 
+## 🎓 Fondo de educación de Nico
+
+- Existe un fondo de educación para [[nicolas]], invertido en **bolsa y BTC** (JR, 2026-10-06).
+- Estrategia: **comprar y mantener**. "No somos inversores habituales"; se deja ahí hasta que se necesite.
+- Pendiente: confirmar si es una cuenta aparte o una parte del portafolio IBKR de arriba, y dónde está el BTC.
+
 ## Inversiones privadas / alternativas
 
 - **Inversión con [[monica|Magoo]]:** el correo `Propuesta de Representante Legal` no se clasifica como cliente legal; corresponde a inversiones personales/familiares hechas con Magoo.

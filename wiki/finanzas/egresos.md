@@ -33,6 +33,10 @@ Estructura de gastos de [[jr]] y [[monica]]. Tracking detallado en `~/Documents/
 - Celulares (varios)
 - Supermercado
 
+## 👵 Familia
+
+- **Manutención de [[lucrecia-arriola|mamá]]:** Q7,500/mes (desde cuándo: pendiente)
+
 ## 🐕 [[niko]] (Nikolai)
 
 - Fisioterapia Nikolai

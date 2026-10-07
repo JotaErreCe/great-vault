@@ -47,7 +47,6 @@ Los datos viven en `wiki/proyectos/activos/dieta/` (dentro del vault, así Synct
 - [x] Perfil de Magoo — 54.4 kg, 1.60 m, 31 años, IMC 21.2, lactancia exclusiva → **1,800 kcal/día**
 - [x] Primer menú semanal (`menu-2026-08-10.md`) + hoja para la empleada
 - [ ] **Báscula de cocina** — sin pesar, el gramaje es adivinanza
-- [ ] Chequeo médico base de JR (glucosa, lípidos, presión, hígado) — IMC 35.6
 - [ ] Magoo: confirmar el plan con su doctora (lactancia exclusiva)
 - [ ] Confirmar qué días exactos va la empleada (se asumió lun/mié/vie)
 
