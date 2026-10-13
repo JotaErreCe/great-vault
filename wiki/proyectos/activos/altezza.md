@@ -59,6 +59,20 @@ Fuente contractual disponible en Vault: [[resources/legal/contratos/altezza-test
 
 3. **Proporcionalidad:** Si hay atraso computable, es el de Disegno Casa menos el atraso de Altezza al entregar espacios.
 
+### Argumentos contractuales puntuales — 2026-10-12
+
+Fuente: [[resources/legal/contratos/altezza-testimonio-escritura-83-ocr|Testimonio Escritura 83 — OCR no certificado]]. Estos puntos recogen la línea argumentativa indicada por JR para respuesta al cliente; distinguir cita contractual de formulación argumentativa.
+
+1. **Aceptación tácita de avances / acuse:** el contrato establece que los "informes o avances" deben ser evaluados y aceptados por LA CONTRATANTE "en un plazo no mayor de cinco (5) días"; si no hay respuesta u observación, "los informes o avances se tendrán por aceptados". Luego: "Posteriormente se emitirá el acuse de recibo".
+
+2. **Acuse como parte del proceso de pago y suspensión por atraso atribuible a LA CONTRATANTE:** el contrato indica que el acuse se envía a LA CONTRATISTA para presentar en ventanilla "i) factura; ii) orden de compra; ii) acuse de recibo; iv) informe de avance de obra", y que después corre el plazo de quince (15) días calendario para el pago. La cláusula de multa por atraso dice: "En caso en que este atraso sea atribuido a LA CONTRATANTE, de los pagos establecidos en el presente contrato o en sus anexos, LA CONTRATISTA, estará facultada para suspender la ejecución de la obra objeto del presente contrato, si el atraso persiste por más de diez (10) días".
+
+3. **Procedimiento previo para penalizaciones/multas por plazos:** la cláusula cuarta conecta las penalizaciones posteriores con infracciones a plazos: "LA CONTRATANTE tiene la potestad de ejecutar las penalizaciones que más adelante se detallan en caso de infracción a los plazos convenidos para la ejecución de la obra en general". Luego exige notificación y plazo de cura: "se le notificará dicha situación para que lo solvente; en caso de no solventarse en un plazo de diez (10) a quince (15) días hábiles...". La cláusula vigésima cuarta complementa que toda "notificación, aviso, solicitud, aprobación, requerimiento" debe constar "por escrito".
+
+4. **Modificaciones / cronogramas:** la cláusula trigésima cuarta establece que "Cualquier enmienda o anexo deberá constar por escrito y firmada por ambas partes, por los mismos signatarios del presente contrato o por sus representantes legales debidamente facultados para el efecto e incorporada a este contrato en forma de anexo." Argumento JR: si un cronograma no fue firmado por los mismos signatarios o por representante legal debidamente facultado, no modifica el contrato; por tanto, los plazos vigentes son los del contrato original.
+
+5. **Plazos originales:** el contrato fija "QUINIENTOS OCHENTA Y OCHO (588) DÍAS CALENDARIO" desde el cumplimiento de las cuatro condiciones de arranque: firma del contrato, recibo del anticipo, firma de planos finales y cronograma pactado. HITO CERO: 263 días; HITO UNO: 84 días después de hito cero; HITO DOS: instalación. Si se cuenta desde la firma del 11-jul-2024, HITO DOS iniciaría aprox. 22/23-jun-2025 y el plazo total vencería aprox. 18/19-feb-2026. Argumento JR: si el atraso de inicio fue por falta de condiciones imputable a Cayalá/LA CONTRATANTE, ello afecta la procedencia de multas contra Disegno Casa.
+
 ---
 
 ## 📌 Decisiones clave
