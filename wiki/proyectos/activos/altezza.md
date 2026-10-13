@@ -1,7 +1,7 @@
 ---
 type: proyecto
 date: 2026-04-18
-last-touched: 2026-07-13
+last-touched: 2026-10-12
 estado: activo
 tags:
   - proyecto
@@ -21,6 +21,8 @@ Caso legal dentro del cliente/proyecto [[disegno-casa-cliente|Disegno Casa]] / [
 ## 📝 Descripción
 
 Disegno Casa/Brera es contratista de Altezza para suministro e instalación de mobiliario en apartamentos. El contrato formal (Escritura Pública 83, 11-jul-2024) está celebrado con **Inversiones Gamora, S.A.** como contratante, asesorada por el bufete **INJURSA** (abogado Francisco Antonio Cardona). Altezza pretende cobrar multas por atraso según la cláusula vigésimo octava, inciso b) del contrato. JR asesora y redacta la posición legal de Disegno Casa/Brera.
+
+Fuente contractual disponible en Vault: [[resources/legal/contratos/altezza-testimonio-escritura-83-ocr|Altezza — Testimonio Escritura 83 — transcripción OCR]]. Fuente local original: `AMC Legal/Clientes/Brera Arredamenti/Contratos de Obra/Cayala/Testimonio.pdf`.
 
 ---
 
