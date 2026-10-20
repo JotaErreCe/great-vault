@@ -78,3 +78,4 @@ Fotos de la casa (7 JPG), planos de la sala (3 PNG) y las versiones anteriores d
 - [[casa-canada-de-elgin/electrodomesticos]] · [[casa-canada-de-elgin/sala-propuesta-v1]]
 - [[jr]] · [[monica]] · [[nicolas]] · [[niko]] · [[finanzas/propiedades|propiedades]]
 - [[agentes/claude/subagentes]] · [[mapa-de-archivos]] · [[vault-cerebro]]
+- **Mudanza: 1-nov-2026** (JR, 20-oct-2026). No llegan a Black Friday: los electrodomésticos se compran antes. Refri: depende de si se puede abrir el nicho arriba antes de esa fecha.
