@@ -184,3 +184,12 @@ instalación.
 ## Relacionado
 
 - [[casa-canada-de-elgin]] · [[agentes/claude/subagentes]] · [[mapa-de-archivos]]
+
+## 20-oct-2026: listas solo Max con gas (v1)
+- Q25k: Q22,390 (máquina de hielo ICEMAN PriceSmart Q1,199.70 aparte). Q40k: con dispensador LG LM22SGPK Q35,094; sin dispensador Frigidaire FFHT1822UV Q29,092. Archivos: `~/Claude/pendiente-vault/compras/electrodomesticos/lista-max-25k-v1.md`, `lista-max-40k-v1.md`, `pendientes-compra-v1.md`.
+- Max no vende refri con hielo por la puerta que quepa en el nicho; las fichas de Max pueden equivocarse en el dispensador (confirmar con el fabricante). Max no vende accesorios de gas (Cemaco sí). PriceSmart GT muestra precios sin sesión si se abre con JavaScript.
+
+- **Ahora vs Black Friday (20-oct-2026):** Max encadena ofertas cortas y la de Black Friday vence a inicios de diciembre (precios terminados en 6); Siman hace «Black Days» casi todo noviembre. Wayback Machine sirve para precios viejos de Max y Siman. Veredicto: comprar ya lavadora LG y estufa GE; refri esperar a noviembre. Secadora LG DT73EWTXE (Q4,599 en tienda, sin ficha publicada): pedir placa técnica. Falta medir la lavandería.
+
+- **Tienda Max 20-oct-2026:** Frigidaire FRL20F3N5DS (french door 20', agua y hielo internos, inverter) Q9,999 en etiqueta y Q8,497 en max.com.gt (hasta 24-oct): Max puede tener precios web más bajos que en tienda, pedir que respeten el de la web. LG VF25LNIBB (83.6×177.6×84.9 cm) no sirve para el nicho de 99×80×180. Nicho de la refri: 99 ancho × 80 fondo × 180 alto, cerrado.
+- Estufa Frigidaire FKGN30Z0PBBYM (gas, doble horno, 30") Q4,998 en tienda Max hasta 21-oct-2026, sin ficha publicada; GE JGBS66REKSS Q5,799 hasta 4-nov sigue como recomendada. Espacio estufa 78 × 63 cm, muebles a 1.05 m.
