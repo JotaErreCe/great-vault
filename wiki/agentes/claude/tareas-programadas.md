@@ -47,3 +47,4 @@ Los vigilantes consultan Notion directo por REST (barato) y **solo despiertan a 
 
 - [[agentes/claude/AGENT|Claude]] · [[sistema-artes-redes]] · [[mapa-de-archivos]]
 - [[agentes/claude/avisos-tareas-programadas]] · [[agentes/claude/telegram-puente]] · [[agentes/claude/actualizaciones]]
+- **`com.jr.drive-mapa`** (20-oct-2026): domingo 4:00, `~/Claude/bin/drive-mapa-semanal.sh` corre `claude -p` con el rol `buscador-drive` (con `con-drive`, bypass) y actualiza el mapa del Drive; avisa a JR solo si hubo cambios importantes. Log: `~/Library/Logs/drive-mapa.log`.
