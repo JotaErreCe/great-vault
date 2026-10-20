@@ -196,6 +196,8 @@ Totales verificados tras la nueva reunión: **617 min / 10.28 h**, gastos **Q150
 
 [[propi/handoff-2026-08-24|TORONJA, Handoff Propi]] (2026-08-24). Documento de traspaso para que otro agente continúe este cliente desde otra máquina. Trae los pendientes ordenados de más antiguo a más nuevo, las reglas duras de correo y estilo, el bloqueador del nombramiento de José Mario y los errores a corregir. La palabra de verificación es **TORONJA**.
 
+Claude (Mac Mini) usa este handoff como fuente; su memoria solo guarda la regla corta y el enlace (2026-10-19, [[vault-cerebro]]). Desde el 16-oct-2026 Claude envía correo por `gws`, no por Apple Mail ([[agentes/claude/correo]]); las reglas del handoff sobre aprobación, prosa, adjuntos, versiones y rayas largas siguen vigentes.
+
 ## 📌 Actualización — 2026-08-21
 
 Detalle completo en [[propi/mapa-operativo|mapa operativo]], sección 8. Titulares:

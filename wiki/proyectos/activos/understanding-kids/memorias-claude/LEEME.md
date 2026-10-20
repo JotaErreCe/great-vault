@@ -2,9 +2,12 @@
 tipo: handoff
 proyecto: understanding-kids
 creado: 2026-08-14
+status: obsoleto
 ---
 
 # Memorias de Claude para las automatizaciones de artes
+
+> **OBSOLETO desde 2026-10-19.** Estas copias son de agosto y ya no se sincronizan con las memorias reales de Claude (`~/.claude/projects/-Users-jr-Claude/memory/`). Lo vigente está en [[sistema-artes-redes]] (cómo funciona hoy) y el plan de centralización en [[vault-cerebro]]. Se conserva solo como historial.
 
 Copia de las memorias que necesitan las dos tareas programadas de UK/IS, puesta
 en el Vault para que llegue por Syncthing a la otra Mac sin adjuntos ni copias

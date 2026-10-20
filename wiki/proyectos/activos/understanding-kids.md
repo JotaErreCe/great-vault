@@ -2,7 +2,7 @@
 type: proyecto
 date: 2026-04-27
 estado: activo
-last-touched: 2026-07-21
+last-touched: 2026-10-19
 tags:
   - proyecto
   - estado/activo
@@ -87,7 +87,16 @@ Catálogo desactualizado. Checkout carga y muestra Recurrente, pero no ha sido p
 
 > ⚠️ **Corte más reciente: [[proyectos/activos/understanding-kids/estado-2026-08]]** (2026-08-13). Leerlo antes que el resto — corrige staff, contadores, campañas y estado de pendientes. Frente activo: [[proyectos/activos/understanding-kids/contratos-laborales]].
 
+## Para agentes (regla de JR, 13-ago-2026)
+
+- Todo lo que se aprenda de UK va **a este Vault** (`understanding-kids/`); la memoria de un agente puede tener una copia corta, pero el Vault es obligatorio. JR pidió expertise total de la clínica y que no se asuma nada.
+- Orden de lectura: [[proyectos/activos/understanding-kids/estado-2026-08]] (corte más reciente) → esta nota → la nota del frente (contratos, finanzas, formación, staff, operación, [[sistema-artes-redes]], [[campana-eda26]]). Lecciones del sistema de artes: [[artes-decisiones-y-lecciones]].
+- Dónde vive cada cosa: Drive de jcastaneda@ = hub operativo · Notion = calendario de artes y tendencias · iCloud `~/Documents/Understanding Kids/` = motor de artes, pagos, contratos ([[mapa-de-archivos]]).
+- Correo de la clínica (jcastaneda@): desde el 16-oct-2026 por `gws`, no por Apple Mail ([[agentes/claude/correo]]).
+
 ## Próximos pasos
+
+> Actualización 2026-10-19: el primer punto está desactualizado. Los agentes corren en la Mac Mini desde el 14-ago-2026; tendencias corre lunes y jueves 7:00 y solo en IG/FB. Estado vigente: [[sistema-artes-redes]].
 
 - [x] Sistema de artes para IG/FB (posts + historias) **operativo y automatizado**: [[proyectos/activos/understanding-kids/sistema-artes-redes]]. HTML/CSS + Playwright (se abandonó Canva), en iCloud, con 2 agentes programados (generación semanal domingos + tendencias virales jueves en IG/FB/YT/TikTok → Notion 🔥 Tendencias). Ciclo completo probado 2026-07-20. **Pendiente operativo: mudar los agentes a la Mac Mini siempre-encendida — bloqueado hasta el 1-ago-2026 (JR de viaje). Runbook paso a paso: [[proyectos/activos/understanding-kids/migracion-sistema-artes]].** Nota vieja de Canva quedó superada: [[proyectos/activos/understanding-kids/sistema-templates-canva]].
 - [[proyectos/activos/understanding-kids/plan-nutricion-completa]] — plan maestro para completar la wiki operativa de UK antes de crear `README-AI.md` final.

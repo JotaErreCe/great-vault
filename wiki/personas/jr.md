@@ -88,3 +88,4 @@ Dueño de este vault. Aliases: **JotaErre**, **JR**. Como de 2026-04.
 ## Relacionado
 
 - [[wiki/index]]
+- [[como-trabajar-con-jr]] — cómo le gusta trabajar con agentes

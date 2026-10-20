@@ -17,6 +17,7 @@ Regla general: si eres un agente especializado, tu paquete canónico vive en `wi
 | Agente | Carpeta canónica | Estado | Qué debe cargar |
 |---|---|---|---|
 | Geoffrey | `wiki/agentes/geoffrey/` | Activo | `SOUL.md`, `AGENT.md`, `memoria.md`, `skills-permitidas.md` |
+| Claude (Claude Code, Mac Mini; no es OpenClaw) | `wiki/agentes/claude/` | Activo (desde 2026-10-19 en el Vault) | `AGENT.md` y la página del tema; preferencias en [[como-trabajar-con-jr]] |
 | Understanding Kids | `wiki/agentes/understanding-kids/` | Previsto | Crear desde `_templates/openclaw-agent/` cuando Master JR lo apruebe |
 | Finanzas | `wiki/agentes/finanzas/` | Previsto | Crear desde `_templates/openclaw-agent/` cuando Master JR lo apruebe |
 | Legal | `wiki/agentes/legal/` | Previsto | Crear desde `_templates/openclaw-agent/` cuando Master JR lo apruebe |
@@ -40,6 +41,8 @@ Si tu carpeta no existe, **no inventes identidad ni reglas**. Lee [[arquitectura
 | [[amc-legal]] | `wiki/proyectos/activos/amc-legal.md` | Despacho legal, clientes, tarifa USD $90/hr |
 | [[uk-catalogo]] | `wiki/proyectos/activos/uk-catalogo.md` | Catálogo UK, servicios, tienda, formación |
 | [[integracion-sensorial]] | `wiki/proyectos/activos/integracion-sensorial.md` | IS, formación, terapia, UK |
+| [[casa-canada-de-elgin]] | `wiki/proyectos/activos/casa-canada-de-elgin.md` | Casa nueva, mudanza, medidas, electrodomésticos, interiores; subcarpeta `casa-canada-de-elgin/` |
+| [[vault-cerebro]] | `wiki/proyectos/activos/vault-cerebro.md` | Vault como fuente de verdad, migración por fases F0–F8 |
 
 ## Proyectos pausados / archivados
 
@@ -101,6 +104,9 @@ Si tu carpeta no existe, **no inventes identidad ni reglas**. Lee [[arquitectura
 | Plantillas base | `_templates/` | Moldes para proyecto, persona, research, daily, agentes |
 | Plantillas OpenClaw agent | `_templates/openclaw-agent/` | Crear paquetes de agentes nuevos |
 | Visual Identity | `wiki/resources/visual-identity.md` | Paletas, estilos, marcas |
+| [[great-vault]] | `wiki/resources/great-vault.md` | Qué es el Vault, dónde está en la Mac, reglas prácticas para agentes |
+| [[como-trabajar-con-jr]] | `wiki/resources/como-trabajar-con-jr.md` | Preferencias de trabajo de JR para todos los agentes (tú neutro, sin rayas largas, preguntar con opciones, no inventar, guardar en el Vault) |
+| [[mapa-de-archivos]] | `wiki/resources/mapa-de-archivos.md` | Dónde vive todo lo que está fuera del Vault (artes, fotos, fuentes, scripts, LaunchAgents, Drive, Notion, secretos por ruta) |
 | Agenda | `wiki/resources/agenda.md` | Eventos recurrentes, próximos eventos |
 | Correos y contactos | `wiki/resources/correos-y-contactos.md` | Mapa de cuentas y roles de correo |
 | Suscripciones | `wiki/resources/suscripciones.md` | Servicios y cobros recurrentes |

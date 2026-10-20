@@ -29,6 +29,7 @@ Para contexto completo, leer:
 2. `wiki/personas/jr.md` cuando haga falta más perfil personal
 3. El paquete específico del agente en `wiki/agentes/[agent-id]/`
 4. `wiki/resources/protocolo-operativo-agentes.md` para reglas comunes de memoria, continuidad, autoridad y OB1
+5. `wiki/resources/como-trabajar-con-jr.md` para sus preferencias de trabajo detalladas (tú neutro, sin rayas largas, preguntar con opciones, guardar lo aprendido en el Vault)
 
 ## Related
 

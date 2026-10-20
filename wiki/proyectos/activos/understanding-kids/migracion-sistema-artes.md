@@ -1,16 +1,18 @@
 ---
 type: resource
 date: 2026-07-21
-last-touched: 2026-07-21
+last-touched: 2026-10-19
 tags:
   - resource
   - tema/automatizacion
   - tema/infraestructura
   - proyecto/understanding-kids
-status: pendiente-de-ejecutar
+status: obsoleto
 ---
 
 # Runbook — Migrar el sistema de artes a la Mac Mini
+
+> **OBSOLETO desde 2026-10-19.** La migración a la Mac Mini se hizo el 2026-08-14 y la copia del motor en `raw/imports/` se borró. Lo vigente está en [[sistema-artes-redes]] (cómo funciona hoy) y el plan de centralización en [[vault-cerebro]]. Se conserva solo como historial.
 
 Guía **autosuficiente** para mudar la automatización de artes de [[understanding-kids|UK]]/[[integracion-sensorial|IS]] desde la laptop de [[jr]] (`jotaerre`) a la **Mac Mini (`jr`)**, que está encendida 24/7.
 

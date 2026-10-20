@@ -1,7 +1,7 @@
 ---
 type: resource
 date: 2026-07-21
-last-touched: 2026-07-21
+last-touched: 2026-10-19
 tags:
   - resource
   - tema/marketing
@@ -19,6 +19,18 @@ Campaña de lanzamiento de una **especialización clínica para profesionales** 
 > **Mockups / identidad (Drive):** `Administración/Artes/2026/Campañas/Especialización Alimentación 2026 - Mockups/` (ref aprobada: `paleta_final_pizarra_rojo.png`).
 > **Documento maestro / temario (Drive):** doc "Especialización Clínica en Dificultades de la Alimentación" (11 sesiones).
 
+## Estado al 2026-10-19 (corrige lo de abajo)
+
+Pasado al Vault desde las memorias de Claude (F4 de [[vault-cerebro]]). Donde esta sección choca con las de abajo (escritas en julio-agosto), manda esta; y sobre todo manda la entrada **PARÁMETROS** de Notion.
+
+- **Paleta v2 «Azul & Ámbar» (JR, 10-ago-2026), reemplaza a «Pizarra & Rojo»:** fondo `#F8F8F5`, texto `#22303B`, primario azul `#2E7FA6`, acento/CTA ámbar `#F0B024`, highlighter ámbar 38 %. JR rechazó el rojo («no me encantó») y el conjunto apagado («se ve muy The Office»). La entrada PARÁMETROS de Notion ya está en la v2.
+- **Tipografía cableada** (10-ago-2026): Fraunces + Hanken Grotesk ya se usan en el motor vía `theme["font_title"]` / `theme["font_body"]` (el pendiente de abajo está cerrado).
+- **Logos:** toda pieza lleva los **dos** logos (IS y Dra. Davinia García), pero **solo en el cierre** (`lockup_logos()`); portada y flyer de historia van sin logo, con la línea de texto «Con la Dra. Davinia García y Mónica Samayoa». Badge en contorno; el ámbar relleno queda solo para el CTA.
+- **Slogan:** «Aprende a resolver lo que hoy refieres» (JR bajó lo brusco de «…lo que otros solo refieren»).
+- **Inscripciones por WhatsApp (+502 5926-9205) desde el 15-sep-2026, hasta nuevo aviso:** la página de Davinia dejó de funcionar (le congelaron el dominio). Davinia ofreció enlaces de Stripe; **JR decidió WhatsApp**. Ninguna pieza manda a una web ni promete sticker de enlace; en el arte no se menciona el dominio ni el motivo («por causas ajenas a nosotros»). Pieza que lo anuncia: `2026-09-16 - IS EDA26 Aviso inscripciones por WhatsApp`; cuando la página vuelva, esa historia se retira **(sin verificar si ya volvió)**.
+- **Deuda:** las historias de texto de `2026-08-10 … post ancla` y `2026-08-20 … para quien es` salieron sin el azul (bug de `paleta_story`, ver [[artes-decisiones-y-lecciones]]); JR decide si se rehacen.
+- Reglas de producción de campaña: ~4 historias por pieza (flyer + 3 de texto), sin repetir layout; nunca dos slides con el mismo formato seguidos.
+
 ## Qué es (datos duros)
 - **Expositoras:** Dra. Davinia García (médica / neurodesarrollo) + [[monica|Mónica Samayoa]] (integración sensorial). La dupla médica+sensorial es el gancho de autoridad; **la profundidad es el diferenciador #1**.
 - **Formato:** 11 sesiones en vivo (10 + bonus nutrición/alergias), **virtual con acceso a grabaciones**.
@@ -31,7 +43,7 @@ Campaña de lanzamiento de una **especialización clínica para profesionales** 
 - **Slogan:** 2 opciones a elegir por Davinia/Mónica → «Aprende a resolver lo que otros solo refieren» · «Comer es más complejo de lo que parece. Especialízate.»
 - **Trato/idioma:** TODO en **tú neutro** (panregional), nunca voseo. Decisión JR 2026-08-06. Aplica a copy, artes y a mis chats con JR → ver memoria [[feedback_style]].
 
-## Identidad visual (aprobada) — "Pizarra & Rojo"
+## Identidad visual v1 — "Pizarra & Rojo" (REEMPLAZADA el 10-ago-2026 por la v2, ver arriba)
 Se iteró mucho; se descartó terracota y toda paleta que se pareciera a UK (para no chocar con Davinia). Método coherente: base sofisticada + 1 acento, saturación pareja (refs workovereasy / Figma). Distinta a propósito de la línea diaria de UK/IS.
 
 | Rol | Hex |
@@ -87,4 +99,4 @@ Convención JR 2026-07-21: **cada campaña tiene una entrada "PARÁMETROS DE CAM
 - [ ] Landing page → Davinia · Formularios → Mónica.
 
 ## Relacionado
-[[understanding-kids]] · [[integracion-sensorial]] · [[monica]] · [[proyectos/activos/understanding-kids/sistema-artes-redes]] · [[diplomado-autismo-2026]]
+[[understanding-kids]] · [[integracion-sensorial]] · [[monica]] · [[proyectos/activos/understanding-kids/sistema-artes-redes]] · [[diplomado-autismo-2026]] · [[artes-decisiones-y-lecciones]]

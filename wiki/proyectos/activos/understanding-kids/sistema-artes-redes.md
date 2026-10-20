@@ -1,7 +1,7 @@
 ---
 type: resource
 date: 2026-07-21
-last-touched: 2026-08-14
+last-touched: 2026-10-19
 tags:
   - resource
   - tema/marketing
@@ -13,136 +13,175 @@ status: operativo
 
 # Sistema de artes para redes — UK / IS (operativo)
 
-Sistema **automatizado** de generación de artes para Instagram/Facebook de [[understanding-kids|Understanding Kids]] (UK) y su submarca [[integracion-sensorial|Integración Sensorial]] (IS). Reemplaza el enfoque de Canva (ver §Historia). Operativo y probado de punta a punta el 2026-07-20.
+Sistema automatizado que produce los artes de Instagram y Facebook de [[understanding-kids|Understanding Kids]] (UK) y su submarca [[integracion-sensorial|Integración Sensorial]] (IS): plantillas HTML/CSS renderizadas con Playwright a PNG (1080×1350 posts, 1080×1920 historias). Esta página describe **cómo funciona en octubre de 2026**: quién hace qué, cuándo corre, qué reglas no se rompen y dónde vive cada pieza.
 
-> **Sustituye a** [[proyectos/activos/understanding-kids/sistema-templates-canva|sistema-templates-canva]] (enfoque Canva, descartado). Fundamento de marca: [[visual-identity]].
+> **Reescrita el 2026-10-19** a partir de las instrucciones vivas de las tareas (`SKILL.md`), los prompts y scripts de `~/Claude/bin/`, los LaunchAgents y las memorias de Claude. Lo que no se pudo comprobar está marcado **(sin verificar)**. Reglas visuales completas: [[guia-maestra-estilo]] · promos: [[guia-promos-talleres]] · plantillas: [[plantillas-artes]] · rutas: [[mapa-de-archivos]].
 
-## Qué es (en 1 línea)
+## Piezas del sistema
 
-Plantillas **HTML/CSS renderizadas con Playwright** → PNG 1080×1350 (posts) y 1080×1920 (historias). Control total, gratis, reproducible. Se abandonó Canva porque su API no deja diseñar bien (no crea elementos nuevos, no cambia fondos, edición a ciegas por coordenadas).
+| Pieza | Qué hace | Dónde |
+|---|---|---|
+| Motor | Plantillas `build_*.py`, guiones `armar_*.py` (aquí vive el copy), verificadores, fuentes y logos | `~/Documents/Understanding Kids/Artes/Sistema/` (iCloud, taller) |
+| Calendario de Artes | Briefs de Magoo, estados, enlace al arte y a Drive | Notion `collection://175780c0-4762-81ec-a2a0-000bf5fe9eac` |
+| Base 🔥 Tendencias | Sugerencias del agente de tendencias | Notion `collection://c8b3310c-b24a-49f9-8a3f-3dd4c60c5359` |
+| Cola de revisión | Artes recién hechos | `Artes/Pendientes de Revision/` |
+| Histórico local | Artes cerrados | `Artes/Aprobadas/` (descartes en `Artes/_Descartadas/`) |
+| Vitrina | Lo aprobado, de donde publica Magoo | Drive `Administración (1)/Artes/2026/<Marca>/<Tipo>/` |
+| Automatizaciones | 2 tareas programadas de Claude + 3 LaunchAgents | `~/.claude/scheduled-tasks/`, `~/Claude/bin/`, `~/Library/LaunchAgents/com.jr.uk-*` |
 
-## Dónde vive
+Todo corre en la **Mac Mini `jr`** (migrada el 2026-08-14). `~/Documents/Understanding Kids` es un symlink a `~/Library/Mobile Documents/com~apple~CloudDocs/Documents/Understanding Kids`.
 
-**`~/Documents/Understanding Kids/Artes/`** (en **iCloud**, se sincroniza solo entre Macs):
-- `Sistema/` — el motor: scripts `build_*.py`, guías, fuentes y logos embebidos (base64), `pexels_key.txt`, runbook de migración. Autocontenido; rutas relativas a `~/` (funciona con usuario `jotaerre` o `jr`).
-- `Pendientes de Revision/` — artes recién generados, esperando el OK de JR.
-- `Aprobadas/` — artes ya cerrados (subidos a Drive + Notion).
+## Horarios
 
-> **Espejo de respaldo del motor:** `raw/imports/uk-sistema-artes-mirror/` dentro de este vault (viaja por Syncthing). Existe para que la migración a la Mac Mini no dependa de que iCloud funcione. La copia CANÓNICA sigue siendo la de iCloud; tras cambiar una plantilla, re-sincronizar el espejo con el comando de su `_LEEME-ESPEJO.md`.
+| Qué | Cuándo | Cómo se dispara |
+|---|---|---|
+| `uk-tendencias-virales` | lunes y jueves 7:00 | Tarea programada de Claude (cron `0 7 * * 1,4`) |
+| `uk-artes-semanales` | domingo 18:00 | Tarea programada de Claude (cron `0 18 * * 0`) |
+| `uk-cambios` | lunes, miércoles y viernes 20:00 | LaunchAgent `com.jr.uk-cambios` → `uk-cambios-watch.sh` |
+| `uk-cierre` | cada 15 min (y al cargar) | LaunchAgent `com.jr.uk-cierre` → `uk-cierre-watch.sh` |
+| Resumen a Magoo | todos los días 6:00 | LaunchAgent `com.jr.uk-resumen-magoo` → `uk-resumen-magoo.py` |
 
-Guías dentro de `Sistema/` (fuentes de verdad):
-- **`GUIA_MAESTRA_ESTILO.md`** — la línea visual completa: paletas, acento por marca, semántica de color, márgenes, catálogo de plantillas, reglas para crear variaciones sin salirse de la línea, y contenido viral (§7).
-- **`GUIA_PROMOS_TALLERES.md`** — sub-sistema de promoción de talleres (portada-flyer, paleta propia por campaña).
-- **`MIGRACION.md`** + `setup_mac_nueva.sh` — cómo mudar todo a otra Mac. **Runbook completo y actualizado: [[proyectos/activos/understanding-kids/migracion-sistema-artes]]** (vive en el vault a propósito, para que esté disponible aunque iCloud falle).
+Las tareas programadas de Claude **necesitan la app de Claude abierta** en la Mac a la hora del cron. Su horario está en `~/Library/Application Support/Claude/claude-code-sessions/…/scheduled-tasks.json` (lo administra la app, no se edita a mano). Los watchers de `~/Claude/bin` consultan Notion directo por REST (barato) y **solo despiertan a Claude** (`claude -p`) si hay trabajo.
 
-## Organización de almacenamiento y convenciones (dictado por JR, 2026-08-14)
-
-**Dos almacenamientos con roles distintos:**
-- **iCloud = el TALLER** (`~/Documents/Understanding Kids/Artes/`). Acá se trabaja. Subcarpetas: `Sistema/` (motor), `Pendientes de Revision/` (cola de aprobación — nada avanza sin OK de JR), `Aprobadas/` (histórico local), `Logos/` (UK, IS y Dra. Davinia García), `Fotos expositoras/` (retratos recortados de Davinia y Mónica).
-- **Google Drive = la VITRINA** (`.../My Drive/Administración/Artes/`). De acá publica Magoo. **Solo se sube lo aprobado; nada de borradores.**
-
-**Dentro de `Sistema/`:**
-- `build_*.py` — 12 plantillas (portada, contenido, infografía, pasos, comparación, dato, cierre, promo, story…). Renderizan HTML+CSS con Playwright a PNG. **Solo se cambia el dict de contenido; no se toca el HTML.**
-- `armar_*.py` — orquestadores (uno por corrida semanal o por pieza). **Aquí vive el COPY** de cada arte.
-- `verificar_*.py` — **guardarraíles que corren SIEMPRE antes de reportar:** `verificar_marca.py` (lee el fondo real de cada PNG y confirma que corresponda a la marca) + `verificar_caption.py` (reglas de caption).
-- `buscar_foto.py` (Pexels→Openverse), `hacer_sticker.py` (troquela logos sobre foto), `reglas_contenido.py` (valida largo de copy — avisa, no bloquea), guías, fuentes/logos base64, `fonts_eda26/`.
-
-**Estructura de Drive (`2026/`):**
-- `Understanding Kids/` e `Integración Sensorial/` — cada marca con las MISMAS 6 subcarpetas: **Informativo · Frases · Testimonios · Promociones · Servicios · Recursos**.
-- `Campañas/` — una carpeta por campaña, con identidad visual propia (ej. "Diplomado de Autismo", "Especialización Alimentación 2026").
-- `Publicidad/` — carpeta reciente, **fuera de la convención**; ⚠️ CONFIRMAR con JR si se queda o si esos artes van a `<Marca>/Servicios/`.
-- `Artes (JR)/` — histórico viejo (UK, IS, Toylab), NO se usa para producción nueva. `Flashcards/`, `Planes/` — ajenos a este sistema.
-
-**Nomenclatura:**
-- Carpeta por pieza: `<AAAA-MM-DD> - <MARCA> <tema>` — ej. `2026-08-14 - IS Causas de la dificultad para comer`. **La marca NO es cosmética:** `verificar_marca.py` la usa para saber qué fondo esperar → tiene que llevar `- UK ` o `- IS `.
-- Dentro: `01_portada.png`, `02_*.png`, … (slides numerados en orden) · `story_*.png` · `caption.txt` (copy de IG + notas para quien publica).
-- Campañas usan su propia nomenclatura (ej. EDA26: `EDA26_ANCLA_C01.png`, `EDA26_ANCLA_ST1_flyer.png`).
-- ⚠️ **Convención de Magoo:** al publicar, **renombra la carpeta de Drive a "subido"** (de ahí "subido", "subido (1)", "subido (2)"…). Es su marca de "ya salió", pero **borra la fecha y el tema del nombre**. Para saber qué contiene una, hay que abrirla y leer el `caption.txt`.
-
-**Las dos líneas visuales (detalle abajo):** DIARIA (fondo por marca) vs CAMPAÑA (paleta propia). En ambas, **los contactos impresos son SIEMPRE los de UK**; entre marcas solo cambian **logo, acento y fondo**.
-
-## Línea visual (resumen; detalle en GUIA_MAESTRA)
-
-- **Tipografía (fija):** Cocogoose Pro Bold (títulos) + Montserrat (cuerpo).
-- **Texto:** gris `#33363B`.
-- **Fondo y acento POR MARCA (línea DIARIA):** UK fondo crema `#FBFAF6` + acento amarillo `#EEB41E` · **IS fondo celeste `#F4F9FA` + acento turquesa `#3FA8C0`**. Entre marcas cambian **logo, acento y fondo**; contactos y todo lo demás son compartidos (siempre los de UK). En código: `"marca": "UK"/"IS"` en **CADA** slide; si se olvida en uno, sale con fondo UK y **el error es silencioso** → por eso corre `verificar_marca.py`. *(Corregido 2026-08-14: IS tiene fondo propio, ya no comparte el crema de UK.)*
-- **Semántica de color:** rojo terracota suave = negativo (mito/presión) · verde = positivo · amarillo/turquesa = énfasis de marca · celeste = info.
-- **Contactos (ambas marcas):** FB Understanding Kids · IG @kidsunderstanding · WA +502 5926-9205 · kidsunderstanding.com.
-
-## Pilar estratégico: autoridad en autismo (2026-07-21)
-
-Objetivo declarado de JR: que UK/IS sean **reconocidos como autoridad en autismo**. Decisiones y hallazgos:
-
-- **La estrategia es el CRUCE, y la puerta de entrada es SENSORIAL.** Medición con Apify (2026-07-21, 50 reels): `#integracionsensorial` tiene **mediana 89,546 vistas y máximo 2.97M**, contra **16,470 / 44,541** de `#autismo` — 5.4× más en mediana, 67× en el techo. `#autismo` está saturado (~21 posts cada 13 min) y dominado por Brasil/portugués. **Conclusión: el contenido de autismo se publica bajo el ángulo sensorial**, que además es la ventaja real de la casa. Cruces: **autismo × integración sensorial ⭐**, × alimentación, × lenguaje, × emociones, × autonomía, × juego.
-- **Lenguaje identidad-primero: "niño autista"**, nunca "niño con autismo" ([[decisiones/2026-07]]).
-- **Símbolo: el infinito ∞ de neurodiversidad; el 🧩 está prohibido.** No es el glifo tipográfico sino un **activo de marca dibujado** (SVG): trazo fino redondeado + "bump" de lima en las puntas + arcoíris con la paleta UK/IS. Se usa como **sello discreto** (46px, centrado, al pie; en el cierre justo sobre la línea de contacto) activándolo con `"autismo": True` en cada slide — así el ícono queda libre para el emoji del tema.
-- Tono obligatorio: el autismo no es enfermedad; nunca cura/alarmismo/burla.
-- Distinto de la campaña **AUT26** del Diplomado, que JR maneja aparte.
-
-## Datos de redes: Apify (conectado 2026-07-21)
-
-MCP de Apify activo → datos de primera mano de IG/FB/TikTok/YT **con métricas de engagement**, sin arriesgar las cuentas propias de UK (el scraping corre en la infraestructura de Apify). Reemplaza la idea descartada de usar una cuenta propia para scrapear, que era frágil y se ganaba bans.
-
-- Actor probado: `apify/instagram-hashtag-scraper` (~$0.0026 por resultado, ~8 s por corrida).
-- **Gotcha:** al leer resultados pedir solo los campos útiles (`ownerUsername,likesCount,commentsCount,type,productType,timestamp,url,caption`) — devuelve 120+ campos y ahoga el contexto.
-- **Método:** ordenar por engagement (likes + comentarios×3) y buscar **outliers** (5-10× el promedio del hashtag). El outlier ES la tendencia.
-- **Presupuesto: máx ~$2 USD por corrida** semanal (~$5-8/mes).
-
-## Plantillas (build_*.py)
-
-portada · contenido · contenido+imagen · frase/cita · infografía (tarjetas) · pasos · comparación 2 columnas · dato/dona (solo cifra real con fuente) · cierre (CTA+contacto) · promo (talleres) · story (4 tipos de historia). Regla: cada carrusel lleva 1-2 materiales visuales, VARIANDO el tipo (no siempre tarjetas). Fotos reales vía `buscar_foto.py` (Pexels, en inglés); nunca IA para niños.
-
-**Doodles hechos a mano (`doodles.py`, JR 2026-08-24):** biblioteca de ilustraciones SVG con trazo tembloroso (figuras, grupo, nube, nieve, corazón, brote, diálogo, estrella), acento por marca (amarillo UK / turquesa IS). Para artes que deben sentirse "más humanos" (nació del pedido de "gráficos como hechos con crayones de madera"). Se usan como SVG en slides custom (`doodles.doodle(nombre, accent=...)`) o rasterizados (`doodles.to_png(...)`) como imagen en las plantillas del motor. Tablero de prueba: `doodles_board.py`. Doc completa en `GUIA_MAESTRA_ESTILO.md §Doodles`. Referencia de uso: `armar_psico_ado_doodle.py`.
-
-## Automatización (2 agentes programados)
-
-Corren en Claude Code (tareas programadas). **Requieren la app abierta** en una Mac encendida a la hora del cron → objetivo: mudarlos a la Mac Mini siempre-encendida (ver `MIGRACION.md`).
-
-1. **`uk-artes-semanales`** (domingos 18:00): lee el **🗓️ Calendario de Artes** de Notion (briefs que escribe [[monica|Magoo]] en el campo Text) + las tendencias Aprobadas → genera carruseles + historias + captions → guarda en `Pendientes de Revision/`. **Excluye la campaña del Diplomado (AUT26)** — JR la maneja aparte. Reels/video = "atención manual".
-2. **`uk-tendencias-virales`** (**lunes y jueves 7am** — refinado JR 2026-07-21): detecta **FORMATOS/ángulos que se están replicando** en **Instagram y Facebook, SOLO posts estáticos y carruseles** (nada de reels/TikTok/YouTube), para subirse a tiempo (dolor: llegar tarde a trends tipo "Haaland de niño" o "semáforo de alimentación"). Vigila cuentas referentes (`Sistema/tendencias_referentes.md`) + hashtags IG + momentos culturales (WebSearch). Sugiere en la base **🔥 Tendencias** (Status "Sugerida"). Presupuesto ~$1.50/corrida. Filtro de marca: clínica seria.
-
-## Flujo operativo
+## Estados del Calendario (desde el 16-oct-2026)
 
 ```
-Magoo nutre Calendario de Artes ─┐        Agente tendencias (jue) → 🔥 Tendencias
-                                 ▼               │ JR/Magoo aprueban
-        Corrida semanal (dom 18:00) ◄─── lee Aprobadas ┘
-                   │ genera artes + historias + caption
-                   ▼
-        iCloud: Artes/Pendientes de Revision/
-                   │ JR revisa → "aprobadas"
-                   ▼
-   CIERRE (4 pasos): Drive → comentario Notion + Status Done
-   → mover a Aprobadas/ → correo a Magoo (msamayoa@)
-                   ▼
-        Magoo publica desde Meta Business Suite (manual)
+Por hacer → En revisión (JR) ⇄ Cambios pedidos → Revisión Magoo → Aprobado → Publicado
 ```
 
-- **Drive destino:** `Administración/Artes/2026/<Página>/<Tipo>/` (Informativo, Frases, Testimonios, Promociones, Servicios, Recursos).
-- **Publicar NO se automatiza** (Magoo programa desde Meta con los archivos de Drive; los stickers de historias los pone ella).
+| Estado | Quién lo pone | Qué dispara |
+|---|---|---|
+| Por hacer | Magoo / corrida semanal (filas 🔥) | La corrida del domingo la toma si cae en los próximos 10 días |
+| En revisión | Corrida semanal o corrida de cambios, solo con la pieza completa | JR revisa desde el teléfono |
+| Cambios pedidos | JR (o Magoo) con comentarios | La corrida de cambios (L/M/V) arma la v2 |
+| Revisión Magoo | JR (su visto bueno) | Entra al resumen de las 6:00 |
+| Aprobado | **Magoo** | El vigilante de cierre sube a Drive |
+| Publicado | Magoo | — |
 
-## Historia (por qué cambió)
+Los estados viejos (Backlog, Planning, Draft, Done, Posted) ya no existen, y la casilla «Aprobado» tampoco: aprobar es el estado. El campo `Area` se eliminó el 16-oct-2026.
 
-- **2026-07-07:** primer intento con Canva MCP (nota [[proyectos/activos/understanding-kids/sistema-templates-canva|sistema-templates-canva]]). Se topó con que la API de Canva no crea elementos ni cambia fondos.
-- **2026-07-16 →:** pivote a HTML/CSS + Playwright. 5 plantillas base aprobadas por JR, luego ampliadas (promos, historias, semántica de color, acento por marca).
-- **2026-07-20:** ciclo completo probado (8 piezas generadas, aprobadas, subidas a Drive + Notion, correo a Magoo).
-- **2026-07-21:** motor movido a iCloud para migración a Mac siempre-encendida; agente de tendencias creado (4 redes); Apify conectado; pilar de autismo definido con su símbolo propio.
+**Campos que usa el sistema:** `Name`, `Página` (Understanding Kids / Integración Sensorial), `Status`, `Visuals needed`, `Categoría`, `Campaña`, `Text` (brief de Magoo: Tema, Objetivo, Enfoque, Hook, Dirección visual, CTA, Notas), `Date`, `Carpeta del arte` (nombre exacto de la carpeta en disco; es la llave del cierre), `Enlace Drive`, `Fotos`.
 
-## Estado al 2026-07-21 (para retomar sin contexto)
+## 1. Corrida semanal — `uk-artes-semanales` (domingo 18:00)
 
-**✅ Funcionando:**
-- Motor completo con 11 plantillas + historias, probado de punta a punta.
-- Ciclo completo validado el 2026-07-20: 8 piezas generadas → aprobadas por JR → Drive + Notion + correo a Magoo.
-- Los 2 agentes creados y configurados. Apify conectado y probado.
-- Todo el conocimiento en las guías de `Sistema/` + este vault.
+Instrucciones: `~/.claude/scheduled-tasks/uk-artes-semanales/SKILL.md`. Lee al empezar `GUIA_MAESTRA_ESTILO.md` (y `GUIA_PROMOS_TALLERES.md` si hay promos) desde `Sistema/`, y las memorias `uk_template_system.md` y `uk_copy_style.md`.
 
-**⏳ Pendiente (en orden):**
-1. **Migrar a la Mac Mini** — bloqueado hasta el **1 de agosto de 2026** (JR de viaje). Runbook: [[proyectos/activos/understanding-kids/migracion-sistema-artes]]. Mientras tanto las tareas corren en la laptop y **se pierden las corridas cuando está apagada**; se pueden disparar a mano al volver.
-2. **Primera corrida real del agente de tendencias** — nunca ha corrido completo con Apify. Conviene lanzarlo a mano y revisar qué sugiere antes de confiar en el automático.
-3. Formato **Reel/video** sigue sin cubrir (se reporta como "atención manual").
+1. **Candidatos:** `Visuals needed` = sí, `Status` = «Por hacer», las dos marcas, fecha en los próximos 10 días. Ojo: el filtro de `Visuals needed` no es confiable; una semana sin piezas diarias es una anomalía y se reporta como titular (memoria del 11-ago).
+2. **Campañas:** si la fila tiene `Campaña`, primero se lee su entrada «PARÁMETROS DE CAMPAÑA» en Notion (prompt maestro: paleta, tipografía, `THEME_*`). Manda Notion sobre la guía local. Sin entrada maestra y gestionada por JR (ej. **AUT26**) → no se genera.
+3. **Tendencias aprobadas → Calendario** (regla del 16-oct): cada tendencia en «Aprobada» se convierte en fila(s) «🔥 …» del Calendario (dos si la marca es «Ambas»), con fecha según `EVENTO:` o lo antes posible (al menos 5 extras por semana), y la tendencia pasa a «Hecha». Las vencidas no entran.
+4. **Cruce contra Drive:** antes de generar, busca si ya hay arte en `Artes/2026/` (incluye `Campañas/`). Magoo renombra a «subido» al publicar, así que se abre el `caption.txt` para saber qué es.
+5. **Arma cada pieza:** portada (keyword de 1-3 palabras) → slides con al menos 1-2 materiales visuales variados → cierre con CTA; **historia obligatoria** (`build_story.py`); caption en `caption.txt`. Reels/video = «atención manual». Lo que falte va a la sección **DATOS FALTANTES**; nunca se inventa.
+6. **Verificadores** (los dos en 0) — ver abajo.
+7. **Guarda** en `Pendientes de Revision/<AAAA-MM-DD> - <UK|IS> <tema>/` (`01_portada.png`, `02_….png`, `story_*.png`, `caption.txt`).
+8. **Deja la pieza visible en Notion:** imágenes en el **cuerpo** de la fila (ver «Fotos en Notion»), `Carpeta del arte` lleno, `Categoría` si es segura, y `Status` → «En revisión» solo si todo está completo y verde. Ningún otro estado; nada a Drive.
+9. **Aviso a JR por Telegram** con `avisar-jr.sh` (ver «Avisos»).
 
-**Decisiones abiertas:** ninguna. Las de lenguaje y símbolo de autismo quedaron cerradas en [[decisiones/2026-07]].
+**Categorías y familias:** constantes (Informativo, Servicios, Frases, Testimonios, Recursos, Producto, Formación) → plantillas diarias; **Publicidad** (pieza suelta) y **Campañas** (hilo de piezas) → `build_promo.py` según [[guia-promos-talleres]].
+
+## 2. Tendencias — `uk-tendencias-virales` (lunes y jueves 7:00)
+
+Instrucciones: `~/.claude/scheduled-tasks/uk-tendencias-virales/SKILL.md`. No hace artes: escribe sugerencias en la base 🔥 Tendencias con `Status` = «Sugerida» (nunca otro).
+
+- **Alcance:** solo Instagram y Facebook, solo estáticos y carruseles. Busca **formatos/ángulos que se replican** entre cuentas, momentos culturales con puente natural (WebSearch) y outliers.
+- **Fuentes:** cuentas de [[tendencias-referentes]] + barrido de hashtags con Apify (MCP) + WebSearch. Estado entre corridas en `Sistema/tendencias/` (`ledger.py`, `posts.csv`, `angles.jsonl`, `runlog.md`).
+- **Presupuesto Apify:** plan gratis con tope de USD 5/mes; meta ~USD 0.45 por corrida, con escalones según lo que quede del mes (consulta `users/me/limits`).
+- **Máximo 4 sugerencias**, al menos 1-2 de autismo **genuino** (piso, no techo: corrección de JR del 14-ago). Marca **UNA sola** (UK o IS); «Ambas» solo si de verdad aplica. Si depende de una fecha: `EVENTO: <nombre> — <fecha>` en la primera línea de la Sugerencia.
+- **Filtro de marca:** fuera lo que ridiculice a niños o papás, use miedo, se burle de condiciones del desarrollo, toque política/religión/tragedias, o solo funcione como video. No duplicar.
+- JR/Magoo marcan **«Aprobada»** → la corrida del domingo la pasa al Calendario.
+
+## 3. Correcciones
+
+**Automática — `uk-cambios` (L/M/V 20:00).** `uk-cambios-watch.sh` cuenta filas en «Cambios pedidos» con `uk-notion.py cambios`; si hay, corre Claude con `uk-cambios-prompt.md` (con `--permission-mode bypassPermissions`). El agente:
+1. Lee los comentarios de la página y de cada lámina (solo la última sección «🎨 Arte generado»).
+2. Copia solo el bloque de esa pieza a `Sistema/armar_correccion_<fecha>_<tema>.py` y renderiza en `Pendientes de Revision/<carpeta> (v2)/` (o v3…). **Nunca corre un `armar_*.py` viejo.**
+3. Aplica cada pedido literal (lo «aprobado por Mónica», palabra por palabra), mira cada PNG, corre los verificadores.
+4. Con todo en verde: `uk-notion.py v2 …` sube la v2 al cuerpo, marca lo viejo como «Versión anterior», actualiza `Carpeta del arte`, vacía `Enlace Drive` y pone «En revisión». Avisa a JR. Ni Drive, ni correo, ni borrar la v1.
+
+**A demanda — por Telegram.** Reglas en `~/Claude/CLAUDE.md`: Claude actúa como coordinador (prueba hasta ~16-nov-2026), identifica la pieza, confirma en una línea, corrige solo esa pieza, corre los verificadores y manda el PNG por el mismo chat. Una corrección **no** dispara el cierre: no se sube a Drive, no se cambia a Aprobado/Publicado y no se escribe a Magoo. Si la pieza ya está en Drive, se avisa y se espera el OK de JR.
+
+## 4. Cierre — `uk-cierre` (cada 15 min)
+
+`uk-cierre-watch.sh` busca filas con `Status` = «Aprobado» y `Enlace Drive` vacío. Si hay, corre Claude con `uk-cierre-prompt.md`:
+1. Valida por pieza: `Carpeta del arte` existe en Pendientes, `Categoría` tiene valor, verificadores en 0. Si algo falla, salta esa pieza y sigue.
+2. Copia a Drive por el disco montado (cuenta de la clínica): constantes → `2026/<Página>/<Categoría>/<carpeta>/`; Publicidad → `2026/Publicidad/<carpeta>/`; Campañas → `2026/Campañas/<campaña>/<carpeta>/`. Nunca pisa una carpeta existente.
+3. **v2/v3:** el destino es el nombre sin sufijo; si ya estaba en Drive, lo viejo pasa a una subcarpeta «Versión anterior» y la versión nueva queda en la raíz.
+4. Verifica cantidad y bytes origen = destino; recién entonces escribe `Enlace Drive`, comenta en Notion (ubicación + caption) y **mueve** la carpeta a `Aprobadas/`.
+5. Avisa a JR en una línea. **Sin correo a Magoo** (ella aprobó, ya sabe).
+
+**Resumen a Magoo (6:00):** `uk-resumen-magoo.py` le manda **un** correo al día (de jcastaneda@ a msamayoa@, vía `gws`) con lo que entró a «Revisión Magoo»; si no hay nada nuevo, no manda nada. Estado en `~/Claude/state/resumen-magoo.json`.
+
+**Publicar** no se automatiza: Magoo descarga de Drive y publica en Instagram y Facebook (stickers incluidos). Magoo no sube nada a Drive (JR, 28-ago).
+
+## Guardarraíles (se rompen en silencio)
+
+- **Marca:** pieza de IS lleva `"marca":"IS"` en **todos** los dicts (incluido el cierre) y `marca="IS"` en las historias. Si falta en uno, ese slide sale con fondo de UK y nada falla. **UK = crema `#FBFAF6` + amarillo `#EEB41E`. IS = celeste `#F4F9FA` + turquesa `#3FA8C0`.** Nunca comparten fondo.
+- **`build_pasos.steps` = lista de strings**, no de dicts: un dict se imprime literal en el arte y ningún verificador lo caza. Mirar siempre el PNG de un slide de pasos.
+- **Portada:** `headline_keyword` de 1-3 palabras en una línea; el resto en `headline_main`.
+- **Autismo:** `"autismo": True` en cada slide (sello ∞ discreto). Identidad primero: «niño autista», nunca «niño con autismo». Símbolo ∞; el 🧩 está prohibido. Nunca cura/enfermedad/alarmismo.
+- **Contactos:** siempre los de UK, también en IS, importados de `build_cierre` (`CONTACT` / `CONTACT_IS`), con **los dos teléfonos** (Zona 14 +502 5926-9205 · Carretera +502 5214-8161). En captions también se escriben los dos.
+- **EDA26:** inscripciones por WhatsApp (+502 5926-9205) desde el 15-sep-2026; ninguna pieza manda a una página web ni promete sticker de enlace.
+- **Honestidad:** nunca inventar cifras, fechas, precios ni cupos. Fotos de niños: solo stock real, nunca IA.
+- **Copy:** tono humano (nada de «explorar/descubre/potencia»), tuteo, máximo 5 hashtags, nunca punto antes de emoji.
+- **Carruseles:** máximo 10 láminas, que se lean como una sola historia; nunca dos layouts iguales seguidos; historias sin logo de la casa (salvo campaña con co-logo); la rejilla 2×2 de infografía solo con 4 o 6 elementos.
+
+## Verificadores
+
+Desde `Sistema/`, antes de reportar cualquier corrida o corrección:
+
+```bash
+python3 verificar_marca.py --todas "<Pendientes de Revision>"
+python3 verificar_caption.py --todas "<Pendientes de Revision>"   # o el caption.txt de una carpeta
+```
+
+- `verificar_marca.py` lee el fondo real de cada PNG y lo compara con la marca que dice la carpeta (`- UK ` / `- IS `). Reconoce por píxeles los layouts a sangre aprobados y omite las paletas de campaña. **No** detecta un dict impreso en `pasos` ni un color de campaña mal aplicado.
+- `verificar_caption.py` revisa máximo 5 hashtags y ningún punto antes de emoji. Con una carpeta como argumento suelto revienta (`IsADirectoryError`): hay que pasarle el archivo o usar `--todas`.
+- `reglas_contenido.py` avisa por consola si un texto se sale del largo recomendado (no bloquea).
+
+## Fotos
+
+- **Búsqueda:** `buscar_foto.py` (Pexels primero, Openverse de respaldo), en inglés. La llave de Pexels se lee de `Sistema/pexels_key.txt` (ver `_sensitive.md`).
+- **Dónde se guardan:** `~/Documents/Understanding Kids/Artes/Fotos/` (permanente). Nunca referenciar `/private/tmp/...` desde un `armar_*.py`: el scratchpad se borra y la pieza ya no se puede re-renderizar.
+- No repetir la misma foto entre piezas ni entre el post y su historia.
+- **Ilustraciones:** Pollinations dejó de ser gratis (402) y no se le carga saldo (decisión JR 1-oct-2026); las ilustraciones se dibujan en casa (`ilustraciones.py`, `doodles.py`, `ilustracion_antes_hoy.py`).
+- **Fotos en Notion:** el campo `Fotos` **no se puede llenar por API**; los PNG van en el **cuerpo** de la página (`file-upload://…` en bloques de imagen, bajo un encabezado «🎨 Arte generado — <carpeta>»). Si Cloudflare devuelve 403, se re-codifica el PNG y se reintenta.
+
+## Avisos
+
+Todas las corridas desatendidas avisan a JR por Telegram con `~/Claude/bin/avisar-jr.sh "<texto>"` (HTTP `sendMessage`, chat de JR). **Nunca con el plugin MCP de Telegram**: levantarlo en otra sesión le mata el poller al puente. Voz del Tío Iroh, de tú, corto. Se avisa también si la corrida falla.
+
+## Credenciales (solo rutas)
+
+Notion REST: `~/Claude/.secrets/notion.env` · Telegram: `~/.claude/channels/telegram/.env` · token largo de Claude: `~/.claude/secrets/claude-oauth-token` · Pexels: `Sistema/pexels_key.txt` · Apify: configuración MCP en `~/.claude.json`. Valores: nunca en el wiki; referencia en `_sensitive.md`.
+
+## Inconsistencias encontradas el 19-oct-2026 (para F6)
+
+- El `SKILL.md` semanal (paso 6) todavía pide subir los PNG al campo `Fotos`, pero la memoria del 23-ago comprobó que eso no funciona por API; lo que sí funciona es el cuerpo de la página. Conviene alinear el texto.
+- `GUIA_MAESTRA_ESTILO.md` §8 y `GUIA_PROMOS_TALLERES.md` §7 describen el cierre de julio (correo a Magoo, Status «Aprobado» puesto por el agente). Vigente: lo de esta página.
+- `GUIA_PROMOS_TALLERES.md` §1 lista un solo WhatsApp (desde el 10-sep son dos).
+- La memoria `uk_template_system.md` todavía dice que tendencias corre «jueves 18:00» (real: lunes y jueves 7:00) y describe el cierre de 4 pasos con correo a Magoo.
+- La memoria `uk_correcciones_flujo.md` (21-sep) habla de Status «Done» y de responder el correo de Magoo; el flujo del 16/18-oct lo reemplazó (sin correo, estados nuevos). **Resuelto por JR el 19-oct-2026: no se le escribe correo a Magoo; ella pide los cambios por Notion (comentarios + «Cambios pedidos», que procesa `uk-cambios`).** Detalle en [[agentes/claude/subagentes]].
+- En `~/Documents/Understanding Kids/` hay dos symlinks («Administración», «Administración 3») que apuntan a `/Users/jotaerre/...` (usuario de la Mac anterior); en esta Mac no resuelven. Nadie del sistema los usa (el cierre usa `~/Library/CloudStorage/...`).
+- `Drive/2026/Publicidad/` sigue fuera de la convención de 6 tipos; el cierre ya la usa como destino de la categoría Publicidad.
+
+## Historia
+
+- **2026-07-07:** intento con Canva MCP ([[sistema-templates-canva]]): la API no crea elementos ni cambia fondos.
+- **2026-07-16 →:** pivote a HTML/CSS + Playwright; ciclo completo probado el 20-jul.
+- **2026-07-21:** motor a iCloud; agente de tendencias; pilar de autismo y símbolo ∞.
+- **2026-08-03 / 08-05:** fondo por marca y `verificar_marca.py`; reglas de caption y `verificar_caption.py`; 8 layouts de historia.
+- **2026-08-14:** migración a la Mac Mini `jr` ([[migracion-sistema-artes]], hoy obsoleto).
+- **2026-08-17:** reglas de la revisión de JR (historias sin logo, rejilla 2×2, fotos permanentes, talleres como producto).
+- **2026-08-26:** avisos por Telegram con `avisar-jr.sh`.
+- **2026-09-10:** dos teléfonos en todos los cierres.
+- **2026-09-15:** EDA26 inscribe por WhatsApp.
+- **2026-10-16:** nuevo flujo de estados en Notion, cierre automático cada 15 min, resumen diario a Magoo, tendencias aprobadas pasan al Calendario.
+- **2026-10-18:** corrida de cambios L/M/V con v2 y «Versión anterior»; «En revisión» al terminar la corrida semanal.
+- **2026-10-19:** el conocimiento del sistema pasa al Vault ([[vault-cerebro]]); se borró la copia vieja del motor de `raw/imports/`.
 
 ## Relacionado
 
-[[understanding-kids]] · [[integracion-sensorial]] · [[monica]] · [[visual-identity]] · [[uk-catalogo]] · [[proyectos/activos/understanding-kids/migracion-sistema-artes]] · [[proyectos/activos/understanding-kids/sistema-templates-canva]] · [[diplomado-autismo-2026]]
+- [[understanding-kids]] · [[integracion-sensorial]] · [[monica]] · [[visual-identity]] · [[uk-catalogo]]
+- [[guia-maestra-estilo]] · [[guia-promos-talleres]] · [[tendencias-referentes]] · [[plantillas-artes]] · [[artes-decisiones-y-lecciones]]
+- [[agentes/claude/AGENT|Claude]] · [[agentes/claude/tareas-programadas]] · [[agentes/claude/subagentes]]
+- [[mapa-de-archivos]] · [[vault-cerebro]] · [[campana-eda26]] · [[diplomado-autismo-2026]]
+- [[migracion-sistema-artes]] (obsoleto) · [[sistema-templates-canva]] (descartado)

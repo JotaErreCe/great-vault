@@ -1,7 +1,8 @@
 ---
 type: proyecto
 date: 2026-10-19
-estado: en-revision
+estado: en-curso
+last-touched: 2026-10-19
 tags:
   - proyecto
   - estado/activo
@@ -12,10 +13,26 @@ tags:
 
 # Vault como cerebro: plan de centralización
 
-> **Estado:** borrador para revisión de [[jr]]. No se ha movido nada todavía.
+> **Estado:** aprobado por [[jr]] el 2026-10-19 (D1–D5 como se recomendaron). F0–F5 hechas; ver «Progreso».
 > **Pedido de JR (19-oct-2026):** «El vault es el cerebro de todo, no archivos sueltos en la Mac.»
 > «Tiene que tener información de absolutamente todo.» Las imágenes y los artes **no** van adentro,
 > pero el Vault tiene que saber dónde están.
+
+## Progreso
+
+**Decisiones (2026-10-19):** D1–D5 aprobadas tal como se recomendaron (D1 no, D2 no, D3 sí, D4 sí, D5 sí). **D6** queda reemplazada: JR pidió una **auditoría completa** y el diseño de un **segundo cerebro que se alimente solo**, como proyecto aparte. Registro en [[wiki/decisiones/2026-10|decisiones de octubre]].
+
+| Fase | Estado | Fecha | Resultado |
+|---|---|---|---|
+| F0 Respaldo | ✅ hecha | 2026-10-19 | `~/Claude/respaldos/2026-10-vault-cerebro/` (carpeta 700, 6 tar.gz verificados + copia previa de `_sensitive.md`) |
+| F1 Seguridad | ✅ hecha | 2026-10-19 | Copia vieja del motor borrada de `raw/imports/`; llave de Pexels en `_sensitive.md`. La llave nunca estuvo en git (estaba en `.gitignore`), pero sí viajó por Syncthing. **La llave no se rota: decisión de JR del 19-oct-2026** (no le importa que se haya replicado) |
+| F2 Sistema de artes | ✅ hecha | 2026-10-19 | [[guia-maestra-estilo]], [[guia-promos-talleres]], [[tendencias-referentes]] (copias fieles), [[sistema-artes-redes]] reescrita al estado de octubre, [[plantillas-artes]] nueva; [[migracion-sistema-artes]] y `memorias-claude/` marcados obsoletos |
+| F3 Mapa | ✅ hecha | 2026-10-19 | [[mapa-de-archivos]] |
+| F4 Lo que sabe Claude | ✅ hecha | 2026-10-19 | Paquete [[agentes/claude/AGENT\|Claude]] (`wiki/agentes/claude/`: AGENT, rol-coordinador, subagentes, persona-tio-iroh, telegram-puente, avisos-tareas-programadas, notas-de-voz, correo, drive, tareas-programadas, skills-finanzas, actualizaciones, memoria); [[como-trabajar-con-jr]] y [[great-vault]] nuevas; [[artes-decisiones-y-lecciones]] nueva; [[campana-eda26]] (estado oct), [[understanding-kids]] (para agentes), [[sistema-artes-redes]], [[propi]], `USER.md`, índices actualizados. 17 memorias acortadas a regla + enlace; 6 completas con enlace (`telegram_watchdog`, `avisos_tareas_programadas`, `claude_sin_autoupdate`, `vault_centralizacion` y, **hasta F6**, `uk_template_system` y `uk_copy_style`, que lee la corrida del domingo). Mapa memoria → página: [[agentes/claude/memoria]]. `~/Claude/CLAUDE.md` con bloque inicial «el Vault es la fuente de verdad». Respaldo previo: `memory-pre-f4.tar.gz`, `claude-md-pre-f4.tar.gz` |
+| F5 Pendientes de la casa | ✅ hecha | 2026-10-19 | [[casa-canada-de-elgin]] + `casa-canada-de-elgin/` ([[casa-canada-de-elgin/electrodomesticos\|electrodomésticos v8]], [[casa-canada-de-elgin/sala-propuesta-v1\|sala v1]]); fotos, planos y v1–v7 en [[mapa-de-archivos]] § Casa nueva; `LEEME.md` en `~/Claude/pendiente-vault/` (nada borrado) |
+| F6 Rutas | pendiente | — | Hasta entonces las tareas siguen leyendo las guías de `Sistema/`; si se cambia una regla, va en los dos lados. Sumar en F6: que el SKILL semanal lea el Vault en vez de `uk_template_system`/`uk_copy_style` (y luego acortarlas), y actualizar las rutas de los subagentes `compras`, `interiores` y `pendientes-magoo` |
+| F7 Prueba | pendiente | antes del 25-oct | — |
+| F8 Bitácora | parcial | 2026-10-19 | Log y decisión registrados |
 
 ## Por qué
 
@@ -62,7 +79,7 @@ hacerla** por ahora.
 y fuentes y logos convertidos a texto. Syncthing la replica. Recomiendo:
 borrarla del Vault (es `raw/`, por eso pido permiso), pasar la llave a `_sensitive.md` y **cambiar la
 llave de Pexels**, porque ya se copió a otro equipo. El historial de git no lo toco (reescribirlo es
-destructivo).
+destructivo). *(Actualización: la llave no se rota, decisión de JR del 19-oct-2026.)*
 
 **D4. Las memorias de Claude.**
 Recomiendo que el conocimiento pase a páginas del Vault (fuente de verdad) y que cada memoria de
@@ -87,7 +104,7 @@ respaldo previo.
 `~/Claude/respaldos/2026-10-vault-cerebro/`.
 
 **F1. Seguridad (si D3 = sí).** Sacar la copia vieja del motor, mover la llave a `_sensitive.md`,
-avisar a JR para que cambie la llave en Pexels y actualizar la nueva donde la use `buscar_foto.py`.
+avisar a JR para que cambie la llave en Pexels y actualizar la nueva donde la use `buscar_foto.py`. *(La rotación no se hace: decisión de JR del 19-oct-2026.)*
 
 **F2. El sistema de artes en el Vault.**
 - Pasar las guías vivas al Vault con nombre en minúsculas:
@@ -140,6 +157,7 @@ memorias. Al final, buscar que no quede ninguna ruta vieja.
 ## Relacionado
 
 - [[understanding-kids]]
-- [[sistema-artes-redes]]
+- [[sistema-artes-redes]] · [[plantillas-artes]] · [[guia-maestra-estilo]]
+- [[mapa-de-archivos]]
 - [[great-vault]] · [[AGENTS]] · [[protocolo-operativo-agentes]]
-- [[agentes]]
+- [[agentes]] · [[agentes/claude/AGENT|Claude]] · [[como-trabajar-con-jr]] · [[casa-canada-de-elgin]]

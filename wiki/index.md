@@ -23,6 +23,7 @@ tags: [navigation, index]
 - [[arquitectura|Arquitectura de agentes]] — modelo multi-agente, rol orquestador de Geoffrey y regla común de skills.
 - [[agentes/skills/index|Catálogo común de skills]] — skills auditadas y autorizables para agentes.
 - [[agentes/geoffrey/SOUL|Geoffrey]] — mayordomo digital principal de JR. Instrucciones: [[agentes/geoffrey/AGENT|AGENT]] · memoria: [[agentes/geoffrey/memoria|memoria]] · rutinas: [[agentes/geoffrey/rutinas|rutinas]] · skills: [[agentes/geoffrey/skills-permitidas|permitidas]]
+- [[agentes/claude/AGENT|Claude]] — Claude Code en la Mac Mini: Telegram, tareas de UK, coordinador de subagentes. Memoria: [[agentes/claude/memoria|memoria]] · tareas: [[agentes/claude/tareas-programadas|tareas programadas]]
 
 ## Daily Notes
 
@@ -40,6 +41,8 @@ tags: [navigation, index]
 - [[propi]] — Engagement AMC Legal con [[propi-tech]]
 - [[amc-legal]] — Despacho jurídico (hub de clientes)
 - [[tesis]] — UFM. Cap. miércoles 6 PM. Asesor: Fausto García Delgadillo
+- [[casa-canada-de-elgin]] — Casa nueva: mudanza, medidas, electrodomésticos, interiores
+- [[vault-cerebro]] — Vault como fuente de verdad de todo
 
 ## Pausados / archivados
 
@@ -72,6 +75,7 @@ tags: [navigation, index]
 ## Resources
 
 - [[agenda]] · [[outlander-2026]] · [[suscripciones]] · [[visual-identity]] · [[correos-y-contactos]]
+- [[great-vault]] · [[como-trabajar-con-jr]] · [[mapa-de-archivos]]
 
 ## Templates
 

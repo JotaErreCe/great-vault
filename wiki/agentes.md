@@ -24,6 +24,7 @@ Si eres un agente:
 | Agente | Carpeta canónica | Estado |
 |---|---|---|
 | Geoffrey | `wiki/agentes/geoffrey/` | Activo |
+| Claude (Claude Code en la Mac Mini, no OpenClaw) | `wiki/agentes/claude/` ([[agentes/claude/AGENT\|AGENT]]) | Activo |
 | Understanding Kids | `wiki/agentes/understanding-kids/` | Previsto |
 | Finanzas | `wiki/agentes/finanzas/` | Previsto |
 | Legal | `wiki/agentes/legal/` | Previsto |
@@ -37,6 +38,7 @@ Si eres un agente:
 - [[protocolo-continuidad-proyectos]] — recuperación obligatoria de proyectos/subproyectos antes de responder continuidad.
 - [[briefs|Briefs multi-agente]] — señales especializadas y consolidación.
 - [[agentes/skills/index|Catálogo común de skills]] — skills auditadas y whitelist por agente.
+- [[como-trabajar-con-jr]] — preferencias de trabajo de JR comunes a todos los agentes.
 
 ## Relacionado
 
