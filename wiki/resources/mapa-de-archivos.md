@@ -155,3 +155,4 @@ Respaldo: los JSON puntuales de `~/Claude/notion-backups/` (16-oct-2026); no hay
 - [[agentes/claude/AGENT|Claude]] · [[casa-canada-de-elgin]] · [[great-vault]]
 
 - `~/Claude/bin/uk-drive-version.py` (20-oct-2026): sube una versión de un arte a la matriz del Drive (`<título>/vN/`), verifica cantidad y bytes, nunca pisa. Lo usan la corrida semanal, la de cambios y el cierre. Respaldo de los prompts previos: `~/Claude/respaldos/2026-10-20-drive-matriz/`.
+- `~/Claude/bin/con-drive` (20-oct-2026): antepuesto a un comando, permite descargar archivos de Drive/iCloud que no están en la Mac (arregla «Resource deadlock avoided»). Lo usan el puente de Telegram y los vigilantes de cambios y cierre.

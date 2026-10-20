@@ -47,3 +47,5 @@ JR, 19-oct-2026: **«me interesa que aprendas siempre y que lo vayas guardando e
 - [[agentes/claude/AGENT|Claude]] · [[agentes/geoffrey/AGENT|Geoffrey]] · [[protocolo-operativo-agentes]]
 
 - **Para revisar desde el celular, PDF o imagen** (JR, 20-oct-2026): nada de DOCX ni archivos que haya que descargar. Si hay cambios sobre una versión anterior, resaltarlos. En la Mac: `textutil -convert html` y luego Chrome headless `--print-to-pdf`.
+
+- **Informes = one pager** (JR, 20-oct-2026): «Que sea más conciso. Un one pager porfa. Detallado, pero conciso y directo.» Todo análisis o informe que se le mande va en una página: tablas chicas y viñetas, sin prosa larga; el detalle completo queda aparte por si lo pide.
