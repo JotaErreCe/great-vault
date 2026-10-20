@@ -45,3 +45,5 @@ JR, 19-oct-2026: **«me interesa que aprendas siempre y que lo vayas guardando e
 
 - [[jr]] · [[_AI_BOOTSTRAP]] · [[great-vault]] · [[escribir-memoria]]
 - [[agentes/claude/AGENT|Claude]] · [[agentes/geoffrey/AGENT|Geoffrey]] · [[protocolo-operativo-agentes]]
+
+- **Para revisar desde el celular, PDF o imagen** (JR, 20-oct-2026): nada de DOCX ni archivos que haya que descargar. Si hay cambios sobre una versión anterior, resaltarlos. En la Mac: `textutil -convert html` y luego Chrome headless `--print-to-pdf`.
