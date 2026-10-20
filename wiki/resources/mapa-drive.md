@@ -17,15 +17,20 @@ Mapa legible del Drive de JR. Lo mantiene el agente `buscador-drive` (ver [[suba
 
 Relacionado: [[mapa-de-archivos]] (lo local), [[drive]] (cómo se usa gws).
 
-## Resumen del recorrido (2026-10-20)
+**Sedes:** UK tiene dos sedes, **zona 14** y **CAES**. CAES = **Carretera a El Salvador**: «Carretera» y «CAES» son la misma sede. Su administración vive en `Administración CAES` (dueño carretera@).
+
+## Resumen del recorrido (2026-10-20, corregido)
 
 | Cuenta | Elementos | Carpetas | Archivos | Propios |
 |---|---|---|---|---|
-| jcastaneda@kidsunderstanding.com | 22.469 | 3.333 | 19.136 | 8.612 |
-| joserca95@gmail.com | 12.853 | 2.095 | 10.758 | 939 |
+| jcastaneda@kidsunderstanding.com | 23.452 | 3.593 | 19.859 | 8.612 |
+| joserca95@gmail.com | 14.130 | 2.384 | 11.746 | 939 |
 
-- Recorrido por API (`gws drive files list`, `corpora=allDrives`, sin papelera). **No hay unidades compartidas** en ninguna cuenta: todo lo de la clínica son carpetas compartidas, casi todas de `contacto@kidsunderstanding.com`.
-- Las dos cuentas ven las mismas carpetas grandes de la clínica (Administración zona 14, Talleres, Fotografías, Administración CAES). jcastaneda@ ve además Inventario, Material, Evaluación, Imprimibles, contabilidad, Recibos, Yellow Me y el respaldo de la Mac.
+- **Método:** recorrido recursivo carpeta por carpeta (`'<id>' in parents`) desde Mi unidad, cada elemento de «Compartido conmigo» (`sharedWithMe=true`), cada acceso directo (sigue `shortcutDetails.targetId`) y el respaldo de la Mac; unido con un listado plano (`corpora=allDrives`) para no perder archivos sueltos. Sin papelera. El campo `fuente` del índice dice por cuál vía apareció cada elemento.
+- **Por qué se corrigió:** el listado plano solo (primera versión) **omitió 878 elementos de Administración CAES** y otros ~100 en jcastaneda@ y ~1.250 en joserca95@ (Documentos RGAE, carpetas personales compartidas). La búsqueda por nombre tampoco es confiable para lo compartido: `name contains 'Resumen' and name contains 'CAES'` no devuelve nada aunque las hojas existen. Para buscar en lo compartido, usar el índice o recorrer por `parents`.
+- **Verificación contra el disco montado** (`~/Library/CloudStorage/GoogleDrive-<cuenta>/.shortcut-targets-by-id/<id>/`): Administración zona 14 API 5.720 / disco 5.677-5.712; Administración CAES API 996 / disco 946-958; Fotografías API 2.346 / disco 2.345. Las diferencias son de sincronización (carpetas de octubre 2026 que aún no bajan al disco), carpetas que el disco no pudo leer («Resource deadlock avoided») y nombres que el disco reescribe (carpetas homónimas «subido» → «subido (1)…(13)», «/» en el nombre). No hay nada en el disco que falte en la API.
+- **No hay unidades compartidas** en ninguna cuenta: todo lo de la clínica son carpetas compartidas, casi todas de `contacto@kidsunderstanding.com` (zona 14) y `carretera@kidsunderstanding.com` (CAES).
+- Las dos cuentas ven las mismas carpetas grandes de la clínica (Administración zona 14, Talleres, Fotografías, Administración CAES completa). jcastaneda@ ve además Inventario, Material, Evaluación, Imprimibles, contabilidad, Recibos, Yellow Me y el respaldo de la Mac.
 - Rutas que empiezan en «(compartido)» = la carpeta raíz no es de JR (está en «Compartido conmigo»).
 
 ## Árbol principal (clínica)
@@ -63,14 +68,22 @@ Dueño contacto@. En el disco montado aparece como «Administración (1)». Ojo:
 | IGSS | `1LdQ-f6gV9uyetg9MYNhM6Glt1xT4Kthu` | Planillas 2023 |
 | Otras menores | | Análisis ventas y empresa (2022), Cartas de Materiales, Contenido redes sociales, Currículum recepcionistas, Curso de vacaciones, Flyers, Parqueo, Trifoliares, Webinars, Metaverse, _Codex |
 
-### Administración CAES · `1aPckEUvCN2YSGtUgFZU7i-UaG_Q4w2Oz`
-Dueño carretera@. Pese al nombre, hoy es casi solo **personal**:
-- `Expedientes ` (`1rZCZ1mcmL_DTuR2iXps6qTYECEKGO77l`): 4 expedientes activos + «SE DIO DE BAJA» (3).
-- `Inventario Material` (`1Sx4oI6VCS10bTHghtYvpCA_61IHJucBq`): INVENTARIO CAES.xlsx.
-- `Resumen Fin de Mes /Resumen 2026` (`1EoxW5cfv-9Vgp2dKmfhxIhddR0XPfdba` / `1NtYtZzYw0GVtOL4vgL_eqSXM_5aIWUUf`): **vacía**, y solo la ve joserca95@ (jcastaneda@ no la ve).
+### Administración CAES (sede Carretera a El Salvador) · `1aPckEUvCN2YSGtUgFZU7i-UaG_Q4w2Oz`
+Dueño carretera@. 996 elementos. La ven las dos cuentas. Es el equivalente de Administración zona 14 para la sede CAES.
 
-### Carretera
-**No encontré una carpeta de administración de Carretera** en ninguna de las dos cuentas (búsqueda por nombre «Carretera» y recorrido completo). Lo único con «Carretera» en el nombre: `2025-12-11 - Walter - DATOS Carretera 2026.xlsx` (en Documentos contables, 06 Presupuestos). La cuenta carretera@ es dueña de Administración CAES, Documentos RGAE y Grabaciones; si hay carpeta de Carretera, no está compartida con JR.
+| Carpeta | id | Qué tiene |
+|---|---|---|
+| Administración Pagos | `1psuNVXyaUxj3I69_XjNg8cr-_86C7G46` | Cierre de Caja y Estado de Cuentas CAES |
+| · Cierre de Caja 2026 | `16kx8VGT-_AIRFMwZzj0PkqhlPC3I9SEm` | «Cierre de Caja <Mes>/» (enero a octubre 2026) con una hoja o xlsx dentro |
+| · Estado de Cuentas CAES/2026 | `1MCUxlB7CPiMu_6Mw2MNzutFThyKm7oHo` | «<Mes> 2026/» (abril a septiembre) |
+| Resumen Fin de Mes | `1EoxW5cfv-9Vgp2dKmfhxIhddR0XPfdba` | Resumen 2025 (sep a dic) y Resumen 2026 |
+| · Resumen 2026 | `1NtYtZzYw0GVtOL4vgL_eqSXM_5aIWUUf` | 12 carpetas «ENERO 2026» … «DICIEMBRE 2026» (ver patrones abajo) |
+| · Resumen 2025 | `1TT7XTlld1vbg311Ogo-pZ4QPO98ENOMF` | «<Mes> 2025/CIERRE/» y «/RESUMEN/» |
+| Facturas | `1IiXlRIaaggZcOgbt1zFPldpFP2hEzVxo` | Terapeutas/Facturas 2026/<Mes> 2026/<Quincena>/ (`1fPtuNUIGyyGUpxI43njlqNgAIQ7DXUfh`), Papelería |
+| Informes de seguimiento | `16II4u5LKaMzHJUgFHinlkb3Sv-ZoL23v` | ~200 elementos, 7 carpetas de terapeuta y dentro por paciente. **Sensible** |
+| Expedientes | `1rZCZ1mcmL_DTuR2iXps6qTYECEKGO77l` | Expedientes de personal: 4 activos + «SE DIO DE BAJA» (3) |
+| Talleres | `1Y9nBAC0vfoUVFYIVtayTj-3qjhhK5Cqa` | Talleres de la sede: niñeras, pre-universitario, primeros auxilios, autoestima adolescentes, habilidades sociales, Especialización Alimentación, Diplomado IS, programa individual de estimulación sensorial; con fichas de inscripción (Forms) |
+| Inventario Material | `1Sx4oI6VCS10bTHghtYvpCA_61IHJucBq` | INVENTARIO CAES.xlsx |
 
 ### Otras carpetas compartidas de la clínica (raíz en «Compartido conmigo»)
 
@@ -96,7 +109,7 @@ Dueño carretera@. Pese al nombre, hoy es casi solo **personal**:
 | Yellow Me | `12j995Td7UOvn6ITOOMvaGEXTwTyfUYNE` | contacto@ | Tienda de juguetes (2023-2025) |
 
 Documentos sueltos clave (raíz compartida):
-- **Servicios zona 14** (Doc) `1KYv3NWVwwaW_-OXVZk6JsZxmAJF_sxIxahYxnpNTQvc`, contacto@, editado 2026-10-20. **No encontré** equivalentes «Servicios Carretera» ni «Servicios CAES» en ninguna cuenta.
+- **Servicios zona 14** (Doc) `1KYv3NWVwwaW_-OXVZk6JsZxmAJF_sxIxahYxnpNTQvc`, contacto@, editado 2026-10-20. **No hay un «Servicios CAES»** en lo que ven las dos cuentas: ni en el recorrido por carpetas, ni por nombre, ni por texto completo («CAES», «El Salvador», «Salvador»). Si existe, no está compartido con JR.
 - Guía interna para terapeutas — Honorarios y pagos por servicio (Doc) `1DyGf-4iNjdP8k5Dh2QdnI6P3M6dJZZqsJIglBX3u-pc`, msamayoa@.
 - Manual de información para recepción — Understanding Kids (Doc) `13junOrj3XE-LAY0p1SXnVXzo41yH9cSPBfmlN8uWmoo`, msamayoa@.
 - Listado de procesos (Doc) `1dI1p9cB2TdaoNY0LXEbpffW9_QEX7wN7bJRcYlY2uWw`; Misión, Visión y Valores.docx `1gEmu5xNvfa4hP26Z7hc8UHS1sLDig4hv`; Notas - Reunión semanal UK `1WEPCuKh_RpC_kZJwHmw_K7P_hHPaogzsfUHf4JN2EP8`.
@@ -121,7 +134,10 @@ Documentos sueltos clave (raíz compartida):
 | Tipo | Dónde | Patrón de nombre |
 |---|---|---|
 | Resumen mensual zona 14 | AZ14/Administración Pagos/Resumen fin de mes /Resumen <año>/ | Desde jul-2026: «Resumen <Mes> 2026 — Zona 14» dentro de «Resumen Mes de <Mes> 2026/». Antes, nombres sueltos («Resumen Mes de Marzo 2026», «Resumen del mes de enero 2026: zona 14»). Magoo ya creó Octubre, Noviembre y Diciembre 2026 |
-| Resumen mensual Carretera / CAES | **No existen** en lo que JR ve. La carpeta CAES/Resumen Fin de Mes/Resumen 2026 está vacía | |
+| Resumen mensual CAES (Carretera) | Administración CAES/Resumen Fin de Mes /Resumen 2026/<MES> 2026/ | Desde mayo: «Resumen <Mes> 2026 — CAES» (Google Sheet; mayo sin raya: «Resumen Mayo 2026 CAES »). Ene a abr: xlsx dentro de subcarpetas («RESUMEN ENERO 2026 (CAES).xlsx», «RESUMEN FEBRERO 2026 CAES.xlsx», «RESUMEN MARZO 2026», «CAES RESUMEN ABRIL 2026.xlsx») junto con cierre, estados de cuenta y comprobantes. Magoo creó septiembre a diciembre. 2025: «Resumen mes de <Mes> 2025…» en «<Mes> 2025/RESUMEN/» |
+| Cierre de caja CAES | Administración CAES/Administración Pagos /Cierre de Caja/Cierre de Caja 2026/ | «Cierre de Caja <Mes>/» (ene-abr también dentro de cada mes de Resumen 2026) |
+| Estados de cuenta CAES | Administración CAES/Administración Pagos /Estado de Cuentas CAES/2026/<Mes> 2026/ | |
+| Facturas de terapeutas CAES | Administración CAES/Facturas/Terapeutas/Facturas 2026/<Mes> 2026/<Quincena>/ | |
 | Cierre de caja zona 14 | AZ14/Administración Pagos/Cierres de caja zona 14 /Cierre de caja <año>/ | «Cierre de caja Mes de <Mes>/» con una hoja dentro |
 | Estados de cuenta bancarios | AZ14/Administración Pagos/Estados de cuenta zona 14 /<año>/ | «Estados de cuenta <Mes>/» con PDF por banco y moneda |
 | Estados financieros (contador) | Documentos contables…/02 Estados financieros y balances/<año>/ | «AAAA-MM-DD - <Francisco/Walter> - Inversiones Multidisciplinarias Estados…» |
@@ -143,7 +159,8 @@ Documentos sueltos clave (raíz compartida):
 - Cierre de caja 2026: la carpeta «Cierre de caja del mes de Febrero» contiene las hojas de enero, febrero y marzo.
 - Dos «Copia de Resumen mes de diciembre 2025» en la Mi unidad de joserca95@ (abr-2026).
 - Nombres con espacios al inicio o al final (« Administración zona 14 », «Facturas », «Expedientes », «Resumen fin de mes ») rompen búsquedas exactas.
-- «Administración CAES» no tiene administración: solo expedientes de personal e inventario.
+- CAES guarda cierres de enero a abril 2026 en dos lugares: dentro de cada mes de «Resumen 2026» y en «Administración Pagos/Cierre de Caja 2026».
+- Formato de resumen CAES cambia en el año: xlsx en subcarpetas (ene-abr) y Google Sheet «— CAES» desde mayo.
 - Contratos repartidos en 4 lugares: Mi unidad/Contratos, My MacBook Pro/…/Contratos, AZ14/Expedientes y sueltos en la raíz compartida.
 - Respaldo de la Mac con 4.827 archivos de código (`vendor/nano-banana-mcp-local`) y carpetas técnicas (`.superpowers`, `tmp`, `output`).
 - Mi unidad de jcastaneda@ con 5 «Hoja de cálculo sin título» y 4 «Documento sin título».
@@ -152,4 +169,4 @@ Documentos sueltos clave (raíz compartida):
 
 ## Cambios desde el mapa anterior
 
-Primer mapa (2026-10-20). No hay versión anterior con la cual comparar.
+- 2026-10-20 (corrección, ronda 1): primer mapa hecho solo con listado plano; omitía 878 elementos de Administración CAES. Rehecho con recorrido por carpetas y verificado contra el disco. Corregido: CAES = Carretera (una sola sede, no falta ninguna); Administración CAES sí tiene Administración Pagos, Resumen Fin de Mes (2025 y 2026, con hojas «Resumen <Mes> 2026 — CAES»), Facturas, Informes de seguimiento y Talleres; jcastaneda@ también la ve completa. Totales: jcastaneda@ 22.469 → 23.452; joserca95@ 12.853 → 14.130.
