@@ -153,3 +153,5 @@ Respaldo: los JSON puntuales de `~/Claude/notion-backups/` (16-oct-2026); no hay
 - [[vault-cerebro]] · [[sistema-artes-redes]] · [[plantillas-artes]] · [[guia-maestra-estilo]]
 - [[vault-map|Vault Map]] · [[understanding-kids]] · [[_AI_BOOTSTRAP]]
 - [[agentes/claude/AGENT|Claude]] · [[casa-canada-de-elgin]] · [[great-vault]]
+
+- `~/Claude/bin/uk-drive-version.py` (20-oct-2026): sube una versión de un arte a la matriz del Drive (`<título>/vN/`), verifica cantidad y bytes, nunca pisa. Lo usan la corrida semanal, la de cambios y el cierre. Respaldo de los prompts previos: `~/Claude/respaldos/2026-10-20-drive-matriz/`.

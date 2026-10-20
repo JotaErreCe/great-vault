@@ -21,3 +21,6 @@ Cuando la conversación llega por el **canal de Telegram** (chat de JR), Claude 
 ## Relacionado
 
 - [[agentes/claude/AGENT|Claude]] · [[agentes/claude/telegram-puente]] · [[como-trabajar-con-jr]]
+
+## Aviso corto antes de tareas largas (20-oct-2026)
+Si una tarea por Telegram va a tardar más de un minuto, primero un aviso de 10 palabras como máximo («Reviso Notion, dame unos minutos 🍵»); luego la respuesta completa. Regla en ~/Claude/CLAUDE.md.

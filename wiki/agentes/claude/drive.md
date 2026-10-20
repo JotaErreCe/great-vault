@@ -38,3 +38,5 @@ No hay `rclone` ni `gdrive` instalados (sí `gcloud`).
 ## Relacionado
 
 - [[agentes/claude/AGENT|Claude]] · [[mapa-de-archivos]] · [[sistema-artes-redes]] · [[agentes/claude/telegram-puente]]
+
+- **«Resource deadlock avoided» (20-oct-2026):** un archivo de Drive que no está descargado en la Mac no se puede leer desde el montaje (ni con `cp` ni con `cat`, en ninguna de las dos cuentas). Salidas: que JR lo mande por Telegram, o que marque la carpeta como «Disponible sin conexión» en Drive. `gws` no tiene permiso de Drive. Precios de servicios: `Administración zona 14/Inscripción y políticas de pago/Políticas de pago/` (Servicios en clínica, a domicilio, virtuales) y `Política de descuentos .pdf` (aunque hoy no se da descuento, JR 20-oct-2026).

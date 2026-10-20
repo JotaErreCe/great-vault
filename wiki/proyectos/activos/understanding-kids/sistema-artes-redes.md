@@ -95,7 +95,7 @@ Instrucciones: `~/.claude/scheduled-tasks/uk-tendencias-virales/SKILL.md`. No ha
 1. Lee los comentarios de la página y de cada lámina (solo la última sección «🎨 Arte generado»).
 2. Copia solo el bloque de esa pieza a `Sistema/armar_correccion_<fecha>_<tema>.py` y renderiza en `Pendientes de Revision/<carpeta> (v2)/` (o v3…). **Nunca corre un `armar_*.py` viejo.**
 3. Aplica cada pedido literal (lo «aprobado por Mónica», palabra por palabra), mira cada PNG, corre los verificadores.
-4. Con todo en verde: `uk-notion.py v2 …` sube la v2 al cuerpo, marca lo viejo como «Versión anterior», actualiza `Carpeta del arte`, vacía `Enlace Drive` y pone «En revisión». Avisa a JR. Ni Drive, ni correo, ni borrar la v1.
+4. Con todo en verde: `uk-notion.py v2 …` **borra del cuerpo el arte viejo** (en la página queda solo la versión a revisar; JR, 20-oct-2026), sube la v2, actualiza `Carpeta del arte`, vacía `Enlace Drive` y pone «En revisión». Lo borrado se anota en `~/Claude/state/historial-versiones.jsonl`; los PNG viejos siguen en su carpeta. Avisa a JR. Ni Drive, ni correo, ni borrar la v1 de disco.
 
 **A demanda — por Telegram.** Reglas en `~/Claude/CLAUDE.md`: Claude actúa como coordinador (prueba hasta ~16-nov-2026), identifica la pieza, confirma en una línea, corrige solo esa pieza, corre los verificadores y manda el PNG por el mismo chat. Una corrección **no** dispara el cierre: no se sube a Drive, no se cambia a Aprobado/Publicado y no se escribe a Magoo. Si la pieza ya está en Drive, se avisa y se espera el OK de JR.
 
@@ -185,3 +185,5 @@ Notion REST: `~/Claude/.secrets/notion.env` · Telegram: `~/.claude/channels/tel
 - [[agentes/claude/AGENT|Claude]] · [[agentes/claude/tareas-programadas]] · [[agentes/claude/subagentes]]
 - [[mapa-de-archivos]] · [[vault-cerebro]] · [[campana-eda26]] · [[diplomado-autismo-2026]]
 - [[migracion-sistema-artes]] (obsoleto) · [[sistema-templates-canva]] (descartado)
+- **2026-10-20:** (JR) Notion es el hub central de publicaciones: todo lo que Magoo pida por correo u otra vía entra al Calendario como fila completa (fecha, contenido, todo). En cada página queda solo la versión a revisar; nada de «Versión anterior» en Notion (el historial va aparte). Pieza terminada = «En revisión», si no JR no la ve.
+- **2026-10-20:** (JR) **Matriz del arte en Drive:** cada publicación tiene su carpeta con su TÍTULO (sin fecha ni «subido») dentro de `Artes/2026/<Página>/<Categoría>/` (Publicidad y Campañas en su ruta), y adentro una subcarpeta por versión `v1`, `v2`, `v3`… Cada versión sube apenas se genera (semanal → v1, cambios → v2…) con `~/Claude/bin/uk-drive-version.py`; el cierre solo confirma que la aprobada esté y es el único que llena `Enlace Drive` (enlace a la carpeta del título), al pasar a «Aprobado». Magoo ya no renombra carpetas: «Publicado» se marca en Notion. Lo viejo («subido (N)», «pendiente:», «Versión anterior») no se tocó.

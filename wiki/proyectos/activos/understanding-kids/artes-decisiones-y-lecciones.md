@@ -84,3 +84,10 @@ Un prompt de permisos deja colgada la corrida del domingo y esa semana no sale n
 
 - [[sistema-artes-redes]] · [[guia-maestra-estilo]] · [[guia-promos-talleres]] · [[plantillas-artes]]
 - [[campana-eda26]] · [[understanding-kids]] · [[agentes/claude/AGENT|Claude]] · [[agentes/claude/subagentes]]
+
+## Notion como hub y versiones (JR, 20-oct-2026)
+
+- **Notion es el hub central de todas las publicaciones.** Lo que Magoo pida por correo, WhatsApp o en persona se agrega al Calendario de Artes como fila completa, igual que un post normal: fecha, contenido/brief, marca, `Visuals needed`. Si falta la fecha, la fila se crea igual y se pregunta.
+- **En la página de un post queda solo la versión que hay que revisar.** Las versiones viejas no se dejan en Notion porque confunden a quien lo usa. El historial de versiones va en un sistema aparte (por ahora `~/Claude/state/historial-versiones.jsonl` + las carpetas `(v2)`, `(v3)` en disco).
+- **Pieza terminada = «En revisión».** El 20-oct había 6 piezas hechas desde el 15-oct que seguían en «Por hacer» y JR no las veía.
+- **Matriz del arte en Drive (JR, 20-oct-2026):** carpeta por publicación con su título y subcarpetas `v1`, `v2`, `v3`…; cada versión sube al generarse; el `Enlace Drive` va a Notion solo al pasar a «Aprobado»; Magoo marca «Publicado» en Notion y ya no renombra carpetas a «subido». Script: `~/Claude/bin/uk-drive-version.py`.
