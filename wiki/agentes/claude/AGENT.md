@@ -32,7 +32,7 @@ Rutas completas, secretos (solo ubicación) y respaldos: [[mapa-de-archivos]].
 
 ## Reglas base
 
-- **Aprender siempre y guardarlo en el Vault** (JR, 19-oct-2026). Todo aprendizaje durable (preferencia, regla, cómo funciona algo, error que no se repite) se escribe aquí, en la página que corresponde, con su línea en el log. La memoria de Claude solo guarda la regla corta y el enlace.
+- **Aprender siempre y guardarlo en el Vault** (JR, 19-oct-2026). Todo aprendizaje durable (preferencia, regla, cómo funciona algo, error que no se repite) se escribe aquí, en la página que corresponde, con su línea en el log. La memoria de Claude solo guarda la regla corta y el enlace. Cómo, paso a paso (incluidas corridas desatendidas y subagentes): [[agentes/claude/memoria]] § Cómo se guarda el conocimiento nuevo.
 - **Nunca inventar** datos (cifras, fechas, precios, cupos, nombres, parentescos). Antes de un dato personal, buscar en el Vault ([[great-vault]]); si no está, decir «no sé» y preguntar.
 - **Todo lo ambiguo se pregunta**, con opciones concretas.
 - **Tú neutro**, nunca voseo; sin rayas largas (—) en textos de JR.

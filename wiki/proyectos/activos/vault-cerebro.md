@@ -1,7 +1,7 @@
 ---
 type: proyecto
 date: 2026-10-19
-estado: en-curso
+estado: activo
 last-touched: 2026-10-19
 tags:
   - proyecto
@@ -13,7 +13,7 @@ tags:
 
 # Vault como cerebro: plan de centralización
 
-> **Estado:** aprobado por [[jr]] el 2026-10-19 (D1–D5 como se recomendaron). F0–F5 hechas; ver «Progreso».
+> **Estado:** aprobado por [[jr]] el 2026-10-19 (D1–D5 como se recomendaron). F0–F8 hechas (19-oct-2026); quedan una línea en `uk-cambios-prompt.md` y el render de prueba; ver «Progreso».
 > **Pedido de JR (19-oct-2026):** «El vault es el cerebro de todo, no archivos sueltos en la Mac.»
 > «Tiene que tener información de absolutamente todo.» Las imágenes y los artes **no** van adentro,
 > pero el Vault tiene que saber dónde están.
@@ -30,9 +30,9 @@ tags:
 | F3 Mapa | ✅ hecha | 2026-10-19 | [[mapa-de-archivos]] |
 | F4 Lo que sabe Claude | ✅ hecha | 2026-10-19 | Paquete [[agentes/claude/AGENT\|Claude]] (`wiki/agentes/claude/`: AGENT, rol-coordinador, subagentes, persona-tio-iroh, telegram-puente, avisos-tareas-programadas, notas-de-voz, correo, drive, tareas-programadas, skills-finanzas, actualizaciones, memoria); [[como-trabajar-con-jr]] y [[great-vault]] nuevas; [[artes-decisiones-y-lecciones]] nueva; [[campana-eda26]] (estado oct), [[understanding-kids]] (para agentes), [[sistema-artes-redes]], [[propi]], `USER.md`, índices actualizados. 17 memorias acortadas a regla + enlace; 6 completas con enlace (`telegram_watchdog`, `avisos_tareas_programadas`, `claude_sin_autoupdate`, `vault_centralizacion` y, **hasta F6**, `uk_template_system` y `uk_copy_style`, que lee la corrida del domingo). Mapa memoria → página: [[agentes/claude/memoria]]. `~/Claude/CLAUDE.md` con bloque inicial «el Vault es la fuente de verdad». Respaldo previo: `memory-pre-f4.tar.gz`, `claude-md-pre-f4.tar.gz` |
 | F5 Pendientes de la casa | ✅ hecha | 2026-10-19 | [[casa-canada-de-elgin]] + `casa-canada-de-elgin/` ([[casa-canada-de-elgin/electrodomesticos\|electrodomésticos v8]], [[casa-canada-de-elgin/sala-propuesta-v1\|sala v1]]); fotos, planos y v1–v7 en [[mapa-de-archivos]] § Casa nueva; `LEEME.md` en `~/Claude/pendiente-vault/` (nada borrado) |
-| F6 Rutas | pendiente | — | Hasta entonces las tareas siguen leyendo las guías de `Sistema/`; si se cambia una regla, va en los dos lados. Sumar en F6: que el SKILL semanal lea el Vault en vez de `uk_template_system`/`uk_copy_style` (y luego acortarlas), y actualizar las rutas de los subagentes `compras`, `interiores` y `pendientes-magoo` |
-| F7 Prueba | pendiente | antes del 25-oct | — |
-| F8 Bitácora | parcial | 2026-10-19 | Log y decisión registrados |
+| F6 Rutas | ✅ hecha (1 línea pendiente) | 2026-10-19 | Los dos `SKILL.md` leen el Vault ([[guia-maestra-estilo]], [[sistema-artes-redes]], [[plantillas-artes]], [[artes-decisiones-y-lecciones]], [[guia-promos-talleres]], [[campana-eda26]], [[tendencias-referentes]]), con línea de «si Vault y SKILL no coinciden, se reporta» y sección «PARA EL VAULT»; paso 6 alineado (PNG al cuerpo de la página, no al campo `Fotos`). Subagentes `pendientes-magoo`, `compras`, `interiores` apuntan al Vault y reportan lo durable al coordinador. `~/Claude/CLAUDE.md` repuntado. Guías de `Sistema/` (`GUIA_MAESTRA_ESTILO`, `GUIA_PROMOS_TALLERES`, `tendencias_referentes`, `MIGRACION`) → avisos de mudanza tras diff (solo cambiaban encabezado y voseo) y re-grep (ningún `.py` las lee; solo comentarios). Memorias `uk_template_system` y `uk_copy_style` acortadas; lo que faltaba pasó a [[plantillas-artes]] § Detalles técnicos. **Pendiente:** `~/Claude/bin/uk-cambios-prompt.md` línea 7 todavía nombra `Sistema/GUIA_MAESTRA_ESTILO.md` (no se tocó antes de la corrida de las 20:00; el aviso de mudanza apunta al Vault, así que no rompe). `uk-cierre-prompt.md` no cita guías. Respaldo: `~/Claude/respaldos/2026-10-vault-cerebro/f6/` |
+| F7 Prueba | ✅ hecha (sin render) | 2026-10-19 | Rutas de SKILLs, subagentes y `CLAUDE.md`: todas existen y se leen (Drive por `Administración (1)`, como prevé el SKILL). Prueba en seco con `claude -p` solo con `Read`: la corrida semanal leyó las 6 páginas y la de tendencias las 3. `verificar_marca.py` y `verificar_caption.py` en 0 sobre Pendientes. **No hecho:** el render de prueba de una plantilla a carpeta temporal (fuera del alcance de esta pasada) |
+| F8 Bitácora | ✅ hecha | 2026-10-19 | Log, este «Progreso» y la regla de guardado en [[agentes/claude/memoria]] § Cómo se guarda el conocimiento nuevo |
 
 ## Por qué
 

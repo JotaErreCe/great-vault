@@ -64,7 +64,7 @@ Los estados viejos (Backlog, Planning, Draft, Done, Posted) ya no existen, y la 
 
 ## 1. Corrida semanal — `uk-artes-semanales` (domingo 18:00)
 
-Instrucciones: `~/.claude/scheduled-tasks/uk-artes-semanales/SKILL.md`. Lee al empezar `GUIA_MAESTRA_ESTILO.md` (y `GUIA_PROMOS_TALLERES.md` si hay promos) desde `Sistema/`, y las memorias `uk_template_system.md` y `uk_copy_style.md`.
+Instrucciones: `~/.claude/scheduled-tasks/uk-artes-semanales/SKILL.md`. Desde el 19-oct-2026 (F6 de [[vault-cerebro]]) lee al empezar las páginas del Vault: [[guia-maestra-estilo]], esta página, [[plantillas-artes]], [[artes-decisiones-y-lecciones]] y, si hay promos o campañas, [[guia-promos-talleres]] y [[campana-eda26]]. Los archivos de `Sistema/` con esos nombres son avisos de mudanza. Lo durable que aprende lo deja en «PARA EL VAULT» del reporte (regla en [[agentes/claude/memoria]]).
 
 1. **Candidatos:** `Visuals needed` = sí, `Status` = «Por hacer», las dos marcas, fecha en los próximos 10 días. Ojo: el filtro de `Visuals needed` no es confiable; una semana sin piezas diarias es una anomalía y se reporta como titular (memoria del 11-ago).
 2. **Campañas:** si la fila tiene `Campaña`, primero se lee su entrada «PARÁMETROS DE CAMPAÑA» en Notion (prompt maestro: paleta, tipografía, `THEME_*`). Manda Notion sobre la guía local. Sin entrada maestra y gestionada por JR (ej. **AUT26**) → no se genera.
@@ -155,10 +155,10 @@ Notion REST: `~/Claude/.secrets/notion.env` · Telegram: `~/.claude/channels/tel
 
 ## Inconsistencias encontradas el 19-oct-2026 (para F6)
 
-- El `SKILL.md` semanal (paso 6) todavía pide subir los PNG al campo `Fotos`, pero la memoria del 23-ago comprobó que eso no funciona por API; lo que sí funciona es el cuerpo de la página. Conviene alinear el texto.
-- `GUIA_MAESTRA_ESTILO.md` §8 y `GUIA_PROMOS_TALLERES.md` §7 describen el cierre de julio (correo a Magoo, Status «Aprobado» puesto por el agente). Vigente: lo de esta página.
-- `GUIA_PROMOS_TALLERES.md` §1 lista un solo WhatsApp (desde el 10-sep son dos).
-- La memoria `uk_template_system.md` todavía dice que tendencias corre «jueves 18:00» (real: lunes y jueves 7:00) y describe el cierre de 4 pasos con correo a Magoo.
+- ~~El `SKILL.md` semanal (paso 6) todavía pide subir los PNG al campo `Fotos`.~~ Corregido en F6 (19-oct-2026): el paso 6 ahora dice cuerpo de la página.
+- [[guia-maestra-estilo]] §8 y [[guia-promos-talleres]] §7 (copias fieles de las guías de `Sistema/`) describen el cierre de julio (correo a Magoo, Status «Aprobado» puesto por el agente). Vigente: lo de esta página.
+- [[guia-promos-talleres]] §1 lista un solo WhatsApp (desde el 10-sep son dos).
+- ~~La memoria `uk_template_system.md` todavía dice que tendencias corre «jueves 18:00» y describe el cierre con correo a Magoo.~~ Resuelto en F6: la memoria quedó como regla corta con enlace.
 - La memoria `uk_correcciones_flujo.md` (21-sep) habla de Status «Done» y de responder el correo de Magoo; el flujo del 16/18-oct lo reemplazó (sin correo, estados nuevos). **Resuelto por JR el 19-oct-2026: no se le escribe correo a Magoo; ella pide los cambios por Notion (comentarios + «Cambios pedidos», que procesa `uk-cambios`).** Detalle en [[agentes/claude/subagentes]].
 - En `~/Documents/Understanding Kids/` hay dos symlinks («Administración», «Administración 3») que apuntan a `/Users/jotaerre/...` (usuario de la Mac anterior); en esta Mac no resuelven. Nadie del sistema los usa (el cierre usa `~/Library/CloudStorage/...`).
 - `Drive/2026/Publicidad/` sigue fuera de la convención de 6 tipos; el cierre ya la usa como destino de la categoría Publicidad.
