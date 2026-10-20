@@ -54,3 +54,6 @@ Relacionado: las actualizaciones de Claude Code también colgaban el puente por 
 
 - [[agentes/claude/AGENT|Claude]] · [[agentes/claude/persona-tio-iroh]] · [[agentes/claude/avisos-tareas-programadas]]
 - [[agentes/claude/actualizaciones]] · [[agentes/claude/tareas-programadas]] · [[mapa-de-archivos]]
+
+## 6. Límite de uso + bucle de reinicios (20-oct-2026)
+La sesión llegó al límite de uso a las 00:04; el destrabador lo confundió con atasco y reinició el puente 60 veces en la noche. Corregido en `telegram-destrabar.sh`: el límite se avisa una sola vez sin reiniciar, y un episodio solo se cierra cuando el mensaje pendiente recibe respuesta. Backup `.bak-20261020`.
