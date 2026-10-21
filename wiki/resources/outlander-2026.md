@@ -25,6 +25,22 @@ Vehículo de [[jr]]. Plan de 6 servicios prepagados hasta 25,000 km. Los servici
 
 ---
 
+## Crédito del vehículo — datos recuperados el 21-oct-2026
+
+Fuente primaria: PDF «PLAN - INVERSIONES MULTIDISCIPLINARIAS, SOCIEDAD ANÓNIMA C1 (1).pdf», adjunto al correo de Wendy López (G&T), 4-dic-2025, asunto «CREDITO DE VEHICULO» (buscar por remitente wenlopez@gtc.com.gt y fecha). Documento titulado proyección de financiamiento, fechado 6-oct-2025; no es contrato firmado.
+
+- Precio del vehículo con IVA: **Q316,900.00**.
+- Enganche: **Q100,000.00** (31.56%).
+- Saldo del precio a financiar: **Q216,900.00**.
+- Gastos financiados: administración Q175.00 + legales Q2,979.50.
+- **Monto total financiado: Q220,054.50**.
+- **Plazo: 84 meses (7 años)**.
+- **Tasa anual nominal: 8.50%**, tanto primer año como a partir del segundo, según el plan.
+- TAE indicada: **8.84%**.
+- Cuota del préstamo proyectada: Q3,484.89; seguro Q764.52; total proyectado Q4,249.41/mes.
+- Diferencia pendiente de conciliar: notas contables de UK indican ~Q4,233/mes y un comprobante Q3,346.57. No reemplazar movimientos reales por la proyección ni afirmar condiciones contractuales vigentes sin contrato.
+- Correo acompañante: fecha de pago día 5; primer pago 5-dic-2025 Q2,108.27; ene-2026 en adelante según plan.
+
 ## Plan "Experto" — 6 servicios prepagados
 
 - **Cobertura:** hasta 25,000 km / 16 feb 2028
