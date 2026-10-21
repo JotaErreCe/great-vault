@@ -50,6 +50,7 @@ Compra: [[casa-canada-de-elgin/electrodomesticos|guía de electrodomésticos (v8
 - 4.31 × 3.42 m.
 - Se ve en las fotos: cerámica crema con tapete de octágonos y cenefa, paredes blancas, viga en el techo, puertas de vidrio al patio y puerta a la cocina.
 - Necesita: mesa de comedor, bufetera, sillas, cuadros.
+- Bufetera: en la pared sin arco, puerta ni ventana (JR, 21-oct-2026); por las fotos parece la larga (4.31 m), falta confirmar midiendo. Alfombra recomendada: 7 × 10 pies (8 × 10 si esa pared es la corta), pelo bajo y lavable; dejar 30 a 40 cm entre alfombra y bufetera; mesa de 90 cm de ancho como máximo. JR evalúa una persa de USD 7,400 (recomendación: solo si es iraní anudada a mano y con certificado, y mejor para la sala).
 
 ## Segundo nivel
 
