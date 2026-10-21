@@ -80,3 +80,9 @@ Fotos de la casa (7 JPG), planos de la sala (3 PNG) y las versiones anteriores d
 - [[jr]] · [[monica]] · [[nicolas]] · [[niko]] · [[finanzas/propiedades|propiedades]]
 - [[agentes/claude/subagentes]] · [[mapa-de-archivos]] · [[vault-cerebro]]
 - **Mudanza: 1-nov-2026** (JR, 20-oct-2026). No llegan a Black Friday: los electrodomésticos se compran antes. Refri: depende de si se puede abrir el nicho arriba antes de esa fecha.
+
+### Alfombras: precios de referencia (21-oct-2026)
+- Tienda local ofrece alfombras afganas anudadas a mano (fotos por Telegram). Precio justo por tipo, 8×10, distribuidores en línea: Khal Mohammadi US$800–1,400 (fina 2,700–3,150); Chobi peces/pájaros US$1,600–2,600; Chobi Ziegler/Sultani US$900–1,900; tribal Qashqai/Kazak US$600–1,200; Kashan/Nain US$1,500–3,150 (origen afgano dudoso).
+- Techo razonable en tienda GT = (precio + envío ~US$628) × 1.288 (DAI 15% cap. 57 + IVA 12%). Ninguna debería pasar de ~Q37k; la mayoría Q15–25k.
+- La de US$7,400 (otra, «iraní») está por encima de toda Kashan/Nain nueva 8×10 encontrada (US$1,500–6,215).
+- Alibaba/AliExpress: nada recomendable. Detalle: `~/Claude/pendiente-vault/compras/alfombras-persas-online/one-pager-v1.md`.
