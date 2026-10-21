@@ -33,3 +33,16 @@ Base de números que arma el agente `finanzas-uk` (ver [[agentes/claude/subagent
 - **Decisión JR (21-oct-2026):** no perseguir tasa ni plazo de los préstamos; trabajar con las cuotas que salen en los estados de cuenta (p. ej. Q4,233/mes del carro) como pago de deuda.
 - **Préstamo G&T del vehículo, condiciones (JR, 21-oct-2026):** financiado Q220,054.50 (Q216,900 vehículo + Q175 administración + Q2,979.50 gastos legales); enganche Q100,000; 84 meses; tasa nominal 8.50% fija (TAE 8.84%). Cuota calculada de capital + interés: Q3,484.89/mes. Lo que sale de la cuenta (~Q4,233) incluiría otros cargos (p. ej. seguro), por confirmar en estados de cuenta.
 - **Préstamo G&T del vehículo:** el contrato firmado no está digitalizado (búsqueda completa en el Drive de las dos cuentas y en el Vault, 21-oct-2026). Sí están el acta de asamblea y el acta notarial del 17-oct-2025 (Mitsubishi, crédito G&T con garantía mobiliaria y fiduciaria, sin plazo ni tasa), los formularios en `Documentos contables…/08 Créditos y formularios bancarios/2025` y los comprobantes de pago en el correo (p. ej. Q3,346.57 el 4-dic-2025).
+
+## Costo real 12 meses, v3 (oct-2025 a sep-2026; 21-oct-2026)
+- Reglas de JR (21-oct): dirección Q16,653.43/mes (Q20k menos la cuota de apertura), 100% a terapias; publicidad de Meta de cada diplomado es costo directo del diplomado; plataforma repartida por lo que factura cada línea (62.6% terapias); talleres presenciales usan la clínica, los en línea no.
+- Fijo por sesión neto de IVA: Z14 Q295.36, CAES Q297.60 (techo: incluye toda la publicidad de Meta, que no se puede separar por campaña en el período; piso sin Meta: Z14 Q267.22, CAES Q277.86).
+- Precio mínimo para 20% con IVA: Q250 → ~Q537-540; Q350/Q400 → Q598-601 (piso Q559-574). Terapias y evaluaciones: −Q273k en 12 meses (piso −Q214k); la formación cobró Q422.5k con IVA.
+- Carro: débito ~Q4,233 = cuota G&T Q3,470.57 + seguro Q762.94. El contador no registra el interés (~Q13.5k ene-sep, ~Q3.4k de ISR) y registra el préstamo en Q316k.
+- Entregables: `~/Claude/pendiente-vault/finanzas-uk/costo-real-12m/` (resumen, anexo, xlsx, PDF v3).
+- Decisión JR (21-oct-2026): no se baja el detalle de Meta por campaña; se trabaja con el rango techo-piso para precios.
+
+## Modelo financiero propio (aprobado por JR, 21-oct-2026)
+- Los estados del contador tienen errores conocidos (interés del carro, préstamo en Q316k, cobrado vs facturado, anticipos de Mónica): UK lleva sus propios libros (Libro Diario en partida doble → Mayor → Balanza → Balance, Resultados, Flujo) y cuadra con el contador cada trimestre.
+- Google Sheet «UK - Modelo Financiero» en el Drive de la clínica, privado para JR, todo con fórmulas y supuestos editables. Primero se arma; la automatización viene después.
+- Indicadores aprobados y descartados: `~/Claude/pendiente-vault/finanzas-uk/modelo-financiero/propuesta-v1.md` (sin Estado de Cambios en el Patrimonio ni Notas; sin ROIC, AOV, ratios de deuda redundantes ni de marketplace/inmobiliario/inventario).
