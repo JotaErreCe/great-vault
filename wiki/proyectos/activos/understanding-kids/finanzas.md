@@ -26,3 +26,4 @@ Base de números que arma el agente `finanzas-uk` (ver [[agentes/claude/subagent
 
 ## Relacionado
 - [[understanding-kids]] · [[agentes/claude/subagentes]]
+- **Préstamo G&T del vehículo:** el contrato firmado no está digitalizado (búsqueda completa en el Drive de las dos cuentas y en el Vault, 21-oct-2026). Sí están el acta de asamblea y el acta notarial del 17-oct-2025 (Mitsubishi, crédito G&T con garantía mobiliaria y fiduciaria, sin plazo ni tasa), los formularios en `Documentos contables…/08 Créditos y formularios bancarios/2025` y los comprobantes de pago en el correo (p. ej. Q3,346.57 el 4-dic-2025).
