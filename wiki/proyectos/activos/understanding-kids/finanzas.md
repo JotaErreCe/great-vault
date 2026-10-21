@@ -51,3 +51,6 @@ Base de números que arma el agente `finanzas-uk` (ver [[agentes/claude/subagent
 - Préstamo de apertura: deuda de UK; JR es intermediario (JR, 21-oct-2026).
 - Modelo en base de caja, aprobado por JR (21-oct-2026).
 - PayPal de UK (acceso de Magoo): cobros de diplomados del extranjero sin factura; se usa para pagar expositoras. Riesgo fiscal pendiente con el contador (JR, 21-oct-2026).
+- Los EF de Elder no se piden: él los manda cuando están listos (JR lo repitió el 21-oct-2026). Estados bancarios: los baja JR.
+- Carpeta de estados de cuenta bancarios (los manda JR por Telegram y Claude los sube): Drive jcastaneda@ «UK - Estados de cuenta» id 1LB6mpRG89fUpAm1pH2k0QD80XVY-tmZg, privada (21-oct-2026).
+- **Modelo v2 con costos por programa (21-oct-2026):** fuentes en `~/Claude/pendiente-vault/finanzas-uk/modelo-financiero/fuentes-costos-formacion.md` (Sheets de Magoo de cada diplomado con «Pagos realizados», «Tabla histórica de formación 2024–2026» en joserca95@, carpeta «Pago expositoras diplomado autismo»). Ene-sep: costos directos de formación Q94.7k (Autismo Q38.2k, IS 2026 Q22.4k, alimentación Q32.6k); utilidad antes de ISR −Q27k; EBITDA Q41k (4.7%); DSCR 0.75. Pagos a expositoras en USD salen de PayPal. US$729.60 a Dafne pagados con tarjeta de JR: UK le debe a JR.
