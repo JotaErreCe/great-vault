@@ -54,3 +54,10 @@ Base de números que arma el agente `finanzas-uk` (ver [[agentes/claude/subagent
 - Los EF de Elder no se piden: él los manda cuando están listos (JR lo repitió el 21-oct-2026). Estados bancarios: los baja JR.
 - Carpeta de estados de cuenta bancarios (los manda JR por Telegram y Claude los sube): Drive jcastaneda@ «UK - Estados de cuenta» id 1LB6mpRG89fUpAm1pH2k0QD80XVY-tmZg, privada (21-oct-2026).
 - **Modelo v2 con costos por programa (21-oct-2026):** fuentes en `~/Claude/pendiente-vault/finanzas-uk/modelo-financiero/fuentes-costos-formacion.md` (Sheets de Magoo de cada diplomado con «Pagos realizados», «Tabla histórica de formación 2024–2026» en joserca95@, carpeta «Pago expositoras diplomado autismo»). Ene-sep: costos directos de formación Q94.7k (Autismo Q38.2k, IS 2026 Q22.4k, alimentación Q32.6k); utilidad antes de ISR −Q27k; EBITDA Q41k (4.7%); DSCR 0.75. Pagos a expositoras en USD salen de PayPal. US$729.60 a Dafne pagados con tarjeta de JR: UK le debe a JR.
+
+### PayPal cargado al modelo (21-oct-2026)
+- Reporte de actividad de Magoo (CSV 2021 a 21-oct-2026). Saldo 31-dic-2025 US$0.78; 30-sep-2026 US$417.75; 21-oct US$334.28. Archivos en `~/Claude/pendiente-vault/finanzas-uk/paypal/2026-10-21/`.
+- Por PayPal se pagan expositoras, Canva/GoDaddy/Wix y pruebas Giunti. No hay retiros a bancos de GT.
+- Pruebas Giunti: gasto compartido entre sedes (JR).
+- Recargas a PayPal: solo por pagos urgentes, con la tarjeta de Magoo; UK le paga la tarjeta desde el banco. Se registran como cuenta por pagar a Magoo (2205), no como sueldo (JR).
+- Modelo v3.1: EBITDA ene-sep Q31.2k, utilidad antes de ISR −Q36.8k, DSCR 0.57.
