@@ -195,3 +195,11 @@ instalación.
 - Estufa Frigidaire FKGN30Z0PBBYM (gas, doble horno, 30") Q4,998 en tienda Max hasta 21-oct-2026, sin ficha publicada; GE JGBS66REKSS Q5,799 hasta 4-nov sigue como recomendada. Espacio estufa 78 × 63 cm, muebles a 1.05 m.
 - Estufa GE JCGB735SPSS (gas 30", convección, air fry sin precalentar, 5 quemadores con plancha, 18,000 BTU, horno 5.0 pies³) Q7,799 en Max hasta 4-nov-2026: recomendada si hornean seguido (+Q2,000 sobre la JGBS66REKSS). Lista Q40k variante B con ella: unos Q36,094.
 - Batería de cocina (20-oct-2026): KitchenAid 11 pzas triple capa Q2,999 en Max (hasta 3-nov) contra Tramontina 13 pzas acero Q1,499.95 en PriceSmart GT (confirmar si es Tri-Ply Clad); también Member's Selection anodizado 12 pzas Q1,349.95 y Tramontina cerámica 10 pzas Q1,299.95. Para leer PriceSmart: Chrome headless con --dump-dom.
+
+## Compra hecha (20-oct-2026, Max, JR por nota de voz)
+- Refri Hisense HRF266N6CSE 26' (91 × 178 × 84 cm) Q8,999, garantía 3 años.
+- Lavadora LG WT28EGTX6 Q5,999. Secadora LG DT73EWTXE Q4,599. Estufa GE JCGB735SPSS (gas, convección, air fry) Q7,799. Todo con 1 año de garantía.
+- Total Q27,396. Faltan lavavajillas y microondas; la máquina de hielo ya no hace falta (la Hisense trae).
+- **Pendiente crítico:** la Hisense deja 2 cm arriba en el nicho cerrado de 180 cm y Hisense pide ~10 cm: abrir o subir el mueble de encima antes de la mudanza del 1-nov, o instalarla fuera del nicho. Confirmar 220 V y ducto de la secadora, y el kit de cilindro de la estufa.
+- La refri Hisense trajo microondas de regalo (modelo por confirmar; verificar que quepa en 74 × 45 × 42 cm, mueble cerrado). Solo falta el lavavajillas (medir el hueco real: 60 o 61 cm).
+- Hueco del lavavajillas (60 × 60 × 88): JR aún no decide si compra lavavajillas. Opciones dadas: módulo de basura y reciclaje extraíble (recomendado), gavetero para ollas, enfriador de bebidas de 60 cm o gabinete simple. Siempre como módulo removible y con las tomas de agua y desagüe tapadas, por si después ponen lavavajillas.
