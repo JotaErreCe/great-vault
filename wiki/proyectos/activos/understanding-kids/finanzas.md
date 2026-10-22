@@ -64,3 +64,9 @@ Base de números que arma el agente `finanzas-uk` (ver [[agentes/claude/subagent
 - Reparto (JR, 21-oct-2026): los compartidos se reparten entre sedes por % de clientes (Z14 76.5%), no 50/50 como registra Magoo. El teléfono no es compartido: hay dos líneas y cada sede paga la suya. Verificado: Magoo registra 50/50 solo Gmail, teléfono y Meta mar-ago; el contador va 800/400 y lo demás a Z14; cada gasto sale en una sola transferencia de la cuenta principal. Modelo v3.2.
 - Reparto a formación por uso real (JR, 21-oct-2026; reemplaza «sueldo de Magoo 100% a terapias»): Magoo 60% formación / 30% terapias / 10% administrativo sin asignar (gasto general; lo administrativo de formación ya va en el 60%). Recepción, teléfono y Gmail por % de transacciones de formación (facturas + PayPal): Z14 24%, CAES 3.1%, UK 19.5%. Alquiler, contador, IGSS y luz se quedan en las sedes por % de clientes. Resultado ene-sep: terapias −Q107k, formación +Q151.8k, otros −Q81.6k; total sin cambio. Precio mínimo Q350/Q400 para 20%: Z14 Q531, CAES Q503.
 - El one-pager «costo real por sesión 12m» (v3) queda como histórico; la fuente es el modelo financiero (JR, 21-oct-2026).
+
+### Diagnóstico de crecimiento (crecimiento-uk, 22-oct-2026)
+- Ene–sep 2026: ~8.6 familias nuevas al mes; churn mensual ~24%; estancia ~4.2 meses; 38% de las nuevas se va al primer mes. Activos: 50 en enero → 51 en septiembre. Z14 pasó de 12 a 7 terapeutas activas.
+- Origen (solo Z14 lo pregunta): referencia 44%, redes 42%. No se registran WhatsApp, asistencia ni horas libres.
+- Palancas: retención (~+Q6.5k al mes), plan escrito tras la evaluación (~+Q3.5k), referidos médicos (~+Q5.4k). Descuento de nov-dic no recomendado (elasticidad baja, caída de diciembre ~37%); alternativa: plan de vacaciones prepagado sin descuento o con 5% máximo.
+- Formación casi no convierte a terapia (<1% de los interesados). Detalle: `~/Claude/pendiente-vault/crecimiento-uk/diagnostico-2026-10/`.
