@@ -86,3 +86,4 @@ Fotos de la casa (7 JPG), planos de la sala (3 PNG) y las versiones anteriores d
 - Techo razonable en tienda GT = (precio + envío ~US$628) × 1.288 (DAI 15% cap. 57 + IVA 12%). Ninguna debería pasar de ~Q37k; la mayoría Q15–25k.
 - La de US$7,400 (otra, «iraní») está por encima de toda Kashan/Nain nueva 8×10 encontrada (US$1,500–6,215).
 - Alibaba/AliExpress: nada recomendable. Detalle: `~/Claude/pendiente-vault/compras/alfombras-persas-online/one-pager-v1.md`.
+- Proveedores de alfombras afganas (22-oct-2026; JR explora importar para revender): el proveedor de la tienda no aparece (fotos propias). Candidatos con los mismos diseños: Afghan Rugs Store (Sharjah/Dubái), Afghanu (B2B, Afganistán), KCEC/Oxus (EE. UU., cuenta de mayoreo), Art Doku Halı (Estambul, peces). Ninguno verificado en Alibaba; pagar por intermediario fuera de Afganistán (OFAC GL 20). Detalle: `~/Claude/pendiente-vault/compras/alfombras-proveedores/one-pager-v1.md`.

@@ -22,3 +22,6 @@ Para probar el estilo «line and wash» (tinta y acuarela) en artes de UK. Detal
 - Fases: reels ~US$35 a 45 al mes; piloto ~US$120 a 160 más 20 a 40 h; serie de 2 episodios al mes ~US$200 a 350 más 30 a 60 h.
 - Sora cerrado (API, 24-sep-2026). Google AI Pro incluye Flow (~50 clips Veo al mes, con marca de agua, sin automatización).
 - YouTube «hecho para niños» (COPPA) apaga comentarios y anuncios personalizados; desde 16-jul-2026 no monetiza contenido de IA masivo y de plantilla.
+
+## Búsqueda inversa de imágenes (22-oct-2026)
+- Yandex: subir la imagen con curl y leer los resultados con Playwright. Bing Visual Search funciona con Playwright. Google Lens y Etsy bloquean el acceso automatizado. TinEye sirve para descartar coincidencias exactas.
