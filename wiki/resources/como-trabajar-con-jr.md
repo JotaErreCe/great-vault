@@ -53,3 +53,9 @@ JR, 19-oct-2026: **«me interesa que aprendas siempre y que lo vayas guardando e
 ## Formato de informes (JR, 22-oct-2026)
 - Solo **Problemas / Datos / Propuesta**, en viñetas cortas. Nada de one-pagers de dos páginas («mucha verborrea»).
 - Recordatorios programados: un launchd de una sola vez (`com.jr.recordatorio-organigrama-uk`) desapareció sin ejecutarse el 22-oct. Después de programar algo, verificar con `launchctl print` y volver a revisar antes de la hora.
+
+## Mac mini servidor: cuelgues al abrir Documentos (22-oct-2026)
+- El Vault vive en ~/Documents (local, sincronizado por Syncthing y git; no es iCloud). macOS protege Documentos con permiso de privacidad: los procesos sin pantalla (corridas de artes, el puente) pueden quedarse esperando un permiso que nadie contesta. La corrida de cambios del 21-oct quedó 26 h colgada y la de cierre 12 h.
+- Arreglo: tope de 3 h con timeout en uk-cambios-watch.sh y uk-cierre-watch.sh (respaldos en ~/Claude/respaldos/*.2026-10-22). Pendiente: Acceso total al disco para claude y Terminal (Ajustes → Privacidad y seguridad), con alguien frente a la Mac.
+- Antes de culpar a iCloud, probar con timeout y mirar si el archivo está en ~/Documents (local) o en Mobile Documents (iCloud).
+- Un launchd de una sola vez (com.jr.recordatorio-organigrama-uk) desapareció sin ejecutarse: verificar con launchctl print después de programar.
