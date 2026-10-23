@@ -49,3 +49,7 @@ JR, 19-oct-2026: **«me interesa que aprendas siempre y que lo vayas guardando e
 - **Para revisar desde el celular, PDF o imagen** (JR, 20-oct-2026): nada de DOCX ni archivos que haya que descargar. Si hay cambios sobre una versión anterior, resaltarlos. En la Mac: `textutil -convert html` y luego Chrome headless `--print-to-pdf`.
 
 - **Informes = one pager o lo más conciso posible** (JR, 20-oct-2026; aclaró: no tiene que ser una sola página, pero sí tan directo como un one pager): «Que sea más conciso. Un one pager porfa. Detallado, pero conciso y directo.» Todo análisis o informe que se le mande va en una página: tablas chicas y viñetas, sin prosa larga; el detalle completo queda aparte por si lo pide.
+
+## Formato de informes (JR, 22-oct-2026)
+- Solo **Problemas / Datos / Propuesta**, en viñetas cortas. Nada de one-pagers de dos páginas («mucha verborrea»).
+- Recordatorios programados: un launchd de una sola vez (`com.jr.recordatorio-organigrama-uk`) desapareció sin ejecutarse el 22-oct. Después de programar algo, verificar con `launchctl print` y volver a revisar antes de la hora.
